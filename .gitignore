@@ -1,0 +1,9 @@
+*.gb
+*.gbc
+*.sym
+*.map
+*.ips
+*.sav
+build/
+__pycache__/
+*.ram
