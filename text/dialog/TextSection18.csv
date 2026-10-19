@@ -1,19 +1,19 @@
 Index,Pointer,Original,Translated
 000,0x4200,「メダロット<CR> コンプリート マニュアル」,"""Medarot Complete Manual"""
-001,0x4217,<@04>ボンボンが いっぱいだ,<@04>Lots of Bonbon issues!
+001,0x4217,<@04>ボンボンが いっぱいだ,<@04>Lots of BomBom issues!
 002,0x4226,<@00>はこの なかは からっぽだ,<@00>The box is empty.
 003,0x4237,<@00>メダロットがおいてある,<@00>There's a Medarot here.
 004,0x4246,「チケット うリば」,"""Ticket Booth"""
 005,0x4252,「そうこ」,"""Storage"""
 006,0x4259,「メダロッとう あんない」<CR>ちゅうおう<CF><CC>・「ひろば」<CR>・「レストラン」<CF><CC>・「ショップ」<CR>・「セレクトしぶ」<CF><CC>うえ<CR>・「まじょのしろ」,"""Medarot Island Guide"" Center:<CF><CC>- ""Plaza"" - ""Restaurant""<CF><CC>- ""Shop"" - ""Select Branch Office""<CF><CC>Up: - ""Witch's Castle"""
 007,0x42A0,「メダロッとう あんない」<CR>みぎ<CF><CC>・「おばけやしき」<CR>・「ゲームセンター」,"""Medarot Island Guide"" Right:<CF><CC>- ""Haunted House"" - ""Arcade"""
-008,0x42C8,「メダロッとう あんない」<CR>ひだリ<CF><CC>・「ビックリサイト」<CR>・「ジェットコースター」,"""Medarot Island Guide"" Left:<CF><CC>- ""Surprise Site"" - ""Jet Coaster"""
+008,0x42C8,「メダロッとう あんない」<CR>ひだリ<CF><CC>・「ビックリサイト」<CR>・「ジェットコースター」,"""Medarot Island Guide"" Left:<CF><CC>- ""Surprise Site"" - ""Roller Coaster"""
 009,0x42F4,ショップ<CR>「ストロー・ハット」,"Shop ""Straw Hat"""
 00A,0x4305,レストラン<CR>「パラダイス」,"Restaurant ""Paradise"""
 00B,0x4314,「きゅうきゅうセンター」,"""First Aid Center"""
 00C,0x4322,「セレクトしぶ」,"""Select Branch Office"""
 00D,0x432C,「ビックリサイト」,"""Surprise Site"""
-00E,0x4337,「スリルまんてん! ちょうこうそく<CR> ジェットコースター スピリット!」,"""Thrills galore! The super high-speed Jet Coaster Spirit!"""
+00E,0x4337,「スリルまんてん! ちょうこうそく<CR> ジェットコースター スピリット!」,"""Thrills galore! The super-high-speed 'Spirit' roller coaster!"""
 00F,0x435D,「おばけやしき」,"""Haunted House"""
 010,0x4367,「ゲームセンター」,"""Arcade"""
 011,0x4372,「フード・ショップ」,"""Food Shop"""
@@ -31,12 +31,12 @@ Index,Pointer,Original,Translated
 01D,0x448C,エキサイティング ロボロボクイズ!<CR>「クイズマシーン」,"Exciting RoboRobo Quiz! ""Quiz Machine"""
 01E,0x44A9,「ニセモノのビガク」,"""The Aesthetics of Fakes"""
 01F,0x44B5,「やさしい せかいせいふく」,"""Easy World Domination"""
-020,0x44C5,「コミックボンボン」,"""Comic Bonbon"""
+020,0x44C5,「コミックボンボン」,"""Comic BomBom"""
 021,0x44D1,「イタズラぜんしゅう」,"""The Complete Prank Collection"""
 022,0x44DE,「フユーンストーン」って なあに?,"""What is the Fuyun Stone?"""
 023,0x44F1,「そうたいせい リろんと<CR> ブラックホール」,"""The Theory of Relativity and Black Holes"""
 024,0x4509,「メダロット さんげんそく」,"""The Three Laws of Medarots"""
-025,0x4519,「スラフシステムと ナノマシーン」,"""The Slaf System and Nanomachines"""
+025,0x4519,「スラフシステムと ナノマシーン」,"""The Slough System and Nanomachines"""
 026,0x452C,<@04>うーん きょうも きまってる,"<@04>Hmm, looking sharp as always today!"
 027,0x453E,<@00>むずかしそうな ほんが ならんでる,<@00>There's a row of difficult-looking books.
 028,0x4553,<@04>ぼくの パソコンだ,<@04>It's my computer.

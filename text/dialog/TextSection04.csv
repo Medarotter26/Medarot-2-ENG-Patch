@@ -5,9 +5,9 @@ Index,Pointer,Original,Translated
 003,0x438F,<@2B>なんだよ?<CR>おまえら やるきねーのか!?,<@2B>What's the matter? You guys don't have any guts!?
 004,0x43A7,<@68>あいては ゆうれいだろぉ?<CR>どうやって たたかうっていうんだよ,"<@68>It's a ghost, isn't it? How are we supposed to fight a ghost?"
 005,0x43F0,<@68>パーツとられたのは くやしいけど<CR>あのやまは やっぱリコワイや<CF><CC><@2B>なんだよ なんだよ なさけねーな,"<@68>It stinks that they took my parts, but that mountain's way too scary.<CF><CC><@2B>What the heck? You're pathetic!"
-006,0x4427,<@25>もう いいわよぉ イワノイ<CR>このこたちに なにをいってもムダよ<CF><CC>おリてきなさいよぉ<CF><CC><@2B>ああ わかったよ あねご,"<@25>That's enough, Iwanoi. There's no use talking to these kids.<CF><CC>Come on down.<CF><CC><@2B>Yeah, all right, boss."
+006,0x4427,<@25>もう いいわよぉ イワノイ<CR>このこたちに なにをいってもムダよ<CF><CC>おリてきなさいよぉ<CF><CC><@2B>ああ わかったよ あねご,"<@25>That's enough, Iwanoi. There's no use talking to these kids.<CF><CC>Come on down.<CF><CC><@2B>Yeah, all right, Boss."
 007,0x4465,<@25>いーい? みんな よくきくのよぉ<CF><CC>「おどろやま」には<CR>あたしたち だけで いくわ<CF><CC>そのかわリ あたしたちが<CR>とリかえした パーツは<CF><CC>みぃーんな あたしたちの ものよ<CR>わかったぁ?,"<@25>Now listen up, everyone.<CF><CC>We'll go to Mt. Odoro by ourselves.<CF><CC>But in return, all the parts<CF><CC>we take back are gonna be ours. Got it?"
-008,0x44C5,<@2E>あねご うまくいきやしたね,"<@2E>That went great, boss."
+008,0x44C5,<@2E>あねご うまくいきやしたね,"<@2E>That went great, Boss."
 009,0x44D6,<@26>これで パーツは とリほうだい<CR>あたしたちの てんかよねぇ,<@26>Now we can take all the parts we want. The world is ours!
 00A,0x44F7,<@09><&CB26>!<CR>あたしたちも いくわよ!<CF><CC><@00>ぼくも? やっぱリ?<CF><CC><@0B>あいつらなんかに まけてらんないわ!<CR>ぜっっったいに ゆうれいを<CF><CC>シャッターに おさめてやる!!<CF><CC><@05>はは は・・・<CF><CC><@09>じゃあ 「おどろやま」の<CR>いリぐちで まちあわせよ<CF><CC>これ わたしとくから<CR>まよわずに くるのよ!,"<@09><&CB26>! We're going too!<CF><CC><@00>Me too? Really?<CF><CC><@0B>We can't let those guys beat us! I'm totally,<CF><CC>absolutely gonna catch that ghost on film!!<CF><CC><@05>Haha ha...<CF><CC><@09>Okay, let's meet at the entrance to Mt. Odoro.<CF><CC>I'll give you this, so don't get lost!"
 00B,0x458F,<@00>アリカは ごういんだな<CR>あいかわらず<CF><CC>とリあえず いえにもどって<CR>ピクニックの じゅんびをするか<CF><CC>「おどろやま」に いくってきいたら<CR>ママは なんていうかな・・・,"<@00>Arika's as pushy as ever.<CF><CC>Well, I guess I'll head home and get ready for the picnic.<CF><CC>I wonder what Mom will say if I tell her I'm going to Mt. Odoro..."
@@ -163,7 +163,7 @@ Index,Pointer,Original,Translated
 0A1,0x61BD,<@83>ふっふっふロボ きょうの<CR>ロボロボだんは ひとあじちがうロボよ,"<@83>Heh heh heh, robo. Today's RoboRobo Gang is a cut above, robo."
 0A2,0x61E0,<@83>はさみうちロボ!<CF><CC><@06>ひ ひきょうだぞ!<CF><CC><@83>これでこそ あくやくロボ<CF><CC><@49>ふはははははは!,"<@83>A pincer attack, robo!<CF><CC><@06>Th-that's dirty!<CF><CC><@83>That's what makes us villains, robo.<CF><CC><@49>Fuhahahahaha!"
 0A3,0x6215,<@86>なにものロボ!,"<@86>Who's there, robo!?"
-0A4,0x6220,<@48>いろどリましょう しょくたくを<CR>みんなでふせごう つまみぐい<CF><CC>じょうおんほぞんで あいをつつみこむ<CR>カレーなるメダロッター<CF><CC>かいとうレトルト<CR>ただいま さんじょう!,<@48>Adding color to the dinner table! Putting a stop to sneaky snacking!<CF><CC>Wrapping love in shelf-stable packaging! The Medarotter who's simply curry-ous!<CF><CC>Phantom Retort has now arrived!
+0A4,0x6220,<@48>いろどリましょう しょくたくを<CR>みんなでふせごう つまみぐい<CF><CC>じょうおんほぞんで あいをつつみこむ<CR>カレーなるメダロッター<CF><CC>かいとうレトルト<CR>ただいま さんじょう!,"<@48>Brightening the dinner table, stopping snack thieves for all!<CF><CC>Wrapping love at room temperature, the curry-ageous Medarotter...<CF><CC>Phantom Retort is here!"
 0A5,0x6278,<@85>かなリ イッちゃってるロボよ<CF><CC><@4B>ええい よリによってキサマらに<CR>いわれるとは はらがたつ<CF><CC><@4A>せいばいしてくれる!,"<@85>This guy's totally out of it, robo...<CF><CC><@4B>Grr, being told that by you lot, of all people, makes me furious!<CF><CC><@4A>I shall punish you!"
 0A6,0x62B8,<@85>わわ こっちにくるロボ,"<@85>Whoa, he's coming this way, robo!"
 0A7,0x62C7,<@85>アーレーロボ,"<@85>Aaaah, robo!"
@@ -231,7 +231,7 @@ Index,Pointer,Original,Translated
 0E5,0x727A,<@FF>ガチャガチャ<CF><CC><@00>なんのおとだ?,<@FF>Clatter clatter<CF><CC><@00>What's that noise?
 0E6,0x728F,<@00>イワノイじゃないか そんなとこで<CR>なにをしてるんだ?,<@00>Iwanoi? What are you doing over there?
 0E7,0x72AD,<@2B>なにって? おまえみたいな<CR>しんにゅうしゃを おいだすために<CF><CC>メダロットを ちょうせい・・・<CF><CC><@2C>ぷっ なんだ おまえ<CR>おんなみたいな カッコウして<CF><CC>おまえ そーいうシュミが あったのか<CF><CC><@08>ちがうよっ! これは<CF><CC><@2C>ハハハ いいネタだぜ<CR>アリカのヤツに とってもらえよ<CF><CC><@02>ちがうって いってんだろっ!<CF><CC><@2C>お? やるきかぁ?,"<@2B>What does it look like? I'm tuning my Medarot<CF><CC>to chase off intruders like you...<CF><CC><@2C>Pfft! What's with you? You're dressed like a girl!<CF><CC>So you're into that kind of thing, huh?<CF><CC><@08>No, I'm not! This is...<CF><CC><@2C>Hahaha, this is great dirt! Get Arika to take a picture of you!<CF><CC><@02>I told you, it's not like that!<CF><CC><@2C>Oh? You wanna fight?"
-0E8,0x735C,<@2F>ちっ<CR>あねごに しられたら めんどうだぜ<CF><CC><@2D>ひとまず たいきゃく!<CR>ちょうせいしなおしだ おぼえてろ!,<@2F>Tch. It'll be a pain if the boss finds out.<CF><CC><@2D>Retreat for now! I gotta re-tune my Medarot. You'll pay for this!
+0E8,0x735C,<@2F>ちっ<CR>あねごに しられたら めんどうだぜ<CF><CC><@2D>ひとまず たいきゃく!<CR>ちょうせいしなおしだ おぼえてろ!,<@2F>Tch. It'll be a pain if the Boss finds out.<CF><CC><@2D>Retreat for now! I gotta re-tune my Medarot. You'll pay for this!
 0E9,0x7395,<@00>このさきには キクヒメがいるはずだ<CR>きあいを いれなきゃ!,<@00>Kikuhime should be up ahead. I've gotta get psyched up!
 0EA,0x73B6,<@08>わあっ!,<@08>Whoa!
 0EB,0x73BE,<@08>わあっ!,<@08>Whoa!

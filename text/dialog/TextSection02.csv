@@ -87,7 +87,7 @@ Index,Pointer,Original,Translated
 055,0x532C,<@C1>そして メダロットを うごかすには<CR>メダロッチが ひつようだぞ<CF><CC>ほら パパからの プレゼントだ<CF><CC><@01>わあ カッコイイ!<CR>あリがとう パパ!<CF><CC><@C1>ははは<CR>キゲンが なおったようだな,"<@C1>And to control a Medarot, you need a Medarotch.<CF><CC>Here, a present from your dad.<CF><CC><@01>Wow, so cool! Thanks, Dad!<CF><CC><@C1>Hahaha. Looks like you're in a better mood."
 056,0x538C,<@01>やった! これで Bボタンを おせば<CR>メニューがめんが ひらくぞ!,"<@01>All right! Now if I press the B Button, the menu screen will open!"
 057,0x53B1,<@6A>アリカと なかよくしてあげてね,<@6A>Please be good friends with Arika.
-058,0x53C4,<@45>ここでは つうしんネットで<CR>ロボトルとか できるんだけど<CF><CC>まだ じゅんびちゅうなの ゴメンネ♥,"<@45>You can robattle and stuff over the link network here,<CF><CC>but it's not ready yet. Sorry♥"
+058,0x53C4,<@45>ここでは つうしんネットで<CR>ロボトルとか できるんだけど<CF><CC>まだ じゅんびちゅうなの ゴメンネ♥,"<@45>You can robattle and stuff over the Link Net here,<CF><CC>but it's not ready yet. Sorry♥"
 059,0x53F8,<@76>ごめんなさい<CR>まだ じゅんびちゅうなの,"<@76>I'm sorry, it's not ready yet."
 05A,0x540F,<@69>ばっかもーん!!,<@69>You fooool!!
 05B,0x541B,<@69>こんな たかいパーツを<CR>かってに しいれおって!<CF><CC>いったい どーいうつもリだっ!!<CF><CC><@50>はあ<CF><CC><@69>はあ じゃない! どうするつもリだと<CR>きいてるんだっ!!<CF><CC><@50>どうしましょうねぇ<CF><CC><@69>おまえが どうにかする ほうほうを<CR>かんがえろ!,"<@69>Stocking such expensive parts without asking!<CF><CC>What on earth were you thinking!?<CF><CC><@50>Uh-huh.<CF><CC><@69>Don't ""uh-huh"" me! I'm asking what you plan to do about it!!<CF><CC><@50>What should I do, I wonder...<CF><CC><@69>You figure out how to fix this yourself!"
@@ -109,7 +109,7 @@ Index,Pointer,Original,Translated
 06B,0x5815,<@04>「コウモリ」メダルだ かっこいい!<CF><CC>ひこうタイプを ねらう パーツと<CR>よく あうんだよね,"<@04>It's the ""Bat"" Medal. Cool!<CF><CC>It goes well with parts that target Flying types."
 06C,0x5846,<@00>「カッパ」メダルだ<CF><CC>せんすいタイプを ねらう パーツと<CR>よく あうんだよね<CF><CC>このメダルに しようかな?<*04>,"<@00>It's the ""Kappa"" Medal.<CF><CC>It goes well with parts that target Aquatic types.<CF><CC>Should I pick this Medal?<*04>"
 06D,0x587F,<@7A>やぁっ! ひとよんで きいろい<CR>ハンカチ セレクトイエロー!,"<@7A>Yah! They call me the Yellow Handkerchief, Select Yellow!"
-06E,0x58A1,<@7D>3たい あわせて セレクトスリー!!,<@7D>The three of us together are Select Three!!
+06E,0x58A1,<@7D>3たい あわせて セレクトスリー!!,<@7D>The three of us together are the Select Three!!
 06F,0x58B7,<@04>「カッパ」メダルだ かがやいてる!<CF><CC>せんすいタイプを ねらう パーツと<CR>よく あうんだよね,"<@04>It's the ""Kappa"" Medal. It's shining!<CF><CC>It goes well with parts that target Aquatic types."
 070,0x58E9,<@00>「ネズミ」メダルだ<CF><CC>みかたの こうげきを あてやすくする<CR>パーツと よく あうんだよね<CF><CC>このメダルに しようかな?<*04>,"<@00>It's the ""Mouse"" Medal.<CF><CC>It goes well with parts that help allies' attacks hit.<CF><CC>Should I pick this Medal?<*04>"
 071,0x5928,<@6E>やあ いらっしゃい,"<@6E>Hey, welcome!"
@@ -168,7 +168,7 @@ Index,Pointer,Original,Translated
 0A6,0x63B1,<@C3>たまには ママの<CR>おてつだいを してちょうだい!,<@C3>Help your mother out once in a while!
 0A7,0x63CD,<@03>むかしは おとなリのうちに<CR>おこめを かリる こともあったって<CF><CC>がっこうで ならったけど<CF><CC><@05>レトルトカレーなんて ふつう<CR>かリたリ しないよなあ・・・,"<@03>We learned at school that in the old days,<CF><CC>people would sometimes borrow rice from the neighbors,<CF><CC><@05>but nobody borrows instant curry..."
 0A8,0x62A7,<@0A>すごいじゃない!<CF><CC>ロボトルの ようすは<CR>ばっちリ しゃしんに とったわよ!<CF><CC>こうないしんぶんの トップニュースね<CR>「きせきの しょうリ!」ってね<CF><CC><@05>キセキなのぉ?,"<@0A>That was amazing!<CF><CC>I got perfect pictures of the robattle!<CF><CC>It'll be the top story in the school paper! ""A Miraculous Victory!""<CF><CC><@05>A miracle!?"
-0A9,0x566D,<@45>ここでは つうしんネットで<CR>ロボトルとか できるんだけど<CF><CC>まだ じゅんびちゅうなの<CR>ゴメンネ♥,"<@45>You can robattle and stuff over the link network here,<CF><CC>but it's not ready yet. Sorry♥"
+0A9,0x566D,<@45>ここでは つうしんネットで<CR>ロボトルとか できるんだけど<CF><CC>まだ じゅんびちゅうなの<CR>ゴメンネ♥,"<@45>You can robattle and stuff over the Link Net here,<CF><CC>but it's not ready yet. Sorry♥"
 0AA,0x7F40,<@05>また まっくらな ヘやに<CR>もどるのは いやだなぁ,<@05>I don't want to go back to that pitch-black room...
 0AB,0x430A,@000,
 0AC,0x430A,@000,
@@ -273,7 +273,7 @@ Index,Pointer,Original,Translated
 10F,0x6527,<@FF>このパーツは<CR>これいじょう もてません,<@FF>You can't carry any more of this part.
 110,0x6602,<@68>だれかが メダロットを つかって<CR>スカートめくリ してるってさ,<@68>They say somebody's using a Medarot to flip up skirts.
 111,0x6625,<@68>おばけに メダロットとられたーっ,<@68>A ghost took my Medarot!
-112,0x6639,<@68>「メダロッとう」に いったら<CR>ジェットコースターに のるぞ!,"<@68>When I go to ""Medarot Island,"" I'm gonna ride the Jet Coaster!"
+112,0x6639,<@68>「メダロッとう」に いったら<CR>ジェットコースターに のるぞ!,"<@68>When I go to ""Medarot Island,"" I'm gonna ride the roller coaster!"
 113,0x665B,<@68>しんがたパーツも いいけど<CR>むかしのパーツも あじが あるよね,"<@68>New-model parts are nice, but old parts have their own charm."
 114,0x667E,<@74>スカートを はいている<CR>かわいい おんなのこ ばかリが<CF><CC>メダロットに<CR>スカートめくられるって ほんと?,<@74>Is it true that only cute girls wearing skirts<CF><CC>are getting their skirts flipped by a Medarot?
 115,0x66B6,<@74>「おどろやま」の おいけに<CR>「おいてけ ゆうれい」がでて<CF><CC>「メダロット おいてけー」って<CR>いうのよ,"<@74>They say the ""Leave-It Ghost"" appears at the pond on ""Mt. Odoro""<CF><CC>and says, ""Leave your Medarot behiiind!"""
@@ -310,7 +310,7 @@ Index,Pointer,Original,Translated
 134,0x6C2A,<@25>もう おなじワザは<CR>2かいも つうよう しないんだからぁ,<@25>The same trick won't work on me twice~
 135,0x6C4A,<@25>あーんな おぼっちゃんが こわくて<CR>かくれてるわけじゃ ないもーんだ,<@25>It's not like I'm hiding because I'm scared of that rich boy~
 136,0x6C70,<@2D>おぼえてやがれ!<CF><CC>おれは これしきで<CR>ひきさがったリ しないぜ!,<@2D>You'll pay for this!<CF><CC>I'm not backing down over something like this!
-137,0x6C95,<@2D>おっ おれは・・・<CF><CC>あねごを ほっとく わけにゃ<CR>いかなかったからさぁ!,"<@2D>W-well, I...<CF><CC>I couldn't just leave the boss on her own!"
+137,0x6C95,<@2D>おっ おれは・・・<CF><CC>あねごを ほっとく わけにゃ<CR>いかなかったからさぁ!,"<@2D>W-well, I...<CF><CC>I couldn't just leave the Boss on her own!"
 138,0x6CBE,<@33>おまえなんか せんたくきにつっこんで<CR>ぐるぐる まわしてやる!,<@33>I'll shove you in the washing machine and spin you round and round!
 139,0x6CE1,<@31>ふくが これいじょう よごれると<CR>いやだしなぁ・・・,<@31>I don't want my clothes getting any dirtier...
 13A,0x6CFF,<@68>おまえが スクリューズの やつらを<CR>たおしたのか?<CF><CC>すげえな おまえ!<CF><CC>ここだけの はなしだけどよ<CF><CC>あいつら クラスでも あばれもので<CR>みんな けっこう メーワクしてんだ,"<@68>You're the one who beat the Screws?<CF><CC>That's awesome!<CF><CC>Just between you and me,<CF><CC>those guys are troublemakers in class too. Everyone's pretty fed up with them."
@@ -334,15 +334,15 @@ Index,Pointer,Original,Translated
 14C,0x717C,<@00>あ アリカ<CF><CC><@11><&CB26>たいヘんなのよ!<CF><CC>となリまちの はなぞのがくえんの<CR>メダロッターが<CF><CC>いいがかリを つけて<CR>がっこうに のリこんで きたのよ!<CF><CC><@00>どうして?<CF><CC><@11>そんなこと あたしに きかないでよ<CR>はやく あんたも きなさいよ!<CF><CC><@05>なんで ぼくが?<CF><CC><@0B>わかった?<CR>くるのよ!!,"<@00>Oh, Arika.<CF><CC><@11><&CB26>, it's terrible!<CF><CC>A Medarotter from Hanazono Academy in the next town<CF><CC>came barging into our school picking a fight!<CF><CC><@00>Why?<CF><CC><@11>Don't ask me that! Hurry up and come too!<CF><CC><@05>Why me?<CF><CC><@0B>Got it? Get over here!!"
 14D,0x7216,<@09>もう あるくの おそいんだから!<CR>となリまちの メダロッター きてるよ,"<@09>Geez, you walk so slow! The Medarotter from the next town is here!"
 14E,0x723D,<@1D>はんにんは おまえらのなかに<CR>いるんだろう!<CF><CC>すなおに でてこい!<CF><CC><@25>このあたしに むかって<CR>よく そんな くちが きけること<CF><CC>そんなこは かわいがってあげてよぉ,"<@1D>The culprit is one of you, isn't it!<CF><CC>Come out quietly!<CF><CC><@25>You've got some nerve, talking to me like that~<CF><CC>A kid like that needs some loving~"
-14F,0x7296,<@2B>なあ あねご<CR>コイツを たおせば<CF><CC>はなぞのがくえんの ヤツらの はなを<CR>あかしてやれるぜ!,"<@2B>Hey, boss, if we beat this guy,<CF><CC>we can show those Hanazono Academy punks who's boss!"
+14F,0x7296,<@2B>なあ あねご<CR>コイツを たおせば<CF><CC>はなぞのがくえんの ヤツらの はなを<CR>あかしてやれるぜ!,"<@2B>Hey, Boss, if we beat this guy,<CF><CC>we can show those Hanazono Academy punks who's boss!"
 150,0x72C8,<@31>おまえのふくも どろんこにしてやる,<@31>I'll get your clothes all muddy too.
-151,0x72DD,<@1E>いくぜっ!<CR>ロボトルファーイトッ!!,<@1E>Let's go! Robattle... FIGHT!!
+151,0x72DD,<@1E>いくぜっ!<CR>ロボトルファーイトッ!!,"<@1E>Let's go! Robattle, fiiight!!"
 152,0x72F3,<@0D>スクープ!,<@0D>A scoop!
 153,0x72FC,<@2A>あっ!<CR>あたしの ペッパーキャットが!,<@2A>Ah! My Peppercat!
 154,0x7313,<@27>ちょっとぉ!<CR>かっこわるいとこ ばっかリ<CF><CC>とってるんじゃ ないわよぉ!,<@27>Hey!<CF><CC>Stop taking pictures of me only when I look uncool~!
-155,0x733B,<@30>わっ! やばいぜ あねご<CR>メダロット キンキュウタイヒ!,"<@30>Whoa! This is bad, boss! Medarot emergency retreat!"
+155,0x733B,<@30>わっ! やばいぜ あねご<CR>メダロット キンキュウタイヒ!,"<@30>Whoa! This is bad, Boss! Medarot emergency retreat!"
 156,0x735B,<@1B>さあ どうする? もうあとがないぜ?,"<@1B>So, what now? You've got nowhere left to run."
-157,0x7371,<@25>ふーんだ<CF><CC><@2B>どうする? あねご<CF><CC><@31>メダロットも せんたくしなきゃ<CF><CC><@25>きまってるじゃなぁい<CF><CC><@27>にげるんだよ!,"<@25>Hmph~<CF><CC><@2B>What do we do, boss?<CF><CC><@31>Gotta wash the Medarots too.<CF><CC><@25>Isn't it obvious~?<CF><CC><@27>We run!"
+157,0x7371,<@25>ふーんだ<CF><CC><@2B>どうする? あねご<CF><CC><@31>メダロットも せんたくしなきゃ<CF><CC><@25>きまってるじゃなぁい<CF><CC><@27>にげるんだよ!,"<@25>Hmph~<CF><CC><@2B>What do we do, Boss?<CF><CC><@31>Gotta wash the Medarots too.<CF><CC><@25>Isn't it obvious~?<CF><CC><@27>We run!"
 158,0x73B2,<@1D>あっ! まてっ!,<@1D>Ah! Get back here!
 159,0x73BE,<@00>いやー つよいなぁー<CF><CC><@09>かんしんしてるばあい?<CR>いくわよ!<CF><CC><@05>えぇー?,"<@00>Wow, he's really strong...<CF><CC><@09>Is this really the time to be impressed? Let's go!<CF><CC><@05>Whaaat?"
 15A,0x73E9,<@09><&CB26> はやく はやく!,"<@09><&CB26>, hurry, hurry!"

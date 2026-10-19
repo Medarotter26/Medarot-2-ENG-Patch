@@ -56,7 +56,7 @@ Index,Pointer,Original,Translated
 036,0x4E80,<@03>パパもママも いそがしいからって<CF><CC>メダロッとうに<CR>つれていって くれないんだ<CF><CC><@09>そうなんだ・・・あっ そうだ<CF><CC><@0D><&CB26> メダロッとうに<CR>つれていって あげようか?<CF><CC><@04>えっ ほんとう?,"<@03>Mom and Dad say they're too busy,<CF><CC>so they won't take me to Medarot Island.<CF><CC><@09>I see... Oh, I know!<CF><CC><@0D><&CB26>, want me to take you to Medarot Island?<CF><CC><@04>Huh? Really?"
 037,0x4F8C,<@0A>さっ はやくのろ!,"<@0A>Come on, hurry up and get on!"
 038,0x4F99,<@00>メダロッとうが ちいさくみえる<CR>いまからあそこヘ いくんだな・・・,<@00>Medarot Island looks so small from here. We're really going there now...
-039,0x4FBE,<@68>ついたら まっさきに<CR>ジェットコースターに のるんだ!,"<@68>When we get there, I'm riding the Jet Coaster first thing!"
+039,0x4FBE,<@68>ついたら まっさきに<CR>ジェットコースターに のるんだ!,"<@68>When we get there, I'm riding the roller coaster first thing!"
 03A,0x4FDD,<@75>シャークごうってぇ ちょっとぉ<CR>めつきわるーい みたいなー,"<@75>Like, isn't the Shark kinda, y'know, mean-looking?"
 03B,0x4FFE,<@09><&CB26> ここに いたんだ<CR>どうしたの? うかない かおね<CF><CC><@03>みんな かぞくで たのしそうなのに<CR>どうして ぼくだけ・・・<CF><CC>ぼくは あいされて ないのかなぁ<CF><CC><@09>そんなこと いっちゃダメ<CF><CC><&CB26>の パパもママも<CR>ほんとうに いそがしかったんだよ,"<@09>So this is where you were, <&CB26>. What's wrong? You look down.<CF><CC><@03>Everyone's having fun with their families, so why am I the only one...<CF><CC>Maybe nobody loves me...<CF><CC><@09>Don't say things like that!<CF><CC>Your mom and dad really were busy, <&CB26>."
 03C,0x5118,<@76>さあさあ いきましょう!,"<@76>Come on, come on, let's go!"
@@ -72,7 +72,7 @@ Index,Pointer,Original,Translated
 046,0x537A,<@0D>それじゃ きまリ<CR>ロボトルたいかいの よせんが<CF><CC>おわったら<CR>あの かんばんのまえね,"<@0D>Then it's settled! Once the robattle tournament<CF><CC>qualifiers are over, meet me in front of that sign."
 047,0x53A8,<@7E>ここの オイルは<CR>サイコーだよ!,<@7E>The oil here is the best!
 048,0x53BC,<@76>ほら おちついて たベないから<CR>くちに ソフトクリームが ついてるわ,"<@76>See, that's what you get for not eating calmly. You've got soft-serve on your mouth."
-049,0x53E2,<@68>ママ ぼく ジェットコースターに<CR>のリたい!,"<@68>Mom, I wanna ride the Jet Coaster!"
+049,0x53E2,<@68>ママ ぼく ジェットコースターに<CR>のリたい!,"<@68>Mom, I wanna ride the roller coaster!"
 04A,0x53FC,<@68>ぼくのメダロット グルメなんだ,<@68>My Medarot's a gourmet!
 04B,0x540F,<@68>ここを ひだリに いくと<CR>ビックリサイトだぜ!,<@68>Go left from here and you'll reach the Surprise Site!
 04C,0x542A,<@76>うちのこったら はしリまわって<CR>すぐ いなくなるんだからっ,<@76>My kid's always running around and disappearing on me!
@@ -99,7 +99,7 @@ Index,Pointer,Original,Translated
 061,0x56AD,<@68>あいてが おんなのこじゃ<CR>てかげんが いるな,"<@68>My opponent's a girl, so I'd better go easy on her."
 062,0x56C7,<@74>んもうっ! ちょっとは<CR>かたせてよっ!,<@74>Come on! Let me win once in a while!
 063,0x56DE,<@75>あぁ! はなしかけるから<CR>ラピのぬいぐるみ おちたじゃないっ!,<@75>Ah! You talked to me and I dropped my Rappy plushie!
-064,0x5701,<@74>このジェットコースター<CR>けっこう にんきがあるのよ,"<@74>This Jet Coaster is pretty popular, you know."
+064,0x5701,<@74>このジェットコースター<CR>けっこう にんきがあるのよ,"<@74>This roller coaster is pretty popular, you know."
 065,0x571E,<@76>こういうところって ならぶのに<CR>つかれるわね はぁ,<@76>Waiting in line at places like this is so tiring... Sigh.
 066,0x573B,<@77>ただいま Aブロックの よせんが<CR>しゅうリょうしました<CF><CC>まもなく Bブロックの<CR>ロボトルたいかいが はじまリます<CF><CC>せんしゅのかたは エントリーを<CR>おねがいします<CF><CC>エントリーしますか?<*04>,"<@77>The Block A qualifiers have just ended.<CF><CC>The Block B robattle tournament will begin shortly.<CF><CC>Competitors, please enter now.<CF><CC>Would you like to enter?<*04>"
 067,0x579D,<@77>メダロッチの にんしきばんごうを<CR>とうろくいたします<CF><CC>・・・・・・!,<@77>I'll register your Medarotch's ID number.<CF><CC>......!
@@ -132,7 +132,7 @@ Index,Pointer,Original,Translated
 082,0x5AD8,<@68>たいかいには がいこくの<CR>しょうたいせんしゅも でるってさ,<@68>I hear invited competitors from overseas are in the tournament too.
 083,0x5AF9,<@68>おまえが ゆうしょう?<CR>うげ! マジかよ!?,<@68>You won the tournament? Ugh! Seriously!?
 084,0x5B13,<@31>ボロぞうきんに してやる!,<@31>I'll turn you into a ragged old dust cloth!
-085,0x5B24,<@2B>みてろよー!<CR>おれのあとには あねごもいるんだぜ!,"<@2B>Just you watch! After me, you've still got the boss to deal with!"
+085,0x5B24,<@2B>みてろよー!<CR>おれのあとには あねごもいるんだぜ!,"<@2B>Just you watch! After me, you've still got the Boss to deal with!"
 086,0x5B41,<@28>あたしの こぶんを またまた<CR>かわいがって くれたみたいねぇ<CF><CC>でもつぎは<CR>そううまく いくかしらねぇ?,"<@28>Looks like you've been playing with my underlings again, sweetie.<CF><CC>But I wonder if things will go so well for you next time?"
 087,0x5B79,<@0D>だい1かいせんは あたしがあいてよ<CF><CC>どっちが かっても<CR>うらみっこなしね!,"<@0D>In the first round, your opponent is me!<CF><CC>No hard feelings, whoever wins!"
 088,0x5BA3,<@16>あっ <&CB26>くん<CF><CC><@08>もしかして つぎのあいてって<CR>カリンちゃんなの?<CF><CC><@16>ええ よろしく おねがいします,"<@16>Oh, <&CB26>!<CF><CC><@08>Wait, is my next opponent you, Karin?<CF><CC><@16>Yes. I look forward to our match."
@@ -144,13 +144,13 @@ Index,Pointer,Original,Translated
 08E,0x5D1D,<@BC>ふふふ このひっさつの ドリルで!,"<@BC>Heh heh heh, with this deadly drill!"
 08F,0x5D32,<@B8>アナタが アタシのコンドのオアイテ?<CR>ニホンのオトコは キュートね!,<@B8>You are my next opponent? Japanese boys are so cute!
 090,0x5D58,<@B7>・!ダ?!!・ギ<CF><CC><@00>? なにいってんのか わからないや,<@B7>·!Da?!!·Gi<CF><CC><@00>? I have no idea what he's saying...
-091,0x5D79,<@BA>ツギノアイテハ コドモカ?<CR>コドモトイエド テカゲンナシジャ!<CF><CC>ソレニシテモ コノクニハ<CR>アツクテ シニソーダ,"<@BA>Next Opponent Is Child? Even If Child, No Mercy!<CF><CC>But This Country Is So Hot. I Think I Die."
+091,0x5D79,<@BA>ツギノアイテハ コドモカ?<CR>コドモトイエド テカゲンナシジャ!<CF><CC>ソレニシテモ コノクニハ<CR>アツクテ シニソーダ,"<@BA>Next opponent is child? Even if child, no mercy!<CF><CC>But zis country is so hot. I think I die."
 092,0x5DB5,<@B9>わたしの かいはつした<CR>メダロットのちから おみせしますよ,<@B9>Allow me to show you the power of the Medarot I developed.
 093,0x5DD6,<@69>このさきに あついバトルが<CR>まっている! じゅんびは いいかい?<*04>,<@69>A heated battle awaits you up ahead! Are you ready?<*04>
 094,0x5DFA,<@BF>レディース アンド ジェントルマン!<CR>たのしんでますかぁ!?<CF><CC><@FF>ワー パチパチパチ,<@BF>Ladies and gentlemen! Are you having fuuun!?<CF><CC><@FF>Yaaay! *clap clap clap*
-095,0x5E29,<@BF>ごせいえん どうも!<CF><CC>さて いよいよ Bブロックの<CR>たたかいが はじまリます<CF><CC>Bブロックの メダロッターたちは<CR>Aブロックの ゆうしょうしゃ<CF><CC>カラクチ コウジくんのような<CR>すばらしい ファイトを<CF><CC>みせてくれるのでしょうか!?<CR>いやー わくわくしますね<CF><CC>・・・さて! それでは<CR>いよいよ だい1かいせん<CF><CC>ロボトル ファーイトッ!!<CF><CC><@0D>あたしがかったら きょうは<CR>いちにちじゅう<CF><CC>あたしに つきあってもらおうかな,"<@BF>Thank you for your support!<CF><CC>And now, the Block B battles are finally about to begin!<CF><CC>Will the Block B Medarotters show us a fantastic fight<CF><CC>like the Block A champion, Koji Karakuchi,<CF><CC>did!? Ooh, I'm so excited!<CF><CC>...And now! At long last, it's the first round!<CF><CC>Robattle... fiiight!!<CF><CC><@0D>If I win, maybe I'll make you<CF><CC>hang out with me all day today!"
+095,0x5E29,<@BF>ごせいえん どうも!<CF><CC>さて いよいよ Bブロックの<CR>たたかいが はじまリます<CF><CC>Bブロックの メダロッターたちは<CR>Aブロックの ゆうしょうしゃ<CF><CC>カラクチ コウジくんのような<CR>すばらしい ファイトを<CF><CC>みせてくれるのでしょうか!?<CR>いやー わくわくしますね<CF><CC>・・・さて! それでは<CR>いよいよ だい1かいせん<CF><CC>ロボトル ファーイトッ!!<CF><CC><@0D>あたしがかったら きょうは<CR>いちにちじゅう<CF><CC>あたしに つきあってもらおうかな,"<@BF>Thank you for your support!<CF><CC>And now, the Block B battles are finally about to begin!<CF><CC>Will the Block B Medarotters show us a fantastic fight<CF><CC>like the Block A champion, Koji Karakuchi,<CF><CC>did!? Ooh, I'm so excited!<CF><CC>...And now! At long last, it's the first round!<CF><CC>Robattle, fiiight!!<CF><CC><@0D>If I win, maybe I'll make you<CF><CC>hang out with me all day today!"
 096,0x5F02,<@BF>だい1かいせん<CR>ウィナー<&CB26>くん!<CF><CC><@0F>えー あたしのまけかぁ でも<CR>パレードには つきあってもらうわよ,"<@BF>The winner of the first round is <&CB26>!<CF><CC><@0F>Aww, I lost? But you're still coming to the parade with me!"
-097,0x5F3C,<@BF>だい2かいせんは さきほど<CR>すばらしいファイトを みせてくれた<CF><CC><&CB26>くんと<CR>かれんな びしょうじょ<CF><CC>カリンちゃんとの あついバトル!<CF><CC>それでは だい2かいせん<CR>ロボトル ファーイトッ!!<CF><CC><@04>カリンちゃんも メダロットが<CR>すきだったんだね<CF><CC><@16>これでも メダロットのちしきは<CR>ほうふなんですよ<CF><CC>ほんは たくさん よんでいますから,"<@BF>The second round is a heated battle between <&CB26>, who just showed us<CF><CC>a fantastic fight, and the lovely<CF><CC>young beauty, Karin!<CF><CC>And now, the second round... Robattle... fiiight!!<CF><CC><@04>So you like Medarots too, Karin?<CF><CC><@16>I'll have you know I know quite a lot about Medarots.<CF><CC>I've read lots of books on them."
+097,0x5F3C,<@BF>だい2かいせんは さきほど<CR>すばらしいファイトを みせてくれた<CF><CC><&CB26>くんと<CR>かれんな びしょうじょ<CF><CC>カリンちゃんとの あついバトル!<CF><CC>それでは だい2かいせん<CR>ロボトル ファーイトッ!!<CF><CC><@04>カリンちゃんも メダロットが<CR>すきだったんだね<CF><CC><@16>これでも メダロットのちしきは<CR>ほうふなんですよ<CF><CC>ほんは たくさん よんでいますから,"<@BF>The second round is a heated battle between <&CB26>, who just showed us<CF><CC>a fantastic fight, and the lovely<CF><CC>young beauty, Karin!<CF><CC>And now, the second round... Robattle, fiiight!!<CF><CC><@04>So you like Medarots too, Karin?<CF><CC><@16>I'll have you know I know quite a lot about Medarots.<CF><CC>I've read lots of books on them."
 098,0x5FEB,<@BF>だい2かいせん<CR>ウィナー <&CB26>くん!<CF><CC><@13>あリがとうございました<CR>ベんきょうに なリましたわ,<@BF>The winner of the second round is <&CB26>!<CF><CC><@13>Thank you very much. That was very educational.
 099,0x601F,<@BF>だい3かいせんの<CR><&CB26>くんの おあいては<CF><CC>スクリューズで ナンバー3を<CR>ほこる えんのしたの カガミモチ<CF><CC>・・・いや カガミヤマくんです!<CF><CC><@31>おまえのふくを こんどこそ<CR>どろんこにしてやる!<CF><CC><@00>おまえ そればっかリだな,"<@BF>In the third round, <&CB26>'s opponent is<CF><CC>the Screws' Number 3, the mighty muscle behind the scenes, Kagami-mochi<CF><CC>...er, Kagamiyama!<CF><CC><@31>This time, I'm gonna get your clothes all muddy for sure!<CF><CC><@00>That's all you ever talk about..."
 09A,0x6097,<@BF>だい3かいせん<CR>ウィナー <&CB26>くん!<CF><CC><@31>じぶんのふくは<CR>じぶんでせんたくするんだぞ!<CF><CC><@00>なに いってんだか,<@BF>The winner of the third round is <&CB26>!<CF><CC><@31>You'd better wash your own clothes yourself!<CF><CC><@00>What is he even talking about...
@@ -202,7 +202,7 @@ Index,Pointer,Original,Translated
 0C8,0x6AEF,<@83>ロボロボ ロボロボ,"<@83>RoboRobo, RoboRobo."
 0C9,0x6AFC,<@08>コウジがあぶない!,<@08>Koji's in danger!
 0CA,0x6B09,<@BE>ふはははは!,<@BE>Fuhahahaha!
-0CB,0x6B13,<@23>おまえは あのときの!<CF><CC><@04>レトルトさん!<CF><CC><@48>いろどリましょう しょくたくを<CR>みんなでふせごう つまみぐい<CF><CC>ジョウオンホゾンで あいをつつみこむ<CR>カレーなるメダロッター<CF><CC>かいとうレトルト<CR>ただいま さんじょう!,"<@23>You're that guy from before!<CF><CC><@04>Mr. Retort!<CF><CC><@48>Brightening up your dinner table! Together, let's stop all snack-sneaking!<CF><CC>Wrapping up love at room temperature! The currylicious Medarotter...<CF><CC>Phantom Retort is here!"
+0CB,0x6B13,<@23>おまえは あのときの!<CF><CC><@04>レトルトさん!<CF><CC><@48>いろどリましょう しょくたくを<CR>みんなでふせごう つまみぐい<CF><CC>ジョウオンホゾンで あいをつつみこむ<CR>カレーなるメダロッター<CF><CC>かいとうレトルト<CR>ただいま さんじょう!,"<@23>You're that guy from before!<CF><CC><@04>Mr. Retort!<CF><CC><@48>Brightening the dinner table, stopping snack thieves for all!<CF><CC>Wrapping love at room temperature, the curry-ageous Medarotter...<CF><CC>Phantom Retort is here!"
 0CC,0x6B85,<@86>あっ! ヘンタイロボ!<CF><CC><@86>にげるロボよ!,"<@86>Ah! It's the weirdo, robo!<CF><CC><@86>Run for it, robo!"
 0CD,0x6B9F,<@4C>ヘンタイ? しつれいな やつらだ!<CF><CC><@48>・・・まあいい あくは さった!<CR>だいじょうぶか? ショウネンたち<CF><CC><@01>はい! レトルトさん<CF><CC><@1B>ちがうイミで<CR>あんたこそ だいじょうぶかよ<CF><CC><@48>コホン ともかく ぶじならなによリ<CR>それでは わたしは これにて!,"<@4C>Weirdo? How rude!<CF><CC><@48>...Well, no matter. Evil has fled! Are you all right, boys?<CF><CC><@01>Yes! Mr. Retort!<CF><CC><@1B>I'm more worried if YOU'RE all right, in a whole other way.<CF><CC><@48>Ahem. In any case, I'm glad you're safe. And now, I take my leave!"
 0CE,0x6C25,<@00>まってください! レトルトさん<CR>あなたは いったい・・・,"<@00>Wait, Mr. Retort! Who in the world are you...?"
@@ -221,7 +221,7 @@ Index,Pointer,Original,Translated
 0DB,0x7079,<@81>さっきまで ここに おんなのコが<CR>ねていたんだけど<CF><CC>めを はなした スキに<CR>いなくなってしまったワ,"<@81>There was a girl sleeping here just a moment ago,<CF><CC>but she disappeared the moment I took my eyes off her."
 0DC,0x70AF,<@81>ここで やすんでた おんなのコ<CR>ドコヘ いったのかしら?,<@81>I wonder where the girl who was resting here went?
 0DD,0x70CF,<@69>きぶんは よくなったけど<CR>ここって いごこちが いいから,"<@69>I feel better now, but it's just so comfy here."
-0DE,0x70EF,<@00>あれ? カリンちゃん?<CR>コウジに きゅうきゅうセンターに<CF><CC>いるって きいてたけど<CF><CC><@15>コウジくんと ジェットコースターに<CR>のってから きぶんが<CF><CC>すぐれなかったんですけど<CF><CC>もう だいじょうぶ ですわ<CF><CC><@05>ほんとに だいじょうぶ?<CF><CC><@16>ええ だいぶやすみましたから<CF><CC><@00>でも どうして こんなところに<CR>ひとリで? コウジは?<CF><CC><@12>おとうさまを よびに いってくれて<CR>いるんです,"<@00>Huh? Karin? Koji said you were at the First Aid Center.<CF><CC><@15>I wasn't feeling well after riding the Jet Coaster<CF><CC>with Koji,<CF><CC>but I'm all right now.<CF><CC><@05>Are you really okay?<CF><CC><@16>Yes, I've rested quite a bit.<CF><CC><@00>But why are you here all by yourself? Where's Koji?<CF><CC><@12>He went to get my father for me."
+0DE,0x70EF,<@00>あれ? カリンちゃん?<CR>コウジに きゅうきゅうセンターに<CF><CC>いるって きいてたけど<CF><CC><@15>コウジくんと ジェットコースターに<CR>のってから きぶんが<CF><CC>すぐれなかったんですけど<CF><CC>もう だいじょうぶ ですわ<CF><CC><@05>ほんとに だいじょうぶ?<CF><CC><@16>ええ だいぶやすみましたから<CF><CC><@00>でも どうして こんなところに<CR>ひとリで? コウジは?<CF><CC><@12>おとうさまを よびに いってくれて<CR>いるんです,"<@00>Huh? Karin? Koji said you were at the First Aid Center.<CF><CC><@15>I wasn't feeling well after riding the roller coaster<CF><CC>with Koji,<CF><CC>but I'm all right now.<CF><CC><@05>Are you really okay?<CF><CC><@16>Yes, I've rested quite a bit.<CF><CC><@00>But why are you here all by yourself? Where's Koji?<CF><CC><@12>He went to get my father for me."
 0DF,0x7253,<@05>いまは アリカに<CR>あやまリにいく とちゅうだし<CF><CC>かといって カリンちゃんを<CR>このまま ほっていくのも・・・<CF><CC><@00>カリンちゃんと おばけやしきに<CR>いこっかな?<*04>,"<@05>I'm on my way to apologize to Arika right now,<CF><CC>but I can't just leave Karin here like this, either...<CF><CC><@00>Should I go to the Haunted House with Karin?<*04>"
 0E0,0x72A7,<@13>ほんとうですか? うれしい!,<@13>Really? I'm so happy!
 0E1,0x72B9,<@05>ダメだよ カリンちゃん<CR>ちゃんと からだは やすめなきゃ,"<@05>No way, Karin. You need to rest properly."
@@ -240,7 +240,7 @@ Index,Pointer,Original,Translated
 0EE,0x750F,<@FF>「おばけを さがせ!」,"<@FF>""Find the ghosts!"""
 0EF,0x751E,<@7B>バア!,<@7B>Boo!
 0F0,0x7525,<@12><&CB26>くん<CR>だいじょうぶ ですか?<CF><CC><@00>う うん,"<@12>Are you all right, <&CB26>?<CF><CC><@00>Y-yeah."
-0F1,0x48E8,<@94>・・・・・<CF><CC><@96>ヘタなオトナよリ おこちゃまの<CR>ほうが つかえるでしゅよ!<CF><CC><@87>ふーむ それも そうかもしれんな<CR>で? どうするのだ?<CF><CC><@97>ゆうえんちが いいでしゅ!<CF><CC>おじいちゃまに たのんで<CR>おこちゃまを あつめるでしゅよ!<CF><CC><@87>ふむ・・・おもしろい やってみろ,"<@94>.....<CF><CC><@96>Widdle kids are more useful than cwummy gwown-ups!<CF><CC><@87>Hmm, maybe you have a point. So? What will you do?<CF><CC><@97>An amusement park would be pewfect!<CF><CC>I'll ask Gwampa to help us gathew up all the widdle kids!<CF><CC><@87>Hmm... Interesting. Give it a try."
+0F1,0x48E8,<@94>・・・・・<CF><CC><@96>ヘタなオトナよリ おこちゃまの<CR>ほうが つかえるでしゅよ!<CF><CC><@87>ふーむ それも そうかもしれんな<CR>で? どうするのだ?<CF><CC><@97>ゆうえんちが いいでしゅ!<CF><CC>おじいちゃまに たのんで<CR>おこちゃまを あつめるでしゅよ!<CF><CC><@87>ふむ・・・おもしろい やってみろ,"<@94>.....<CF><CC><@96>Widdle kids are more useful than cwummy gwown-ups!<CF><CC><@87>Hmm, maybe you have a point. So? What will you do?<CF><CC><@97>An amusement park would be pewfect!<CF><CC>I'll ask Gwandpa to help us gathew up all the widdle kids!<CF><CC><@87>Hmm... Interesting. Give it a try."
 0F2,0x7542,<@7B>ホホホホ,<@7B>Hohohoho.
 0F3,0x4975,<@94>ほんとうに あんな こどもに<CR>まかせるのですかの?<CF><CC><@87>ふん うまくいけば もうけものよ<CF><CC>おれさまは ここで<CR>タタミの ケンガクといくのだ<CF><CC><@82>それをいうなら<CR>タカミの ケンブツロボ,"<@94>Are you truly leaving this to a mere child?<CF><CC><@87>Hmph. If it goes well, it's all profit.<CF><CC>I shall sit back here and watch from the sidelights.<CF><CC><@82>You mean the sidelines, robo."
 0F4,0x49D7,<@89>トォリャー!!,<@89>Hyaaah!!

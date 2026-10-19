@@ -147,7 +147,7 @@ Index,Pointer,Original,Translated
 091,0x5560,<@34>ぼくの ひゃくめんそう みる?,<@34>Wanna see my hundred faces?
 092,0x5573,<@31>・・・・<CF><CC><@32>!<CF><CC><@34>?<CF><CC><@35>・・・・・・・<CF><CC><@33>!!!!!!<CF><CC><@36>!?!!!!!?<CF><CC><@34>・・・どう?<CF><CC><@05>うん まぁ・・・,"<@31>....<CF><CC><@32>!<CF><CC><@34>?<CF><CC><@35>.......<CF><CC><@33>!!!!!!<CF><CC><@36>!?!!!!!?<CF><CC><@34>...Well?<CF><CC><@05>Uh, well..."
 093,0x55BC,<@03>あーあ まけちゃった・・・<CF><CC><@BC>また チョウセン するきが<CR>あるなら くるがよい! ふはは!,"<@03>Aww, I lost...<CF><CC><@BC>If you have the will to challenge me again, come back anytime! Fuhaha!"
-094,0x55EF,<@03>あーあ まけちゃった・・・<CF><CC><@BB>ユーが マダ かてるナンテ<CR>カンガえてたら また くるのネ!,"<@03>Aww, I lost...<CF><CC><@BB>If YOU still think you can win, come back again, OK!"
+094,0x55EF,<@03>あーあ まけちゃった・・・<CF><CC><@BB>ユーが マダ かてるナンテ<CR>カンガえてたら また くるのネ!,"<@03>Aww, I lost...<CF><CC><@BB>If you still think you can win, you come back again, ne!"
 095,0x5622,<@1B>つまらない しょうぶ<CR>しやがって!<CF><CC>やるきが あるんなら<CR>また くるんだな!,"<@1B>What a boring match!<CF><CC>If you're actually up for it, come back again!"
 096,0x564D,<@16>では また<CR>あそびましょうね!,<@16>Let's play again sometime!
 097,0x5660,<@A0>この はしごは ふるくなっていて<CR>きけんで あリます,"<@A0>This ladder is old and dangerous, sir!"
@@ -240,7 +240,7 @@ Index,Pointer,Original,Translated
 0EE,0x670C,<@00>3かいに いこうかな?<*04>,<@00>Should I go to the 3rd floor?<*04>
 0EF,0x671B,<@00>やっぱリ やめとこう,"<@00>On second thought, never mind."
 0F0,0x6729,<@69>もっていないじゃないかっ!<CR>「カワムラー」さまの サインッ!<CF><CC>もっていたら 5000えんで<CR>かっても よかったのにナァッ!,"<@69>You don't have it! Mr. Kawamuller's autograph!<CF><CC>If you'd had it, I'd have bought it for 5000 yen!"
-0F1,0x676B,<@77>ジェットコースター「スピリット」ヘ<CR>ようこそ!<CF><CC>では おくの のリばから どうぞー,<@77>Welcome to the Spirit roller coaster!<CF><CC>Please board at the platform in the back.
+0F1,0x676B,<@77>ジェットコースター「スピリット」ヘ<CR>ようこそ!<CF><CC>では おくの のリばから どうぞー,"<@77>Welcome to the ""Spirit"" roller coaster!<CF><CC>Please board at the platform in the back."
 0F2,0x6799,<@77>メダロッとうに ようこそ!<CR>ただいま メダロッとうは<CF><CC>しょうがくせい いかの<CR>おこさまに かぎリ<CF><CC>ゲームセンターいがいの<CR>アトラクションが フリーパスと<CF><CC>なっておリます<CF><CC>たのしんできて くださいね!,"<@77>Welcome to Medarot Island! At the moment, Medarot Island<CF><CC>is offering children of elementary school age and under<CF><CC>a free pass to all of its attractions<CF><CC>except the Arcade!<CF><CC>Have fun!"
 0F3,0x6804,<@77>パーツンラリーの パーツじょうほうを<CR>ききますか?<*04>,<@77>Would you like to hear the parts info for the Partsun Rally?<*04>
 0F4,0x6821,<@77>てんしがた メダロット<CR>ワンダエンジェルの<CF><CC>あたまパーツ チェラブボディ<CR>みぎうでパーツ チェラブハンド<CF><CC>ひだリうでパーツ チェラブアーム<CR>きゃくぶパーツ チェラブレッグ,"<@77>From the angel-type Medarot Wonder Angel:<CF><CC>Head part Cherub Body, right arm part Cherub Hand,<CF><CC>left arm part Cherub Arm, and leg part Cherub Leg."
@@ -266,7 +266,7 @@ Index,Pointer,Original,Translated
 108,0x6CE5,<@80>ココに イルと まいにち<CR>みずあびが できて イイワァ<CF><CC>・・・ア! しらないヒトに<CR>コエ かけちゃった ハズカシ,"<@80>Being here, I get to bathe in water every day. It's wonderful!<CF><CC>...Ah! I just talked to a stranger. How embarrassing!"
 109,0x6D22,<@04>あー おもしろかった!<CF><CC><@00>もう ヘとヘとだ<CR>そろそろ ねようかな,"<@04>Ahh, that was fun!<CF><CC><@00>I'm totally beat. Maybe I'll go to bed soon."
 10A,0x6D48,<@B5>いんペいクリアって<CR>てき みかた かんけいなく<CF><CC>いんペいを むこうにして<CR>はじめの じょうたいに<CF><CC>もどすって ことですよね?<CR>しリませんでしたわ,"<@B5>Conceal Clear means that, regardless of friend or foe,<CF><CC>it cancels out Conceal and returns things<CF><CC>to how they were at the start, right? I didn't know that."
-10B,0x6D96,<@B4>ロボトルで メダロット はしるとき<CR>おれも いっしょに はしる!<CF><CC>ゆうしゃさまも はしるか?,"<@B4>When Medarot run in robattle, I run too!<CF><CC>Great Hero run too?"
+10B,0x6D96,<@B4>ロボトルで メダロット はしるとき<CR>おれも いっしょに はしる!<CF><CC>ゆうしゃさまも はしるか?,"<@B4>When Medarot run in robattle, me run too!<CF><CC>Great Hero run too?"
 10C,0x6DC9,<@04>メダロットって うちゅうじんが<CR>もって きたんだよねぇ<CF><CC><@B5>ふふっ ひとが そらに いけるように<CR>なったら ロボトルできるかも♥<CF><CC><@04>うちゅうかぁ・・・<CR>まだ みらいの はなしなんだろな,"<@04>Medarots were brought here by aliens, right?<CF><CC><@B5>Hehe, once people can go to space, maybe they can robattle there♥<CF><CC><@04>Space, huh... I guess that's still a story for the future."
 10D,0x6E2C,<@B6>ゆうしゃさま<CR>ひめさまを よろしくですじゃ,"<@B6>Great Hero, please take care of the Princess."
 10E,0x6E45,<@B5>コーダインの うみは<CR>ヘいわ そのものですわ!,<@B5>The sea of Kodine is peace itself!

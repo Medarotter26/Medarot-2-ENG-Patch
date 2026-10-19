@@ -114,3 +114,49 @@ Terms not in the glossary, as chosen by the section translators. Review for cons
 - Sarami: light r/l → w baby talk everywhere
 - Old man's garbled ロボトル: one consistent set of spoonerisms across sections 01 and 15
 - Tequila, Spumoni, Mockingbird, Pousse Café, Kodine boy: one consistent voice each across sections
+
+## Consistency pass
+Applied all "Consistency decisions" above plus cross-file fixes found by grepping katakana terms,
+glossary names and catchphrases. **165 rows changed** (per section: 01: 11, 02: 9, 03: 1, 04: 4,
+05: 10, 06: 3, 07: 5, 08: 8, 10: 14, 11: 12, 12: 13, 13: 32, 14: 12, 15: 17, 16: 6, 17: 3, 18: 5).
+`scripts/check_text.py` reports 0 errors and no warnings.
+
+Canonical choices (term → English):
+- あねご → "Boss" (capitalized; "Sis" removed). The idiom "show them who's boss" stays lowercase.
+- つうしんネット → "Link Net"; つうしんケーブル → "Link Cable".
+- ごしんたい → "Sacred Relic"; スラフシステム → "Slough System"; プース・カフェ → "Pousse Café" (no hyphen).
+- ジェットコースター → "roller coaster"; ジェットコースター「スピリット」 → the "Spirit" roller coaster
+  (signs: "Thrills galore! The super-high-speed 'Spirit' roller coaster!").
+- ゆうしゃさま (Kodine) → "Great Hero" everywhere (section 13 used "hero"). Milky's ゆうしゃくん in the
+  Witch's Castle stays "hero". ひめさま → "the Princess" (capitalized title).
+- だいしんかん → "High Priest"; メダロードレース → "Medaroad Race"; ロボロボール → "RoboRoball"; シャークごう → "the Shark".
+- Arika's mother → "Ms. Amazake"; Karin's father → "Mr. Junmai"; レトルトさん → "Mr. Retort".
+- Select Corps であります → sentences end in ", sir!" (sections 01, 07, 08, 15 fixed).
+- Voices: Tequila = broken English with a ", ne" tic ("You no can defeat me, ne!");
+  Spumoni = light Russian accent ("Is too hot here", "zis"), no Capitalized Words;
+  Pousse Café = stilted "Me..." English ("Me want see Margarita"), no random capitals;
+  Mockingbird and cousins = cheerful, plain childlike English (already consistent, section 15 only);
+  Kodine boy = broken English, "me" for self, refers to "Great Hero" in third person;
+  Sarami = light r/l → w baby talk ("Youw opponent is ovew hewe!"), the "th" lisp in section 14 replaced;
+  "Gwandpa". Her handwritten letter keeps the signature "Fwom Sawami" (deliberate).
+- Old man's garbled ロボトル: ボロトル/ぼろとる → "robottle", ボトルロ/ぼとるろ → "batrobble" (sections 01, 06, 15).
+- Phantom Retort's intro (all sections) = section 01's: "Brightening the dinner table, stopping snack
+  thieves for all! / Wrapping love at room temperature, the curry-ageous Medarotter... / Phantom Retort is here!"
+  Lady Retort's intro: "Let the rice flowers bloom! Scatter the flowers of evil! ... Lady Retort is here!"
+- ロボトルファイト → "Robattle, fight!"; ロボトルファーイト → "Robattle, fiiight!!" (no "Robattle... FIGHT").
+- Select Three call-signs: "They call me the <epithet>, Select Red/Blue/Yellow!"; "the Select Three".
+- わるガキ3にんぐみ → "that bratty trio"; スクリューズ → "the Screws"; epithets Wind Chime Kikuhime /
+  Sparkler Iwanoi / Paper Fan Kagamiyama.
+- RoboRobo executives: おんなかんぶ → "lady executive" (Surume), ようちえんかんぶ → "kindergarten executive"
+  (Sarami), ろうじんかんぶ → "old executive" (Shiokara), メダルかんぶ → "Medal Executive"; サケカースさま →
+  "Master Sakekaasu"; スルメさま → "Ms. Surume".
+- メダロットはかせ → "Dr. Medarot" (no "Medarot Doctor"); bare はかせ → "Doctor".
+- Password pun: codes PA / CHI / RO / U (section 01) → code word "PACHIROU" (section 11); あんごう → "code".
+- ボンボン → "Comic BomBom" (Medarot 3 glossary spelling).
+- ボナパルトのぞう → "the Bonaparte Statue"; sign text → "Statue of Bonaparte, the Faithful Dog".
+- コーダイン → "Kodine" (Kodine Kingdom, Kodine Temple); ロケット (15:045) → "locket" (the Silver Locket).
+- Checked and already consistent: Medarotch/Medarotches, Medal (capitalized), Medaforce, Tinpet,
+  robattle (lowercase mid-sentence), Medaropolis, Hanazono Academy, Bunny Bar, Fuyun, Omikuji Town,
+  Odoro Pond/Marsh, Medarot Company, MedaLink, Partsun Rally, all glossary character names
+  (Koji, Arika, Karin Junmai, Kikuhime, Iwanoi, Kagamiyama, Hikaru, Kirara, Nae, Dr. Hebereke,
+  Sakekaasu, Surume, Shiokara, Sarami, Awamori, Tokkuri, Margarita, Jiiya, Ginjo, Jouzou).

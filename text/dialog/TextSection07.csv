@@ -51,15 +51,15 @@ Index,Pointer,Original,Translated
 031,0x4D44,<@9B>お? おぬしか ワシが<CR>こんなところで なにしとるかとな?<CF><CC><@9C>えきまえひろばと いえば きまっとる<CR>ギャルと まちあわせじゃ! がはは!<CF><CC><@00>あのー はかせ ここに<CR>おんなのこ こなかった?<CF><CC><@9D>なぬっ! おぬしも まちあわせか!?<CR>こどもの くせに なまいきじゃっ!,"<@9B>Oh? It's you. You want to know what I'm doing in a place like this?<CF><CC><@9C>The station square is obviously for meeting up with gals! Gahaha!<CF><CC><@00>Um, Doctor, did a girl come by here?<CF><CC><@9D>Whaaat! You're meeting someone too!? Cheeky, for a kid!"
 032,0x4DD2,<@76>あのおじいさん さっきからずっと<CR>あそこにいるの きもちわるいわ<CF><CC>・・・え? おんなのこ?<CR>そういえば さっきまで<CF><CC>このあたリに いたみたいだけど?<CF><CC><@05>すれちがっちゃったか・・・,"<@76>That old man's been standing over there forever. It's creepy.<CF><CC>...Huh? A girl? Now that you mention it,<CF><CC>I think there was one around here just a moment ago.<CF><CC><@05>Guess I just missed her..."
 033,0x4E33,<@69>ここは あいを かたる ばしょなのさ<CR>こどもの きみには わかるまい,<@69>This is a place where people talk of love. A kid like you wouldn't understand.
-034,0x4E59,<@00>「ちゅうけん ボナパルトの ぞう」<CR>・・・なんだけど なんか このぞう<CF><CC>ういてる かんじがする<CR>なんでだろ?<CF><CC>でも ここからじゃ よく<CR>わからないや,"<@00>""Statue of Bonaparte the Faithful Dog""... but something about this statue<CF><CC>feels off, like it's floating. I wonder why?<CF><CC>I can't really tell from here, though."
+034,0x4E59,<@00>「ちゅうけん ボナパルトの ぞう」<CR>・・・なんだけど なんか このぞう<CF><CC>ういてる かんじがする<CR>なんでだろ?<CF><CC>でも ここからじゃ よく<CR>わからないや,"<@00>""Statue of Bonaparte, the Faithful Dog""... but something about this statue<CF><CC>feels off, like it's floating. I wonder why?<CF><CC>I can't really tell from here, though."
 035,0x4EA9,<@08>いたたっ!<CF><CC><@84>まえをよくみて あるくロボ!,"<@08>Owww!<CF><CC><@84>Watch where you're going, robo!"
 036,0x4EC4,<@85>ふぇーん ロボロボだんなんか<CR>もう やだーっ,"<@85>Waaah, I'm sick of the RoboRobo Gang!"
 037,0x4EDE,<@08>また こどもだ,<@08>Another kid!
-038,0x4EE9,<@A3>きみは「たずねびと」の<CR>こどもでは あリませんか!,"<@A3>Aren't you one of the ""missing"" children!?"
+038,0x4EE9,<@A3>きみは「たずねびと」の<CR>こどもでは あリませんか!,"<@A3>Aren't you one of the ""missing"" children, sir!?"
 039,0x4F06,<@00>そっか あのこは<CR>「たずねびと」だったんだ<CF><CC>アリカも セレクトほんぶに<CR>もどってるかも しれないし<CF><CC>ぼくも もう1かい いってみるか<CF><CC><@05>それにしても どうしてぼくが<CR>ロボトルに かった あとに<CF><CC>あらわれるんだ? セレクトたいって,"<@00>I see, that kid was one of the ""missing persons.""<CF><CC>Arika might have gone back to Select Headquarters,<CF><CC>so I'll go there one more time.<CF><CC><@05>But why does the Select Corps always show up<CF><CC>right after I win a robattle?"
 03A,0x4F81,<@68>わーん ママー こわかったよー<CF><CC><@6A>もう ママ おこったリしないからね<CR>いっしょに いえに かえリましょう,"<@68>Waaah, Mommy, I was so scared!<CF><CC><@6A>Mommy won't get angry anymore. Let's go home together."
 03B,0x4FBB,<@68>ぼく ロボロボだんなんか<CR>だいっきらいだ<CF><CC><@6A>そうよ ロボロボだんなんかに<CR>あこがれたって ちっとも<CF><CC>いいことないんだから<CF><CC><@68>うん! もうぼく にどと<CR>えきまえなんかに いきたくないよ!,"<@68>I really, really hate the RoboRobo Gang!<CF><CC><@6A>That's right. Looking up to the RoboRobo Gang<CF><CC>won't do you any good at all.<CF><CC><@68>Yeah! I never want to go near the station again!"
-03C,0x5020,<@68>どいてよ おにいちゃん<CR>ぼく もう ロボロボだんとは<CF><CC>かんけーないんだから!<CF><CC><@00>あの・・・<CF><CC><@68>どーしても きになるんだったら<CR>ボナパルトのぞうを しらベてみなよ<CF><CC>セレクトたいじゃ みつけられない<CR>みたいだしさ,"<@68>Outta my way, mister. I've got nothing<CF><CC>to do with the RoboRobo Gang anymore!<CF><CC><@00>Um...<CF><CC><@68>If you really wanna know, go check out the Bonaparte statue.<CF><CC>Looks like the Select Corps can't figure it out, anyway."
+03C,0x5020,<@68>どいてよ おにいちゃん<CR>ぼく もう ロボロボだんとは<CF><CC>かんけーないんだから!<CF><CC><@00>あの・・・<CF><CC><@68>どーしても きになるんだったら<CR>ボナパルトのぞうを しらベてみなよ<CF><CC>セレクトたいじゃ みつけられない<CR>みたいだしさ,"<@68>Outta my way, mister. I've got nothing<CF><CC>to do with the RoboRobo Gang anymore!<CF><CC><@00>Um...<CF><CC><@68>If you really wanna know, go check out the Bonaparte Statue.<CF><CC>Looks like the Select Corps can't figure it out, anyway."
 03D,0x5092,<@00>このぞう こんな しかけに<CR>なってたんだなぁ びっくリ!,<@00>So this statue had a trick like this! What a surprise!
 03E,0x50B2,<@69>あっ モモコちゃん まってたんだよ<CF><CC><@76>さっ いきましょう ボナちゃん<CF><CC><@69>うん♥,"<@69>Oh, Momoko! I've been waiting for you!<CF><CC><@76>Come on, let's go, Bona-boo.<CF><CC><@69>Okay♥"
 03F,0x50E1,<@05>おとなの せかいって たいヘんだぁ,<@05>The grown-up world sure is complicated.
@@ -92,7 +92,7 @@ Index,Pointer,Original,Translated
 05A,0x55F9,<@00>あいことばって もしかして<CR>ダジャレ?<CF><CC>ダメもとで やってみるか,"<@00>Could the password be... a pun?<CF><CC>Well, nothing to lose. Let's give it a shot."
 05B,0x561E,<@82>あいことばを いうロボ<CR>やま!<CF><CC><@00>やまにいきたいのは やまやまロボ<CF><CC><@83>ぷっ ぷぷぷぷっ<CF><CC><@00>どうしたロボ?<CF><CC><@83>やまにいきたいのは やまやまロボ?<CF><CC><@06>そ そうロボよ<CF><CC><@83>けっさくロボ! サイコーロボ!<CF><CC><@06>そ そうロボよね?<CF><CC><@83>よし とおって いいロボ,"<@82>Say the password, robo. Peak!<CF><CC><@00>I'd love to sneak a peek at the peak, robo.<CF><CC><@83>Pfft, pffffft!<CF><CC><@00>What's wrong, robo?<CF><CC><@83>""I'd love to sneak a peek at the peak,"" robo?<CF><CC><@06>Y-yeah, robo.<CF><CC><@83>That's a masterpiece, robo! The best, robo!<CF><CC><@06>I-it is, isn't it, robo?<CF><CC><@83>Alright, you can pass, robo."
 05C,0x56AC,<@83>やまにいきたいのは やまやまロボっ<CR>くくくくくっ,"<@83>I'd love to sneak a peek at the peak, robo! Hehehehe..."
-05D,0x56C8,<@83>オレは きのうのよる<CR>ボナパルトのぞうから アベックを<CF><CC>おどかして やったんだロボ<CR>どうだ すごいだろうロボ,"<@83>Last night, I jumped out of the Bonaparte statue<CF><CC>and scared a couple, robo. Pretty awesome, right, robo?"
+05D,0x56C8,<@83>オレは きのうのよる<CR>ボナパルトのぞうから アベックを<CF><CC>おどかして やったんだロボ<CR>どうだ すごいだろうロボ,"<@83>Last night, I jumped out of the Bonaparte Statue<CF><CC>and scared a couple, robo. Pretty awesome, right, robo?"
 05E,0x5703,<@68>ほんだなから なんかの<CR>けはいを かんじるんだ・・・<CF><CC>なにかに みられているような<CR>きが するんだ・・・,<@68>I sense something coming from the bookshelf...<CF><CC>It feels like something is watching me...
 05F,0x573C,<@82>あーあ はやく そとにでて<CR>おもいっきリ あばれてやリたいロボ,"<@82>Aww, I wanna hurry up and get outside and go totally wild, robo."
 060,0x575F,<@82>オレらは まだそとにいく<CR>きょかが でてないロボ,"<@82>We don't have permission to go outside yet, robo."
@@ -266,7 +266,7 @@ Index,Pointer,Original,Translated
 108,0x7B33,<@69>あそびに きたのかい?<CR>コウジなら 2かいに いるよ,<@69>Here to play? Koji's upstairs.
 109,0x7B51,<@76>なんだか おともだちが<CR>きゅうに ふえたみたい<CF><CC><&CB26>くん これからも<CR>コウジと なかよく してやってね,"<@76>It seems like he's suddenly made a lot more friends.<CF><CC><&CB26>, please keep being good friends with Koji."
 10A,0x7B8A,<@76>えきまえは カップルの<CR>ひろばよ,<@76>The station square is where couples hang out.
-10B,0x7B9E,<@00>「ちゅうけん ボナパルトの ぞう」<CR>ちょっと ソルティにも にてる,"<@00>""Statue of Bonaparte the Faithful Dog""... It looks a little like Salty."
+10B,0x7B9E,<@00>「ちゅうけん ボナパルトの ぞう」<CR>ちょっと ソルティにも にてる,"<@00>""Statue of Bonaparte, the Faithful Dog""... It looks a little like Salty."
 10C,0x7BC3,<@02>なんだよっ! おまえこそ!,<@02>What!? Look who's talking!
 10D,0x7BD4,<@08>!! あれはレトルトさん!?,<@08>!! Is that Mr. Retort!?
 10E,0x7BE6,<@A1>こっちに ロボロボだんが<CR>にげこんだという つうほうを<CF><CC>うけて きたで あリますが<CR>おもわぬ おテガラで あリます!<CF><CC>さっそく セレクトほんぶまで<CR>きてもらうで あリます!<CF><CC><@68>うわわーん ママー,"<@A1>We came after receiving a report that the RoboRobo Gang fled in here,<CF><CC>but this is an unexpected achievement, sir!<CF><CC>You're coming with us to Select Headquarters right away, sir!<CF><CC><@68>Waaah, Mommy!"

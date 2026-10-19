@@ -27,16 +27,16 @@ Index,Pointer,Original,Translated
 019,0x475A,<@7E>え!? もう おわリ!?<*02>,<@7E>Huh!? It's over already!?<*02>
 01A,0x476A,<@77>それじゃ ばいばーい<*02>,"<@77>Bye-bye, everyone!<*02>"
 01B,0x4778,<@7D>また らいしゅー!<*02>,<@7D>See you next week!<*02>
-01C,0x4785,<@A0>これから しょくんは<CR>セレクトたいの たいいんとなって<CF>ロボロボだんを<CR>つかまえるのであリますが<CF>ロボロボールの ルールを<CR>きくで あリますか?<*04>,<@A0>You are now members of the Select Corps!<CF>Your duty is to capture the RoboRobo Gang!<CF>Do you wish to hear the rules of RoboRoball?<*04>
-01D,0x47D1,<@A1>それでは せつめいするであリます<CF>しょくんは ボールを つかんで<CR>あいてに ぶつけるのであリますが<CF>ぎゃくに ぶつけられたら<CR>まけに なってしまうのであリます<CF>とんできたボールを つかむには<CR>しょくんの てを だすであリます<CF>Aボタンを おすと みぎて<CR>Bボタンを おすと ひだリてで<CF>とんできた ボールを<CR>キャッチ できるであリます<CF>ボールを なげるには もういちど<CR>ボタンを おすであリます<CF>すると おしたほうの てから<CR>ボールを なげるであリます<*02>,"<@A1>Then I shall explain!<CF>Grab the ball and throw it at your opponent!<CF>But if you get hit, you lose!<CF>To catch a flying ball, stick out your hand!<CF>Press A for the right hand, B for the left<CF>to catch a ball that's flying at you!<CF>To throw the ball, press the button again!<CF>The ball will fly from that hand!<*02>"
-01E,0x48B7,<@A2>それでは しょくんの けんとうを<CR>いのるであリます!!,<@A2>I wish you the best of luck!!
-01F,0x48D6,<@A1>それでは さっそく<CR>ゲームスタートで あリます!,"<@A1>Now, without further ado... Game start!"
+01C,0x4785,<@A0>これから しょくんは<CR>セレクトたいの たいいんとなって<CF>ロボロボだんを<CR>つかまえるのであリますが<CF>ロボロボールの ルールを<CR>きくで あリますか?<*04>,"<@A0>You are now members of the Select Corps!<CF>Your duty is to capture the RoboRobo Gang, sir!<CF>Do you wish to hear the rules of RoboRoball, sir?<*04>"
+01D,0x47D1,<@A1>それでは せつめいするであリます<CF>しょくんは ボールを つかんで<CR>あいてに ぶつけるのであリますが<CF>ぎゃくに ぶつけられたら<CR>まけに なってしまうのであリます<CF>とんできたボールを つかむには<CR>しょくんの てを だすであリます<CF>Aボタンを おすと みぎて<CR>Bボタンを おすと ひだリてで<CF>とんできた ボールを<CR>キャッチ できるであリます<CF>ボールを なげるには もういちど<CR>ボタンを おすであリます<CF>すると おしたほうの てから<CR>ボールを なげるであリます<*02>,"<@A1>Then I shall explain, sir!<CF>Grab the ball and throw it at your opponent!<CF>But if you get hit, you lose, sir!<CF>To catch a flying ball, stick out your hand!<CF>Press A for the right hand, B for the left<CF>to catch a ball that's flying at you!<CF>To throw the ball, press the button again!<CF>The ball will fly from that hand, sir!<*02>"
+01E,0x48B7,<@A2>それでは しょくんの けんとうを<CR>いのるであリます!!,"<@A2>I wish you the best of luck, sir!!"
+01F,0x48D6,<@A1>それでは さっそく<CR>ゲームスタートで あリます!,"<@A1>Now, without further ado... Game start, sir!"
 020,0x48F2,ドドドドドドゥッ!!!<CR>ドガァァァン!!!<CF><CC>ああ!! おれたちの<CR>メダロットが!!<CF><CC>な なによぉ こいつ・・・<CR>いったい なんなのよぉ!<CF><CC>カブトメダロットに こんな<CR>ワザの データは ないぜ!?<CF><CC>ちびるよ<*02>,Dododododoom!!! Kabooom!!!<CF><CC>Aah!! Our Medarots!!<CF><CC>Wh-what IS this thing!?<CF><CC>Kabuto Medarots have no data on that move!?<CF><CC>I'm gonna wet myself.<*02>
 021,0x495E,ザシュウウウゥッ!!!<CR>ドガァァァン!!!<CF><CC>わっ マジ!? なんだよ あれ!<CR>こんな ワザ あリかよ!?<CF><CC>ちょっ・・・ちょっとぉ! なんで<CR>あたしの メダロットが!?<CF><CC>クワガタメダロットに こんな<CR>ワザの データは ないぜ!?<CF><CC>ちびるよ<*02>,"Zashuuuuh!!! Kabooom!!!<CF><CC>Whoa, seriously!? What was that!? Is that move even legal!?<CF><CC>H-hey! Why MY Medarot!?<CF><CC>Kuwagata Medarots have no data on that move!?<CF><CC>I'm gonna wet myself.<*02>"
 022,0x49DA,コウジくん<CF><CC>カリン!<CF><CC>あっ!<CR>きみは カリンちゃん<CF><CC>あっ また おあいしましたね<CR><&CB26>・・・くん<CF><CC>なによ <&CB26><CF><CC>いつのまに こんな かわいいこと<CR>しリあいに なったわけ?<*02>,"Koji!<CF><CC>Karin!<CF><CC>Oh! You're Karin!<CF><CC>Oh, we meet again, <&CB26>.<CF><CC>What's this, <&CB26>?<CF><CC>When did you meet such a cute girl?<*02>"
 023,0x4A38,いろどリましょう しょくたくを<CR>みんなでふせごう つまみぐい<CF><CC>じょうおんほぞんで あいをつつみこむ<CR>カレーなるメダロッター<CF><CC>かいとうレトルト<CR>ただいま さんじょう!<CF><CC>あくじあるところ<CR>かいとうレトルトあリだ!<CF><CC>か・・・かっこいい<CF><CC>ヘ・・・ヘンタイロボ<*02>,"Brightening the dinner table, stopping snack thieves for all!<CF><CC>Wrapping love at room temperature, the curry-ageous Medarotter...<CF><CC>Phantom Retort is here!<CF><CC>Wherever there's evil, there's Phantom Retort!<CF><CC>S-so cool...<CF><CC>Wh-what a weirdo robot...<*02>"
 024,0x4ABC,さかせましょう おこめのはな<CF><CC>ちらしましょう アクのはな<CF><CC>てんから まいおリた<CR>びじょメダロッター<CF><CC>かいとうレトルトレディ<CR>ただいま さんじょう!<CF><CC>かぁっこいいー♥<CF><CC>テガラを あせって<CR>しんじつが みえないなんて<CF><CC>ほんとうに おバカさん<*02>,"Let the rice flowers bloom!<CF><CC>Scatter the flowers of evil!<CF><CC>Descended from the heavens, the beautiful Medarotter...<CF><CC>Lady Retort is here!<CF><CC>So coooool! ♥<CF><CC>Rushing for glory, you can't even see the truth.<CF><CC>What a silly boy.<*02>"
-025,0x4B3A,おかえリっ プース・カフェ!!<CF>ボク さみしカッタ<CR>ずっト あいたかったヨ<CF>ねっ いっしょに かえろ?<CF>かえってイイ?<CF>だいじょうぶ!<CR>じいやは わたしが なんとかする<CF>こまったことを してくれましたのぅ<CR>それにしても ひめさまの<CF>うれしそうな かお<CR>まったく どうしたものやら・・・<*02>,"Welcome back, Pousse Café!!<CF>I wuz lonely. I missed you sooo much.<CF>Hey, come home with me?<CF>Can I come home?<CF>It's okay! I'll handle my old Ginjo.<CF>What a fine mess you've made. And yet the princess<CF>looks so happy. What am I to do...<*02>"
+025,0x4B3A,おかえリっ プース・カフェ!!<CF>ボク さみしカッタ<CR>ずっト あいたかったヨ<CF>ねっ いっしょに かえろ?<CF>かえってイイ?<CF>だいじょうぶ!<CR>じいやは わたしが なんとかする<CF>こまったことを してくれましたのぅ<CR>それにしても ひめさまの<CF>うれしそうな かお<CR>まったく どうしたものやら・・・<*02>,"Welcome back, Pousse Café!!<CF>Me was lonely. Me miss you so much.<CF>Hey, come home with me?<CF>Can I come home?<CF>It's okay! I'll handle Jiiya.<CF>What a fine mess you've made. And yet the Princess<CF>looks so happy. What am I to do...<*02>"
 026,0x4BCA,ゴゴゴゴゴオォォォォ・・・・<CF><CC>すごい しょうげきだ! いよいよだな<CR>みんな がんばってくれ!<CF><CC>みんなの ちからを<CR>むだに したくない!<CF><CC>おねがいです<CR>メダロットの かみさま!<*02>,"Rumbllllle...<CF><CC>What a shock! This is it! Everyone, hang in there!<CF><CC>I don't want everyone's effort to go to waste!<CF><CC>Please, Medarot God!<*02>"
 027,0x4C26,ドッゴオオオオオオォォォォン!!<CR>グルゥアアアウゥゥゥゥッ!!<CF><CC>こ これは ビーストマスター!?<CR>いや ちがう このかんじは・・・<CF><CC>すごい いあつかんだ こいつは<CR>ほんとうに メダロットなのか!?<*02>,Kaboooooom!! Grrraaaaagh!!<CF><CC>Is that the Beast Master!? No... this feeling...<CF><CC>What intense pressure! Is this thing really a Medarot!?<*02>
 028,0x4C8C,ちゅっ♥<CF><CC>あああ! ほんとに<CR>やリやがったっ!<CF><CC>チキショー みせつけやがって!<CR>うらやましいじゃねーかっ!<CF><CC>なに うらやましがってんのよぉっ!<CR>ボカッ!<CF><CC>いてっ!<CF><CC>はじめての ちゅーは どんなあじ?<CF><CC>カガミヤマぁ! あんたもねぇ!<CR>ボカッ!<CF><CC>イ イタイ・・・<*02>,"Smooch! ♥<CF><CC>Aaah! She actually did it!<CF><CC>Dammit, showing off! I'm so jealous!<CF><CC>Why are YOU jealous!? Bonk!<CF><CC>Ow!<CF><CC>How did your first kiss taste?<CF><CC>Kagamiyama! You too!! Bonk!<CF><CC>Th-that hurts...<*02>"
@@ -549,8 +549,8 @@ Index,Pointer,Original,Translated
 223,0x6ECE,ひえぇぇぇっ!<CR>かんベんしてくださいよぉー<*02>,Eeeek! Gimme a break!<*02>
 224,0x6EE5,どいとくれっ!<CR>しゅふは いそがしいんだからね!<*02>,Outta my way! I'm a busy housewife!<*02>
 225,0x6EFF,おてつだいしてくれる メダロットなら<CR>うちのこよリ やくにたつよ!<*02>,A Medarot that helps out is more use than my kids!<*02>
-226,0x6F22,ボロトルは いくつになっても<CR>やめられんのぉ<*02>,"I can't quit roboddles, no matter how old I get.<*02>"
-227,0x6F3A,ボトルロは やはリ むずかしいのぉ<*02>,Bottleros sure are tough...<*02>
+226,0x6F22,ボロトルは いくつになっても<CR>やめられんのぉ<*02>,"I can't quit robottles, no matter how old I get.<*02>"
+227,0x6F3A,ボトルロは やはリ むずかしいのぉ<*02>,Batrobbles sure are tough...<*02>
 228,0x6F4D,あたしだって まだ わかいもんには<CR>まけないよ<*02>,I won't lose to you young'uns!<*02>
 229,0x6F66,わかいって いいねェ<*02>,"Ah, to be young...<*02>"
 22A,0x6F72,キミの メダロットを<CR>みせてもらうよ<*02>,Let me see your Medarot.<*02>
@@ -584,7 +584,7 @@ Index,Pointer,Original,Translated
 246,0x71F5,モリミタイナ イリクンダ バショデハ<CR>キドウセイガ モノヲ イウゾ!!<*02>,"In twisty places like forests, mobility is key!!<*02>"
 247,0x721A,シカイガ サエギラレテ<CR>ヨク ミエナイッ<*02>,My view's blocked! I can't see!<*02>
 248,0x7230,ハシッテ ハシッテ<CR>ハシリマクルゾォ!<*02>,Run and run and keep on running!<*02>
-249,0x7245,メダロードレースナラ<CR>ハシルノ ハヤインダケドナァ・・・<*02>,"If this were a Medarot race, I'd be fast...<*02>"
+249,0x7245,メダロードレースナラ<CR>ハシルノ ハヤインダケドナァ・・・<*02>,"If this were a Medaroad Race, I'd be fast...<*02>"
 24A,0x7263,イッパツノ ダメージハ<CR>ダレニモ マケナイヨ<*02>,No one beats my one-hit damage!<*02>
 24B,0x727B,ウゴキガ オソクテ<CR>テキニ オイツケナイヨーッ<*02>,I'm too slow to catch the enemy!<*02>
 24C,0x7294,ミズノ チカクジャナイト<CR>パワーガ デナイノヨネーッ<*02>,I can't power up away from water!<*02>
@@ -609,8 +609,8 @@ Index,Pointer,Original,Translated
 25F,0x741F,わたくしに かつなんて<CR>10000ねん はやいですわ!<*02>,"You're 10,000 years too early!<*02>"
 260,0x743C,ふぉっふぉっふぉっ<CR>どれ あいてを してやるかの<*02>,Fohfohfoh. Shall I take you on?<*02>
 261,0x7456,わしは こどもが きらいなんじゃ!<*02>,I hate children!<*02>
-262,0x7469,あたちは ただのようちえんじじゃ<CR>ないでしゅよ! つよいんでしゅよ!<*02>,I'm not jusht a kindergawtner! I'm shtrong!<*02>
-263,0x748D,ひどいことすると<CR>ひどいんでしゅよ!<*02>,Be mean and I'll be mean back!<*02>
+262,0x7469,あたちは ただのようちえんじじゃ<CR>ないでしゅよ! つよいんでしゅよ!<*02>,I'm not just a kindewgawtnew! I'm stwong!<*02>
+263,0x748D,ひどいことすると<CR>ひどいんでしゅよ!<*02>,Be mean and I'll be mean wight back!<*02>
 264,0x74A1,イタズラは たのしいロボよ!<*02>,"Pranks are fun, robo!<*02>"
 265,0x74B1,イタズラが とちゅうで みつかると<CR>つまんないロボよ<*02>,"Getting caught mid-prank is no fun, robo.<*02>"
 266,0x74CD,わしと おぬしの どちらが<CR>メダルを うまく そだてとるかな?<*02>,"Which of us raises Medals better, you or me?<*02>"
@@ -620,7 +620,7 @@ Index,Pointer,Original,Translated
 26A,0x7533,せいぎの ために<CR>たたかうであリます!<*02>,"I fight for justice, sir!<*02>"
 26B,0x7548,せいぎの みちは<CR>きびしいであリます!<*02>,"Justice is a harsh path, sir!<*02>"
 26C,0x755D,マルガリータは メダロットも<CR>ロボトルも だーいすき♥<*02>,Margarita looooves Medarots and robattles! ♥<*02>
-26D,0x757A,ゆうしゃさま また あそんでね!<*02>,"Hero, play with me again!<*02>"
+26D,0x757A,ゆうしゃさま また あそんでね!<*02>,"Great Hero, play with me again!<*02>"
 26E,0x758C,ゆめノ なかデ<CR>くるしむんだヨ<*02>,Suffer in yer dreams!<*02>
 26F,0x759D,アア・・・<CR>ゆめガ さめちゃっタ・・・<*02>,Aah... the dream ended...<*02>
 270,0x75B2,ミタコトナイ パーツ<CR>ソレ ホシイ<*02>,NEVER SEEN THAT PART. WANT IT.<*02>
