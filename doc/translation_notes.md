@@ -93,3 +93,24 @@ Terms not in the glossary, as chosen by the section translators. Review for cons
 - Bunny Bar; Statue of Bonaparte the Faithful Dog; リキュール → Liqueur; カルア → Kahlua; モモコ → Momoko; ボナちゃん → Bona-boo
 - サイドカー → Sidecar; ぞのはながくえん → Zonohana Academy; ロボロボこどもぐんだん → RoboRobo Kid Brigade; こどもかんぶ → Kiddie Executive
 - イタズラけんきゅうしつ → Prank Lab; ロボロボそうこ → RoboRobo Storehouse; Hitsuji: "Master <&CB26>"
+
+## Section 01
+- System, save, password, paint shop, TV/RoboRoball, intro/ending texts (000-02B); medal/part/item/attack/Medaforce descriptions; Medarotter pre/post robattle quotes (200-287)
+- Abbreviations to fit 18 chars: dmg, Atk, attr, Rocks; せんすい → divers
+- ほるまりん → Rin Horuma; ボロトル/ボトルロ → roboddles/Bottleros (section 15: batrobble/robottle/battlerobs — unify); ビーストマスター → Beast Master
+- Code items 12D-130: PA/CHI/RO/U vs section 11 password "PACHIRO" — unify
+
+# Consistency decisions (applied in the consistency pass)
+- あねご → "Boss" (capitalized as a form of address)
+- つうしんネット → "Link Net"; つうしんケーブル → "Link Cable"
+- ごしんたい → "Sacred Relic"
+- プース・カフェ → "Pousse Café"
+- スラフシステム → "Slough System" (Medarot 3's term)
+- Select Corps であります → sentences end with ", sir!" (or "sir!")
+- Arika's mother → "Ms. Amazake"; Karin's father → "Mr. Junmai"
+- ジェットコースター「スピリット」 → the "Spirit" roller coaster
+- ゆうしゃさま → "Great Hero"; だいしんかん → "High Priest"
+- メダロードレース → "Medaroad Race"; ロボロボール → "RoboRoball"; シャークごう → "the Shark"
+- Sarami: light r/l → w baby talk everywhere
+- Old man's garbled ロボトル: one consistent set of spoonerisms across sections 01 and 15
+- Tequila, Spumoni, Mockingbird, Pousse Café, Kodine boy: one consistent voice each across sections

@@ -70,7 +70,7 @@ $(BUILD)/patch/fonts.o: $(FIXED_FONT)
 $(BUILD)/patch/tilemaps.o: $(TILEMAP_OUT)
 $(BUILD)/patch/tilesets.o: $(TILESETS_OUT)
 
-$(FONT) $(FONT_WIDTHS) $(FIXED_FONT): gfx/patch/M3Font.1bpp.png $(SCRIPT)/build_font.py $(RES)/charmap_en.tbl | $(BUILD)
+$(FONT) $(FONT_WIDTHS) $(FIXED_FONT): gfx/patch/M3Font.1bpp.png gfx/patch/M1FixedFont.png $(SCRIPT)/build_font.py $(RES)/charmap_en.tbl | $(BUILD)
 	$(PYTHON) $(SCRIPT)/build_font.py $< $(ORIGINAL_PREFIX)kuwagata.gbc $(RES)/charmap_en.tbl $(FONT) $(FONT_WIDTHS) $(FIXED_FONT)
 
 $(TEXT_OUT): $(DIALOG) $(FONT_WIDTHS) $(SCRIPT)/build_text.py $(SCRIPT)/textcodec.py $(RES)/charmap_en.tbl

@@ -1,8 +1,8 @@
-Index,Name,Name_EN
-0,そうこう,
-1,すいしん,
-2,きどう ,
-3,かくとう,
-4,しゃげき,
-5,さくてき,
-6,いんペい,
+Index,Name,Name_EN,Name_Short
+0,そうこう,Armor,Armr
+1,すいしん,Propulsion,Prop
+2,きどう ,Mobility,Mobl
+3,かくとう,Fighting,Fght
+4,しゃげき,Shooting,Shot
+5,さくてき,Scan,
+6,いんペい,Conceal,Hide

@@ -265,3 +265,34 @@ def dakuten_above(tmap, run, i):
         return None
     t = tmap.cells.get((run.col + i, run.row - 1))
     return t if t in (DAKUTEN, HANDAKUTEN) else None
+
+
+def is_graphics(t):
+    return t is not None and t != 0x00 and not is_text(t)
+
+
+def graphic_dakuten(tmap, run):
+    """Some screens draw the dakuten of a kana inside the tile above it (e.g. a box border tile
+    with a ゛ on it, or a custom ゛ graphic).  Detect them as a short stretch of graphics tiles
+    above kana of the run that differs from the identical tiles on both sides of it.
+    Returns [(x, y, tile, replacement)]."""
+    if run.row == 0:
+        return []
+    y = run.row - 1
+    out = []
+    x = run.col
+    while x < run.end:
+        t = tmap.cells.get((x, y))
+        if is_kana(run.tiles[x - run.col]) and is_graphics(t):
+            left = tmap.cells.get((x - 1, y))
+            if left is not None and left != t and not is_text(left):
+                k = x
+                while k < run.end and k - x < 3 and tmap.cells.get((k, y)) != left \
+                        and is_graphics(tmap.cells.get((k, y))) and is_kana(run.tiles[k - run.col]):
+                    k += 1
+                if tmap.cells.get((k, y)) == left:
+                    out += [(i, y, tmap.cells[(i, y)], left) for i in range(x, k)]
+                    x = k
+                    continue
+        x += 1
+    return out

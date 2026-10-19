@@ -23,6 +23,7 @@
 [0_42]
 
 @ 1,2 max 7
+# (dakuten drawn in graphics tile above column 3 ($95, becomes $8D when translated))
 JP: メタフォース
 EN:
 

@@ -18,6 +18,7 @@
 [1_50]
 
 @ 1,4 max 15
+# (dakuten drawn in graphics tile above column 8 ($C2, becomes $91 when translated))
 JP: せんとうしかん せってい
 EN:
 

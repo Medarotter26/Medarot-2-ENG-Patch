@@ -159,6 +159,10 @@ def dump_map(table, t, index, aliases, bank, ptr, tmap):
     for run in runs:
         lines.append('')
         lines.append(f'@ {run.row},{run.col} max {run.max}')
+        gd = T.graphic_dakuten(tmap, run)
+        if gd:
+            lines.append('# (dakuten drawn in graphics tile above column ' +
+                         ', '.join(f'{x} (${t:02X}, becomes ${rep:02X} when translated)' for x, y, t, rep in gd) + ')')
         lines.append('JP: ' + run_jp(table, tmap, run).rstrip())
         lines.append('EN:')
     return '\n'.join(lines) + '\n'

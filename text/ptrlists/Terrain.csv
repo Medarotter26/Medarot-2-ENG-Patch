@@ -1,12 +1,12 @@
-Index,Name,Name_EN
-0,あれち,
-1,さばく,
-2,いわば,
-3,たにま,
-4,そうげん,
-5,もリのなか,
-6,まちなか,
-7,しつない,
-8,かいがん,
-9,すいちゅう,
-10,サイバー,
+Index,Name,Name_EN,Name_Short
+0,あれち,Wasteland,Wastld
+1,さばく,Desert,
+2,いわば,Rocky Area,Rocky
+3,たにま,Valley,
+4,そうげん,Grassland,Grass
+5,もリのなか,Forest,
+6,まちなか,Street,
+7,しつない,Indoors,Indoor
+8,かいがん,Beach,
+9,すいちゅう,Underwater,UWater
+10,サイバー,Cyber,

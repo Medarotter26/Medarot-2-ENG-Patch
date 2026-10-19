@@ -68,10 +68,6 @@ def parse_file(path):
     return key, entries
 
 
-def is_graphics(t):
-    return t is not None and t != 0x00 and not T.is_text(t)
-
-
 def apply_entries(path, tmap, entries, jp, codec):
     runs = T.find_runs(tmap)
     jp_entries = [e for e in entries if e.jp is not None]
@@ -98,6 +94,8 @@ def apply_entries(path, tmap, entries, jp, codec):
                 new.cells[(x, run.row)] = 0x00
             if T.dakuten_above(tmap, run, i) is not None:
                 new.cells[(x, run.row - 1)] = 0x00
+        for x, y, t, rep in T.graphic_dakuten(tmap, run):
+            new.cells[(x, y)] = rep
     # Write the English
     for e in todo:
         try:
@@ -121,7 +119,7 @@ def apply_entries(path, tmap, entries, jp, codec):
             if not e.force:
                 if tmap.compressed and x >= T.SCREEN_WIDTH:
                     raise SystemExit(f'{where} is off screen (use "@!" to force)')
-                if is_graphics(orig):
+                if T.is_graphics(orig):
                     raise SystemExit(f'{where} would overwrite graphics tile ${orig:02X} '
                                      f'(text too long? use "@!" to force)')
                 if run is not None and x >= run.limit and orig is not None and orig != 0x00:

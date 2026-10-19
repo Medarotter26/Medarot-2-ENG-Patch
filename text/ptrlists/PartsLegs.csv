@@ -1,154 +1,154 @@
-Index,Model,Model_EN,Name,Name_EN,IsFemale
-0,BATー14,,グレイブ,,00
-1,PHXー14,,クリムゾンテイル,,00
-2,PLNー14,,ウイングレッグ,,01
-3,ANGー14,,チェラブレッグ,,01
-4,PTLー04,,スカイレッグ,,00
-5,BOPー04,,ターキーレッグ,,00
-6,DRFー04,,フライフライン,,00
-7,CKNー04,,トブンダー,,00
-8,NMRー04,,ドリーマー,,00
-9,SLFー04,,ふうがわリフライ,,01
-10,SLNー04,,シンガー,,01
-11,BERー14,,ウカブー,,00
-12,HNIー14,,チャオワン,,00
-13,DGUー14,,バクハー,,00
-14,SPTー14,,ドラゴンベッド,,00
-15,SPCー04,,しろおびぃ,,00
-16,MAIー04,,デカオー,,00
-17,RATー04,,ムーバー,,00
-18,WCHー04,,クリンボックス,,01
-19,SLDー04,,ひがわリテイル,,01
-20,FBFー04,,フローター,,01
-21,SPIー14,,タッキャー,,00
-22,CLAー14,,スイック,,00
-23,SNAー14,,スリスギー,,00
-24,FLWー14,,ミキ,,00
-25,CMOー14,,クリクリン,,00
-26,UNIー14,,アシブーム,,00
-27,WEAー14,,デスクローラー,,00
-28,KMRー04,,コンポータ,,00
-29,MTSー04,,カマッキー,,00
-30,SCRー04,,サッサカサー,,00
-31,KWGー04,,タタッカー,,00
-32,KBTー04,,オチツカー,,00
-33,NINー14,,まわリこみ,,00
-34,DOGー14,,ホウザー,,00
-35,RBTー14,,フラワーステップ,,00
-36,MONー14,,ピタピタ,,00
-37,KWGー14,,タタカワー,,00
-38,KBTー14,,オチツカン,,00
-39,DVLー14,,ヘルカオス,,00
-40,CATー14,,クイックアラート,,01
-41,NASー14,,ペチコート,,01
-42,SLRー14,,フレアギャザー,,01
-43,STGー04,,シャープエッジ,,00
-44,KLNー04,,アブダクター,,00
-45,TIRー04,,アタックレッグ,,00
-46,BANー04,,カランコロン,,00
-47,MEDー04,,シリノサキー,,01
-48,SAQー04,,ムッチンプリン,,01
-49,VALー04,,テンプルマスター,,01
-50,CARー14,,ハンドルレッグ,,00
-51,RAYー14,,ストリートキング,,00
-52,NITー14,,コレワモクバ,,00
-53,SABー04,,ソッコー,,00
-54,ANBー04,,トッコー,,00
-55,ALMー04,,ヨコラーセ,,00
-56,WATー04,,フォートレス,,00
-57,SATー04,,サジタリベース,,00
-58,HBYー04,,ケンダーマ,,00
-59,JORー04,,カボチャバシャー,,00
-60,TOTー14,,ローラータンク,,00
-61,GGRー04,,ビッグブーツ,,00
-62,BRAー04,,ランドレッグ,,00
-63,BORー04,,ガンジョー,,00
-64,SBLー04,,フレイバー,,01
-65,HDGー04,,ブロックブルーム,,00
-66,JELー04,,クニャタンク,,00
-67,MAGー04,,コロンダー,,00
-68,GNMー04,,おかわリタンク,,01
-69,MRNー14,,スコープレッグ,,00
-70,KAPー14,,タテネード,,00
-71,MARー14,,フィルテイル,,01
-72,PENー14,,スムースフィン,,01
-73,MNTー04,,スピアテイル,,00
-74,FLGー04,,ピョンキー,,00
-75,KILー04,,シャチホコ,,00
-76,KNGー04,,デプスソール,,00
-77,SFHー04,,スターフィッシュ,,00
-78,FFYー04,,ピカリン,,01
-79,WDNー04,,みがわリフィン,,01
-80,CRWー04,,ばしょうせん,,00
-81,BEEー04,,オシリー,,00
-82,BATー04,,カンオケ,,00
-83,PHXー04,,レッドテイル,,00
-84,PLNー04,,ジェットエンジン,,01
-85,ANGー04,,エンジェルレッグ,,01
-86,BERー04,,フーユ,,00
-87,GHTー04,,エキサイト,,00
-88,HNIー04,,ハニワン,,00
-89,DGUー04,,ドカーン,,00
-90,SNGー04,,パイプオルガン,,00
-91,DRAー04,,リゅうのねどこ,,00
-92,FLYー04,,フラワーフライ,,01
-93,WEAー04,,スパゲティ,,00
-94,COWー04,,ダッシュアタック,,00
-95,SPIー04,,スパイダーネット,,00
-96,CLAー04,,タコアシ,,00
-97,SNAー04,,ジャコウ,,00
-98,UNIー04,,ケイバー,,00
-99,FLWー04,,ネツコ,,00
-100,CMOー04,,クルックル,,00
-101,KGWー04,,たたっかー,,00
-102,KBTー04,,おちつかー,,00
-103,NINー04,,しのびあし,,00
-104,KTNー04,,ハカーマ,,00
-105,KINー04,,キンタレッグ,,00
-106,TANー04,,ダイコクチョー,,00
-107,SAMー04,,ムシャブショー,,00
-108,DOGー04,,ジュウザー,,00
-109,NTBー04,,ネイティステップ,,00
-110,RBTー04,,うさぎとび,,00
-111,MONー04,,ニゲアシ,,00
-112,ALIー04,,ミュートレッグ,,00
-113,DVLー04,,デビルレッグ,,00
-114,SLRー04,,ミニスカート,,01
-115,CATー04,,キャットウォーク,,01
-116,QUNー04,,ソリスキー,,01
-117,NASー04,,エプロン,,01
-118,KNIー04,,ふともも,,01
-119,BNYー04,,レッグハイヒール,,01
-120,CARー04,,プラズマダッシュ,,00
-121,RAYー04,,ストーカー,,00
-122,COMー04,,ドッグレース,,00
-123,PIEー04,,ターマノリー,,00
-124,BMTー04,,アーマーカー,,00
-125,NITー04,,トロイモクバ,,00
-126,BOKー04,,チェアリー,,00
-127,INTー04,,マイマイツブリ,,00
-128,TOTー04,,コーラタンク,,00
-129,GLMー04,,ブロックタンク,,00
-130,RICー04,,ベンリカー,,00
-131,ELFー04,,アッシー,,00
-132,MOGー04,,ショーベル,,00
-133,EGTー04,,オスワリ,,00
-134,MRNー04,,スクリュー,,00
-135,SAKー04,,ビッタンビッタン,,00
-136,SHLー04,,アンドトロアー,,00
-137,KAPー04,,サンゴジョー,,00
-138,MARー04,,シュッポー,,01
-139,PENー04,,フィン,,01
-140,RAPー04,,エアライン,,00
-141,DFLー04,,フユーンボール,,00
-142,CLBー04,,サイドトビー,,00
-143,LHBー04,,タタッキリー,,00
-144,MWBー04,,オチテクール,,00
-145,GDSー04,,エンタイアー,,01
-146,CMPー04,,タモリカ,,01
-147,KNKー04,,インセクトサリド,,00
-148,EGGー04,,ハーフエッグ,,00
-149,WFHー04,,ダックアンダー,,00
-150,BAYー04,,アンビリカル,,00
-151,BAYー03,,ーーーーーーーー,,00
-152,BAYー03,,ーーーーーーーー,,01
+Index,Model,Model_EN,Name,Name_EN,Name_Short,IsFemale
+0,BATー14,,グレイブ,Grave,,00
+1,PHXー14,,クリムゾンテイル,Crimson Tail,CrmsTail,00
+2,PLNー14,,ウイングレッグ,Wing Leg,,01
+3,ANGー14,,チェラブレッグ,Cherub Leg,ChrbLeg,01
+4,PTLー04,,スカイレッグ,Sky Leg,,00
+5,BOPー04,,ターキーレッグ,Turkey Leg,TurkyLeg,00
+6,DRFー04,,フライフライン,Fly-Flyne,FlyFlyne,00
+7,CKNー04,,トブンダー,I Can Fly,ICanFly,00
+8,NMRー04,,ドリーマー,Dreamer,,00
+9,SLFー04,,ふうがわリフライ,Whimsical Fly,WhimFly,01
+10,SLNー04,,シンガー,Singer,,01
+11,BERー14,,ウカブー,Hovery,,00
+12,HNIー14,,チャオワン,Teacup,,00
+13,DGUー14,,バクハー,Explosion,Explosn,00
+14,SPTー14,,ドラゴンベッド,Dragon Bed,DrgnBed,00
+15,SPCー04,,しろおびぃ,White Sash,WhtSash,00
+16,MAIー04,,デカオー,Bigface,,00
+17,RATー04,,ムーバー,Mover,,00
+18,WCHー04,,クリンボックス,Clean Box,CleanBox,01
+19,SLDー04,,ひがわリテイル,Daily Tail,DlyTail,01
+20,FBFー04,,フローター,Floater,,01
+21,SPIー14,,タッキャー,Multi-Legs,MultiLeg,00
+22,CLAー14,,スイック,Swick,,00
+23,SNAー14,,スリスギー,Surisugii,Surisugi,00
+24,FLWー14,,ミキ,Stem-Up,,00
+25,CMOー14,,クリクリン,Curlicue,,00
+26,UNIー14,,アシブーム,Foot Stomp,FootStmp,00
+27,WEAー14,,デスクローラー,Death Crawler,DthCrawl,00
+28,KMRー04,,コンポータ,Conporta,,00
+29,MTSー04,,カマッキー,Mantis,,00
+30,SCRー04,,サッサカサー,Zigzag,,00
+31,KWGー04,,タタッカー,Tatacker,,00
+32,KBTー04,,オチツカー,Ochitsuker,Ochitskr,00
+33,NINー14,,まわリこみ,Slip-In,,00
+34,DOGー14,,ホウザー,Gun Platform,GunPltfm,00
+35,RBTー14,,フラワーステップ,Flower Step,FlwrStep,00
+36,MONー14,,ピタピタ,Pitter-Patter,PitrPatr,00
+37,KWGー14,,タタカワー,Tatakawer,Tatakawr,00
+38,KBTー14,,オチツカン,Ochitsukan,Ochitskn,00
+39,DVLー14,,ヘルカオス,Hellchaos,HllChaos,00
+40,CATー14,,クイックアラート,Quick Alert,QckAlert,01
+41,NASー14,,ペチコート,Petticoat,Pettcoat,01
+42,SLRー14,,フレアギャザー,Flaregather,FlrGathr,01
+43,STGー04,,シャープエッジ,Sharp Edge,ShrpEdge,00
+44,KLNー04,,アブダクター,Abductor,,00
+45,TIRー04,,アタックレッグ,Attack Leg,AttckLeg,00
+46,BANー04,,カランコロン,Klip Klop,KlipKlop,00
+47,MEDー04,,シリノサキー,Tail End,,01
+48,SAQー04,,ムッチンプリン,Well-Fitted-Out,WellFttd,01
+49,VALー04,,テンプルマスター,Temple Master,TmplMstr,01
+50,CARー14,,ハンドルレッグ,Handle Leg,HndlLeg,00
+51,RAYー14,,ストリートキング,Street King,StrtKing,00
+52,NITー14,,コレワモクバ,Rocking Horse,RckHorse,00
+53,SABー04,,ソッコー,Swift Attack,SwiftAtk,00
+54,ANBー04,,トッコー,Assault,,00
+55,ALMー04,,ヨコラーセ,Side Winder,SideWndr,00
+56,WATー04,,フォートレス,Fortress,,00
+57,SATー04,,サジタリベース,Sagittaribase,SagtBase,00
+58,HBYー04,,ケンダーマ,Kendama,,00
+59,JORー04,,カボチャバシャー,Pumpkin Carriage,PmpkCrrg,00
+60,TOTー14,,ローラータンク,Roller Tank,RollTank,00
+61,GGRー04,,ビッグブーツ,Big Boots,BigBoots,00
+62,BRAー04,,ランドレッグ,Land Leg,,00
+63,BORー04,,ガンジョー,Burly,,00
+64,SBLー04,,フレイバー,Flavor,,01
+65,HDGー04,,ブロックブルーム,Block Broom,BlkBroom,00
+66,JELー04,,クニャタンク,Limptank,,00
+67,MAGー04,,コロンダー,Tripped,,00
+68,GNMー04,,おかわリタンク,Extra Tank,ExtrTank,01
+69,MRNー14,,スコープレッグ,Scope Legs,ScpLegs,00
+70,KAPー14,,タテネード,I-Can't-Stand,ICntStnd,00
+71,MARー14,,フィルテイル,Fill Tail,FillTail,01
+72,PENー14,,スムースフィン,Smooth Fin,SmthFin,01
+73,MNTー04,,スピアテイル,Speartail,SprTail,00
+74,FLGー04,,ピョンキー,Hoppy,,00
+75,KILー04,,シャチホコ,Shachihoko,Shachhko,00
+76,KNGー04,,デプスソール,Depthsole,DpthSole,00
+77,SFHー04,,スターフィッシュ,Starfish,,00
+78,FFYー04,,ピカリン,Sparkle,,01
+79,WDNー04,,みがわリフィン,Alternate Fin,AltFin,01
+80,CRWー04,,ばしょうせん,Leaf Fan,,00
+81,BEEー04,,オシリー,Abdomen,,00
+82,BATー04,,カンオケ,Coffin,,00
+83,PHXー04,,レッドテイル,Red Tail,,00
+84,PLNー04,,ジェットエンジン,Jet Engine,JetEngin,01
+85,ANGー04,,エンジェルレッグ,Angel Leg,AngelLeg,01
+86,BERー04,,フーユ,Floaty,,00
+87,GHTー04,,エキサイト,Excite,,00
+88,HNIー04,,ハニワン,Haniwan,,00
+89,DGUー04,,ドカーン,Kaboom,,00
+90,SNGー04,,パイプオルガン,Pipe Organ,PipeOrgn,00
+91,DRAー04,,リゅうのねどこ,Dragon's Bed,DrgnsBed,00
+92,FLYー04,,フラワーフライ,Flower Fly,FlwrFly,01
+93,WEAー04,,スパゲティ,Spaghetti,Spaghtti,00
+94,COWー04,,ダッシュアタック,Dash Attack,DashAtk,00
+95,SPIー04,,スパイダーネット,Spider Net,SpdrNet,00
+96,CLAー04,,タコアシ,Octo Legs,OctoLegs,00
+97,SNAー04,,ジャコウ,Musk,,00
+98,UNIー04,,ケイバー,Racer,,00
+99,FLWー04,,ネツコ,Roots,,00
+100,CMOー04,,クルックル,Spin-Spin,SpinSpin,00
+101,KGWー04,,たたっかー,Tatacker,,00
+102,KBTー04,,おちつかー,Ochitsuker,Ochitskr,00
+103,NINー04,,しのびあし,Ninja Legs,NinjLegs,00
+104,KTNー04,,ハカーマ,Hakama,,00
+105,KINー04,,キンタレッグ,Kinta Leg,KintaLeg,00
+106,TANー04,,ダイコクチョー,Breadwinner,BreadWnr,00
+107,SAMー04,,ムシャブショー,Commander,Commandr,00
+108,DOGー04,,ジュウザー,Gunzer,,00
+109,NTBー04,,ネイティステップ,Native Step,NatvStep,00
+110,RBTー04,,うさぎとび,Bunny Hop,BunnyHop,00
+111,MONー04,,ニゲアシ,Quick Legs,QckLegs,00
+112,ALIー04,,ミュートレッグ,Mute Leg,,00
+113,DVLー04,,デビルレッグ,Devil Leg,DevilLeg,00
+114,SLRー04,,ミニスカート,Miniskirt,MiniSkrt,01
+115,CATー04,,キャットウォーク,Cat Walk,,01
+116,QUNー04,,ソリスキー,Sledski,,01
+117,NASー04,,エプロン,Apron,,01
+118,KNIー04,,ふともも,Thighs,,01
+119,BNYー04,,レッグハイヒール,Leg-High Heels,LgHiHeel,01
+120,CARー04,,プラズマダッシュ,Plasma Dash,PlsmDash,00
+121,RAYー04,,ストーカー,Stalker,,00
+122,COMー04,,ドッグレース,Dog Race,,00
+123,PIEー04,,ターマノリー,Ballrider,BallRidr,00
+124,BMTー04,,アーマーカー,Armor Car,ArmorCar,00
+125,NITー04,,トロイモクバ,Trojan Horse,TrjHorse,00
+126,BOKー04,,チェアリー,Chairy,,00
+127,INTー04,,マイマイツブリ,Snailcargot,SnlCrgot,00
+128,TOTー04,,コーラタンク,Shell Tank,ShlTank,00
+129,GLMー04,,ブロックタンク,Block Tank,BlckTank,00
+130,RICー04,,ベンリカー,Handy Car,HandyCar,00
+131,ELFー04,,アッシー,Crush Legs,CrshLegs,00
+132,MOGー04,,ショーベル,Shovel,,00
+133,EGTー04,,オスワリ,Seat,,00
+134,MRNー04,,スクリュー,Screw,,00
+135,SAKー04,,ビッタンビッタン,Flip-Flap,FlipFlap,00
+136,SHLー04,,アンドトロアー,Undertower,UndTower,00
+137,KAPー04,,サンゴジョー,Coral Reef,CrlReef,00
+138,MARー04,,シュッポー,Taily,,01
+139,PENー04,,フィン,Fin,,01
+140,RAPー04,,エアライン,Airline,,00
+141,DFLー04,,フユーンボール,Floating Bowl,FloatBwl,00
+142,CLBー04,,サイドトビー,Sidejump,,00
+143,LHBー04,,タタッキリー,Tatakkiri,Tatakkri,00
+144,MWBー04,,オチテクール,Ochitecool,OchiCool,00
+145,GDSー04,,エンタイアー,Entire,,01
+146,CMPー04,,タモリカ,Tamofoot,,01
+147,KNKー04,,インセクトサリド,Insect Thallid,InsThlld,00
+148,EGGー04,,ハーフエッグ,Half-Egg,,00
+149,WFHー04,,ダックアンダー,Duck Under,DuckUndr,00
+150,BAYー04,,アンビリカル,Umbilical,Umbilicl,00
+151,BAYー03,,ーーーーーーーー,--------,,00
+152,BAYー03,,ーーーーーーーー,--------,,01

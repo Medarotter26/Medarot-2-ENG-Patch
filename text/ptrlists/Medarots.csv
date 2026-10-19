@@ -1,152 +1,152 @@
-Index,Name,Name_EN
-0,ゴーフバレット,
-1,デスフェニックス,
-2,レディブースター,
-3,ワンダエンジェル,
-4,エアプテラ,
-5,パラダイバー,
-6,ドラゴンビートル,
-7,クリムゾンキング,
-8,ユートピアン,
-9,ウィンドセシル,
-10,トランキュリィ,
-11,チャーリーベア,
-12,ハニワミラー,
-13,オケドグー,
-14,ジ・エンシェント,
-15,デーヴ,
-16,カコーモヤイ,
-17,サーチラット,
-18,サンウィッチー,
-19,フレイムティサラ,
-20,レッドスカーレス,
-21,シュートスパイダ,
-22,カネハチまーく2,
-23,マクドスネイク,
-24,チャージドシーズ,
-25,ナチュラルカラー,
-26,ビクトリホーン,
-27,ゴッドエンペラー,
-28,トリプルゴッツン,
-29,ヒパクリト,
-30,ポイズンスコピー,
-31,ヘッドシザース,
-32,メタルビートル,
-33,ワイアーニンジャ,
-34,ブルースドッグ,
-35,ラビウォンバット,
-36,ターンモンキー,
-37,ゾーリン,
-38,ベイアニット,
-39,ベルゼルガ,
-40,ペッパーキャット,
-41,セントナース,
-42,セーラーマルチ,
-43,スミロドナッド,
-44,ウォーバニット,
-45,アタックティラノ,
-46,バンカラン,
-47,ストンミラー,
-48,サーキュリス,
-49,プリティプライン,
-50,ランドローター,
-51,ホッピンスター,
-52,アーマパラディン,
-53,サボテンナ,
-54,アンボイナ,
-55,クルクルマルマン,
-56,アンタッカー,
-57,アントルジャー,
-58,トイワールド,
-59,カオーランタン,
-60,キースタートル,
-61,ジェントルハーツ,
-62,ランドブラキオ,
-63,ダッシュボタン,
-64,フラッペ,
-65,ソニックタンク,
-66,プルルンゼリー,
-67,ダークネスメイジ,
-68,アースクロノー,
-69,クリアダイビング,
-70,カッパーロード,
-71,メイティン,
-72,ペンタッチン,
-73,フラットステイク,
-74,フリッグフラッグ,
-75,マリンキラー,
-76,アビスグレーター,
-77,スターペンタゴン,
-78,ボトムフラッシュ,
-79,アクアクラウン,
-80,クローテングー,
-81,プロポリス,
-82,コフィンバット,
-83,ヘルフェニックス,
-84,レディジェット,
-85,ヒールエンジェル,
-86,ベティベア,
-87,ミスティゴースト,
-88,ハニワゴーレム,
-89,ドンドグー,
-90,ボリュームテン,
-91,ムーンドラゴン,
-92,パステルフェアリ,
-93,ビーストマスター,
-94,レッドマタドール,
-95,トラップスパイダ,
-96,カネハチ,
-97,マックスネイク,
-98,エースホーン,
-99,フラワーチャージ,
-100,セブンカラーズ,
-101,ろくしょう,
-102,めたびー,
-103,ニンニンジャ,
-104,ア・ブラーゲ,
-105,キン・タロウ,
-106,ア・ゲダマー,
-107,サムライ,
-108,シアンドッグ,
-109,ティーピー,
-110,キラビット,
-111,モンキーゴング,
-112,コスモエイリアン,
-113,ブラックメイル,
-114,セーラーメイツ,
-115,マゼンタキャット,
-116,オーロラクイーン,
-117,ホーリーナース,
-118,ゲットレディ,
-119,バニーハート,
-120,ランドモーター,
-121,ロールスター,
-122,コーマドッグ,
-123,マジカルピエロ,
-124,タンクソルジャー,
-125,ナイトアーマー,
-126,ドクタースタディ,
-127,エスカルローダー,
-128,イエロータートル,
-129,セキゾー,
-130,マッドマッスル,
-131,メガファント,
-132,ディグモール,
-133,キングファラオ,
-134,ブルーサブマリン,
-135,ユイチイタン,
-136,シェルクッション,
-137,リバーソーサー,
-138,ピュアマーメイド,
-139,ピンゲン,
-140,ラピ,
-141,さくらちゃん,
-142,タラバクラバ,
-143,エイシイスト,
-144,アンビギュアス,
-145,グレイトマザー,
-146,ティンクル,
-147,カソートーチュ,
-148,アンノーンエッグ,
-149,バイフィッシュ,
-150,プリミティベビー,
+Index,Name,Name_EN,Name_Short
+0,ゴーフバレット,Gaufbullet,Gaufbllt
+1,デスフェニックス,DeathPhoenix,DeathPhx
+2,レディブースター,LadyBooster,LadyBstr
+3,ワンダエンジェル,Wonder Angel,WndrAngl
+4,エアプテラ,Air-Ptera,AirPtera
+5,パラダイバー,Paradiver,Paradivr
+6,ドラゴンビートル,Dragonbeetle,DragnBtl
+7,クリムゾンキング,Crimson King,CrimKing
+8,ユートピアン,Utopian,
+9,ウィンドセシル,Wind Cecil,WndCecil
+10,トランキュリィ,Tranculi,
+11,チャーリーベア,Charlie Bear,ChrlBear
+12,ハニワミラー,Haniwa Mirror,HaniMirr
+13,オケドグー,OkeDoguu,
+14,ジ・エンシェント,The Ancient,TheAncnt
+15,デーヴ,Dave,
+16,カコーモヤイ,Kako Moyai,KakMoyai
+17,サーチラット,Searchrat,SrchRat
+18,サンウィッチー,Sunwitchy,Sunwtchy
+19,フレイムティサラ,Flame Tisala,FlmTisla
+20,レッドスカーレス,Redscarleth,RedScrlt
+21,シュートスパイダ,Shoot Spider,ShtSpidr
+22,カネハチまーく2,Kanehachi Mk2,KnhchMk2
+23,マクドスネイク,Macdosnake,McdSnake
+24,チャージドシーズ,Charged Seeds,ChgSeeds
+25,ナチュラルカラー,Natural Color,NatColor
+26,ビクトリホーン,Victory Horn,VictHorn
+27,ゴッドエンペラー,God Emperor,GodEmpr
+28,トリプルゴッツン,Triple Gottsun,TrplGtsn
+29,ヒパクリト,Hypocrite,Hypocrit
+30,ポイズンスコピー,Poison Scorpi,PsnScrpi
+31,ヘッドシザース,Head Scissors,HeadScis
+32,メタルビートル,Metal Beetle,MetalBtl
+33,ワイアーニンジャ,Wire-Ninja,WirNinja
+34,ブルースドッグ,Bluesdog,
+35,ラビウォンバット,Rabiwombat,RabiWmbt
+36,ターンモンキー,Turn Monkey,TrnMonky
+37,ゾーリン,Solin,
+38,ベイアニット,Bayonet,
+39,ベルゼルガ,Belzelga,
+40,ペッパーキャット,Peppercat,PepprCat
+41,セントナース,Saintnurse,StNurse
+42,セーラーマルチ,Sailor-Multi,SlrMulti
+43,スミロドナッド,Smilodonad,Smilodnd
+44,ウォーバニット,Warbonnet,Warbnnet
+45,アタックティラノ,Attack-Tyranno,AtkTyrno
+46,バンカラン,Bankaran,
+47,ストンミラー,Stone Mirror,StonMirr
+48,サーキュリス,Circulis,
+49,プリティプライン,Pretty Prime,PrtPrime
+50,ランドローター,Landrotor,LandRotr
+51,ホッピンスター,Hoppingstar,HoppnStr
+52,アーマパラディン,Armor Paladin,ArmPaldn
+53,サボテンナ,Sabotenna,Sabotena
+54,アンボイナ,Amboina,
+55,クルクルマルマン,Kurukuru Maruman,KuruMaru
+56,アンタッカー,Antacker,
+57,アントルジャー,Antoldier,Antldier
+58,トイワールド,Toy World,ToyWorld
+59,カオーランタン,Ka O' Lantern,KaOLntrn
+60,キースタートル,Keithturtle,KeithTrt
+61,ジェントルハーツ,Gentleheart,GentlHrt
+62,ランドブラキオ,Land-Brachio,LandBrch
+63,ダッシュボタン,Dashbutton,DashBttn
+64,フラッペ,Frappé,
+65,ソニックタンク,Sonic Tank,SonicTnk
+66,プルルンゼリー,Pururun Jelly,PurJelly
+67,ダークネスメイジ,Darkness Mage,DarkMage
+68,アースクロノー,Earth Chrono,ErthChrn
+69,クリアダイビング,Clear Diving,ClrDivng
+70,カッパーロード,Kappalord,KappaLrd
+71,メイティン,Maitin,
+72,ペンタッチン,Pentachin,Pentachn
+73,フラットステイク,Flat Steak,FltSteak
+74,フリッグフラッグ,Fligflag,
+75,マリンキラー,Marine Killer,MrnKillr
+76,アビスグレーター,Abyss Greater,AbysGrtr
+77,スターペンタゴン,Star Pentagon,StarPent
+78,ボトムフラッシュ,Bottomflash,BtmFlash
+79,アクアクラウン,Aqua Crown,AquaCrwn
+80,クローテングー,Crow Tengu,CrwTengu
+81,プロポリス,Propolis,
+82,コフィンバット,CoffinBat,CoffnBat
+83,ヘルフェニックス,HellPhoenix,HellPhx
+84,レディジェット,LadyJet,
+85,ヒールエンジェル,Heal Angel,HealAngl
+86,ベティベア,Betty Bear,BttyBear
+87,ミスティゴースト,Mistyghost,MistGhst
+88,ハニワゴーレム,Haniwa Golem,HaniGolm
+89,ドンドグー,DonDoguu,
+90,ボリュームテン,Volume 10,Volume10
+91,ムーンドラゴン,Moon Dragon,MoonDrgn
+92,パステルフェアリ,Pastel Fairy,PstFairy
+93,ビーストマスター,Beast Master,BeastMst
+94,レッドマタドール,Red Matador,RedMatdr
+95,トラップスパイダ,Trap Spider,TrpSpidr
+96,カネハチ,Kanehachi,Kanehchi
+97,マックスネイク,Maxsnake,
+98,エースホーン,Acehorn,
+99,フラワーチャージ,Flowercharge,FlwrChrg
+100,セブンカラーズ,Seven Colors,SevnClrs
+101,ろくしょう,Rokusho,
+102,めたびー,Metabee,
+103,ニンニンジャ,Nin-Ninja,NinNinja
+104,ア・ブラーゲ,A-Burage,
+105,キン・タロウ,Kin-Tarou,KinTarou
+106,ア・ゲダマー,A-Gedama,
+107,サムライ,Samurai,
+108,シアンドッグ,Cyandog,
+109,ティーピー,Teepee,
+110,キラビット,Kirabbit,
+111,モンキーゴング,Monkey Gong,MnkyGong
+112,コスモエイリアン,Cosmo-Alien,CsmAlien
+113,ブラックメイル,Blackmail,BlkMail
+114,セーラーメイツ,Sailormate,SlrMate
+115,マゼンタキャット,Magentacat,MagntCat
+116,オーロラクイーン,Auroraqueen,AuroraQn
+117,ホーリーナース,Holynurse,HlyNurse
+118,ゲットレディ,Get Ready,GetReady
+119,バニーハート,Bunnyheart,BunnyHrt
+120,ランドモーター,Landmotor,LandMotr
+121,ロールスター,Rollstar,
+122,コーマドッグ,Comadog,
+123,マジカルピエロ,Magical Pierrot,MgPierot
+124,タンクソルジャー,Tank Soldier,TankSldr
+125,ナイトアーマー,Knight Armor,KntArmor
+126,ドクタースタディ,Doctor Study,DrStudy
+127,エスカルローダー,Escarloader,EscLoadr
+128,イエロータートル,Yellowturtle,YlwTurtl
+129,セキゾー,Sekizou,
+130,マッドマッスル,Mad Muscle,MadMuscl
+131,メガファント,Megaphant,Megaphnt
+132,ディグモール,Digmole,
+133,キングファラオ,King Pharaoh,KPharaoh
+134,ブルーサブマリン,Blue Submarine,BlueSub
+135,ユイチイタン,Yuchitang,Yuchitng
+136,シェルクッション,Shell Cushion,ShlCushn
+137,リバーソーサー,River Saucer,RvrSaucr
+138,ピュアマーメイド,Pure Mermaid,PureMrmd
+139,ピンゲン,Pinguen,
+140,ラピ,Rappy,
+141,さくらちゃん,Sakura-Chan,Sakura
+142,タラバクラバ,Taraba Craba,TrbCraba
+143,エイシイスト,Atheist,
+144,アンビギュアス,Ambiguous,Ambiguos
+145,グレイトマザー,Great Mother,GrtMothr
+146,ティンクル,Twinkle,
+147,カソートーチュ,Kasou Touchu,KasoTchu
+148,アンノーンエッグ,Unknown Egg,UnknwEgg
+149,バイフィッシュ,Baifish,
+150,プリミティベビー,Primity Baby,PrimBaby

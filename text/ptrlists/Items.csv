@@ -1,57 +1,57 @@
-Index,Name,Name_EN,Flags
-0,タウンマップ,,01
-1,スカート,,08
-2,おベんとう,,00
-3,てがみ,,00
-4,こわれたパーツ,,00
-5,きもの,,09
-6,ラピのぬいぐるみ,,00
-7,ふねのチケット,,00
-8,おんなのこメダル,,00
-9,オレンジジュース,,00
-10,レモンパック,,00
-11,オイルデラックス,,00
-12,ゆうしゃのふく,,0A
-13,ドレス,,0B
-14,ぼうえんレンズ,,00
-15,ハムスター,,00
-16,カリンのしゃしん,,00
-17,なふだ,,00
-18,ミニハンドル,,02
-19,ロボロボのふく,,0C
-20,Aクラスのカギ,,00
-21,Bクラスのカギ,,00
-22,おおきなカギ,,00
-23,マンホールのカギ,,00
-24,ぎんのロケット,,05
-25,かぜのつばさ,,03
-26,レモン,,00
-27,レモンでんち,,00
-28,ポラロイド,,00
-29,フユーンストーン,,00
-30,しょうたいじょう,,00
-31,トランシーバー,,00
-32,キーワード1,,00
-33,キーワード2,,00
-34,キーワード3,,00
-35,キーワード4,,00
-36,さびたパーツ,,00
-37,スイッチ,,00
-38,せんぼうきょう,,04
-39,バニーのふく,,0D
-40,いぬのきぐるみ,,0E
-41,ダメロット,,00
-42,カワムラーサイン,,00
-43,カリンのメダル,,00
-44,パーツンバッジ,,00
-45,きんくろルアー,,00
-46,あおいカプセル,,00
-47,ももいろのはな,,00
-48,ゲームボーイあか,,00
-49,レアなメダロッチ,,00
-50,ロボロボメダル,,00
-51,ペンライト,,00
-52,てんそうチケット,,00
-53,フレンドカード,,00
-54,アリカのメダル,,00
-55,フレンドポイント,,00
+Index,Name,Name_EN,Name_Short,Flags
+0,タウンマップ,Town Map,,01
+1,スカート,Skirt,,08
+2,おベんとう,Boxed Lunch,BoxLunch,00
+3,てがみ,Letter,,00
+4,こわれたパーツ,Broken Parts,BrknPrts,00
+5,きもの,Kimono,,09
+6,ラピのぬいぐるみ,Rappy Plushie,RapPlush,00
+7,ふねのチケット,Ship Ticket,ShipTckt,00
+8,おんなのこメダル,Girl's Medal,GirlsMdl,00
+9,オレンジジュース,Orange Juice,OrngJuic,00
+10,レモンパック,Lemon Pack,LmnPack,00
+11,オイルデラックス,Oil Deluxe,OilDelux,00
+12,ゆうしゃのふく,Hero's Clothes,HeroClth,0A
+13,ドレス,Dress,,0B
+14,ぼうえんレンズ,Telephoto Lens,TeleLens,00
+15,ハムスター,Hamster,,00
+16,カリンのしゃしん,Karin's Photo,KrnPhoto,00
+17,なふだ,Name Tag,,00
+18,ミニハンドル,Mini-Handle,MiniHndl,02
+19,ロボロボのふく,RoboRobo Suit,RoboSuit,0C
+20,Aクラスのカギ,A-Class Key,AClssKey,00
+21,Bクラスのカギ,B-Class Key,BClssKey,00
+22,おおきなカギ,Big Key,,00
+23,マンホールのカギ,Manhole Key,ManhlKey,00
+24,ぎんのロケット,Silver Locket,SlvLockt,05
+25,かぜのつばさ,Wings of Wind,WngsWind,03
+26,レモン,Lemon,,00
+27,レモンでんち,Lemon Battery,LmnBttry,00
+28,ポラロイド,Polaroid,,00
+29,フユーンストーン,Fuyun Stone,FuyunStn,00
+30,しょうたいじょう,Invitation,Invitatn,00
+31,トランシーバー,Transceiver,Trnscvr,00
+32,キーワード1,Keyword 1,Keyword1,00
+33,キーワード2,Keyword 2,Keyword2,00
+34,キーワード3,Keyword 3,Keyword3,00
+35,キーワード4,Keyword 4,Keyword4,00
+36,さびたパーツ,Rusty Parts,RstyPrts,00
+37,スイッチ,Switch,,00
+38,せんぼうきょう,Periscope,Periscp,04
+39,バニーのふく,Bunny Suit,BnnySuit,0D
+40,いぬのきぐるみ,Dog Costume,DogCostm,0E
+41,ダメロット,Dame-rot,,00
+42,カワムラーサイン,Kawamuller's Autograph,Autogrph,00
+43,カリンのメダル,Karin's Medal,KrnMedal,00
+44,パーツンバッジ,Partsun Badge,PrtsnBdg,00
+45,きんくろルアー,Gold-Black Lure,GBlkLure,00
+46,あおいカプセル,Blue Capsule,BlueCpsl,00
+47,ももいろのはな,Pink Flower,PinkFlwr,00
+48,ゲームボーイあか,Game Boy Red,GmBoyRed,00
+49,レアなメダロッチ,Rare Medarotch,RrMdrtch,00
+50,ロボロボメダル,RoboRobo Medal,RoboMedl,00
+51,ペンライト,Penlight,,00
+52,てんそうチケット,Transfer Ticket,TrnsTckt,00
+53,フレンドカード,Friend Card,FrndCard,00
+54,アリカのメダル,Arika's Medal,ArkMedal,00
+55,フレンドポイント,Friend Point,FrndPnt,00

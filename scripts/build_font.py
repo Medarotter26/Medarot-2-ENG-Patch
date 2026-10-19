@@ -99,11 +99,32 @@ with open(out_font, 'wb') as f:
 with open(out_widths, 'wb') as f:
     f.write(bytes(widths))
 
-# Fixed width font: one glyph per tile, offset by one pixel from the left edge
+# Fixed width font: one glyph per tile. Letters and most punctuation come from the Medarot 1
+# translation's 8x8 font, everything else from the VWF glyphs offset by one pixel.
+M1_ORDER = (list('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz') +
+            ['"', '#', '%', '&', "'", ',', '-', '.', '/', ':', '~', '(', ')', '*', '+', '^', '_', '`',
+             '←', '…', '@', '♥', '♦', '♣', '♠', '·', '¥', '$', ';'])
+m1 = Image.open(os.path.join(os.path.dirname(m3_png), 'M1FixedFont.png')).convert('L')
+def m1_glyph(idx):
+    gx, gy = (idx % 16) * 8, (idx // 16) * 8
+    rows = []
+    for y in range(8):
+        b = 0
+        for x in range(8):
+            if m1.getpixel((gx + x, gy + y)) < 128:
+                b |= 0x80 >> x
+        rows.append(b)
+    return rows
 with open(out_fixed, 'wb') as f:
     for code in range(0x80):
-        g = font[code]
-        if code in charmap and widths[code] <= 6:
-            g = [r >> 1 for r in g]
+        ch = charmap.get(code)
+        if ch in ('“', '”'):
+            ch = '"'
+        if ch in M1_ORDER:
+            g = m1_glyph(M1_ORDER.index(ch))
+        else:
+            g = font[code]
+            if code in charmap and widths[code] <= 6:
+                g = [r >> 1 for r in g]
         for r in g:
             f.write(bytes([r, r]))
