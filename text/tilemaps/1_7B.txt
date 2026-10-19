@@ -16,8 +16,13 @@
 
 @ 1,0 max 11
 JP: いくつ うる?×
-EN:
+EN: many?  ×
 
 @ 3,0 max 12
 JP: もっているかず×
-EN:
+EN: Owned  ×
+
+# --- extra ---
+
+@ 0,0
+EN: Sell how

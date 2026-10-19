@@ -19,12 +19,12 @@
 
 @ 1,2 max 5
 JP: せつめい
-EN:
+EN: Help
 
 @ 3,2 max 5
 JP: せつぞく
-EN:
+EN: Link
 
 @ 5,2 max 5
 JP: やめる
-EN:
+EN: Quit

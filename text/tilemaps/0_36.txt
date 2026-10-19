@@ -22,16 +22,16 @@
 
 @ 1,0 max 5
 JP: そうこう
-EN:
+EN: Armor
 
 @ 3,0 max 5
 JP: かいすう
-EN:
+EN: Uses
 
 @ 5,0 max 5
 JP: せいこう
-EN:
+EN: Succ.
 
 @ 7,0 max 5
 JP: いリょく
-EN:
+EN: Power

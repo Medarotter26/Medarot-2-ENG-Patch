@@ -31,4 +31,4 @@
 @ 1,2 max 7
 # (dakuten drawn in graphics tile above column 3 ($CD, becomes $CC when translated))
 JP: メタロット
-EN:
+EN: Medarot

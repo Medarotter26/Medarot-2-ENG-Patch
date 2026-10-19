@@ -22,19 +22,19 @@
 
 [0_42]
 
-@ 1,2 max 7
+@ 1,1 max 7
 # (dakuten drawn in graphics tile above column 3 ($95, becomes $8D when translated))
 JP: メタフォース
-EN:
+EN: M.Force
 
 @ 1,11 max 4
 JP: しょうひ
-EN:
+EN: Cost
 
 @ 5,13 max 6
 JP: /せいこうち
-EN:
+EN: /Succ.
 
 @ 10,11 max 8
 JP: いリょく
-EN:
+EN: Power

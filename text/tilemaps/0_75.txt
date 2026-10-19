@@ -16,10 +16,10 @@
 
 [0_75]
 
-@ 2,2 max 9
+@ 2,3 max 9
 JP: ボタンで
-EN:
+EN: to view
 
 @ 4,1 max 10
 JP: しょうさいがめん
-EN:
+EN: details

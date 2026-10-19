@@ -20,12 +20,12 @@
 
 @ 2,2 max 8
 JP: リーダーにする
-EN:
+EN: Leader
 
 @ 4,2 max 8
 JP: ステータスをみる
-EN:
+EN: Status
 
 @ 6,2 max 8
 JP: もどる
-EN:
+EN: Back

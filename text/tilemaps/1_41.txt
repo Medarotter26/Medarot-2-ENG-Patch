@@ -20,12 +20,12 @@
 
 @ 0,3 max 6
 JP: キャラクター
-EN:
+EN: Chars
 
 @ 3,0 max 3
 JP: せいし
-EN:
+EN: Pic
 
 @ 7,0 max 3
 JP: アニメ
-EN:
+EN: Ani

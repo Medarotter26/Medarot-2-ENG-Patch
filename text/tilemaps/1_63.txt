@@ -30,4 +30,4 @@
 
 @ 15,13 max 6
 JP: おかね
-EN:
+EN: Money

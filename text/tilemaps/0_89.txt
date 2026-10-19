@@ -18,8 +18,8 @@
 
 @ 2,1 max 10
 JP: このパーツで
-EN:
+EN: Is this
 
 @ 4,1 max 10
 JP: よろしいですか?
-EN:
+EN: part OK?

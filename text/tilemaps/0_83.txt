@@ -18,8 +18,8 @@
 
 @ 2,1 max 12
 JP: データてんそうちゅう!
-EN:
+EN: Sending data
 
 @ 4,1 max 12
 JP: しばらくおまちください!
-EN:
+EN: Please wait!

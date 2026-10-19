@@ -24,8 +24,8 @@
 
 @ 11,1 max 6
 JP: レベル
-EN:
+EN: Lv.
 
 @ 11,13 max 6
 JP: レベル
-EN:
+EN: Lv.

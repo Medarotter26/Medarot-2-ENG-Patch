@@ -24,16 +24,16 @@
 
 @ 1,2 max 5
 JP: かう
-EN:
+EN: Buy
 
 @ 3,2 max 5
 JP: うる
-EN:
+EN: Sell
 
 @ 5,2 max 5
 JP: スマイル
-EN:
+EN: Smile
 
 @ 7,2 max 5
 JP: やめる
-EN:
+EN: Quit

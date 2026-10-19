@@ -14,4 +14,4 @@
 
 @ 1,0 max 7
 JP: セーブちゅう!
-EN:
+EN: Saving!

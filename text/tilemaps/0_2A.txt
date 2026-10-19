@@ -17,14 +17,19 @@
 
 [0_2A]
 
-@ 1,6 max 6
+@ 1,7 max 6
 JP: メダロット
-EN:
+EN: rot
 
-@ 6,1 max 4
+@ 6,0 max 4
 JP: メダル
-EN:
+EN: Medal
 
-@ 6,14 max 4
+@ 6,13 max 4
 JP: パーツ
-EN:
+EN: Parts
+
+# --- extra ---
+
+@ 0,7
+EN: Meda-

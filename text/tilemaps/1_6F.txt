@@ -29,16 +29,16 @@
 
 @ 5,2 max 4
 JP: ゲット
-EN:
+EN: Get
 
 @ 8,2 max 4
 JP: ルーズ
-EN:
+EN: Lose
 
 @ 12,2 max 4
 JP: もどる
-EN:
+EN: Back
 
 @ 15,1 max 5
 JP: ぜんげっと
-EN:
+EN: All

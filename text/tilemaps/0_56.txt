@@ -22,16 +22,16 @@
 
 @ 2,2 max 8
 JP: チームからはずす
-EN:
+EN: Remove
 
 @ 4,2 max 8
 JP: ステータスをみる
-EN:
+EN: Status
 
 @ 6,2 max 8
 JP: ロボトルかいし
-EN:
+EN: Robattle
 
 @ 8,2 max 8
 JP: もどる
-EN:
+EN: Back

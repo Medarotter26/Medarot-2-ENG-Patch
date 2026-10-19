@@ -24,4 +24,4 @@
 
 @ 1,9 max 9
 JP: おかね
-EN:
+EN: Cash

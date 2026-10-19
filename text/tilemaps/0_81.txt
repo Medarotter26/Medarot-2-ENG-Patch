@@ -22,20 +22,20 @@
 
 @ 1,0 max 8
 JP: あそびでロボトル
-EN:
+EN: Friendly
 
 @ 3,0 max 8
 JP: しんけんロボトル
-EN:
+EN: Serious
 
 @ 5,0 max 8
 JP: パーツのトレード
-EN:
+EN: Tr.Parts
 
 @ 7,0 max 8
 JP: メダルのトレード
-EN:
+EN: Tr.Medal
 
 @ 9,0 max 8
 JP: つうしんをきる
-EN:
+EN: End Link

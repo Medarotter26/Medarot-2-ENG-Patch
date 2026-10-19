@@ -14,4 +14,4 @@
 
 @ 1,0 max 12
 JP: これで よろしいですか?
-EN:
+EN: Is this OK?

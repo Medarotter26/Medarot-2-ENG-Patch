@@ -18,8 +18,8 @@
 
 @ 2,1 max 10
 JP: セレクトボタンで
-EN:
+EN: SELECT:
 
-@ 4,4 max 7
+@ 4,2 max 7
 JP: パーツきリかえ
-EN:
+EN: Part Type

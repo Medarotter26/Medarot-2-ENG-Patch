@@ -17,8 +17,8 @@
 
 @ 1,2 max 3
 JP: つかう
-EN:
+EN: Use
 
 @ 3,2 max 3
 JP: みる
-EN:
+EN: See

@@ -29,12 +29,12 @@
 
 [0_38]
 
-@ 1,2 max 9
+@ 1,1 max 9
 # (dakuten drawn in graphics tile above column 3 ($C3, becomes $BB when translated))
 JP: メタルせんたく
-EN:
+EN: Pick Medal
 
 @ 11,13 max 6
 # (dakuten drawn in graphics tile above column 14 ($C3, becomes $BB when translated))
 JP: レヘル
-EN:
+EN: Lv.

@@ -22,7 +22,7 @@
 
 [1_D7]
 
-@ 1,4 max 13
+@ 1,3 max 13
 # (dakuten drawn in graphics tile above column 4 ($8F, becomes $00 when translated), 8 ($8E, becomes $00 when translated))
 JP: ハスワート にゅうリょく
-EN:
+EN: Enter Password

@@ -17,8 +17,8 @@
 
 @ 1,2 max 3
 JP: ふやす
-EN:
+EN: Get
 
 @ 3,2 max 3
 JP: わたす
-EN:
+EN: Snd

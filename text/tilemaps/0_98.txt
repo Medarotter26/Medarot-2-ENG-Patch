@@ -17,8 +17,8 @@
 
 @ 1,2 max 3
 JP: はい
-EN:
+EN: Yes
 
 @ 3,2 max 3
 JP: いいえ
-EN:
+EN: No

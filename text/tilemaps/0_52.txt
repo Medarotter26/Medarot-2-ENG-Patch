@@ -14,4 +14,4 @@
 
 @ 1,0 max 15
 JP: メダロットを えらんでください
-EN:
+EN: Pick a Medarot

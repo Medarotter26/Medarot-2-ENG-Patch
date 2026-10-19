@@ -17,8 +17,8 @@
 
 @ 1,2 max 3
 JP: なおす
-EN:
+EN: Fix
 
 @ 3,2 max 3
 JP: やめる
-EN:
+EN: End
