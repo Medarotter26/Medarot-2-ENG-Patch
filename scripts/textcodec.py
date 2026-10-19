@@ -9,6 +9,11 @@ import utils
 RES = os.path.join(os.path.dirname(__file__), 'res')
 
 LINE_WIDTH = (18 * 8, 17 * 8)  # Pixels per line; the last tile of line 2 holds the 'next' arrow
+FIXED_LINE_WIDTH = (18, 17)    # Characters per line for the fixed width font (tilemap mode)
+DEFAULT_RAM_CHARS = 8
+
+# Sections that may be displayed in tilemap mode (fixed width font)
+FIXED_WIDTH_SECTIONS = (0, 1)
 LINES_PER_BOX = 2
 SPACING = 1
 
@@ -31,6 +36,7 @@ class Codec:
         if widths_path:
             self.widths = open(widths_path, 'rb').read()
         self.ram_widths = {}
+        self.fixed = False
         p = os.path.join(RES, 'ram_widths.tbl')
         if os.path.exists(p):
             for k, v in utils.read_table(p).items():
@@ -71,16 +77,30 @@ class Codec:
         return out
 
     def char_width(self, code):
+        if self.fixed:
+            return 1
         return self.widths[code] + SPACING
 
     def token_width(self, tok):
         if tok[0] == 'char':
             return self.char_width(tok[1])
         if tok[1] == '&':
+            if self.fixed:
+                return DEFAULT_RAM_CHARS
             return self.ram_widths.get(tok[3], DEFAULT_RAM_WIDTH)
         return 0
 
-    def layout(self, text):
+    def line_width(self, line):
+        return (FIXED_LINE_WIDTH if self.fixed else LINE_WIDTH)[line % LINES_PER_BOX]
+
+    def layout(self, text, fixed=False):
+        self.fixed = fixed
+        try:
+            return self._layout(text)
+        finally:
+            self.fixed = False
+
+    def _layout(self, text):
         """Encode English text, wrapping lines and inserting box breaks as needed."""
         toks = self.tokenize(text)
         out = bytearray()
@@ -131,11 +151,11 @@ class Codec:
         width = 0
         for w, forced_break in words:
             ww = sum(self.token_width(t) for t in w)
-            limit = LINE_WIDTH[(len(lines) - 1) % LINES_PER_BOX]
+            limit = self.line_width(len(lines) - 1)
             if lines[-1] and (forced_break or width + space_w + ww > limit):
                 lines.append([])
                 width = 0
-                limit = LINE_WIDTH[(len(lines) - 1) % LINES_PER_BOX]
+                limit = self.line_width(len(lines) - 1)
             elif not lines[-1] and forced_break and width == 0 and len(lines) > 1:
                 pass
             if lines[-1]:

@@ -5,9 +5,8 @@ INCLUDE "game/src/common/functions.asm"
 ; Variable width font renderer for the main script.
 ;
 ; Characters are drawn into a row of tiles for each line of the text box:
-;  * Mode 1 (rendered tiles): the window maps tiles $C3-$E6 (VRAM $8C30), 18 tiles per line.
-;  * Mode 0 (direct tilemap): the font occupies all 256 tiles, but tiles $90-$B3 belong to
-;    character codes that are never drawn (dakuten combinations), so they hold the text instead.
+;  * Only mode 1 (rendered tiles) uses it: the window maps tiles $C3-$E6 (VRAM $8C30),
+;    18 tiles per line. Mode 0 draws the fixed width font straight to the tilemap.
 ;
 ; Glyphs are 8x8 1bpp, left aligned, with a width table. One pixel of spacing is added after
 ; every character.
@@ -105,10 +104,6 @@ VWFClearTilesInternal:
 
 VWFGetTileBase:
   ; hl = address of the first tile of the drawing area
-  ld a, [W_TextMode]
-  or a
-  ld hl, VWF_MODE0_TILE_ADDRESS
-  ret z
   ld hl, VWF_MODE1_TILE_ADDRESS
   ret
 

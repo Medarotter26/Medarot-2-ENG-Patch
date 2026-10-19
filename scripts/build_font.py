@@ -2,7 +2,8 @@
 # Builds the 1bpp VWF font (256 glyphs indexed by the English encoding) and its width table.
 # Glyphs come from the Medarot 3 translation's VWF font (ASCII ordered), symbols missing from it
 # are taken from Medarot 2's own font.
-# Usage: build_font.py <M3Font.1bpp.png> <baserom> <charmap_en.tbl> <out .1bpp> <out .widths>
+# Also builds the fixed width 2bpp font for codes $00-$7F (replacing the font in bank $3B)
+# Usage: build_font.py <M3Font.1bpp.png> <baserom> <charmap_en.tbl> <out .1bpp> <out .widths> <out fixed .2bpp>
 import os
 import sys
 from PIL import Image
@@ -10,7 +11,7 @@ from PIL import Image
 sys.path.append(os.path.join(os.path.dirname(__file__), 'common'))
 import utils
 
-m3_png, rom_path, charmap_path, out_font, out_widths = sys.argv[1:6]
+m3_png, rom_path, charmap_path, out_font, out_widths, out_fixed = sys.argv[1:7]
 
 # Widths of the Medarot 3 VWF font (excluding the 1px spacing), ASCII order
 M3_WIDTHS = [
@@ -97,3 +98,12 @@ with open(out_font, 'wb') as f:
         f.write(bytes(g))
 with open(out_widths, 'wb') as f:
     f.write(bytes(widths))
+
+# Fixed width font: one glyph per tile, offset by one pixel from the left edge
+with open(out_fixed, 'wb') as f:
+    for code in range(0x80):
+        g = font[code]
+        if code in charmap and widths[code] <= 6:
+            g = [r >> 1 for r in g]
+        for r in g:
+            f.write(bytes([r, r]))

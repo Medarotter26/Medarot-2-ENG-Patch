@@ -29,6 +29,7 @@ COMMON := $(wildcard $(SRC)/common/*.asm)
 
 FONT := $(BUILD)/gfx/VWFFont.1bpp
 FONT_WIDTHS := $(BUILD)/gfx/VWFFont.widths
+FIXED_FONT := $(BUILD)/gfx/FixedFont.2bpp
 DIALOG := $(wildcard text/dialog/*.csv)
 TEXT_OUT := $(BUILD)/text/text_data.asm
 
@@ -55,9 +56,10 @@ $(BUILD)/%.o: $(SRC)/%.asm $(COMMON) | $(BUILD)
 $(BUILD)/core/text_engine.o: $(TEXT_OUT)
 $(BUILD)/text/text_data.o: $(TEXT_OUT)
 $(BUILD)/patch/vwf.o: $(FONT) $(FONT_WIDTHS)
+$(BUILD)/patch/fonts.o: $(FIXED_FONT)
 
-$(FONT) $(FONT_WIDTHS): gfx/patch/M3Font.1bpp.png $(SCRIPT)/build_font.py $(RES)/charmap_en.tbl | $(BUILD)
-	$(PYTHON) $(SCRIPT)/build_font.py $< $(ORIGINAL_PREFIX)kuwagata.gbc $(RES)/charmap_en.tbl $(FONT) $(FONT_WIDTHS)
+$(FONT) $(FONT_WIDTHS) $(FIXED_FONT): gfx/patch/M3Font.1bpp.png $(SCRIPT)/build_font.py $(RES)/charmap_en.tbl | $(BUILD)
+	$(PYTHON) $(SCRIPT)/build_font.py $< $(ORIGINAL_PREFIX)kuwagata.gbc $(RES)/charmap_en.tbl $(FONT) $(FONT_WIDTHS) $(FIXED_FONT)
 
 $(TEXT_OUT): $(DIALOG) $(FONT_WIDTHS) $(SCRIPT)/build_text.py $(SCRIPT)/textcodec.py $(RES)/charmap_en.tbl
 	$(PYTHON) $(SCRIPT)/build_text.py $(ORIGINAL_PREFIX)kuwagata.gbc text/dialog $(FONT_WIDTHS) $(BUILD)/text $(TEXT_FIRST_BANK) $(TEXT_LAST_BANK)

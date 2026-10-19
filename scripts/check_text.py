@@ -10,7 +10,7 @@ import re
 import sys
 
 sys.path.append(os.path.dirname(__file__))
-from textcodec import Codec
+from textcodec import Codec, FIXED_WIDTH_SECTIONS
 
 root = os.path.join(os.path.dirname(__file__), '..')
 widths = os.path.join(root, 'build', 'gfx', 'VWFFont.widths')
@@ -29,8 +29,9 @@ for path in files:
             continue
         idx, orig, tr = row[0], row[2], row[3]
         where = f'{os.path.basename(path)}:{idx}'
+        section = int(os.path.basename(path)[11:13])
         try:
-            data = codec.layout(tr)
+            data = codec.layout(tr, fixed=section in FIXED_WIDTH_SECTIONS)
         except Exception as e:
             print(f'{where}: ERROR {e}')
             errors += 1

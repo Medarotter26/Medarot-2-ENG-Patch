@@ -54,8 +54,7 @@ MainScriptInit::
   ld hl, $9C41
   call MainScriptSetCursor
   ld a, $01
-  call $1C2C
-  jp MainScriptMapMode0Tiles
+  jp $1C2C
 
 .renderedTiles
   ld a, [W_TextWindowAlt]
@@ -432,7 +431,6 @@ MainScriptCCWaitAndClear:
   ld e, $00
   ld a, $00
   call $0B2A
-  call MainScriptMapMode0Tiles
   ld hl, $9C41
   jr .done
 
@@ -611,10 +609,28 @@ MainScriptCharacter:
 MainScriptDrawCharacter:
   ; a = character
   ld [W_TextChar], a
+  ld a, [W_TextMode]
+  or a
+  jr z, .tilemap
+  ld a, [W_TextChar]
   call VWFDrawCharacter
   ld a, [W_TextBank]
   rst $10
   ret
+
+.tilemap
+  ; Mode 0 uses the fixed width font, one tile per character
+  ld a, [W_TextCursorHi]
+  ld h, a
+  ld a, [W_TextCursorLo]
+  ld l, a
+  ld a, [W_TextChar]
+  di
+  call $0A9F
+  ld [hl], a
+  ei
+  inc hl
+  jp MainScriptSetCursor
 
 MainScriptClearPortrait:
   ld a, [W_TextPortrait]
@@ -642,7 +658,7 @@ MainScriptClearBox::
   call $0B2A
   ld a, [W_TextMode]
   or a
-  jp z, MainScriptMapMode0Tiles
+  ret z
   call VWFClearTiles
   ld bc, $0102
   ld e, $11
@@ -659,23 +675,6 @@ MainScriptClearBox::
   ld e, $11
   ld a, $00
   jp $0B2A
-
-MainScriptMapMode0Tiles:
-  ; In mode 0, the box is drawn by mapping the VWF tiles into the window directly
-  call VWFClearTiles
-  ld hl, $9C41
-  ld a, VWF_MODE0_TILE
-  call .mapLine
-  ld hl, $9C81
-  ld a, VWF_MODE0_TILE + VWF_LINE_TILES
-.mapLine
-  ld b, VWF_LINE_TILES
-.loop
-  call $0AA8
-  inc a
-  dec b
-  jr nz, .loop
-  ret
 
 MainScriptSectionTable::
   INCLUDE "build/text/section_table.asm"

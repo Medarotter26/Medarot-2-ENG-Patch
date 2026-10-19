@@ -11,7 +11,7 @@ import sys
 sys.path.append(os.path.dirname(__file__))
 sys.path.append(os.path.join(os.path.dirname(__file__), 'common'))
 import utils
-from textcodec import Codec
+from textcodec import Codec, FIXED_WIDTH_SECTIONS
 
 TEXT_BANK_TABLE = 0x237e
 TEXT_BANK_COUNT = 19
@@ -34,8 +34,8 @@ def original_bytes(bank, ptr):
         i += {0xC3: 2, 0xC5: 3, 0xC7: 2}.get(b, 1)
     return rom[addr:i]
 
-def encode_translation(text):
-    data = bytearray(codec.layout(text))
+def encode_translation(text, section):
+    data = bytearray(codec.layout(text, fixed=section in FIXED_WIDTH_SECTIONS))
     if len(data) < 2 or data[-2] != 0xC1:
         data += b'\xC1\x00'
     return bytes(data)
@@ -88,7 +88,7 @@ for section in range(TEXT_BANK_COUNT):
             loc = placed[int(original[1:], 16)]
         else:
             if tr:
-                data = encode_translation(tr)
+                data = encode_translation(tr, section)
                 translated += 1
             else:
                 data = original_bytes(orig_banks[section], ptr)
