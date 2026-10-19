@@ -32,6 +32,8 @@ FONT_WIDTHS := $(BUILD)/gfx/VWFFont.widths
 FIXED_FONT := $(BUILD)/gfx/FixedFont.2bpp
 DIALOG := $(wildcard text/dialog/*.csv)
 TEXT_OUT := $(BUILD)/text/text_data.asm
+TILEMAPS := $(wildcard text/tilemaps/*.txt)
+TILEMAP_OUT := $(BUILD)/tilemaps/tilemaps.asm
 PTRLISTS := $(wildcard text/ptrlists/*.csv)
 PTRLISTS_OUT := $(BUILD)/text/ptrlists.asm
 LIST_RELOCATION_BANK := 0xC8
@@ -65,6 +67,7 @@ $(BUILD)/text/text_data.o: $(TEXT_OUT)
 $(BUILD)/text/ptrlists.o: $(PTRLISTS_OUT)
 $(BUILD)/patch/vwf.o: $(FONT) $(FONT_WIDTHS)
 $(BUILD)/patch/fonts.o: $(FIXED_FONT)
+$(BUILD)/patch/tilemaps.o: $(TILEMAP_OUT)
 $(BUILD)/patch/tilesets.o: $(TILESETS_OUT)
 
 $(FONT) $(FONT_WIDTHS) $(FIXED_FONT): gfx/patch/M3Font.1bpp.png $(SCRIPT)/build_font.py $(RES)/charmap_en.tbl | $(BUILD)
@@ -80,6 +83,10 @@ $(PTRLISTS_OUT): $(PTRLISTS) $(SCRIPT)/build_ptrlists.py $(SCRIPT)/dump_ptrlists
 $(TILESETS_OUT): $(TILESETS) $(SCRIPT)/build_tilesets.py
 	@mkdir -p $(dir $@)
 	$(PYTHON) $(SCRIPT)/build_tilesets.py gfx/tilesets $@ $(TILESET_FIRST_BANK) $(TILESET_LAST_BANK)
+
+# Menu/screen tilemaps (text/tilemaps/*.txt); untranslated tilemaps are left untouched
+$(TILEMAP_OUT): $(TILEMAPS) $(SCRIPT)/build_tilemaps.py $(SCRIPT)/dump_tilemaps.py $(SCRIPT)/common/tilemaps.py $(SCRIPT)/textcodec.py $(RES)/charmap_en.tbl $(RES)/charmap_jp.tbl
+	$(PYTHON) $(SCRIPT)/build_tilemaps.py $(ORIGINAL_PREFIX)kuwagata.gbc text/tilemaps $@
 
 $(BUILD):
 	mkdir -p $@

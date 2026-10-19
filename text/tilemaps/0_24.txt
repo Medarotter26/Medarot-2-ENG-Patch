@@ -24,16 +24,16 @@
 
 @ 4,2 max 14
 JP: てにいれたメダル
-EN:
+EN: Medals found
 
 @ 6,2 max 14
 JP: てにいれたパーツ
-EN:
+EN: Parts found
 
 @ 8,3 max 11
 JP: プレイじかん
-EN:
+EN: Play time
 
 @ 10,2 max 12
 JP: かち/しあいすう
-EN:
+EN: Wins/Battles

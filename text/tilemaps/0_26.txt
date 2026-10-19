@@ -16,8 +16,8 @@
 
 @ 1,0 max 8
 JP: セレクトボタンで
-EN:
+EN: SELECT:
 
 @ 3,0 max 13
 JP: じゅんばんを いれかえます
-EN:
+EN: to reorder.

@@ -68,3 +68,28 @@ Terms not in the glossary, as chosen by the section translators. Review for cons
 - サイトウ ヒロシ → Hiroshi Saito; コミックボンボン → Comic Bonbon; メダコレ → MedaCollection
 - スラフシステム → Slaf System (section 03: Slough System — unify); Jet Coaster Spirit (vs "Spirit roller coaster" in 17)
 - B3 random-capitals speech; Kodine boy broken English; Select Corps ", sir!"
+
+## Section 14
+- シャークごう → the Shark; ようちえんかんぶ → kindergarten executive; わるガキトリオ → the Screws (M1 name for Iwanoi's gang)
+- あねご → Boss; テガラ → credit; はくい → the lab coat (glossary "Lab Coat"); ヒカルどの → Hikaru
+- Sarami lisp ("ethcape"); God Emperor katakana in ALL CAPS
+
+## Section 10
+- Screws epithets: Wind Chime Kikuhime / Sparkler Iwanoi / Paper Fan Kagamiyama; ロボロボしょくどう → RoboRobo Cafeteria
+- はくいのおじさん → Mister Lab Coat; 10/20/30ばいカレー → 10x/20x/30x Spicy curry; Karin's father → Mr. Junmai; Arika's mother → Mrs. Amazake (others: Ms. Amazake — unify)
+- Retort intro "curry-ously elegant"; Sarami lisp
+- Unsure: 0B5-0B7 5963 pun; quiz 097-0AF
+
+## Section 15
+- Mockingbird, Pousse-Café, Negroni, Gibson, Nikolaschka, Bourbonella, Balalaika; はなれこじま → the Lone Islet
+- かげろうのサカヅキ → Sakazuki the Mirage; れっかのヒザケ → Hizake the Inferno; "Robattle Till You Win"; "New Kids' Kingdom"
+- Old man garbles robattle: ボトルロ → "batrobble" (TextSection01 row 227 should match)
+
+## Section 16
+- Select Red/Blue/Yellow; カラフルせんたい → the Colorful Squadron; Red/Blue/Yellow Tulip; launch bay, control room, engine room
+- Ant Medarots' アリ tic → ", ant"; アンタッカーいちどう → The Antackers
+
+## Section 07
+- Bunny Bar; Statue of Bonaparte the Faithful Dog; リキュール → Liqueur; カルア → Kahlua; モモコ → Momoko; ボナちゃん → Bona-boo
+- サイドカー → Sidecar; ぞのはながくえん → Zonohana Academy; ロボロボこどもぐんだん → RoboRobo Kid Brigade; こどもかんぶ → Kiddie Executive
+- イタズラけんきゅうしつ → Prank Lab; ロボロボそうこ → RoboRobo Storehouse; Hitsuji: "Master <&CB26>"

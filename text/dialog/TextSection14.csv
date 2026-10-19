@@ -181,54 +181,54 @@ Index,Pointer,Original,Translated
 0B3,0x6DBD,<@05>あの ちょっと!<CR>まだ なかに ひとが・・・<CF><CC><@BD>こーんーどーは<CR>オレさまは ここを どかないゾ!<CF><CC>オレさまは ここで<CR>おひるねを するのだ!<CF><CC><@06>そんな! ちょっと どいてよ!,"<@05>Um, hey! There are still people inside...<CF><CC><@BD>This time, I'm NOT moving from this spot!<CF><CC>I'm taking my nap right here!<CF><CC><@06>No way! Come on, move!"
 0B4,0x6E1D,<@04>アリカ カリンちゃん!<CR>あれ? コウジは?<CF><CC><@12>ロボロボだんの かんぶの ひとと<CR>セレクトたいの ひとを<CF><CC>おいかけて いって しまいました<CF><CC><@00>わるガキ トリオは?<CF><CC><@09>とっくに でてっちゃったわよ<CF><CC><@04>そっか<CF><CC><@00>ヒカルさんや キララさんは<CR>どうしたんだろ? しんぱいだな,<@04>Arika! Karin! Huh? Where's Koji?<CF><CC><@12>He went chasing after a RoboRobo Gang executive<CF><CC>and someone from the Select Corps.<CF><CC><@00>What about the Screws?<CF><CC><@09>They left ages ago.<CF><CC><@04>I see.<CF><CC><@00>I wonder what happened to Hikaru and Kirara? I'm worried.
 0B5,0x6EB0,<@05>ばくはつ・・・しなきゃ いいけど<CF><CC><@11>ばくはつ!?<CF><CC><@1A>まさか この おしろが!?,<@05>I hope it doesn't... explode.<CF><CC><@11>Explode!?<CF><CC><@1A>You don't mean this castle!?
-0B6,0x6EDF,<@5C>ごくろうじゃったな <&CB26><CR>おまえさんには くろうを かけた<CF><CC>もとはと いえば ヘベレケの<CR>わしに たいする さかうらみが<CF><CC>げんいん だったような もんじゃ<CF><CC><@00>さかうらみ?<CF><CC><@5E>やつは なにかと わしと はリあって<CR>おったが わしに かてたことは<CF><CC>1ども ないんじゃ!<CF><CC><@05>はぁ それで ヘベレケはかせは<CR>せかい せいふく・・・ですかぁ<CF><CC><@63>おつかれでしょう<CR><&CB26>くん<CF><CC>いまは いえに かえって<CR>ゆっくリ やすむ ときですわ<CF><CC>それから また ぜひ<CR>あそびにきて くださいね♥,
-0B7,0x6FDB,<@01>じゃ ぼくも はやく みんなの<CR>ところに いこっと!,
-0B8,0x6FF9,<@01>あっははは!<CF><CC><@A9>これからは わたしたちも<CR>あなたに まけない<CF><CC>かつやくが できるよう<CR>がんばリますよ<CF><CC><@01>ええ!<CR>がんばって ください!<CF><CC><@A8>ふねは こちらで よういしました<CR>もと ロボロボだんの<CF><CC>シャークごう とかいう ふねですが<CR>みなさんを おみくじまちまで<CF><CC>おおくリ しますよ<CR>さあ のって ください!,
-0B9,0x709E,<@1F>・・・まっ なんだか<CR>うまく いったみてぇだし<CF><CC>さっさと かえって<CR>やすもうぜ <&CB26><CF><CC><@0D>いろいろ あったけど<CR>けっこう たのしかったわよ<CF><CC>さ いこっ!<CR><&CB26><CF><CC><@13>いきましょう!<CF><CC><@04>うん!,
-0BA,0x7108,<@09>いろんなこと あったよね<CF><CC>まったく あんたには<CR>すっかリ だまされたわ<CF><CC><@06>だましたなんて そんな!<CF><CC><@05>・・・でも そうだったかも<CF><CC><@0A>あはは! ほんとに もうっ!<CF><CC><@09>・・・あのさ<CF><CC><@00>なに?<CF><CC><@10>これからも あたし そばに<CR>いても いいのかな・・・?<CF><CC><@00>え?,
-0BB,0x7199,<@31>わぁっ!<CF><CC><@27>おすんじゃ ないわよぉ<CF><CC><@30>イタい イタいイタい!,
-0BC,0x71BF,<@02>おまえら なにしてんだよっ!<CF><CC><@2C>いや そこで チューッと<CR>いくかなー なんて<CF><CC><@02>いくかっ!<CR>なあ アリカ,
-0BD,0x71FB,<@10>・・・・・<CF><CC><@2C>おーっとぉ こいつは いがいと<CF><CC><@26><&CB26>の<CR>いくじなしィ,
-0BE,0x7226,<@02>ぜいっ ぜいっ ぜいっ<CR>まったく あいつらと きたら・・・,
-0BF,0x7247,<@26>あっはっは!<CR><&CB26> からかうと<CF><CC>おもしろいわねぇ!<CR>ムキに なって・・・,
-0C0,0x7271,<@30>あっ! あねご あれ!<CF><CC><@25>え? なぁに?,
-0C1,0x728B,<@08>ちゅって いま・・・,
-0C2,0x7299,<@11>ちょっ ちょっと<CR><&CB26>!<CF><CC>どうしたのよっ<CR>だいじょうぶ!?・・・ねえ!<CF><CC><@0B>んもうっ!<CR>だらしないんだから<CF><CC><@0D>これで せいぎのヒーローだって<CR>いえるの かしらね? ふふっ,
-0C3,0x72F7,<@01>ただいまー<CF><CC><@C2>おかえリ <&CB26><CR>ソルティが さびしがってるわよ<CF><CC>あんたの いぬ なんだから<CR>もっと かまって やリなさいよ<CF><CC><@04>あ うん そうだね,
-0C4,0x7348,<@2F>まってくれよー<CR>あねごー!,
-0C5,0x7359,<@35>ぼ ぼくのこと<CR>わすれないで・・・,
-0C6,0x736E,<@0A>かえってきた からには!<CR>とくダネ いっぱい さがすぞー!<CF><CC>せかいが あたしの かつやくを<CR>まっている!,
-0C7,0x73A7,<@16><&CB26>くん<CR>その・・・おねがいが あるんです<CF><CC><@04>なに? カリンちゃん<CF><CC><@19>わたし <&CB26>くんのこと<CR>・・・・・・・<CF><CC>おもいでの ばしょで<CR>まっていて いいですか?<CF><CC><@00>・・・えっ?<CF><CC><@18>あっ そのっ<CR>なんでも ないですっ!,
-0C8,0x7420,<@08>あっ カリンちゃん!?<CF><CC><@00>・・・なんなんだ?<CR>いったい??,
-0C9,0x7443,<@1B><&CB26>!,
-0CA,0x744B,<@00>なんだよ? コウジ<CF><CC>カリンちゃん もう さきに<CR>いっちゃったぞ?<CF><CC><@1B>・・・・・<CF><CC><@00>どうしたのさ?<CF><CC><@20>その うまく いえないんだけどさ<CR>おれ いままでずっと カリンを<CF><CC>まもって やれるのは おれしか<CR>いないと おもってたんだ<CF><CC>でも いまは・・・<CF><CC><@00>いまは?<CF><CC><@1B>おまえになら まかせられると おもう<CR>これからは おまえが・・・,
-0CB,0x74FD,<@09>コウジくん みーっけ!,
-0CC,0x750C,<@00>アリカ<CF><CC><@1B>なんだ?<CF><CC><@09>コウジくんは あたしと<CR>いっしょに くるの!<CF><CC>とくダネ ものに するんだから!<CF><CC><@20>はあ? なんで おれが<CR>んなこと しなきゃ なんないんだよ<CF><CC><@09>だって あなた <&CB26>の<CR>ライバルなんでしょ?<CF><CC>だったら あたしと<CR>おんなじ たちばじゃない<CF><CC>いっしょに こうどうしてた<CR>ほうが おとくって ものよ,
-0CD,0x75B8,<@08>え!? どういうこと?<CR>アリカ!<CF><CC><@09>つまリぃ <&CB26>が<CR>あたしに かくれて<CF><CC>たっくさん かつやく<CR>してくれちゃった ことが<CF><CC>あたしの ジャーナリスト だましいに<CR>ひを つけたって わけ<CF><CC>あんたには まけないんだから!<CF><CC>・・・さっ そうときまれば<CR>いくわよ コウジくん!,
-0CE,0x7648,<@20>・・・って おい!<CR>かってに きめんなよ!<CF><CC><@09>もんく いわないの! これが 1ばん<CR>いい ほうほう なんだから!,
-0CF,0x7686,<@20>まったく なんだってんだ?<CR>わけが わからねぇ,
-0D0,0x76A1,<@1E>とにかくだ <&CB26>!<CR>カリンのこと たのんだからなっ!<CF><CC><@1F>・・・たのむぜ ほんとに,
-0D1,0x76D0,<@09>はやくっ! コウジくん<CR>とくダネが にげちゃう!,
-0D2,0x76EC,<@1D>めいれい される おぼえは<CR>ないんだよっ!,
-0D3,0x7705,<@04>カリンちゃん なかせたリしたら<CR>コウジに なぐられそうだな<CF><CC><@00>・・・それにしても<CR>カリンちゃんの いってた<CF><CC>「おもいでの ばしょ」って<CR>どこなんだろ?<CF><CC><@05>・・・・・・・・・<CR>わかんなかったら<CF><CC>カリンちゃんちに いって<CR>きいてみるか<CF><CC><@04>カリンちゃんを あまリ<CR>またせないように しなきゃな,
-0D4,0x77A0,<@69><&CB26>くん<CR>カリンを たのんだよ,
-0D5,0x77B4,<@69>おお <&CB26>くん!<CR>カリンは ぶじに かえってきたよ<CF><CC>あリがとう! きみの おかげだ!<CF><CC><@04>ど どういたしましてっ<CF><CC><@00>それで あの<CR>カリンちゃんは?<CF><CC><@69>なんでも フユーンとか いうところに<CR>いくと いって でかけたよ<CF><CC>おもいでの ばしょが どうとか<CR>いっていたが?<CF><CC><@00>フユーンですか<CF><CC><@04>・・・はい! わかリました<CR>おじゃましました!,
-0D6,0x7869,<@04>カリンちゃん ここにいたんだ!<CF><CC><@13><&CB26>くん<CR>きて くれたんですね! うれしい!<CF><CC><@04>でも どうして ここに?<CF><CC><@16>フユーンは おもいでの<CR>ばしょなんです<CF><CC>ひとリで ふあんで<CR>たまらなかったとき あなたが<CF><CC>きてくれたんです<CF><CC><@19><&CB26>くん その・・・,
-0D7,0x78F1,<@00>どのチャンネルも ロボロボだんの<CR>だつごくニュースのこと ばかリだ<CF><CC><@05>そんな かんたんに<CR>にげられちゃうなんて<CF><CC>どんな つかまえかた<CR>してたんだよ まったく・・・,
-0D8,0x7949,<@12>コウジくんに・・・ですか?<CF><CC><@04>うん でも ぼくは<CR>たのまれたからじゃ なくて<CF><CC>ぼくの いしで カリンちゃんの<CR>そばに いたいって おもうんだ<CF><CC><@19><&CB26>くん・・・,
-0D9,0x79A2,<@24>わんわん!<CF><CC><@01>ソルティ きてくれたのか!<CR>あはは!,
-0DA,0x79C1,<@2B>わかってんだろうなぁ<CR><&CB26><CF><CC>おれは まだ おまえに<CR>まけたわけじゃ ねーからな!<CF><CC><@04>こリない やつだな<CR>ま あいては してやるよ!,
-0DB,0x7A0A,<@2D>くーーーっ!<CR>なまいきに なリやがって!<CF><CC><@2E>まっ そういって られるのも<CR>いまの うちさ! みてろよ!,
-0DC,0x7A43,<@25>いつまでも かちにげ<CR>させないわよぉ<CF><CC>こんどは がっこうで<CR>あそんで あげるんだからぁ<CF><CC>おぼえてなさぁい<CF><CC><@04>たのしみに してるよ<CF><CC><@28>ふーんだ,
-0DD,0x7A93,<@34>はやくおふろに はいリたい<CR>パンツもいっしょに あらうんだ<CF><CC><@00>おまえの メダロットは<CR>サビると おもうから やめとけよな<CF><CC><@35>おふろに はいれないなんて<CR>ぼくの メダロット かわいそう,
-0DE,0x7AF6,<@04>あいつらも あいかわらずだな<CR>でも ほんぶでは ぼくの<CF><CC>ちからに なってくれた,
-0DF,0x7B22,<@0D>いろんなこと あったから<CR>いいきじが かけそう!<CF><CC>あたしが たいけん したこと<CR>みんなで がんばったこと<CF><CC>あたし ぜったい わすれない<CR>きじをかいたら またスクープを<CF><CC>さがしに でかけるんだ!,
-0E0,0x7B89,<@0A><&CB26> あんたとも<CR>いろいろ あったけど<CF><CC>あたし たのしかった!<CF><CC>あんた けっこう<CR>かっこよかったよ!<CF><CC><@07>いやぁ やっぱリ?<CR>そうかなぁ そうだよねぇ<CF><CC><@0B>ちょうし のってんじゃ ないの!<CF><CC><@0A>それじゃ これからも よろしく!<CF><CC><@01>うん!,
-0E1,0x7C0B,<@1E>おまえとの ケリは<CR>まだ ついてないからな!<CF><CC>かえったら ロボトルだぜ!<CF><CC><@22>それと・・・<CR>また あそびに こいよな<CF><CC><@01>うん!,
-0E2,0x7C52,<@16><&CB26>くん わたし<CR>あなたに あえて よかった!<CF><CC>あなたの そばに いるだけで<CR>わたし なんだか わくわく<CF><CC>するんです!<CF><CC>これからも なかよくして<CR>もらえますか?<CF><CC><@01>もちろんだよ!,
-0E3,0x7CB5,<@1F>さあ カリンの おやじさんが<CR>しんぱいしてる いくぞ カリン<CF><CC><@13>それでは <&CB26>くん<CR>また おあいしましょうね!,
-0E4,0x7CF3,<@00>えっ?,
-0E5,0x7CFA,<@24>わんわん,
-0E6,0x7D02,<@04>そうだね ソルティ<CR>ぼくたちも かえろう!,
-0E7,0x7D1B,<@05>うっ・・・それは<CF><CC><@5C>メダロットしゃに いってみなされ<CF><CC>おまえさんに やくにたつ<CR>アイテムが えられるじゃろう<CF><CC><@00>わかリました<CR>じゃ いってきます はかせ<CF><CC><@5C>きをつけての,
-0E8,0x7D7A,<@A4>ヘベレケと ロボロボだん<CR>かんぶどもの とうぼう<CF><CC>そして メダロッとうの<CR>とつぜんの ふうさ<CF><CC>そこヘ おまえが あらわれた!<CF><CC><@A5>ワシの カンは ただしかった!<CR>キサマの いるばしょ テガラあリ!<CF><CC>わるいが こぞう こんども<CR>テガラは ワシの ものだ!,
+0B6,0x6EDF,<@5C>ごくろうじゃったな <&CB26><CR>おまえさんには くろうを かけた<CF><CC>もとはと いえば ヘベレケの<CR>わしに たいする さかうらみが<CF><CC>げんいん だったような もんじゃ<CF><CC><@00>さかうらみ?<CF><CC><@5E>やつは なにかと わしと はリあって<CR>おったが わしに かてたことは<CF><CC>1ども ないんじゃ!<CF><CC><@05>はぁ それで ヘベレケはかせは<CR>せかい せいふく・・・ですかぁ<CF><CC><@63>おつかれでしょう<CR><&CB26>くん<CF><CC>いまは いえに かえって<CR>ゆっくリ やすむ ときですわ<CF><CC>それから また ぜひ<CR>あそびにきて くださいね♥,"<@5C>Good work, <&CB26>. I've put you through a lot.<CF><CC>When you get right down to it, all of this was<CF><CC>caused by Hebereke's grudge against me.<CF><CC><@00>A grudge?<CF><CC><@5E>He was always trying to compete with me,<CF><CC>but he never beat me<CF><CC>even once!<CF><CC><@05>Huh... So that's why Dr. Hebereke wanted to conquer the world...?<CF><CC><@63>You must be tired, <&CB26>.<CF><CC>Now is the time to go home and get some rest.<CF><CC>And then please do come visit us again sometime♥"
+0B7,0x6FDB,<@01>じゃ ぼくも はやく みんなの<CR>ところに いこっと!,"<@01>Well, I'd better hurry and catch up with everyone too!"
+0B8,0x6FF9,<@01>あっははは!<CF><CC><@A9>これからは わたしたちも<CR>あなたに まけない<CF><CC>かつやくが できるよう<CR>がんばリますよ<CF><CC><@01>ええ!<CR>がんばって ください!<CF><CC><@A8>ふねは こちらで よういしました<CR>もと ロボロボだんの<CF><CC>シャークごう とかいう ふねですが<CR>みなさんを おみくじまちまで<CF><CC>おおくリ しますよ<CR>さあ のって ください!,"<@01>Ahahaha!<CF><CC><@A9>From now on, we'll work hard too,<CF><CC>so we can be just as heroic<CF><CC>as you.<CF><CC><@01>Yeah! Good luck!<CF><CC><@A8>We've prepared a ship for you. It used to belong to the RoboRobo Gang,<CF><CC>a ship called the Shark or something, but it'll take<CF><CC>all of you back to Omikuji Town. Now, please climb aboard!"
+0B9,0x709E,<@1F>・・・まっ なんだか<CR>うまく いったみてぇだし<CF><CC>さっさと かえって<CR>やすもうぜ <&CB26><CF><CC><@0D>いろいろ あったけど<CR>けっこう たのしかったわよ<CF><CC>さ いこっ!<CR><&CB26><CF><CC><@13>いきましょう!<CF><CC><@04>うん!,"<@1F>...Well, looks like it all worked out somehow.<CF><CC>Let's hurry home and get some rest, <&CB26>.<CF><CC><@0D>A lot happened, but it was actually pretty fun.<CF><CC>Come on, let's go, <&CB26>!<CF><CC><@13>Let's go!<CF><CC><@04>Yeah!"
+0BA,0x7108,<@09>いろんなこと あったよね<CF><CC>まったく あんたには<CR>すっかリ だまされたわ<CF><CC><@06>だましたなんて そんな!<CF><CC><@05>・・・でも そうだったかも<CF><CC><@0A>あはは! ほんとに もうっ!<CF><CC><@09>・・・あのさ<CF><CC><@00>なに?<CF><CC><@10>これからも あたし そばに<CR>いても いいのかな・・・?<CF><CC><@00>え?,"<@09>So much happened, huh?<CF><CC>Honestly, you totally fooled me.<CF><CC><@06>Fooled you? No way, I didn't!<CF><CC><@05>...Well, maybe I did.<CF><CC><@0A>Ahaha! Honestly, you!<CF><CC><@09>...Hey.<CF><CC><@00>What?<CF><CC><@10>Is it okay if I stay by your side from now on, too...?<CF><CC><@00>Huh?"
+0BB,0x7199,<@31>わぁっ!<CF><CC><@27>おすんじゃ ないわよぉ<CF><CC><@30>イタい イタいイタい!,"<@31>Whoa!<CF><CC><@27>Don't push!<CF><CC><@30>Ow, ow, ow, ow!"
+0BC,0x71BF,<@02>おまえら なにしてんだよっ!<CF><CC><@2C>いや そこで チューッと<CR>いくかなー なんて<CF><CC><@02>いくかっ!<CR>なあ アリカ,"<@02>What are you guys doing!?<CF><CC><@2C>Nah, we were just wonderin' if you'd go in for a smooch...<CF><CC><@02>As if! Right, Arika?"
+0BD,0x71FB,<@10>・・・・・<CF><CC><@2C>おーっとぉ こいつは いがいと<CF><CC><@26><&CB26>の<CR>いくじなしィ,"<@10>.....<CF><CC><@2C>Ooooh, well whaddya know.<CF><CC><@26><&CB26>, you big chicken~"
+0BE,0x7226,<@02>ぜいっ ぜいっ ぜいっ<CR>まったく あいつらと きたら・・・,"<@02>Huff... huff... huff... Honestly, those guys..."
+0BF,0x7247,<@26>あっはっは!<CR><&CB26> からかうと<CF><CC>おもしろいわねぇ!<CR>ムキに なって・・・,"<@26>Ahahaha! Teasing you is so much fun, <&CB26>!<CF><CC>Getting all worked up like that..."
+0C0,0x7271,<@30>あっ! あねご あれ!<CF><CC><@25>え? なぁに?,"<@30>Ah! Boss, look over there!<CF><CC><@25>Huh? What?"
+0C1,0x728B,<@08>ちゅって いま・・・,<@08>Wh-was that just now... a kiss...?
+0C2,0x7299,<@11>ちょっ ちょっと<CR><&CB26>!<CF><CC>どうしたのよっ<CR>だいじょうぶ!?・・・ねえ!<CF><CC><@0B>んもうっ!<CR>だらしないんだから<CF><CC><@0D>これで せいぎのヒーローだって<CR>いえるの かしらね? ふふっ,"<@11>H-hey, <&CB26>!<CF><CC>What's wrong!? Are you okay!? ...Hey!<CF><CC><@0B>Geez! You're hopeless!<CF><CC><@0D>And you call yourself a hero of justice? Hehe."
+0C3,0x72F7,<@01>ただいまー<CF><CC><@C2>おかえリ <&CB26><CR>ソルティが さびしがってるわよ<CF><CC>あんたの いぬ なんだから<CR>もっと かまって やリなさいよ<CF><CC><@04>あ うん そうだね,"<@01>I'm home!<CF><CC><@C2>Welcome home, <&CB26>. Salty's been lonely.<CF><CC>He's your dog, so you should play with him more.<CF><CC><@04>Oh, yeah. You're right."
+0C4,0x7348,<@2F>まってくれよー<CR>あねごー!,"<@2F>Wait for me, Boss!"
+0C5,0x7359,<@35>ぼ ぼくのこと<CR>わすれないで・・・,<@35>D-don't forget about me...
+0C6,0x736E,<@0A>かえってきた からには!<CR>とくダネ いっぱい さがすぞー!<CF><CC>せかいが あたしの かつやくを<CR>まっている!,"<@0A>Now that I'm back, I'm gonna find tons of scoops!<CF><CC>The world awaits my brilliant work!"
+0C7,0x73A7,<@16><&CB26>くん<CR>その・・・おねがいが あるんです<CF><CC><@04>なに? カリンちゃん<CF><CC><@19>わたし <&CB26>くんのこと<CR>・・・・・・・<CF><CC>おもいでの ばしょで<CR>まっていて いいですか?<CF><CC><@00>・・・えっ?<CF><CC><@18>あっ そのっ<CR>なんでも ないですっ!,"<@16><&CB26>... Um... I have a favor to ask.<CF><CC><@04>What is it, Karin?<CF><CC><@19>I... <&CB26>, I.......<CF><CC>May I wait for you at the place of our memories?<CF><CC><@00>...Huh?<CF><CC><@18>Ah, um... N-never mind!"
+0C8,0x7420,<@08>あっ カリンちゃん!?<CF><CC><@00>・・・なんなんだ?<CR>いったい??,"<@08>Ah, Karin!?<CF><CC><@00>...What was that all about??"
+0C9,0x7443,<@1B><&CB26>!,<@1B><&CB26>!
+0CA,0x744B,<@00>なんだよ? コウジ<CF><CC>カリンちゃん もう さきに<CR>いっちゃったぞ?<CF><CC><@1B>・・・・・<CF><CC><@00>どうしたのさ?<CF><CC><@20>その うまく いえないんだけどさ<CR>おれ いままでずっと カリンを<CF><CC>まもって やれるのは おれしか<CR>いないと おもってたんだ<CF><CC>でも いまは・・・<CF><CC><@00>いまは?<CF><CC><@1B>おまえになら まかせられると おもう<CR>これからは おまえが・・・,"<@00>What is it, Koji?<CF><CC>Karin already went on ahead, you know.<CF><CC><@1B>.....<CF><CC><@00>What's wrong?<CF><CC><@20>I can't really put it into words, but... all this time, I thought<CF><CC>I was the only one who could protect Karin.<CF><CC>But now...<CF><CC><@00>Now?<CF><CC><@1B>I think I can trust you with her. From now on, you'll..."
+0CB,0x74FD,<@09>コウジくん みーっけ!,"<@09>Found you, Koji!"
+0CC,0x750C,<@00>アリカ<CF><CC><@1B>なんだ?<CF><CC><@09>コウジくんは あたしと<CR>いっしょに くるの!<CF><CC>とくダネ ものに するんだから!<CF><CC><@20>はあ? なんで おれが<CR>んなこと しなきゃ なんないんだよ<CF><CC><@09>だって あなた <&CB26>の<CR>ライバルなんでしょ?<CF><CC>だったら あたしと<CR>おんなじ たちばじゃない<CF><CC>いっしょに こうどうしてた<CR>ほうが おとくって ものよ,"<@00>Arika.<CF><CC><@1B>What?<CF><CC><@09>Koji, you're coming with me!<CF><CC>We're gonna land a big scoop!<CF><CC><@20>Huh? Why should I have to do something like that?<CF><CC><@09>Well, you're <&CB26>'s rival, aren't you?<CF><CC>Then you and I are in the same boat.<CF><CC>It's to our advantage to team up!"
+0CD,0x75B8,<@08>え!? どういうこと?<CR>アリカ!<CF><CC><@09>つまリぃ <&CB26>が<CR>あたしに かくれて<CF><CC>たっくさん かつやく<CR>してくれちゃった ことが<CF><CC>あたしの ジャーナリスト だましいに<CR>ひを つけたって わけ<CF><CC>あんたには まけないんだから!<CF><CC>・・・さっ そうときまれば<CR>いくわよ コウジくん!,"<@08>Huh!? What do you mean, Arika!?<CF><CC><@09>In other words, the way <&CB26> went and did<CF><CC>all those amazing things behind my back<CF><CC>has lit a fire in my journalist's soul!<CF><CC>I'm not gonna lose to you!<CF><CC>...Right, now that that's settled, let's go, Koji!"
+0CE,0x7648,<@20>・・・って おい!<CR>かってに きめんなよ!<CF><CC><@09>もんく いわないの! これが 1ばん<CR>いい ほうほう なんだから!,"<@20>...Hey, wait! Don't go deciding stuff on your own!<CF><CC><@09>No complaining! This is the best way!"
+0CF,0x7686,<@20>まったく なんだってんだ?<CR>わけが わからねぇ,"<@20>Geez, what's going on? I don't get it at all."
+0D0,0x76A1,<@1E>とにかくだ <&CB26>!<CR>カリンのこと たのんだからなっ!<CF><CC><@1F>・・・たのむぜ ほんとに,"<@1E>Anyway, <&CB26>! I'm counting on you to look after Karin!<CF><CC><@1F>...I mean it, okay?"
+0D1,0x76D0,<@09>はやくっ! コウジくん<CR>とくダネが にげちゃう!,"<@09>Hurry up, Koji! The scoop's getting away!"
+0D2,0x76EC,<@1D>めいれい される おぼえは<CR>ないんだよっ!,<@1D>I don't remember agreeing to take orders from you!
+0D3,0x7705,<@04>カリンちゃん なかせたリしたら<CR>コウジに なぐられそうだな<CF><CC><@00>・・・それにしても<CR>カリンちゃんの いってた<CF><CC>「おもいでの ばしょ」って<CR>どこなんだろ?<CF><CC><@05>・・・・・・・・・<CR>わかんなかったら<CF><CC>カリンちゃんちに いって<CR>きいてみるか<CF><CC><@04>カリンちゃんを あまリ<CR>またせないように しなきゃな,"<@04>If I ever make Karin cry, Koji would probably punch me.<CF><CC><@00>...Anyway, where's this<CF><CC>""place of our memories"" Karin was talking about?<CF><CC><@05>.........If I can't figure it out,<CF><CC>I guess I'll go to Karin's house and ask.<CF><CC><@04>I'd better not keep Karin waiting too long."
+0D4,0x77A0,<@69><&CB26>くん<CR>カリンを たのんだよ,"<@69><&CB26>, please take care of Karin."
+0D5,0x77B4,<@69>おお <&CB26>くん!<CR>カリンは ぶじに かえってきたよ<CF><CC>あリがとう! きみの おかげだ!<CF><CC><@04>ど どういたしましてっ<CF><CC><@00>それで あの<CR>カリンちゃんは?<CF><CC><@69>なんでも フユーンとか いうところに<CR>いくと いって でかけたよ<CF><CC>おもいでの ばしょが どうとか<CR>いっていたが?<CF><CC><@00>フユーンですか<CF><CC><@04>・・・はい! わかリました<CR>おじゃましました!,"<@69>Oh, <&CB26>! Karin came home safe and sound.<CF><CC>Thank you! It's all thanks to you!<CF><CC><@04>Y-you're welcome!<CF><CC><@00>So, um, where's Karin?<CF><CC><@69>She said she was going to some place called Fuyun and left.<CF><CC>She mentioned something about a place of memories...<CF><CC><@00>Fuyun, huh?<CF><CC><@04>...Okay! Got it! Sorry for barging in!"
+0D6,0x7869,<@04>カリンちゃん ここにいたんだ!<CF><CC><@13><&CB26>くん<CR>きて くれたんですね! うれしい!<CF><CC><@04>でも どうして ここに?<CF><CC><@16>フユーンは おもいでの<CR>ばしょなんです<CF><CC>ひとリで ふあんで<CR>たまらなかったとき あなたが<CF><CC>きてくれたんです<CF><CC><@19><&CB26>くん その・・・,"<@04>Karin! So this is where you were!<CF><CC><@13><&CB26>, you came for me! I'm so happy!<CF><CC><@04>But why here?<CF><CC><@16>Fuyun is the place of my memories.<CF><CC>When I was all alone and so scared I couldn't bear it,<CF><CC>you came for me.<CF><CC><@19><&CB26>... um..."
+0D7,0x78F1,<@00>どのチャンネルも ロボロボだんの<CR>だつごくニュースのこと ばかリだ<CF><CC><@05>そんな かんたんに<CR>にげられちゃうなんて<CF><CC>どんな つかまえかた<CR>してたんだよ まったく・・・,<@00>Every channel is talking about nothing but the RoboRobo Gang's jailbreak.<CF><CC><@05>How could they let them escape so easily?<CF><CC>How were they even keeping them locked up...?
+0D8,0x7949,<@12>コウジくんに・・・ですか?<CF><CC><@04>うん でも ぼくは<CR>たのまれたからじゃ なくて<CF><CC>ぼくの いしで カリンちゃんの<CR>そばに いたいって おもうんだ<CF><CC><@19><&CB26>くん・・・,"<@12>Koji asked you to...?<CF><CC><@04>Yeah. But it's not because he asked me.<CF><CC>I want to be by your side, Karin, because that's what I choose.<CF><CC><@19><&CB26>..."
+0D9,0x79A2,<@24>わんわん!<CF><CC><@01>ソルティ きてくれたのか!<CR>あはは!,"<@24>Woof woof!<CF><CC><@01>Salty, you came for me! Ahaha!"
+0DA,0x79C1,<@2B>わかってんだろうなぁ<CR><&CB26><CF><CC>おれは まだ おまえに<CR>まけたわけじゃ ねーからな!<CF><CC><@04>こリない やつだな<CR>ま あいては してやるよ!,"<@2B>You know the deal, <&CB26>.<CF><CC>Don't think I've lost to you for good yet!<CF><CC><@04>You never learn, do you? Well, I'll take you on anytime!"
+0DB,0x7A0A,<@2D>くーーーっ!<CR>なまいきに なリやがって!<CF><CC><@2E>まっ そういって られるのも<CR>いまの うちさ! みてろよ!,<@2D>Grrrr! You've gotten real cocky!<CF><CC><@2E>Enjoy it while it lasts! Just you wait!
+0DC,0x7A43,<@25>いつまでも かちにげ<CR>させないわよぉ<CF><CC>こんどは がっこうで<CR>あそんで あげるんだからぁ<CF><CC>おぼえてなさぁい<CF><CC><@04>たのしみに してるよ<CF><CC><@28>ふーんだ,<@25>I won't let you keep winning and running off forever~<CF><CC>Next time I'll play with you at school~<CF><CC>Don't you forget it~<CF><CC><@04>I'm looking forward to it.<CF><CC><@28>Hmph!
+0DD,0x7A93,<@34>はやくおふろに はいリたい<CR>パンツもいっしょに あらうんだ<CF><CC><@00>おまえの メダロットは<CR>サビると おもうから やめとけよな<CF><CC><@35>おふろに はいれないなんて<CR>ぼくの メダロット かわいそう,"<@34>I wanna hop in the bath already. I'm gonna wash my undies at the same time!<CF><CC><@00>Better leave your Medarot out of it. I bet it'd rust.<CF><CC><@35>My poor Medarot, it doesn't get to take a bath..."
+0DE,0x7AF6,<@04>あいつらも あいかわらずだな<CR>でも ほんぶでは ぼくの<CF><CC>ちからに なってくれた,"<@04>Those guys are the same as ever. But back at the<CF><CC>headquarters, they really helped me out."
+0DF,0x7B22,<@0D>いろんなこと あったから<CR>いいきじが かけそう!<CF><CC>あたしが たいけん したこと<CR>みんなで がんばったこと<CF><CC>あたし ぜったい わすれない<CR>きじをかいたら またスクープを<CF><CC>さがしに でかけるんだ!,"<@0D>So much happened, I can write a great article!<CF><CC>Everything I experienced, and how hard we all worked together...<CF><CC>I'll never forget any of it! Once I've written the article,<CF><CC>I'm heading out to hunt for my next scoop!"
+0E0,0x7B89,<@0A><&CB26> あんたとも<CR>いろいろ あったけど<CF><CC>あたし たのしかった!<CF><CC>あんた けっこう<CR>かっこよかったよ!<CF><CC><@07>いやぁ やっぱリ?<CR>そうかなぁ そうだよねぇ<CF><CC><@0B>ちょうし のってんじゃ ないの!<CF><CC><@0A>それじゃ これからも よろしく!<CF><CC><@01>うん!,"<@0A><&CB26>, a lot happened between us too,<CF><CC>but I had fun!<CF><CC>You were actually pretty cool!<CF><CC><@07>Heh, you think so? Yeah, I guess I was, huh?<CF><CC><@0B>Don't get a big head!<CF><CC><@0A>Well then, let's keep getting along from now on!<CF><CC><@01>Yeah!"
+0E1,0x7C0B,<@1E>おまえとの ケリは<CR>まだ ついてないからな!<CF><CC>かえったら ロボトルだぜ!<CF><CC><@22>それと・・・<CR>また あそびに こいよな<CF><CC><@01>うん!,"<@1E>We still haven't settled things between us!<CF><CC>Once we're back home, it's robattle time!<CF><CC><@22>And also... come hang out again sometime.<CF><CC><@01>Yeah!"
+0E2,0x7C52,<@16><&CB26>くん わたし<CR>あなたに あえて よかった!<CF><CC>あなたの そばに いるだけで<CR>わたし なんだか わくわく<CF><CC>するんです!<CF><CC>これからも なかよくして<CR>もらえますか?<CF><CC><@01>もちろんだよ!,"<@16><&CB26>, I'm so glad I met you!<CF><CC>Just being by your side makes me<CF><CC>feel so excited!<CF><CC>Will you keep being my friend<CF><CC>from now on?<CF><CC><@01>Of course!"
+0E3,0x7CB5,<@1F>さあ カリンの おやじさんが<CR>しんぱいしてる いくぞ カリン<CF><CC><@13>それでは <&CB26>くん<CR>また おあいしましょうね!,"<@1F>Come on, your old man's worried about you. Let's go, Karin.<CF><CC><@13>Well then, <&CB26>, let's meet again!"
+0E4,0x7CF3,<@00>えっ?,<@00>Huh?
+0E5,0x7CFA,<@24>わんわん,<@24>Woof woof!
+0E6,0x7D02,<@04>そうだね ソルティ<CR>ぼくたちも かえろう!,"<@04>You're right, Salty. Let's go home too!"
+0E7,0x7D1B,<@05>うっ・・・それは<CF><CC><@5C>メダロットしゃに いってみなされ<CF><CC>おまえさんに やくにたつ<CR>アイテムが えられるじゃろう<CF><CC><@00>わかリました<CR>じゃ いってきます はかせ<CF><CC><@5C>きをつけての,"<@05>Uh... well, that's...<CF><CC><@5C>Try going to the Medarot Company.<CF><CC>You should be able to get an item there that'll help you.<CF><CC><@00>Okay. I'm off then, Doctor.<CF><CC><@5C>Take care."
+0E8,0x7D7A,<@A4>ヘベレケと ロボロボだん<CR>かんぶどもの とうぼう<CF><CC>そして メダロッとうの<CR>とつぜんの ふうさ<CF><CC>そこヘ おまえが あらわれた!<CF><CC><@A5>ワシの カンは ただしかった!<CR>キサマの いるばしょ テガラあリ!<CF><CC>わるいが こぞう こんども<CR>テガラは ワシの ものだ!,"<@A4>Hebereke and the RoboRobo Gang executives escape...<CF><CC>Then Medarot Island is suddenly<CF><CC>sealed off...<CF><CC>And who should show up but you!<CF><CC><@A5>My hunch was right! Wherever you are, there's credit to be had!<CF><CC>Sorry, brat, but the credit's going to be mine this time too!"

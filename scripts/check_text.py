@@ -18,7 +18,7 @@ if not os.path.exists(widths):
     os.system(f'cd {root} && make build/gfx/VWFFont.widths > /dev/null')
 codec = Codec(widths_path=widths)
 
-files = sys.argv[1:] or sorted(glob.glob(os.path.join(root, 'text', 'dialog', '*.csv')))
+files = [a for a in sys.argv[1:] if a != '-v'] or sorted(glob.glob(os.path.join(root, 'text', 'dialog', '*.csv')))
 CODE_RE = re.compile(r'<([@&*S][0-9A-F]+)>')
 errors = 0
 for path in files:
@@ -48,6 +48,15 @@ for path in files:
             t = [c for c in t_codes if c.startswith(kind)]
             if sorted(o) != sorted(t):
                 print(f'{where}: WARNING {kind} codes differ: {o} vs {t}')
+        o_seq = re.findall(r'<(CF|CC|@[0-9A-F]+)>', orig)
+        t_seq = re.findall(r'<(CF|CC|@[0-9A-F]+)>', tr)
+        if o_seq != t_seq:
+            o_p = [c for c in o_seq if c.startswith('@')]
+            t_p = [c for c in t_seq if c.startswith('@')]
+            if o_p != t_p:
+                print(f'{where}: WARNING portrait order differs: {" ".join(o_p)} vs {" ".join(t_p)}')
+            elif '-v' in sys.argv:
+                print(f'{where}: NOTE box structure differs: {" ".join(o_seq)} vs {" ".join(t_seq)}')
         o_boxes = orig.count('<CF>') + orig.count('<CC>')
         t_boxes = data.count(0xC4) + data.count(0xC6)
         if t_boxes > o_boxes * 2 + 2:

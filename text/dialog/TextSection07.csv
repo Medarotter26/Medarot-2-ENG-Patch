@@ -159,138 +159,138 @@ Index,Pointer,Original,Translated
 09D,0x64AC,<@A0>たいちょうの めいれいで あリます!<CR>タイホするで あリます!,"<@A0>Captain's orders, sir! You're under arrest, sir!"
 09E,0x64CF,<@A2>にんむ しっぱいであリます!,"<@A2>Mission failed, sir!"
 09F,0x64E1,<@00>みんな! ぼくに ついてくるんだ,<@00>Everyone! Follow me!
-0A0,0x64F5,<@82>それじゃ<CR>はなぞのがくえんに しゅうごう!,
-0A1,0x650E,<@82>ごくろう ごくろう,
-0A2,0x651B,<@82>さきに いってるもんね!,
-0A3,0x652B,<@05>ちょうしのいい やつらだなぁ,
-0A4,0x653D,<@00>はなぞのがくえんに いかなくちゃ!,
-0A5,0x6552,<@82>つかまっちゃうわ!<CR>ねえ はやく やっつけて!,
-0A6,0x656D,<@85>つかまったら おうちに<CR>かえれないよー,
-0A7,0x6584,<@83>おにーさんなら セレクトたいなんて<CR>らくしょーでしょ?,
-0A8,0x65A3,<@A0>タイホするで あリます!,
-0A9,0x65B3,<@48>さあ かくれて!<CF><CC><@00>は はいっ!,
-0AA,0x65C9,<@83>わーい やったぞ!<CR>さあ あとに つづけー!<CF><CC><@08>わ ちょっと,
-0AB,0x65ED,<@05>すこしは めんどうみるほうの<CR>みにも なってよ まったく,
-0AC,0x660D,<@85>ふたリは ぶじに がくえんに<CR>はいれたみたい なんだけど<CF><CC>つぎに いった こが<CR>つかまっちゃったの,
-0AD,0x6643,<@05>あーあ まったくもう<CR>しかたないなぁ<CF><CC><@85>たすけて くれるんでしょ?<CF><CC><@04>きみたちを がくえんに つれてくって<CR>レトルトさんとの やくそくだからね,
-0AE,0x6692,<@85>あー はやく がくえんにいって<CR>ふつうのふくに きがえたいわー<CF><CC>レディが こんなばしょで<CR>きがえられる わけないし<CF><CC>もとにもどったら こんなめに<CR>あわずに すむのに,
-0AF,0x66EA,<@84>はなせよ はなせよー!,
-0B0,0x66F9,<@A0>おまえも なかまで あリますか!?<CR>ならば タイホするであリます!,
-0B1,0x671E,<@A2>こうなったら<CR>おうえんを よんで・・・<CF><CC><@37>いけぇ サイドカー!,
-0B2,0x6743,<@A3>わっ! な なんで<CR>あリますか!<CF><CC><@7E>ロボトル ロボトル<CF><CC><@A0>い いま それどころでは<CR>ないであリます,
-0B3,0x677C,<@7E>ロボロボ トルトル<CR>ロボトルトル<CF><CC><@A3>く くるなで あリますー!,
-0B4,0x67A1,<@7E>ロボトルルーッ!!,
-0B5,0x67AE,<@83>わーい たすかったぜ!<CR>サンキュ!,
-0B6,0x67C3,<@83>これで やっと<CR>きがえられるのね!,
-0B7,0x67D8,<@3A>やあ <&CB26>くん<CF><CC><@08>ハチロウ!? もしかして<CR>たすけて くれたのか?<CF><CC><@3D>とうぜんサ ト トモダチだろ?<CF><CC><@04>あリがとう<CF><CC><@3D>あ あの・・・これ あげるヨ,
-0B8,0x682E,<@37>ぬすんだやつじゃ ないからね<CF><CC>それは ボクが かってあつめた<CR>コレクションの 1つだからね<CF><CC><@00>うたがったリしないよ<CR>でも ほんとうに もらっていいの?<CF><CC><@3A>ボクにはこれくらい なんてことないサ<CR>いいから いきなヨ<CF><CC><@04>あリがとう,
-0B9,0x68A9,<@00>ふう とリあえず たどリついたな<CR>レトルトさんは どうしたんだろ?<CF><CC>とリあえず がくえんに はいるか,
-0BA,0x68E0,<@A0>やつらは はなぞのがくえんに<CR>むかったと いうことで あリます!<CF><CC><@A0>そうか ここで あリますね!?<CR>おてがらで あリます!,
-0BB,0x6923,<@4C>ぜい ぜい ぜい<CF><CC><@00>レトルトさん!<CF><CC><@48>こどもたちは ぶじに<CR>がくえんに ひなんできたようだね<CF><CC><&CB26>くん<CR>きょうリょくに かんしゃするよ,
-0BC,0x6970,<@00>レトルトさん どこにいくんですか?<CF><CC><@49>ふっ やつらのめを ごまかすために<CR>ちょっとした さいくを しておくのだ,
-0BD,0x69AD,<@48>これと これを いれかえて・・・<CR>よし!,
-0BE,0x69C5,<@05>レトルトさん<CR>セレクトたいが きましたよ<CF><CC><@48>だいじょうぶだ<CR>わたしに まかせて おきなさい,
-0BF,0x69F8,<@A0>あっ! ちがうであリます<CR>ここには「ぞのはながくえん」と<CF><CC>かかれてあリます<CF><CC><@A0>ぞのはながくえんで あリますか<CF><CC><@A0>それでは てわけして<CR>はなぞのがくえんを<CF><CC>さがすであリます!<CF><CC><@A0>ラジャー!,
-0C0,0x6A61,<@49>よしっ せいこうだ!<CF><CC><@05>・・・うそみたい,
-0C1,0x6A7B,<@05>「ぞのはな がくえん」??,
-0C2,0x6A8C,<@48>あんぜんが かくにんできるまで<CR>わたしが ここを みはっていよう,
-0C3,0x6AB0,<@74>あのー あリがとう<CR>その・・・<CF><CC><@04>ぼくは <&CB26><CF><CC><@74><&CB26>・・・くんか<CR>わたしはカルア<CF><CC>これ うけとって,
-0C4,0x6AED,<@00>これは?<CF><CC><@74>げすいどうに いくつか<CR>マンホールが あったでしょ?<CF><CC>その1つが ひみつの<CR>しゅうかいじょうに つながってるの<CF><CC>おねがい<CR>ロボロボだんを やっつけてよ!<CF><CC><@04>わかった やってみる だから<CR>もう ロボロボだん なんかに<CF><CC>なろうなんて かんがえるなよ<CR>それじゃ ぼくは いくから,
-0C5,0x6B86,<@74>ねえ あなただったんでしょ?<CF><CC><@00>ヘ?<CF><CC><@74>ロボロボだんを たおして<CR>あるいてるって うわさのヒーロー<CF><CC>わたし コウジくんだって<CR>おもいこんでたけど<CF><CC>・・・がんばってね!,
-0C6,0x6BE3,<@04>コウジも わリと<CR>がんばってるんだけどな,
-0C7,0x6BFB,<@00>このマンホールのかぎを さしこんで<CR>・・・よし! あいたぞ!,
-0C8,0x6C1D,<@00>ながーい はしごがある<CR>したは くらくてみえないや<CF><CC>やっぱリ ヘベレケはかせも<CR>このさきに いたリするのかな?<CF><CC><@03>もしかして はかせって<CR>ロボロボだんの・・・<CF><CC><@00>いや! ちがうよ きっと!<CR>はかせは そんなひとじゃない!<CF><CC><@03>・・・たぶん,
-0C9,0x6C9E,<@82>あいことばは? ロボ<CF><CC><@00>やまにいきたいのは<CR>やまやまロボね!<CF><CC><@82>よ よし とおっていいロボ,
-0CA,0x6CD3,<@83>そうか そのてもあったロボね,
-0CB,0x6CE5,<@82>きょうは あたらしい<CR>かんぶが きまるロボよ<CF><CC>だれが えらばれるか たのしみロボ,
-0CC,0x6D12,<@82>かんぶは ニューコスチューム ロボ<CR>かんぶには メダルが<CF><CC>そうちゃくされるロボよ<CF><CC><@00>そうちゃく?<CF><CC><@82>つまリ そうちゃくとは・・・えーと<CR>そう! うめこむってことロボよ!<CF><CC><@08>えっ? どこに?<CF><CC><@82>どこって それは メダルだから<CR>きっと あたまロボね,
-0CD,0x6D99,<@86>たいヘんロボ! しんじゃうロボよ!<CR>か かんぶに なるって<CF><CC>しぬことロボね!<CR>それなら かんぶには<CF><CC>なリたくないロボ!,
-0CE,0x6DDA,<@86>こんどのかんぶは あたまに<CR>メダルを うめこまれるロボよ!,
-0CF,0x6DFB,<@82>ぐー ぐー ぐー<CF><CC><@00>じゅくすいしてる,
-0D0,0x6E13,<@82>ぐー ぐー むにゃ むにゃ<CR>かんぶは かんベんしてロボー<CF><CC><@00>ねごと いってる,
-0D1,0x6E3F,<@82>なかなか かんぶの ひとたちが<CR>こないロボ たいくつだから<CF><CC>ひまつぶしに つきあうロボ,
-0D2,0x6E6F,<@82>まだ こないロボか<CR>ちょっと おまえ よんでくるロボよ,
-0D3,0x6E8E,<@82>はやく よんでくるロボ!,
-0D4,0x6E9E,<@89>こら うろうろするんじゃない!<CR>さっさと せきにつけ!,
-0D5,0x6EBD,<@89>じゃまだ! どけっ!,
-0D6,0x6ECB,<@89>さっさと せきにつかんか!,
-0D7,0x6EDC,<@89>こんかいの<CR>ロボロボこども ぐんだんに よる<CF><CC>メダロポリス しゅうげき さくせんは<CR>およそ せいこうとは いえぬ!<CF><CC>セレクトたい どもの ほかに<CR>けいかくを じゃました ものがいる<CF><CC>まったく もって けしからん!!,
-0D8,0x6F4E,<@84>あっ こいつロボ こいつが<CR>オレのけっさくを うばったロボ!<CF><CC><@00>なんのこと?<CF><CC><@84>「やまにいきたいのは<CR>やまやまだロボ」という<CF><CC>さいこうけっさくを<CR>かってに ぬすんだロボ<CF><CC><@05>それは・・・<CF><CC><@84>いいわけは ききたくないロボよ<CR>ぬすむなんて ひどいロボよ!<CF><CC><@89>あーっ そこ うるさいぞ<CR>なにを さわいどるんだ!,
-0D9,0x6FF4,<@85>じつは かくかくしかじかロボ<CF><CC><@89>なにを ごちゃごちゃと<CR>そんなことは ロボトルで<CF><CC>けっちゃくを つければよいのだ!<CF><CC><@84>ようし やるロボ!<CF><CC><@05>えっ? やるのぉ?,
-0DA,0x704E,<@89>さっさと バトルステージに<CR>あがらんか!,
-0DB,0x7066,<@8C>はやく おやリなさいな<CR>のろまは きらいでしてよ,
-0DC,0x7082,<@92>ふぉっふぉっふぉ<CR>せいぜい たのしませてくれよ,
-0DD,0x709D,<@83>きっと かったほうが<CR>かんぶロボ,
-0DE,0x70B1,<@00>ステージに あがるよ?<*04>,
-0DF,0x70C0,<@82>ロボトル ファイトロボ!,
-0E0,0x70D0,<@85>ロボーッ!,
-0E1,0x70D9,<@00>まだ こころのじゅんびが・・・,
-0E2,0x70EC,<@87>なかなかやるな<CR>なまえを なんという<CF><CC><@00><&CB26>・・・ロボ<CF><CC><@87>かんぶこうほに してやろう<CR>それでは ほかのかんぶこうほは<CF><CC>まえにでろ,
-0E3,0x7136,<@87>んっ? もうひとリはどこだ?<CF><CC><@85>カ カゼでおやすみロボ<CR>オレも うつされたロボよ<CF><CC>ごほっ ごほっ<CF><CC><@89>ぐだぐだいわずに さっさと<CR>ステージに あがれ!<CF><CC>かんぶの せんていしけんを<CR>おこなう!<CF><CC><@85>やっぱリ やるロボか・・・,
-0E4,0x71AF,<@00>ステージに あがるよ?<*04>,
-0E5,0x71BE,<@96>こどもかんぶ! でしゅ<CF><CC><@87>おもしろくないな<CF><CC><@8D>おーほほほ<CR>メダルかんぶが よろしいですわ!<CF><CC><@87>うむ やはリメダルを<CR>うめこんで あるからには<CF><CC>メダルかんぶで あろう<CF><CC><@91>それでは メダルかんぶに<CR>けっていじゃな<CF><CC>ほれ メダルが うめこまれた<CR>あたらしい せいふくじゃ<CF><CC>さっそく きがえるのじゃ,
-0E6,0x725E,<@06>えっ はずかしいロボ<CF><CC><@87>おまえは なかに<CR>ふくを きとらんのか?<CF><CC>それに あたらしい かんぶの かおを<CR>しらなくて どうするのだ?<CF><CC><@05>でも・・・<CF><CC><@87>それとも ほかに ぬげない<CR>リゆうでも あるのか?,
-0E7,0x72CC,<@00>ヘんな かたちの ぞうだ<CR>ここからじゃ よく わからないけど,
-0E8,0x72EE,<@83>まけたロボ! まけて<CR>うれしかったのは はじめてロボ,
-0E9,0x730C,<@87>しょうぶ あったな<CR>それでは おまえが きょうから<CF><CC>かんぶだ!<CF><CC><@05>えっとぉ・・・<CF><CC><@82>そっ それでは しつれいするロボ,
-0EA,0x734F,<@83>ほっ・・・メダルを うめこまれずに<CR>すんだロボ,
-0EB,0x736A,<@91>ふむ つぎのかんぶは<CR><&CB26>に けっていじゃ<CF><CC>かんぶめいを<CR>なんにするか きめようぞ,
-0EC,0x7399,<@90>あっ おまえは!?<CF><CC><@8C>・・・だれだったですかしら?<CF><CC><@96>みたこと あるでしゅね<CF><CC><@91>ふむ たしかに そのかおは・・・<CF><CC><@8B>きさま! そのかお わすれはせんぞ!<CR>このおれさまの じゃまを!<CF><CC><@88>まあ よい どうだ<CR>ロボロボだんに はいらんか?<CF><CC>おれさまに かつことができたら<CR>このままかんぶに してやろう<CF><CC>それでは ロボトルファイト!,
-0ED,0x744B,<@87>ほっほーう なるほどな ところで<CR>ロボロボだんに さそったところで<CF><CC>はいるつもリは なかろうが?<CF><CC><@89>どちらにせよ おれさまよリ<CR>つよいやつを<CF><CC>かんぶになど できるものか!<CR>それ つかまえろ!!,
-0EE,0x74B3,<@05>ピ ピンチだ,
-0EF,0x74BD,<@86>たいヘんロボ!<CR>セレクトたいが アジトをみつけて<CF><CC>のリこんできたロボ!<CF><CC><@89>ええい! このいそがしいときに!,
-0F0,0x74F9,<@86>どうするロボ!?<CR>どうするロボ!?<CF><CC><@89>うるさい! きまっているだろう!<CR>・・・ぜんいん かいさん!!,
-0F1,0x7531,<@04>なんだか たすかったみたいだ<CR>セレクトたいも やくにたつんだな<CF><CC>セレクトたいが いってしまうまで<CR>しばらく ここにいるか,
-0F2,0x7572,<@00>セレクトたいが いってしまうまで<CR>しばらく ここにいよう,
-0F3,0x7592,<@00>そういえば なんだろう このぞう<CR>アリみたいな かたちを してる<CF><CC>きになるな,
-0F4,0x75BD,<@08>ん? いま なんか<CR>おとが・・・あらら??,
-0F5,0x75D6,<@FF>どしんっ!,
-0F6,0x75DF,<@05>いたたたたたっ,
-0F7,0x75EA,<@08>ちょっと びっくリ!<CF><CC><@05>だけど すきだなぁ ぞうの したに<CR>つうろを つくるの<CF><CC>これじゃ かくし つうろでも<CR>なんでも ないよ<CF><CC><@A0>かくし はしごも<CR>はっけんで あリます!<CF><CC><@A3>なんとっ!? では<CR>さっそく おリるで あリます!,
-0F8,0x7665,<@05>うー ひどいめに あった<CF><CC><@00>もどろうにも どこから<CR>おちてきたのかも わからないし<CF><CC>さきにすすむか・・・,
-0F9,0x76A0,<@7C>また エサが おちてきたアリ<CR>じょおうさまのところに<CF><CC>つれていくアリ,
-0FA,0x76C7,<@7C>このエサは つよいアリ<CR>おうえんを よびにいくアリ,
-0FB,0x76E4,<@76>こちらは コンビニ<CR>ひみつきち してんでーす,
-0FC,0x76FE,<@76>またの おこしを<CR>おまちしておリまーす,
-0FD,0x7715,<@68>きみ しんいリ?<CF><CC><@00>あのー ここは どこ?<CF><CC><@68>ロボロボだんを ぬけだそうとした<CR>こどもたちは みつかると<CF><CC>ここに いれられるんだ<CF><CC><@08>たいヘんだ! もう<CR>ロボロボだんに つかまってる<CF><CC>こどもは いないと<CR>おもってたのに!<CF><CC><@68>でも ここにいる アリさんたちが<CR>たベものを はこんでくれたリ<CF><CC>あそんで くれたリするから<CR>たいくつしないんだ,
-0FE,0x77CA,<@68>すめば みやこだね,
-0FF,0x77D7,<@74>もう おうちに かえリたいよ<CF><CC>でも アリさんが<CR>このヘやから だしてくれないの,
-100,0x7803,<@0B>・・・・・・・・<CR>おもうんだけどさー<CF><CC><@00>?,
-101,0x781E,<@0B><&CB26>って あたしよリ<CR>じけんに くわしいんじゃないの?<CF><CC>あたしが ひっしに なって<CR>スクープを さがしてる あいだも<CF><CC>コウジくんと いっしょに<CR>いろいろと たのしそうじゃない<CF><CC><@05>そんなつもリじゃ・・・,
-102,0x788B,<@0B>おかしいって おもってたのよ<CF><CC>ハチロウってこが あやしいって<CR>つきとめて いえに いったら<CF><CC>なんだか もう じけんは<CR>かいけつ していたのよね!<CF><CC>いつもそう! じけん かいけつの<CR>ときには いつだって<CF><CC>あんたが かかわって いるのよ!<CF><CC>ロボロボだんを たおして<CR>あるいてるのは あんたでしょ!?<CF><CC><@05>え? えーっと その・・・<CF><CC><@0B>ほーら やっぱリ<CR>ひてい しないんだ!<CF><CC>ずっと ちかくにいて ひっしに<CR>かんけいないとこ<CF><CC>さがしてた あたしって<CR>ばか みたいじゃない!!,
-103,0x7983,<@05>・・・おしえてくれよ<CF><CC><@1B>そうだなぁ おれが さいきん<CR>きになってんのは<CF><CC>ロボロボだんが しんしゅつきぼつ<CR>だって ことかな<CF><CC>やつら どこにでも あらわれるだろ?<CF><CC><@00>そう いわれてみれば・・・<CR>なにか ヒミツが あリそうだね<CF><CC><@1B>だろ? あと「たずねびと」の<CR>ニュースも きになる,
-104,0x7A19,<@00>なんだ それ?<CF><CC><@1B>いえでした こどもたちが<CR>かえって こないんだとさ<CF><CC>セレクトほんぶに いけば<CR>なにか わかるんじゃ ないか?<CF><CC><@00>そっか とくダネに なリそうな<CR>じけんは けっこう あるんだね<CF><CC><@1F>おまえ ヒマそうだし<CR>しらベてみろよ<CF><CC><@00>コウジは?<CF><CC><@1F>がくえんちょうが ハチロウの<CR>おもリを しろってさ<CF><CC><@04>そうなんだ うん わかった<CR>あリがとう,
-105,0x7AD5,<@20>れいを いわれると<CR>ムズがゆくなる,
-106,0x7AEA,<@3A>やあ <&CB26>くん<CR>いらっしゃい<CF><CC><@00>いらっしゃいって・・・<CR>おまえの いえじゃ ないだろ?,
-107,0x7B1C,<@7D>なんだ? アイツ<CR>なれなれしい ヤツだ,
-108,0x7B33,<@69>あそびに きたのかい?<CR>コウジなら 2かいに いるよ,
-109,0x7B51,<@76>なんだか おともだちが<CR>きゅうに ふえたみたい<CF><CC><&CB26>くん これからも<CR>コウジと なかよく してやってね,
-10A,0x7B8A,<@76>えきまえは カップルの<CR>ひろばよ,
-10B,0x7B9E,<@00>「ちゅうけん ボナパルトの ぞう」<CR>ちょっと ソルティにも にてる,
-10C,0x7BC3,<@02>なんだよっ! おまえこそ!,
-10D,0x7BD4,<@08>!! あれはレトルトさん!?,
-10E,0x7BE6,<@A1>こっちに ロボロボだんが<CR>にげこんだという つうほうを<CF><CC>うけて きたで あリますが<CR>おもわぬ おテガラで あリます!<CF><CC>さっそく セレクトほんぶまで<CR>きてもらうで あリます!<CF><CC><@68>うわわーん ママー,
-10F,0x7C4F,<@00>このぞう なんだか<CR>あやしいけど・・・,
-110,0x7C66,<@00>ここから ちかヘは もう<CR>もどれない みたいだ,
-111,0x7C81,<@04>ほら ねっ<CF><CC><@0F>なんで かくすのよ?<CF><CC><@09>まあ いいわ いまは そのはなしは<CR>おいておくわ<CF><CC><@0B>でも あとで ちゃんと なっとくいく<CR>せつめいして もらうからね!<CF><CC><@09>じゃ あたしは じけんの<CR>しゅざいを しにいくわ,
-112,0x7CF5,<@92>たっしゃでの<CR>ふぉっふぉっふぉっ,
-113,0x7D09,<@7A>ジュウリョウ オーバー ロボ<CF><CC><@93>うるさい! さっさと<CR>いくんじゃ!,
-114,0x7D30,<@85>こんなのって ないよ!<CR>ロボロボだんも ただの<CF><CC>ウソつきな オトナなんじゃないか!<CR>えーん おうちに かえリたいよーっ,
-115,0x7D70,<@49>ふははは!,
-116,0x7D79,<@49>とうっ!,
-117,0x7D81,<@48><&CB26>くん<CR>はなぞのがくえんまで にげきれたら<CF><CC>あとのシマツは わたしが つけよう<CR>こどもたちを みちびき たまえ<CF><CC><@49>それでは また あおう!<CR>はっはっはっはっ,
-118,0x7DD8,<@07>レトルトさん かっこいい!,
-119,0x7DE9,<@82>まって!,
-11A,0x7DF1,<@06>ロボロボだんの こどもたちを<CR>さがしださなきゃ!,
-11B,0x7E0D,<@85>こんな かっこうしてる<CR>じぶんが なさけないよ,
-11C,0x7E28,<@00>「はなぞの がくえん」,
-11D,0x7E37,<@A3>!? そこに どうやって<CR>はいったで あリますかっ!?,
-11E,0x7E56,<@00>もう1かい ちかに いって<CR>ロボロボだんの しゅうかいじょうに<CF><CC>つづく マンホールを<CR>さがさなきゃ!<CF><CC>・・・ん? ぞうの したに<CR>ボタンが あるぞ? ポチッ,
-11F,0x7EAA,<@00>ちかに いきたいけど ここからじゃ<CR>ぞうの しかけが わからないや,
-120,0x7ECF,<@04>これで また ちかに いけるぞ!,
-121,0x7EE3,<@96>あそんで ないで はやく<CR>じぶんの せきに つくでしゅ!<CF><CC><@05>・・・・・・,
-122,0x7F0D,<@82>はやく せきに つくロボよ!,
-123,0x7F1F,<@8C>はやく せきに おつきなさいな,
-124,0x7F32,<@91>まだ うろうろ しておるのか?<CR>あいてる せきに はやく すわれ,
-125,0x7F56,<@08>セレクトたいの こえだ!<CF><CC><@05>こんなところで あったら<CR>ややこしい ことに なリそうだ<CF><CC><@00>こうなったら なにが<CR>あるか わかんないけど<CF><CC>このさきに いってみよう!,
-126,0x7FAF,<@00>あれ? このぞう いつのまにか<CR>もとの ばしょに もどってる<CF><CC>でも いまは ちかの ことを<CR>かんがえてる ばあいじゃないぞ!,
+0A0,0x64F5,<@82>それじゃ<CR>はなぞのがくえんに しゅうごう!,"<@82>Okay then, everyone meet up at Hanazono Academy!"
+0A1,0x650E,<@82>ごくろう ごくろう,"<@82>Good work, good work."
+0A2,0x651B,<@82>さきに いってるもんね!,<@82>We're going on ahead!
+0A3,0x652B,<@05>ちょうしのいい やつらだなぁ,<@05>Those guys sure are full of themselves...
+0A4,0x653D,<@00>はなぞのがくえんに いかなくちゃ!,<@00>I have to get to Hanazono Academy!
+0A5,0x6552,<@82>つかまっちゃうわ!<CR>ねえ はやく やっつけて!,"<@82>We're gonna get caught! Hey, hurry up and beat them!"
+0A6,0x656D,<@85>つかまったら おうちに<CR>かえれないよー,"<@85>If we get caught, we won't be able to go home!"
+0A7,0x6584,<@83>おにーさんなら セレクトたいなんて<CR>らくしょーでしょ?,"<@83>Beating the Select Corps is a piece of cake for you, right, big bro?"
+0A8,0x65A3,<@A0>タイホするで あリます!,"<@A0>You're under arrest, sir!"
+0A9,0x65B3,<@48>さあ かくれて!<CF><CC><@00>は はいっ!,"<@48>Quick, hide!<CF><CC><@00>Y-yes!"
+0AA,0x65C9,<@83>わーい やったぞ!<CR>さあ あとに つづけー!<CF><CC><@08>わ ちょっと,"<@83>Yay, we did it! Come on, follow me!<CF><CC><@08>Whoa, hey!"
+0AB,0x65ED,<@05>すこしは めんどうみるほうの<CR>みにも なってよ まったく,"<@05>Think about the guy who has to babysit you once in a while, jeez."
+0AC,0x660D,<@85>ふたリは ぶじに がくえんに<CR>はいれたみたい なんだけど<CF><CC>つぎに いった こが<CR>つかまっちゃったの,"<@85>Looks like two of us made it safely into the academy,<CF><CC>but the next kid who went got caught."
+0AD,0x6643,<@05>あーあ まったくもう<CR>しかたないなぁ<CF><CC><@85>たすけて くれるんでしょ?<CF><CC><@04>きみたちを がくえんに つれてくって<CR>レトルトさんとの やくそくだからね,"<@05>Aw, jeez... Oh well.<CF><CC><@85>You'll save them, right?<CF><CC><@04>I promised Mr. Retort I'd get you all to the academy."
+0AE,0x6692,<@85>あー はやく がくえんにいって<CR>ふつうのふくに きがえたいわー<CF><CC>レディが こんなばしょで<CR>きがえられる わけないし<CF><CC>もとにもどったら こんなめに<CR>あわずに すむのに,"<@85>Ugh, I wanna hurry and get to the academy and change into normal clothes.<CF><CC>A lady can't possibly change in a place like this.<CF><CC>If I could just change back, I wouldn't have to go through this."
+0AF,0x66EA,<@84>はなせよ はなせよー!,<@84>Let go! Let go of me!
+0B0,0x66F9,<@A0>おまえも なかまで あリますか!?<CR>ならば タイホするであリます!,"<@A0>Are you one of them too, sir!? Then you're under arrest, sir!"
+0B1,0x671E,<@A2>こうなったら<CR>おうえんを よんで・・・<CF><CC><@37>いけぇ サイドカー!,"<@A2>In that case, I'll call for backup...<CF><CC><@37>Go get 'em, Sidecar!"
+0B2,0x6743,<@A3>わっ! な なんで<CR>あリますか!<CF><CC><@7E>ロボトル ロボトル<CF><CC><@A0>い いま それどころでは<CR>ないであリます,"<@A3>Whoa! Wh-what is this, sir!?<CF><CC><@7E>Robattle, robattle!<CF><CC><@A0>N-now is not the time for that, sir!"
+0B3,0x677C,<@7E>ロボロボ トルトル<CR>ロボトルトル<CF><CC><@A3>く くるなで あリますー!,"<@7E>Robo-robo, battle-battle! Robattle-battle!<CF><CC><@A3>G-get away from me, sir!"
+0B4,0x67A1,<@7E>ロボトルルーッ!!,<@7E>Robattllllle!!
+0B5,0x67AE,<@83>わーい たすかったぜ!<CR>サンキュ!,"<@83>Yay, we're saved! Thanks!"
+0B6,0x67C3,<@83>これで やっと<CR>きがえられるのね!,<@83>Now I can finally change clothes!
+0B7,0x67D8,<@3A>やあ <&CB26>くん<CF><CC><@08>ハチロウ!? もしかして<CR>たすけて くれたのか?<CF><CC><@3D>とうぜんサ ト トモダチだろ?<CF><CC><@04>あリがとう<CF><CC><@3D>あ あの・・・これ あげるヨ,"<@3A>Hey, <&CB26>.<CF><CC><@08>Hachiro!? Did you... come to help me?<CF><CC><@3D>Of course. W-we're friends, right?<CF><CC><@04>Thanks!<CF><CC><@3D>U-um... Here, you can have this."
+0B8,0x682E,<@37>ぬすんだやつじゃ ないからね<CF><CC>それは ボクが かってあつめた<CR>コレクションの 1つだからね<CF><CC><@00>うたがったリしないよ<CR>でも ほんとうに もらっていいの?<CF><CC><@3A>ボクにはこれくらい なんてことないサ<CR>いいから いきなヨ<CF><CC><@04>あリがとう,"<@37>It's not stolen, you know.<CF><CC>It's one of the pieces in a collection I bought myself.<CF><CC><@00>I wouldn't suspect you. But are you sure I can have it?<CF><CC><@3A>Something like this is no big deal for me. Just go on already.<CF><CC><@04>Thanks!"
+0B9,0x68A9,<@00>ふう とリあえず たどリついたな<CR>レトルトさんは どうしたんだろ?<CF><CC>とリあえず がくえんに はいるか,"<@00>Phew, I made it for now. I wonder what happened to Mr. Retort?<CF><CC>Well, I guess I'll go into the academy."
+0BA,0x68E0,<@A0>やつらは はなぞのがくえんに<CR>むかったと いうことで あリます!<CF><CC><@A0>そうか ここで あリますね!?<CR>おてがらで あリます!,"<@A0>They're said to have headed for Hanazono Academy, sir!<CF><CC><@A0>I see, so it's here, sir!? This will be a great achievement, sir!"
+0BB,0x6923,<@4C>ぜい ぜい ぜい<CF><CC><@00>レトルトさん!<CF><CC><@48>こどもたちは ぶじに<CR>がくえんに ひなんできたようだね<CF><CC><&CB26>くん<CR>きょうリょくに かんしゃするよ,"<@4C>Huff... huff... huff...<CF><CC><@00>Mr. Retort!<CF><CC><@48>It seems the children made it safely into the academy.<CF><CC><&CB26>, I thank you for your cooperation."
+0BC,0x6970,<@00>レトルトさん どこにいくんですか?<CF><CC><@49>ふっ やつらのめを ごまかすために<CR>ちょっとした さいくを しておくのだ,"<@00>Mr. Retort, where are you going?<CF><CC><@49>Heh. I'm going to set up a little trick to fool their eyes."
+0BD,0x69AD,<@48>これと これを いれかえて・・・<CR>よし!,<@48>Swap this one and this one... There!
+0BE,0x69C5,<@05>レトルトさん<CR>セレクトたいが きましたよ<CF><CC><@48>だいじょうぶだ<CR>わたしに まかせて おきなさい,"<@05>Mr. Retort, the Select Corps is here!<CF><CC><@48>It's all right. Leave it to me."
+0BF,0x69F8,<@A0>あっ! ちがうであリます<CR>ここには「ぞのはながくえん」と<CF><CC>かかれてあリます<CF><CC><@A0>ぞのはながくえんで あリますか<CF><CC><@A0>それでは てわけして<CR>はなぞのがくえんを<CF><CC>さがすであリます!<CF><CC><@A0>ラジャー!,"<@A0>Ah! This isn't it, sir! It says ""Zonohana Academy""<CF><CC>right here, sir!<CF><CC><@A0>Zonohana Academy, sir?<CF><CC><@A0>Then let's split up and search<CF><CC>for Hanazono Academy, sir!<CF><CC><@A0>Roger, sir!"
+0C0,0x6A61,<@49>よしっ せいこうだ!<CF><CC><@05>・・・うそみたい,<@49>Yes! Success!<CF><CC><@05>...I can't believe that worked.
+0C1,0x6A7B,<@05>「ぞのはな がくえん」??,"<@05>""Zonohana Academy""??"
+0C2,0x6A8C,<@48>あんぜんが かくにんできるまで<CR>わたしが ここを みはっていよう,<@48>I'll keep watch here until we're sure it's safe.
+0C3,0x6AB0,<@74>あのー あリがとう<CR>その・・・<CF><CC><@04>ぼくは <&CB26><CF><CC><@74><&CB26>・・・くんか<CR>わたしはカルア<CF><CC>これ うけとって,"<@74>Um... thank you. Um...<CF><CC><@04>I'm <&CB26>.<CF><CC><@74><&CB26>, huh... I'm Kahlua.<CF><CC>Here, take this."
+0C4,0x6AED,<@00>これは?<CF><CC><@74>げすいどうに いくつか<CR>マンホールが あったでしょ?<CF><CC>その1つが ひみつの<CR>しゅうかいじょうに つながってるの<CF><CC>おねがい<CR>ロボロボだんを やっつけてよ!<CF><CC><@04>わかった やってみる だから<CR>もう ロボロボだん なんかに<CF><CC>なろうなんて かんがえるなよ<CR>それじゃ ぼくは いくから,"<@00>What's this?<CF><CC><@74>There were a few manholes in the sewers, right?<CF><CC>One of them leads to a secret meeting place.<CF><CC>Please, beat the RoboRobo Gang!<CF><CC><@04>Okay, I'll try. So don't you ever think about<CF><CC>joining the RoboRobo Gang again, okay? Well, I'll get going."
+0C5,0x6B86,<@74>ねえ あなただったんでしょ?<CF><CC><@00>ヘ?<CF><CC><@74>ロボロボだんを たおして<CR>あるいてるって うわさのヒーロー<CF><CC>わたし コウジくんだって<CR>おもいこんでたけど<CF><CC>・・・がんばってね!,"<@74>Hey, it was you, wasn't it?<CF><CC><@00>Huh?<CF><CC><@74>The hero everyone's whispering about, the one who goes around beating the RoboRobo Gang.<CF><CC>I was so sure it was Koji, but...<CF><CC>...Good luck!"
+0C6,0x6BE3,<@04>コウジも わリと<CR>がんばってるんだけどな,"<@04>Koji's actually been working pretty hard too, though."
+0C7,0x6BFB,<@00>このマンホールのかぎを さしこんで<CR>・・・よし! あいたぞ!,<@00>I'll stick the manhole key in here... Okay! It opened!
+0C8,0x6C1D,<@00>ながーい はしごがある<CR>したは くらくてみえないや<CF><CC>やっぱリ ヘベレケはかせも<CR>このさきに いたリするのかな?<CF><CC><@03>もしかして はかせって<CR>ロボロボだんの・・・<CF><CC><@00>いや! ちがうよ きっと!<CR>はかせは そんなひとじゃない!<CF><CC><@03>・・・たぶん,<@00>There's a reeeally long ladder. It's too dark to see the bottom.<CF><CC>I wonder if Dr. Hebereke is down there after all?<CF><CC><@03>Could the doctor be... part of the RoboRobo Gang...?<CF><CC><@00>No! I'm sure that's not it! The doctor isn't that kind of person!<CF><CC><@03>...Probably.
+0C9,0x6C9E,<@82>あいことばは? ロボ<CF><CC><@00>やまにいきたいのは<CR>やまやまロボね!<CF><CC><@82>よ よし とおっていいロボ,"<@82>Password? Robo.<CF><CC><@00>I'd love to sneak a peek at the peak, robo!<CF><CC><@82>A-alright, you can pass, robo."
+0CA,0x6CD3,<@83>そうか そのてもあったロボね,"<@83>I see, so that trick works too, robo."
+0CB,0x6CE5,<@82>きょうは あたらしい<CR>かんぶが きまるロボよ<CF><CC>だれが えらばれるか たのしみロボ,"<@82>Today they're picking a new executive, robo.<CF><CC>I can't wait to see who gets chosen, robo."
+0CC,0x6D12,<@82>かんぶは ニューコスチューム ロボ<CR>かんぶには メダルが<CF><CC>そうちゃくされるロボよ<CF><CC><@00>そうちゃく?<CF><CC><@82>つまリ そうちゃくとは・・・えーと<CR>そう! うめこむってことロボよ!<CF><CC><@08>えっ? どこに?<CF><CC><@82>どこって それは メダルだから<CR>きっと あたまロボね,"<@82>Executives get a new costume, robo. And executives<CF><CC>get a Medal installed, robo.<CF><CC><@00>Installed?<CF><CC><@82>""Installed"" means... uhh... Right! It means implanted, robo!<CF><CC><@08>Huh? Where?<CF><CC><@82>Where? Well, it's a Medal, so probably in the head, robo."
+0CD,0x6D99,<@86>たいヘんロボ! しんじゃうロボよ!<CR>か かんぶに なるって<CF><CC>しぬことロボね!<CR>それなら かんぶには<CF><CC>なリたくないロボ!,"<@86>This is terrible, robo! We'll die, robo! B-becoming an executive<CF><CC>means dying, robo! In that case, I don't<CF><CC>wanna be an executive, robo!"
+0CE,0x6DDA,<@86>こんどのかんぶは あたまに<CR>メダルを うめこまれるロボよ!,"<@86>The new executive is gonna get a Medal implanted in their head, robo!"
+0CF,0x6DFB,<@82>ぐー ぐー ぐー<CF><CC><@00>じゅくすいしてる,<@82>Zzz... zzz... zzz...<CF><CC><@00>He's sound asleep.
+0D0,0x6E13,<@82>ぐー ぐー むにゃ むにゃ<CR>かんぶは かんベんしてロボー<CF><CC><@00>ねごと いってる,"<@82>Zzz... zzz... mumble mumble... Please, not the executive job, robo...<CF><CC><@00>He's talking in his sleep."
+0D1,0x6E3F,<@82>なかなか かんぶの ひとたちが<CR>こないロボ たいくつだから<CF><CC>ひまつぶしに つきあうロボ,"<@82>The executives sure are taking their time, robo. I'm bored,<CF><CC>so keep me company while I kill time, robo."
+0D2,0x6E6F,<@82>まだ こないロボか<CR>ちょっと おまえ よんでくるロボよ,"<@82>They're still not here, robo? Hey, you, go call them, robo."
+0D3,0x6E8E,<@82>はやく よんでくるロボ!,"<@82>Hurry up and go call them, robo!"
+0D4,0x6E9E,<@89>こら うろうろするんじゃない!<CR>さっさと せきにつけ!,<@89>Hey! Quit wandering around! Take your seat already!
+0D5,0x6EBD,<@89>じゃまだ! どけっ!,<@89>You're in the way! Move it!
+0D6,0x6ECB,<@89>さっさと せきにつかんか!,<@89>I said take your seat already!
+0D7,0x6EDC,<@89>こんかいの<CR>ロボロボこども ぐんだんに よる<CF><CC>メダロポリス しゅうげき さくせんは<CR>およそ せいこうとは いえぬ!<CF><CC>セレクトたい どもの ほかに<CR>けいかくを じゃました ものがいる<CF><CC>まったく もって けしからん!!,"<@89>The RoboRobo Kid Brigade's latest<CF><CC>raid on Medaropolis was anything but a success!<CF><CC>Besides those Select Corps fools, someone else interfered with our plan!<CF><CC>It's absolutely outrageous!!"
+0D8,0x6F4E,<@84>あっ こいつロボ こいつが<CR>オレのけっさくを うばったロボ!<CF><CC><@00>なんのこと?<CF><CC><@84>「やまにいきたいのは<CR>やまやまだロボ」という<CF><CC>さいこうけっさくを<CR>かってに ぬすんだロボ<CF><CC><@05>それは・・・<CF><CC><@84>いいわけは ききたくないロボよ<CR>ぬすむなんて ひどいロボよ!<CF><CC><@89>あーっ そこ うるさいぞ<CR>なにを さわいどるんだ!,"<@84>Hey, it's this guy, robo! He's the one who stole my masterpiece, robo!<CF><CC><@00>What are you talking about?<CF><CC><@84>""I'd love to sneak a peek at the peak, robo""...<CF><CC>That's my greatest masterpiece, and you just stole it, robo!<CF><CC><@05>That's...<CF><CC><@84>I don't wanna hear excuses, robo! Stealing is low, robo!<CF><CC><@89>Hey! Quiet down over there! What's all the fuss about!?"
+0D9,0x6FF4,<@85>じつは かくかくしかじかロボ<CF><CC><@89>なにを ごちゃごちゃと<CR>そんなことは ロボトルで<CF><CC>けっちゃくを つければよいのだ!<CF><CC><@84>ようし やるロボ!<CF><CC><@05>えっ? やるのぉ?,"<@85>Well, you see, it's like this and that, robo.<CF><CC><@89>What are you blabbering about? Something like that, you settle<CF><CC>with a robattle!<CF><CC><@84>Alright, let's do it, robo!<CF><CC><@05>Huh? We're really doing this?"
+0DA,0x704E,<@89>さっさと バトルステージに<CR>あがらんか!,<@89>Get up on the battle stage already!
+0DB,0x7066,<@8C>はやく おやリなさいな<CR>のろまは きらいでしてよ,<@8C>Do hurry up and get on with it. I can't stand slowpokes.
+0DC,0x7082,<@92>ふぉっふぉっふぉ<CR>せいぜい たのしませてくれよ,<@92>Fohohoho! Try to keep us entertained.
+0DD,0x709D,<@83>きっと かったほうが<CR>かんぶロボ,"<@83>I bet whoever wins becomes the executive, robo."
+0DE,0x70B1,<@00>ステージに あがるよ?<*04>,<@00>Should I go up on the stage?<*04>
+0DF,0x70C0,<@82>ロボトル ファイトロボ!,"<@82>Robattle, fight, robo!"
+0E0,0x70D0,<@85>ロボーッ!,<@85>Robooo!
+0E1,0x70D9,<@00>まだ こころのじゅんびが・・・,<@00>I'm not mentally ready yet...
+0E2,0x70EC,<@87>なかなかやるな<CR>なまえを なんという<CF><CC><@00><&CB26>・・・ロボ<CF><CC><@87>かんぶこうほに してやろう<CR>それでは ほかのかんぶこうほは<CF><CC>まえにでろ,"<@87>Not bad. What's your name?<CF><CC><@00><&CB26>... robo.<CF><CC><@87>I'll make you an executive candidate. Now then, all other executive candidates,<CF><CC>step forward."
+0E3,0x7136,<@87>んっ? もうひとリはどこだ?<CF><CC><@85>カ カゼでおやすみロボ<CR>オレも うつされたロボよ<CF><CC>ごほっ ごほっ<CF><CC><@89>ぐだぐだいわずに さっさと<CR>ステージに あがれ!<CF><CC>かんぶの せんていしけんを<CR>おこなう!<CF><CC><@85>やっぱリ やるロボか・・・,"<@87>Hm? Where's the other one?<CF><CC><@85>H-he's home with a cold, robo. He gave it to me too, robo.<CF><CC>Cough, cough!<CF><CC><@89>Quit your whining and get up on the stage already!<CF><CC>We will now hold the executive selection exam!<CF><CC><@85>So we're doing it after all, robo..."
+0E4,0x71AF,<@00>ステージに あがるよ?<*04>,<@00>Should I go up on the stage?<*04>
+0E5,0x71BE,<@96>こどもかんぶ! でしゅ<CF><CC><@87>おもしろくないな<CF><CC><@8D>おーほほほ<CR>メダルかんぶが よろしいですわ!<CF><CC><@87>うむ やはリメダルを<CR>うめこんで あるからには<CF><CC>メダルかんぶで あろう<CF><CC><@91>それでは メダルかんぶに<CR>けっていじゃな<CF><CC>ほれ メダルが うめこまれた<CR>あたらしい せいふくじゃ<CF><CC>さっそく きがえるのじゃ,"<@96>Kiddie Executive! Pwease!<CF><CC><@87>Boring.<CF><CC><@8D>Ohohoho! Medal Executive would be lovely!<CF><CC><@87>Hmm. Indeed, since he'll have a Medal<CF><CC>implanted, Medal Executive it is.<CF><CC><@91>Then it's decided: Medal Executive.<CF><CC>Here, your new uniform, with a Medal implanted in it.<CF><CC>Put it on right away."
+0E6,0x725E,<@06>えっ はずかしいロボ<CF><CC><@87>おまえは なかに<CR>ふくを きとらんのか?<CF><CC>それに あたらしい かんぶの かおを<CR>しらなくて どうするのだ?<CF><CC><@05>でも・・・<CF><CC><@87>それとも ほかに ぬげない<CR>リゆうでも あるのか?,"<@06>Huh? That's embarrassing, robo.<CF><CC><@87>Aren't you wearing clothes underneath?<CF><CC>Besides, how can we not know the face of our new executive?<CF><CC><@05>But...<CF><CC><@87>Or is there some other reason you can't take it off?"
+0E7,0x72CC,<@00>ヘんな かたちの ぞうだ<CR>ここからじゃ よく わからないけど,"<@00>What a weird-shaped statue. I can't really tell from here, though."
+0E8,0x72EE,<@83>まけたロボ! まけて<CR>うれしかったのは はじめてロボ,"<@83>I lost, robo! This is the first time I've ever been happy to lose, robo."
+0E9,0x730C,<@87>しょうぶ あったな<CR>それでは おまえが きょうから<CF><CC>かんぶだ!<CF><CC><@05>えっとぉ・・・<CF><CC><@82>そっ それでは しつれいするロボ,"<@87>We have a winner. Then, as of today, you are<CF><CC>an executive!<CF><CC><@05>Uhhh...<CF><CC><@82>W-well then, I'll be going now, robo."
+0EA,0x734F,<@83>ほっ・・・メダルを うめこまれずに<CR>すんだロボ,"<@83>Phew... I got out of having a Medal implanted, robo."
+0EB,0x736A,<@91>ふむ つぎのかんぶは<CR><&CB26>に けっていじゃ<CF><CC>かんぶめいを<CR>なんにするか きめようぞ,"<@91>Hmm. The next executive will be <&CB26>, then.<CF><CC>Now, let us decide on an executive title."
+0EC,0x7399,<@90>あっ おまえは!?<CF><CC><@8C>・・・だれだったですかしら?<CF><CC><@96>みたこと あるでしゅね<CF><CC><@91>ふむ たしかに そのかおは・・・<CF><CC><@8B>きさま! そのかお わすれはせんぞ!<CR>このおれさまの じゃまを!<CF><CC><@88>まあ よい どうだ<CR>ロボロボだんに はいらんか?<CF><CC>おれさまに かつことができたら<CR>このままかんぶに してやろう<CF><CC>それでは ロボトルファイト!,"<@90>Ah! You're...!?<CF><CC><@8C>...Who was he again?<CF><CC><@96>I've seen him befowe.<CF><CC><@91>Hmm, that face certainly is...<CF><CC><@8B>You! I'd never forget that face! You're the one who keeps getting in my way!<CF><CC><@88>Well, no matter. How about it? Won't you join the RoboRobo Gang?<CF><CC>If you can beat me, I'll make you an executive just like that.<CF><CC>Now then, robattle, fight!"
+0ED,0x744B,<@87>ほっほーう なるほどな ところで<CR>ロボロボだんに さそったところで<CF><CC>はいるつもリは なかろうが?<CF><CC><@89>どちらにせよ おれさまよリ<CR>つよいやつを<CF><CC>かんぶになど できるものか!<CR>それ つかまえろ!!,"<@87>Hohooo, I see. By the way, even if I invite you into the RoboRobo Gang,<CF><CC>you have no intention of joining, do you?<CF><CC><@89>Either way, I could never make someone stronger than me<CF><CC>an executive! Seize him!!"
+0EE,0x74B3,<@05>ピ ピンチだ,<@05>Th-this is bad...
+0EF,0x74BD,<@86>たいヘんロボ!<CR>セレクトたいが アジトをみつけて<CF><CC>のリこんできたロボ!<CF><CC><@89>ええい! このいそがしいときに!,"<@86>This is bad, robo! The Select Corps found our hideout<CF><CC>and stormed in, robo!<CF><CC><@89>Blast it! Of all the times!"
+0F0,0x74F9,<@86>どうするロボ!?<CR>どうするロボ!?<CF><CC><@89>うるさい! きまっているだろう!<CR>・・・ぜんいん かいさん!!,"<@86>What do we do, robo!? What do we do, robo!?<CF><CC><@89>Shut up! Isn't it obvious!?... Everyone, scatter!!"
+0F1,0x7531,<@04>なんだか たすかったみたいだ<CR>セレクトたいも やくにたつんだな<CF><CC>セレクトたいが いってしまうまで<CR>しばらく ここにいるか,<@04>Looks like I'm saved somehow. The Select Corps is useful after all.<CF><CC>I'll stay here for a while until the Select Corps leaves.
+0F2,0x7572,<@00>セレクトたいが いってしまうまで<CR>しばらく ここにいよう,<@00>I'll stay here for a while until the Select Corps leaves.
+0F3,0x7592,<@00>そういえば なんだろう このぞう<CR>アリみたいな かたちを してる<CF><CC>きになるな,"<@00>Come to think of it, what is this statue? It's shaped like an ant.<CF><CC>That's bugging me."
+0F4,0x75BD,<@08>ん? いま なんか<CR>おとが・・・あらら??,<@08>Hm? Did I just hear something...? Whoa??
+0F5,0x75D6,<@FF>どしんっ!,<@FF>THUD!
+0F6,0x75DF,<@05>いたたたたたっ,<@05>Owowowowow...
+0F7,0x75EA,<@08>ちょっと びっくリ!<CF><CC><@05>だけど すきだなぁ ぞうの したに<CR>つうろを つくるの<CF><CC>これじゃ かくし つうろでも<CR>なんでも ないよ<CF><CC><@A0>かくし はしごも<CR>はっけんで あリます!<CF><CC><@A3>なんとっ!? では<CR>さっそく おリるで あリます!,"<@08>That was kind of a surprise!<CF><CC><@05>But they sure love building passages under statues.<CF><CC>That's not much of a hidden passage at all.<CF><CC><@A0>We've also discovered a hidden ladder, sir!<CF><CC><@A3>What!? Then let's climb down right away, sir!"
+0F8,0x7665,<@05>うー ひどいめに あった<CF><CC><@00>もどろうにも どこから<CR>おちてきたのかも わからないし<CF><CC>さきにすすむか・・・,"<@05>Ugh, that was awful.<CF><CC><@00>I can't go back, since I don't even know where I fell from.<CF><CC>I guess I'll keep going..."
+0F9,0x76A0,<@7C>また エサが おちてきたアリ<CR>じょおうさまのところに<CF><CC>つれていくアリ,"<@7C>More food fell down, ant. Let's take it to the Queen, ant."
+0FA,0x76C7,<@7C>このエサは つよいアリ<CR>おうえんを よびにいくアリ,"<@7C>This food is strong, ant. Gonna go call for backup, ant."
+0FB,0x76E4,<@76>こちらは コンビニ<CR>ひみつきち してんでーす,"<@76>Welcome to the convenience store, Secret Base Branch!"
+0FC,0x76FE,<@76>またの おこしを<CR>おまちしておリまーす,<@76>We look forward to serving you again!
+0FD,0x7715,<@68>きみ しんいリ?<CF><CC><@00>あのー ここは どこ?<CF><CC><@68>ロボロボだんを ぬけだそうとした<CR>こどもたちは みつかると<CF><CC>ここに いれられるんだ<CF><CC><@08>たいヘんだ! もう<CR>ロボロボだんに つかまってる<CF><CC>こどもは いないと<CR>おもってたのに!<CF><CC><@68>でも ここにいる アリさんたちが<CR>たベものを はこんでくれたリ<CF><CC>あそんで くれたリするから<CR>たいくつしないんだ,"<@68>Are you new here?<CF><CC><@00>Um, where is this place?<CF><CC><@68>Kids who try to quit the RoboRobo Gang<CF><CC>get put in here when they're caught.<CF><CC><@08>Oh no! I thought there weren't any<CF><CC>more kids being held by the<CF><CC>RoboRobo Gang!<CF><CC><@68>But the ants here bring us food<CF><CC>and play with us, so it's not boring."
+0FE,0x77CA,<@68>すめば みやこだね,"<@68>Home is wherever you make it, I guess."
+0FF,0x77D7,<@74>もう おうちに かえリたいよ<CF><CC>でも アリさんが<CR>このヘやから だしてくれないの,<@74>I wanna go home...<CF><CC>But the ants won't let us out of this room.
+100,0x7803,<@0B>・・・・・・・・<CR>おもうんだけどさー<CF><CC><@00>?,"<@0B>........ You know, I've been thinking...<CF><CC><@00>?"
+101,0x781E,<@0B><&CB26>って あたしよリ<CR>じけんに くわしいんじゃないの?<CF><CC>あたしが ひっしに なって<CR>スクープを さがしてる あいだも<CF><CC>コウジくんと いっしょに<CR>いろいろと たのしそうじゃない<CF><CC><@05>そんなつもリじゃ・・・,"<@0B>Don't you know more about these incidents than I do, <&CB26>?<CF><CC>While I've been desperately searching for a scoop,<CF><CC>you've been off having all kinds of fun with Koji!<CF><CC><@05>That's not what I..."
+102,0x788B,<@0B>おかしいって おもってたのよ<CF><CC>ハチロウってこが あやしいって<CR>つきとめて いえに いったら<CF><CC>なんだか もう じけんは<CR>かいけつ していたのよね!<CF><CC>いつもそう! じけん かいけつの<CR>ときには いつだって<CF><CC>あんたが かかわって いるのよ!<CF><CC>ロボロボだんを たおして<CR>あるいてるのは あんたでしょ!?<CF><CC><@05>え? えーっと その・・・<CF><CC><@0B>ほーら やっぱリ<CR>ひてい しないんだ!<CF><CC>ずっと ちかくにいて ひっしに<CR>かんけいないとこ<CF><CC>さがしてた あたしって<CR>ばか みたいじゃない!!,"<@0B>I knew something was weird.<CF><CC>When I figured out that Hachiro kid was suspicious and went to his house,<CF><CC>the case had already been solved!<CF><CC>It's always like that! Whenever a case gets solved,<CF><CC>you're always involved somehow!<CF><CC>You're the one who's been going around beating the RoboRobo Gang, aren't you!?<CF><CC><@05>Huh? Uh, well, um...<CF><CC><@0B>See! I knew it! You're not denying it!<CF><CC>You were right next to me the whole time, while I was desperately searching in all the wrong places...<CF><CC>I look like such an idiot!!"
+103,0x7983,<@05>・・・おしえてくれよ<CF><CC><@1B>そうだなぁ おれが さいきん<CR>きになってんのは<CF><CC>ロボロボだんが しんしゅつきぼつ<CR>だって ことかな<CF><CC>やつら どこにでも あらわれるだろ?<CF><CC><@00>そう いわれてみれば・・・<CR>なにか ヒミツが あリそうだね<CF><CC><@1B>だろ? あと「たずねびと」の<CR>ニュースも きになる,"<@05>...Tell me.<CF><CC><@1B>Let's see. What's been on my mind lately<CF><CC>is how the RoboRobo Gang appears and vanishes without a trace.<CF><CC>They pop up anywhere, right?<CF><CC><@00>Now that you mention it... Seems like there's some secret to it.<CF><CC><@1B>Right? And that ""Missing Persons"" news bugs me too."
+104,0x7A19,<@00>なんだ それ?<CF><CC><@1B>いえでした こどもたちが<CR>かえって こないんだとさ<CF><CC>セレクトほんぶに いけば<CR>なにか わかるんじゃ ないか?<CF><CC><@00>そっか とくダネに なリそうな<CR>じけんは けっこう あるんだね<CF><CC><@1F>おまえ ヒマそうだし<CR>しらベてみろよ<CF><CC><@00>コウジは?<CF><CC><@1F>がくえんちょうが ハチロウの<CR>おもリを しろってさ<CF><CC><@04>そうなんだ うん わかった<CR>あリがとう,"<@00>What's that?<CF><CC><@1B>Apparently kids who ran away from home haven't come back.<CF><CC>If you go to Select Headquarters, maybe you'll find out something.<CF><CC><@00>I see. There are quite a few incidents that could be big scoops, huh?<CF><CC><@1F>You look like you've got time on your hands. Look into it.<CF><CC><@00>What about you, Koji?<CF><CC><@1F>The principal told me to babysit Hachiro.<CF><CC><@04>I see. Okay, got it. Thanks!"
+105,0x7AD5,<@20>れいを いわれると<CR>ムズがゆくなる,<@20>Getting thanked makes me all itchy.
+106,0x7AEA,<@3A>やあ <&CB26>くん<CR>いらっしゃい<CF><CC><@00>いらっしゃいって・・・<CR>おまえの いえじゃ ないだろ?,"<@3A>Hey, <&CB26>! Welcome!<CF><CC><@00>""Welcome""...? This isn't your house, is it?"
+107,0x7B1C,<@7D>なんだ? アイツ<CR>なれなれしい ヤツだ,<@7D>What's with that guy? Acting all chummy.
+108,0x7B33,<@69>あそびに きたのかい?<CR>コウジなら 2かいに いるよ,<@69>Here to play? Koji's upstairs.
+109,0x7B51,<@76>なんだか おともだちが<CR>きゅうに ふえたみたい<CF><CC><&CB26>くん これからも<CR>コウジと なかよく してやってね,"<@76>It seems like he's suddenly made a lot more friends.<CF><CC><&CB26>, please keep being good friends with Koji."
+10A,0x7B8A,<@76>えきまえは カップルの<CR>ひろばよ,<@76>The station square is where couples hang out.
+10B,0x7B9E,<@00>「ちゅうけん ボナパルトの ぞう」<CR>ちょっと ソルティにも にてる,"<@00>""Statue of Bonaparte the Faithful Dog""... It looks a little like Salty."
+10C,0x7BC3,<@02>なんだよっ! おまえこそ!,<@02>What!? Look who's talking!
+10D,0x7BD4,<@08>!! あれはレトルトさん!?,<@08>!! Is that Mr. Retort!?
+10E,0x7BE6,<@A1>こっちに ロボロボだんが<CR>にげこんだという つうほうを<CF><CC>うけて きたで あリますが<CR>おもわぬ おテガラで あリます!<CF><CC>さっそく セレクトほんぶまで<CR>きてもらうで あリます!<CF><CC><@68>うわわーん ママー,"<@A1>We came after receiving a report that the RoboRobo Gang fled in here,<CF><CC>but this is an unexpected achievement, sir!<CF><CC>You're coming with us to Select Headquarters right away, sir!<CF><CC><@68>Waaah, Mommy!"
+10F,0x7C4F,<@00>このぞう なんだか<CR>あやしいけど・・・,"<@00>This statue seems kind of suspicious, but..."
+110,0x7C66,<@00>ここから ちかヘは もう<CR>もどれない みたいだ,<@00>Looks like I can't go back underground from here anymore.
+111,0x7C81,<@04>ほら ねっ<CF><CC><@0F>なんで かくすのよ?<CF><CC><@09>まあ いいわ いまは そのはなしは<CR>おいておくわ<CF><CC><@0B>でも あとで ちゃんと なっとくいく<CR>せつめいして もらうからね!<CF><CC><@09>じゃ あたしは じけんの<CR>しゅざいを しにいくわ,"<@04>See?<CF><CC><@0F>Why are you hiding it?<CF><CC><@09>Oh well, I'll put that aside for now.<CF><CC><@0B>But later, you'd better give me an explanation that makes sense!<CF><CC><@09>Well, I'm off to cover the story."
+112,0x7CF5,<@92>たっしゃでの<CR>ふぉっふぉっふぉっ,<@92>Take care now. Fohohoho!
+113,0x7D09,<@7A>ジュウリョウ オーバー ロボ<CF><CC><@93>うるさい! さっさと<CR>いくんじゃ!,"<@7A>Weight limit exceeded, robo.<CF><CC><@93>Silence! Just get going!"
+114,0x7D30,<@85>こんなのって ないよ!<CR>ロボロボだんも ただの<CF><CC>ウソつきな オトナなんじゃないか!<CR>えーん おうちに かえリたいよーっ,"<@85>This isn't fair! The RoboRobo Gang is just a bunch of<CF><CC>lying grown-ups too! Waaah, I wanna go home!"
+115,0x7D70,<@49>ふははは!,<@49>Fuhahaha!
+116,0x7D79,<@49>とうっ!,<@49>Hyah!
+117,0x7D81,<@48><&CB26>くん<CR>はなぞのがくえんまで にげきれたら<CF><CC>あとのシマツは わたしが つけよう<CR>こどもたちを みちびき たまえ<CF><CC><@49>それでは また あおう!<CR>はっはっはっはっ,"<@48><&CB26>, if you can make it to Hanazono Academy,<CF><CC>I'll take care of the rest. Lead the children to safety!<CF><CC><@49>Until we meet again! Hahahaha!"
+118,0x7DD8,<@07>レトルトさん かっこいい!,<@07>Mr. Retort is so cool!
+119,0x7DE9,<@82>まって!,<@82>Wait!
+11A,0x7DF1,<@06>ロボロボだんの こどもたちを<CR>さがしださなきゃ!,<@06>I have to find the RoboRobo Gang kids!
+11B,0x7E0D,<@85>こんな かっこうしてる<CR>じぶんが なさけないよ,"<@85>I'm so ashamed of myself, dressed like this..."
+11C,0x7E28,<@00>「はなぞの がくえん」,"<@00>""Hanazono Academy"""
+11D,0x7E37,<@A3>!? そこに どうやって<CR>はいったで あリますかっ!?,"<@A3>!? How did you get in there, sir!?"
+11E,0x7E56,<@00>もう1かい ちかに いって<CR>ロボロボだんの しゅうかいじょうに<CF><CC>つづく マンホールを<CR>さがさなきゃ!<CF><CC>・・・ん? ぞうの したに<CR>ボタンが あるぞ? ポチッ,<@00>I have to go underground again and find the manhole<CF><CC>that leads to the RoboRobo Gang's meeting place!<CF><CC>...Hm? There's a button under the statue? *Click*
+11F,0x7EAA,<@00>ちかに いきたいけど ここからじゃ<CR>ぞうの しかけが わからないや,"<@00>I want to go underground, but I can't figure out the statue's trick from here."
+120,0x7ECF,<@04>これで また ちかに いけるぞ!,<@04>Now I can go underground again!
+121,0x7EE3,<@96>あそんで ないで はやく<CR>じぶんの せきに つくでしゅ!<CF><CC><@05>・・・・・・,<@96>Quit pwaying around and huwwy to youw seat!<CF><CC><@05>......
+122,0x7F0D,<@82>はやく せきに つくロボよ!,"<@82>Hurry and take your seat, robo!"
+123,0x7F1F,<@8C>はやく せきに おつきなさいな,<@8C>Do hurry and take your seat.
+124,0x7F32,<@91>まだ うろうろ しておるのか?<CR>あいてる せきに はやく すわれ,<@91>Still wandering about? Hurry and sit in an empty seat.
+125,0x7F56,<@08>セレクトたいの こえだ!<CF><CC><@05>こんなところで あったら<CR>ややこしい ことに なリそうだ<CF><CC><@00>こうなったら なにが<CR>あるか わかんないけど<CF><CC>このさきに いってみよう!,"<@08>That's the Select Corps' voice!<CF><CC><@05>If I run into them here, things could get complicated.<CF><CC><@00>In that case, I don't know what's ahead, but<CF><CC>I'll go check it out!"
+126,0x7FAF,<@00>あれ? このぞう いつのまにか<CR>もとの ばしょに もどってる<CF><CC>でも いまは ちかの ことを<CR>かんがえてる ばあいじゃないぞ!,<@00>Huh? The statue's back in its original spot before I knew it.<CF><CC>But now's not the time to worry about that. I need to focus on the underground!
