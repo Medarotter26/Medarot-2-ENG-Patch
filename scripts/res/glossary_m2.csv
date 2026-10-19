@@ -151,7 +151,7 @@ JP,EN,Category,Source,Notes
 バイフィッシュ,Baifish,Medarot,wiki: Medarots in Medarot 2,Model WFH-0; male; US/2 Core name (do not use): Wolfeel
 プリミティベビー,Primity Baby,Medarot,medarot3 glossary.csv,Model BAY-0; male; US/2 Core name (do not use): Babbyblu
 サイコミサイル,Psycho-Missile,PartHead,wiki: Gaufbullet,BAT-11; Gaufbullet head
-エレクトミサイル,Erect-Missile,PartRArm,wiki: Gaufbullet,BAT-12; Gaufbullet right arm
+エレクトミサイル,Elect-Missile,PartRArm,wiki: Gaufbullet,"BAT-12; Gaufbullet right arm; wiki Stats-M2 has ""Erect-Missile"", infobox and later games ""Elect-Missile"""
 マグネミサイル,Magne-Missile,PartLArm,wiki: Gaufbullet,BAT-13; Gaufbullet left arm
 グレイブ,Grave,PartLegs,wiki: Gaufbullet,BAT-14; Gaufbullet legs
 ブラストライフル,Blast Rifle,PartHead,wiki: DeathPhoenix,PHX-11; DeathPhoenix head
@@ -166,7 +166,7 @@ JP,EN,Category,Source,Notes
 チェラブハンド,Cherub Hand,PartRArm,wiki: Wonder Angel,ANG-12; Wonder Angel right arm; female part
 チェラブアーム,Cherub Arm,PartLArm,wiki: Wonder Angel,ANG-13; Wonder Angel left arm; female part
 チェラブレッグ,Cherub Leg,PartLegs,wiki: Wonder Angel,ANG-14; Wonder Angel legs; female part
-ヒドゥンブレイク,Hidden Brake,PartHead,wiki: Air-Ptera,PTL-01; Air-Ptera head
+ヒドゥンブレイク,Hidden Break,PartHead,wiki: Air-Ptera,"PTL-01; Air-Ptera head; wiki has typo ""Hidden Brake"""
 ポケットソード,Pocket Sword,PartRArm,wiki: Air-Ptera,PTL-02; Air-Ptera right arm
 マイクロソード,Micro Sword,PartLArm,wiki: Air-Ptera,PTL-03; Air-Ptera left arm
 スカイレッグ,Sky Leg,PartLegs,wiki: Air-Ptera,PTL-04; Air-Ptera legs
@@ -242,10 +242,10 @@ JP,EN,Category,Source,Notes
 キャッチ,Catch,PartRArm,wiki: Kanehachi Mk2,CLA-12; Kanehachi Mk2 right arm
 ツイスト,Twist,PartLArm,wiki: Kanehachi Mk2,CLA-13; Kanehachi Mk2 left arm
 スイック,Swick,PartLegs,wiki: Kanehachi Mk2,CLA-14; Kanehachi Mk2 legs
-オーテイト,???,PartHead,wiki: Macdosnake,SNA-11; Macdosnake head
+オーテイト,Ohteito,PartHead,wiki: Macdosnake,"SNA-11; Macdosnake head; wiki gives ""???""; own romanization, meaning unclear (tentative)"
 チェンジャー,Changer,PartRArm,wiki: Macdosnake,SNA-12; Macdosnake right arm
 フラクター,Fractor,PartLArm,wiki: Macdosnake,SNA-13; Macdosnake left arm
-スリスギー,???,PartLegs,wiki: Macdosnake,SNA-14; Macdosnake legs
+スリスギー,Surisugii,PartLegs,wiki: Macdosnake,"SNA-14; Macdosnake legs; wiki gives ""???""; own romanization, possibly from すり (slide/rub) (tentative)"
 サン・ビーム,Sun-Beam,PartHead,wiki: Charged Seeds,FLW-11; Charged Seeds head
 ゴーアップ,Go-Up,PartRArm,wiki: Charged Seeds,FLW-12; Charged Seeds right arm
 ライズアップ,Rise-Up,PartLArm,wiki: Charged Seeds,FLW-13; Charged Seeds left arm
