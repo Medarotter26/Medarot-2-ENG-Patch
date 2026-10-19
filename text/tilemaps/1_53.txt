@@ -21,16 +21,16 @@
 
 @ 0,0 max 17
 JP: アイウエオ カキクケコ サシスセソ
-EN:
+EN: ABCDE FGHIJ KLMNO
 
 @ 2,0 max 17
 JP: タチツテト ナニヌネノ ハヒフヘホ
-EN:
+EN: PQRST UVWXY Z.,'-
 
 @ 4,0 max 17
 JP: マミムメモ ヤユヨワン ラリルレロ
-EN:
+EN: abcde fghij klmno
 
 @ 6,0 max 17
 JP: ァィゥェォ ャュョッヲ ゛゜ー・
-EN:
+EN: pqrst uvwxy z&()·

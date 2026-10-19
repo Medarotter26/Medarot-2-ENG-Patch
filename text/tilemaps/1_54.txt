@@ -21,16 +21,16 @@
 
 @ 0,0 max 17
 JP: あいうえお かきくけこ さしすせそ
-EN:
+EN: ABCDE FGHIJ KLMNO
 
 @ 2,0 max 17
 JP: たちつてと なにぬねの はひふヘほ
-EN:
+EN: PQRST UVWXY Z.,'-
 
 @ 4,0 max 17
 JP: まみむめも やゆよわん らリるれろ
-EN:
+EN: abcde fghij klmno
 
 @ 6,0 max 17
 JP: ぁぃぅぇぉ ゃゅょっを ゛゜ー・
-EN:
+EN: pqrst uvwxy z&()·
