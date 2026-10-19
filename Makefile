@@ -32,6 +32,9 @@ FONT_WIDTHS := $(BUILD)/gfx/VWFFont.widths
 FIXED_FONT := $(BUILD)/gfx/FixedFont.2bpp
 DIALOG := $(wildcard text/dialog/*.csv)
 TEXT_OUT := $(BUILD)/text/text_data.asm
+PTRLISTS := $(wildcard text/ptrlists/*.csv)
+PTRLISTS_OUT := $(BUILD)/text/ptrlists.asm
+LIST_RELOCATION_BANK := 0xC8
 
 .PHONY: all clean $(VERSIONS) ips
 all: $(VERSIONS)
@@ -55,6 +58,7 @@ $(BUILD)/%.o: $(SRC)/%.asm $(COMMON) | $(BUILD)
 
 $(BUILD)/core/text_engine.o: $(TEXT_OUT)
 $(BUILD)/text/text_data.o: $(TEXT_OUT)
+$(BUILD)/text/ptrlists.o: $(PTRLISTS_OUT)
 $(BUILD)/patch/vwf.o: $(FONT) $(FONT_WIDTHS)
 $(BUILD)/patch/fonts.o: $(FIXED_FONT)
 
@@ -63,6 +67,10 @@ $(FONT) $(FONT_WIDTHS) $(FIXED_FONT): gfx/patch/M3Font.1bpp.png $(SCRIPT)/build_
 
 $(TEXT_OUT): $(DIALOG) $(FONT_WIDTHS) $(SCRIPT)/build_text.py $(SCRIPT)/textcodec.py $(RES)/charmap_en.tbl
 	$(PYTHON) $(SCRIPT)/build_text.py $(ORIGINAL_PREFIX)kuwagata.gbc text/dialog $(FONT_WIDTHS) $(BUILD)/text $(TEXT_FIRST_BANK) $(TEXT_LAST_BANK)
+
+$(PTRLISTS_OUT): $(PTRLISTS) $(SCRIPT)/build_ptrlists.py $(SCRIPT)/dump_ptrlists.py $(SCRIPT)/textcodec.py $(RES)/charmap_en.tbl
+	@mkdir -p $(dir $@)
+	$(PYTHON) $(SCRIPT)/build_ptrlists.py $(ORIGINAL_PREFIX)kuwagata.gbc text/ptrlists $@ $(LIST_RELOCATION_BANK)
 
 $(BUILD):
 	mkdir -p $@
