@@ -18,14 +18,14 @@
 
 [0_54]
 
-@ 2,1
+@ 2,2 max 8
 JP: リーダーにする
-EN: Leader
+EN:
 
 @ 4,2 max 8
 JP: ステータスをみる
-EN: Status
+EN:
 
 @ 6,2 max 8
 JP: もどる
-EN: Back
+EN:
