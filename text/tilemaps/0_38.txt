@@ -1,0 +1,38 @@
+# Tilemap 0_38: table 0 (bank $34), index $38
+# Also used by indices: $39
+# Data: $34:4914, compressed (header $01), 249 bytes, 32x18 tiles
+# Screen: Medal select screen (Medal selection / Level)
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７８９０１２３４５６７８９
+#    0|＃＃＃＃＃＃＃＃＃＃＃＃＃．．．．．．＃|
+#    1|＃．メタルせんたく．．＃＃．．．．．．＃|
+#    2|＃．．．．．．．．．．＃＃＃＃＃＃＃＃＃|
+#    3|＃．．．．．．．．．．＃＃＃＃．．＃＃＃|
+#    4|＃．．．．．．．．．．＃＃＃．．．．＃＃|
+#    5|＃．．．．．．．．．．＃＃＃．．．．＃＃|
+#    6|＃．．．．．．．．．．＃＃＃．．．．＃＃|
+#    7|＃．．．．．．．．．．＃＃＃．．．．＃＃|
+#    8|＃．．．．．．．．．．＃＃＃＃＃＃＃＃＃|
+#    9|＃．．．．．．．．．．＃＃＃＃＃＃＃＃＃|
+#   10|＃．．．．．．．．．．＃＃＃＃＃＃＃＃＃|
+#   11|＃．．．．．．．．．．＃＃レヘル．．．＃|
+#   12|＃．．．．．．．．．．＃＃＃＃＃＃＃＃＃|
+#   13|＃．．．．．．．．．．＃．．．．．．．．|
+#   14|＃．．．．．．．．．．＃．．．．．．．．|
+#   15|＃．．．．．．．．．．＃．．．．．．．．|
+#   16|＃．．．．．．．．．．＃．．．．．．．．|
+#   17|＃＃＃＃＃＃＃＃＃＃＃＃．．．．．．．．|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[0_38]
+
+@ 1,2 max 9
+JP: メタルせんたく
+EN:
+
+@ 11,13 max 6
+JP: レヘル
+EN:

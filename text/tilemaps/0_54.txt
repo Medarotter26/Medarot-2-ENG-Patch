@@ -1,0 +1,31 @@
+# Tilemap 0_54: table 0 (bank $34), index $54
+# Data: $34:50A4, raw (header $00), 85 bytes, 11x8 tiles
+# Screen: Medarot menu: Make leader / View status / Back
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７８９０
+#    0|＃＃＃＃＃＃＃＃＃＃＃|
+#    1|＃．．．゛．．．．．＃|
+#    2|＃．リーターにする．＃|
+#    3|＃．．．．．．．．．＃|
+#    4|＃．ステータスをみる＃|
+#    5|＃．．゛．．．．．．＃|
+#    6|＃．もとる．．．．．＃|
+#    7|＃＃＃＃＃＃＃＃＃＃＃|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[0_54]
+
+@ 2,2 max 8
+JP: リーダーにする
+EN:
+
+@ 4,2 max 8
+JP: ステータスをみる
+EN:
+
+@ 6,2 max 8
+JP: もどる
+EN:

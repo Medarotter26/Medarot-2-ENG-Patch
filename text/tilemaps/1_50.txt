@@ -1,0 +1,30 @@
+# Tilemap 1_50: table 1 (bank $35), index $50
+# Data: $35:471A, compressed (header $01), 104 bytes, 32x7 tiles
+# Screen: Options: battle time setting (long / short)
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７８９０１２３４５６７８９
+#    0|＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃|
+#    1|＃．．．せんとうしかん．せってい．．．＃|
+#    2|＃．．．．．．．．．．．．．．．．．．＃|
+#    3|＃．．＃＃＃＃＃＃＃＃＃＃＃＃＃＃．．＃|
+#    4|＃．゛．．．．．．．．．．．．．゛．．＃|
+#    5|＃なかい．．．．＃＃＃＃．．．みしかい＃|
+#    6|＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[1_50]
+
+@ 1,4 max 15
+JP: せんとうしかん せってい
+EN:
+
+@ 5,1 max 7
+JP: ながい
+EN:
+
+@ 5,15 max 4
+JP: みじかい
+EN:

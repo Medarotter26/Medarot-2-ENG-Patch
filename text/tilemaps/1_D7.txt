@@ -1,0 +1,27 @@
+# Tilemap 1_D7: table 1 (bank $35), index $D7
+# Data: $35:6046, compressed (header $01), 186 bytes, 32x12 tiles
+# Screen: Password input screen
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７８９０１２３４５６７８９
+#    0|．．．．＃．．．＃．．．．．．．．．．．|
+#    1|＃＃＃．ハスワート．にゅうリょく．＃＃＃|
+#    2|＃．＃＃＃．．．．＃＃＃＃＃＃＃＃＃＃＃|
+#    3|＃．＃＃＃．．．．＃．．．．．．．．＃＃|
+#    4|＃．＃＃＃．．．．＃．．．．．．．．＃＃|
+#    5|＃．＃＃＃．．．．＃．．．．．．．．＃＃|
+#    6|＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃|
+#    7|＃＃．．．．．．．．．．．．．．＃．．＃|
+#    8|＃＃．０１２３４５６７８９．．．＃．．＃|
+#    9|＃＃．．．．．．．．．．．．．．＃．．＃|
+#   10|＃＃．＃＃＃＃ⒶⒷ＃＃＃＃．ᴱᴰ．＃．．＃|
+#   11|＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[1_D7]
+
+@ 1,4 max 13
+JP: ハスワート にゅうリょく
+EN:

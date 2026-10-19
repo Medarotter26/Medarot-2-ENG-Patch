@@ -1,0 +1,21 @@
+# Tilemap 1_51: table 1 (bank $35), index $51
+# Data: $35:4782, raw (header $00), 16 bytes, 6x2 tiles
+# Screen: Name entry: "Your name?"
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５
+#    0|キミの．．．|
+#    1|．なまえは？|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[1_51]
+
+@ 0,0 max 6
+JP: キミの
+EN:
+
+@ 1,1 max 5
+JP: なまえは?
+EN:

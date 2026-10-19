@@ -1,0 +1,23 @@
+# Tilemap 0_26: table 0 (bank $34), index $26
+# Data: $34:45B0, raw (header $00), 38 bytes, 13x4 tiles
+# Screen: Medarot order screen: "SELECT button: swap order"
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７８９０１２
+#    0|　　　　゛　　゛　　　　　|
+#    1|セレクトホタンて　　　　　|
+#    2|゛　　゛　　　　　　　　　|
+#    3|しゅんはんを　いれかえます|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[0_26]
+
+@ 1,0 max 8
+JP: セレクトボタンで
+EN:
+
+@ 3,0 max 13
+JP: じゅんばんを いれかえます
+EN:

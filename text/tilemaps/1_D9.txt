@@ -1,0 +1,24 @@
+# Tilemap 1_D9: table 1 (bank $35), index $D9
+# Data: $35:6124, raw (header $00), 36 bytes, 6x5 tiles
+# Screen: Menu: Increase / Give
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５
+#    0|＃＃＃＃＃＃|
+#    1|＃．ふやす＃|
+#    2|＃．．．．＃|
+#    3|＃．わたす＃|
+#    4|＃＃＃＃＃＃|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[1_D9]
+
+@ 1,2 max 3
+JP: ふやす
+EN:
+
+@ 3,2 max 3
+JP: わたす
+EN:

@@ -1,0 +1,17 @@
+# Tilemap 1_DA: table 1 (bank $35), index $DA
+# Data: $35:6148, raw (header $00), 13 bytes, 5x2 tiles
+# Screen: Title menu: New game
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４
+#    0|．゛．．．|
+#    1|はしめから|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[1_DA]
+
+@ 1,0 max 5
+JP: はじめから
+EN:

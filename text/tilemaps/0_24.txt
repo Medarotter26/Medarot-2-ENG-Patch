@@ -1,0 +1,39 @@
+# Tilemap 0_24: table 0 (bank $34), index $24
+# Data: $34:445A, compressed (header $01), 187 bytes, 32x12 tiles
+# Screen: Records screen: Medals/Parts obtained, free battle time, wins/battles
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７８９０１２３４５６７８９
+#    0|＃＃＃＃＃＃．．．．．．．．＃＃＃＃＃＃|
+#    1|＃＃＃＃＃＃．．．．．．．．＃＃＃＃＃＃|
+#    2|＃．．．．＃＃＃＃＃＃＃＃＃＃．．．．＃|
+#    3|＃．．．．．．．゛．．．．．．．．．．＃|
+#    4|＃．てにいれたメタル．．．．．．＃．．＃|
+#    5|＃．．．．．．゜．．．．．．．．．．．＃|
+#    6|＃．てにいれたハーツ．．．．．．＃．．＃|
+#    7|＃．．゜．．゛．．．．．．．．．．．．＃|
+#    8|＃．．フレイしかん．．．．．：．．．．＃|
+#    9|＃．．．．．．．．．．．．．．．．．．＃|
+#   10|＃．かち／しあいすう．．．．／．．．．＃|
+#   11|＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[0_24]
+
+@ 4,2 max 14
+JP: てにいれたメダル
+EN:
+
+@ 6,2 max 14
+JP: てにいれたパーツ
+EN:
+
+@ 8,3 max 11
+JP: プレイじかん
+EN:
+
+@ 10,2 max 12
+JP: かち/しあいすう
+EN:

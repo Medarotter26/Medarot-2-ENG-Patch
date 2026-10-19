@@ -1,0 +1,41 @@
+# Tilemap 0_81: table 0 (bank $34), index $81
+# Data: $34:608E, raw (header $00), 91 bytes, 8x10 tiles
+# Screen: Link menu: Friendly robattle / Serious robattle / Trade parts / Trade medals / Disconnect
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７
+#    0|．．゛゛．゛．．|
+#    1|あそひてロホトル|
+#    2|．．．．．゛．．|
+#    3|しんけんロホトル|
+#    4|゜．．．．．．゛|
+#    5|ハーツのトレート|
+#    6|．゛．．．．．゛|
+#    7|メタルのトレート|
+#    8|．．．．．．．．|
+#    9|つうしんをきる．|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[0_81]
+
+@ 1,0 max 8
+JP: あそびでロボトル
+EN:
+
+@ 3,0 max 8
+JP: しんけんロボトル
+EN:
+
+@ 5,0 max 8
+JP: パーツのトレード
+EN:
+
+@ 7,0 max 8
+JP: メダルのトレード
+EN:
+
+@ 9,0 max 8
+JP: つうしんをきる
+EN:

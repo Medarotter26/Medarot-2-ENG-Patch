@@ -35,6 +35,10 @@ TEXT_OUT := $(BUILD)/text/text_data.asm
 PTRLISTS := $(wildcard text/ptrlists/*.csv)
 PTRLISTS_OUT := $(BUILD)/text/ptrlists.asm
 LIST_RELOCATION_BANK := 0xC8
+TILESETS := $(wildcard gfx/tilesets/*.png gfx/tilesets/*.count)
+TILESETS_OUT := $(BUILD)/gfx/tilesets.asm
+TILESET_FIRST_BANK := 0xD0
+TILESET_LAST_BANK := 0xDF
 
 .PHONY: all clean $(VERSIONS) ips
 all: $(VERSIONS)
@@ -61,6 +65,7 @@ $(BUILD)/text/text_data.o: $(TEXT_OUT)
 $(BUILD)/text/ptrlists.o: $(PTRLISTS_OUT)
 $(BUILD)/patch/vwf.o: $(FONT) $(FONT_WIDTHS)
 $(BUILD)/patch/fonts.o: $(FIXED_FONT)
+$(BUILD)/patch/tilesets.o: $(TILESETS_OUT)
 
 $(FONT) $(FONT_WIDTHS) $(FIXED_FONT): gfx/patch/M3Font.1bpp.png $(SCRIPT)/build_font.py $(RES)/charmap_en.tbl | $(BUILD)
 	$(PYTHON) $(SCRIPT)/build_font.py $< $(ORIGINAL_PREFIX)kuwagata.gbc $(RES)/charmap_en.tbl $(FONT) $(FONT_WIDTHS) $(FIXED_FONT)
@@ -71,6 +76,10 @@ $(TEXT_OUT): $(DIALOG) $(FONT_WIDTHS) $(SCRIPT)/build_text.py $(SCRIPT)/textcode
 $(PTRLISTS_OUT): $(PTRLISTS) $(SCRIPT)/build_ptrlists.py $(SCRIPT)/dump_ptrlists.py $(SCRIPT)/textcodec.py $(RES)/charmap_en.tbl
 	@mkdir -p $(dir $@)
 	$(PYTHON) $(SCRIPT)/build_ptrlists.py $(ORIGINAL_PREFIX)kuwagata.gbc text/ptrlists $@ $(LIST_RELOCATION_BANK)
+
+$(TILESETS_OUT): $(TILESETS) $(SCRIPT)/build_tilesets.py
+	@mkdir -p $(dir $@)
+	$(PYTHON) $(SCRIPT)/build_tilesets.py gfx/tilesets $@ $(TILESET_FIRST_BANK) $(TILESET_LAST_BANK)
 
 $(BUILD):
 	mkdir -p $@

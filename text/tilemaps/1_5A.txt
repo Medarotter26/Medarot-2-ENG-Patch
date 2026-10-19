@@ -1,0 +1,43 @@
+# Tilemap 1_5A: table 1 (bank $35), index $5A
+# Data: $35:498C, raw (header $00), 109 bytes, 8x12 tiles
+# Screen: Shop menu: Buy / Sell / Smile / Password / Quit
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７
+#    0|＃＃＃＃＃＃＃＃|
+#    1|＃．かう．．．＃|
+#    2|＃．．．．．．＃|
+#    3|＃．うる．．．＃|
+#    4|＃．．．．．．＃|
+#    5|＃．スマイル．＃|
+#    6|＃．゜．．．゛＃|
+#    7|＃．ハスワート＃|
+#    8|＃．．．．．．＃|
+#    9|＃．やめる．．＃|
+#   10|＃＃＃＃＃＃＃＃|
+#   11|．．．．．．．．|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[1_5A]
+
+@ 1,2 max 5
+JP: かう
+EN:
+
+@ 3,2 max 5
+JP: うる
+EN:
+
+@ 5,2 max 5
+JP: スマイル
+EN:
+
+@ 7,2 max 5
+JP: パスワード
+EN:
+
+@ 9,2 max 5
+JP: やめる
+EN:

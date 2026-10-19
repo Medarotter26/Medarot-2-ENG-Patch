@@ -1,0 +1,17 @@
+# Tilemap 0_52: table 0 (bank $34), index $52
+# Data: $34:5048, raw (header $00), 33 bytes, 15x2 tiles
+# Screen: Medarot select: "Please choose a Medarot"
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７８９０１２３４
+#    0|．゛．．．．．．．．゛．゛．．|
+#    1|メタロットを．えらんてくたさい|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[0_52]
+
+@ 1,0 max 15
+JP: メダロットを えらんでください
+EN:

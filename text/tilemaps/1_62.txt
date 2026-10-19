@@ -1,0 +1,42 @@
+# Tilemap 1_62: table 1 (bank $35), index $62
+# Data: $35:4B8F, raw (header $00), 100 bytes, 8x11 tiles
+# Screen: Parts type menu: Head / Right arm / Left arm / Legs / Quit
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７
+#    0|＃＃＃＃＃＃＃＃|
+#    1|＃．あたま．．＃|
+#    2|＃．．゛．゛．＃|
+#    3|＃．みきうて．＃|
+#    4|＃．．゛．．゛＃|
+#    5|＃．ひたリうて＃|
+#    6|＃．．．．゛．＃|
+#    7|＃．きゃくふ．＃|
+#    8|＃．．．．．．＃|
+#    9|＃．やめる．．＃|
+#   10|＃＃＃＃＃＃＃＃|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[1_62]
+
+@ 1,2 max 5
+JP: あたま
+EN:
+
+@ 3,2 max 5
+JP: みぎうで
+EN:
+
+@ 5,2 max 5
+JP: ひだリうで
+EN:
+
+@ 7,2 max 5
+JP: きゃくぶ
+EN:
+
+@ 9,2 max 5
+JP: やめる
+EN:

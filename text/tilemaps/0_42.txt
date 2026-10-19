@@ -1,0 +1,39 @@
+# Tilemap 0_42: table 0 (bank $34), index $42
+# Data: $34:4C45, compressed (header $01), 204 bytes, 32x12 tiles
+# Screen: Medaforce screen: Medaforce / consumption / success / power
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７８９０１２３４５６７８９
+#    0|＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃|
+#    1|＃．メタフォース．＃＃しょうひ＃＃．．＃|
+#    2|＃＃＃＃＃＃＃＃＃＃＃．．．．．．．．＃|
+#    3|＃＃＃＃＃＃＃＃＃＃＃＃．＃＃＃＃．．＃|
+#    4|＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃．．＃|
+#    5|＃＃＃＃＃＃＃＃＃＃＃．．／せいこうち＃|
+#    6|＃＃＃＃＃＃＃＃＃＃＃．．．．．．．．＃|
+#    7|＃＃＃＃＃＃＃＃＃＃＃．．．．．／．．＃|
+#    8|＃＃＃＃＃＃＃＃＃＃＃．．．．．．．．＃|
+#    9|＃＃＃＃＃＃＃＃＃＃＃．．．．．．．．＃|
+#   10|＃＃＃＃＃＃＃＃＃＃＃いリょく．．．．＃|
+#   11|＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[0_42]
+
+@ 1,2 max 7
+JP: メタフォース
+EN:
+
+@ 1,11 max 4
+JP: しょうひ
+EN:
+
+@ 5,13 max 6
+JP: /せいこうち
+EN:
+
+@ 10,11 max 8
+JP: いリょく
+EN:

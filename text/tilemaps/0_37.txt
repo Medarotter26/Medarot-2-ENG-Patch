@@ -1,0 +1,41 @@
+# Tilemap 0_37: table 0 (bank $34), index $37
+# Data: $34:48D7, raw (header $00), 61 bytes, 5x10 tiles
+# Screen: Parts stats labels: armor / charge / heat / success / power
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４
+#    0|．．．．．|
+#    1|そうこう．|
+#    2|゛．．．．|
+#    3|しゅうてん|
+#    4|．．．．．|
+#    5|ねつリょう|
+#    6|．．．．．|
+#    7|せいこう．|
+#    8|．．．．．|
+#    9|いリょく．|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[0_37]
+
+@ 1,0 max 5
+JP: そうこう
+EN:
+
+@ 3,0 max 5
+JP: じゅうてん
+EN:
+
+@ 5,0 max 5
+JP: ねつリょう
+EN:
+
+@ 7,0 max 5
+JP: せいこう
+EN:
+
+@ 9,0 max 5
+JP: いリょく
+EN:

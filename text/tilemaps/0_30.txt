@@ -1,0 +1,25 @@
+# Tilemap 0_30: table 0 (bank $34), index $30
+# Data: $34:4745, raw (header $00), 65 bytes, 12x6 tiles
+# Screen: Parts screen hint: "SELECT button: switch parts"
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７８９０１
+#    0|＃＃＃＃＃＃＃＃＃＃＃＃|
+#    1|＃．．．．゛．．゛．．＃|
+#    2|＃セレクトホタンて．．＃|
+#    3|＃．．．゜．．．．．．＃|
+#    4|＃．．．ハーツきリかえ＃|
+#    5|＃＃＃＃＃＃＃＃＃＃＃＃|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[0_30]
+
+@ 2,1 max 10
+JP: セレクトボタンで
+EN:
+
+@ 4,4 max 7
+JP: パーツきリかえ
+EN:

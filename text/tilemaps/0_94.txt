@@ -1,0 +1,31 @@
+# Tilemap 0_94: table 0 (bank $34), index $94
+# Data: $34:6577, compressed (header $01), 237 bytes, 32x12 tiles
+# Screen: Link battle frame (Level x2)
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７８９０１２３４５６７８９
+#    0|＃．．．．．．＃＃＃＃＃＃．．．．．．＃|
+#    1|＃．．．．．．＃＃＃＃＃＃．．．．．．＃|
+#    2|＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃|
+#    3|＃＃＃．．＃＃＃＃＃＃＃＃＃＃．．＃＃＃|
+#    4|＃＃．．．．＃＃＃＃＃＃＃＃．．．．＃＃|
+#    5|＃＃．．．．＃＃＃＃＃＃＃＃．．．．＃＃|
+#    6|＃＃．．．．＃＃＃＃＃＃＃＃．．．．＃＃|
+#    7|＃＃．．．．＃＃＃＃＃＃＃＃．．．．＃＃|
+#    8|＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃|
+#    9|＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃|
+#   10|＃．゛．．．．＃＃＃＃＃＃．゛．．．．＃|
+#   11|＃レヘル．．．＃＃＃＃＃＃レヘル．．．＃|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[0_94]
+
+@ 11,1 max 6
+JP: レベル
+EN:
+
+@ 11,13 max 6
+JP: レベル
+EN:

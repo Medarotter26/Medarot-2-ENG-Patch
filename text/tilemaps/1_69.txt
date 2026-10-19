@@ -1,0 +1,17 @@
+# Tilemap 1_69: table 1 (bank $35), index $69
+# Data: $35:4DDC, raw (header $00), 24 bytes, 12x2 tiles
+# Screen: Shop: "Is this OK?"
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７８９０１
+#    0|．．゛．．．．．゛　　　|
+#    1|これて．よろしいてすか？|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[1_69]
+
+@ 1,0 max 12
+JP: これで よろしいですか?
+EN:

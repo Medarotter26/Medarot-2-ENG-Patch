@@ -1,0 +1,30 @@
+# Tilemap 0_99: table 0 (bank $34), index $99
+# Data: $34:66D7, raw (header $00), 64 bytes, 8x7 tiles
+# Screen: Link menu: Explanation / Connect / Quit
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７
+#    0|＃＃＃＃＃＃＃＃|
+#    1|＃．せつめい．＃|
+#    2|＃．．．゛．．＃|
+#    3|＃．せつそく．＃|
+#    4|＃．．．．．．＃|
+#    5|＃．やめる．．＃|
+#    6|＃＃＃＃＃＃＃＃|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[0_99]
+
+@ 1,2 max 5
+JP: せつめい
+EN:
+
+@ 3,2 max 5
+JP: せつぞく
+EN:
+
+@ 5,2 max 5
+JP: やめる
+EN:

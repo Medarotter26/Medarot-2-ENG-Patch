@@ -1,0 +1,37 @@
+# Tilemap 0_55: table 0 (bank $34), index $55
+# Data: $34:50F9, raw (header $00), 109 bytes, 11x10 tiles
+# Screen: Medarot menu: Add to team / View status / Start robattle / Back
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７８９０
+#    0|＃＃＃＃＃＃＃＃＃＃＃|
+#    1|＃．．．．．．．．．＃|
+#    2|＃．チームにいれる．＃|
+#    3|＃．．．．．．．．．＃|
+#    4|＃．ステータスをみる＃|
+#    5|＃．．゛．．．．．．＃|
+#    6|＃．ロホトルかいし．＃|
+#    7|＃．．゛．．．．．．＃|
+#    8|＃．もとる．．．．．＃|
+#    9|＃＃＃＃＃＃＃＃＃＃＃|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[0_55]
+
+@ 2,2 max 8
+JP: チームにいれる
+EN:
+
+@ 4,2 max 8
+JP: ステータスをみる
+EN:
+
+@ 6,2 max 8
+JP: ロボトルかいし
+EN:
+
+@ 8,2 max 8
+JP: もどる
+EN:

@@ -1,0 +1,36 @@
+# Tilemap 1_53: table 1 (bank $35), index $53
+# Data: $35:47A5, raw (header $00), 96 bytes, 17x9 tiles
+# Screen: Name entry: katakana keyboard
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７８９０１２３４５６
+#    0|アイウエオ．カキクケコ．サシスセソ|
+#    1|　　　　　　　　　　　　　　　　　|
+#    2|タチツテト．ナニヌネノ．ハヒフヘホ|
+#    3|　　　　　　　　　　　　　　　　　|
+#    4|マミムメモ．ヤユヨワン．ラリルレロ|
+#    5|　　　　　　　　　　　　　　　　　|
+#    6|ァィゥェォ．ャュョッヲ．゛゜ー・．|
+#    7|　　　　　　　　　　　　　　　　　|
+#    8|０１２３４．５６７８９．？！♥．．|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[1_53]
+
+@ 0,0 max 17
+JP: アイウエオ カキクケコ サシスセソ
+EN:
+
+@ 2,0 max 17
+JP: タチツテト ナニヌネノ ハヒフヘホ
+EN:
+
+@ 4,0 max 17
+JP: マミムメモ ヤユヨワン ラリルレロ
+EN:
+
+@ 6,0 max 17
+JP: ァィゥェォ ャュョッヲ ゛゜ー・
+EN:

@@ -1,0 +1,22 @@
+# Tilemap 1_52: table 1 (bank $35), index $52
+# Data: $35:4792, raw (header $00), 19 bytes, 6x3 tiles
+# Screen: Name entry: "Medarot's name?"
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５
+#    0|．゛　　　　|
+#    1|メタロットの|
+#    2|．なまえは？|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[1_52]
+
+@ 1,0 max 6
+JP: メダロットの
+EN:
+
+@ 2,1 max 5
+JP: なまえは?
+EN:

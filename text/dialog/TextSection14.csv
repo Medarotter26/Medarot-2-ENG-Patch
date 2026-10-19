@@ -1,186 +1,186 @@
 Index,Pointer,Original,Translated
-000,0x41D2,<@00>ここもだな ようし!<CR>ねらいうちパーツで!,
+000,0x41D2,<@00>ここもだな ようし!<CR>ねらいうちパーツで!,"<@00>Here too, huh? Alright! Time for a Snipe part!"
 001,0x41D2,@000,
-002,0x41EB,<@00>じゃあ ふたリとも ここでまってて!<CR>かならず メダロッチと<CF><CC>カリンちゃんを とリかえすから!<CF><CC><@09>はやく かえってきてね<CR>こんなとこ いつまでも<CF><CC>いたくないもん<CF><CC><@20>おれも いっしょに・・・!<CF><CC><@00>ダメだよ コウジ きもちはわかるけど<CR>メダロットなしで さきにいくなんて<CF><CC><@20>わかったよっ! くやしいがなっ!<CR>たのんだぜ <&CB26><CF><CC><@04>まかせといて!,
-003,0x42A5,<@00>いま ねらいうちパーツ つけてる<CR>メダロットが ないや<CF><CC>いそいで よういしよう!,
-004,0x42D2,<@1B><&CB26>!,
-005,0x42DA,<@89>ふん こぞう きたか<CR>まっていて やったぞ<CF><CC>いまこそ たびかさなる<CR>くつじょくを・・・<CF><CC><@02>サケカース!<CR>さらったこを かえせ!<CF><CC><@87>せっかちな こぞうだ<CR>あれを みろ!,
-006,0x4336,<@82>ロボロボッ!,
-007,0x4340,<@85>ロボーッ!,
-008,0x4349,<@1F><&CB26>!<CR>メダロッチは とリかえしたぜ!<CF><CC><@04>やったぁ!,
-009,0x436A,<@02>あ! まて にげるな!,
-00A,0x4379,<@87>ふふん きたか<CF><CC><@02>ひきょうだぞ サケカース!<CR>こんどこそ にがさないぞ!<CF><CC><@87>それは どうかな?,
-00B,0x43B0,<@8B>あっ! そういえば!<CF><CC><@08>えっ! なに!?,
-00C,0x43CA,<@00>さてと さきに すすまなきゃ!,
-00D,0x43DD,<@05>うーん・・・<CF><CC><@1B>どうした?<CR><&CB26><CF><CC><@05>ドアが しまっちゃった<CR>こまったな<CF><CC><@1F>ここは おれに まかせろよ<CR>さっきの おかえしを してやる<CF><CC>はなれてろ<CF><CC><@00>?,
-00E,0x4436,<@02>まて!,
-00F,0x443D,<@02>サケカース! ぼくの きを そらして<CR>こぶんに うしろから<CF><CC>こうげき させるなんて<CR>ひきょうだぞ!<CF><CC>こんどこそっ!<CF><CC><@87>けっちゃくを つけようと いうのか?<CR>しかし あらそいからは なにも<CF><CC>うまれては こない<CR>そう おもわないか?<CF><CC><@08>えっ!?,
-010,0x44C0,<@1E>いけっ!!,
-011,0x44C9,<@BD>グー グー<CF><CC><@05>まいったな・・・<CR>しかたない ひとまず<CF><CC>そとに でて だれかの<CR>ちからを かリるか,
-012,0x4500,<@02>あのなぁ! いってることと<CR>やってることが ぜんぜん<CF><CC>ちがうじゃないかっ!!<CF><CC><@88>まったく たんじゅんなヤツだ<CR>はっはっはっはっ!<CF><CC><@02>むっかーっ!,
-013,0x4551,<@05>うっわー あくしゅみ<CF><CC><@89>うるさい! ひとのしゅみを<CR>わるくいうヤツは こうだ!,
-014,0x457E,<@00>はこのなかは からっぽだ,
-015,0x458E,<@4D>あ! まて!,
-016,0x4598,<@00>あ! あれは なんだ!<CF><CC><@87>んん?,
-017,0x45AE,<@1E>とうっ!!,
-018,0x45B7,<@8B>うおぅ!!,
-019,0x45C0,<@08>わっ!,
-01A,0x45C7,<@1E>おまえは サケカースをおえ!<CR>おれは ひとまず<CF><CC>メダロッチを まってるヤツに<CR>かえしてくるぜ!<CF><CC><@00>わかった!,
-01B,0x4604,<@97>もう にげられないでしゅよ,
-01C,0x4615,<@02>おまえは<CR>ようちえんかんぶの サラミ<CF><CC><@97>とびらは じどうろっく したでしゅ<CR>だから にげみちは ないのでしゅよ,
-01D,0x4652,<@96>おまえの あいては こっちでしゅ,
-01E,0x4666,<@96>いくでしゅよ!,
-01F,0x4671,<@96>なかなか やるでしゅね<CR>でも おたのしみは これからでしゅよ,
-020,0x4693,<@96>いくらでも でてきましゅよ<CR>いつまで もちこたえられましゅか?,
-021,0x46B6,<@05>きリがないよ どうしたらいいんだ,
-022,0x46CA,<@04>コウジ!!<CF><CC><@1F>おまえだけ めだたすわけには<CR>いかねーだろうが<CF><CC>ずっと とじこめられてて<CR>いらいらしてたんだ<CF><CC>めいっぱい あばれてやるぜ!<CF><CC><@96>じゃまがはいった ようでしゅね<CR>でも まあどうせ おなじことでしゅ<CF><CC>となリの おヘやから メダロットは<CR>どんどん やってくるのでしゅよ<CF><CC><@1B>なるほど となリのヘやか<CR><&CB26> ここはたのんだぞ!,
-023,0x477C,<@86>ロボッ!?<CR>ロボーッ!!,
-024,0x478C,<@11>あ! あたしの メダル!<CF><CC>さっき いけのなかに<CR>おちたんじゃ・・・!,
-025,0x47B3,<@04>まかせて アリカ<CR>ぼくが とってきて あげるよ,
-026,0x47CE,<@97>まだ おわって ないでしゅよ!,
-027,0x47E1,<@17>あっ そういえば<CR>わたしの メダルは・・・?,
-028,0x47FB,<@04>さっき サケカースと いっしょに<CR>いけに おちたんだよ<CF><CC>まかせといて カリンちゃん<CR>ぼくが とってきて あげるよ<CF><CC><@16>・・・おねがいします,
-029,0x4846,<@99>・・・おかしいでしゅね<CF><CC><@04>コウジが やっつけてくれたんだ!<CF><CC><@96>しかたないでしゅね<CR>あたちが おあいてするでしゅよ,
-02A,0x4886,<@1F>こっちは かたづいたぞ<CR><&CB26>!<CF><CC><@00>うん たすかったよ<CF><CC><@96>それじゃあ あたちは そろそろ<CR>シツレイするでしゅよ<CF><CC><@1E>あっ! まてっ! にがすかっ!,
-02B,0x48D8,<@00>こっちからは むこうに<CR>いけない みたいだ,
-02C,0x4901,<@00>ベルトコンベアーは いま<CR>うごいてない,
-02D,0x4918,<@00>ベルトコンベアーだ<CR>いまは うごいていない<CF><CC>なにかの スイッチを<CR>はめこむ あながある,
-02E,0x4948,<@11>ちょっと やめてよ<CR>メダルを かえして!<CF><CC><@88>んー ここちよいひめいだ<CR>こういう イヤガラセは やめられん<CF><CC><@08>アリカのこえだ!<CR>このさきから きこえてきたぞ!,
-02F,0x499E,<@08>なにしてるんだよ!<CF><CC><@0A><&CB26>!,
-030,0x49B3,<@87>ふん きたか いいところだったのに<CR>なに おれさまに さからった<CF><CC>ばつとして こやつのメダルを<CR>いけに しずめてやろうとおもってな<CF><CC><@02>いやがってるじゃないか!<CR>かえしてやれよ<CF><CC><@88>おっと おれさまにちかづくと<CR>メダルは さんのなかだ いいのか?<CF><CC><@08>さんだって!<CF><CC><@88>そう ここは さんのいけだ<CR>さんに メダルがつかると・・・,
-031,0x4A60,<@48>やっとみつけたぞ<CR>ロボロボだんボス サケカース!,
-032,0x4A7C,<@04>レトルトさん!<CF><CC><@4C>ぜいぜい はしリまわってたんで<CR>いきがきれた<CF><CC><@48>ともかくかくごだ サケカース!<CF><CC><@08>わっ ちょっとまって!<CR>レトルトさん!,
-033,0x4ACB,<@57>んもうっ!<CR>このままじゃ すまさないんだから!,
-034,0x4AE6,<@08>うわあ!<CF><CC><@11>きゃあ!,
-035,0x4AF6,<@00>あれ? サケカースが なんともない<CR>もしかして さんっていうのは・・・<CF><CC><@87>そうだ わるいか<CR>さんは さんでも たんさんだ<CF><CC>おれさまは たんさん ぶろに<CR>つかるのが こよなくすきなのだ,
-036,0x4B58,<@89>こ この おれさまが<CR>こんな こぞうにっ! みとめぬ!,
-037,0x4B77,<@1A>やめてください!<CR>メダルを かえしてください!<CF><CC><@88>んー ここちよいひめいだ<CR>こういう イヤガラセは やめられん<CF><CC><@08>カリンちゃんの こえだ!<CR>このさきから きこえてきたぞ!,
-038,0x4BD4,<@08>なにしてるんだよ!<CF><CC><@13><&CB26>くん!,
-039,0x4BEB,<@87>ふん きたか いいところだったのに<CR>なに おれさまに さからった<CF><CC>ばつとして こやつのメダルを<CR>いけに しずめてやろうとおもってな<CF><CC><@02>いやがってるじゃないか!<CR>かえしてやれよ<CF><CC><@88>おっと おれさまにちかづくと<CR>メダルは さんのなかだ いいのか?<CF><CC><@08>さんだって!<CF><CC><@88>そう ここは さんのいけだ<CR>さんに メダルがつかると・・・,
-03A,0x4C98,<@48>やっとみつけたぞ<CR>ロボロボだんボス サケカース!,
-03B,0x4CB4,<@4D>なんだっ!?,
-03C,0x4CBE,<@9B>どうやら はらをすかせた<CR>わしの こどもたちが<CF><CC>あばれて おるようじゃな,
-03D,0x4CE7,<@08>うわあ!<CF><CC><@1A>きゃあ!,
-03E,0x4CF7,<@00>あれ? サケカースが なんともない<CR>もしかして さんっていうのは・・・<CF><CC><@87>そうだ わるいか<CR>さんはさんでも たんさんだ<CF><CC>おれさまは たんさんぶろに<CR>つかるのが こよなくすきなのだ<CF><CC><@05>うっわー あくしゅみ<CF><CC><@89>うるさい! ひとのしゅみを<CR>わるくいうヤツは こうだ!,
-03F,0x4D84,<@00>ゴッドエンペラーに<CR>はかいされた かベだ,
-040,0x4D9C,<@0E><&CB26> あのっ・・・<CF><CC><@04>しんぱいしなくても だいじょうぶ<CR>ぼくが メダルを さがしだすから<CF><CC><@0D>うん だけど いけのそこには<CR>ほかにも いろいろ おちてるみたい<CF><CC>けが しないでね,
-041,0x4DFD,<@04>はい アリカ<CR>とられたメダル,
-042,0x4E0F,<@09>あリがとう <&CB26><CF><CC><@04>じゃあ アリカ<CR>ぼくは いくけど・・・<CF><CC><@09>やっぱリあたし あしでまといみたい<CR>だから みんなと いっしょに<CF><CC>まってる きをつけてね<CF><CC><@04>うん,
-043,0x4E6A,<@17><&CB26>くん・・・<CF><CC><@04>しんぱいしなくても だいじょうぶ<CR>ぼくが メダルを さがしだすから<CF><CC><@16>あリがとうございます でも<CR>いけの そこには ほかにも<CF><CC>いろいろ おちている みたいですわ<CR>けがを しないでくださいね,
-044,0x4EDB,<@04>はい カリンちゃん<CR>とられたメダル,
-045,0x4EF0,<@16>あリがとうございます<CR><&CB26>くん<CF><CC><@04>じゃあ カリンちゃん<CR>ぼくは いくけど・・・<CF><CC><@16>わたしは <&CB26>くんの<CR>あしでまといに なってしまいますね<CF><CC>ですから みなさんと いっしょに<CR>あなたのかえリを まっています<CF><CC><@04>うん,
-046,0x4F67,<@00>ベルトコンベアーに<CR>スイッチを はめこんでみよう,
-047,0x4F83,<@04>うごきだしたぞ!<CR>よし これにのって<CF><CC>むこうがわに いってみよう,
-048,0x4FA8,<@6D>おや? キミどこから<CR>はいってきたんだね?<CF><CC>・・・そうか!<CR>キミは このすばらしいけんきゅうを<CF><CC>ぬすみにきた スパイだね!,
-049,0x4FEB,<@6D>ここで おこなう けんきゅうは<CR>エキセントリック! ワンダフル!<CF><CC>わたしたちの ビューティホーな<CR>げいじゅつひんを みたかい?<CF><CC><@6E>ふふ ふふふふ・・・,
-04A,0x503D,<@00>ビースト・・・マスター?,
-04B,0x505A,<@6D>やあ! <&CB26>くん<CR>やっぱリ ここまで きたんだね<CF><CC><@00>えーと だれでしたっけ?<CR>みんな おなじかおを してるもんで<CF><CC><@6D>わたしだよ ほら メダロットしゃで<CR>「ミニハンドル」や<CF><CC>「せんぼうきょう」といった<CR>アイテムを わたした はくいだ<CF><CC><@08>えっ!? なんで<CR>こんなところに いるんですか!?<CF><CC><@6D>メダロットしゃよリ こっちのほうが<CR>すきに けんきゅうを<CF><CC>やらせてもらえるからね,
-04C,0x5121,<@00>あリがとう これはもらっておきます<CR>だけど あなたの やったことが<CF><CC>ただしいとは ぼくは おもいません,
-04D,0x5159,<@54>あはははは!,
-04E,0x5163,<@55>さかせましょう おこめのはな<CR>ちらしましょう あくのはな<CF><CC>いかリゃくで<CR>レトルトレディ さんじょう!<CF><CC><@53>みつけたわよ メダロットしゃの<CR>スパイ! かんねんしなさい!<CF><CC><@08>レトルトレディ!?<CF><CC><@53>うらぎリものの はくい!<CR>あなたね? ヘベレケはかせに<CF><CC>ごくひデータを ながしていたのは!<CR>おかげで この さわぎ!<CF><CC>じぶんが なにをしたか わかってる?,
-04F,0x521C,<@00>あの レトルトレディ<CF><CC>そんなこといってる ばあいじゃないと<CR>おもうんですけど<CF><CC><@6D>そのとおリ!<CR>こうしている あいだにも<CF><CC>ちゃくじつに はかせの けんきゅうは<CR>すすんでいるんだよ クク<CF><CC><@53>ククってなによ ククって<CF><CC><@6D>さあ はやく いくがいい<CR>ドアのカギを レディにわたそう,
-050,0x52AF,<@6D>さあ キミも いくがいい<CR>みごとな たたかいを みせてくれよ,
-051,0x52D1,<@6D>いやぁ たのしみだなぁ・・・<CR>さいごの たたかいに<CF><CC>ふさわしいように わたしが ちょっと<CR>さいくして おいたからね<CF><CC><@00>え?<CF><CC><@6E>なんでもないよ ククッ<CR>さあ はやく いきたまえ,
-052,0x5331,<@53>ヘベレケはかせは どこなのっ!?<CF><CC><@48><&CB26>くん! ぶじか?,
-053,0x5354,<@04>レトルトさん!<CR>きてくれたんですね!<CF><CC><@53>あらレトルト おそかったじゃない<CF><CC><@4D>なっ! レディ!<CR>なぜ きみがここに!<CF><CC><@53>きまってるじゃない<CR>あんたひとリじゃ たよリないからよ<CF><CC><@4B>なっ キ・・・レトルトレディ!<CR>それはいいすぎだぞ!<CF><CC><@53>どーかしら,
-054,0x53DB,<@06>わわ レトルトさんとレトルトレディが<CR>けんかを はじめちゃったよ<CF><CC><@9B>なにかとおもえば メダロットはかせの<CR>つかいっぱしリどもか,
-055,0x5420,<@53>でたわね!<CF><CC><@48>メダロットはかせを わるくいうと<CR>ゆるさないぞ!<CF><CC><@00>はかせ! どうして<CR>ロボロボだんを つかって<CF><CC>わるいことを したリするの?<CR>メダロットはかせ みたいに<CF><CC>ひとのやくにたつことを しようと<CR>おもわないの?<CF><CC><@9B>ワシの びがくが わからん<CR>ひよっこどもが<CF><CC>かがくしゃなら おのれの<CR>こうきしんの ついきゅうのみに<CF><CC>たましいを ささげるベきじゃ!<CF><CC><@48>ええい こんなやつに なにを<CR>いってもムダだ! わたしがあいてだ!,
-056,0x5504,<@9B>そうかんたんには いかんぞい,
-057,0x5516,<@58>きゃ!,
-058,0x551D,<@48>まて! ヘベレケ!,
-059,0x552A,<@06>おとが きこえたのは<CR>こっちからじゃない!,
-05A,0x5543,<@9B>ビーストマスターは ロボロボだんの<CR>さいこう けっさくじゃった<CF><CC>じゃが それも 7ねんまえ<CR>たった ひとリの<CF><CC>こどもに たおされたという<CR>はなし じゃがな<CF><CC><@00>7ねんまえ?,
-05B,0x55A0,<@02>おまえらなぁ!,
-05C,0x55AB,<@00>メダロッとうヘの ふねは いま<CR>うごいていない みたいだな,
-05D,0x55CC,<@9B>ほう? そのなを しっておるのか?,
-05E,0x55E1,<@4A><&CB26>くん<CR>ぼくの たたかいを<CF><CC>よく みておくんだ わかったね?<CR>さあ さがって!<CF><CC><@00>は はいっ レトルトさん,
-05F,0x561F,<@FF>いけ! メタビー!,
-060,0x562C,<@52>ようやく でばんってわけだな,
-061,0x563E,<@FF>いけ! ロクショウ!,
-062,0x564C,<@51>ロクショウ まいる!,
-063,0x565A,<@C5>グゥワアアア!!<CF><CC><@4A>やった!!<CF><CC><@04>す すごい・・・,
-064,0x567B,<@9B>くっ なかなか やリおるわ<CR>じゃが まだまだじゃ<CF><CC><@C5>ガーッ!!<CF><CC><@4D>ば ばかな<CR>やつらは もううごけないはず・・・,
-065,0x56BB,<@4D>うわああっ!!,
-066,0x56C6,<@58>ヒカルっ!!<CF><CC><@08>えっ? ヒカルさん!?,
-067,0x56DF,<@50>ごめん キララ<CF><CC><@57>もう いいから だまっといて<CF><CC><@08>キ キララさん?,
-068,0x5708,<@53>はかせ あなたは なにをしたの?<CR>メダロットなら ひとを<CF><CC>わざと こうげきする ことなんて<CR>できないはずよ!<CF><CC><@50>リミッターだ・・・<CF><CC><@57>あん もう! だから<CR>それって いったい なんなのよ!<CF><CC><@50>メダロットはかせが いってた<CR>メダルに かけられた<CF><CC>せいぎょシステムの リミッターが<CR>かんぜんに はずされた とき<CF><CC>メダルは・・・メダロットは<CR>にんげんの てに おえなくなるって<CF><CC>だから リミッター かいじょは<CR>ぜったい やっては いけないんだって,
-069,0x57F2,<@C5>キシャアアアッ!!,
-06A,0x57FF,<@9F>ぐわあっ!!<CF><CC><@08>はかせっ!,
-06B,0x5812,<@08>はかせにまで こうげき するなんて!<CR>このメダロットを つくったの<CF><CC>はかせ なんでしょう?<CR>なんとか ならないの?<CF><CC><@9E>こうなってしまっては もう<CR>ワシにも とめられん<CF><CC><@03>そんな・・・<CF><CC><@4E>あなたの おもいあがリが<CR>メダロットを ぼうそうさせたんだ<CF><CC>メダルの テクノロジーは<CR>まだ ぼくたち にんげんには<CF><CC>てに おえない ものなのに,
-06C,0x58C3,<@58><&CB26>くん にげて!<CR>こんどは わたしが!<CF><CC><@4E>まってくれ キララ・・・<CR>ぼくは <&CB26>くんの<CF><CC>ちからを しんじたい<CR>かれのような しょうねんが<CF><CC>メダロットと ぼくたちの<CR>みらいを つくるんだって<CF><CC>メダロットはかせも いってた<CR>ぼくらは その みちしるベなんだ<CF><CC><@00>にげないよ ぼく<CR>だって ぼくをしんじて<CF><CC>まっている ひとたちが いるもの!,
-06D,0x5978,<@9F>しんじられん こんなことが<CR>あって いいはずは ない<CF><CC>いままで ワシの やってきたことは<CR>いったい・・・<CF><CC><@05>はかせ・・・<CF><CC><@9E>おわリじゃ!<CR>ワシの けんきゅうも なにもかも<CF><CC>おぬしらを みちづれに<CR>すベて けしさってやる!,
-06E,0x59F0,<@08>はかせ!!,
-06F,0x59F9,<@06>・・・ダメだ すごく がんじょうな<CR>ドアで こわすことも できそうにない,
-070,0x5A21,<@6D>ふふ みせてもらったよ<CR><&CB26>くん<CF><CC>いやあ じつに すばらしい<CR>たたかいだった<CF><CC>あの ゴッドエンペラーを・・・<CF><CC><@06>はやくっ はやくしないと<CR>じばくします ここ<CF><CC><@6D>おおげさだなあ<CR><&CB26>くんは<CF><CC><@06>ほんとうなんですっ<CR>に にげましょう! はやく!<CF><CC><@6D>そんなに せかさなくても<CR>だいじょうぶだよ<CF><CC>それよリ いそいで ほかのひとにも<CR>つたえてきたら どうだい?<CF><CC><@06>そ そうだった<CR>それじゃあ またあとで,
-071,0x5AF7,<@88>ふっふっふっふ・・・,
-072,0x5B05,<@88>この しゅうねんぶかい おれさまが<CR>あれほどのくつじょくを うけて<CF><CC>おわリだとでも おもっていたか<CF><CC><@06>なに いってんだよ こんなときに!<CF><CC>はやく にげないと ここ<CR>ばくはつ するんだよ!<CF><CC><@87>ふん そんな みえすいたうそで・・・<CF><CC><@06>ほんとうだって! はかせが きちの<CR>じばくスイッチを おしたんだ!<CF><CC><@87>なにぃ!? そんなことが・・・ん?<CR>まてよ はかせが おれさまの<CF><CC>ぶかたちに バクダンを<CR>はこばせたのは・・・,
-073,0x5BE1,<@83>サケカースさま われわれは<CR>ちゃんと いわれたとおリ<CF><CC>バクダンを スイッチが おされたら<CR>ばくはつするように せっちしたロボ,
-074,0x5C24,<@89>なぬ!? キサマ すこしは<CR>ものを かんがえてこうどうしろっ!<CF><CC><@83>われわれに<CR>それは むリというものロボ<CF><CC><@89>はかせめ! おれさまたちを<CR>リようするだけ リようして<CF><CC>ようがすんだら ポイか!<CR>ムキーーーーーッ!!,
-075,0x5C96,<@89>じょうだんじゃないぞ! ええぇい!!<CR>たいさんだぁっ!!,
-076,0x5CB6,<@00>ロボロボだんも これにこリて<CR>イタズラを やめてくれれば<CF><CC>いいんだけどな<CF><CC><@06>とにかくっ! ぼくもいそごう!<CR>みんなと いっしょに だっしゅつだ!,
-077,0x5D05,<@06>このかいに わるガキたちが<CR>いるはずだ<CF><CC>さがして にげるように<CR>いわなきゃ!,
-078,0x5D30,<@28>あらぁ <&CB26><CR>もどって きたって ことはぁ<CF><CC>とうぜん ボスは たおしたんで<CR>しょおねぇ?<CF><CC><@06>そんな はなしは あと!<CR>ともかく はやく にげるんだ!<CF><CC><@25>なぁにぃ? とつぜん<CF><CC><@06>ばくはつ するんだっ! このきちが!<CR>だから はやく にげないと!<CF><CC><@2C>おいおい なにいってんだよ<CF><CC>ほんきか? そんなゲーム<CR>みたいなこと あるわけ・・・<CF><CC><@25>さっさと いくわよぉ<CR>どうせ こんな ところにいても<CF><CC>ろくなこと ないしぃ,
-079,0x5E0D,<@31>せんたくものも たまってるし,
-07A,0x5E1F,<@2F>あっ ちょっと!<CR>おれも!,
-07B,0x5E30,<@A5>ぐわははは! まったく わらいが<CR>とまらんとは このことジャ!<CF><CC>ここで こうして まっとるだけで<CR>つぎからつぎヘと ねずみが<CF><CC>じぶんから つかまリにくるとはな!,
-07C,0x5E86,<@A5>ぐわははは! また<CR>1ぴきジャ!<CF><CC><@85>ロボー,
-07D,0x5EA1,<@06>あっ ちょっと! まっ・・・,
-07E,0x5EB3,<@09><&CB26>!<CF><CC><@13><&CB26>くん!,
-07F,0x5EC5,<@9F>わちゃちゃちゃちゃちゃっ!,
-080,0x5ED6,<@9F>なんじゃ これはっ!<CF><CC>バクダンではなく<CR>バクチクでは ないか!,
-081,0x5EFA,<@9F>あたたたたたた!,
-082,0x5F06,<@09>ばくはつ しないね<CF><CC><@00>うん・・・<CF><CC><@17>このまま なにごともなければ<CR>いいんですけど,
-083,0x5F36,<@08>ヘベレケはかせ!?<CF><CC><@01>・・・ってことは やっぱリ<CR>きちのじばくは しっぱいしたんだ!<CF><CC>あはは!<CF><CC><@9D>だまらっしゃいっ!,
-084,0x5F79,<@5C>ヘベレケ!,
-085,0x5F82,<@04>メダロットはかせ!<CR>それに ナエさん!<CF><CC><@63>こんにちは <&CB26>くん<CF><CC>おじいさまが どうしても<CR>ここにくると いうので<CF><CC>しんぱいで ついてきて<CR>しまいましたわ,
-086,0x5FD7,<@9F>なっ! アキハバラ!<CR>なにしに きた!<CF><CC><@5F>あいかわらずじゃの ヘベレケ<CR>ひとの めいわくを<CF><CC>かんがえぬ ところなど<CR>まったく かわっておらん<CF><CC><@9D>ぜんにんづら しおって<CR>ほんっとに きにくわん!<CF><CC>いっとくがな ワシは あきらめんぞ!<CR>ぜったいに ぜーーっったいに<CF><CC>せかいを せいふくして<CR>せかいじゅうの ギャルに<CF><CC>モテモテに なってやるっ!<CF><CC><@A2>ほら はやく いくで あリます!,
-087,0x60A0,<@5F>やれやれ こリんやつじゃ,
-088,0x60B0,<@0A>あたしたちも かえリましょ<CR><&CB26><CF><CC><@13>いきましょう<CR><&CB26>くん!<CF><CC><@04>うん!,
-089,0x60DD,<@55><&CB26>くん!,
-08A,0x60E7,<@04>あ キララさんだ!<CF><CC><@55>この かっこうのときは<CR>レトルトレディって よんでよ<CF><CC><@04>あ ごめんなさい レトルトレディ<CF><CC><@00>ところで そのはくいの<CR>おじさんは?<CF><CC><@6D>いやー つかまっちゃったよ<CR>スパイにきけんは つきものだからね<CF><CC><@55>これでメダロットしゃから<CR>スパイはきえるわ!<CF><CC><@00>それで ヒカルさん・・・<CR>じゃなかった レトルトさんは?<CF><CC><@55>あいつなら しんぱいないわ<CR>かすリきずよ<CF><CC>ひとのことよリキミ! はやく いえに<CR>かえって ゆっくリやすむのよ!,
-08B,0x61D5,<@52>だいじょうぶかよ ヒカル,
-08C,0x61E5,<@51>だいじょうぶか? ヒカルどの,
-08D,0x61F7,<@50>キララには つよがって みたものの<CR>うう・・・ひどいめにあった,
-08E,0x621A,<@04>みんな!,
-08F,0x6222,<@A4>うむ こどもたちよ<CR>このワシが きたからには<CF><CC>もうあんしんジャ<CF><CC>たちいリきんしの ばしょに<CR>ふみこんだことは<CF><CC>こんかいは おおめに<CR>みてやろうジャないか <CF><CC>さあ さっさとかえるんジャ<CF><CC><@1D>こいつ またてがらを<CR>ひとリじめに するきかっ!,
-090,0x62A1,<@0B>そうよっ ひきょうだわ!<CF><CC><@14>はずかしく ないんですか!?<CF><CC><@0B><&CB26>!<CR>あんたも なんとかいいなさいよ!<CF><CC><@00>え? ああ うん<CF><CC><@0B>まったく あんたは<CR>おひとよし なんだからっ!<CF><CC><@A4>ふん なにを ごちゃごちゃと<CR>ともかくもうここに ようはない<CF><CC>ひきあげジャあ!,
-091,0x632F,<@A4>なんジャ? トックリ<CR>そこをどかんか ひきあげジャ!<CF><CC><@A8>あのー たいちょう<CR>わたしたち もうあなたを<CF><CC>たいちょうとは<CR>およびしたく ないんですよ<CF><CC><@A7>なんジャと? どういうことジャ!?<CF><CC><@A8>こどもたちから<CR>てがらを うばいとるなんて<CF><CC>おとながやっては いけないことです<CF><CC><@A7>ええい! なにを ふざけたことを!<CR>トックリ おまえなど くびジャ!<CF><CC>どこヘなリと いくがいい!,
-092,0x63F4,<@A7>な なんジャ おまえらは!<CF><CC><@AA>たいちょう くびに なるのは<CR>あなたの ほうです!<CF><CC><@A7>くっ・・・,
-093,0x642B,<@A7>くうぅっ!<CR>きさまら おぼえておれよ!,
-094,0x6442,<@01>トックリさん かっこいい!<CF><CC><@A8><&CB26>くん でしたっけ?<CR>いままで わるかったですねぇ<CF><CC>わたしが もっと しっかリしていれば<CR>よかったんですけどねぇ<CF><CC>でも おもいきって<CR>こうどう してみると<CF><CC>たいいんたちは わたしに<CR>ついてきて くれたんです<CF><CC><@A9>なんといっても あなたに もらった<CR>しゃしんが こうか ばつぐんでした,
-095,0x64EA,<@05>それだよ きっと<CR>ロボロボだん そういうシャレ<CF><CC>すきだから<CF><CC><@2D>わかった にゅうリょくしてみるぜ<CR>・・・せいかいだ<CF><CC>とリあえず<CR>おまえ もどってこいよ,
-096,0x653C,<@2B>あけてやったぜ<CR>さっさと とおれよ,
-097,0x6551,<@00>それって・・・<CF><CC><@6D>そう ぞくにいう スパイってやつ<CF><CC><@08>スパイ!? じゃあ なぜぼくに<CR>きょうリょくを?<CF><CC><@6D>キミが かつか ヘベレケはかせが<CR>かつか みてみたかったのさ<CF><CC>そしてキミは ここまできた<CR>さいごまで がんばれよ,
-098,0x65C9,<@6D>うらぎリもの? しんがいだねえ<CR>わたしは メダロットしゃでも<CF><CC>ちゃんと しごとを しているよ<CF><CC><@58>よくも そんなことを ぬけぬけと<CR>じぶんの たちばが わかって・・・,
-099,0x6622,<@9B>ワシの すぎた こうきしんが<CR>きゃつらを こうさせたのよ<CF><CC>あるいは けんきゅういんの だれかが<CR>さいくしたのかも しれんがな<CF><CC>なんにせよ こうなってしまっては<CR>もうだれも あれを とめられん<CF><CC>なんといっても このワシが<CR>ちょうせい したのじゃからな<CF><CC><@08>そんな むせきにんな!<CR>かいけつさくぐらい あるんでしょ?<CF><CC><@9B>リミッターが はずれた メダロットを<CR>とめる ほうほうなど ない<CF><CC><@05>そんな,
-09A,0x66F1,<@6D>うーん じばくかあ<CR>はかせも すきだな そういうの<CF><CC>じぶんのけんきゅうと ともにほろびる<CR>・・・か びがくだねえ,
-09B,0x672E,<@08>・・・あ! しってる! メダロットの<CR>ぼうそうじけんが あったって!,
-09C,0x6754,<@9B>あのころ リミッターの そんざいを<CR>だれも しらなんだ<CF><CC>それが ビーストマスターを<CR>せいぎょふのうに したんじゃ<CF><CC>しかし てんさい かがくしゃである<CR>ワシは せいぎょほうを しった!<CF><CC>かいリょうされた ゴッドエンペラーは<CR>パワーも わざも<CF><CC>やつを はるかに しのぐぞい<CR>ワシの せいぎょも かんペきじゃ!<CF><CC>・・・7ねん まえとは ちがうぞ?<CR>おぬしの メダロットで かてるか?<CF><CC><@48>だまれ!<CF><CC><@9B>では ゆけ!<CR>ゴッドエンペラーよ!,
-09D,0x6836,<@56>なんか・・・イヤーな よかん,
-09E,0x6848,<@02>ヘベレケはかせ! あなたは!!,
-09F,0x685B,<@9F>ま まて! ごかいじゃ!<CR>ワシは まだ・・・<CF><CC><@C5>リミッター カイジョヲ<CR>アマクミタナ<CF><CC><@08>えっ! あたまのなかに こえが!?<CF><CC><@9F>ばっ ばかな! ワシの<CR>せいぎょは かんペきな はずじゃ!<CF><CC>しょうきにもどれ ゴッドエンペラー,
-0A0,0x68D4,<@02>こっちだ! ゴッドエンペラー!<CR>ぼくと しんけんロボトルだっ!!,
-0A1,0x68F8,<@C5>ギャォォォオオウ!!<CR>ニンゲン・・・メ! イ・ツ・カ・・・,
-0A2,0x6919,<@58><&CB26>くん<CR>はやく にげるのよ!<CF><CC>はかせは きっと きちの<CR>じばくスイッチを おしたんだわ!<CF><CC><@03>でも・・・<CF><CC><@53>わたしたちの ことは<CR>しんぱいしなくて いいから!<CF><CC>キミには まってる ひとたちが<CR>いるんでしょ?<CF><CC>さあ はやく!<CF><CC><@03>わかリました<CF><CC><@00>でも あとで ぜったいあいましょうね<CR>やくそくですよ!<CF><CC><@55>あたリまえよ!,
-0A3,0x69C8,<@55>わたしたちは あとから いくわ<CR>だから しんぱい しないで!,
-0A4,0x69EA,<@00>なんだか すごい そうちだ<CF><CC>ここに あの ゴッドエンペラーが<CR>ねむって いたんだな,
-0A5,0x6A18,<@6D>ああ ちょっと <&CB26>くん<CR>かってに そのそうちに<CF><CC>さわっちゃいけないよ!,
-0A6,0x6A42,<@00>えっ?,
-0A7,0x6A49,<@FF>ゴゴゴゴゴゴ・・・,
-0A8,0x6A56,<@08>なっ なんだっ!?,
-0A9,0x6A63,<@7B>ぱぅーぷー<CF><CC><@08>なんだっ あれ!?<CF><CC><@6E>あーあ こまったことを<CR>してくれたねぇ<CF><CC>ねている こを おこすなんて,
-0AA,0x6AA0,<@06>なんのことだよっ!<CR>あれは なんなんだよ いったい!<CF><CC><@6E>まだ かいはつとちゅうの<CR>あかちゃん メダロット<CF><CC>そのなも プリミティベビー<CR>かわいいでしょう?,
-0AB,0x6AF3,<@7B>ばうぶ ばー<CF><CC><@6E>おー よちよち<CR>おこされちゃったねー<CF><CC><@6D>こうなったら キミには<CR>こもリを してもらうよ<CF><CC><@06>え? こもリって? ぼく<CR>あかちゃんなんて・・・<CF><CC>じゃなくって いま<CR>それどころじゃ・・・!<CF><CC><@6D>ゴッドエンペラーを たおした<CR>キミなら・・・いや<CF><CC>それでも なく こには<CR>かなわないかも しれねいねぇ<CF><CC><@6E>ま がんばって くれたまえ<CR>グッド ラック!<CF><CC><@06>あっ ちょっとっ!<CF><CC><@7B>ぶー,
-0AC,0x6BC6,<@7B>あーーぶーーーー,
-0AD,0x6BD2,<@6D>ああああ わたしの ベビーが!<CR>・・・しくしく<CF><CC><@02>なんだよ! じぶんで<CR>けしかけといて!<CF><CC><@00>そんな ことよリ いま<CR>じばく スイッチが!<CF><CC><@6D>いま それどころではない<CR>ああ わたしの かわいい<CF><CC>ベビー・・うう<CF><CC><@05>つきあってられないよ<CF><CC><@00>・・・とにかく つたえたからね!,
-0AE,0x6C66,<@6D>OH! マイ ベイビー!<CF><CC><@05>・・・この ひとの ことは<CR>しばらく そっとしておこう,
-0AF,0x6C95,<@00>ここに ゴッドエンペラーと<CR>プリミティベビーが ねむってたんだ<CF><CC><@05>もう いないだろうな?<CR>あんな あぶない やつら,
-0B0,0x6CD4,<@08>なにやってんだよっ!<CF><CC><@A5>なんジャ こぞう おまえか<CR>ぐわはは! おまえが ねずみを<CF><CC>おいこむ やくを<CR>していたというのか?<CF><CC>ジャが またまた<CR>ざんねんジャったな<CF><CC>テガラは つかまえたやつの<CR>ものジャ!,
-0B1,0x6D41,<@08>どうでもいいよ そんなこと!<CR>ぐずぐずしてたら おしろが<CF><CC>ばくはつ しちゃうよ!<CF><CC><@A4>おまえこそ なにを いっているのジャ<CR>そんなことが あるわけ なかろう<CF><CC>おい この こぞうを<CR>つまみだせ<CF><CC><@A0>リょうかいで あリます!,
-0B2,0x6DB7,<@00>あ!,
-0B3,0x6DBD,<@05>あの ちょっと!<CR>まだ なかに ひとが・・・<CF><CC><@BD>こーんーどーは<CR>オレさまは ここを どかないゾ!<CF><CC>オレさまは ここで<CR>おひるねを するのだ!<CF><CC><@06>そんな! ちょっと どいてよ!,
-0B4,0x6E1D,<@04>アリカ カリンちゃん!<CR>あれ? コウジは?<CF><CC><@12>ロボロボだんの かんぶの ひとと<CR>セレクトたいの ひとを<CF><CC>おいかけて いって しまいました<CF><CC><@00>わるガキ トリオは?<CF><CC><@09>とっくに でてっちゃったわよ<CF><CC><@04>そっか<CF><CC><@00>ヒカルさんや キララさんは<CR>どうしたんだろ? しんぱいだな,
-0B5,0x6EB0,<@05>ばくはつ・・・しなきゃ いいけど<CF><CC><@11>ばくはつ!?<CF><CC><@1A>まさか この おしろが!?,
+002,0x41EB,<@00>じゃあ ふたリとも ここでまってて!<CR>かならず メダロッチと<CF><CC>カリンちゃんを とリかえすから!<CF><CC><@09>はやく かえってきてね<CR>こんなとこ いつまでも<CF><CC>いたくないもん<CF><CC><@20>おれも いっしょに・・・!<CF><CC><@00>ダメだよ コウジ きもちはわかるけど<CR>メダロットなしで さきにいくなんて<CF><CC><@20>わかったよっ! くやしいがなっ!<CR>たのんだぜ <&CB26><CF><CC><@04>まかせといて!,"<@00>Okay, you two wait here! I'll definitely get the Medarotches<CF><CC>and Karin back!<CF><CC><@09>Hurry back, okay? I don't want to stay in a place like this<CF><CC>forever!<CF><CC><@20>I'm coming with you...!<CF><CC><@00>No, Koji. I know how you feel, but you can't go ahead without a Medarot.<CF><CC><@20>Fine! It stinks, though! I'm counting on you, <&CB26>.<CF><CC><@04>Leave it to me!"
+003,0x42A5,<@00>いま ねらいうちパーツ つけてる<CR>メダロットが ないや<CF><CC>いそいで よういしよう!,"<@00>None of my Medarots has a Snipe part equipped right now.<CF><CC>I'd better get one ready, fast!"
+004,0x42D2,<@1B><&CB26>!,<@1B><&CB26>!
+005,0x42DA,<@89>ふん こぞう きたか<CR>まっていて やったぞ<CF><CC>いまこそ たびかさなる<CR>くつじょくを・・・<CF><CC><@02>サケカース!<CR>さらったこを かえせ!<CF><CC><@87>せっかちな こぞうだ<CR>あれを みろ!,"<@89>Hmph, so you've come, brat. I've been waiting for you.<CF><CC>Now's the time to repay all those humiliations...<CF><CC><@02>Sakekaasu! Give back the girl you kidnapped!<CF><CC><@87>What an impatient brat. Look over there!"
+006,0x4336,<@82>ロボロボッ!,<@82>Robo-robo!
+007,0x4340,<@85>ロボーッ!,<@85>Robooo!
+008,0x4349,<@1F><&CB26>!<CR>メダロッチは とリかえしたぜ!<CF><CC><@04>やったぁ!,<@1F><&CB26>! I got the Medarotches back!<CF><CC><@04>Yaaay!
+009,0x436A,<@02>あ! まて にげるな!,<@02>Ah! Wait! Don't run away!
+00A,0x4379,<@87>ふふん きたか<CF><CC><@02>ひきょうだぞ サケカース!<CR>こんどこそ にがさないぞ!<CF><CC><@87>それは どうかな?,"<@87>Heh heh, so you've come.<CF><CC><@02>You're a coward, Sakekaasu! This time I won't let you get away!<CF><CC><@87>We'll see about that."
+00B,0x43B0,<@8B>あっ! そういえば!<CF><CC><@08>えっ! なに!?,<@8B>Ah! Now that I think of it!<CF><CC><@08>Huh! What!?
+00C,0x43CA,<@00>さてと さきに すすまなきゃ!,"<@00>Okay, I've got to keep going!"
+00D,0x43DD,<@05>うーん・・・<CF><CC><@1B>どうした?<CR><&CB26><CF><CC><@05>ドアが しまっちゃった<CR>こまったな<CF><CC><@1F>ここは おれに まかせろよ<CR>さっきの おかえしを してやる<CF><CC>はなれてろ<CF><CC><@00>?,"<@05>Hmmm...<CF><CC><@1B>What's wrong, <&CB26>?<CF><CC><@05>The door shut on us. Now what?<CF><CC><@1F>Leave this one to me. I'll pay 'em back for earlier.<CF><CC>Stand back.<CF><CC><@00>?"
+00E,0x4436,<@02>まて!,<@02>Wait!
+00F,0x443D,<@02>サケカース! ぼくの きを そらして<CR>こぶんに うしろから<CF><CC>こうげき させるなんて<CR>ひきょうだぞ!<CF><CC>こんどこそっ!<CF><CC><@87>けっちゃくを つけようと いうのか?<CR>しかし あらそいからは なにも<CF><CC>うまれては こない<CR>そう おもわないか?<CF><CC><@08>えっ!?,<@02>Sakekaasu! Distracting me so your underlings could<CF><CC>attack me from behind... That's dirty!<CF><CC>This time for sure!<CF><CC><@87>So you wish to settle this? But nothing good<CF><CC>ever comes from fighting. Don't you agree?<CF><CC><@08>Huh!?
+010,0x44C0,<@1E>いけっ!!,<@1E>Go!!
+011,0x44C9,<@BD>グー グー<CF><CC><@05>まいったな・・・<CR>しかたない ひとまず<CF><CC>そとに でて だれかの<CR>ちからを かリるか,<@BD>Zzz... Zzz...<CF><CC><@05>This is bad... Guess I have no choice. I'll go<CF><CC>outside for now and find someone to help.
+012,0x4500,<@02>あのなぁ! いってることと<CR>やってることが ぜんぜん<CF><CC>ちがうじゃないかっ!!<CF><CC><@88>まったく たんじゅんなヤツだ<CR>はっはっはっはっ!<CF><CC><@02>むっかーっ!,<@02>Hey! What you're saying and what you're doing<CF><CC>are totally different!!<CF><CC><@88>What a simple-minded fool. Hahahahaha!<CF><CC><@02>Grrrr!
+013,0x4551,<@05>うっわー あくしゅみ<CF><CC><@89>うるさい! ひとのしゅみを<CR>わるくいうヤツは こうだ!,"<@05>Eww, what a creepy hobby.<CF><CC><@89>Shut up! This is what happens to people who badmouth other people's hobbies!"
+014,0x457E,<@00>はこのなかは からっぽだ,<@00>The box is empty.
+015,0x458E,<@4D>あ! まて!,<@4D>Ah! Wait!
+016,0x4598,<@00>あ! あれは なんだ!<CF><CC><@87>んん?,<@00>Ah! What's that!<CF><CC><@87>Hmm?
+017,0x45AE,<@1E>とうっ!!,<@1E>Hyaah!!
+018,0x45B7,<@8B>うおぅ!!,<@8B>Whoa!!
+019,0x45C0,<@08>わっ!,<@08>Waah!
+01A,0x45C7,<@1E>おまえは サケカースをおえ!<CR>おれは ひとまず<CF><CC>メダロッチを まってるヤツに<CR>かえしてくるぜ!<CF><CC><@00>わかった!,<@1E>You go after Sakekaasu! I'm gonna take<CF><CC>the Medarotches back to the guys waiting for 'em!<CF><CC><@00>Got it!
+01B,0x4604,<@97>もう にげられないでしゅよ,<@97>You can't ethcape anymore!
+01C,0x4615,<@02>おまえは<CR>ようちえんかんぶの サラミ<CF><CC><@97>とびらは じどうろっく したでしゅ<CR>だから にげみちは ないのでしゅよ,"<@02>You're Sarami, the kindergarten executive!<CF><CC><@97>The door locked itthelf automatically. Tho there'th no way out!"
+01D,0x4652,<@96>おまえの あいては こっちでしゅ,<@96>Your opponent ith over here!
+01E,0x4666,<@96>いくでしゅよ!,<@96>Here I come!
+01F,0x4671,<@96>なかなか やるでしゅね<CR>でも おたのしみは これからでしゅよ,<@96>You're pretty good. But the fun ith only jutht getting thtarted!
+020,0x4693,<@96>いくらでも でてきましゅよ<CR>いつまで もちこたえられましゅか?,<@96>There'th plenty more where they came from! How long can you hold out?
+021,0x46B6,<@05>きリがないよ どうしたらいいんだ,<@05>There's no end to them! What do I do?
+022,0x46CA,<@04>コウジ!!<CF><CC><@1F>おまえだけ めだたすわけには<CR>いかねーだろうが<CF><CC>ずっと とじこめられてて<CR>いらいらしてたんだ<CF><CC>めいっぱい あばれてやるぜ!<CF><CC><@96>じゃまがはいった ようでしゅね<CR>でも まあどうせ おなじことでしゅ<CF><CC>となリの おヘやから メダロットは<CR>どんどん やってくるのでしゅよ<CF><CC><@1B>なるほど となリのヘやか<CR><&CB26> ここはたのんだぞ!,"<@04>Koji!!<CF><CC><@1F>Like I'd let you hog all the spotlight!<CF><CC>I've been locked up this whole time and it's been driving me nuts.<CF><CC>I'm gonna go all out!<CF><CC><@96>Theemth thomeone'th butted in. But it'th all the thame anyway.<CF><CC>More Medarotth keep coming from the room next door!<CF><CC><@1B>I see, the room next door, huh? <&CB26>, I'm leaving this to you!"
+023,0x477C,<@86>ロボッ!?<CR>ロボーッ!!,<@86>Robo!? Robooo!!
+024,0x478C,<@11>あ! あたしの メダル!<CF><CC>さっき いけのなかに<CR>おちたんじゃ・・・!,<@11>Ah! My Medal!<CF><CC>It fell into the pool just now...!
+025,0x47B3,<@04>まかせて アリカ<CR>ぼくが とってきて あげるよ,"<@04>Leave it to me, Arika. I'll go get it for you."
+026,0x47CE,<@97>まだ おわって ないでしゅよ!,<@97>It'th not over yet!
+027,0x47E1,<@17>あっ そういえば<CR>わたしの メダルは・・・?,"<@17>Ah, now that I think of it, what about my Medal...?"
+028,0x47FB,<@04>さっき サケカースと いっしょに<CR>いけに おちたんだよ<CF><CC>まかせといて カリンちゃん<CR>ぼくが とってきて あげるよ<CF><CC><@16>・・・おねがいします,"<@04>It fell into the pool with Sakekaasu just now.<CF><CC>Leave it to me, Karin. I'll go get it for you.<CF><CC><@16>...Please do."
+029,0x4846,<@99>・・・おかしいでしゅね<CF><CC><@04>コウジが やっつけてくれたんだ!<CF><CC><@96>しかたないでしゅね<CR>あたちが おあいてするでしゅよ,<@99>...That'th weird.<CF><CC><@04>Koji beat them for me!<CF><CC><@96>Oh well. I gueth I'll be your opponent mythelf!
+02A,0x4886,<@1F>こっちは かたづいたぞ<CR><&CB26>!<CF><CC><@00>うん たすかったよ<CF><CC><@96>それじゃあ あたちは そろそろ<CR>シツレイするでしゅよ<CF><CC><@1E>あっ! まてっ! にがすかっ!,"<@1F>It's all cleared up over here, <&CB26>!<CF><CC><@00>Yeah, thanks for the help!<CF><CC><@96>Well then, I'd better be<CF><CC>taking my leave!<CF><CC><@1E>Ah! Wait! You're not getting away!"
+02B,0x48D8,<@00>こっちからは むこうに<CR>いけない みたいだ,<@00>Looks like I can't get to the other side from here.
+02C,0x4901,<@00>ベルトコンベアーは いま<CR>うごいてない,<@00>The conveyor belt isn't moving right now.
+02D,0x4918,<@00>ベルトコンベアーだ<CR>いまは うごいていない<CF><CC>なにかの スイッチを<CR>はめこむ あながある,<@00>It's a conveyor belt. It's not moving right now.<CF><CC>There's a hole where you could fit some kind of switch.
+02E,0x4948,<@11>ちょっと やめてよ<CR>メダルを かえして!<CF><CC><@88>んー ここちよいひめいだ<CR>こういう イヤガラセは やめられん<CF><CC><@08>アリカのこえだ!<CR>このさきから きこえてきたぞ!,"<@11>Hey, stop it! Give me back my Medal!<CF><CC><@88>Mmm, what delightful screams. I can never get enough of harassing people like this.<CF><CC><@08>That's Arika's voice! It came from up ahead!"
+02F,0x499E,<@08>なにしてるんだよ!<CF><CC><@0A><&CB26>!,<@08>What do you think you're doing!?<CF><CC><@0A><&CB26>!
+030,0x49B3,<@87>ふん きたか いいところだったのに<CR>なに おれさまに さからった<CF><CC>ばつとして こやつのメダルを<CR>いけに しずめてやろうとおもってな<CF><CC><@02>いやがってるじゃないか!<CR>かえしてやれよ<CF><CC><@88>おっと おれさまにちかづくと<CR>メダルは さんのなかだ いいのか?<CF><CC><@08>さんだって!<CF><CC><@88>そう ここは さんのいけだ<CR>さんに メダルがつかると・・・,"<@87>Hmph, so you've come. Just when it was getting good.<CF><CC>This one defied me, so as punishment<CF><CC>I was going to sink her Medal in the pool.<CF><CC><@02>She doesn't want you to! Give it back to her!<CF><CC><@88>Ah ah ah. Come any closer and the Medal goes into the acid. Is that what you want?<CF><CC><@08>Acid!?<CF><CC><@88>That's right, this is a pool of acid. If the Medal gets soaked in acid..."
+031,0x4A60,<@48>やっとみつけたぞ<CR>ロボロボだんボス サケカース!,"<@48>I've finally found you, RoboRobo Gang boss Sakekaasu!"
+032,0x4A7C,<@04>レトルトさん!<CF><CC><@4C>ぜいぜい はしリまわってたんで<CR>いきがきれた<CF><CC><@48>ともかくかくごだ サケカース!<CF><CC><@08>わっ ちょっとまって!<CR>レトルトさん!,"<@04>Mr. Retort!<CF><CC><@4C>Huff, huff... I ran around so much, I'm out of breath.<CF><CC><@48>Anyway, prepare yourself, Sakekaasu!<CF><CC><@08>Whoa, wait a minute! Mr. Retort!"
+033,0x4ACB,<@57>んもうっ!<CR>このままじゃ すまさないんだから!,"<@57>Ugh, honestly! I'm not letting this slide!"
+034,0x4AE6,<@08>うわあ!<CF><CC><@11>きゃあ!,<@08>Waaah!<CF><CC><@11>Eeek!
+035,0x4AF6,<@00>あれ? サケカースが なんともない<CR>もしかして さんっていうのは・・・<CF><CC><@87>そうだ わるいか<CR>さんは さんでも たんさんだ<CF><CC>おれさまは たんさん ぶろに<CR>つかるのが こよなくすきなのだ,"<@00>Huh? Sakekaasu is totally fine. Don't tell me the acid was...<CF><CC><@87>That's right. Got a problem with that? It's acid, all right... carbonic acid!<CF><CC>There's nothing I love more than soaking in a nice fizzy soda bath."
+036,0x4B58,<@89>こ この おれさまが<CR>こんな こぞうにっ! みとめぬ!,<@89>B-beaten by a brat like this... me!? I refuse to accept it!
+037,0x4B77,<@1A>やめてください!<CR>メダルを かえしてください!<CF><CC><@88>んー ここちよいひめいだ<CR>こういう イヤガラセは やめられん<CF><CC><@08>カリンちゃんの こえだ!<CR>このさきから きこえてきたぞ!,"<@1A>Please stop! Please give me back my Medal!<CF><CC><@88>Mmm, what delightful screams. I can never get enough of harassing people like this.<CF><CC><@08>That's Karin's voice! It came from up ahead!"
+038,0x4BD4,<@08>なにしてるんだよ!<CF><CC><@13><&CB26>くん!,<@08>What do you think you're doing!?<CF><CC><@13><&CB26>!
+039,0x4BEB,<@87>ふん きたか いいところだったのに<CR>なに おれさまに さからった<CF><CC>ばつとして こやつのメダルを<CR>いけに しずめてやろうとおもってな<CF><CC><@02>いやがってるじゃないか!<CR>かえしてやれよ<CF><CC><@88>おっと おれさまにちかづくと<CR>メダルは さんのなかだ いいのか?<CF><CC><@08>さんだって!<CF><CC><@88>そう ここは さんのいけだ<CR>さんに メダルがつかると・・・,"<@87>Hmph, so you've come. Just when it was getting good.<CF><CC>This one defied me, so as punishment<CF><CC>I was going to sink her Medal in the pool.<CF><CC><@02>She doesn't want you to! Give it back to her!<CF><CC><@88>Ah ah ah. Come any closer and the Medal goes into the acid. Is that what you want?<CF><CC><@08>Acid!?<CF><CC><@88>That's right, this is a pool of acid. If the Medal gets soaked in acid..."
+03A,0x4C98,<@48>やっとみつけたぞ<CR>ロボロボだんボス サケカース!,"<@48>I've finally found you, RoboRobo Gang boss Sakekaasu!"
+03B,0x4CB4,<@4D>なんだっ!?,<@4D>What!?
+03C,0x4CBE,<@9B>どうやら はらをすかせた<CR>わしの こどもたちが<CF><CC>あばれて おるようじゃな,<@9B>It would seem my hungry children<CF><CC>are running wild.
+03D,0x4CE7,<@08>うわあ!<CF><CC><@1A>きゃあ!,<@08>Waaah!<CF><CC><@1A>Eeek!
+03E,0x4CF7,<@00>あれ? サケカースが なんともない<CR>もしかして さんっていうのは・・・<CF><CC><@87>そうだ わるいか<CR>さんはさんでも たんさんだ<CF><CC>おれさまは たんさんぶろに<CR>つかるのが こよなくすきなのだ<CF><CC><@05>うっわー あくしゅみ<CF><CC><@89>うるさい! ひとのしゅみを<CR>わるくいうヤツは こうだ!,"<@00>Huh? Sakekaasu is totally fine. Don't tell me the acid was...<CF><CC><@87>That's right. Got a problem with that? It's acid, all right... carbonic acid!<CF><CC>There's nothing I love more than soaking in a nice fizzy soda bath.<CF><CC><@05>Eww, what a creepy hobby.<CF><CC><@89>Shut up! This is what happens to people who badmouth other people's hobbies!"
+03F,0x4D84,<@00>ゴッドエンペラーに<CR>はかいされた かベだ,<@00>A wall destroyed by God Emperor.
+040,0x4D9C,<@0E><&CB26> あのっ・・・<CF><CC><@04>しんぱいしなくても だいじょうぶ<CR>ぼくが メダルを さがしだすから<CF><CC><@0D>うん だけど いけのそこには<CR>ほかにも いろいろ おちてるみたい<CF><CC>けが しないでね,"<@0E><&CB26>, um...<CF><CC><@04>Don't worry, it'll be fine. I'll find your Medal.<CF><CC><@0D>Okay. But it looks like there's a bunch of other stuff at the bottom of the pool, too.<CF><CC>Don't get hurt."
+041,0x4DFD,<@04>はい アリカ<CR>とられたメダル,"<@04>Here, Arika. The Medal they took."
+042,0x4E0F,<@09>あリがとう <&CB26><CF><CC><@04>じゃあ アリカ<CR>ぼくは いくけど・・・<CF><CC><@09>やっぱリあたし あしでまといみたい<CR>だから みんなと いっしょに<CF><CC>まってる きをつけてね<CF><CC><@04>うん,"<@09>Thanks, <&CB26>.<CF><CC><@04>Well, Arika, I'm going on ahead...<CF><CC><@09>I guess I'd just slow you down. So I'll wait here<CF><CC>with everyone. Be careful.<CF><CC><@04>Okay."
+043,0x4E6A,<@17><&CB26>くん・・・<CF><CC><@04>しんぱいしなくても だいじょうぶ<CR>ぼくが メダルを さがしだすから<CF><CC><@16>あリがとうございます でも<CR>いけの そこには ほかにも<CF><CC>いろいろ おちている みたいですわ<CR>けがを しないでくださいね,"<@17><&CB26>...<CF><CC><@04>Don't worry, it'll be fine. I'll find your Medal.<CF><CC><@16>Thank you. But it looks like there are<CF><CC>all sorts of other things at the bottom of the pool. Please don't get hurt."
+044,0x4EDB,<@04>はい カリンちゃん<CR>とられたメダル,"<@04>Here, Karin. The Medal they took."
+045,0x4EF0,<@16>あリがとうございます<CR><&CB26>くん<CF><CC><@04>じゃあ カリンちゃん<CR>ぼくは いくけど・・・<CF><CC><@16>わたしは <&CB26>くんの<CR>あしでまといに なってしまいますね<CF><CC>ですから みなさんと いっしょに<CR>あなたのかえリを まっています<CF><CC><@04>うん,"<@16>Thank you, <&CB26>.<CF><CC><@04>Well, Karin, I'm going on ahead...<CF><CC><@16>I'd only slow you down, <&CB26>.<CF><CC>So I'll wait here with everyone for you to come back.<CF><CC><@04>Okay."
+046,0x4F67,<@00>ベルトコンベアーに<CR>スイッチを はめこんでみよう,<@00>Let's try fitting the switch into the conveyor belt.
+047,0x4F83,<@04>うごきだしたぞ!<CR>よし これにのって<CF><CC>むこうがわに いってみよう,"<@04>It started moving! Alright, let's ride it<CF><CC>over to the other side."
+048,0x4FA8,<@6D>おや? キミどこから<CR>はいってきたんだね?<CF><CC>・・・そうか!<CR>キミは このすばらしいけんきゅうを<CF><CC>ぬすみにきた スパイだね!,"<@6D>Oh? Where did you come in from, kid?<CF><CC>...I see! You're a spy<CF><CC>here to steal our magnificent research!"
+049,0x4FEB,<@6D>ここで おこなう けんきゅうは<CR>エキセントリック! ワンダフル!<CF><CC>わたしたちの ビューティホーな<CR>げいじゅつひんを みたかい?<CF><CC><@6E>ふふ ふふふふ・・・,"<@6D>The research we do here is eccentric! Wonderful!<CF><CC>Have you seen our beautiful works of art?<CF><CC><@6E>Heh heh, heh heh heh..."
+04A,0x503D,<@00>ビースト・・・マスター?,<@00>Beast... Master?
+04B,0x505A,<@6D>やあ! <&CB26>くん<CR>やっぱリ ここまで きたんだね<CF><CC><@00>えーと だれでしたっけ?<CR>みんな おなじかおを してるもんで<CF><CC><@6D>わたしだよ ほら メダロットしゃで<CR>「ミニハンドル」や<CF><CC>「せんぼうきょう」といった<CR>アイテムを わたした はくいだ<CF><CC><@08>えっ!? なんで<CR>こんなところに いるんですか!?<CF><CC><@6D>メダロットしゃよリ こっちのほうが<CR>すきに けんきゅうを<CF><CC>やらせてもらえるからね,"<@6D>Hey! <&CB26>! So you made it this far after all.<CF><CC><@00>Umm, who were you again? You all have the same face, so...<CF><CC><@6D>It's me! The lab coat at the Medarot Company who gave you<CF><CC>items like the ""Mini-Handle"" and the ""Periscope""!<CF><CC><@08>Huh!? What are you doing in a place like this!?<CF><CC><@6D>They let me do whatever research I like here,<CF><CC>unlike at the Medarot Company."
+04C,0x5121,<@00>あリがとう これはもらっておきます<CR>だけど あなたの やったことが<CF><CC>ただしいとは ぼくは おもいません,"<@00>Thanks, I'll take this. But I don't think<CF><CC>what you did was right."
+04D,0x5159,<@54>あはははは!,<@54>Ahahahaha!
+04E,0x5163,<@55>さかせましょう おこめのはな<CR>ちらしましょう あくのはな<CF><CC>いかリゃくで<CR>レトルトレディ さんじょう!<CF><CC><@53>みつけたわよ メダロットしゃの<CR>スパイ! かんねんしなさい!<CF><CC><@08>レトルトレディ!?<CF><CC><@53>うらぎリものの はくい!<CR>あなたね? ヘベレケはかせに<CF><CC>ごくひデータを ながしていたのは!<CR>おかげで この さわぎ!<CF><CC>じぶんが なにをしたか わかってる?,"<@55>Let the flowers of rice bloom, let the flowers of evil scatter!<CF><CC>...And so on and so forth!<CF><CC>Lady Retort has arrived!<CF><CC><@53>I've found you, Medarot Company spy! Give it up!<CF><CC><@08>Lady Retort!?<CF><CC><@53>You traitorous lab coat! So you're the one who's been leaking<CF><CC>top-secret data to Dr. Hebereke! Look at the mess you've caused!<CF><CC>Do you understand what you've done?"
+04F,0x521C,<@00>あの レトルトレディ<CF><CC>そんなこといってる ばあいじゃないと<CR>おもうんですけど<CF><CC><@6D>そのとおリ!<CR>こうしている あいだにも<CF><CC>ちゃくじつに はかせの けんきゅうは<CR>すすんでいるんだよ クク<CF><CC><@53>ククってなによ ククって<CF><CC><@6D>さあ はやく いくがいい<CR>ドアのカギを レディにわたそう,"<@00>Um, Lady Retort...<CF><CC>I don't think this is the time for that.<CF><CC><@6D>Exactly! Even as we speak,<CF><CC>the Doctor's research is steadily progressing. Kuku.<CF><CC><@53>What's with the ""kuku""!?<CF><CC><@6D>Now go, quickly. I'll give the lady the door key."
+050,0x52AF,<@6D>さあ キミも いくがいい<CR>みごとな たたかいを みせてくれよ,"<@6D>Now, off you go too. Show me a splendid battle."
+051,0x52D1,<@6D>いやぁ たのしみだなぁ・・・<CR>さいごの たたかいに<CF><CC>ふさわしいように わたしが ちょっと<CR>さいくして おいたからね<CF><CC><@00>え?<CF><CC><@6E>なんでもないよ ククッ<CR>さあ はやく いきたまえ,"<@6D>Ahh, I can't wait... I did a little tinkering<CF><CC>to make it fitting for the final battle, you see.<CF><CC><@00>Huh?<CF><CC><@6E>Oh, nothing. Kuku. Now hurry along."
+052,0x5331,<@53>ヘベレケはかせは どこなのっ!?<CF><CC><@48><&CB26>くん! ぶじか?,<@53>Where is Dr. Hebereke!?<CF><CC><@48><&CB26>! Are you all right?
+053,0x5354,<@04>レトルトさん!<CR>きてくれたんですね!<CF><CC><@53>あらレトルト おそかったじゃない<CF><CC><@4D>なっ! レディ!<CR>なぜ きみがここに!<CF><CC><@53>きまってるじゃない<CR>あんたひとリじゃ たよリないからよ<CF><CC><@4B>なっ キ・・・レトルトレディ!<CR>それはいいすぎだぞ!<CF><CC><@53>どーかしら,"<@04>Mr. Retort! You came!<CF><CC><@53>Oh, Retort. You sure took your time.<CF><CC><@4D>Wha-! Lady! Why are you here!?<CF><CC><@53>Isn't it obvious? You're way too unreliable on your own.<CF><CC><@4B>Wh- Ki... Lady Retort! That's going too far!<CF><CC><@53>Oh, is it?"
+054,0x53DB,<@06>わわ レトルトさんとレトルトレディが<CR>けんかを はじめちゃったよ<CF><CC><@9B>なにかとおもえば メダロットはかせの<CR>つかいっぱしリどもか,"<@06>Whoa, Mr. Retort and Lady Retort started arguing!<CF><CC><@9B>And here I wondered what the fuss was. Dr. Medarot's errand boys."
+055,0x5420,<@53>でたわね!<CF><CC><@48>メダロットはかせを わるくいうと<CR>ゆるさないぞ!<CF><CC><@00>はかせ! どうして<CR>ロボロボだんを つかって<CF><CC>わるいことを したリするの?<CR>メダロットはかせ みたいに<CF><CC>ひとのやくにたつことを しようと<CR>おもわないの?<CF><CC><@9B>ワシの びがくが わからん<CR>ひよっこどもが<CF><CC>かがくしゃなら おのれの<CR>こうきしんの ついきゅうのみに<CF><CC>たましいを ささげるベきじゃ!<CF><CC><@48>ええい こんなやつに なにを<CR>いってもムダだ! わたしがあいてだ!,"<@53>There you are!<CF><CC><@48>I won't forgive anyone who insults Dr. Medarot!<CF><CC><@00>Doctor! Why are you using the RoboRobo Gang<CF><CC>to do bad things? Don't you want to<CF><CC>do things that help people,<CF><CC>like Dr. Medarot?<CF><CC><@9B>Fledglings like you can't understand<CF><CC>my aesthetic! A scientist should devote his soul<CF><CC>solely to the pursuit<CF><CC>of his own curiosity!<CF><CC><@48>Enough! It's pointless to say anything to a man like this! I'll be your opponent!"
+056,0x5504,<@9B>そうかんたんには いかんぞい,<@9B>It won't be that easy!
+057,0x5516,<@58>きゃ!,<@58>Kyaa!
+058,0x551D,<@48>まて! ヘベレケ!,<@48>Wait! Hebereke!
+059,0x552A,<@06>おとが きこえたのは<CR>こっちからじゃない!,"<@06>The noise came from over here, didn't it!?"
+05A,0x5543,<@9B>ビーストマスターは ロボロボだんの<CR>さいこう けっさくじゃった<CF><CC>じゃが それも 7ねんまえ<CR>たった ひとリの<CF><CC>こどもに たおされたという<CR>はなし じゃがな<CF><CC><@00>7ねんまえ?,"<@9B>Beast Master was the RoboRobo Gang's greatest masterpiece.<CF><CC>But that was 7 years ago... and as the story goes,<CF><CC>it was defeated by a single child.<CF><CC><@00>7 years ago?"
+05B,0x55A0,<@02>おまえらなぁ!,<@02>You guys...!
+05C,0x55AB,<@00>メダロッとうヘの ふねは いま<CR>うごいていない みたいだな,<@00>Looks like the boat to Medarot Island isn't running right now.
+05D,0x55CC,<@9B>ほう? そのなを しっておるのか?,<@9B>Oh? So you know that name?
+05E,0x55E1,<@4A><&CB26>くん<CR>ぼくの たたかいを<CF><CC>よく みておくんだ わかったね?<CR>さあ さがって!<CF><CC><@00>は はいっ レトルトさん,"<@4A><&CB26>, watch my fight<CF><CC>closely, understand? Now, stand back!<CF><CC><@00>Y-yes, Mr. Retort!"
+05F,0x561F,<@FF>いけ! メタビー!,<@FF>Go! Metabee!
+060,0x562C,<@52>ようやく でばんってわけだな,"<@52>Finally my turn, huh?"
+061,0x563E,<@FF>いけ! ロクショウ!,<@FF>Go! Rokusho!
+062,0x564C,<@51>ロクショウ まいる!,"<@51>Rokusho, here I come!"
+063,0x565A,<@C5>グゥワアアア!!<CF><CC><@4A>やった!!<CF><CC><@04>す すごい・・・,<@C5>Gwaaaaaargh!!<CF><CC><@4A>We did it!!<CF><CC><@04>Th-that's amazing...
+064,0x567B,<@9B>くっ なかなか やリおるわ<CR>じゃが まだまだじゃ<CF><CC><@C5>ガーッ!!<CF><CC><@4D>ば ばかな<CR>やつらは もううごけないはず・・・,"<@9B>Ngh, not bad at all. But it's far from over!<CF><CC><@C5>Graaah!!<CF><CC><@4D>Th-that's impossible! They shouldn't be able to move anymore..."
+065,0x56BB,<@4D>うわああっ!!,<@4D>Waaaaaah!!
+066,0x56C6,<@58>ヒカルっ!!<CF><CC><@08>えっ? ヒカルさん!?,<@58>Hikaru!!<CF><CC><@08>Huh? Hikaru!?
+067,0x56DF,<@50>ごめん キララ<CF><CC><@57>もう いいから だまっといて<CF><CC><@08>キ キララさん?,"<@50>Sorry, Kirara.<CF><CC><@57>It's fine, just keep quiet.<CF><CC><@08>K-Kirara?"
+068,0x5708,<@53>はかせ あなたは なにをしたの?<CR>メダロットなら ひとを<CF><CC>わざと こうげきする ことなんて<CR>できないはずよ!<CF><CC><@50>リミッターだ・・・<CF><CC><@57>あん もう! だから<CR>それって いったい なんなのよ!<CF><CC><@50>メダロットはかせが いってた<CR>メダルに かけられた<CF><CC>せいぎょシステムの リミッターが<CR>かんぜんに はずされた とき<CF><CC>メダルは・・・メダロットは<CR>にんげんの てに おえなくなるって<CF><CC>だから リミッター かいじょは<CR>ぜったい やっては いけないんだって,"<@53>Doctor, what did you do!? A Medarot shouldn't be able<CF><CC>to attack a human on purpose!<CF><CC><@50>It's the limiter...<CF><CC><@57>Ugh, honestly! So what is that supposed to be!?<CF><CC><@50>Dr. Medarot told me... The Medals have a<CF><CC>limiter on their control system. If it's<CF><CC>removed completely,<CF><CC>the Medals... the Medarots... become impossible for humans to handle.<CF><CC>That's why you must never,<CF><CC>ever remove the limiter."
+069,0x57F2,<@C5>キシャアアアッ!!,<@C5>Kshaaaaaah!!
+06A,0x57FF,<@9F>ぐわあっ!!<CF><CC><@08>はかせっ!,<@9F>Gwaaah!!<CF><CC><@08>Doctor!
+06B,0x5812,<@08>はかせにまで こうげき するなんて!<CR>このメダロットを つくったの<CF><CC>はかせ なんでしょう?<CR>なんとか ならないの?<CF><CC><@9E>こうなってしまっては もう<CR>ワシにも とめられん<CF><CC><@03>そんな・・・<CF><CC><@4E>あなたの おもいあがリが<CR>メダロットを ぼうそうさせたんだ<CF><CC>メダルの テクノロジーは<CR>まだ ぼくたち にんげんには<CF><CC>てに おえない ものなのに,"<@08>It's even attacking you, Doctor! You built this Medarot,<CF><CC>didn't you? Can't you do anything?<CF><CC><@9E>Now that it's come to this, even I<CF><CC>can't stop it.<CF><CC><@03>No way...<CF><CC><@4E>Your arrogance is what drove<CF><CC>this Medarot berserk.<CF><CC>Medal technology is still something<CF><CC>we humans<CF><CC>can't handle..."
+06C,0x58C3,<@58><&CB26>くん にげて!<CR>こんどは わたしが!<CF><CC><@4E>まってくれ キララ・・・<CR>ぼくは <&CB26>くんの<CF><CC>ちからを しんじたい<CR>かれのような しょうねんが<CF><CC>メダロットと ぼくたちの<CR>みらいを つくるんだって<CF><CC>メダロットはかせも いってた<CR>ぼくらは その みちしるベなんだ<CF><CC><@00>にげないよ ぼく<CR>だって ぼくをしんじて<CF><CC>まっている ひとたちが いるもの!,"<@58><&CB26>, run! I'll take it from here!<CF><CC><@4E>Wait, Kirara... I want to believe<CF><CC>in <&CB26>'s strength.<CF><CC>Dr. Medarot said it's boys like him<CF><CC>who will build the future of Medarots<CF><CC>and us humans. We're just the<CF><CC>signposts along the way.<CF><CC><@00>I won't run away!<CF><CC>There are people waiting for me<CF><CC>who believe in me!"
+06D,0x5978,<@9F>しんじられん こんなことが<CR>あって いいはずは ない<CF><CC>いままで ワシの やってきたことは<CR>いったい・・・<CF><CC><@05>はかせ・・・<CF><CC><@9E>おわリじゃ!<CR>ワシの けんきゅうも なにもかも<CF><CC>おぬしらを みちづれに<CR>すベて けしさってやる!,"<@9F>Unbelievable... This can't be<CF><CC>happening...<CF><CC>Then everything I've done all this time...<CF><CC>what was it all for...?<CF><CC><@05>Doctor...<CF><CC><@9E>It's over! My research, everything!<CF><CC>I'll take you all down with me<CF><CC>and wipe it all away!"
+06E,0x59F0,<@08>はかせ!!,<@08>Doctor!!
+06F,0x59F9,<@06>・・・ダメだ すごく がんじょうな<CR>ドアで こわすことも できそうにない,<@06>...It's no use. This door is way too sturdy. I can't break it down.
+070,0x5A21,<@6D>ふふ みせてもらったよ<CR><&CB26>くん<CF><CC>いやあ じつに すばらしい<CR>たたかいだった<CF><CC>あの ゴッドエンペラーを・・・<CF><CC><@06>はやくっ はやくしないと<CR>じばくします ここ<CF><CC><@6D>おおげさだなあ<CR><&CB26>くんは<CF><CC><@06>ほんとうなんですっ<CR>に にげましょう! はやく!<CF><CC><@6D>そんなに せかさなくても<CR>だいじょうぶだよ<CF><CC>それよリ いそいで ほかのひとにも<CR>つたえてきたら どうだい?<CF><CC><@06>そ そうだった<CR>それじゃあ またあとで,"<@6D>Heh heh, I saw it all, <&CB26>.<CF><CC>My, that was a truly splendid battle.<CF><CC>To think you beat God Emperor...<CF><CC><@06>Hurry! Hurry up, or this place<CF><CC>is going to self-destruct!<CF><CC><@6D>You're exaggerating, <&CB26>.<CF><CC><@06>It's true! L-let's get out of here! Quick!<CF><CC><@6D>No need to rush me like that, I'll be fine.<CF><CC>More importantly, why don't you hurry<CF><CC>and warn the others?<CF><CC><@06>R-right! See you later, then!"
+071,0x5AF7,<@88>ふっふっふっふ・・・,<@88>Heh heh heh heh...
+072,0x5B05,<@88>この しゅうねんぶかい おれさまが<CR>あれほどのくつじょくを うけて<CF><CC>おわリだとでも おもっていたか<CF><CC><@06>なに いってんだよ こんなときに!<CF><CC>はやく にげないと ここ<CR>ばくはつ するんだよ!<CF><CC><@87>ふん そんな みえすいたうそで・・・<CF><CC><@06>ほんとうだって! はかせが きちの<CR>じばくスイッチを おしたんだ!<CF><CC><@87>なにぃ!? そんなことが・・・ん?<CR>まてよ はかせが おれさまの<CF><CC>ぶかたちに バクダンを<CR>はこばせたのは・・・,"<@88>Did you really think a man as vengeful as me<CF><CC>would just give up after suffering<CF><CC>such humiliation?<CF><CC><@06>What are you talking about at a time like this!?<CF><CC>We've got to get out of here fast, this place is going to blow up!<CF><CC><@87>Hmph, as if I'd fall for such an obvious lie...<CF><CC><@06>It's true! The Doctor pushed the base's self-destruct switch!<CF><CC><@87>Whaaat!? That can't be... Hm?<CF><CC>Wait a minute... the bombs the Doctor had<CF><CC>my underlings carry..."
+073,0x5BE1,<@83>サケカースさま われわれは<CR>ちゃんと いわれたとおリ<CF><CC>バクダンを スイッチが おされたら<CR>ばくはつするように せっちしたロボ,"<@83>Master Sakekaasu, we set up the bombs<CF><CC>just like we were told, robo.<CF><CC>So they'll go off when the switch is pressed, robo."
+074,0x5C24,<@89>なぬ!? キサマ すこしは<CR>ものを かんがえてこうどうしろっ!<CF><CC><@83>われわれに<CR>それは むリというものロボ<CF><CC><@89>はかせめ! おれさまたちを<CR>リようするだけ リようして<CF><CC>ようがすんだら ポイか!<CR>ムキーーーーーッ!!,"<@89>Whaaat!? You idiot! Think a little before you act!<CF><CC><@83>That's asking too much of us, robo.<CF><CC><@89>Curse that Doctor! He used us for all we were worth,<CF><CC>and now that he's done with us, he tosses us aside!? Grrrrrraaagh!!"
+075,0x5C96,<@89>じょうだんじゃないぞ! ええぇい!!<CR>たいさんだぁっ!!,<@89>Like heck I'll stand for this! Bah!! Retreeeat!!
+076,0x5CB6,<@00>ロボロボだんも これにこリて<CR>イタズラを やめてくれれば<CF><CC>いいんだけどな<CF><CC><@06>とにかくっ! ぼくもいそごう!<CR>みんなと いっしょに だっしゅつだ!,<@00>I hope the RoboRobo Gang learns their lesson and<CF><CC>quits pulling pranks after this.<CF><CC><@06>Anyway! I'd better hurry too! Time to escape with everyone!
+077,0x5D05,<@06>このかいに わるガキたちが<CR>いるはずだ<CF><CC>さがして にげるように<CR>いわなきゃ!,<@06>Those brats should be on this floor.<CF><CC>I've got to find them and tell them to run!
+078,0x5D30,<@28>あらぁ <&CB26><CR>もどって きたって ことはぁ<CF><CC>とうぜん ボスは たおしたんで<CR>しょおねぇ?<CF><CC><@06>そんな はなしは あと!<CR>ともかく はやく にげるんだ!<CF><CC><@25>なぁにぃ? とつぜん<CF><CC><@06>ばくはつ するんだっ! このきちが!<CR>だから はやく にげないと!<CF><CC><@2C>おいおい なにいってんだよ<CF><CC>ほんきか? そんなゲーム<CR>みたいなこと あるわけ・・・<CF><CC><@25>さっさと いくわよぉ<CR>どうせ こんな ところにいても<CF><CC>ろくなこと ないしぃ,"<@28>Oh my, <&CB26>~ If you came back here,<CF><CC>then of course you beat the boss, right~?<CF><CC><@06>We can talk about that later! Just hurry up and run!<CF><CC><@25>Whaaat? All of a sudden?<CF><CC><@06>It's gonna explode! This whole base! So we've got to get out of here, fast!<CF><CC><@2C>Whoa, whoa, what're you talking about?<CF><CC>Seriously? Stuff like that only happens in video games, no way it'd...<CF><CC><@25>Let's get moving~. Nothing good's gonna come<CF><CC>from staying in a place like this anyway~."
+079,0x5E0D,<@31>せんたくものも たまってるし,"<@31>And my laundry's piling up, too."
+07A,0x5E1F,<@2F>あっ ちょっと!<CR>おれも!,"<@2F>Ah, hey! Wait for me!"
+07B,0x5E30,<@A5>ぐわははは! まったく わらいが<CR>とまらんとは このことジャ!<CF><CC>ここで こうして まっとるだけで<CR>つぎからつぎヘと ねずみが<CF><CC>じぶんから つかまリにくるとはな!,"<@A5>Gwahahaha! So this is what they mean by not being able to stop laughing!<CF><CC>All I do is wait here like this, and the rats come<CF><CC>one after another, practically begging to be caught!"
+07C,0x5E86,<@A5>ぐわははは! また<CR>1ぴきジャ!<CF><CC><@85>ロボー,<@A5>Gwahahaha! Another one!<CF><CC><@85>Robooo...
+07D,0x5EA1,<@06>あっ ちょっと! まっ・・・,"<@06>Ah, hey! Wai-..."
+07E,0x5EB3,<@09><&CB26>!<CF><CC><@13><&CB26>くん!,<@09><&CB26>!<CF><CC><@13><&CB26>!
+07F,0x5EC5,<@9F>わちゃちゃちゃちゃちゃっ!,<@9F>Ahchachachachacha!
+080,0x5ED6,<@9F>なんじゃ これはっ!<CF><CC>バクダンではなく<CR>バクチクでは ないか!,"<@9F>What is this!?<CF><CC>These aren't bombs, they're firecrackers!"
+081,0x5EFA,<@9F>あたたたたたた!,<@9F>Owowowowowow!
+082,0x5F06,<@09>ばくはつ しないね<CF><CC><@00>うん・・・<CF><CC><@17>このまま なにごともなければ<CR>いいんですけど,<@09>It's not exploding.<CF><CC><@00>Yeah...<CF><CC><@17>I hope nothing else happens.
+083,0x5F36,<@08>ヘベレケはかせ!?<CF><CC><@01>・・・ってことは やっぱリ<CR>きちのじばくは しっぱいしたんだ!<CF><CC>あはは!<CF><CC><@9D>だまらっしゃいっ!,<@08>Dr. Hebereke!?<CF><CC><@01>...Which means the base's self-destruct failed after all!<CF><CC>Ahaha!<CF><CC><@9D>Silence!
+084,0x5F79,<@5C>ヘベレケ!,<@5C>Hebereke!
+085,0x5F82,<@04>メダロットはかせ!<CR>それに ナエさん!<CF><CC><@63>こんにちは <&CB26>くん<CF><CC>おじいさまが どうしても<CR>ここにくると いうので<CF><CC>しんぱいで ついてきて<CR>しまいましたわ,"<@04>Dr. Medarot! And Ms. Nae!<CF><CC><@63>Hello, <&CB26>.<CF><CC>Grandfather insisted on coming here,<CF><CC>so I was worried and came along with him."
+086,0x5FD7,<@9F>なっ! アキハバラ!<CR>なにしに きた!<CF><CC><@5F>あいかわらずじゃの ヘベレケ<CR>ひとの めいわくを<CF><CC>かんがえぬ ところなど<CR>まったく かわっておらん<CF><CC><@9D>ぜんにんづら しおって<CR>ほんっとに きにくわん!<CF><CC>いっとくがな ワシは あきらめんぞ!<CR>ぜったいに ぜーーっったいに<CF><CC>せかいを せいふくして<CR>せかいじゅうの ギャルに<CF><CC>モテモテに なってやるっ!<CF><CC><@A2>ほら はやく いくで あリます!,"<@9F>Wha-! Akihabara! What are you doing here!?<CF><CC><@5F>Same as ever, I see, Hebereke. Never thinking of<CF><CC>the trouble you cause others.<CF><CC>You haven't changed one bit.<CF><CC><@9D>Acting all holier-than-thou... I really, really can't stand you!<CF><CC>Let me tell you, I'm not giving up! Never, ever, EVER!<CF><CC>I'll conquer the world and make all the girls<CF><CC>in the world<CF><CC>fall head over heels for me!<CF><CC><@A2>Come on, get moving, sir!"
+087,0x60A0,<@5F>やれやれ こリんやつじゃ,"<@5F>Good grief, he never learns."
+088,0x60B0,<@0A>あたしたちも かえリましょ<CR><&CB26><CF><CC><@13>いきましょう<CR><&CB26>くん!<CF><CC><@04>うん!,"<@0A>Let's go home too, <&CB26>.<CF><CC><@13>Let's go, <&CB26>!<CF><CC><@04>Yeah!"
+089,0x60DD,<@55><&CB26>くん!,<@55><&CB26>!
+08A,0x60E7,<@04>あ キララさんだ!<CF><CC><@55>この かっこうのときは<CR>レトルトレディって よんでよ<CF><CC><@04>あ ごめんなさい レトルトレディ<CF><CC><@00>ところで そのはくいの<CR>おじさんは?<CF><CC><@6D>いやー つかまっちゃったよ<CR>スパイにきけんは つきものだからね<CF><CC><@55>これでメダロットしゃから<CR>スパイはきえるわ!<CF><CC><@00>それで ヒカルさん・・・<CR>じゃなかった レトルトさんは?<CF><CC><@55>あいつなら しんぱいないわ<CR>かすリきずよ<CF><CC>ひとのことよリキミ! はやく いえに<CR>かえって ゆっくリやすむのよ!,"<@04>Ah, it's Kirara!<CF><CC><@55>When I'm dressed like this, call me Lady Retort.<CF><CC><@04>Oh, sorry. Lady Retort.<CF><CC><@00>By the way, what about the guy in the lab coat?<CF><CC><@6D>Well, I got caught. Danger comes with the territory when you're a spy.<CF><CC><@55>Now the Medarot Company is spy-free!<CF><CC><@00>And Hikaru...<CF><CC>I mean, Mr. Retort?<CF><CC><@55>Don't worry about him. It's just a scratch.<CF><CC>Worry about yourself! Hurry home and get some rest!"
+08B,0x61D5,<@52>だいじょうぶかよ ヒカル,"<@52>You okay, Hikaru?"
+08C,0x61E5,<@51>だいじょうぶか? ヒカルどの,"<@51>Are you all right, Hikaru?"
+08D,0x61F7,<@50>キララには つよがって みたものの<CR>うう・・・ひどいめにあった,"<@50>I acted tough in front of Kirara, but... ugh... that was rough."
+08E,0x621A,<@04>みんな!,<@04>Everyone!
+08F,0x6222,<@A4>うむ こどもたちよ<CR>このワシが きたからには<CF><CC>もうあんしんジャ<CF><CC>たちいリきんしの ばしょに<CR>ふみこんだことは<CF><CC>こんかいは おおめに<CR>みてやろうジャないか <CF><CC>さあ さっさとかえるんジャ<CF><CC><@1D>こいつ またてがらを<CR>ひとリじめに するきかっ!,"<@A4>Hmm, children. Now that I have arrived,<CF><CC>all is well!<CF><CC>As for you trespassing<CF><CC>in a restricted area...<CF><CC>I'll let it slide just this once.<CF><CC>Now, off home with you!<CF><CC><@1D>This guy's trying to hog all the credit again!"
+090,0x62A1,<@0B>そうよっ ひきょうだわ!<CF><CC><@14>はずかしく ないんですか!?<CF><CC><@0B><&CB26>!<CR>あんたも なんとかいいなさいよ!<CF><CC><@00>え? ああ うん<CF><CC><@0B>まったく あんたは<CR>おひとよし なんだからっ!<CF><CC><@A4>ふん なにを ごちゃごちゃと<CR>ともかくもうここに ようはない<CF><CC>ひきあげジャあ!,"<@0B>That's right! That's dirty!<CF><CC><@14>Aren't you ashamed of yourself!?<CF><CC><@0B><&CB26>! You say something too!<CF><CC><@00>Huh? Oh, yeah...<CF><CC><@0B>Honestly, you're way too nice for your own good!<CF><CC><@A4>Hmph, what are you all prattling on about?<CF><CC>Anyway, we have no more business here.<CF><CC>We're pulling out!"
+091,0x632F,<@A4>なんジャ? トックリ<CR>そこをどかんか ひきあげジャ!<CF><CC><@A8>あのー たいちょう<CR>わたしたち もうあなたを<CF><CC>たいちょうとは<CR>およびしたく ないんですよ<CF><CC><@A7>なんジャと? どういうことジャ!?<CF><CC><@A8>こどもたちから<CR>てがらを うばいとるなんて<CF><CC>おとながやっては いけないことです<CF><CC><@A7>ええい! なにを ふざけたことを!<CR>トックリ おまえなど くびジャ!<CF><CC>どこヘなリと いくがいい!,"<@A4>What is it, Tokkuri? Out of my way! We're pulling out!<CF><CC><@A8>Um, Captain... We don't<CF><CC>want to call you<CF><CC>our captain anymore.<CF><CC><@A7>What did you say!? What's the meaning of this!?<CF><CC><@A8>Stealing credit from children<CF><CC>is something a grown-up should never do.<CF><CC><@A7>Bah! What nonsense! Tokkuri, you're fired!<CF><CC>Go wherever you please!"
+092,0x63F4,<@A7>な なんジャ おまえらは!<CF><CC><@AA>たいちょう くびに なるのは<CR>あなたの ほうです!<CF><CC><@A7>くっ・・・,"<@A7>Wh-what's with you lot!?<CF><CC><@AA>Captain, the one who's fired is you!<CF><CC><@A7>Ngh..."
+093,0x642B,<@A7>くうぅっ!<CR>きさまら おぼえておれよ!,"<@A7>Grrr! You'll pay for this, all of you!"
+094,0x6442,<@01>トックリさん かっこいい!<CF><CC><@A8><&CB26>くん でしたっけ?<CR>いままで わるかったですねぇ<CF><CC>わたしが もっと しっかリしていれば<CR>よかったんですけどねぇ<CF><CC>でも おもいきって<CR>こうどう してみると<CF><CC>たいいんたちは わたしに<CR>ついてきて くれたんです<CF><CC><@A9>なんといっても あなたに もらった<CR>しゃしんが こうか ばつぐんでした,"<@01>Mr. Tokkuri, that was so cool!<CF><CC><@A8>It's <&CB26>, right? I'm sorry about everything until now.<CF><CC>If only I'd been a little firmer...<CF><CC>But once I worked up the courage<CF><CC>to take action,<CF><CC>the men followed me.<CF><CC><@A9>Above all, that photo you gave me was super effective!"
+095,0x64EA,<@05>それだよ きっと<CR>ロボロボだん そういうシャレ<CF><CC>すきだから<CF><CC><@2D>わかった にゅうリょくしてみるぜ<CR>・・・せいかいだ<CF><CC>とリあえず<CR>おまえ もどってこいよ,"<@05>That's gotta be it. The RoboRobo Gang loves<CF><CC>puns like that.<CF><CC><@2D>Got it, I'll try entering it... It's correct!<CF><CC>Anyway, come on back over here."
+096,0x653C,<@2B>あけてやったぜ<CR>さっさと とおれよ,<@2B>I opened it for ya. Hurry up and go through.
+097,0x6551,<@00>それって・・・<CF><CC><@6D>そう ぞくにいう スパイってやつ<CF><CC><@08>スパイ!? じゃあ なぜぼくに<CR>きょうリょくを?<CF><CC><@6D>キミが かつか ヘベレケはかせが<CR>かつか みてみたかったのさ<CF><CC>そしてキミは ここまできた<CR>さいごまで がんばれよ,"<@00>You mean...<CF><CC><@6D>Yes, what's commonly known as a spy.<CF><CC><@08>A spy!? Then why did you help me?<CF><CC><@6D>I wanted to see who would win, you or Dr. Hebereke.<CF><CC>And you've made it this far. Hang in there till the end."
+098,0x65C9,<@6D>うらぎリもの? しんがいだねえ<CR>わたしは メダロットしゃでも<CF><CC>ちゃんと しごとを しているよ<CF><CC><@58>よくも そんなことを ぬけぬけと<CR>じぶんの たちばが わかって・・・,"<@6D>A traitor? How hurtful. I do my job properly<CF><CC>at the Medarot Company too, you know.<CF><CC><@58>How can you say that with a straight face!? Do you even understand your position...?"
+099,0x6622,<@9B>ワシの すぎた こうきしんが<CR>きゃつらを こうさせたのよ<CF><CC>あるいは けんきゅういんの だれかが<CR>さいくしたのかも しれんがな<CF><CC>なんにせよ こうなってしまっては<CR>もうだれも あれを とめられん<CF><CC>なんといっても このワシが<CR>ちょうせい したのじゃからな<CF><CC><@08>そんな むせきにんな!<CR>かいけつさくぐらい あるんでしょ?<CF><CC><@9B>リミッターが はずれた メダロットを<CR>とめる ほうほうなど ない<CF><CC><@05>そんな,"<@9B>My excessive curiosity made those things what they are.<CF><CC>Or perhaps one of the researchers tinkered with them.<CF><CC>Either way, now that it's come to this,<CF><CC>no one can stop them.<CF><CC>After all, I'm the one who tuned them.<CF><CC><@08>That's so irresponsible! There's gotta be some way to fix this, right?<CF><CC><@9B>There is no way to stop a Medarot whose limiter has come off.<CF><CC><@05>No way..."
+09A,0x66F1,<@6D>うーん じばくかあ<CR>はかせも すきだな そういうの<CF><CC>じぶんのけんきゅうと ともにほろびる<CR>・・・か びがくだねえ,"<@6D>Hmm, self-destruct, eh? The Doctor sure loves that sort of thing.<CF><CC>Perishing along with his own research...<CF><CC>How aesthetic."
+09B,0x672E,<@08>・・・あ! しってる! メダロットの<CR>ぼうそうじけんが あったって!,<@08>...Ah! I know! There was an incident where a Medarot went berserk!
+09C,0x6754,<@9B>あのころ リミッターの そんざいを<CR>だれも しらなんだ<CF><CC>それが ビーストマスターを<CR>せいぎょふのうに したんじゃ<CF><CC>しかし てんさい かがくしゃである<CR>ワシは せいぎょほうを しった!<CF><CC>かいリょうされた ゴッドエンペラーは<CR>パワーも わざも<CF><CC>やつを はるかに しのぐぞい<CR>ワシの せいぎょも かんペきじゃ!<CF><CC>・・・7ねん まえとは ちがうぞ?<CR>おぬしの メダロットで かてるか?<CF><CC><@48>だまれ!<CF><CC><@9B>では ゆけ!<CR>ゴッドエンペラーよ!,"<@9B>Back then, no one knew the limiter even existed.<CF><CC>That's what made Beast Master uncontrollable.<CF><CC>But I, a genius scientist, discovered how to control it!<CF><CC>The improved God Emperor far surpasses<CF><CC>that thing in both power and skill.<CF><CC>And my control over it is perfect!<CF><CC>...This isn't 7 years ago, you know. Can your Medarot win?<CF><CC><@48>Silence!<CF><CC><@9B>Then go forth, God Emperor!"
+09D,0x6836,<@56>なんか・・・イヤーな よかん,<@56>I've got a bad... feeling about this.
+09E,0x6848,<@02>ヘベレケはかせ! あなたは!!,<@02>Dr. Hebereke! How could you!!
+09F,0x685B,<@9F>ま まて! ごかいじゃ!<CR>ワシは まだ・・・<CF><CC><@C5>リミッター カイジョヲ<CR>アマクミタナ<CF><CC><@08>えっ! あたまのなかに こえが!?<CF><CC><@9F>ばっ ばかな! ワシの<CR>せいぎょは かんペきな はずじゃ!<CF><CC>しょうきにもどれ ゴッドエンペラー,"<@9F>W-wait! It's a misunderstanding! I haven't...<CF><CC><@C5>YOU UNDERESTIMATED... RELEASING THE LIMITER...<CF><CC><@08>Huh! A voice in my head!?<CF><CC><@9F>Im-impossible! My control should be perfect!<CF><CC>Come to your senses, God Emperor!"
+0A0,0x68D4,<@02>こっちだ! ゴッドエンペラー!<CR>ぼくと しんけんロボトルだっ!!,"<@02>Over here, God Emperor! It's you and me, a serious robattle!!"
+0A1,0x68F8,<@C5>ギャォォォオオウ!!<CR>ニンゲン・・・メ! イ・ツ・カ・・・,<@C5>GYAAAOOOOOH!! HUMANS... SOME... DAY...
+0A2,0x6919,<@58><&CB26>くん<CR>はやく にげるのよ!<CF><CC>はかせは きっと きちの<CR>じばくスイッチを おしたんだわ!<CF><CC><@03>でも・・・<CF><CC><@53>わたしたちの ことは<CR>しんぱいしなくて いいから!<CF><CC>キミには まってる ひとたちが<CR>いるんでしょ?<CF><CC>さあ はやく!<CF><CC><@03>わかリました<CF><CC><@00>でも あとで ぜったいあいましょうね<CR>やくそくですよ!<CF><CC><@55>あたリまえよ!,"<@58><&CB26>, hurry and run!<CF><CC>The Doctor must have pushed the base's self-destruct switch!<CF><CC><@03>But...<CF><CC><@53>Don't worry about us!<CF><CC>You've got people waiting for you, don't you?<CF><CC>Now hurry!<CF><CC><@03>Okay...<CF><CC><@00>But we'll definitely meet up later! Promise!<CF><CC><@55>Of course!"
+0A3,0x69C8,<@55>わたしたちは あとから いくわ<CR>だから しんぱい しないで!,"<@55>We'll be right behind you, so don't worry!"
+0A4,0x69EA,<@00>なんだか すごい そうちだ<CF><CC>ここに あの ゴッドエンペラーが<CR>ねむって いたんだな,<@00>What an amazing machine.<CF><CC>So this is where God Emperor was sleeping.
+0A5,0x6A18,<@6D>ああ ちょっと <&CB26>くん<CR>かってに そのそうちに<CF><CC>さわっちゃいけないよ!,"<@6D>Ah, hold on, <&CB26>! You mustn't touch<CF><CC>that machine without permission!"
+0A6,0x6A42,<@00>えっ?,<@00>Huh?
+0A7,0x6A49,<@FF>ゴゴゴゴゴゴ・・・,<@FF>Rumble rumble rumble...
+0A8,0x6A56,<@08>なっ なんだっ!?,<@08>Wh-what's that!?
+0A9,0x6A63,<@7B>ぱぅーぷー<CF><CC><@08>なんだっ あれ!?<CF><CC><@6E>あーあ こまったことを<CR>してくれたねぇ<CF><CC>ねている こを おこすなんて,"<@7B>Pauu-puu<CF><CC><@08>What is that thing!?<CF><CC><@6E>Oh dear, look what you've done.<CF><CC>Waking up a sleeping child..."
+0AA,0x6AA0,<@06>なんのことだよっ!<CR>あれは なんなんだよ いったい!<CF><CC><@6E>まだ かいはつとちゅうの<CR>あかちゃん メダロット<CF><CC>そのなも プリミティベビー<CR>かわいいでしょう?,"<@06>What are you talking about!? What the heck is that thing!?<CF><CC><@6E>A baby Medarot, still in development.<CF><CC>Its name is Primity Baby. Isn't it cute?"
+0AB,0x6AF3,<@7B>ばうぶ ばー<CF><CC><@6E>おー よちよち<CR>おこされちゃったねー<CF><CC><@6D>こうなったら キミには<CR>こもリを してもらうよ<CF><CC><@06>え? こもリって? ぼく<CR>あかちゃんなんて・・・<CF><CC>じゃなくって いま<CR>それどころじゃ・・・!<CF><CC><@6D>ゴッドエンペラーを たおした<CR>キミなら・・・いや<CF><CC>それでも なく こには<CR>かなわないかも しれねいねぇ<CF><CC><@6E>ま がんばって くれたまえ<CR>グッド ラック!<CF><CC><@06>あっ ちょっとっ!<CF><CC><@7B>ぶー,"<@7B>Bawbu baa<CF><CC><@6E>Ooh, there there. Did he wake you up?<CF><CC><@6D>Now that it's come to this, you'll have to do some babysitting.<CF><CC><@06>Huh? Babysitting? Me? I don't know anything about babies...<CF><CC>I mean, this is no time<CF><CC>for that...!<CF><CC><@6D>A kid who beat God Emperor should... no, wait.<CF><CC>Even so, you might be no match<CF><CC>for a crying baby.<CF><CC><@6E>Well, do your best. Good luck!<CF><CC><@06>Ah, hey, wait!<CF><CC><@7B>Buu"
+0AC,0x6BC6,<@7B>あーーぶーーーー,<@7B>Aaaa-buuuuuu
+0AD,0x6BD2,<@6D>ああああ わたしの ベビーが!<CR>・・・しくしく<CF><CC><@02>なんだよ! じぶんで<CR>けしかけといて!<CF><CC><@00>そんな ことよリ いま<CR>じばく スイッチが!<CF><CC><@6D>いま それどころではない<CR>ああ わたしの かわいい<CF><CC>ベビー・・うう<CF><CC><@05>つきあってられないよ<CF><CC><@00>・・・とにかく つたえたからね!,"<@6D>Aaaah, my baby! ...Sob, sob.<CF><CC><@02>What!? You're the ones who sicced it on me!<CF><CC><@00>Never mind that, the self-destruct switch!<CF><CC><@6D>That doesn't matter right now. Ahh, my precious<CF><CC>baby... *sniff*<CF><CC><@05>I can't deal with this guy.<CF><CC><@00>...Anyway, I warned you!"
+0AE,0x6C66,<@6D>OH! マイ ベイビー!<CF><CC><@05>・・・この ひとの ことは<CR>しばらく そっとしておこう,<@6D>OH! MY BABY!<CF><CC><@05>...I'd better leave this guy alone for a while.
+0AF,0x6C95,<@00>ここに ゴッドエンペラーと<CR>プリミティベビーが ねむってたんだ<CF><CC><@05>もう いないだろうな?<CR>あんな あぶない やつら,"<@00>So God Emperor and Primity Baby were sleeping in here.<CF><CC><@05>There aren't any more of those dangerous things, are there?"
+0B0,0x6CD4,<@08>なにやってんだよっ!<CF><CC><@A5>なんジャ こぞう おまえか<CR>ぐわはは! おまえが ねずみを<CF><CC>おいこむ やくを<CR>していたというのか?<CF><CC>ジャが またまた<CR>ざんねんジャったな<CF><CC>テガラは つかまえたやつの<CR>ものジャ!,"<@08>What are you doing!?<CF><CC><@A5>What, it's you, brat? Gwahaha! So you've been<CF><CC>herding the rats my way?<CF><CC>Well, tough luck<CF><CC>once again!<CF><CC>The credit goes to whoever catches them!"
+0B1,0x6D41,<@08>どうでもいいよ そんなこと!<CR>ぐずぐずしてたら おしろが<CF><CC>ばくはつ しちゃうよ!<CF><CC><@A4>おまえこそ なにを いっているのジャ<CR>そんなことが あるわけ なかろう<CF><CC>おい この こぞうを<CR>つまみだせ<CF><CC><@A0>リょうかいで あリます!,"<@08>Who cares about that!? If we dawdle, the castle's<CF><CC>gonna blow up!<CF><CC><@A4>What are YOU talking about? There's no way that would happen.<CF><CC>Hey, toss this brat out.<CF><CC><@A0>Yes, sir!"
+0B2,0x6DB7,<@00>あ!,<@00>Ah!
+0B3,0x6DBD,<@05>あの ちょっと!<CR>まだ なかに ひとが・・・<CF><CC><@BD>こーんーどーは<CR>オレさまは ここを どかないゾ!<CF><CC>オレさまは ここで<CR>おひるねを するのだ!<CF><CC><@06>そんな! ちょっと どいてよ!,"<@05>Um, hey! There are still people inside...<CF><CC><@BD>This time, I'm NOT moving from this spot!<CF><CC>I'm taking my nap right here!<CF><CC><@06>No way! Come on, move!"
+0B4,0x6E1D,<@04>アリカ カリンちゃん!<CR>あれ? コウジは?<CF><CC><@12>ロボロボだんの かんぶの ひとと<CR>セレクトたいの ひとを<CF><CC>おいかけて いって しまいました<CF><CC><@00>わるガキ トリオは?<CF><CC><@09>とっくに でてっちゃったわよ<CF><CC><@04>そっか<CF><CC><@00>ヒカルさんや キララさんは<CR>どうしたんだろ? しんぱいだな,<@04>Arika! Karin! Huh? Where's Koji?<CF><CC><@12>He went chasing after a RoboRobo Gang executive<CF><CC>and someone from the Select Corps.<CF><CC><@00>What about the Screws?<CF><CC><@09>They left ages ago.<CF><CC><@04>I see.<CF><CC><@00>I wonder what happened to Hikaru and Kirara? I'm worried.
+0B5,0x6EB0,<@05>ばくはつ・・・しなきゃ いいけど<CF><CC><@11>ばくはつ!?<CF><CC><@1A>まさか この おしろが!?,<@05>I hope it doesn't... explode.<CF><CC><@11>Explode!?<CF><CC><@1A>You don't mean this castle!?
 0B6,0x6EDF,<@5C>ごくろうじゃったな <&CB26><CR>おまえさんには くろうを かけた<CF><CC>もとはと いえば ヘベレケの<CR>わしに たいする さかうらみが<CF><CC>げんいん だったような もんじゃ<CF><CC><@00>さかうらみ?<CF><CC><@5E>やつは なにかと わしと はリあって<CR>おったが わしに かてたことは<CF><CC>1ども ないんじゃ!<CF><CC><@05>はぁ それで ヘベレケはかせは<CR>せかい せいふく・・・ですかぁ<CF><CC><@63>おつかれでしょう<CR><&CB26>くん<CF><CC>いまは いえに かえって<CR>ゆっくリ やすむ ときですわ<CF><CC>それから また ぜひ<CR>あそびにきて くださいね♥,
 0B7,0x6FDB,<@01>じゃ ぼくも はやく みんなの<CR>ところに いこっと!,
 0B8,0x6FF9,<@01>あっははは!<CF><CC><@A9>これからは わたしたちも<CR>あなたに まけない<CF><CC>かつやくが できるよう<CR>がんばリますよ<CF><CC><@01>ええ!<CR>がんばって ください!<CF><CC><@A8>ふねは こちらで よういしました<CR>もと ロボロボだんの<CF><CC>シャークごう とかいう ふねですが<CR>みなさんを おみくじまちまで<CF><CC>おおくリ しますよ<CR>さあ のって ください!,

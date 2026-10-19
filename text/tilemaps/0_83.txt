@@ -1,0 +1,25 @@
+# Tilemap 0_83: table 0 (bank $34), index $83
+# Data: $34:6114, raw (header $00), 73 bytes, 14x6 tiles
+# Screen: Link: "Transferring data! Please wait!"
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７８９０１２３
+#    0|＃＃＃＃＃＃＃＃＃＃＃＃＃＃|
+#    1|＃゛．．．．．．．．．．．＃|
+#    2|＃テータてんそうちゅう！．＃|
+#    3|＃．゛．．．．．．゛．．．＃|
+#    4|＃しはらくおまちくたさい！＃|
+#    5|＃＃＃＃＃＃＃＃＃＃＃＃＃＃|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[0_83]
+
+@ 2,1 max 12
+JP: データてんそうちゅう!
+EN:
+
+@ 4,1 max 12
+JP: しばらくおまちください!
+EN:

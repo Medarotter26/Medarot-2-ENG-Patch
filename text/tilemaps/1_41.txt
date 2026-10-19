@@ -1,0 +1,31 @@
+# Tilemap 1_41: table 1 (bank $35), index $41
+# Data: $35:42A5, raw (header $00), 27 bytes, 11x8 tiles
+# Screen: Debug/gallery? Character / Still / Anime
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７８９０
+#    0|　　　キャラクター＃＃|
+#    1|　　　　　　　　　　　|
+#    2|　　　　　　　　　　　|
+#    3|せいし　　　　　　　　|
+#    4|　　　　　　　　　　　|
+#    5|　　　　　　　　　　　|
+#    6|　　　　　　　　　　　|
+#    7|アニメ　　　　　　　　|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[1_41]
+
+@ 0,3 max 6
+JP: キャラクター
+EN:
+
+@ 3,0 max 3
+JP: せいし
+EN:
+
+@ 7,0 max 3
+JP: アニメ
+EN:

@@ -1,0 +1,17 @@
+# Tilemap 0_2D: table 0 (bank $34), index $2D
+# Data: $34:470C, raw (header $00), 19 bytes, 8x2 tiles
+# Screen: Parts label: Right arm parts
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７
+#    0|．゛．゛゜．．．|
+#    1|みきうてハーツ．|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[0_2D]
+
+@ 1,0 max 8
+JP: みぎうでパーツ
+EN:

@@ -1,0 +1,44 @@
+# Tilemap 1_6F: table 1 (bank $35), index $6F
+# Data: $35:4F52, raw (header $00), 137 bytes, 7x17 tiles
+# Screen: Menu: Get / Loose? / Back / (?)
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６
+#    0|＃＃＃＃＃＃＃|
+#    1|＃＃＃．．．＃|
+#    2|＃．．．．．＃|
+#    3|＃．．．．．＃|
+#    4|＃＃゛．．．＃|
+#    5|＃．ケット．＃|
+#    6|＃．．．．．＃|
+#    7|＃＃．．゛．＃|
+#    8|＃．ルース．＃|
+#    9|＃．．．．．＃|
+#   10|＃＃＃＃＃＃＃|
+#   11|＃．．゛．．＃|
+#   12|＃．もとる．＃|
+#   13|＃＃＃＃＃＃＃|
+#   14|＃゛．゛．．＃|
+#   15|＃せんけっと＃|
+#   16|＃＃＃＃＃＃＃|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[1_6F]
+
+@ 5,2 max 4
+JP: ゲット
+EN:
+
+@ 8,2 max 4
+JP: ルーズ
+EN:
+
+@ 12,2 max 4
+JP: もどる
+EN:
+
+@ 15,1 max 5
+JP: ぜんげっと
+EN:
