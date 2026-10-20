@@ -68,7 +68,7 @@ Index,Pointer,Original,Translated
 042,0x4EBF,<@AE>あっ こら まちなさいっ!,"<@AE>Hey, you! Get back here!"
 043,0x4ED0,<@01>いやあ ひめさまも<CR>おしとやかに ねぇ・・・,"<@01>Heh, so the Princess has become a proper lady, huh..."
 044,0x4EEA,<@B6>おはずかしい かぎリですじゃ,"<@B6>I am most embarrassed, I must say."
-045,0x4EFC,<@B6>おお これは ゆうしゃさま!<CR>ようこそ いらっしゃいませ!<CF><CC><@00>あの・・・それで その<CR>かえリたいとき どうすれば<CF><CC>いいんでしょうか・・・<CF><CC><@B6>はっはっは! そういえば<CR>ひめさまの そのロケットは<CF><CC>いっぽうつうこう でしたな!<CF><CC>ごあんしん くだされい!<CR>この だいしんかんが<CF><CC>ゆうしゃさまを もとのせかいに<CR>おくリとどけて さしあげますぞ!,"<@B6>Oh! Great Hero! Welcome, welcome!<CF><CC><@00>Um... So, when I want to go home, what should<CF><CC>I do...?<CF><CC><@B6>Hahaha! Now that you mention it, the Princess's locket<CF><CC>was one-way only, wasn't it!<CF><CC>But rest assured! I, the High Priest,<CF><CC>shall send you back to your own world, Great Hero!"
+045,0x4EFC,<@B6>おお これは ゆうしゃさま!<CR>ようこそ いらっしゃいませ!<CF><CC><@00>あの・・・それで その<CR>かえリたいとき どうすれば<CF><CC>いいんでしょうか・・・<CF><CC><@B6>はっはっは! そういえば<CR>ひめさまの そのロケットは<CF><CC>いっぽうつうこう でしたな!<CF><CC>ごあんしん くだされい!<CR>この だいしんかんが<CF><CC>ゆうしゃさまを もとのせかいに<CR>おくリとどけて さしあげますぞ!,"<@B6>Oh! Great Hero! Welcome, welcome!<CF><CC><@00>Um... so, uh... when I want to go home,<CF><CC>what should I do...?<CF><CC><@B6>Hahaha! Now that you mention it, the Princess's locket<CF><CC>was one-way only, wasn't it!<CF><CC>But rest assured! I, the High Priest,<CF><CC>shall send you back to your own world, Great Hero!"
 046,0x4FB0,<@04>やあ マルガリータ<CF><CC><@AD>あ! ゆうしゃさま!<CR>きてくれたんだ!,"<@04>Hi, Margarita.<CF><CC><@AD>Ah! Great Hero! You came!"
 047,0x4FD4,<@AD>あのね マルガリータね<CF><CC>ゆうしゃさまに<CR>あげたいものがあるの!<CF><CC><@04>なに?<CF><CC><@B0>パーツだよ でも・・・<CF><CC><@00>どうしたの?<CF><CC><@B0>モッキンバードが いたずらして<CR>パーツを もっていっちゃったの<CF><CC><@00>モッキンバード?<CF><CC><@AF>んーっとね プース・カフェの<CR>おにいさん・・・・の<CF><CC><@00>・・・の?<CF><CC><@AF>こどもの・・・ふたごの およめさんの<CR>いとこ・・・だったかな?<CF><CC><@00>???,"<@AD>You know what? Margarita<CF><CC>has something she wants to give you, Great Hero!<CF><CC><@04>What is it?<CF><CC><@B0>A part. But...<CF><CC><@00>What's wrong?<CF><CC><@B0>Mockingbird was being naughty and ran off with the part.<CF><CC><@00>Mockingbird?<CF><CC><@AF>Ummm, he's Pousse Café's big brother's...<CF><CC><@00>...'s?<CF><CC><@AF>kid's... twin's wife's cousin... I think?<CF><CC><@00>???"
 048,0x5097,<@00>ねえ マルガリータ<CF><CC>プース・カフェと おなじメダロットは<CR>いったい なんにん いるの?<CF><CC><@AD>1・2・3・・・<CR>40・・・<CF><CC>んーっと わかんない<CF><CC><@08>そっ そんなにっ!?<CF><CC><@00>それで モッキンバードは<CR>どこに いったの?<CF><CC><@AC>いっつも あちこち いったリきたリ<CR>してるんだけど・・・<CF><CC>さいきんは はなれこじまに いるって<CR>きいたの<CF><CC><@05>はなれこじまか・・・<CR>いってみるか,"<@00>Hey, Margarita...<CF><CC>how many Medarots are there just like Pousse Café, anyway?<CF><CC><@AD>One, two, three... forty...<CF><CC>Ummm... I dunno.<CF><CC><@08>Th-that many!?<CF><CC><@00>So where did Mockingbird go?<CF><CC><@AC>He's always running around here and there...<CF><CC>but I heard he's been on the Lone Islet lately.<CF><CC><@05>The Lone Islet, huh... Guess I'll go take a look."
@@ -110,7 +110,7 @@ Index,Pointer,Original,Translated
 06C,0x5829,<@6F>シノビとは かげに しのぶもの<CF><CC>しかし こまったことに<CR>さいきん ロボロボとかいう<CF><CC>わけのわらん やからが<CR>ここに しのんでおるようだ,"<@6F>A shinobi is one who hides in the shadows.<CF><CC>But troublingly, of late, some strange ruffians calling themselves ""RoboRobo""<CF><CC>appear to be skulking about here."
 06D,0x5872,しゅリけんなげ キケン<CR>まえを とおるな!,Shuriken throwing! DANGER! Do not pass in front!
 06E,0x5889,<@08>うわぁっ!!,<@08>Waaagh!!
-06F,0x5893,<@6F>ふうっ・・・<CR>あぶないところだったで ござるな!<CF><CC><@02>ささってるよっ!<CF><CC><@6F>はっはっは こまかいことを<CR>きにするでない さらば!,"<@6F>Phew... That was a close one, I daresay!<CF><CC><@02>It's sticking out of me!<CF><CC><@6F>Hahaha, pay no mind to such trifles! Farewell!"
+06F,0x5893,<@6F>ふうっ・・・<CR>あぶないところだったで ござるな!<CF><CC><@02>ささってるよっ!<CF><CC><@6F>はっはっは こまかいことを<CR>きにするでない さらば!,"<@6F>Phew... That was a close one, I daresay!<CF><CC><@02>It's stuck in me!!<CF><CC><@6F>Hahaha, pay no mind to such trifles! Farewell!"
 070,0x58D9,「あおぞら ぶたい」の じだいげき,"""Open-Air Stage"" Samurai Drama"
 071,0x58EC,<@7D>せっしゃの いあいぬき!<CR>とくと ごらんあれ!,<@7D>Behold my lightning draw! Watch closely!
 072,0x5907,<@7D>あぶないぞ おぬし<CR>きられぬように のいておれ,"<@7D>Careful there, friend. Stand back, lest you be cut."
@@ -233,7 +233,7 @@ Index,Pointer,Original,Translated
 0E7,0x6B37,<@69>マナーの なっていない<CR>やつが いるものだ,<@69>Some people just have no manners.
 0E8,0x6B50,<@69>こんなところにまで ロボロボだんが<CR>でるとは けしからんっ!,"<@69>The RoboRobo Gang, showing up even in a place like this! Outrageous!"
 0E9,0x6B72,<@76>あら <&CB26>くん<CF><CC><@04>あ! コウジの おばさん<CR>こんにちは!<CF><CC><@76>コウジったら ほんと<CR>おちつきなくって もうっ!,"<@76>Oh, <&CB26>.<CF><CC><@04>Ah! Koji's mom! Hello!<CF><CC><@76>Honestly, that Koji just can't sit still!"
-0EA,0x6BB1,<@00>あの・・・<CF><CC><@76>ジュンマイさまの おつれさまですね?<CF><CC>おとうさまが おまちです<CR>ごあんないします,<@00>Um...<CF><CC><@76>You must be with Mr. Junmai?<CF><CC>Your host is waiting for you. Allow me to show you the way.
+0EA,0x6BB1,<@00>あの・・・<CF><CC><@76>ジュンマイさまの おつれさまですね?<CF><CC>おとうさまが おまちです<CR>ごあんないします,<@00>Um...<CF><CC><@76>You must be Mr. Junmai's guest?<CF><CC>He's waiting for you. Allow me to show you the way.
 0EB,0x6BE7,<@81>こちらヘ どうぞ,"<@81>Right this way, please."
 0EC,0x6BF3,<@81>こちらの おせきで ございます,<@81>Here is your table.
 0ED,0x6C06,<@04>こんにちは その・・・<CR>ごちそうになリます<CF><CC><@69>やあ <&CB26>くん<CR>えんリょは いらないよ,"<@04>H-hello... Um... thanks for treating me.<CF><CC><@69>Ah, <&CB26>. No need to be shy."
