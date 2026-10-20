@@ -22,7 +22,7 @@ Index,Pointer,Original,Translated
 014,0x70A8,<@69>かのじょは いるかい?<CF><CC>すきなこには やさしくしないと<CR>ふられちゃうよ きっと,"<@69>Do you have a girlfriend?<CF><CC>If you're not nice to the girl you like, she'll dump you for sure."
 015,0x70D4,<@68>メダロットを えらぶ がめんで<CR>じゅうじキーを ななめに おすと<CF><CC>メダロットが コロコロ かわって<CR>おもしろいぜ,"<@68>On the Medarot select screen, press the Control Pad diagonally<CF><CC>and the Medarots keep rolling around. It's fun!"
 016,0x7111,<@75>こうげきするときに ねらったパーツが<CR>こわれていたら なにもしないでしょ<CF><CC>・・・でも<CR>そこが メダロットらしいのよねーっ♥,"<@75>When you attack, if the part you aimed at is already broken, you don't do anything, right?<CF><CC>...But that's just so Medarot-like♥"
-017,0x7153,<@6A>あんた ここでの きゃくぶは<CR>しゃリょうパーツだよ!<CF><CC>ヘたな パーツも かずうちゃ<CR>あたるって いうじゃないか,"<@6A>Listen, the legs to use around here are wheeled parts!<CF><CC>Like they say, even a lousy shot hits if he fires enough!"
+017,0x7153,<@6A>あんた ここでの きゃくぶは<CR>しゃリょうパーツだよ!<CF><CC>ヘたな パーツも かずうちゃ<CR>あたるって いうじゃないか,"<@6A>Listen, the legs to use around here are wheeled parts!<CF><CC>Like they say, even lousy parts'll hit if you throw enough of 'em!"
 018,0x718F,<@7A>マップに あわせて きゃくぶパーツを<CR>かえることが ヒツヨウだけど<CF><CC>タイプベつに ニガテな コウドウも<CR>あるから チュウイしてネ<CF><CC>ボクは うつのは トクイだけど<CR>なぐったリするのは うまくないな,"<@7A>You need to switch your leg parts to match the map,<CF><CC>but each type has actions it's bad at, so be careful!<CF><CC>I'm good at shooting, but I'm not so great at punching."
 019,0x71F6,<@7D>そとに いるのと なかに いるのじゃ<CR>せんとうフィールドが ちがうだろ?<CF><CC>なかの ほうが スピードのさが<CR>ハゲシイんだってさ,"<@7D>The battlefield's different depending on whether you're outside or inside, right?<CF><CC>They say speed differences are way bigger indoors."
 01A,0x7239,<@7F>イリョクが たかいパーツを つかうと<CR>スピードが おそくなるのだヨ<CF><CC>スピードが はやいパーツを つかうと<CR>いリょくが ひくくなるのだヨ<CF><CC>ウーン・・・,"<@7F>Using powerful parts makes your speed slower, you see.<CF><CC>Using fast parts makes your power weaker, you see.<CF><CC>Hmmm..."
@@ -33,7 +33,7 @@ Index,Pointer,Original,Translated
 01F,0x733C,<@7D>オイオイ ダメダメ<CR>そっから でちゃあ<CF><CC>ちゃんと でてきた ばしょから<CR>かえんな!,"<@7D>Hey, hey, no, no! You can't leave that way!<CF><CC>Go back out the way you came in!"
 020,0x736A,<@7D>カンケーねーけど<CR>メダロットの アニメも<CF><CC>ちゃんと みろよ!,"<@7D>Not that it matters, but<CF><CC>make sure you watch the Medarot anime too!"
 021,0x738D,<@6B>わしは ロボットの まんがよリ<CR>まんざいの ほうが このみじゃがのー,"<@6B>Myself, I prefer comedy acts over robot cartoons."
-022,0x4A7B,<@77>おめでとうございます!!<CR>みごと ランキング1いを<CF><CC>かちとられた<CR><&CB26>さまには<CF><CC>ちょうレアな こちらの<CR>けいひんを さしあげちゃいます!,"<@77>Congratulations!! For winning first place in the rankings,<CF><CC><&CB26>,<CF><CC>you'll receive this ultra-rare prize!"
+022,0x4A7B,<@77>おめでとうございます!!<CR>みごと ランキング1いを<CF><CC>かちとられた<CR><&CB26>さまには<CF><CC>ちょうレアな こちらの<CR>けいひんを さしあげちゃいます!,"<@77>Congratulations!! For winning first place<CF><CC>in the rankings, <&CB26>,<CF><CC>you'll receive this ultra-rare prize!"
 023,0x4AC6,<@77>おつかれさまでしたー!,<@77>Thanks for your hard work!
 024,0x4AD5,<@54>やるじゃなぁい<CR>でも わたしの パーツは<CF><CC>あげられないの<CR>か・わ・リ・に!<CF><CC>このチケットで パーツを<CR>たっくさん ゲットしてね♥,<@54>Not baaad! But I can't give you<CF><CC>my parts. In-stead!<CF><CC>Use this ticket to get looots of parts♥
 025,0x4B1B,<@49>ふはははは!<CR>みごとだ ショウネン<CF><CC>だが わたしの パーツは<CR>わたすわけには いかぬ!<CF><CC>かわリに この チケットで<CR>たくさん パーツを ゲットせよ!,"<@49>Fuhahahaha! Splendid, boy!<CF><CC>But I cannot hand over my parts!<CF><CC>Instead, take this ticket and get yourself lots of parts!"
@@ -44,7 +44,7 @@ Index,Pointer,Original,Translated
 02A,0x43A7,<@69>いやぁ Bブロックの<CR>ロボトルも すごいねぇ<CF><CC>がんばリたまえよ きみ!,"<@69>My, the B Block robattles are amazing too!<CF><CC>Do your best, kid!"
 02B,0x43CF,<@68>「ラピのぬいぐるみ」を すきなこに<CR>あげたら こいが かなうってさ<CF><CC>おまえ もし もらったら<CR>ためして みろよ,"<@68>They say if you give a Rappy Plushie to the girl you like, your love will come true.<CF><CC>If you ever get one, give it a try."
 02C,0x440B,<@6A>よく がんばったねぇ<CR>えらいわねぇ,<@6A>You did great! Good for you!
-02D,0x4420,<@68>おまえが ゆうしょう? マジかよ!?<CR>よ よしっ じゃあ ゆうしょうの<CF><CC>きねんに パーツの トレードしようぜ<CR>おれ 「サン・ビーム」ほしんだけど<CF><CC>「ストンクラスター」と<CR>とっかえないか?<*04>,"<@68>You won the tournament? For real!? W-Well then,<CF><CC>let's trade parts to celebrate your win! I really want Sun-Beam.<CF><CC>Wanna swap it for Stone Cluster?<*04>"
+02D,0x4420,<@68>おまえが ゆうしょう? マジかよ!?<CR>よ よしっ じゃあ ゆうしょうの<CF><CC>きねんに パーツの トレードしようぜ<CR>おれ 「サン・ビーム」ほしんだけど<CF><CC>「ストンクラスター」と<CR>とっかえないか?<*04>,"<@68>You won the tournament? For real!? W-well then,<CF><CC>let's trade parts to celebrate your win! I really want Sun-Beam.<CF><CC>Wanna swap it for Stone Cluster?<*04>"
 02E,0x4483,<@68>ゆうしょうしたやつと トレードすると<CR>えんぎが いいと おもったんだけどな,<@68>I figured trading with the champ would bring me good luck...
 02F,0x44AC,<@68>おいおい<CR>もって ないんじゃねーかよ!,"<@68>Hey, come on! You don't even have it!"
 030,0x44C3,<@68>おれと トレードした パーツ<CR>つかいものに なってるのかぁ!?,<@68>Is that part you traded me coming in handy!?
@@ -55,14 +55,14 @@ Index,Pointer,Original,Translated
 035,0x4587,<@C4>つぎヘ いくよォー<CR>エレベーターに のってねーん!,<@C4>On to the next one! Hop in the elevator!
 036,0x45A4,<@77>またの ごリようを<CR>おまちして おリます,<@77>We look forward to serving you again.
 037,0x45BC,<@C0>ヘぇー メダロッとうで たくさん<CR>ロボロボだんが つかまったんだってな,"<@C0>Huh, so they caught a whole bunch of RoboRobo Gang members on Medarot Island."
-038,0x45E3,<@C2>もぅ パパは いえにいると<CR>ごろごろ してるんだから,"<@C2>Honestly, Papa just lazes around whenever he's home."
+038,0x45E3,<@C2>もぅ パパは いえにいると<CR>ごろごろ してるんだから,"<@C2>Honestly, your dad just lazes around whenever he's home."
 039,0x4601,<@00>しんぶんの みだしは<CF><CC>「メダロッとうの ロボロボだん<CR>いっせい たいほ!」,"<@00>The newspaper headline says...<CF><CC>""RoboRobo Gang Mass Arrest on Medarot Island!"""
 03A,0x47B8,<@25>いいきに なってんじゃ<CR>ないわよぉ,<@25>Don't get so full of yourself!
 03B,0x47CD,<@2B>みてろよー おまえを<CR>ギャフンと いわせてやるからなー,<@2B>Just you wait! We'll make you eat those words!
 03C,0x47EC,<@34>おせんたく おわった,<@34>Laundry's all done.
 03D,0x47FA,<@09>さーてと!<CR>とくダネ とくダネ!,"<@09>Aaall right! Time for a scoop, a big scoop!"
 03E,0x480E,<@76>アリカったら ちっとも<CR>じっとして ないんだから,<@76>That Arika just can't sit still for a second.
-03F,0x482A,<@77>ロボロボだんは やっぱリ<CR>かしこく ないほうが らしいわね!,<@77>Guess the RoboRobo Gang really suits being not-so-smart!
+03F,0x482A,<@77>ロボロボだんは やっぱリ<CR>かしこく ないほうが らしいわね!,<@77>I guess the RoboRobo Gang's more like itself when it's not so smart!
 040,0x484C,<@69>かしこいロボロボだんの はなしって<CR>さいきん きかないけど つかまった?,<@69>I haven't heard about that smart RoboRobo Gang lately. Did they get caught?
 041,0x4874,<@75>ウワサじゃさー あの<CR>かしこいロボロボだんって<CF><CC>しょうがくせい だったってー,"<@75>Rumor has it, like,<CF><CC>that smart RoboRobo Gang was actually elementary schoolers!"
 042,0x489F,<@00>かわいい ハムスターだ<CR>でも いまは もちきれないや,<@00>A cute hamster! But I can't carry any more right now.
@@ -76,13 +76,13 @@ Index,Pointer,Original,Translated
 04A,0x48D8,<@00>ぼくは かえらないぞ<CR>セレクトたい!,"<@00>I'm not going home, Select Corps!"
 04B,0x48EE,<@A8>でも たいちょう こどもたちは<CR>きっと ふあんな きもちで<CF><CC>わたしたちを まってますよぉ?,"<@A8>But Captain, the children must be<CF><CC>waiting for us, feeling scared, you know?"
 04C,0x4920,<@A7>うるさい! おまえは だまって<CR>ワシに したがえば いいんじゃ!<CF><CC><@A5>そうすれば テガラは むこうから<CR>やってくる! ぐわははは!,"<@A7>Shut up! You just keep quiet and do as I say!<CF><CC><@A5>Do that, and the glory will come right to us! Gwahahaha!"
-04D,0x4966,<@A8>そっ そんなぁ!<CR>たいちょう!,<@A8>B-But...! Captain!
+04D,0x4966,<@A8>そっ そんなぁ!<CR>たいちょう!,<@A8>B-but...! Captain!
 04E,0x4979,<@A8>ここを みはっていろとの<CR>たいちょうの ごめいれいなので・・・,"<@A8>The Captain ordered me to keep watch here, so..."
 04F,0x499C,<@74>やっぱし セレクトたいって<CR>なんにも してくれなかったね!,"<@74>Just as I thought, the Select Corps didn't do anything for us!"
 050,0x49BD,<@1E>ここを あけろ!,<@1E>Open up!
 051,0x73B3,<@00>いうまでも ないけど<CR>トイレの ドアだ,"<@00>Needless to say, it's the bathroom door."
-052,0x4B6B,<@84>・・・とったロボね!<CR>みてたロボ かえすロボよ,"<@84>...You took it, robo!<CF><CC>We saw you, robo! Give it back, robo!"
-053,0x4B86,<@C2>パパなら おしごとに でかけたわよ<CR>やっと いえのなかが かたづくわ,<@C2>Papa's gone off to work. Now I can finally tidy up the house.
+052,0x4B6B,<@84>・・・とったロボね!<CR>みてたロボ かえすロボよ,"<@84>...You took it, robo! We saw you, robo! Give it back, robo!"
+053,0x4B86,<@C2>パパなら おしごとに でかけたわよ<CR>やっと いえのなかが かたづくわ,<@C2>Your dad's gone off to work. Now I can finally tidy up the house.
 054,0x4BAC,<@00>「アンノーンエッグ」だ<CR>ちょうレアな メダロットだ,<@00>It's an Unknown Egg! That's a super-rare Medarot!
 055,0x4BC9,<@92>なかなか やるのぅ<CR>ふぉっふぉっふぉっ,<@92>Not bad at all. Fohfohfoh!
 056,0x4BE0,<@8D>やリますわね まぁ<CR>わたくしほどでは あリませんけど,"<@8D>My, you're rather good. Not as good as me, of course."
@@ -96,15 +96,15 @@ Index,Pointer,Original,Translated
 05E,0x4D29,<@B5>ああ ゆうしゃさま なんと<CR>おれいを いえばいいのか・・・,"<@B5>Oh, Great Hero, how can I ever thank you..."
 05F,0x4D4A,<@B4>ゆうしゃさま まもの たおしたのか?<CR>ゆうしゃさま やっぱリ すごい!,<@B4>Great Hero beat monster? Great Hero really amazing!
 060,0x4D71,<@B6>なんと! ブルーハワイは<CR>うみの かなたに さっていったとな?,<@B6>What!? You say Blue Hawaii has gone off beyond the sea?
-061,0x4E5D,<@6A>はい ジュンマイでございます<CF><CC><@00><&CB26>ですけど<CR>カリンちゃんは・・・<CF><CC><@6A>おじょうさまは メダロッとうに<CR>コウジさまと おでかけになリました<CF><CC><@06>え! そうですか<CR>ど どうも,"<@6A>Yes, Junmai residence.<CF><CC><@00>It's <&CB26>. Is Karin...<CF><CC><@6A>The young lady has gone to Medarot Island with Master Koji.<CF><CC><@06>Huh! I see. Th-Thanks."
+061,0x4E5D,<@6A>はい ジュンマイでございます<CF><CC><@00><&CB26>ですけど<CR>カリンちゃんは・・・<CF><CC><@6A>おじょうさまは メダロッとうに<CR>コウジさまと おでかけになリました<CF><CC><@06>え! そうですか<CR>ど どうも,"<@6A>Yes, Junmai residence.<CF><CC><@00>It's <&CB26>. Is Karin...<CF><CC><@6A>The young lady has gone to Medarot Island with Master Koji.<CF><CC><@06>Huh! I see. Th-thanks."
 062,0x4EBC,<@00>・・・・・・るすみたいだ<CR>コウジは いま いないみたいだ,<@00>......Seems nobody's home. Looks like Koji's not here right now.
-063,0x4EDC,<@3F>おぼっちゃまは メダロッとうヘ<CR>でかけられました<CF><CC><@06>えっ!?<CR>その ひとリでですか?<CF><CC><@3F>しょうたいじょうには こどもだけで<CR>くるよう かかれていたので<CF><CC><@00>ハチロウまで<CR>しょうたいされたのか・・・<CF><CC><@3F>・・・どうかしましたか?<CF><CC><@06>いえ ベつに!<CF><CC><@3F><&CB26>さま・・・?,"<@3F>The young master has left for Medarot Island.<CF><CC><@06>Huh!? Wh-What, by himself?<CF><CC><@3F>The invitation said that only children were to come.<CF><CC><@00>So even Hachiro got invited...<CF><CC><@3F>...Is something the matter?<CF><CC><@06>No, nothing!<CF><CC><@3F>Master <&CB26>...?"
+063,0x4EDC,<@3F>おぼっちゃまは メダロッとうヘ<CR>でかけられました<CF><CC><@06>えっ!?<CR>その ひとリでですか?<CF><CC><@3F>しょうたいじょうには こどもだけで<CR>くるよう かかれていたので<CF><CC><@00>ハチロウまで<CR>しょうたいされたのか・・・<CF><CC><@3F>・・・どうかしましたか?<CF><CC><@06>いえ ベつに!<CF><CC><@3F><&CB26>さま・・・?,"<@3F>The young master has left for Medarot Island.<CF><CC><@06>Huh!? Wh-what, by himself?<CF><CC><@3F>The invitation said that only children were to come.<CF><CC><@00>So even Hachiro got invited...<CF><CC><@3F>...Is something the matter?<CF><CC><@06>No, nothing!<CF><CC><@3F>Master <&CB26>...?"
 064,0x4F6F,<@3F>また おこしくださいませ,<@3F>Please do come again.
 065,0x4F7F,<@06>やっぱリ カリンちゃんと コウジの<CR>ところにも! たいヘんだ,<@06>So Karin and Koji got them too! This is bad!
 066,0x4FA1,<@C0>いろんな<CR>じけんが おこるなぁ・・・,<@C0>All kinds of things keep happening...
 067,0x4FB7,<@C0>そうかぁ メダロッとうは<CR>たいヘんだったんだな,"<@C0>I see, so Medarot Island was quite the ordeal."
-068,0x4FD2,<@08>えっ しゃしん?<CR>いつのまに!?<CF><CC><@06>ききき きのせいだよ パパ<CR>そんなこと あるわけ ないじゃない<CF><CC><@C1>そうだよなー パパの こどもが<CR>そんなに すごい わけがない!,"<@08>Huh? A photo? When did they take that!?<CF><CC><@06>Y-Y-Y-You must be imagining things, Papa! No way that's me!<CF><CC><@C1>Yeah, I figured! No kid of mine could be that amazing!"
-069,0x502C,<@C3>そんなこと<CR>いばらないでよ パパ!,"<@C3>That's nothing to brag about, Papa!"
+068,0x4FD2,<@08>えっ しゃしん?<CR>いつのまに!?<CF><CC><@06>ききき きのせいだよ パパ<CR>そんなこと あるわけ ないじゃない<CF><CC><@C1>そうだよなー パパの こどもが<CR>そんなに すごい わけがない!,"<@08>Huh? A photo? When did they take that!?<CF><CC><@06>Y-y-y-you must be imagining things, Dad! No way that's me!<CF><CC><@C1>Yeah, I figured! No kid of mine could be that amazing!"
+069,0x502C,<@C3>そんなこと<CR>いばらないでよ パパ!,"<@C3>That's nothing to brag about, dear!"
 06A,0x5041,<@04>しんぶんには ぼくたちの<CR>かつやくの きじが のってる!<CF><CC>なまえは でてないけどね,"<@04>The newspaper has an article about what we did!<CF><CC>Our names aren't in it, though."
 06B,0x506F,<@06>ヒカルさんと キララさんを<CR>おいて いけないよ!,<@06>We can't leave Hikaru and Kirara behind!
 06C,0x508B,<@C0>お?「しょうねんたちの<CR>かつやくによリ じけんは<CF><CC>かいけつ」だって?<CR>この しょうねんの しゃしん<CF><CC>おまえに にてないか?,"<@C0>Oh? ""The case was solved thanks to the efforts of some young boys,"" it says?<CF><CC>Hey, doesn't the boy in this photo<CF><CC>look like you?"
@@ -117,7 +117,7 @@ Index,Pointer,Original,Translated
 073,0x5193,<@69>むかしは よく<CR>チャンバラごっこで あそんだよ,"<@69>Back in the day, I used to play swordfight a lot."
 074,0x51AE,<@6B>けんげきは ええのぉ,"<@6B>Ahh, sword fighting's the best."
 075,0x51BC,<@68>チャンバラって かっこいいよな!<CF><CC>おれ メダロットにも<CR>チャンバラソード つけてんだ!,<@68>Swordfights are so cool!<CF><CC>I even put a Chanbara Sword on my Medarot!
-076,0x51EC,<@7D>や やられたぁ!,<@7D>Y-You got me!
+076,0x51EC,<@7D>や やられたぁ!,<@7D>Y-you got me!
 077,0x51F8,<@79>みごと しのびを<CR>たおして みせよ!,"<@79>Defeat the shinobi, if you can!"
 078,0x520E,<@79>そっちは でぐちじゃ!,<@79>That way is the exit!
 079,0x521D,<@6B>らリーとやらは わかいもんに<CR>まかせて わしは いっぷくじゃ!,"<@6B>I'll leave this ""rally"" business to the youngsters and take a breather!"
@@ -132,7 +132,7 @@ Index,Pointer,Original,Translated
 082,0x5343,<@00>・・・あやしすぎる!,<@00>...Way too suspicious!
 083,0x5351,<@00>このさきに みちは ないみたいだ<CF><CC>もう2どと あの いせきには<CR>いけないんだな,<@00>Looks like there's no path ahead.<CF><CC>I guess I can never go back to those ruins again.
 084,0x537D,<@08>あ!<CR>そのパーツは パーツンラリーの!<CF><CC><@7A>えぇー キいてないわヨォー<CF><CC><@00>ねえ そのパーツ<CR>ゆずってくれないかなぁ<CF><CC><@7A>ランボウしちゃ イヤーン!,"<@08>Ah! That part's from the Partsun Rally!<CF><CC><@7A>Whaaat? Nobody told me thaaat!<CF><CC><@00>Hey, could you let me have that part?<CF><CC><@7A>Don't get rough with me, eek!"
-085,0x53CE,<@1F>・・・ふっ<CF><CC><@00>な なんだよ コウジ?<CR>きもちわるいなっ<CF><CC><@1F>カリンが おまえに<CR>あいたいんだと<CF><CC>いえに いってやれよな<CR>たしかに つたえたからな<CF><CC>じゃーな!,"<@1F>...Heh.<CF><CC><@00>Wh-What, Koji? You're creeping me out.<CF><CC><@1F>Karin says she wants to see you.<CF><CC>Go over to her place. I told you, so don't forget.<CF><CC>See ya!"
+085,0x53CE,<@1F>・・・ふっ<CF><CC><@00>な なんだよ コウジ?<CR>きもちわるいなっ<CF><CC><@1F>カリンが おまえに<CR>あいたいんだと<CF><CC>いえに いってやれよな<CR>たしかに つたえたからな<CF><CC>じゃーな!,"<@1F>...Heh.<CF><CC><@00>Wh-what, Koji? You're creeping me out.<CF><CC><@1F>Karin says she wants to see you.<CF><CC>Go over to her place. I told you, so don't forget.<CF><CC>See ya!"
 086,0x5425,<@00>・・・なんだろ?,<@00>...What's that about?
 087,0x5431,<@B6>では ちゅうおうの ゆかのうえに<CR>おすすみ くだされい,"<@B6>Now then, please step onto the floor in the center."
 088,0x5450,<@B6>かえリたくなったら いつでも<CR>こえを かけて くだされい,"<@B6>Whenever you wish to go home, just say the word."
@@ -155,12 +155,12 @@ Index,Pointer,Original,Translated
 099,0x56A1,<@40>かーちゃん トマトジュース くれよぉ<CF><CC><@6A>あんた のんだ そばから<CR>すぐ はいてるじゃないのっ!!,"<@40>Ma, gimme some tomato juice!<CF><CC><@6A>You throw it right back up as soon as you drink it!!"
 09A,0x56D7,<@68>きゃくぶパーツの きどうがたかいと<CR>こうげきを よけやすいんだよな<CF><CC>これ メダロットの キホンだよね!,"<@68>If your leg parts have high Mobility, it's easier to dodge attacks.<CF><CC>That's Medarot basics, right?"
 09B,0x570F,<@68>きゃくぶパーツの いんペいがたかいと<CR>わなのせっちが せいこうしやすいよ<CF><CC>これ メダロットの キホンだよね!,"<@68>If your leg parts have high Conceal, it's easier to set traps successfully.<CF><CC>That's Medarot basics, right?"
-09C,0x574A,<@08>こ これは・・・<CR>まぼろしの「はてな」メダル!?,"<@08>Th-This is...<CF><CC>The legendary ""?"" Medal!?"
-09D,0x5766,<@08>こ これは・・・<CR>まぼろしの「ねこ」メダル!?,<@08>Th-This is...<CF><CC>The legendary Cat Medal!?
-09E,0x5781,<@04>「セーラーメイツ」だ・・・<CR>アリカが もっているのは<CF><CC>これの かいリょうがたの<CR>「セーラーマルチ」だ<CF><CC>これってもう うって ないんだよね,"<@04>It's a Sailormate...<CF><CC>What Arika has is the improved version,<CF><CC>Sailor-Multi.<CF><CC>They don't sell these anymore, do they?"
-09F,0x57CB,<@08>こ これは・・・<CR>まぼろしの「ムーンドラゴン」!?<CF><CC>これってもう うって ないんだよね,"<@08>Th-This is...<CF><CC>The legendary Moon Dragon!?<CF><CC>They don't sell these anymore, do they?"
-0A0,0x57FB,<@08>こ これは・・・<CR>まぼろしの「ボリュームテン」!?<CF><CC>これってもう うって ないんだよね,"<@08>Th-This is...<CF><CC>The legendary Volume 10!?<CF><CC>They don't sell these anymore, do they?"
-0A1,0x582B,<@08>こ これは・・・<CR>まぼろしの「ベティベア」!?<CF><CC>むかしの クマがたメダロットって<CR>ちいさくて ぬいぐるみみたい,"<@08>Th-This is...<CF><CC>The legendary Betty Bear!?<CF><CC>The old bear-type Medarots are so small, they're like stuffed animals."
+09C,0x574A,<@08>こ これは・・・<CR>まぼろしの「はてな」メダル!?,"<@08>Th-this is... the legendary ""?"" Medal!?"
+09D,0x5766,<@08>こ これは・・・<CR>まぼろしの「ねこ」メダル!?,<@08>Th-this is... the legendary Cat Medal!?
+09E,0x5781,<@04>「セーラーメイツ」だ・・・<CR>アリカが もっているのは<CF><CC>これの かいリょうがたの<CR>「セーラーマルチ」だ<CF><CC>これってもう うって ないんだよね,"<@04>It's a Sailormate... The one Arika has<CF><CC>is the improved model, Sailor-Multi.<CF><CC>They don't sell these anymore, do they?"
+09F,0x57CB,<@08>こ これは・・・<CR>まぼろしの「ムーンドラゴン」!?<CF><CC>これってもう うって ないんだよね,"<@08>Th-this is... the legendary Moon Dragon!?<CF><CC>They don't sell these anymore, do they?"
+0A0,0x57FB,<@08>こ これは・・・<CR>まぼろしの「ボリュームテン」!?<CF><CC>これってもう うって ないんだよね,"<@08>Th-this is... the legendary Volume 10!?<CF><CC>They don't sell these anymore, do they?"
+0A1,0x582B,<@08>こ これは・・・<CR>まぼろしの「ベティベア」!?<CF><CC>むかしの クマがたメダロットって<CR>ちいさくて ぬいぐるみみたい,"<@08>Th-this is... the legendary Betty Bear!?<CF><CC>The old bear-type Medarots are so small, they're like stuffed animals."
 0A2,0x5867,<@68>ここだけの はなしさ・・・<CF><CC>「もリのなか」では「かくとう」が<CR>あたリやすいんだぜ<CF><CC>きづかねーよなぁ! ふつう,"<@68>Just between you and me...<CF><CC>In the Forest, Melee attacks hit more easily.<CF><CC>Nobody ever notices that, huh!"
 0A3,0x58A3,<@6B>わしの おとなリにおる せんせいは<CR>いつから ここに おるのかの?,<@6B>I wonder how long that teacher next door to me has been here?
 0A4,0x58C8,<@74>アリカちゃんに きいたわよ<CR>セレクトたい だいかつやく!,<@74>I heard from Arika! The Select Corps did an amazing job!
@@ -196,7 +196,7 @@ Index,Pointer,Original,Translated
 0C2,0x5CAD,<@00>オイルかんには「オイルデラックス」って かいてる,"<@00>The oil can says ""Oil Deluxe"" on it."
 0C3,0x5CC9,<@FF>スパイなんかに なると<CR>ロクなじんせい おくれないよ,<@FF>Become a spy and you'll never lead a decent life.
 0C4,0x5CE7,<@7D>メダロットの1は<CR>ぜんぶ クリアしたか?<*04>,<@7D>Have you cleared all of Medarot 1?<*04>
-0C5,0x5CFF,<@7D>おまえ すごいヤツだな・・・<CR>これ とっとけよ オレのキモチだ,<@7D>You're really something...<CF><CC>Keep this. It's a token of my respect.
+0C5,0x5CFF,<@7D>おまえ すごいヤツだな・・・<CR>これ とっとけよ オレのキモチだ,<@7D>You're really something... Keep this. It's a token of my respect.
 0C6,0x5D22,<@7D>まっ そリゃそーだよな!!,"<@7D>Well, yeah, of course not!!"
 0C7,0x5D33,<@05>こんな かっこう みられたくない<CR>もし みられたら・・・,<@05>I don't want anybody seeing me dressed like this. If someone did...
 0C8,0x5D53,<@C1>おかえリ <&CB26><CR>ピクニックは たのしかったかい?,"<@C1>Welcome home, <&CB26>! Did you have fun on your picnic?"
@@ -221,7 +221,7 @@ Index,Pointer,Original,Translated
 0DB,0x619E,<@04>・・・あ! これを つかえば<CR>レモンでんちが つくれそうだ!<CF><CC>・・・よし! できたぞ!,"<@04>...Ah! With this stuff, I could make a Lemon Battery!<CF><CC>...All right! Done!"
 0DC,0x61CE,<@4B>なにかが<CR>はじまろうとしている・・・!!,<@4B>Something is about to begin...!!
 0DD,0x61E6,<@2D>・・・せいかいだ<CF><CC>とリあえず<CR>おまえ もどってこいよ,"<@2D>...That's right.<CF><CC>For now, just get back over here."
-0DE,0x6205,<@01>ナエさん<CR>あリがとう ございました!<CF><CC><@62>どういたしまして!<CF><CC><@63>それと・・・<&CB26>くん<CR>よろしければ となリの ヘやから<CF><CC>メダルを 1つ<CR>もっていってください<CF><CC><@08>え!? いいんですか?<CF><CC><@00>でも・・・<CF><CC><@63>かまいませんわ<CF><CC>わたくしには これぐらいの<CR>ことしか できませんから<CF><CC>・・・がんばって くださいね<CF><CC><@04>はい!,"<@01>Thank you so much, Nae!<CF><CC><@62>You're very welcome!<CF><CC><@63>Also... <&CB26>, if you like,<CF><CC>please take one Medal<CF><CC>from the next room.<CF><CC><@08>Huh!? Are you sure?<CF><CC><@00>But...<CF><CC><@63>It's quite all right.<CF><CC>This is all I can do for you, after all.<CF><CC>...Please do your best.<CF><CC><@04>I will!"
+0DE,0x6205,<@01>ナエさん<CR>あリがとう ございました!<CF><CC><@62>どういたしまして!<CF><CC><@63>それと・・・<&CB26>くん<CR>よろしければ となリの ヘやから<CF><CC>メダルを 1つ<CR>もっていってください<CF><CC><@08>え!? いいんですか?<CF><CC><@00>でも・・・<CF><CC><@63>かまいませんわ<CF><CC>わたくしには これぐらいの<CR>ことしか できませんから<CF><CC>・・・がんばって くださいね<CF><CC><@04>はい!,"<@01>Thank you so much, Nae!<CF><CC><@62>You're very welcome!<CF><CC><@63>Also... <&CB26>, if you'd like,<CF><CC>please take a Medal from the next room.<CF><CC><@08>Huh!? Are you sure?<CF><CC><@00>But...<CF><CC><@63>It's quite all right.<CF><CC>This is all I can do for you, after all.<CF><CC>...Please do your best.<CF><CC><@04>I will!"
 0DF,0x62B2,<@C4>アー! なんで そっちにいるのサー!<CR>まっ いいカァ,"<@C4>Ah! Why are you over there?! Oh well, whatever!"
 0E0,0x62D0,<@A0>つかまえた<CR>ロボロボたちが みんな<CF><CC>だつごくしてしまったで<CR>あリます!<CF><CC>よって いま たいいんたちは<CR>おおあわてで つかまえに<CF><CC>いっているで あリます!,"<@A0>All the RoboRobos we captured<CF><CC>have broken out of jail, sir!<CF><CC>So right now, our officers are<CF><CC>scrambling to catch them, sir!"
 0E1,0x6323,<@89>おぼえてろー!!,<@89>You'll pay for this!!
@@ -246,10 +246,10 @@ Index,Pointer,Original,Translated
 0F4,0x6821,<@77>てんしがた メダロット<CR>ワンダエンジェルの<CF><CC>あたまパーツ チェラブボディ<CR>みぎうでパーツ チェラブハンド<CF><CC>ひだリうでパーツ チェラブアーム<CR>きゃくぶパーツ チェラブレッグ,"<@77>From the angel-type Medarot Wonder Angel:<CF><CC>Head part Cherub Body, right arm part Cherub Hand,<CF><CC>left arm part Cherub Arm, and leg part Cherub Leg."
 0F5,0x687C,<@77>シャコがた メダロット<CR>ゴッドエンペラーの<CF><CC>あたまパーツ デスブレイク<CR>みぎうでパーツ デスミサイル<CF><CC>ひだリうでパーツ デスレーザー<CR>きゃくぶパーツ デスクローラー,"<@77>From the mantis shrimp-type Medarot God Emperor:<CF><CC>Head part Death Break, right arm part Death Missile,<CF><CC>left arm part Death Laser, and leg part Death Crawler."
 0F6,0x68D4,<@77>あくまがた メダロット<CR>ベルゼルガの<CF><CC>あたまパーツ ヘルメット<CR>みぎうでパーツ ヘルマイト<CF><CC>ひだリうでパーツ ヘルシング<CR>きゃくぶパーツ ヘルカオス<CF><CC>・・・いじょうの 12パーツです,"<@77>From the devil-type Medarot Belzelga:<CF><CC>Head part Hellmet, right arm part Hellmight,<CF><CC>left arm part Hellsing, and leg part Hellchaos.<CF><CC>...Those are all 12 parts."
-0F7,0x6936,<@5A>あら <&CB26>くん<CR>いらっしゃい<CF><CC>メダロット2 クリアおめでとう!<CF><CC>おいわいに これを キミに<CR>プ・レ・ゼ・ン・ト!,"<@5A>Oh, <&CB26>, welcome!<CF><CC>Congratulations on clearing Medarot 2!<CF><CC>To celebrate, I've got a pre-sent for you!"
-0F8,0x6975,<@00>あの きになってたんですけど<CR>キララさんと ヒカルさんって・・・<CF><CC><@5A>ヒカルと あたしは<CR>おさななじみなの<CF><CC>メダロットはかせとも<CR>しょうがくせいの ころから<CF><CC>しリあいなのよ<CF><CC><@04>ヘえ そうだったんですか!<CF><CC><@5A>なんだかね キミを みてると<CR>むかしの ヒカルを<CF><CC>おもいだすのよねー<CF><CC>あいつに まけないよう<CR>がんばんなさいよ!<CF><CC><@01>はい!,"<@00>Um, I've been wondering... What's the deal with you and Hikaru?<CF><CC><@5A>Hikaru and I are childhood friends.<CF><CC>We've known Dr. Medarot<CF><CC>since we were in elementary school, too.<CF><CC><@04>Wow, I didn't know that!<CF><CC><@5A>You know, when I look at you,<CF><CC>you remind me of how Hikaru<CF><CC>used to be.<CF><CC>Do your best so you don't lose to him!<CF><CC><@01>I will!"
+0F7,0x6936,<@5A>あら <&CB26>くん<CR>いらっしゃい<CF><CC>メダロット2 クリアおめでとう!<CF><CC>おいわいに これを キミに<CR>プ・レ・ゼ・ン・ト!,"<@5A>Oh, <&CB26>, welcome!<CF><CC>Congratulations on clearing Medarot 2!<CF><CC>To celebrate, I've got a present for... you!"
+0F8,0x6975,<@00>あの きになってたんですけど<CR>キララさんと ヒカルさんって・・・<CF><CC><@5A>ヒカルと あたしは<CR>おさななじみなの<CF><CC>メダロットはかせとも<CR>しょうがくせいの ころから<CF><CC>しリあいなのよ<CF><CC><@04>ヘえ そうだったんですか!<CF><CC><@5A>なんだかね キミを みてると<CR>むかしの ヒカルを<CF><CC>おもいだすのよねー<CF><CC>あいつに まけないよう<CR>がんばんなさいよ!<CF><CC><@01>はい!,"<@00>Um, I've been wondering... What's the deal with you and Hikaru?<CF><CC><@5A>Hikaru and I are childhood friends.<CF><CC>We've known Dr. Medarot<CF><CC>since we were in elementary school, too.<CF><CC><@04>Wow, I didn't know that!<CF><CC><@5A>You know, when I look at you,<CF><CC>you remind me of how Hikaru used to be.<CF><CC>Do your best so you don't lose to him!<CF><CC><@01>I will!"
 0F9,0x6A28,<@4F>やあ <&CB26>くん<CR>いらっしゃい<CF><CC><@04>こんにちは ヒカルさん<CR>ゴッドエンペラーに やられた<CF><CC>きずは もう いいんですか?<CF><CC><@4F>ごしんぱい むよう!<CR>そんなに やわじゃないよ<CF><CC><@01>よかった!,"<@4F>Hey, <&CB26>, welcome!<CF><CC><@04>Hi, Hikaru! Have the injuries God Emperor<CF><CC>gave you healed already?<CF><CC><@4F>No need to worry! I'm not that fragile.<CF><CC><@01>That's great!"
-0FA,0x6A8D,<@06>あ あのっ・・・ヒカルさんって<CR>7ねんまえの じけんを かいけつ<CF><CC>したっていう・・・<CF><CC><@4F>そんな むかしのこと<CR>わすれたよ<CF><CC>まっ 1つだけ いえるのは<CR>むかしの ぼくは<CF><CC>きみと おなじ メダロットが<CR>だいすきな しょうがくせい<CF><CC>だったって ことかな<CF><CC><@04>ヒカルさん・・・,"<@06>U-Um... Hikaru, are you the one who solved<CF><CC>that incident 7 years ago...?<CF><CC><@4F>That was so long ago, I've forgotten.<CF><CC>Well, I can tell you one thing.<CF><CC>Back then, I was an elementary schooler<CF><CC>who loved Medarots, just like you.<CF><CC><@04>Hikaru..."
+0FA,0x6A8D,<@06>あ あのっ・・・ヒカルさんって<CR>7ねんまえの じけんを かいけつ<CF><CC>したっていう・・・<CF><CC><@4F>そんな むかしのこと<CR>わすれたよ<CF><CC>まっ 1つだけ いえるのは<CR>むかしの ぼくは<CF><CC>きみと おなじ メダロットが<CR>だいすきな しょうがくせい<CF><CC>だったって ことかな<CF><CC><@04>ヒカルさん・・・,"<@06>U-um... Hikaru, are you the one who solved<CF><CC>that incident 7 years ago...?<CF><CC><@4F>That was so long ago, I've forgotten.<CF><CC>Well, I can tell you one thing.<CF><CC>Back then, I was an elementary schooler<CF><CC>who loved Medarots, just like you.<CF><CC><@04>Hikaru..."
 0FB,0x6B1E,<@04>ヒカルさんって もう<CR>レトルトさんに ならないんですか?<CF><CC><@4F>いやぁ ははは<CR>てれるなぁ・・・,"<@04>Hikaru, aren't you going to be Mr. Retort anymore?<CF><CC><@4F>Oh, hahaha... You're embarrassing me..."
 0FC,0x6B52,<@75>ダメロットってさー もってると<CR>プレミアもんなんだってぇー,"<@75>They say if you have a Dame-rot, it's, like, a total collector's item!"
 0FD,0x6B73,<@75>あー それそれ!<CR>ねー うってくんない?<*04>,"<@75>Ah, that's the one! Hey, will you sell it to me?<*04>"
@@ -262,7 +262,7 @@ Index,Pointer,Original,Translated
 104,0x6C7B,<@6D>ナエさんに・・・あんな<CR>ぶざまな すがたを みられて<CF><CC>しまうなんて・・・うっうっ<CF><CC><@05>・・・・・うーむ,<@6D>To think Nae saw me<CF><CC>in such a disgraceful state... *sob*<CF><CC><@05>.....Hmmm.
 105,0x6CB4,<@6A>いらっしゃいませ<CR><&CB26>さま,"<@6A>Welcome, Master <&CB26>."
 106,0x6CC6,<@69>んん? きみは・・・,<@69>Hm? You're...
-107,0x6CD4,<@08>しっ しつれいしましたっ!,<@08>S-So sorry to bother you!
+107,0x6CD4,<@08>しっ しつれいしましたっ!,<@08>S-so sorry to bother you!
 108,0x6CE5,<@80>ココに イルと まいにち<CR>みずあびが できて イイワァ<CF><CC>・・・ア! しらないヒトに<CR>コエ かけちゃった ハズカシ,"<@80>Being here, I get to bathe in water every day. It's wonderful!<CF><CC>...Ah! I just talked to a stranger. How embarrassing!"
 109,0x6D22,<@04>あー おもしろかった!<CF><CC><@00>もう ヘとヘとだ<CR>そろそろ ねようかな,"<@04>Ahh, that was fun!<CF><CC><@00>I'm totally beat. Maybe I'll go to bed soon."
 10A,0x6D48,<@B5>いんペいクリアって<CR>てき みかた かんけいなく<CF><CC>いんペいを むこうにして<CR>はじめの じょうたいに<CF><CC>もどすって ことですよね?<CR>しリませんでしたわ,"<@B5>Conceal Clear means that, regardless of friend or foe,<CF><CC>it cancels out Conceal and returns things<CF><CC>to how they were at the start, right? I didn't know that."
@@ -273,8 +273,8 @@ Index,Pointer,Original,Translated
 10F,0x6E60,<@00>ん? なにか かみが<CR>はいってるぞ?<CF><CC>「せんぼうきょうの パーツが<CR>たリなくなった かたは<CF><CC>ここから おもち ください」<CR>・・・だって しんせつだなぁ,"<@00>Hm? There's some kind of paper in here.<CF><CC>""If you are short on Periscope parts,<CF><CC>please take some from here."" ...That's so nice of them!"
 110,0x6EB1,<@C4>ボクのぬいぐるみ とってたら<CR>「いぬのきぐるみ」なんか<CF><CC>とれちゃったヨォ<CF><CC>いらないから キミに あげる!,"<@C4>I was trying to win my plushie, but<CF><CC>I ended up getting a Dog Costume instead!<CF><CC>I don't need it, so you can have it!"
 111,0x6EEB,<@00>せんぼうきょうの パーツが<CR>はいってる みたいだけど<CF><CC>いまは もってるから いいや,"<@00>Looks like there are Periscope parts in here,<CF><CC>but I already have them, so I'm good."
-112,0x6F19,<@7B>ぱぅーぷー<CF><CC><@08>なんだ あれ!?<CR>メダロットの あかちゃん!?<CF><CC><@7B>ぱぅぷ ぱーーー,<@7B>Pawooo-poo<CF><CC><@08>What's that!? A baby Medarot!?<CF><CC><@7B>Pawoop paaaaah
-113,0x6F49,<@05>このちかで ゴッドエンペラーのほかに<CR>あんな やつまで<CF><CC>つくられてたなんて・・・<CR>ぱぅぷ ぱーーー<CF><CC>あ うつっちゃった,"<@05>To think they were building something like that<CF><CC>down here besides God Emperor...<CF><CC>Pawoop paaaaah<CF><CC>Oops, it's contagious."
+112,0x6F19,<@7B>ぱぅーぷー<CF><CC><@08>なんだ あれ!?<CR>メダロットの あかちゃん!?<CF><CC><@7B>ぱぅぷ ぱーーー,<@7B>Pauu-puu<CF><CC><@08>What's that!? A baby Medarot!?<CF><CC><@7B>Paupu paaaaah
+113,0x6F49,<@05>このちかで ゴッドエンペラーのほかに<CR>あんな やつまで<CF><CC>つくられてたなんて・・・<CR>ぱぅぷ ぱーーー<CF><CC>あ うつっちゃった,"<@05>To think they were building something like that<CF><CC>down here besides God Emperor... Paupu paaaaah<CF><CC>Oops, it's contagious."
 114,0x6F8A,@00F,
 115,0x6F8A,@00F,
 116,0x6F8A,@00F,
