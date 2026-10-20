@@ -1,8 +1,8 @@
-Index,Name,Name_EN,Name_Short
-0,ひこう,Flying,Flyng
-1,ふゆう,Hover,
-2,たきゃく,Multi-leg,Multi
-3,にきゃく,Bipedal,Biped
-4,しゃリん,Wheeled,Wheel
-5,せんしゃ,Tank,
-6,せんすい,Aquatic,Aqua
+Index,Name,Name_EN
+0,ひこう,Flying
+1,ふゆう,Hover
+2,たきゃく,Multi-leg
+3,にきゃく,Bipedal
+4,しゃリん,Wheeled
+5,せんしゃ,Tank
+6,せんすい,Aquatic

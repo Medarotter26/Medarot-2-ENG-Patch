@@ -70,18 +70,51 @@ def parse_record(name, pos):
                 pos += length
     return fields, pos
 
+NAME_TOKEN = 0xC8
+STR_NARROW = 0xC9
+widths = open(os.path.join(os.path.dirname(out_path), '..', 'gfx', 'VWFFont.widths'), 'rb').read()
+narrow_widths = open(os.path.join(os.path.dirname(out_path), '..', 'gfx', 'VWFNarrowFont.widths'), 'rb').read()
+
+def pixel_width(data, table):
+    return sum(table[b] + 1 for b in data) - 1 if data else 0
+
+# Names longer than the game's buffers are stored as tokens: NAME_TOKEN, list id, index.
+# Master table lists use their master index as list id, the others get ids from $20.
+LIST_IDS = {}
+for _name, _l in LIST_MAP.items():
+    if _l.get('master') is not None:
+        LIST_IDS[_name] = _l['master']
+_next_id = 0x20
+for _name, _l in LIST_MAP.items():
+    if _name not in LIST_IDS:
+        LIST_IDS[_name] = _next_id
+        _next_id += 1
+token_names = {}  # list id -> {index: encoded full name}
+
 def encode_field(name, f, raw, row):
     """Builds the bytes of a string field from the csv row."""
     _, label, length, term, pad = f
-    text = row.get(label + '_Short') or row.get(label + '_EN') or ''
+    text = row.get(label + '_EN') or ''
     if not text:
         if label == 'Model':
             return model_to_en(raw)
         return raw
     data = codec.encode_raw(text)
     limit = LIMITS.get((name, label))
+    if limit is not None and label == 'Name':
+        # Names are drawn with the variable width font in a field of `limit` tiles
+        if pixel_width(data, widths) > limit * 8:
+            if pixel_width(data, narrow_widths) > limit * 8:
+                errors.append(f'{name}[{row["Index"]}] {label}: "{text}" is too wide even with the narrow font '
+                              f'({pixel_width(data, narrow_widths)}px > {limit * 8}px)')
+            data = bytes([STR_NARROW]) + data
     if limit is not None and len(data) > limit:
-        errors.append(f'{name}[{row["Index"]}] {label}: "{text}" is {len(data)} chars, limit {limit}')
+        if label != 'Name' or len(data) > 22:
+            errors.append(f'{name}[{row["Index"]}] {label}: "{text}" is {len(data)} chars, limit {limit}')
+        list_id = LIST_IDS[name]
+        index = int(row['Index'])
+        token_names.setdefault(list_id, {})[index] = data
+        data = bytes([NAME_TOKEN, list_id, index])
     if length is None:
         return data + bytes([term])
     if len(data) + 1 > length:
@@ -193,7 +226,40 @@ with open(out_path, 'w') as f:
                 f.write('SECTION "Item Name Address", ROM0[$31AA]\n')
                 f.write(f'  dw ${at:04X}\n\n')
 
+# Name token tables
+NAME_BANK_FIRST = reloc_bank + 1
+with open(out_path, 'a') as f:
+    bank, addr = NAME_BANK_FIRST, 0x4000 + 0x20 * 3 * 2
+    lists = [None] * 0x40
+    chunks = []
+    for list_id in sorted(token_names):
+        names = token_names[list_id]
+        count = max(names) + 1
+        table_size = count * 2
+        size = table_size + sum(len(n) + 1 for n in names.values())
+        if addr + size > 0x8000:
+            bank, addr = bank + 1, 0x4000
+        lists[list_id] = (bank, addr)
+        table = bytearray()
+        blob = bytearray()
+        for i in range(count):
+            p = addr + table_size + len(blob)
+            if i in names:
+                blob += names[i] + bytes([TERM])
+            table += bytes([p & 0xFF, p >> 8]) if i in names else bytes([0, 0])
+        chunks.append((bank, addr, bytes(table + blob)))
+        addr += size
+    f.write(f'SECTION "Name Token Lists", ROMX[$4000], BANK[${NAME_BANK_FIRST:02X}]\n')
+    f.write('NameTokenLists::\n')
+    for entry in lists:
+        b, a = entry if entry else (0, 0)
+        f.write(f'  db ${b:02X}\n  dw ${a:04X}\n')
+    for bank, addr, data in chunks:
+        f.write(f'SECTION "Name Tokens {bank:02X}:{addr:04X}", ROMX[${addr:04X}], BANK[${bank:02X}]\n')
+        for i in range(0, len(data), 16):
+            f.write('  db ' + ', '.join(f'${b:02X}' for b in data[i:i + 16]) + '\n')
+
 for e in errors:
     print('ERROR:', e, file=sys.stderr)
-print(f'Lists: {len(sections)} rebuilt in place, {len(relocated)} relocated')
+print(f'Lists: {len(sections)} rebuilt in place, {len(relocated)} relocated, {sum(len(v) for v in token_names.values())} name tokens')
 sys.exit(1 if errors else 0)

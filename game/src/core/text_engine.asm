@@ -444,16 +444,31 @@ MainScriptCCWaitAndClear:
 
 ; C5 - Draw a string from RAM
 MainScriptCCRAMString:
+  ld a, [W_TextSubIndex]
+  or a
+  jr nz, .copied
+  ; Copy the string, expanding name tokens
   call MainScriptGetCurrent
   inc hl
   ld a, [hli]
   ld h, [hl]
   ld l, a
+  ld de, W_TextRAMBuffer
+  call StrCopyResolveTo
+.copied
+  ld hl, W_TextRAMBuffer
   ld a, [W_TextSubIndex]
   ld c, a
   ld b, $00
   add hl, bc
   ld a, [hl]
+  cp STR_NARROW
+  jr nz, .notNarrow
+  ld a, [W_TextSubIndex]
+  inc a
+  ld [W_TextSubIndex], a
+  jr .copied
+.notNarrow
   cp $C0
   jr nz, .drawCharacter
   ld b, 3
@@ -680,4 +695,4 @@ MainScriptSectionTable::
   INCLUDE "build/text/section_table.asm"
 
 MainScriptEngineEnd::
-  ASSERT MainScriptEngineEnd <= $22E4, "Main script engine overflows into $22E4"
+  ASSERT MainScriptEngineEnd <= $2180, "Main script engine overflows into the string helpers"

@@ -1,154 +1,154 @@
-Index,Model,Model_EN,Name,Name_EN,Name_Short,IsFemale
-0,BATー11,,サイコミサイル,Psycho-Missile,PsyMissl,00
-1,PHXー11,,ブラストライフル,Blast Rifle,BlstRifl,00
-2,PLNー11,,ウイングヘッド,Wing Head,WingHead,01
-3,ANGー11,,チェラブボディ,Cherub Body,ChrbBody,01
-4,PTLー01,,ヒドゥンブレイク,Hidden Break,HidBreak,00
-5,BOPー01,,イーグルヘッド,Eagle Head,EagleHd,00
-6,DRFー01,,ハードウェイター,Hard-Weighter,HardWght,00
-7,CKNー01,,コツコツトサカン,Drumming Comb,DrumComb,00
-8,NMRー01,,ファンタズマル,Phantasmal,Phantsml,00
-9,SLFー01,,ふうがわリヘッド,Whimsical Head,WhimHead,01
-10,SLNー01,,アピールサウンド,Appeal Sound,AplSound,01
-11,BERー11,,スプレッダー,Spreader,,00
-12,HNIー11,,クレイフラッシュ,Clay Flash,ClyFlash,00
-13,DGUー11,,セラミシャッター,Ceramic Shutter,CrmShttr,00
-14,SPTー11,,ドラゴクリスタル,Drago-Crystal,DragoCrs,00
-15,SPCー01,,しろずきん,White Hood,WhtHood,00
-16,MAIー01,,ストンクラスター,Stone Cluster,StnClstr,00
-17,RATー01,,フルオティティス,Full Otitis,FulOtits,00
-18,WCHー01,,マジョラム,Marjoram,,01
-19,SLDー01,,ひがわリヘッド,Daily Head,DlyHead,01
-20,FBFー01,,ハットトリック,Hat-Trick,HatTrick,01
-21,SPIー11,,レンカートラップ,Low-Price Trap,LwPrcTrp,00
-22,CLAー11,,ハッチン,Hatchin,,00
-23,SNAー11,,オーテイト,Ohteito,,00
-24,FLWー11,,サン・ビーム,Sun-Beam,,00
-25,CMOー11,,カラフルボディ,Colorful Body,ColorBdy,00
-26,UNIー11,,ショーテンノー,Shortenno,Shortnno,00
-27,WEAー11,,デスブレイク,Death Break,DthBreak,00
-28,KMRー01,,ドーサン,Dousan,,00
-29,MTSー01,,カタタタキ,Shoulder Massage,ShldMssg,00
-30,SCRー01,,サソリドック,Scorpion Dock,ScrpDock,00
-31,KWGー01,,アンテナ,Antenna,,00
-32,KBTー01,,ミサイル,Missile,,00
-33,NINー11,,しこみがたな,Cane-Sword,CaneSwrd,00
-34,DOGー11,,ヘッドキャノン,Head Cannon,HdCannon,00
-35,RBTー11,,ラジエーター,Radiator,,00
-36,MONー11,,ダウンストリーム,Downstream,Downstrm,00
-37,KWGー11,,ビーエス,V.S.,,00
-38,KBTー11,,ハンノーダン,Reaction Missile,RctMissl,00
-39,DVLー11,,ヘルメット,Hellmet,,00
-40,CATー11,,ライトサーキット,Light Circuit,LghtCrct,01
-41,NASー11,,ホーリーウォール,Holy Wall,HolyWall,01
-42,SLRー11,,バリアブルヘアー,Variablehair,VariHair,01
-43,STGー01,,ハンター,Hunter,,00
-44,KLNー01,,テンションアップ,Tension Up,TensnUp,00
-45,TIRー01,,ブレスファイヤー,Breath Fire,BrthFire,00
-46,BANー01,,スエットマント,Sweat Mantle,SwtMantl,00
-47,MEDー01,,デスニヤーリ,Death Grin,DthGrin,01
-48,SAQー01,,チャーミープリチ,Charmy Pretty,ChrmPrty,01
-49,VALー01,,リフレクトミラー,Reflect Mirror,RfltMirr,01
-50,CARー11,,ハンドルヘッド,Handle Head,HndlHead,00
-51,RAYー11,,プラズマビーム,Plasma Beam,PlsmBeam,00
-52,NITー11,,クリアアーマー,Clear Armor,ClrArmor,00
-53,SABー01,,ソンブレーロ,Sombrero,,00
-54,ANBー01,,マキシマパウチ,Maxima Pouch,MaxPouch,00
-55,ALMー01,,アルマデニー,Arma-Head,ArmaHead,00
-56,WATー01,,バトリースタンド,Batori Stand,BtrStand,00
-57,SATー01,,マーカス,Marcus,,00
-58,HBYー01,,ベーゴマンダー,Top Commander,TopCmndr,00
-59,JORー01,,パーン,Pum,,00
-60,TOTー11,,テラノスレーザー,Tyranos Laser,TyrLaser,00
-61,GGRー01,,ショットクリヤー,Shot Clear,ShotClr,00
-62,BRAー01,,アンチスカイヤー,Anti-Skyer,AntiSkyr,00
-63,BORー01,,スイッチング,Switching,Switchng,00
-64,SBLー01,,フリップ,Flip,,01
-65,HDGー01,,ブラストスタップ,Blast Stab,BlstStab,00
-66,JELー01,,ミサイルベース,Missile Base,MsslBase,00
-67,MAGー01,,コロベー,Trip,,00
-68,GNMー01,,おかわリヘッド,Extra Head,ExtrHead,01
-69,MRNー11,,スコープヘッド,Scope Head,ScpHead,00
-70,KAPー11,,サラカラビーム,Plate Beam,PlatBeam,00
-71,MARー11,,リペイン,Repain,,01
-72,PENー11,,リバーサー,Reverser,,01
-73,MNTー01,,スリッパー,Slipper,,00
-74,FLGー01,,ポップンアイ,Poppin Eye,PoppnEye,00
-75,KILー01,,ニュウウェーブ,New Wave,,00
-76,KNGー01,,エクスタイズ,Extise,,00
-77,SFHー01,,ハムスターカム,Hamster Bite,HmstBite,00
-78,FFYー01,,ミズデッポー,Water Gun,WaterGun,01
-79,WDNー01,,みがわリヘッド,Alternate Head,AltHead,01
-80,CRWー01,,さんだんじゅう,Shotgun,,00
-81,BEEー01,,ヘクサドン,Hexadon,,00
-82,BATー01,,サイコウェーブ,Psycho-Wave,PsyWave,00
-83,PHXー01,,ブラストガン,Blast Gun,BlastGun,00
-84,PLNー01,,コックピット,Cockpit,,01
-85,ANGー01,,エンジェルボディ,Angel Body,AngelBdy,01
-86,BERー01,,メテオストライク,Meteor Strike,MtrStrke,00
-87,GHTー01,,ボイド,Void,,00
-88,HNIー01,,ハニーヘッド,Hani-Head,HaniHead,00
-89,DGUー01,,ドグー,Doguu,,00
-90,SNGー01,,ファランクス,Pharynx,,00
-91,DRAー01,,リゅうすいしょう,Dragon Crystal,DrgnCrys,00
-92,FLYー01,,フィールドバリア,Field Barrier,FldBarr,01
-93,WEAー01,,デスブラスト,Death Blast,DthBlast,00
-94,COWー01,,ボディアタック,Body Blow,BodyBlow,00
-95,SPIー01,,ブービートラップ,Booby Trap,BoobyTrp,00
-96,CLAー01,,ハチマキ,Headband,,00
-97,SNAー01,,ハッカー,Hacker,,00
-98,UNIー01,,ガーディアン,Guardian,,00
-99,FLWー01,,ソーラーレーザー,Solar Laser,SolLaser,00
-100,CMOー01,,インビジボディ,Invisi-Body,InvsBody,00
-101,KGWー01,,あんてな,Antenna,,00
-102,KBTー01,,みさいる,Missile,,00
-103,NINー01,,かくれみの,Mist Net,,00
-104,KTNー01,,ミカヅチ,Mikazuchi,Mikazchi,00
-105,KINー01,,ボディプレス,Body Press,BdyPress,00
-106,TANー01,,エアバッグ,Airbag,,00
-107,SAMー01,,サムライブラスト,Samurai Blast,SmrBlast,00
-108,DOGー01,,リニアカノン,Linear Cannon,LnCannon,00
-109,NTBー01,,アシッドコーン,Acid Cone,AcidCone,00
-110,RBTー01,,エアコン,Air-Con,,00
-111,MONー01,,スモークガス,Smoke Gas,SmokeGas,00
-112,ALIー01,,ミュートボディ,Mute Body,MuteBody,00
-113,DVLー01,,デビルボディ,Devil Body,DevilBdy,00
-114,SLRー01,,ファイトいっぱつ,Fighter Hair,FghtHair,01
-115,CATー01,,テイザー,Taser,,01
-116,QUNー01,,ブリザード,Blizzard,,01
-117,NASー01,,サンクチュアリ,Sanctuary,Sanctury,01
-118,KNIー01,,チャームポイント,Charm Point,CharmPnt,01
-119,BNYー01,,ボディコンシャス,Body Conscious,BodyCnsc,01
-120,CARー01,,ボディショット,Body Shot,BodyShot,00
-121,RAYー01,,プラズマレーザー,Plasma Laser,PlsmLasr,00
-122,COMー01,,モーニングコール,Morning Call,MornCall,00
-123,PIEー01,,フィナーレ,Finale,,00
-124,BMTー01,,ビクトリアーマー,Victory Armor,VicArmor,00
-125,NITー01,,クリアシールド,Clear Shield,ClrShld,00
-126,BOKー01,,サーチレーダー,Search Radar,SrchRadr,00
-127,INTー01,,じゅうでんき,Elec-Charger,ElcChrgr,00
-128,TOTー01,,バッテリー,Battery,,00
-129,GLMー01,,せんしゃミサイル,Tank Missile,TnkMissl,00
-130,RICー01,,デバッガー,Debugger,,00
-131,ELFー01,,トランプル,Trample,,00
-132,MOGー01,,カバーアップ,Cover Up,,00
-133,EGTー01,,グランドボム,Grand Bomb,GrndBomb,00
-134,MRNー01,,アンチウォーター,Anti-Water,AntiWatr,00
-135,SAKー01,,でんどうドライバ,Elec-Driver,ElcDrivr,00
-136,SHLー01,,シンジュー,Pearl,,00
-137,KAPー01,,カッパービーム,Kappa Beam,KappBeam,00
-138,MARー01,,オールリペア,All Repair,AllRepr,01
-139,PENー01,,リザレクター,Resurrector,Resurctr,01
-140,RAPー01,,フェイマスコット,Fey Mascot,FeyMasct,00
-141,DFLー01,,ブアイソー,Blank Expression,BlnkExpr,00
-142,CLBー01,,カニサンジュウ,Gun Krab,,00
-143,LHBー01,,アンタナー,Antanner,,00
-144,MWBー01,,ミサ・イル?,Mis-Sile?,MisSile?,00
-145,GDSー01,,ハロー,Hallow,,01
-146,CMPー01,,ベッピン,Beauty Mask,BeautMsk,01
-147,KNKー01,,マッシュルーム,Mushroom,,00
-148,EGGー01,,オムレット,Omelette,,00
-149,WFHー01,,コンシーリング,Concealing,Conceal,00
-150,BAYー01,,フラクチャー,Fracture,,00
-151,BAYー03,,ーーーーーーーー,--------,,00
-152,BAYー03,,ーーーーーーーー,--------,,01
+Index,Model,Model_EN,Name,Name_EN,IsFemale
+0,BATー11,,サイコミサイル,Psycho-Missile,00
+1,PHXー11,,ブラストライフル,Blast Rifle,00
+2,PLNー11,,ウイングヘッド,Wing Head,01
+3,ANGー11,,チェラブボディ,Cherub Body,01
+4,PTLー01,,ヒドゥンブレイク,Hidden Break,00
+5,BOPー01,,イーグルヘッド,Eagle Head,00
+6,DRFー01,,ハードウェイター,Hard-Weighter,00
+7,CKNー01,,コツコツトサカン,Drumming Comb,00
+8,NMRー01,,ファンタズマル,Phantasmal,00
+9,SLFー01,,ふうがわリヘッド,Whimsical Head,01
+10,SLNー01,,アピールサウンド,Appeal Sound,01
+11,BERー11,,スプレッダー,Spreader,00
+12,HNIー11,,クレイフラッシュ,Clay Flash,00
+13,DGUー11,,セラミシャッター,Ceramic Shutter,00
+14,SPTー11,,ドラゴクリスタル,Drago-Crystal,00
+15,SPCー01,,しろずきん,White Hood,00
+16,MAIー01,,ストンクラスター,Stone Cluster,00
+17,RATー01,,フルオティティス,Full Otitis,00
+18,WCHー01,,マジョラム,Marjoram,01
+19,SLDー01,,ひがわリヘッド,Daily Head,01
+20,FBFー01,,ハットトリック,Hat-Trick,01
+21,SPIー11,,レンカートラップ,Low-Price Trap,00
+22,CLAー11,,ハッチン,Hatchin,00
+23,SNAー11,,オーテイト,Ohteito,00
+24,FLWー11,,サン・ビーム,Sun-Beam,00
+25,CMOー11,,カラフルボディ,Colorful Body,00
+26,UNIー11,,ショーテンノー,Shortenno,00
+27,WEAー11,,デスブレイク,Death Break,00
+28,KMRー01,,ドーサン,Dousan,00
+29,MTSー01,,カタタタキ,Shoulder Massage,00
+30,SCRー01,,サソリドック,Scorpion Dock,00
+31,KWGー01,,アンテナ,Antenna,00
+32,KBTー01,,ミサイル,Missile,00
+33,NINー11,,しこみがたな,Cane-Sword,00
+34,DOGー11,,ヘッドキャノン,Head Cannon,00
+35,RBTー11,,ラジエーター,Radiator,00
+36,MONー11,,ダウンストリーム,Downstream,00
+37,KWGー11,,ビーエス,V.S.,00
+38,KBTー11,,ハンノーダン,Reaction Missile,00
+39,DVLー11,,ヘルメット,Hellmet,00
+40,CATー11,,ライトサーキット,Light Circuit,01
+41,NASー11,,ホーリーウォール,Holy Wall,01
+42,SLRー11,,バリアブルヘアー,Variablehair,01
+43,STGー01,,ハンター,Hunter,00
+44,KLNー01,,テンションアップ,Tension Up,00
+45,TIRー01,,ブレスファイヤー,Breath Fire,00
+46,BANー01,,スエットマント,Sweat Mantle,00
+47,MEDー01,,デスニヤーリ,Death Grin,01
+48,SAQー01,,チャーミープリチ,Charmy Pretty,01
+49,VALー01,,リフレクトミラー,Reflect Mirror,01
+50,CARー11,,ハンドルヘッド,Handle Head,00
+51,RAYー11,,プラズマビーム,Plasma Beam,00
+52,NITー11,,クリアアーマー,Clear Armor,00
+53,SABー01,,ソンブレーロ,Sombrero,00
+54,ANBー01,,マキシマパウチ,Maxima Pouch,00
+55,ALMー01,,アルマデニー,Arma-Head,00
+56,WATー01,,バトリースタンド,Batori Stand,00
+57,SATー01,,マーカス,Marcus,00
+58,HBYー01,,ベーゴマンダー,Top Commander,00
+59,JORー01,,パーン,Pum,00
+60,TOTー11,,テラノスレーザー,Tyranos Laser,00
+61,GGRー01,,ショットクリヤー,Shot Clear,00
+62,BRAー01,,アンチスカイヤー,Anti-Skyer,00
+63,BORー01,,スイッチング,Switching,00
+64,SBLー01,,フリップ,Flip,01
+65,HDGー01,,ブラストスタップ,Blast Stab,00
+66,JELー01,,ミサイルベース,Missile Base,00
+67,MAGー01,,コロベー,Trip,00
+68,GNMー01,,おかわリヘッド,Extra Head,01
+69,MRNー11,,スコープヘッド,Scope Head,00
+70,KAPー11,,サラカラビーム,Plate Beam,00
+71,MARー11,,リペイン,Repain,01
+72,PENー11,,リバーサー,Reverser,01
+73,MNTー01,,スリッパー,Slipper,00
+74,FLGー01,,ポップンアイ,Poppin Eye,00
+75,KILー01,,ニュウウェーブ,New Wave,00
+76,KNGー01,,エクスタイズ,Extise,00
+77,SFHー01,,ハムスターカム,Hamster Bite,00
+78,FFYー01,,ミズデッポー,Water Gun,01
+79,WDNー01,,みがわリヘッド,Alternate Head,01
+80,CRWー01,,さんだんじゅう,Shotgun,00
+81,BEEー01,,ヘクサドン,Hexadon,00
+82,BATー01,,サイコウェーブ,Psycho-Wave,00
+83,PHXー01,,ブラストガン,Blast Gun,00
+84,PLNー01,,コックピット,Cockpit,01
+85,ANGー01,,エンジェルボディ,Angel Body,01
+86,BERー01,,メテオストライク,Meteor Strike,00
+87,GHTー01,,ボイド,Void,00
+88,HNIー01,,ハニーヘッド,Hani-Head,00
+89,DGUー01,,ドグー,Doguu,00
+90,SNGー01,,ファランクス,Pharynx,00
+91,DRAー01,,リゅうすいしょう,Dragon Crystal,00
+92,FLYー01,,フィールドバリア,Field Barrier,01
+93,WEAー01,,デスブラスト,Death Blast,00
+94,COWー01,,ボディアタック,Body Blow,00
+95,SPIー01,,ブービートラップ,Booby Trap,00
+96,CLAー01,,ハチマキ,Headband,00
+97,SNAー01,,ハッカー,Hacker,00
+98,UNIー01,,ガーディアン,Guardian,00
+99,FLWー01,,ソーラーレーザー,Solar Laser,00
+100,CMOー01,,インビジボディ,Invisi-Body,00
+101,KGWー01,,あんてな,Antenna,00
+102,KBTー01,,みさいる,Missile,00
+103,NINー01,,かくれみの,Mist Net,00
+104,KTNー01,,ミカヅチ,Mikazuchi,00
+105,KINー01,,ボディプレス,Body Press,00
+106,TANー01,,エアバッグ,Airbag,00
+107,SAMー01,,サムライブラスト,Samurai Blast,00
+108,DOGー01,,リニアカノン,Linear Cannon,00
+109,NTBー01,,アシッドコーン,Acid Cone,00
+110,RBTー01,,エアコン,Air-Con,00
+111,MONー01,,スモークガス,Smoke Gas,00
+112,ALIー01,,ミュートボディ,Mute Body,00
+113,DVLー01,,デビルボディ,Devil Body,00
+114,SLRー01,,ファイトいっぱつ,Fighter Hair,01
+115,CATー01,,テイザー,Taser,01
+116,QUNー01,,ブリザード,Blizzard,01
+117,NASー01,,サンクチュアリ,Sanctuary,01
+118,KNIー01,,チャームポイント,Charm Point,01
+119,BNYー01,,ボディコンシャス,Body Conscious,01
+120,CARー01,,ボディショット,Body Shot,00
+121,RAYー01,,プラズマレーザー,Plasma Laser,00
+122,COMー01,,モーニングコール,Morning Call,00
+123,PIEー01,,フィナーレ,Finale,00
+124,BMTー01,,ビクトリアーマー,Victory Armor,00
+125,NITー01,,クリアシールド,Clear Shield,00
+126,BOKー01,,サーチレーダー,Search Radar,00
+127,INTー01,,じゅうでんき,Elec-Charger,00
+128,TOTー01,,バッテリー,Battery,00
+129,GLMー01,,せんしゃミサイル,Tank Missile,00
+130,RICー01,,デバッガー,Debugger,00
+131,ELFー01,,トランプル,Trample,00
+132,MOGー01,,カバーアップ,Cover Up,00
+133,EGTー01,,グランドボム,Grand Bomb,00
+134,MRNー01,,アンチウォーター,Anti-Water,00
+135,SAKー01,,でんどうドライバ,Elec-Driver,00
+136,SHLー01,,シンジュー,Pearl,00
+137,KAPー01,,カッパービーム,Kappa Beam,00
+138,MARー01,,オールリペア,All Repair,01
+139,PENー01,,リザレクター,Resurrector,01
+140,RAPー01,,フェイマスコット,Fey Mascot,00
+141,DFLー01,,ブアイソー,Blank Expression,00
+142,CLBー01,,カニサンジュウ,Gun Krab,00
+143,LHBー01,,アンタナー,Antanner,00
+144,MWBー01,,ミサ・イル?,Mis-Sile?,00
+145,GDSー01,,ハロー,Hallow,01
+146,CMPー01,,ベッピン,Beauty Mask,01
+147,KNKー01,,マッシュルーム,Mushroom,00
+148,EGGー01,,オムレット,Omelette,00
+149,WFHー01,,コンシーリング,Concealing,00
+150,BAYー01,,フラクチャー,Fracture,00
+151,BAYー03,,ーーーーーーーー,--------,00
+152,BAYー03,,ーーーーーーーー,--------,01

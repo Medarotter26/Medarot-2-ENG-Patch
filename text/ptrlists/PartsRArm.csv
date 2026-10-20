@@ -1,154 +1,154 @@
-Index,Model,Model_EN,Name,Name_EN,Name_Short,IsFemale
-0,BATー12,,エレクトミサイル,Elect-Missile,ElcMissl,00
-1,PHXー12,,ファイアライフル,Fire Rifle,FireRifl,00
-2,PLNー12,,ウイングハンド,Wing Hand,WingHand,01
-3,ANGー12,,チェラブハンド,Cherub Hand,ChrbHand,01
-4,PTLー02,,ポケットソード,Pocket Sword,PktSword,00
-5,BOPー02,,ホークハンド,Hawk Hand,HawkHand,00
-6,DRFー02,,ヘビーウェイター,Heavy-Weighter,HvyWght,00
-7,CKNー02,,ドンドンパンチ,Don-Don Punch,DnDnPnch,00
-8,NMRー02,,ジャマー,Jammer,,00
-9,SLFー02,,ふうがわリハンド,Whimsical Hand,WhimHand,01
-10,SLNー02,,サイドマフラー,Side Muffler,SdMufflr,01
-11,BERー12,,スマッシャー,Smasher,,00
-12,HNIー12,,ハンドフラッシュ,Hand Flash,HndFlash,00
-13,DGUー12,,ハンドシャッター,Hand Shutter,HndShttr,00
-14,SPTー12,,キュアウォーター,Cure Water,CureWatr,00
-15,SPCー02,,しろながて,White Hand,WhtHand,00
-16,MAIー02,,ハンドクラスター,Hand Cluster,HndClstr,00
-17,RATー02,,スカウト,Scout,,00
-18,WCHー02,,ツーコットン,Two Cotton,TwoCottn,01
-19,SLDー02,,ひがわリハンド,Daily Hand,DlyHand,01
-20,FBFー02,,グローブトリック,Glove-Trick,GlvTrick,01
-21,SPIー12,,チーパートラップ,Cheaper Trap,ChprTrap,00
-22,CLAー12,,キャッチ,Catch,,00
-23,SNAー12,,チェンジャー,Changer,,00
-24,FLWー12,,ゴーアップ,Go-Up,,00
-25,CMOー12,,カラフルハンド,Colorful Hand,ColorHnd,00
-26,UNIー12,,ショーキッカ,Shokikka,,00
-27,WEAー12,,デスミサイル,Death Missile,DthMissl,00
-28,KMRー02,,ガーサン,Garsan,,00
-29,MTSー02,,カマクビ,Mantis's Head,MntsHead,00
-30,SCRー02,,サソリブト,Scorpion Gnat,ScrpGnat,00
-31,KWGー02,,チャンバラソード,Chanbara Sword,ChnbSwrd,00
-32,KBTー02,,リボルバー,Revolver,,00
-33,NINー12,,ざんばとう,Zanbato,,00
-34,DOGー12,,エイムライフル,Aim Rifle,AimRifle,00
-35,RBTー12,,ミニットスキップ,Minute Skip,MinSkip,00
-36,MONー12,,カウントフォール,Count Fall,CntFall,00
-37,KWGー12,,シンブンシソード,Shinbunshi Sword,ShnbSwrd,00
-38,KBTー12,,イバルバー,Evolver,,00
-39,DVLー12,,ヘルマイト,Hellmight,HellMght,00
-40,CATー12,,ライトジャブ,Light Jab,LightJab,01
-41,NASー12,,ドナー,Donor,,01
-42,SLRー12,,パテリィバルカン,Pateri Vulcan,PatVulcn,01
-43,STGー02,,フレクサーソード,Flexor Sword,FlxSword,00
-44,KLNー02,,シュートバレル,Shoot Barrel,ShtBarrl,00
-45,TIRー02,,クラブヒット,Club-Hit,,00
-46,BANー02,,スエットケープ,Sweat Cape,SwtCape,00
-47,MEDー02,,デステーマネキ,Death Beckon,DthBeckn,01
-48,SAQー02,,チャーミーコンパ,Charmy Compa,ChrmCmpa,01
-49,VALー02,,ドントムーブ,Don't Move,DontMove,01
-50,CARー12,,ハンドルハンド,Handle Hand,HndlHand,00
-51,RAYー12,,ついびビーム,Tracking Beam,TrckBeam,00
-52,NITー12,,ライトアーマー,Right Armor,RghtArmr,00
-53,SABー02,,トゲトゲガン,Needle Gun,NeedlGun,00
-54,ANBー02,,マキシマソード,Maxima Sword,MaxSword,00
-55,ALMー02,,アルマアブソー,Arma-Hand,ArmaHand,00
-56,WATー02,,キャノンシェル,Cannonshell,CnnShell,00
-57,SATー02,,シューター,Shooter,,00
-58,HBYー02,,ブラストロッド,Blast Rod,BlastRod,00
-59,JORー02,,プーン,Poom,,00
-60,TOTー12,,メガトルレーザー,Megatol Laser,MegLaser,00
-61,GGRー02,,グレドハンマー,Grade Hammer,GrdHammr,00
-62,BRAー02,,レイブラスター,Ray Blaster,RayBlstr,00
-63,BORー02,,ライトイング,Right-Ing,RightIng,00
-64,SBLー02,,フラップ,Flap,,01
-65,HDGー02,,バーニングピン,Burning Pin,BurnPin,00
-66,JELー02,,インターミサイル,Intermissile,IntMissl,00
-67,MAGー02,,コロビナー,C'mon Trip,C'monTrp,00
-68,GNMー02,,おかわリハンド,Extra Hand,ExtrHand,01
-69,MRNー12,,スコープハンド,Scope Hand,ScpHand,00
-70,KAPー12,,スイチュウフロー,Underwater Flow,UWtrFlow,00
-71,MARー12,,メンディング,Mending,,01
-72,PENー12,,プットバック,Put Back,,01
-73,MNTー02,,アクシデン,Accident,,00
-74,FLGー02,,サックザウン,Sack Zound,SckZound,00
-75,KILー02,,クリンチウェーブ,Clinch Wave,ClinWave,00
-76,KNGー02,,エクスプローズ,Explose,,00
-77,SFHー02,,スターネット,Star Net,,00
-78,FFYー02,,シャワー,Shower,,01
-79,WDNー02,,みがわリハンド,Alternate Hand,AltHand,01
-80,CRWー02,,サイクロン,Cyclone,,00
-81,BEEー02,,ミスタッチ,Mistouch,,00
-82,BATー02,,エレクトウェーブ,Electro-Wave,ElcWave,00
-83,PHXー02,,ファイアガン,Fire Gun,,00
-84,PLNー02,,スタビライザー,Stabilizer,Stabilzr,01
-85,ANGー02,,エンジェルハンド,Angel Hand,AngelHnd,01
-86,BERー02,,プレッシャー,Pressure,,00
-87,GHTー02,,アボイド,Avoid,,00
-88,HNIー02,,ミラー,Mirror,,00
-89,DGUー02,,ドウタクー,Bronze Bell,BrnzBell,00
-90,SNGー02,,サウンドコピー,Sound Copy,SndCopy,00
-91,DRAー02,,かいふくのみず,Healing Water,HealWatr,00
-92,FLYー02,,エナジーバリア,Energy Barrier,EnrgBarr,01
-93,WEAー02,,デスボム,Death Bomb,DthBomb,00
-94,COWー02,,サーベル,Sabre,,00
-95,SPIー02,,ホイホイトラップ,Fly Trap,,00
-96,CLAー02,,ワイヤー,Wire,,00
-97,SNAー02,,ウィルス,Virus,,00
-98,UNIー02,,キャンセラー,Canceler,,00
-99,FLWー02,,ソーラーパワー,Solar Power,SolPower,00
-100,CMOー02,,インビジハンド,Invisi-Hand,InvsHand,00
-101,KGWー02,,ちゃんばらそーど,Chanbara Sword,ChnbSwrd,00
-102,KBTー02,,リぼるばー,Revolver,,00
-103,NINー02,,くない,Kunai,,00
-104,KTNー02,,フェンシング,Fencing,,00
-105,KINー02,,ライトアクス,Light Axe,LightAxe,00
-106,TANー02,,クルクルナックル,Spin Knuckle,SpnKnckl,00
-107,SAMー02,,ビームセイバー,Beam Saber,BeamSabr,00
-108,DOGー02,,スナイプライフル,Snipe Rifle,SnpRifle,00
-109,NTBー02,,アシッドボム,Acid Bomb,AcidBomb,00
-110,RBTー02,,ほうねつばん,Heat Sink,HeatSink,00
-111,MONー02,,スカウトハンド,Scout Hand,ScoutHnd,00
-112,ALIー02,,ミュートハンド,Mute Hand,MuteHand,00
-113,DVLー02,,デビルハンド,Devil Hand,DevilHnd,00
-114,SLRー02,,マシンガン,Machine Gun,MachnGun,01
-115,CATー02,,スタンガン,Stun Gun,,01
-116,QUNー02,,アイス,Ice,,01
-117,NASー02,,ファーストエイド,First Aid,FirstAid,01
-118,KNIー02,,かやくだま,Powder Bomb,PwdrBomb,01
-119,BNYー02,,ハンドウィップ,Hand Whip,HandWhip,01
-120,CARー02,,タイクーミサイル,AA Missile,AAMissl,00
-121,RAYー02,,ついびレーザー,Tracking Laser,TrckLasr,00
-122,COMー02,,ミギビーム,Right Beam,RghtBeam,00
-123,PIEー02,,カーニバル,Carnival,,00
-124,BMTー02,,バルカン,Vulcan,,00
-125,NITー02,,ナイトシールド,Knight Shield,KntShld,00
-126,BOKー02,,ポイントレーダー,Point Radar,PntRadar,00
-127,INTー02,,チャージ,Charge,,00
-128,TOTー02,,ノーマルレーザー,Normal Laser,NrmLaser,00
-129,GLMー02,,ホーミング,Homing,,00
-130,RICー02,,ブレイカー,Breaker,,00
-131,ELFー02,,ライトガード,Right Guard,RghtGrd,00
-132,MOGー02,,トラップバスター,Trap Buster,TrpBustr,00
-133,EGTー02,,ブラックホール,Black Hole,BlckHole,00
-134,MRNー02,,タイウォーター,VS Water,,00
-135,SAKー02,,プラスドライバ,Plus-Driver,PlsDrivr,00
-136,SHLー02,,ハイスイコー,Drainer,,00
-137,KAPー02,,キューリバクダン,Cucumber Bomb,CucmBomb,00
-138,MARー02,,キュアハンド,Cure Hand,CureHand,01
-139,PENー02,,フリーアーム,Free Arm,,01
-140,RAPー02,,バブルブロー,Bubble Blow,BbblBlow,00
-141,DFLー02,,フレー,Hurray,,00
-142,CLBー02,,デコイクラブ,Decoy Krab,DcoyKrab,00
-143,LHBー02,,メッタキラー,Mettakiller,MettKllr,00
-144,MWBー02,,カミナリオチル,Kaminari Ochiru,Kaminari,00
-145,GDSー02,,コンプリーツ,Completes,Complets,01
-146,CMPー02,,ライトゴラン,C-Right,,01
-147,KNKー02,,シータケ,Shiitake,,00
-148,EGGー02,,ハムレット,Hamlette,,00
-149,WFHー02,,コンペンチ,Conpench,,00
-150,BAYー02,,パストタッチ,Past Touch,PstTouch,00
-151,BAYー03,,ーーーーーーーー,--------,,00
-152,BAYー03,,ーーーーーーーー,--------,,01
+Index,Model,Model_EN,Name,Name_EN,IsFemale
+0,BATー12,,エレクトミサイル,Elect-Missile,00
+1,PHXー12,,ファイアライフル,Fire Rifle,00
+2,PLNー12,,ウイングハンド,Wing Hand,01
+3,ANGー12,,チェラブハンド,Cherub Hand,01
+4,PTLー02,,ポケットソード,Pocket Sword,00
+5,BOPー02,,ホークハンド,Hawk Hand,00
+6,DRFー02,,ヘビーウェイター,Heavy-Weighter,00
+7,CKNー02,,ドンドンパンチ,Don-Don Punch,00
+8,NMRー02,,ジャマー,Jammer,00
+9,SLFー02,,ふうがわリハンド,Whimsical Hand,01
+10,SLNー02,,サイドマフラー,Side Muffler,01
+11,BERー12,,スマッシャー,Smasher,00
+12,HNIー12,,ハンドフラッシュ,Hand Flash,00
+13,DGUー12,,ハンドシャッター,Hand Shutter,00
+14,SPTー12,,キュアウォーター,Cure Water,00
+15,SPCー02,,しろながて,White Hand,00
+16,MAIー02,,ハンドクラスター,Hand Cluster,00
+17,RATー02,,スカウト,Scout,00
+18,WCHー02,,ツーコットン,Two Cotton,01
+19,SLDー02,,ひがわリハンド,Daily Hand,01
+20,FBFー02,,グローブトリック,Glove-Trick,01
+21,SPIー12,,チーパートラップ,Cheaper Trap,00
+22,CLAー12,,キャッチ,Catch,00
+23,SNAー12,,チェンジャー,Changer,00
+24,FLWー12,,ゴーアップ,Go-Up,00
+25,CMOー12,,カラフルハンド,Colorful Hand,00
+26,UNIー12,,ショーキッカ,Shokikka,00
+27,WEAー12,,デスミサイル,Death Missile,00
+28,KMRー02,,ガーサン,Garsan,00
+29,MTSー02,,カマクビ,Mantis's Head,00
+30,SCRー02,,サソリブト,Scorpion Gnat,00
+31,KWGー02,,チャンバラソード,Chanbara Sword,00
+32,KBTー02,,リボルバー,Revolver,00
+33,NINー12,,ざんばとう,Zanbato,00
+34,DOGー12,,エイムライフル,Aim Rifle,00
+35,RBTー12,,ミニットスキップ,Minute Skip,00
+36,MONー12,,カウントフォール,Count Fall,00
+37,KWGー12,,シンブンシソード,Shinbunshi Sword,00
+38,KBTー12,,イバルバー,Evolver,00
+39,DVLー12,,ヘルマイト,Hellmight,00
+40,CATー12,,ライトジャブ,Light Jab,01
+41,NASー12,,ドナー,Donor,01
+42,SLRー12,,パテリィバルカン,Pateri Vulcan,01
+43,STGー02,,フレクサーソード,Flexor Sword,00
+44,KLNー02,,シュートバレル,Shoot Barrel,00
+45,TIRー02,,クラブヒット,Club-Hit,00
+46,BANー02,,スエットケープ,Sweat Cape,00
+47,MEDー02,,デステーマネキ,Death Beckon,01
+48,SAQー02,,チャーミーコンパ,Charmy Compa,01
+49,VALー02,,ドントムーブ,Don't Move,01
+50,CARー12,,ハンドルハンド,Handle Hand,00
+51,RAYー12,,ついびビーム,Tracking Beam,00
+52,NITー12,,ライトアーマー,Right Armor,00
+53,SABー02,,トゲトゲガン,Needle Gun,00
+54,ANBー02,,マキシマソード,Maxima Sword,00
+55,ALMー02,,アルマアブソー,Arma-Hand,00
+56,WATー02,,キャノンシェル,Cannonshell,00
+57,SATー02,,シューター,Shooter,00
+58,HBYー02,,ブラストロッド,Blast Rod,00
+59,JORー02,,プーン,Poom,00
+60,TOTー12,,メガトルレーザー,Megatol Laser,00
+61,GGRー02,,グレドハンマー,Grade Hammer,00
+62,BRAー02,,レイブラスター,Ray Blaster,00
+63,BORー02,,ライトイング,Right-Ing,00
+64,SBLー02,,フラップ,Flap,01
+65,HDGー02,,バーニングピン,Burning Pin,00
+66,JELー02,,インターミサイル,Intermissile,00
+67,MAGー02,,コロビナー,C'mon Trip,00
+68,GNMー02,,おかわリハンド,Extra Hand,01
+69,MRNー12,,スコープハンド,Scope Hand,00
+70,KAPー12,,スイチュウフロー,Underwater Flow,00
+71,MARー12,,メンディング,Mending,01
+72,PENー12,,プットバック,Put Back,01
+73,MNTー02,,アクシデン,Accident,00
+74,FLGー02,,サックザウン,Sack Zound,00
+75,KILー02,,クリンチウェーブ,Clinch Wave,00
+76,KNGー02,,エクスプローズ,Explose,00
+77,SFHー02,,スターネット,Star Net,00
+78,FFYー02,,シャワー,Shower,01
+79,WDNー02,,みがわリハンド,Alternate Hand,01
+80,CRWー02,,サイクロン,Cyclone,00
+81,BEEー02,,ミスタッチ,Mistouch,00
+82,BATー02,,エレクトウェーブ,Electro-Wave,00
+83,PHXー02,,ファイアガン,Fire Gun,00
+84,PLNー02,,スタビライザー,Stabilizer,01
+85,ANGー02,,エンジェルハンド,Angel Hand,01
+86,BERー02,,プレッシャー,Pressure,00
+87,GHTー02,,アボイド,Avoid,00
+88,HNIー02,,ミラー,Mirror,00
+89,DGUー02,,ドウタクー,Bronze Bell,00
+90,SNGー02,,サウンドコピー,Sound Copy,00
+91,DRAー02,,かいふくのみず,Healing Water,00
+92,FLYー02,,エナジーバリア,Energy Barrier,01
+93,WEAー02,,デスボム,Death Bomb,00
+94,COWー02,,サーベル,Sabre,00
+95,SPIー02,,ホイホイトラップ,Fly Trap,00
+96,CLAー02,,ワイヤー,Wire,00
+97,SNAー02,,ウィルス,Virus,00
+98,UNIー02,,キャンセラー,Canceler,00
+99,FLWー02,,ソーラーパワー,Solar Power,00
+100,CMOー02,,インビジハンド,Invisi-Hand,00
+101,KGWー02,,ちゃんばらそーど,Chanbara Sword,00
+102,KBTー02,,リぼるばー,Revolver,00
+103,NINー02,,くない,Kunai,00
+104,KTNー02,,フェンシング,Fencing,00
+105,KINー02,,ライトアクス,Light Axe,00
+106,TANー02,,クルクルナックル,Spin Knuckle,00
+107,SAMー02,,ビームセイバー,Beam Saber,00
+108,DOGー02,,スナイプライフル,Snipe Rifle,00
+109,NTBー02,,アシッドボム,Acid Bomb,00
+110,RBTー02,,ほうねつばん,Heat Sink,00
+111,MONー02,,スカウトハンド,Scout Hand,00
+112,ALIー02,,ミュートハンド,Mute Hand,00
+113,DVLー02,,デビルハンド,Devil Hand,00
+114,SLRー02,,マシンガン,Machine Gun,01
+115,CATー02,,スタンガン,Stun Gun,01
+116,QUNー02,,アイス,Ice,01
+117,NASー02,,ファーストエイド,First Aid,01
+118,KNIー02,,かやくだま,Powder Bomb,01
+119,BNYー02,,ハンドウィップ,Hand Whip,01
+120,CARー02,,タイクーミサイル,AA Missile,00
+121,RAYー02,,ついびレーザー,Tracking Laser,00
+122,COMー02,,ミギビーム,Right Beam,00
+123,PIEー02,,カーニバル,Carnival,00
+124,BMTー02,,バルカン,Vulcan,00
+125,NITー02,,ナイトシールド,Knight Shield,00
+126,BOKー02,,ポイントレーダー,Point Radar,00
+127,INTー02,,チャージ,Charge,00
+128,TOTー02,,ノーマルレーザー,Normal Laser,00
+129,GLMー02,,ホーミング,Homing,00
+130,RICー02,,ブレイカー,Breaker,00
+131,ELFー02,,ライトガード,Right Guard,00
+132,MOGー02,,トラップバスター,Trap Buster,00
+133,EGTー02,,ブラックホール,Black Hole,00
+134,MRNー02,,タイウォーター,VS Water,00
+135,SAKー02,,プラスドライバ,Plus-Driver,00
+136,SHLー02,,ハイスイコー,Drainer,00
+137,KAPー02,,キューリバクダン,Cucumber Bomb,00
+138,MARー02,,キュアハンド,Cure Hand,01
+139,PENー02,,フリーアーム,Free Arm,01
+140,RAPー02,,バブルブロー,Bubble Blow,00
+141,DFLー02,,フレー,Hurray,00
+142,CLBー02,,デコイクラブ,Decoy Krab,00
+143,LHBー02,,メッタキラー,Mettakiller,00
+144,MWBー02,,カミナリオチル,Kaminari Ochiru,00
+145,GDSー02,,コンプリーツ,Completes,01
+146,CMPー02,,ライトゴラン,C-Right,01
+147,KNKー02,,シータケ,Shiitake,00
+148,EGGー02,,ハムレット,Hamlette,00
+149,WFHー02,,コンペンチ,Conpench,00
+150,BAYー02,,パストタッチ,Past Touch,00
+151,BAYー03,,ーーーーーーーー,--------,00
+152,BAYー03,,ーーーーーーーー,--------,01

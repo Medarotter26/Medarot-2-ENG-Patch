@@ -30,6 +30,7 @@ COMMON := $(wildcard $(SRC)/common/*.asm)
 FONT := $(BUILD)/gfx/VWFFont.1bpp
 FONT_WIDTHS := $(BUILD)/gfx/VWFFont.widths
 FIXED_FONT := $(BUILD)/gfx/FixedFont.2bpp
+NARROW_FONT := $(BUILD)/gfx/VWFNarrowFont.1bpp $(BUILD)/gfx/VWFNarrowFont.widths
 DIALOG := $(wildcard text/dialog/*.csv)
 TEXT_OUT := $(BUILD)/text/text_data.asm
 TILEMAPS := $(wildcard text/tilemaps/*.txt)
@@ -66,17 +67,18 @@ $(BUILD)/core/text_engine.o: $(TEXT_OUT)
 $(BUILD)/text/text_data.o: $(TEXT_OUT)
 $(BUILD)/text/ptrlists.o: $(PTRLISTS_OUT)
 $(BUILD)/patch/vwf.o: $(FONT) $(FONT_WIDTHS)
+$(BUILD)/patch/vwf_strings.o: $(NARROW_FONT)
 $(BUILD)/patch/fonts.o: $(FIXED_FONT)
 $(BUILD)/patch/tilemaps.o: $(TILEMAP_OUT)
 $(BUILD)/patch/tilesets.o: $(TILESETS_OUT)
 
-$(FONT) $(FONT_WIDTHS) $(FIXED_FONT): gfx/patch/M3Font.1bpp.png gfx/patch/M1FixedFont.png $(SCRIPT)/build_font.py $(RES)/charmap_en.tbl | $(BUILD)
+$(FONT) $(FONT_WIDTHS) $(FIXED_FONT) $(NARROW_FONT): gfx/patch/M3Font.1bpp.png gfx/patch/M1FixedFont.png gfx/patch/M3NarrowFont.1bpp.png $(SCRIPT)/build_font.py $(RES)/charmap_en.tbl | $(BUILD)
 	$(PYTHON) $(SCRIPT)/build_font.py $< $(ORIGINAL_PREFIX)kuwagata.gbc $(RES)/charmap_en.tbl $(FONT) $(FONT_WIDTHS) $(FIXED_FONT)
 
 $(TEXT_OUT): $(DIALOG) $(FONT_WIDTHS) $(SCRIPT)/build_text.py $(SCRIPT)/textcodec.py $(RES)/charmap_en.tbl
 	$(PYTHON) $(SCRIPT)/build_text.py $(ORIGINAL_PREFIX)kuwagata.gbc text/dialog $(FONT_WIDTHS) $(BUILD)/text $(TEXT_FIRST_BANK) $(TEXT_LAST_BANK)
 
-$(PTRLISTS_OUT): $(PTRLISTS) $(SCRIPT)/build_ptrlists.py $(SCRIPT)/dump_ptrlists.py $(SCRIPT)/textcodec.py $(RES)/charmap_en.tbl
+$(PTRLISTS_OUT): $(FONT_WIDTHS) $(PTRLISTS) $(SCRIPT)/build_ptrlists.py $(SCRIPT)/dump_ptrlists.py $(SCRIPT)/textcodec.py $(RES)/charmap_en.tbl
 	@mkdir -p $(dir $@)
 	$(PYTHON) $(SCRIPT)/build_ptrlists.py $(ORIGINAL_PREFIX)kuwagata.gbc text/ptrlists $@ $(LIST_RELOCATION_BANK)
 

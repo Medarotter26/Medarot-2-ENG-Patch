@@ -92,6 +92,41 @@ for code, ch in charmap.items():
 # Space is the M3 space width
 widths[0x00] = M3_WIDTHS[0x20]
 
+# Narrow font (used for names that would not fit their field otherwise)
+M3_NARROW_WIDTHS = [
+    2, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7,
+    7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 6, 5, 6, 5,
+    2, 1, 3, 5, 4, 5, 5, 2, 2, 2, 3, 5, 2, 4, 1, 4,
+    4, 2, 4, 4, 4, 4, 4, 4, 4, 4, 1, 2, 4, 4, 4, 4,
+    5, 4, 4, 4, 4, 4, 4, 4, 4, 3, 4, 4, 4, 5, 4, 4,
+    4, 4, 4, 4, 5, 4, 5, 5, 5, 5, 4, 2, 4, 2, 3, 4,
+    2, 3, 3, 3, 3, 3, 2, 3, 3, 1, 2, 3, 1, 5, 3, 3,
+    3, 3, 3, 3, 3, 3, 4, 5, 4, 3, 3, 3, 1, 3, 6, 7,
+]
+narrow_im = Image.open(os.path.join(os.path.dirname(m3_png), 'M3NarrowFont.1bpp.png')).convert('L')
+narrow = [list(g) for g in font]
+narrow_widths = list(widths)
+for code, ch in charmap.items():
+    idx = M3_SPECIAL.get(ch, ord(ch) if len(ch) == 1 and 0x20 <= ord(ch) < 0x7F else None)
+    if idx is None:
+        continue
+    gx, gy = (idx % 16) * 8, (idx // 16) * 8
+    rows = []
+    for y in range(8):
+        b = 0
+        for x in range(8):
+            if narrow_im.getpixel((gx + x, gy + y)) < 128:
+                b |= 0x80 >> x
+        rows.append(b)
+    narrow[code], narrow_widths[code] = rows, M3_NARROW_WIDTHS[idx]
+narrow_widths[0x00] = M3_NARROW_WIDTHS[0x20]
+base = os.path.splitext(out_font)[0]
+with open(base.replace('VWFFont', 'VWFNarrowFont') + '.1bpp', 'wb') as f:
+    for g in narrow:
+        f.write(bytes(g))
+with open(base.replace('VWFFont', 'VWFNarrowFont') + '.widths', 'wb') as f:
+    f.write(bytes(narrow_widths))
+
 os.makedirs(os.path.dirname(out_font), exist_ok=True)
 with open(out_font, 'wb') as f:
     for g in font:
