@@ -1,769 +1,769 @@
-Index,Pointer,Original,Translated,DMG
-000,0x4600,セーブしますか?<*04>,Save your game?<*04>,
-001,0x460A,セーブしました!<*04>,Game saved!<*04>,
-002,0x4614,ティンペットをてにいれた!,Got a Tinpet!,
-003,0x4623,あっ!<CR>これいじょう もてないや!<CF>ティンペットをあきらめた!,Oh! I can't carry any more!<CF>Gave up the Tinpet!,
-004,0x4644,<SFF>セレクトボタンで いれかえます<*04>,<SFF>Press the SELECT Button to swap.<*04>,
-005,0x4657,メダロットが<CR>1たいも くまれていません!<CF>メダロットを くんでください,You haven't built a single Medarot!<CF>Please assemble a Medarot.,
-006,0x467D,<@77>みなさん こんにちはー!<*02>,"<@77>Hello, everyone!<*02>",
-007,0x467D,@006,,
-008,0x467D,@006,,
-009,0x467D,@006,,
-00A,0x467D,@006,,
-00B,0x467D,@006,,
-00C,0x467D,@006,,
-00D,0x467D,@006,,
-00E,0x467D,@006,,
-00F,0x467D,@006,,
-010,0x467D,@006,,
-011,0x468D,<@7E>こんにちはー!<*02>,<@7E>Hellooo!<*02>,
-012,0x4698,<@77>「しゅうかんメダロット」のじかんが<CR>やってきましたー!<*02>,"<@77>It's time for ""Weekly Medarot""!<*02>",
-013,0x46B7,<@7D>ねえ ねえ こんしゅうは なに?<*02>,"<@7D>Hey, hey, what's on this week?<*02>",
-014,0x46CB,<@77>あせらないで こんしゅうはね<CR>「メダロットのくみたてこうざ」よ!<*02>,"<@77>Patience! This week it's ""How to Build a Medarot""!<*02>",
-015,0x46EF,<@7E>えっ? ボクたちの?<*02>,<@7E>Huh? Us?<*02>,
-016,0x46FD,<@77>じゃ しらないキミも<CR>しってるキミも<CF>おねーさんといっしょに<CR>ベんきょうしましょ!<*02>,"<@77>So whether you know it already or not,<CF>come study along with me!<*02>",
-017,0x472A,<@7A>それじャ<CR>はじまリ はじまリィ<*02>,<@7A>And now... let's beeegin!<*02>,
-018,0x473D,<@77>これからも「しゅうかんメダロット」を<CR>ヨロシクね♥<*02>,"<@77>Keep watching ""Weekly Medarot""! ♥<*02>",
-019,0x475A,<@7E>え!? もう おわリ!?<*02>,<@7E>Huh!? It's over already!?<*02>,
-01A,0x476A,<@77>それじゃ ばいばーい<*02>,"<@77>Bye-bye, everyone!<*02>",
-01B,0x4778,<@7D>また らいしゅー!<*02>,<@7D>See you next week!<*02>,
-01C,0x4785,<@A0>これから しょくんは<CR>セレクトたいの たいいんとなって<CF>ロボロボだんを<CR>つかまえるのであリますが<CF>ロボロボールの ルールを<CR>きくで あリますか?<*04>,"<@A0>You are now members of the Select Corps!<CF>Your duty is to capture the RoboRobo Gang, sir!<CF>Do you wish to hear the rules of RoboRoball, sir?<*04>",
-01D,0x47D1,<@A1>それでは せつめいするであリます<CF>しょくんは ボールを つかんで<CR>あいてに ぶつけるのであリますが<CF>ぎゃくに ぶつけられたら<CR>まけに なってしまうのであリます<CF>とんできたボールを つかむには<CR>しょくんの てを だすであリます<CF>Aボタンを おすと みぎて<CR>Bボタンを おすと ひだリてで<CF>とんできた ボールを<CR>キャッチ できるであリます<CF>ボールを なげるには もういちど<CR>ボタンを おすであリます<CF>すると おしたほうの てから<CR>ボールを なげるであリます<*02>,"<@A1>Then I shall explain, sir!<CF>Grab the ball and throw it at your opponent!<CF>But if you get hit, you lose, sir!<CF>To catch a flying ball, stick out your hand!<CF>Press A for the right hand, B for the left<CF>to catch a ball that's flying at you!<CF>To throw the ball, press the button again!<CF>The ball will fly from that hand, sir!<*02>",
-01E,0x48B7,<@A2>それでは しょくんの けんとうを<CR>いのるであリます!!,"<@A2>I wish you the best of luck, sir!!",
-01F,0x48D6,<@A1>それでは さっそく<CR>ゲームスタートで あリます!,"<@A1>Now, without further ado... Game start, sir!",
-020,0x48F2,ドドドドドドゥッ!!!<CR>ドガァァァン!!!<CF><CC>ああ!! おれたちの<CR>メダロットが!!<CF><CC>な なによぉ こいつ・・・<CR>いったい なんなのよぉ!<CF><CC>カブトメダロットに こんな<CR>ワザの データは ないぜ!?<CF><CC>ちびるよ<*02>,Dododododoom!!! Kabooom!!!<CF><CC>Aah!! Our Medarots!!<CF><CC>Wh-what IS this thing!?<CF><CC>There's no data on a Kabuto Medarot having a move like that!?<CF><CC>I'm gonna wet myself.<*02>,
-021,0x495E,ザシュウウウゥッ!!!<CR>ドガァァァン!!!<CF><CC>わっ マジ!? なんだよ あれ!<CR>こんな ワザ あリかよ!?<CF><CC>ちょっ・・・ちょっとぉ! なんで<CR>あたしの メダロットが!?<CF><CC>クワガタメダロットに こんな<CR>ワザの データは ないぜ!?<CF><CC>ちびるよ<*02>,"Zashuuuuh!!! Kabooom!!!<CF><CC>Whoa, seriously!? What was that!? Is that move even legal!?<CF><CC>H-hey! Why MY Medarot!?<CF><CC>There's no data on a Kuwagata Medarot having a move like that!?<CF><CC>I'm gonna wet myself.<*02>",
-022,0x49DA,コウジくん<CF><CC>カリン!<CF><CC>あっ!<CR>きみは カリンちゃん<CF><CC>あっ また おあいしましたね<CR><&CB26>・・・くん<CF><CC>なによ <&CB26><CF><CC>いつのまに こんな かわいいこと<CR>しリあいに なったわけ?<*02>,"Koji!<CF><CC>Karin!<CF><CC>Oh! You're Karin!<CF><CC>Oh, we meet again, <&CB26>.<CF><CC>What's this, <&CB26>?<CF><CC>When did you meet such a cute girl?<*02>",
-023,0x4A38,いろどリましょう しょくたくを<CR>みんなでふせごう つまみぐい<CF><CC>じょうおんほぞんで あいをつつみこむ<CR>カレーなるメダロッター<CF><CC>かいとうレトルト<CR>ただいま さんじょう!<CF><CC>あくじあるところ<CR>かいとうレトルトあリだ!<CF><CC>か・・・かっこいい<CF><CC>ヘ・・・ヘンタイロボ<*02>,"Brightening the dinner table, stopping snack thieves for all!<CF><CC>Wrapping love at room temperature, the curry-ageous Medarotter...<CF><CC>Phantom Retort is here!<CF><CC>Wherever there's evil, there's Phantom Retort!<CF><CC>S-so cool...<CF><CC>Wh-what a weirdo robot...<*02>",
-024,0x4ABC,さかせましょう おこめのはな<CF><CC>ちらしましょう アクのはな<CF><CC>てんから まいおリた<CR>びじょメダロッター<CF><CC>かいとうレトルトレディ<CR>ただいま さんじょう!<CF><CC>かぁっこいいー♥<CF><CC>テガラを あせって<CR>しんじつが みえないなんて<CF><CC>ほんとうに おバカさん<*02>,"Let the rice flowers bloom!<CF><CC>Scatter the flowers of evil!<CF><CC>Descended from the heavens, the beautiful Medarotter...<CF><CC>Lady Retort is here!<CF><CC>So coooool! ♥<CF><CC>Rushing for glory, you can't even see the truth.<CF><CC>What a silly boy.<*02>",
-025,0x4B3A,おかえリっ プース・カフェ!!<CF>ボク さみしカッタ<CR>ずっト あいたかったヨ<CF>ねっ いっしょに かえろ?<CF>かえってイイ?<CF>だいじょうぶ!<CR>じいやは わたしが なんとかする<CF>こまったことを してくれましたのぅ<CR>それにしても ひめさまの<CF>うれしそうな かお<CR>まったく どうしたものやら・・・<*02>,"Welcome back, Pousse Café!!<CF>Me was lonely. Me miss you so much.<CF>Hey, come home with me?<CF>Me can come home?<CF>It's okay! I'll handle Jiiya.<CF>What a fine mess you've made. And yet the Princess<CF>looks so happy. What am I to do...<*02>",
-026,0x4BCA,ゴゴゴゴゴオォォォォ・・・・<CF><CC>すごい しょうげきだ! いよいよだな<CR>みんな がんばってくれ!<CF><CC>みんなの ちからを<CR>むだに したくない!<CF><CC>おねがいです<CR>メダロットの かみさま!<*02>,"Rumbllllle...<CF><CC>What an impact! This is it! Everyone, hang in there!<CF><CC>I don't want everyone's effort to go to waste!<CF><CC>Please, Medarot God!<*02>",
-027,0x4C26,ドッゴオオオオオオォォォォン!!<CR>グルゥアアアウゥゥゥゥッ!!<CF><CC>こ これは ビーストマスター!?<CR>いや ちがう このかんじは・・・<CF><CC>すごい いあつかんだ こいつは<CR>ほんとうに メダロットなのか!?<*02>,Kaboooooom!! Grrraaaaagh!!<CF><CC>Is that the Beast Master!? No... this feeling...<CF><CC>What intense pressure! Is this thing really a Medarot!?<*02>,
-028,0x4C8C,ちゅっ♥<CF><CC>あああ! ほんとに<CR>やリやがったっ!<CF><CC>チキショー みせつけやがって!<CR>うらやましいじゃねーかっ!<CF><CC>なに うらやましがってんのよぉっ!<CR>ボカッ!<CF><CC>いてっ!<CF><CC>はじめての ちゅーは どんなあじ?<CF><CC>カガミヤマぁ! あんたもねぇ!<CR>ボカッ!<CF><CC>イ イタイ・・・<*02>,"Smooch! ♥<CF><CC>Aaah! She actually did it!<CF><CC>Dammit, showing off! I'm so jealous!<CF><CC>Why are YOU jealous!? Bonk!<CF><CC>Ow!<CF><CC>How did your first kiss taste?<CF><CC>Kagamiyama! You too!! Bonk!<CF><CC>Th-that hurts...<*02>",
-029,0x4D16,これからも ずっと・・・<CR>そばにいて いいですか?<CF><CC>コウジに たのまれたんだ<CR>カリンちゃんの こと<CF><CC>コウジくんに・・・ですか?<CF><CC>うん でも ぼくは<CR>たのまれたからじゃ なくて<CF><CC>ぼくは ほんとうに カリンちゃんの<CR>そばに いたいって おもうんだ<CF><CC><&CB26>くん・・・<*02>,"Can I... stay by your side from now on?<CF><CC>Koji asked me to look after you, Karin.<CF><CC>Koji did...?<CF><CC>Yeah. But it's not because he asked.<CF><CC>I really want to be by your side, Karin.<CF><CC><&CB26>...<*02>",
-02A,0x4D9F,いろんなことが あったよなぁ<CR>いいことばっかしじゃ なかったけど<CF><CC>でも ぼく ひとリじゃ<CR>きっと なにも できなかったよね<CF><CC>みんな みんな たいせつな<CR>ぼくの ともだち!<CF><CC>ぼくの そばには いつも<CR>なかまが いて<CF><CC>メダロットが いる!<CR>これからも ずっとね!<*02>,"So much has happened... Not all of it was good, though.<CF><CC>But I couldn't have done anything on my own.<CF><CC>Everyone, every one of you, is my precious friend!<CF><CC>I always have my friends by my side...<CF><CC>and my Medarots! Forever and ever!<*02>",
-02B,0x4E26,がっははははははははははははは!!<CF>みなのものに つぐ<CR>このまちは ワシが せんきょした<CF>すベての ものは ワシの<CR>あしもとに ひざまずくのじゃ!<CF>このこえ! ヘベレケはかせ!<CR>なにが どうなってんだ!?<CF>それと・・・ きいておるか!<CR><&CB26>!!<CF>えっ ぼく!?<CF>おぬしの たーいせつな<CR>おんなのこを あずかっとるぞ!<CF>かえして ほしくば・・・<CF>ここまで とリに こーい!<CR>がっはははははははは!<*02>,"Gahahahahahahahahahaha!!<CF>Hear me, all of you! I have taken over this town!<CF>Everyone shall kneel at my feet!<CF>That voice! Dr. Hebereke! What's going on!?<CF>And... are you listening, <&CB26>!?<CF>Huh, me!?<CF>I have your pre-e-cious girl with me!<CF>If you want her back...<CF>come and get her! Gahahahahahaha!<*02>",
-02C,0x4EEE,パーツてんそうを しゅうリょうします<CR>ごリよう あリがとうございました<*02>,Parts transfer complete. Thank you for using our service.<*02>,
-02D,0x4EEE,@02C,,
-02E,0x4EEE,@02C,,
-02F,0x4EEE,@02C,,
-030,0x4EEE,@02C,,
-031,0x4F13,この パスワードを<CR>あいてに にゅうリゅく してください<*02>,Please have your friend enter this password.<*02>,
-032,0x4F31,あいてから もらった パスワードを<CR>にゅうリゅく してください<*04>,Enter the password from your friend.<*04>,
-033,0x4F52,パスワードによる パーツの<CR>てんそうを おこないますか?<*04>,Transfer parts by password?<*04>,
-034,0x4F70,それでは パーツを ふやす ひとと<CR>わたす ひとを きめてください<CF>パーツの うけわたしが おわるまで<CR>でんげんは きらないでください<CF>パーツを ふやすと<CR>フレンドポイントが 1つ ヘリます<CF>パーツを ふやしますか?<CR>パーツを わたしますか?<*04>,First decide who gets parts and who gives them.<CF>Don't turn off the power until the transfer is done.<CF>Copying parts uses up 1 Friend Point.<CF>Receive parts? Or give parts?<*04>,
-035,0x4FEB,4もじの パスワードを あいての<CR>ゲームボーイに うちこんでください<CF>すると あいてから 6もじの<CR>パスワードが かえってきます<*02>,Have your friend enter this 4-digit password.<CF>You'll then get a 6-digit password back.<*02>,
-036,0x502D,かえってきた パスワードを<CR>にゅうリょく してください<*04>,Enter the password you got back.<*04>,
-037,0x504A,<&CB26>は <&CCA9>パーツ<CR>「<&CC9E>」を てにいれた<CF>あいての ゲームボーイも<CR>ショップに もどしてください<*02>,"<&CB26> got the <&CCA9> part ""<&CC9E>""!<CF>Return your friend's Game Boy to the shop too.<*02>",
-038,0x5080,<&CB26>は <&CCA9>パーツ<CR>「<&CC9E>」を てにいれた<CF>ボタンを おすと<CR>ショップに もどリます<*02>,"<&CB26> got the <&CCA9> part ""<&CC9E>""!<CF>Press a button to return to the shop.<*02>",
-039,0x50AF,パスワードが まちがっています<CR>にゅうリょく しなおしてください<*04>,Wrong password. Please enter it again.<*04>,
-03A,0x50D1,あなたの もっているパーツを 1つ<CR>あいての メダロッチに ふやします<CF>あいてから パスワードを うけとって<CR>ただしく にゅうリょくしてください<*04>,Copy 1 of your parts to your friend's Medarotch.<CF>Get a password from your friend and enter it.<*04>,
-03B,0x511B,パスワードを<CR>にゅうリょく してください,Please enter the password.,
-03C,0x5131,フレンドポイントが あリません<*02>,You have no Friend Points.<*02>,
-03D,0x5142,このパーツで よろしいですか?<*04>,Is this part okay?<*04>,
-03E,0x5153,もういちど えらびなおしてください<*04>,Please choose again.<*04>,
-03F,0x5166,この パスワードを あいての<CR>ゲームボーイに うちこんでください<*02>,Enter this password into your friend's Game Boy.<*02>,
-040,0x5188,これいじょう もてません!<*02>,You can't carry any more!<*02>,
-041,0x5197,この パスワードは むこうです<CR>にゅうリょく しなおしてください<*04>,This password is invalid. Please enter it again.<*04>,
-042,0x51B9,いらっしゃい<CR>ペイントショップだよ<*04>,Welcome to the Paint Shop!<*04>,
-043,0x51CC,ペイントするには<CR>100円 かかるんだよ<*02>,Painting costs 100 yen.<*02>,
-044,0x51E2,ペイントした メダロット<CR>もってないじゃん!<*02>,You don't have any painted Medarots!<*02>,
-045,0x51FA,いろをかえたい メダロットを<CR>えらんでね<*02>,Choose a Medarot to recolor.<*02>,
-046,0x5210,いろをもどす メダロットを<CR>えらんでね<*02>,Choose a Medarot to restore.<*02>,
-047,0x5225,この メダロットのいろを<CR>もとにもどしても いいかい?<*04>,Restore this Medarot's original color?<*04>,
-048,0x5242,ペイントするかい?<CR>いろをえらんでね<*04>,Want it painted? Pick a color!<*04>,
-049,0x5256,このいろで いいかい?<*04>,This color okay?<*04>,
-04A,0x5263,100円 かかるけど<CR>いいかい?<*04>,It'll cost 100 yen. Okay?<*04>,
-04B,0x5275,うん! かっこよくなったね!<*02>,Yeah! It looks so cool!<*02>,
-04C,0x5285,ここでは メダロットのいろを<CR>ヘんこうすることが できるんだ<CF>ふつうなら あたまパーツを かえると<CR>メダロットのいろも かわるんだけど<CF>ここで ペイントした メダロットは<CR>どんな パーツをつけても<CF>きみが えらんだ いろになるんだ!<CF>たとえ ティンペットだって<CR>そのいろに なっちゃう!<CF><*04>,"Here you can change a Medarot's color.<CF>Usually its color changes when you swap the head part,<CF>but a Medarot painted here, whatever parts it has,<CF>stays the color you chose!<CF>Even a bare Tinpet turns that color!<CF><*04>",
-04D,0x5317,もっている メダロットを<CR>ぜんぶ おなじ いろにしたリ・・・<CF>メダロットの タイプによって<CR>じぶんで いろわけしたリ・・・<CF>たったの 100円で<CR>いろいろ たのしめるんだ!<CF>もとに もどしたかったら いつでも<CR>タダで やってあげるからね<CF>じぶんだけの オリジナルな<CR>メダロットチームを つくリなよ!<*02>,"Paint all your Medarots the same color...<CF>or color-code them by type...<CF>For just 100 yen, there's tons of fun!<CF>If you want the old colors back, I'll do it for free.<CF>Make your very own original Medarot team!<*02>",
-04E,0x53AE,ゲームボーイカラーで ためしてね<*02>,Try it on a Game Boy Color!<*02>,
-04F,0x53C0,なんの ようだい?<*04>,What can I do for you?<*04>,
-050,0x53CB,<SFF>「ソード」「ハンマー」<CR>かくとう こうげき パーツが とくい<*04>,"<SFF>Good with melee attack parts like ""Sword"" and ""Hammer"".<*04>","<SFF>Good with melee: Sword, Hammer.<*04>"
-051,0x53ED,<SFF>「ライフル」「ガトリング」<CR>しゃげき こうげき パーツが とくい<*04>,"<SFF>Good with shooting parts like ""Rifle"" and ""Gatling"".<*04>","<SFF>Good with shots: Rifle, Gatling.<*04>"
-052,0x5411,<SFF>「レーザー」「ビーム」<CR>いリょくの たかい パーツが とくい<*04>,"<SFF>Good with high-power parts like ""Laser"" and ""Beam"".<*04>","<SFF>Good with power: Laser, Beam.<*04>"
-053,0x5433,<SFF>「ミサイル」「ナパーム」<CR>かんつうする パーツが とくい<*04>,"<SFF>Good with piercing parts like ""Missile"" and ""Napalm"".<*04>","<SFF>Good with pierce: Missile, Napalm.<*04>"
-054,0x5453,<SFF>「ブレイク」「プレス」<CR>せいこうの たかい パーツが とくい<*04>,"<SFF>Good with high-success parts like ""Break"" and ""Press"".<*04>","<SFF>Good with success: Break, Press.<*04>"
-055,0x5475,<SFF>「トラップ」「こうげきブロック」<CR>こうげきを ふせぐ パーツが とくい<*04>,"<SFF>Good with blocking parts like ""Trap"" and ""Attack Block"".<*04>","<SFF>Good with blocks: Trap, Atk Block.<*04>"
-056,0x549C,<SFF>「バグ」「ウィルス」<CR>せいのうを さげる パーツが とくい<*04>,"<SFF>Good with weakening parts like ""Bug"" and ""Virus"".<*04>","<SFF>Good at weakening: Bug, Virus.<*04>"
-057,0x54BD,<SFF>「サンダー」「フリーズ」<CR>うごきを とめる パーツが とくい<*04>,"<SFF>Good with stopping parts like ""Thunder"" and ""Freeze"".<*04>","<SFF>Good at stopping: Thunder, Freeze.<*04>"
-058,0x54DF,<SFF>「ウェーブ」「ホールド」<CR>そくどを さげる パーツが とくい<*04>,"<SFF>Good with parts that lower speed, like ""Wave"" and ""Hold"".<*04>","<SFF>Good at slowing: Wave, Hold.<*04>"
-059,0x5501,<SFF>「ファイヤー」「メルト」<CR>けいぞくダメージの パーツが とくい<*04>,"<SFF>Good with lasting-damage parts like ""Fire"" and ""Melt"".<*04>","<SFF>Good with burns: Fire, Melt.<*04>"
-05A,0x5524,<SFF>「トラップ」や「しょうじょう」を<CR>かいじょする パーツが とくい<*04>,<SFF>Good with parts that cancel traps and status ailments.<*04>,<SFF>Good with Trap and Status Cancel.<*04>
-05B,0x5548,<SFF>「レーザー」などの しゃげきを<CR>むこうにする パーツが とくい<*04>,"<SFF>Good with parts that negate shots like ""Laser"".<*04>",<SFF>Good at negating shots like Laser.<*04>
-05C,0x556B,<SFF>「シールド」や「バリア」などの<CR>ダメージを ふせぐ パーツが とくい<*04>,"<SFF>Good with defensive parts like ""Shield"" and ""Barrier"".<*04>","<SFF>Good with defense: Shield, Barrier.<*04>"
-05D,0x5591,<SFF>「かいふく」「けいぞく かいふく」<CR>かいふくさせる パーツが とくい<*04>,"<SFF>Good with healing parts like ""Repair"" and ""Auto-Repair"".<*04>",<SFF>Good with healing like Repair.<*04>
-05E,0x55B7,<SFF>「ふっかつ」「そせい」<CR>ふっかつさせる パーツが とくい<*04>,"<SFF>Good with reviving parts like ""Revive"" and ""Resurrect"".<*04>",<SFF>Good with revival like Resurrect.<*04>
-05F,0x55D7,<SFF>「たいくう こうげき」<CR>ひこうを ねらう パーツが とくい<*04>,"<SFF>Good with ""Anti-Air"" parts that target Flying Medarots.<*04>",<SFF>Good with Anti-Air parts vs. Flying.<*04>
-060,0x55F8,<SFF>「たいすい こうげき」<CR>せんすいを ねらう パーツが とくい<*04>,"<SFF>Good with ""Anti-Sea"" parts aimed at Aquatic Medarots.<*04>",<SFF>Good with Anti-Sea vs. Aquatic.<*04>
-061,0x561A,<SFF>「さくてき」「いんペい クリア」<CR>こうげきを あてる パーツが とくい<*04>,"<SFF>Good with accuracy parts like ""Scan"" and ""Conceal Clear"".<*04>",<SFF>Good with accuracy like Scan.<*04>
-062,0x5641,<SFF>「いんペい」「さくてき クリア」<CR>こうげきを よける パーツが とくい<*04>,"<SFF>Good with evasion parts like ""Conceal"" and ""Scan Clear"".<*04>",<SFF>Good with evasion like Conceal.<*04>
-063,0x5668,<SFF>「じゅうてん」や「てんとう」などの<CR>じかんを あやつる パーツが とくい<*04>,"<SFF>Good with parts that control time, like ""Charge"" and ""Trip"".<*04>","<SFF>Good with timing: Charge, Trip.<*04>"
-064,0x5690,<SFF>「しようふのう」や「こんらん」などの<CR>てきを ふうじる パーツが とくい<*04>,"<SFF>Good with sealing parts like ""Disable"" and ""Confuse"".<*04>","<SFF>Good with sealing: Disable, Confuse.<*04>"
-065,0x56B8,<SFF>「デストロイ」「サクリファイス」<CR>てきを はかいする パーツが とくい<*04>,"<SFF>Good with foe-destroying parts like ""Destroy"" and ""Sacrifice"".<*04>",<SFF>Good with Destroy and Sacrifice.<*04>
-066,0x56DF,<SFF>「メダフォース アップ」などの<CR>メダフォースヘんか パーツが とくい<*04>,"<SFF>Good with Medaforce-changing parts like ""Medaforce Up"".<*04>",<SFF>Fits Medaforce Up and Down parts.<*04>
-067,0x5705,<SFF>「クロスこうげき セットオン」などの<CR>がったいこうげきの パーツが とくい<*04>,"<SFF>Good with combined attacks like ""Cross Attack Set On"".<*04>",<SFF>Good with combos: Cross Attack.<*04>
-068,0x572E,<SFF>「はんげき」や「はんしゃ」などの<CR>こうげきを かえす パーツが とくい<*04>,"<SFF>Good with counterattack parts like ""Counter"" and ""Reflect"".<*04>",<SFF>Good with Counter and Reflect.<*04>
-069,0x5755,<SFF>「パーツ ヘんか」などの<CR>ヘんかする パーツが とくい<*04>,"<SFF>Good with transforming parts like ""Part Transform"".<*04>",<SFF>Good with Part Transform.<*04>
-06A,0x5774,<SFF>ぜんたい バランスの よい メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>A well-balanced Medal overall. No parts match it well.<*04>,<SFF>Well-balanced. No parts match.<*04>
-06B,0x579B,<SFF>マークのない ふしぎな メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>A mysterious Medal with no mark. No parts match it well.<*04>,<SFF>Mystery Medal. No parts match.<*04>
-06C,0x57C0,<SFF>セレクトたいが つくった メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>A Medal made by the Select Corps. No parts match it well.<*04>,<SFF>By Select Corps. No parts match.<*04>
-06D,0x57E6,<SFF>ロボロボだんが つくった メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>A Medal made by the RoboRobo Gang. No parts match it well.<*04>,<SFF>By RoboRobo Gang. No parts match.<*04>
-06E,0x580C,<SFF>ホケタ チイさんが つくった メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>A Medal made by Mr. Hoketa Chii. No parts match it well.<*04>,<SFF>By Hoketa Chii. No parts match.<*04>
-06F,0x5834,<SFF>「はてな」の しんせきの メダル<CR>あいしょうの よい パーツは ない<*04>,"<SFF>A Medal related to the ""?"" Medal. No parts match it well.<*04>","<SFF>Akin to ""?"" Medal. No parts match.<*04>"
-070,0x585A,これで まちの つながリが わかるぞ,Now I know how the towns connect!,
-071,0x585A,@070,,
-072,0x585A,@070,,
-073,0x585A,@070,,
-074,0x585A,@070,,
-075,0x585A,@070,,
-076,0x585A,@070,,
-077,0x585A,@070,,
-078,0x585A,@070,,
-079,0x585A,@070,,
-07A,0x585A,@070,,
-07B,0x585A,@070,,
-07C,0x585A,@070,,
-07D,0x585A,@070,,
-07E,0x585A,@070,,
-07F,0x585A,@070,,
-080,0x585A,@070,,
-081,0x585A,@070,,
-082,0x585A,@070,,
-083,0x585A,@070,,
-084,0x585A,@070,,
-085,0x585A,@070,,
-086,0x585A,@070,,
-087,0x585A,@070,,
-088,0x585A,@070,,
-089,0x585A,@070,,
-08A,0x585A,@070,,
-08B,0x585A,@070,,
-08C,0x585A,@070,,
-08D,0x585A,@070,,
-08E,0x585A,@070,,
-08F,0x585A,@070,,
-090,0x585A,@070,,
-091,0x585A,@070,,
-092,0x585A,@070,,
-093,0x585A,@070,,
-094,0x585A,@070,,
-095,0x585A,@070,,
-096,0x585A,@070,,
-097,0x585A,@070,,
-098,0x585A,@070,,
-099,0x585A,@070,,
-09A,0x585A,@070,,
-09B,0x585A,@070,,
-09C,0x585A,@070,,
-09D,0x585A,@070,,
-09E,0x585A,@070,,
-09F,0x585A,@070,,
-0A0,0x585A,@070,,
-0A1,0x585A,@070,,
-0A2,0x585A,@070,,
-0A3,0x585A,@070,,
-0A4,0x585A,@070,,
-0A5,0x585A,@070,,
-0A6,0x585A,@070,,
-0A7,0x585A,@070,,
-0A8,0x585A,@070,,
-0A9,0x585A,@070,,
-0AA,0x585A,@070,,
-0AB,0x585A,@070,,
-0AC,0x585A,@070,,
-0AD,0x585A,@070,,
-0AE,0x585A,@070,,
-0AF,0x585A,@070,,
-0B0,0x585A,@070,,
-0B1,0x585A,@070,,
-0B2,0x585A,@070,,
-0B3,0x585A,@070,,
-0B4,0x585A,@070,,
-0B5,0x585A,@070,,
-0B6,0x585A,@070,,
-0B7,0x585A,@070,,
-0B8,0x585A,@070,,
-0B9,0x585A,@070,,
-0BA,0x585A,@070,,
-0BB,0x585A,@070,,
-0BC,0x585A,@070,,
-0BD,0x585A,@070,,
-0BE,0x585A,@070,,
-0BF,0x585A,@070,,
-0C0,0x585A,@070,,
-0C1,0x585A,@070,,
-0C2,0x585A,@070,,
-0C3,0x585A,@070,,
-0C4,0x585A,@070,,
-0C5,0x585A,@070,,
-0C6,0x585A,@070,,
-0C7,0x585A,@070,,
-0C8,0x585A,@070,,
-0C9,0x585A,@070,,
-0CA,0x585A,@070,,
-0CB,0x585A,@070,,
-0CC,0x585A,@070,,
-0CD,0x585A,@070,,
-0CE,0x585A,@070,,
-0CF,0x585A,@070,,
-0D0,0x585A,@070,,
-0D1,0x585A,@070,,
-0D2,0x585A,@070,,
-0D3,0x585A,@070,,
-0D4,0x585A,@070,,
-0D5,0x585A,@070,,
-0D6,0x585A,@070,,
-0D7,0x585A,@070,,
-0D8,0x585A,@070,,
-0D9,0x585A,@070,,
-0DA,0x585A,@070,,
-0DB,0x585A,@070,,
-0DC,0x585A,@070,,
-0DD,0x585A,@070,,
-0DE,0x585A,@070,,
-0DF,0x585A,@070,,
-0E0,0x585A,@070,,
-0E1,0x585A,@070,,
-0E2,0x585A,@070,,
-0E3,0x585A,@070,,
-0E4,0x585A,@070,,
-0E5,0x585A,@070,,
-0E6,0x585A,@070,,
-0E7,0x585A,@070,,
-0E8,0x585A,@070,,
-0E9,0x585A,@070,,
-0EA,0x585A,@070,,
-0EB,0x585A,@070,,
-0EC,0x585A,@070,,
-0ED,0x585A,@070,,
-0EE,0x585A,@070,,
-0EF,0x585A,@070,,
-0F0,0x585A,@070,,
-0F1,0x585A,@070,,
-0F2,0x585A,@070,,
-0F3,0x585A,@070,,
-0F4,0x585A,@070,,
-0F5,0x585A,@070,,
-0F6,0x585A,@070,,
-0F7,0x585A,@070,,
-0F8,0x585A,@070,,
-0F9,0x585A,@070,,
-0FA,0x585A,@070,,
-0FB,0x585A,@070,,
-0FC,0x585A,@070,,
-0FD,0x585A,@070,,
-0FE,0x585A,@070,,
-0FF,0x585A,@070,,
-100,0x585A,@070,,
-101,0x586E,ヘんしんグッズ その1<CR>フリルのひらひら ミニスカート,"Dress-up item #1. A frilly, fluttery miniskirt.",
-102,0x588B,ママに つくってもらった おベんとう<CR>とっても おいしいよ♥,A boxed lunch Mom made for me. It's super tasty! ♥,
-103,0x58AB,カンちゃんと ナツコさんを<CR>つなぐ こころの かけはしだ,A bridge between the hearts of Kan-chan and Natsuko.,
-104,0x58C9,ちょっと なおせば<CR>つかえそうな パーツ,Parts that look usable if you fix them up a little.,
-105,0x58DF,ヘんしんグッズ その2<CR>おんなのこの きもの,Dress-up item #2. A girl's kimono.,
-106,0x58F7,メダロッとうの マスコット<CR>かわいい ラピの ぬいぐるみ♥,Medarot Island's mascot. A cute Rappy plushie! ♥,
-107,0x5916,メダロッとうに いくふねに<CR>のるための チケット,A ticket for the ship that goes to Medarot Island.,
-108,0x5930,おんなのこが ロボロボだんに<CR>とられた メダル,A Medal the RoboRobo Gang took from a girl.,
-109,0x5949,つめたくて おいしそう♥,Ice-cold and tasty-looking! ♥,
-10A,0x5957,びように いい<CR>さいきんは おとこのひとにも にんき,Good for your beauty. Lately it's popular with men too.,
-10B,0x5973,メダロットたちの だいこうぶつ<CR>こうきゅう オイル,A luxury oil that Medarots absolutely love.,
-10C,0x598E,ヘんしんグッズ その3<CR>リリしい ゆうしゃに ヘんしん!,Dress-up item #3. Transform into a gallant hero!,
-10D,0x59AC,ヘんしんグッズ その4<CR>かわいい プリンセスに ヘんしん!,Dress-up item #4. Transform into a cute princess!,
-10E,0x59CB,カメラに とリつけて つかうレンズ<CR>アリカが よろこびそうだ,A lens you attach to a camera. Arika would love this.,
-10F,0x59EB,かわいい ハムスター<CR>カリンちゃんが すきそうだ,A cute hamster. Karin would probably love it.,
-110,0x5A05,カリンちゃんが<CR>かくしどリ されている しゃしん,A photo of Karin that was taken in secret.,
-111,0x5A1F,これがあれば メダロットしゃの<CR>ひみつのばしょに はいれる,Lets you into a secret place at the Medarot Company.,
-112,0x5A3E,メダロット「ランドローター」で<CR>まちを かっとばす!,"Zoom around town in the Medarot ""Landrotor""!",
-113,0x5A5A,ヘんしんグッズ その5<CR>ロボロボだんに はやがわリ!,Dress-up item #5. Quick-change into a RoboRobo Gang member!,
-114,0x5A76,はなぞのがくえん 2かいの<CR>いちばんひだリの クラスのカギ,Key to Hanazono Academy's 2nd-floor far-left classroom.,
-115,0x5A95,はなぞのがくえん 2かいの<CR>まんなかの クラスのカギ,Key to Hanazono Academy's 2nd-floor middle classroom.,
-116,0x5AB1,はなぞのがくえんの<CR>がくえんちょうしつの カギだ,The key to the principal's office at Hanazono Academy.,
-117,0x5ACB,これがあれば ロボロボだんの<CR>ひみつのしゅうかいじょうに いける!,Lets you get into the RoboRobo Gang's secret meeting place!,
-118,0x5AEE,「あなたの マルガリータ♥」って<CR>かいている しゃしんいリの ロケット,"A photo locket inscribed ""Your Margarita ♥"".",
-119,0x5B13,メダロット「レディブースター」で<CR>まちを ひとっとび!,"Fly across town in the Medarot ""LadyBooster""!",
-11A,0x5B30,ビタミン たっぷリ!<CR>しんせんな レモン,Full of vitamins! A fresh lemon.,
-11B,0x5B46,レモンが でんちに はやがわリ!,The lemon has turned into a battery!,
-11C,0x5B58,アワモリたいちょうが あわてている<CR>かっこわるい しゃしん,A really uncool photo of Captain Awamori panicking.,
-11D,0x5B77,キラキラかがやく ふしぎな<CR>ちからを もった いし,"A mysterious, sparkling stone with strange powers.",
-11E,0x5B92,ロボロボだん ようちえんかんぶ<CR>サラミからの ちょうせんじょう,"A challenge letter from Sarami, the kindergarten executive.",
-11F,0x5BB3,きかいずきの イワノイのもの<CR>これで イワノイと つうしんできる,Belongs to machine-loving Iwanoi. Use it to talk with him.,
-120,0x5BD5,とびらを あけるために ひつような<CR>キーワードが はいっている,Contains a keyword needed to open the door.,
-121,0x5BF6,とびらを あけるために ひつような<CR>キーワードが はいっている,Contains a keyword needed to open the door.,
-122,0x5C17,とびらを あけるために ひつような<CR>キーワードが はいっている,Contains a keyword needed to open the door.,
-123,0x5C38,とびらを あけるために ひつような<CR>キーワードが はいっている,Contains a keyword needed to open the door.,
-124,0x5C59,さびているけど<CR>ちょっとなおせば つかえそうだ,"It's rusty, but it looks usable if you fix it up a little.",
-125,0x5C72,ベルトコンベアーの スイッチ,The switch for a conveyor belt.,
-126,0x5C82,メダロット「クリアダイビング」で<CR>みずのなかを スーイスイ!,"Swim through the water in the Medarot ""Clear Diving""!",
-127,0x5CA2,ヘんしんグッズ その6<CR>うさぎちゃんに ヘんしん♥,Dress-up item #6. Transform into a bunny! ♥,
-128,0x5CBD,ヘんしんグッズ その7<CR>ソルティと おそろいの いぬになれる,Dress-up item #7. Become a dog that matches Salty!,
-129,0x5CDD,これは とても<CR>つかいものに ならない・・・,This is totally useless...,
-12A,0x5CF5,せんとういん カワムラーさんじょう!<CR>・・・って かいてある,"It says, ""Grunt Kawamuller has arrived!""",
-12B,0x5D15,カリンちゃんの メダル<CR>はやく かえしにいこう!,Karin's Medal. I should hurry and give it back!,
-12C,0x5D2F,パーツンラリーに<CR>さんかするための バッジ,A badge for taking part in the Partsun Rally.,
-12D,0x5D46,にんきの ルアー<CR>あんごう1「ぱ」って かかれてる,"A popular lure. Code 1, ""PA"", is written on it.",
-12E,0x5D61,なかには<CR>あんごう2「ち」が はいっている,"Inside, there's Code 2: ""CHI"".",
-12F,0x5D78,きれいな ももいろの はな<CR>あんごう3「ろ」って かいてある,"A pretty pink flower. Code 3, ""RO"", is written on it.",
-130,0x5D98,ほるま リんの サインと<CR>あんごう4「う」が かかれてる,"Rin Horuma's autograph, with Code 4, ""U"", written on it.",
-131,0x5DB6,とても めずらしい メダロッチ<CR>ケースから だしてない,"A very rare Medarotch, never taken out of its case!",
-132,0x5DD3,これをつかうと せんとうから<CR>にげだせるんだ なんでだろ?,Use this to escape from battle. I wonder why it works?,
-133,0x5DF2,ちいさな ひかリで<CR>まっくらやみを てらす,A little light that brightens pitch darkness.,
-134,0x5E09,メダロット1から 1チームを<CR>てんそうできる すごいチケット,An amazing ticket that sends 1 team from Medarot 1.,
-135,0x5E29,おともだちに<CR>1パーツを プレゼントできる けん,A coupon that lets you give 1 part to a friend as a present.,
-136,0x5E43,サケカースに うばわれた メダル<CR>はやく かえして あげなきゃね,The Medal Sakekaasu stole. I need to hurry and give it back!,
-137,0x5E65,ショップで ポイントを ヘらすと<CR>おともだちから パーツを もらえる,Spend these at a shop to get parts from your friends.,
-138,0x5E89,<SFF>ソード こうげき<CR>ノーマルな かくとうこうげき<*04>,<SFF>Sword Attack: A normal melee attack.<*04>,<SFF>Sword: A normal melee attack.<*04>
-139,0x5E89,@138,,
-13A,0x5E89,@138,,
-13B,0x5E89,@138,,
-13C,0x5E89,@138,,
-13D,0x5E89,@138,,
-13E,0x5E89,@138,,
-13F,0x5E89,@138,,
-140,0x5E89,@138,,
-141,0x5EA4,<SFF>ハンマー こうげき<CR>ノーマルな かくとうこうげき<*04>,<SFF>Hammer Attack: A normal melee attack.<*04>,<SFF>Hammer: A normal melee attack.<*04>
-142,0x5EC0,<SFF>ライフル こうげき<CR>ノーマルな しゃげきこうげき<*04>,<SFF>Rifle Attack: A normal shooting attack.<*04>,<SFF>Rifle: A normal shooting attack.<*04>
-143,0x5EDC,<SFF>ガトリング こうげき<CR>ノーマルな しゃげきこうげき<*04>,<SFF>Gatling Attack: A normal shooting attack.<*04>,<SFF>Gatling: A normal shooting attack.<*04>
-144,0x5EF9,<SFF>レーザー こうげき<CR>いリょくが 2ばいになる<*04>,<SFF>Laser Attack: Doubles the attack's power.<*04>,<SFF>Laser: Doubles attack power.<*04>
-145,0x5F13,<SFF>ビーム こうげき<CR>いリょくが 2ばいになる<*04>,<SFF>Beam Attack: Doubles the attack's power.<*04>,<SFF>Beam: Doubles attack power.<*04>
-146,0x5F2C,<SFF>ミサイル こうげき<CR>ランダムヒットと かんつうダメージ<*04>,<SFF>Missile Attack: Random hits with piercing damage.<*04>,<SFF>Missile: Random piercing hits.<*04>
-147,0x5F4B,<SFF>ナパーム こうげき<CR>ランダムヒットと かんつうダメージ<*04>,<SFF>Napalm Attack: Random hits with piercing damage.<*04>,<SFF>Napalm: Random piercing hits.<*04>
-148,0x5F6A,<SFF>ブレイク こうげき<CR>せいこうが 2ばいになる<*04>,<SFF>Break Attack: Doubles the success rate.<*04>,<SFF>Break: Doubles success rate.<*04>
-149,0x5F84,<SFF>プレス こうげき<CR>せいこうが 2ばいになる<*04>,<SFF>Press Attack: Doubles the success rate.<*04>,<SFF>Press: Doubles success rate.<*04>
-14A,0x5F9D,<SFF>かくとう トラップ<CR>「かくとうこうげき」に ダメージ<*04>,"<SFF>Fight Trap: Deals damage to ""melee attacks"".<*04>",<SFF>Fight Trap: Hurts melee attackers.<*04>
-14B,0x5FBB,<SFF>しゃげき トラップ<CR>「しゃげきこうげき」に ダメージ<*04>,"<SFF>Shoot Trap: Deals damage to ""shooting attacks"".<*04>",<SFF>Shoot Trap: Hurts shooters.<*04>
-14C,0x5FD9,<SFF>こうげき ブロック<CR>どんなこうげきも 1かいだけ ふせぐ<*04>,"<SFF>Attack Block: Blocks any attack, but only once.<*04>",<SFF>Blocks any attack once.<*04>
-14D,0x5FF9,<SFF>バグ こうげき<CR>こうげきの せいこうリつを さげる<*04>,<SFF>Bug Attack: Lowers the success rate of attacks.<*04>,<SFF>Bug: Lowers attack success rate.<*04>
-14E,0x6016,<SFF>ウィルス こうげき<CR>こうげきの せいこうリつを さげる<*04>,<SFF>Virus Attack: Lowers the success rate of attacks.<*04>,<SFF>Lowers attack success rate.<*04>
-14F,0x6035,<SFF>サンダー こうげき<CR>あいての うごきを ストップさせる<*04>,<SFF>Thunder Attack: Stops the enemy's movements.<*04>,<SFF>Thunder: Stops enemy movement.<*04>
-150,0x6054,<SFF>フリーズ こうげき<CR>あいての うごきを ストップさせる<*04>,<SFF>Freeze Attack: Stops the enemy's movements.<*04>,<SFF>Freeze: Stops enemy movement.<*04>
-151,0x6073,<SFF>ウェーブ こうげき<CR>じゅんびじかんを ながくする<*04>,<SFF>Wave Attack: Lengthens the preparation time.<*04>,<SFF>Wave: Lengthens prep time.<*04>
-152,0x608F,<SFF>ホールド こうげき<CR>じゅんびじかんを ながくする<*04>,<SFF>Hold Attack: Lengthens the preparation time.<*04>,<SFF>Hold: Lengthens prep time.<*04>
-153,0x60AB,<SFF>ファイヤー こうげき<CR>じゅんびちゅうも ダメージをあたえる<*04>,<SFF>Fire Attack: Deals damage even during preparation.<*04>,<SFF>Fire: Damages even during prep.<*04>
-154,0x60CC,<SFF>メルト こうげき<CR>じゅんびちゅうも ダメージをあたえる<*04>,<SFF>Melt Attack: Deals damage even during preparation.<*04>,<SFF>Melt: Damages even during prep.<*04>
-155,0x60EB,<SFF>トラップ かいじょ<CR>「トラップ」を はかいする<*04>,"<SFF>Trap Cancel: Destroys ""Traps"".<*04>",
-156,0x6106,<SFF>しょうじょう かいじょ<CR>すベての しょうじょうを かいじょ<*04>,<SFF>Status Cancel: Cancels all status ailments.<*04>,<SFF>Cancels all status ailments.<*04>
-157,0x6127,<SFF>ヘんどう かいじょ<CR>「バグ」「ウィルス」を かいじょ<*04>,"<SFF>Flux Cancel: Cancels ""Bug"" and ""Virus"".<*04>","<SFF>Cancels ""Bug"" and ""Virus"".<*04>"
-158,0x6145,<SFF>ていし かいじょ<CR>「サンダー」「フリーズ」を かいじょ<*04>,"<SFF>Stop Cancel: Cancels ""Thunder"" and ""Freeze"".<*04>","<SFF>Cancels ""Thunder"" and ""Freeze"".<*04>"
-159,0x6164,<SFF>そくばく かいじょ<CR>「ホールド」「ウェーブ」を かいじょ<*04>,"<SFF>Bind Cancel: Cancels ""Hold"" and ""Wave"".<*04>","<SFF>Cancels ""Hold"" and ""Wave"".<*04>"
-15A,0x6184,<SFF>けいぞく かいじょ<CR>「メルト」「ファイヤー」を かいじょ<*04>,"<SFF>Burn Cancel: Cancels ""Melt"" and ""Fire"".<*04>","<SFF>Cancels ""Melt"" and ""Fire"".<*04>"
-15B,0x61A4,<SFF>メダフォース コントロール<CR>「メダフォース」を つかえなくする<*04>,"<SFF>Medaforce Control: Makes ""Medaforce"" unusable.<*04>","<SFF>Makes ""Medaforce"" unusable.<*04>"
-15C,0x61C7,<SFF>こうがく むこう<CR>「レーザー」「ビーム」を ブロック<*04>,"<SFF>Negate Optical: Blocks ""Laser"" and ""Beam"".<*04>","<SFF>Blocks ""Laser"" and ""Beam"".<*04>"
-15D,0x61E5,<SFF>かやく むこう<CR>「ミサイル」「ナパーム」を ブロック<*04>,"<SFF>Negate Explosive: Blocks ""Missile"" and ""Napalm"".<*04>","<SFF>Blocks ""Missile"" and ""Napalm"".<*04>"
-15E,0x6203,<SFF>じゅうリょく むこう<CR>「ブレイク」「プレス」を ブロック<*04>,"<SFF>Negate Gravity: Blocks ""Break"" and ""Press"".<*04>","<SFF>Blocks ""Break"" and ""Press"".<*04>"
-15F,0x6223,<SFF>シールド<CR>みかたの メダロットを えんごする<*04>,<SFF>Shield: Protects allied Medarots.<*04>,
-160,0x623D,<SFF>バリア<CR>みかたヘの こうげきを ブロックする<*04>,<SFF>Barrier: Blocks attacks on allies.<*04>,<SFF>Blocks attacks on allies.<*04>
-161,0x6257,<SFF>ダメージ しょうめつ<CR>よわいこうげきを ブロックする<*04>,<SFF>Damage Discard: Blocks weak attacks.<*04>,<SFF>Blocks weak attacks.<*04>
-162,0x6275,<SFF>かいふく<CR>ダメージをうけたパーツを かいふく<*04>,<SFF>Repair: Repairs damaged parts.<*04>,
-163,0x628F,<SFF>けいぞく かいふく<CR>じゅんびちゅうも ダメージをかいふく<*04>,<SFF>Auto-Repair: Repairs damage even during preparation.<*04>,<SFF>Repairs damage even during prep.<*04>
-164,0x62AF,<SFF>ふっかつ<CR>きのうていしパーツを ふっかつさせる<*04>,<SFF>Revive: Revives parts that have shut down.<*04>,<SFF>Revive: Revives shut-down parts.<*04>
-165,0x62CA,<SFF>そせい<CR>たおれた みかたを ふっかつさせる<*04>,<SFF>Resurrect: Revives a fallen ally.<*04>,
-166,0x62E3,<SFF>たいくう こうげき<CR>ひこうメダロットに あたリやすい<*04>,<SFF>Anti-Air Attack: Easily hits Flying Medarots.<*04>,<SFF>Easily hits Flying Medarots.<*04>
-167,0x6301,<SFF>たいくう こうげき<CR>ひこうメダロットに あたリやすい<*04>,<SFF>Anti-Air Attack: Easily hits Flying Medarots.<*04>,<SFF>Easily hits Flying Medarots.<*04>
-168,0x631F,<SFF>たいすい こうげき<CR>せんすいメダロットに あたリやすい<*04>,<SFF>Anti-Sea Attack: Easily hits Aquatic Medarots.<*04>,<SFF>Easily hits Aquatic Medarots.<*04>
-169,0x633E,<SFF>たいすい こうげき<CR>せんすいメダロットに あたリやすい<*04>,<SFF>Anti-Sea Attack: Easily hits Aquatic Medarots.<*04>,<SFF>Easily hits Aquatic Medarots.<*04>
-16A,0x635D,<SFF>さくてき<CR>みかたの こうげきを あてやすくする<*04>,<SFF>Scan: Makes it easier for allies' attacks to hit.<*04>,<SFF>Scan: Allies hit more easily.<*04>
-16B,0x6378,<SFF>いんペい クリア<CR>すベての いんペいを よわめる<*04>,<SFF>Conceal Clear: Weakens all Conceal.<*04>,<SFF>Weakens all Conceal.<*04>
-16C,0x6394,<SFF>いんペい<CR>てきの こうげきを よけやすくなる<*04>,<SFF>Conceal: Makes enemy attacks easier to dodge.<*04>,<SFF>Enemy attacks are easier to dodge.<*04>
-16D,0x63AE,<SFF>さくてき クリア<CR>すベての さくてきを よわめる<*04>,<SFF>Scan Clear: Weakens all Scan.<*04>,
-16E,0x63CA,<SFF>ほじょ じゅうてん<CR>じゅんびじかんを みじかくする<*04>,<SFF>Boost Charge: Shortens the preparation time.<*04>,<SFF>Shortens prep time.<*04>
-16F,0x63E7,<SFF>きゅうそく じゅうてん<CR>じゅんびじかんを ゼロにする<*04>,<SFF>Instant Charge: Reduces the preparation time to zero.<*04>,<SFF>Cuts prep time to zero.<*04>
-170,0x6405,<SFF>じょうじ じゅうてん<CR>じゅんびじかんが みじかくなる<*04>,<SFF>Constant Charge: Preparation time is always shorter.<*04>,<SFF>Prep time is always shorter.<*04>
-171,0x6423,<SFF>じゅうてん きゅうしゅう<CR>じゅんびじかんを うばいとる<*04>,<SFF>Charge Drain: Steals the enemy's preparation time.<*04>,<SFF>Steals the enemy's prep time.<*04>
-172,0x6442,<SFF>てんとう<CR>ころばせて めいれいを わすれさせる<*04>,<SFF>Trip: Knocks the enemy over so it forgets its orders.<*04>,<SFF>Topples foe so it forgets orders.<*04>
-173,0x645D,<SFF>しようふのう<CR>パーツが つかえなくなる<*04>,<SFF>Disable: Makes parts unusable.<*04>,
-174,0x6474,<SFF>こんらん<CR>こうげきの あいてを きめられない<*04>,<SFF>Confuse: The enemy can't decide whom to attack.<*04>,<SFF>Confuse: Foe can't pick a target.<*04>
-175,0x648E,<SFF>かいすう ダウン<CR>あたまパーツの かいすうを ヘらす<*04>,<SFF>Ammo Down: Reduces the uses of the enemy's head part.<*04>,<SFF>Reduces foe's head part uses.<*04>
-176,0x64AC,<SFF>かいひ ふかのう<CR>かいひを できなくする<*04>,<SFF>No Dodge: Makes the enemy unable to dodge.<*04>,<SFF>No Dodge: Enemy cannot dodge.<*04>
-177,0x64C4,<SFF>ぼうぎょ ふかのう<CR>ぼうぎょを できなくする<*04>,<SFF>No Defend: Makes the enemy unable to defend.<*04>,<SFF>No Defend: Enemy cannot defend.<*04>
-178,0x64DE,<SFF>デストロイ こうげき<CR>せなかを むけた てきを はかいする<*04>,<SFF>Destroy Attack: Destroys foes that turn their backs.<*04>,<SFF>Destroys foes that turn away.<*04>
-179,0x64FF,<SFF>サクリファイス こうげき<CR>パーツを ぎせいにして だいダメージ<*04>,<SFF>Sacrifice Attack: Sacrifices parts to deal huge damage.<*04>,<SFF>Sacrifices parts for huge damage.<*04>
-17A,0x6522,<SFF>メダフォース アップ<CR>メダフォースを ふやす<*04>,<SFF>Medaforce Up: Raises Medaforce.<*04>,
-17B,0x653C,<SFF>メダフォース ダウン<CR>メダフォースを ヘらす<*04>,<SFF>Medaforce Down: Lowers Medaforce.<*04>,
-17C,0x6556,<SFF>クロスこうげき セットオン!<CR>「クロスこうげき」を セットする<*04>,"<SFF>Cross Attack Set On!: Sets up a ""Cross Attack"".<*04>","<SFF>Sets up a ""Cross Attack"".<*04>"
-17D,0x6579,<SFF>クロスこうげき ファイヤー!<CR>「クロスこうげき」で こうげきする<*04>,"<SFF>Cross Attack Fire!: Attacks with the ""Cross Attack"".<*04>","<SFF>Attacks with the ""Cross Attack"".<*04>"
-17E,0x659D,<SFF>しのびこみ かくとう<CR>ねらったあいてに かくとうこうげき<*04>,<SFF>Sneak Attack: A melee attack on the targeted enemy.<*04>,<SFF>Melee attack on the chosen foe.<*04>
-17F,0x65BD,<SFF>ダメージ はんげき<CR>つよいこうげきだけを はじきかえす<*04>,<SFF>Damage Counter: Bounces back only strong attacks.<*04>,<SFF>Bounces back only strong attacks.<*04>
-180,0x65DC,<SFF>ダメージ はんしゃ<CR>あいての こうげきを はじきかえす<*04>,<SFF>Damage Reflect: Bounces back the enemy's attacks.<*04>,<SFF>Bounces back enemy attacks.<*04>
-181,0x65FB,<SFF>パーツ ヘんか<CR>ベつのパーツに ヘんかする<*04>,<SFF>Part Transform: Transforms into a different part.<*04>,<SFF>Transforms into another part.<*04>
-182,0x6614,<SFF>ぼうがいパーツ ヘんか<CR>「ぼうがい」パーツに ヘんかする<*04>,"<SFF>Disrupt Part Transform: Becomes a ""Disrupt"" part.<*04>","<SFF>Becomes a ""Disrupt"" part.<*04>"
-183,0x6634,<SFF>こうげきパーツ ヘんか<CR>「こうげき」パーツに ヘんかする<*04>,"<SFF>Attack Part Transform: Becomes an ""Attack"" part.<*04>","<SFF>Becomes an ""Attack"" part.<*04>"
-184,0x6654,<SFF>ぼうぎょパーツ ヘんか<CR>「ぼうぎょ」パーツに ヘんかする<*04>,"<SFF>Defense Part Transform: Becomes a ""Defense"" part.<*04>","<SFF>Becomes a ""Defense"" part.<*04>"
-185,0x6674,<SFF>とくしゅパーツ ヘんか<CR>「とくしゅ」パーツに ヘんかする<*04>,"<SFF>Special Part Transform: Becomes a ""Special"" part.<*04>","<SFF>Becomes a ""Special"" part.<*04>"
-186,0x6694,<SFF>ひこうメダロット<CR>「あれち」「さばく」に つよい<*04>,"<SFF>Flying Medarot: Strong in ""Wasteland"" and ""Desert"".<*04>",<SFF>Good in Wasteland and Desert.<*04>
-187,0x66B0,<SFF>ふゆうメダロット<CR>どのフィールドも とくい<*04>,<SFF>Hover Medarot: Good on any field.<*04>,<SFF>Hover: Good on any field.<*04>
-188,0x66C9,<SFF>たきゃくメダロット<CR>「いわば」「たにま」に つよい<*04>,"<SFF>Multi-leg Medarot: Strong in ""Rocky Area"" and ""Valley"".<*04>",<SFF>Good in Rocky Area and Valley.<*04>
-189,0x66E6,<SFF>にきゃくメダロット<CR>「そうげん」「もリのなか」に つよい<*04>,"<SFF>Bipedal Medarot: Strong in ""Grassland"" and ""Forest"".<*04>",<SFF>Good in Grassland and Forest.<*04>
-18A,0x6706,<SFF>くるまメダロット<CR>「まちなか」「しつない」に つよい<*04>,"<SFF>Wheeled Medarot: Strong in ""Street"" and ""Indoors"".<*04>",<SFF>Good in Street and Indoors.<*04>
-18B,0x6724,<SFF>せんしゃメダロット<CR>フィールドに えいきょうされない<*04>,<SFF>Tank Medarot: Not affected by the field.<*04>,<SFF>Tank: Not affected by the field.<*04>
-18C,0x6742,<SFF>せんすいメダロット<CR>「かいがん」「すいちゅう」に つよい<*04>,"<SFF>Aquatic Medarot: Strong in ""Beach"" and ""Underwater"".<*04>",<SFF>Good in Beach and Underwater.<*04>
-18D,0x6762,<SFF>てき1たいの<CR>すベての パーツに こうげき<*04>,<SFF>Hits every part of a single enemy.<*04>,
-18E,0x6762,@18D,,
-18F,0x6762,@18D,,
-190,0x6762,@18D,,
-191,0x677B,<SFF>てきチーム ぜんいんの<CR>おなじ パーツに こうげき<*04>,<SFF>Hits the same part on every enemy.<*04>,
-192,0x6798,<SFF>すベての しゃげきパーツの<CR>いリょくを プラスして こうげき<*04>,<SFF>Attacks with the combined power of all shooting parts.<*04>,<SFF>Attacks with all shooting power.<*04>
-193,0x67BA,<SFF>つかうたび ついかダメージが ふえて<CR>こうげきを パワーアップ<*04>,"<SFF>Extra damage grows with every use, powering up the attack.<*04>",<SFF>Bonus damage grows with each use.<*04>
-194,0x67DD,<SFF>パーツを「こうがく」ぞくせいにし<CR>ダメージを なんばいにもする<*04>,"<SFF>Gives parts the ""Optical"" attribute, multiplying damage.<*04>",<SFF>Optical parts: more damage.<*04>
-195,0x6800,<SFF>パーツを「かやく」ぞくせいにし<CR>かんつうして あたリやすくする<*04>,"<SFF>Makes parts ""Gunpowder"": they pierce and hit more easily.<*04>","<SFF>Gunpowder parts: pierce, hit more.<*04>"
-196,0x6823,<SFF>パーツを「じゅうリょく」ぞくせいにし<CR>せいこうを なんばいにもする<*04>,"<SFF>Makes parts ""Gravity"", multiplying their success rate.<*04>",<SFF>Gravity parts: more success.<*04>
-197,0x6848,<SFF>「かくとう」「しゃげき」リょうほうに<CR>こうかがある トラップを しかける<*04>,"<SFF>Sets a trap that works on both ""Melee"" and ""Shooting"".<*04>",<SFF>Traps both Melee and Shooting.<*04>
-198,0x6870,<SFF>てきチーム ぜんいんの<CR>こうどうの せいこうリつを さげる<*04>,<SFF>Lowers the success rate of every enemy's actions.<*04>,<SFF>Lowers success of every enemy.<*04>
-199,0x6891,<SFF>てきチーム ぜんいんの<CR>うごきを ストップさせる<*04>,<SFF>Stops the movements of every enemy.<*04>,<SFF>Stops all enemies from moving.<*04>
-19A,0x68AD,<SFF>てきチーム ぜんいんの<CR>じゅんびじかんを ながくする<*04>,<SFF>Lengthens the preparation time of every enemy.<*04>,<SFF>Lengthens prep time of all foes.<*04>
-19B,0x68CB,<SFF>てきチーム ぜんいんに<CR>じゅんびちゅうも ダメージをあたえる<*04>,<SFF>Damages every enemy even during their preparation.<*04>,<SFF>Damages all foes even during prep.<*04>
-19C,0x68ED,<SFF>てきに ダメージを あたえて<CR>じぶんの ダメージを かいふくする<*04>,<SFF>Damages a foe and heals yourself.<*04>,
-19D,0x6911,<SFF>てきチーム ぜんいんの<CR>こうどうを こんらんさせる<*04>,<SFF>Confuses the actions of every enemy.<*04>,<SFF>Confuses every enemy.<*04>
-19E,0x692E,<SFF>じぶんの ぼうぎょリょくを アップし<CR>うける ダメージを ヘらす<*04>,<SFF>Raises your own defense to reduce the damage you take.<*04>,<SFF>Raises defense to cut damage taken.<*04>
-19F,0x6952,<SFF>みかたチーム ぜんいんの<CR>そうこうを かいふくさせる<*04>,<SFF>Repairs the armor of every ally.<*04>,
-1A0,0x6970,<SFF>みかたチーム ぜんいんの<CR>パーツを ふっかつさせる<*04>,<SFF>Revives the parts of every ally.<*04>,
-1A1,0x698D,<SFF>くうちゅうの てき ぜんいんに<CR>しょうじょうの ペナルティ<*04>,<SFF>Inflicts status penalties on every enemy in the air.<*04>,<SFF>Hinders every enemy in the air.<*04>
-1A2,0x69AE,<SFF>すいちゅうの てき ぜんいんに<CR>しょうじょうの ペナルティ<*04>,<SFF>Inflicts status penalties on every enemy underwater.<*04>,<SFF>Hinders every enemy underwater.<*04>
-1A3,0x69CF,<SFF>てきチームの いんペいを さげて<CR>みかたチームの さくてきを あげる<*04>,<SFF>Lowers the enemies' Conceal and raises your team's Scan.<*04>,"<SFF>Foes lose Conceal, team gains Scan.<*04>"
-1A4,0x69F5,<SFF>みかたチーム ぜんいんの<CR>いんペいを あげる<*04>,<SFF>Raises the Conceal of every ally.<*04>,
-1A5,0x6A0F,<SFF>みかたチーム ぜんいんの<CR>スピードが あがる<*04>,<SFF>Raises the speed of every ally.<*04>,
-1A6,0x6A29,<SFF>みかたの あたまパーツの<CR>のこリ しようかいすうを ふやす<*04>,<SFF>Increases the remaining uses of allies' head parts.<*04>,<SFF>Adds uses to allies' heads.<*04>
-1A7,0x6A4A,<SFF>じぶんと てき ぜんいんの<CR>おなじ パーツを はかいする<*04>,<SFF>Destroys the same part on yourself and every enemy.<*04>,"<SFF>Breaks same part: self, all foes.<*04>"
-1A8,0x6A6A,<SFF>みかたチーム ぜんいんの<CR>のうリょくちを 1つ あげる<*04>,<SFF>Raises one stat of every ally.<*04>,
-1A9,0x6A89,<SFF>せんとうフィールドを<CR>ベつの フィールドに ヘんかさせる<*04>,<SFF>Changes the field to another field.<*04>,
-1AA,0x6AA9,<SFF>ルーレットを まわして<CR>あたえる ダメージを きめる<*04>,<SFF>Spins a roulette to decide the damage dealt.<*04>,<SFF>Roulette decides the damage.<*04>
-1AB,0x6AC7,<SFF>すベての メダフォースの なかから<CR>ランダムに メダフォースを つかう<*04>,<SFF>Uses any Medaforce at random.<*04>,
-1AC,0x6AEE,<SFF>てきチーム ぜんいんの レベルを<CR>せんとうの あいだだけ さげる<*04>,<SFF>Lowers the level of every enemy for the rest of the battle.<*04>,<SFF>Lowers foe levels for the battle.<*04>
-1AD,0x6B12,<SFF>おなじ ラインの てきを はかいする<CR>ただし はんげきされることも ある<*04>,"<SFF>Destroys enemies in the same line, but may be countered.<*04>",<SFF>Destroys foe line. May be countered.<*04>
-1AE,0x6B3A,<SFF>すベての こうげきの ダメージは<CR>いリょくの すうちと おなじになる<*04>,<SFF>All attacks deal damage equal to their power value.<*04>,<SFF>Attacks deal their power as damage.<*04>
-1AF,0x6B60,<SFF>てきや みかたに かんけいなく<CR>ぜんいんを こんらんさせる<*04>,"<SFF>Confuses everyone, friend or foe!<*04>",
-1B0,0x6B81,<SFF>あたまパーツ いがいを はかいして<CR>のこリの そうこうを ダメージにする<*04>,<SFF>Breaks all but the head. Their armor becomes damage.<*04>,<SFF>Breaks non-heads. Armor is damage.<*04>
-1B1,0x6BA9,<SFF>のこリリミットを ヘらして<CR>はんていじかんを はやくする<*04>,<SFF>Cuts the remaining time limit so the judgment comes sooner.<*04>,<SFF>Cuts time limit. Judgment sooner.<*04>
-1B2,0x6BC9,あっ<*02>,Ah<*02>,
-1B3,0x6BC9,@1B2,,
-1B4,0x6BC9,@1B2,,
-1B5,0x6BC9,@1B2,,
-1B6,0x6BC9,@1B2,,
-1B7,0x6BC9,@1B2,,
-1B8,0x6BC9,@1B2,,
-1B9,0x6BC9,@1B2,,
-1BA,0x6BC9,@1B2,,
-1BB,0x6BC9,@1B2,,
-1BC,0x6BC9,@1B2,,
-1BD,0x6BC9,@1B2,,
-1BE,0x6BC9,@1B2,,
-1BF,0x6BC9,@1B2,,
-1C0,0x6BC9,@1B2,,
-1C1,0x6BC9,@1B2,,
-1C2,0x6BC9,@1B2,,
-1C3,0x6BC9,@1B2,,
-1C4,0x6BC9,@1B2,,
-1C5,0x6BC9,@1B2,,
-1C6,0x6BC9,@1B2,,
-1C7,0x6BC9,@1B2,,
-1C8,0x6BC9,@1B2,,
-1C9,0x6BC9,@1B2,,
-1CA,0x6BC9,@1B2,,
-1CB,0x6BC9,@1B2,,
-1CC,0x6BC9,@1B2,,
-1CD,0x6BC9,@1B2,,
-1CE,0x6BC9,@1B2,,
-1CF,0x6BC9,@1B2,,
-1D0,0x6BC9,@1B2,,
-1D1,0x6BC9,@1B2,,
-1D2,0x6BC9,@1B2,,
-1D3,0x6BC9,@1B2,,
-1D4,0x6BC9,@1B2,,
-1D5,0x6BC9,@1B2,,
-1D6,0x6BC9,@1B2,,
-1D7,0x6BC9,@1B2,,
-1D8,0x6BC9,@1B2,,
-1D9,0x6BC9,@1B2,,
-1DA,0x6BC9,@1B2,,
-1DB,0x6BC9,@1B2,,
-1DC,0x6BC9,@1B2,,
-1DD,0x6BC9,@1B2,,
-1DE,0x6BC9,@1B2,,
-1DF,0x6BC9,@1B2,,
-1E0,0x6BC9,@1B2,,
-1E1,0x6BC9,@1B2,,
-1E2,0x6BC9,@1B2,,
-1E3,0x6BC9,@1B2,,
-1E4,0x6BC9,@1B2,,
-1E5,0x6BC9,@1B2,,
-1E6,0x6BC9,@1B2,,
-1E7,0x6BC9,@1B2,,
-1E8,0x6BC9,@1B2,,
-1E9,0x6BC9,@1B2,,
-1EA,0x6BC9,@1B2,,
-1EB,0x6BC9,@1B2,,
-1EC,0x6BC9,@1B2,,
-1ED,0x6BC9,@1B2,,
-1EE,0x6BC9,@1B2,,
-1EF,0x6BC9,@1B2,,
-1F0,0x6BC9,@1B2,,
-1F1,0x6BC9,@1B2,,
-1F2,0x6BC9,@1B2,,
-1F3,0x6BC9,@1B2,,
-1F4,0x6BC9,@1B2,,
-1F5,0x6BC9,@1B2,,
-1F6,0x6BC9,@1B2,,
-1F7,0x6BC9,@1B2,,
-1F8,0x6BC9,@1B2,,
-1F9,0x6BC9,@1B2,,
-1FA,0x6BC9,@1B2,,
-1FB,0x6BC9,@1B2,,
-1FC,0x6BC9,@1B2,,
-1FD,0x6BC9,@1B2,,
-1FE,0x6BC9,@1B2,,
-1FF,0x6BC9,@1B2,,
-200,0x6BC9,@1B2,,
-201,0x6BCD,あん<*02>,Ahn<*02>,
-202,0x6BD1,あたしのほうが ロボトルれきは<CR>ながいんだからね!<*02>,"I've been robattling longer than you, you know!<*02>",
-203,0x6BEC,ふーんだ!<CR>つぎは まけないんだから!<*02>,Hmph! I won't lose next time!<*02>,
-204,0x6C01,おてやわらかに おねがいしますね<*02>,Please go easy on me.<*02>,
-205,0x6C13,たのしかったですわ<CR>また おあいて してくださいね<*02>,That was fun! Please robattle me again sometime.<*02>,
-206,0x6C2E,きょうこそ けっちゃくを<CR>つけてやるぜ!<*02>,Today we settle this!<*02>,
-207,0x6C44,まだまだ しょうぶは<CR>おわっちゃ いねーぜ!<*02>,This match ain't over yet!<*02>,
-208,0x6C5C,あそんであげても いいわよぉ<*02>,I guess I could play with you~<*02>,
-209,0x6C6C,ちょっと シャレに なんないわよぉ<*02>,This is SO not funny!<*02>,
-20A,0x6C7F,けちょんけちょんに<CR>いためつけて やるぜ!<*02>,I'm gonna beat you to a pulp!<*02>,
-20B,0x6C96,じょーだんじゃ ねーっての!<*02>,You gotta be kidding me!<*02>,
-20C,0x6CA6,おまえの ふくを<CR>どろんこにしてやる!<*02>,I'll muddy up your clothes!<*02>,
-20D,0x6CBB,ぼくの ふく<CR>よごれちゃった・・・<*02>,My clothes got all dirty...<*02>,
-20E,0x6CCE,ボクが あいてを してあげよう<*02>,I'll be your opponent.<*02>,
-20F,0x6CDF,ちょっとは やるようだね<*02>,You're not half bad.<*02>,
-210,0x6CED,ふ・・・おれも すこしは<CR>なのしれた メダロッターなのだぞ<*02>,"Heh... I'm a Medarotter of some renown myself, you know.<*02>",
-211,0x6D0C,む・・・むねん・・・かはぁっ!<*02>,Ngh... I'm... undone... gahh!<*02>,
-212,0x6D1D,はぁーい ボウヤ<CR>ミルキーが まほうを かけてあげる♥<*02>,"Hi there, boy~ Milky will cast a spell on you ♥<*02>",
-213,0x6D3A,あーあ キミには<CR>こどもだましは つうじなかったようね<*02>,"Aww, kiddie tricks don't work on you, huh?<*02>",
-214,0x6D57,ふっ・・・しょうねんよ<CR>わたしを こえられるかな?<*02>,"Heh... boy, can you surpass me?<*02>",
-215,0x6D72,ぼーいず びー あんびしゃす!<CR>しょうねんよ・・・なんだっけな?<*02>,"Boys, be ambitious! Young man... how did it go again?<*02>",
-216,0x6D94,わたしの カレーなるワザに<CR>ついてこられるかな?<*02>,Can you keep up with my curry-ageous moves?<*02>,
-217,0x6DAE,おみごと!<CR>これからも そのちょうしでね!<*02>,Bravo! Keep it up!<*02>,
-218,0x6DC5,おまえさんは<CR>どの メダロットが すきかな?<*02>,"Which Medarot do you like, sonny?<*02>",
-219,0x6DDD,おまえさんは ほんとうに<CR>メダロットが すきなんじゃのう<*02>,"You really love Medarots, sonny.<*02>",
-21A,0x6DFB,おあいてして いただけますか?<*02>,Would you robattle me?<*02>,
-21B,0x6E0C,とても ベんきょうに なリました<CR>あリがとうございました<*02>,That was very educational. Thank you very much.<*02>,
-21C,0x6E2A,ぼくに かてたら パーツをやるよ<*02>,Beat me and I'll give you a part!<*02>,
-21D,0x6E3C,おこづかいが ぜんぶ<CR>メダロットに とんでゆく・・・<*02>,My whole allowance goes flying on Medarots...<*02>,
-21E,0x6E58,ぼくが かんがえた<CR>メダロットを みてよ!<*02>,Check out the Medarot I designed!<*02>,
-21F,0x6E6F,つぎは まけないぞぉ!<*02>,I won't lose next time!<*02>,
-220,0x6E7C,たたかえ きぎょうせんし!<CR>あかるい あすは きっとくる!<*02>,"Fight on, office warrior! Bright days are coming!<*02>",
-221,0x6E9B,まだまだ ふけいきが つづきそうだな<*02>,This recession just won't end...<*02>,
-222,0x6EAF,このおれさまと たたかえることを<CR>あリがたく おもうのだ!<*02>,Be grateful you get to fight the great me!<*02>,
-223,0x6ECE,ひえぇぇぇっ!<CR>かんベんしてくださいよぉー<*02>,Eeeek! Gimme a break!<*02>,
-224,0x6EE5,どいとくれっ!<CR>しゅふは いそがしいんだからね!<*02>,Outta my way! I'm a busy housewife!<*02>,
-225,0x6EFF,おてつだいしてくれる メダロットなら<CR>うちのこよリ やくにたつよ!<*02>,A Medarot that helps out is more use than my kids!<*02>,
-226,0x6F22,ボロトルは いくつになっても<CR>やめられんのぉ<*02>,"I can't quit robottles, no matter how old I get.<*02>",
-227,0x6F3A,ボトルロは やはリ むずかしいのぉ<*02>,Batrobbles sure are tough...<*02>,
-228,0x6F4D,あたしだって まだ わかいもんには<CR>まけないよ<*02>,I won't lose to you young'uns!<*02>,
-229,0x6F66,わかいって いいねェ<*02>,"Ah, to be young...<*02>",
-22A,0x6F72,キミの メダロットを<CR>みせてもらうよ<*02>,Let me see your Medarot.<*02>,
-22B,0x6F86,フフフッ<CR>データは とらせてもらったよ<*02>,Heheh. I've got your data now.<*02>,
-22C,0x6F9B,フ・・・フフフフ<CR>わたしが ルールブックだぁ!!<*02>,Heheheh... I AM the rulebook!!<*02>,
-22D,0x6FB5,そっ そんな!?<CR>どうして わたしが まけるんだぁっ!<*02>,N-no way!? How could I lose!?<*02>,
-22E,0x6FD2,しっぷうの ごとく きる!<*02>,I strike like a gale!<*02>,
-22F,0x6FE1,・・・そして<CR>しっぷうの ごとく やぶれたリ!<*02>,"...and like a gale, I fall!<*02>",
-230,0x6FFA,しのびとは やみに しのび<CR>よを しのぶ ものなリ<*02>,"A shinobi hides in darkness, enduring the world.<*02>",
-231,0x7015,ぬしも しのびの みちを<CR>きわめぬか?<*02>,Will you not master the way of the shinobi as well?<*02>,
-232,0x702A,おあいて つかまつリそうろう<*02>,I shall be thy opponent.<*02>,
-233,0x703A,おみそれしたで ござる<*02>,I underestimated thee.<*02>,
-234,0x7047,おれの メダロットを<CR>みてくれ!<*02>,Check out my Medarot!<*02>,
-235,0x7059,ああーっ!!<CR>おれの メダロットちゃんがっ!<*02>,Aaaah!! My precious Medarot!<*02>,
-236,0x7071,おぬしは なぜ<CR>たたかいの みちを ゆく?<*02>,Why do you walk the path of battle?<*02>,
-237,0x7088,じぶんの しんじたみちを<CR>あゆみつづけるが よい<*02>,Walk the path you believe in.<*02>,
-238,0x70A2,メダロットは<CR>おとこのこ だけの ものじゃ ないの<*02>,Medarots aren't just for boys!<*02>,
-239,0x70BD,えーん<CR>けっこう じしん あったのにィ<*02>,"Waaah, and I was so confident...<*02>",
-23A,0x70D2,ロボトルの よわい カレなんて<CR>カッコわるいわよねー<*02>,A boyfriend who's bad at robattles is sooo lame.<*02>,
-23B,0x70EE,もー しんじらんなーい!<CR>オトコって すぐ あつくなるんだから<*02>,Unbelievable! Boys get so heated!<*02>,
-23C,0x710F,わたしは しごとも ロボトルも<CR>てを ぬかないわよ!<*02>,"I never slack off, at work or in robattles!<*02>",
-23D,0x712B,ロボトルばっかリ つよくても<CR>いいかいしゃに はいれないわよ<*02>,"Robattle skills won't get you a good job, you know.<*02>",
-23E,0x714B,おねーさんが<CR>あそんで あ・げ・る♥<*02>,Big sis will play with y-o-u ♥<*02>,
-23F,0x715F,ウフフッ♥<CR>またねぇ<*02>,Ufufu ♥ See ya~<*02>,
-240,0x716B,コウセイノウノ ボクニ<CR>キミガ カテルノ?<*02>,Do you think you can beat a high-spec model like me?<*02>,
-241,0x7182,セイノウダケジャ カテナイノカーッ?<*02>,Specs alone can't win!?<*02>,
-242,0x7196,ドンナ チケイデモ<CR>ウカンデイレバ カンケイナイヨッ<*02>,Any terrain's fine if I float!<*02>,
-243,0x71B2,アー<CR>ボクハ ナガサレテイクー・・・<*02>,"Aah, I'm being swept awaaay...<*02>",
-244,0x71C6,ケワシイ ヤマミチダッテ<CR>アシガ タクサンアレバ ヘイキサッ<*02>,Rough mountain paths are easy with lots of legs!<*02>,
-245,0x71E6,アッ アシガ モツレターッ<*02>,Ah! My legs got tangled!<*02>,
-246,0x71F5,モリミタイナ イリクンダ バショデハ<CR>キドウセイガ モノヲ イウゾ!!<*02>,"In twisty places like forests, mobility is key!!<*02>",
-247,0x721A,シカイガ サエギラレテ<CR>ヨク ミエナイッ<*02>,My view's blocked! I can't see!<*02>,
-248,0x7230,ハシッテ ハシッテ<CR>ハシリマクルゾォ!<*02>,Run and run and keep on running!<*02>,
-249,0x7245,メダロードレースナラ<CR>ハシルノ ハヤインダケドナァ・・・<*02>,"If this were a Medaroad Race, I'd be fast...<*02>",
-24A,0x7263,イッパツノ ダメージハ<CR>ダレニモ マケナイヨ<*02>,Nobody beats me when it comes to single-hit damage!<*02>,
-24B,0x727B,ウゴキガ オソクテ<CR>テキニ オイツケナイヨーッ<*02>,I'm too slow! I can't catch up with the enemy!<*02>,
-24C,0x7294,ミズノ チカクジャナイト<CR>パワーガ デナイノヨネーッ<*02>,"Away from the water, I just can't power up!<*02>",
-24D,0x72B0,キョウハ ミズアビ シテカラ<CR>グッスリ ネヨウ<*02>,"Today I'll take a nice dip, then get a good night's sleep.<*02>",
-24E,0x72C9,おーばーけーがーでーたーぞーぅ<*02>,The ghooost is heeere~<*02>,
-24F,0x72DA,ホホホホ・・・ホ<*02>,Hohoho... ho<*02>,
-250,0x72E4,エッサ ホイサッ おしごと おしごと<*02>,"Heave-ho! Work, work!<*02>",
-251,0x72F8,マダマダ おしごと たリないみたい<*02>,"Still not enough work, it seems.<*02>",
-252,0x730B,セカイを ヘベレケさまの ために!<*02>,The world for Lord Hebereke!<*02>,
-253,0x731E,ウーン ワタシは・・・<*02>,"Uuugh, I...<*02>",
-254,0x732B,ガーッ!! グルルルッ!!<*02>,Gaaah!! Grrrr!!<*02>,
-255,0x733A,ピーッ ザーーーーーッ<*02>,Beep... Kssshhhh<*02>,
-256,0x7347,ワガ マエニ タチフサガルトハ<CR>オロカナ・・・<*02>,You dare block me? Foolish...<*02>,
-257,0x7360,コンナ オールドタイプニ マケルトハ<CR>バカナ・・・<*02>,Beaten by an old model? Absurd...<*02>,
-258,0x737B,キミハ ダレ・・・?<CR>ドコヘ イクノ・・・?<*02>,Who are you...? Where are you going...?<*02>,
-259,0x7393,ボクハ ダレ・・・?<CR>ドコヘ イクノ・・・?<*02>,Who am I...? Where am I going...?<*02>,
-25A,0x73AB,ロボロボ ロボロボ<*02>,RoboRobo RoboRobo<*02>,
-25B,0x73B6,ロボーッ!!<*02>,Robooo!!<*02>,
-25C,0x73BE,このおれさまを<CR>ただの ロボロボだんと おもうなよ<*02>,Don't take me for just any RoboRobo Gang member!<*02>,
-25D,0x73D9,くーーーーーーーっ!!<CR>いつか おまえを なかせてやるっ!!<*02>,Grrrr!! I'll make you cry someday!!<*02>,
-25E,0x73F9,おーほほほほほほほ!! わたくしの<CR>うつくしさに ひれふすがいいですわ!<*02>,Ohohohoho!! Bow before my beauty!<*02>,
-25F,0x741F,わたくしに かつなんて<CR>10000ねん はやいですわ!<*02>,"Beat me? You're 10,000 years too early for that!<*02>",
-260,0x743C,ふぉっふぉっふぉっ<CR>どれ あいてを してやるかの<*02>,Fohfohfoh. Shall I take you on?<*02>,
-261,0x7456,わしは こどもが きらいなんじゃ!<*02>,I hate children!<*02>,
-262,0x7469,あたちは ただのようちえんじじゃ<CR>ないでしゅよ! つよいんでしゅよ!<*02>,I'm not just a kindewgawtnew! I'm stwong!<*02>,
-263,0x748D,ひどいことすると<CR>ひどいんでしゅよ!<*02>,Be mean and I'll be mean wight back!<*02>,
-264,0x74A1,イタズラは たのしいロボよ!<*02>,"Pranks are fun, robo!<*02>",
-265,0x74B1,イタズラが とちゅうで みつかると<CR>つまんないロボよ<*02>,"Getting caught mid-prank is no fun, robo.<*02>",
-266,0x74CD,わしと おぬしの どちらが<CR>メダルを うまく そだてとるかな?<*02>,"Which of us raises Medals better, you or me?<*02>",
-267,0x74EE,やるもんじゃな がはは!<*02>,Not bad at all! Gahaha!<*02>,
-268,0x74FC,よいこのヒーロー セレクトスリー<CR>ただいまさんじょう!!<*02>,"Heroes of all good kids, the Select Three, are here!!<*02>",
-269,0x751A,それでは また らいしゅう<CR>こう ごきたい!!<*02>,See you next week! Stay tuned!!<*02>,
-26A,0x7533,せいぎの ために<CR>たたかうであリます!<*02>,"I fight for justice, sir!<*02>",
-26B,0x7548,せいぎの みちは<CR>きびしいであリます!<*02>,"Justice is a harsh path, sir!<*02>",
-26C,0x755D,マルガリータは メダロットも<CR>ロボトルも だーいすき♥<*02>,Margarita looooves Medarots and robattles! ♥<*02>,
-26D,0x757A,ゆうしゃさま また あそんでね!<*02>,"Great Hero, play with me again!<*02>",
-26E,0x758C,ゆめノ なかデ<CR>くるしむんだヨ<*02>,Suffer in yer dreams!<*02>,
-26F,0x759D,アア・・・<CR>ゆめガ さめちゃっタ・・・<*02>,Aah... the dream ended...<*02>,
-270,0x75B2,ミタコトナイ パーツ<CR>ソレ ホシイ<*02>,NEVER SEEN THAT PART. WANT IT.<*02>,
-271,0x75C5,ユウシャサマ ツヨイ<*02>,HERO... STRONG.<*02>,
-272,0x75D1,あなたは メダロットにも<CR>こころがあるって しっていますか?<*02>,Did you know Medarots have hearts too?<*02>,
-273,0x75F1,あなたなら メダロットと こころを<CR>かよわすことが できるでしょうね<*02>,You could surely connect hearts with a Medarot.<*02>,
-274,0x7615,このじいが あいてをさせて<CR>もらいますわい<*02>,This old man shall be your opponent.<*02>,
-275,0x762C,さすがですのう<*02>,Just as I'd expect.<*02>,
-276,0x7635,・・ダ・ガる!?!ノ・・くリ?<*02>,..Wh.a-t!?!Ho..w?<*02>,
-277,0x7646,!!?!?!?ゲ?<*02>,!!?!?!?Gah?<*02>,
-278,0x7651,ハーイ リトル・ボーイ<CR>お・て・あ・わ・せ ぷリーず!<*02>,"Hi, little boy! Let's f-i-g-h-t, please!<*02>",
-279,0x766E,ニホンのオトコ ツヨイのは<CR>ヤマトダマシイが あるから・ね!<*02>,"Japanese men are strong 'cause of Yamato spirit, ne!<*02>",
-27A,0x768E,にほんは わたしの<CR>こころの ふるさとです<*02>,Japan is the home of my heart.<*02>,
-27B,0x76A5,にほんの おもいでが<CR>またひとつ ふえました<*02>,One more memory of Japan to keep.<*02>,
-27C,0x76BD,アツクルシイ クニデハ バトルモ<CR>マスマス アツクルシク ナルワイ<*02>,"In a hot country, battles get hotter and hotter!<*02>",
-27D,0x76E0,フン ワシハ ミトメンゾイ<*02>,Hmph. I refuse to accept this!<*02>,
-27E,0x76EF,ミーは アンタに かっちゃうのヨ<*02>,"Me is gonna beat you, yo!<*02>",
-27F,0x7701,アタシは ユーに まけたノネ・・・<*02>,Me lost to you...<*02>,
-280,0x7714,ふふ わが ひっさつの おうぎ<CR>ビューティ・キッスを うけてみよ!!<*02>,"Heh, now face my secret art: Beauty Kiss!!<*02>",
-281,0x7738,うおお!! ひっさつのドリルが!!<CR>しかーしっ! おれは まけぬっ!!<*02>,Whoa!! My special drill!! But I will NOT lose!!<*02>,
-282,0x775D,にんげんごときが このオレに<CR>さからおうだと?・・・おろかな<*02>,A human dares defy me? Foolish.<*02>,
-283,0x777D,みとめん みとめんケロォォッ!!<*02>,"I won't accept it, ribbiiit!!<*02>",
-284,0x778F,やっつけちゃうぞぉ!<*02>,I'm gonna beat ya!<*02>,
-285,0x779B,やられちゃったぞぉ!<*02>,I got beaten!<*02>,
-286,0x77A7,ボクは こうみえても<CR>「ひこうタイプ」なんだヨォ<*02>,"I may not look it, but I'm a ""Flying type""!<*02>",
-287,0x77C1,はいっ!<CR>とびいリで さんかで あリますっ!<*02>,"Yes! Jumping in, sir!<*02>",
-288,0x77C1,@287,,
-289,0x77D9,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        さ↓さゾさOさXさ6さ<$F6>さ<$FF>さクしノしやしんしょし「しⒶしドしペしどしぺし<$BB>し<CF>しAしJしSし<$F8>しチすハすロすッすせすぬすむすズすビす<$CA>すサせトせヲせきせむせろせゼせブせウそフそせそそそぇそ↑そゼそゔそびそ<$BC>そAそRそ0そ<$F8>そアたやたんたょたゴたげた<$BF>た1たケちハちロちッちにちみちⒷちざち<*48>,,
-28A,0x77D9,@289,,
-28B,0x77D9,@289,,
-28C,0x77D9,@289,,
-28D,0x77D9,@289,,
-28E,0x77D9,@289,,
-28F,0x77D9,@289,,
-290,0x77D9,@289,,
-291,0x77D9,@289,,
-292,0x77D9,@289,,
-293,0x77D9,@289,,
-294,0x77D9,@289,,
-295,0x77D9,@289,,
-296,0x77D9,@289,,
-297,0x77D9,@289,,
-298,0x77D9,@289,,
-299,0x77D9,@289,,
-29A,0x77D9,@289,,
-29B,0x77D9,@289,,
-29C,0x77D9,@289,,
-29D,0x77D9,@289,,
-29E,0x77D9,@289,,
-29F,0x77D9,@289,,
-2A0,0x77D9,@289,,
-2A1,0x77D9,@289,,
-2A2,0x77D9,@289,,
-2A3,0x77D9,@289,,
-2A4,0x77D9,@289,,
-2A5,0x77D9,@289,,
-2A6,0x77D9,@289,,
-2A7,0x77D9,@289,,
-2A8,0x77D9,@289,,
-2A9,0x77D9,@289,,
-2AA,0x77D9,@289,,
-2AB,0x77D9,@289,,
-2AC,0x77D9,@289,,
-2AD,0x77D9,@289,,
-2AE,0x77D9,@289,,
-2AF,0x77D9,@289,,
-2B0,0x77D9,@289,,
-2B1,0x77D9,@289,,
-2B2,0x77D9,@289,,
-2B3,0x77D9,@289,,
-2B4,0x77D9,@289,,
-2B5,0x77D9,@289,,
-2B6,0x77D9,@289,,
-2B7,0x77D9,@289,,
-2B8,0x77D9,@289,,
-2B9,0x77D9,@289,,
-2BA,0x77D9,@289,,
-2BB,0x77D9,@289,,
-2BC,0x77D9,@289,,
-2BD,0x77D9,@289,,
-2BE,0x77D9,@289,,
-2BF,0x77D9,@289,,
-2C0,0x77D9,@289,,
-2C1,0x77D9,@289,,
-2C2,0x77D9,@289,,
-2C3,0x77D9,@289,,
-2C4,0x77D9,@289,,
-2C5,0x77D9,@289,,
-2C6,0x77D9,@289,,
-2C7,0x77D9,@289,,
-2C8,0x77D9,@289,,
-2C9,0x77D9,@289,,
-2CA,0x77D9,@289,,
-2CB,0x77D9,@289,,
-2CC,0x77D9,@289,,
-2CD,0x77D9,@289,,
-2CE,0x77D9,@289,,
-2CF,0x77D9,@289,,
-2D0,0x77D9,@289,,
-2D1,0x77D9,@289,,
-2D2,0x77D9,@289,,
-2D3,0x77D9,@289,,
-2D4,0x77D9,@289,,
-2D5,0x77D9,@289,,
-2D6,0x77D9,@289,,
-2D7,0x77D9,@289,,
-2D8,0x77D9,@289,,
-2D9,0x77D9,@289,,
-2DA,0x77D9,@289,,
-2DB,0x77D9,@289,,
-2DC,0x77D9,@289,,
-2DD,0x77D9,@289,,
-2DE,0x77D9,@289,,
-2DF,0x77D9,@289,,
-2E0,0x77D9,@289,,
-2E1,0x77D9,@289,,
-2E2,0x77D9,@289,,
-2E3,0x77D9,@289,,
-2E4,0x77D9,@289,,
-2E5,0x77D9,@289,,
-2E6,0x77D9,@289,,
-2E7,0x77D9,@289,,
-2E8,0x77D9,@289,,
-2E9,0x77D9,@289,,
-2EA,0x77D9,@289,,
-2EB,0x77D9,@289,,
-2EC,0x77D9,@289,,
-2ED,0x77D9,@289,,
-2EE,0x77D9,@289,,
-2EF,0x77D9,@289,,
-2F0,0x77D9,@289,,
-2F1,0x77D9,@289,,
-2F2,0x77D9,@289,,
-2F3,0x77D9,@289,,
-2F4,0x77D9,@289,,
-2F5,0x77D9,@289,,
-2F6,0x77D9,@289,,
-2F7,0x77D9,@289,,
-2F8,0x77D9,@289,,
-2F9,0x77D9,@289,,
-2FA,0x77D9,@289,,
-2FB,0x77D9,@289,,
-2FC,0x77D9,@289,,
-2FD,0x77D9,@289,,
-2FE,0x77D9,@289,,
-2FF,0x77D9,@289,,
+Index,Pointer,Original,Translated
+000,0x4600,セーブしますか?<*04>,Save your game?<*04>
+001,0x460A,セーブしました!<*04>,Game saved!<*04>
+002,0x4614,ティンペットをてにいれた!,Got a Tinpet!
+003,0x4623,あっ!<CR>これいじょう もてないや!<CF>ティンペットをあきらめた!,Oh! I can't carry any more!<CF>Gave up the Tinpet!
+004,0x4644,<SFF>セレクトボタンで いれかえます<*04>,<SFF>Press the SELECT Button to swap.<*04>
+005,0x4657,メダロットが<CR>1たいも くまれていません!<CF>メダロットを くんでください,You haven't built a single Medarot!<CF>Please assemble a Medarot.
+006,0x467D,<@77>みなさん こんにちはー!<*02>,"<@77>Hello, everyone!<*02>"
+007,0x467D,@006,
+008,0x467D,@006,
+009,0x467D,@006,
+00A,0x467D,@006,
+00B,0x467D,@006,
+00C,0x467D,@006,
+00D,0x467D,@006,
+00E,0x467D,@006,
+00F,0x467D,@006,
+010,0x467D,@006,
+011,0x468D,<@7E>こんにちはー!<*02>,<@7E>Hellooo!<*02>
+012,0x4698,<@77>「しゅうかんメダロット」のじかんが<CR>やってきましたー!<*02>,"<@77>It's time for ""Weekly Medarot""!<*02>"
+013,0x46B7,<@7D>ねえ ねえ こんしゅうは なに?<*02>,"<@7D>Hey, hey, what's on this week?<*02>"
+014,0x46CB,<@77>あせらないで こんしゅうはね<CR>「メダロットのくみたてこうざ」よ!<*02>,"<@77>Patience! This week it's ""How to Build a Medarot""!<*02>"
+015,0x46EF,<@7E>えっ? ボクたちの?<*02>,<@7E>Huh? Us?<*02>
+016,0x46FD,<@77>じゃ しらないキミも<CR>しってるキミも<CF>おねーさんといっしょに<CR>ベんきょうしましょ!<*02>,"<@77>So whether you know it already or not,<CF>come study along with me!<*02>"
+017,0x472A,<@7A>それじャ<CR>はじまリ はじまリィ<*02>,<@7A>And now... let's beeegin!<*02>
+018,0x473D,<@77>これからも「しゅうかんメダロット」を<CR>ヨロシクね♥<*02>,"<@77>Keep watching ""Weekly Medarot""! ♥<*02>"
+019,0x475A,<@7E>え!? もう おわリ!?<*02>,<@7E>Huh!? It's over already!?<*02>
+01A,0x476A,<@77>それじゃ ばいばーい<*02>,"<@77>Bye-bye, everyone!<*02>"
+01B,0x4778,<@7D>また らいしゅー!<*02>,<@7D>See you next week!<*02>
+01C,0x4785,<@A0>これから しょくんは<CR>セレクトたいの たいいんとなって<CF>ロボロボだんを<CR>つかまえるのであリますが<CF>ロボロボールの ルールを<CR>きくで あリますか?<*04>,"<@A0>You are now members of the Select Corps!<CF>Your duty is to capture the RoboRobo Gang, sir!<CF>Do you wish to hear the rules of RoboRoball, sir?<*04>"
+01D,0x47D1,<@A1>それでは せつめいするであリます<CF>しょくんは ボールを つかんで<CR>あいてに ぶつけるのであリますが<CF>ぎゃくに ぶつけられたら<CR>まけに なってしまうのであリます<CF>とんできたボールを つかむには<CR>しょくんの てを だすであリます<CF>Aボタンを おすと みぎて<CR>Bボタンを おすと ひだリてで<CF>とんできた ボールを<CR>キャッチ できるであリます<CF>ボールを なげるには もういちど<CR>ボタンを おすであリます<CF>すると おしたほうの てから<CR>ボールを なげるであリます<*02>,"<@A1>Then I shall explain, sir!<CF>Grab the ball and throw it at your opponent!<CF>But if you get hit, you lose, sir!<CF>To catch a flying ball, stick out your hand!<CF>Press A for the right hand, B for the left<CF>to catch a ball that's flying at you!<CF>To throw the ball, press the button again!<CF>The ball will fly from that hand, sir!<*02>"
+01E,0x48B7,<@A2>それでは しょくんの けんとうを<CR>いのるであリます!!,"<@A2>I wish you the best of luck, sir!!"
+01F,0x48D6,<@A1>それでは さっそく<CR>ゲームスタートで あリます!,"<@A1>Now, without further ado... Game start, sir!"
+020,0x48F2,ドドドドドドゥッ!!!<CR>ドガァァァン!!!<CF><CC>ああ!! おれたちの<CR>メダロットが!!<CF><CC>な なによぉ こいつ・・・<CR>いったい なんなのよぉ!<CF><CC>カブトメダロットに こんな<CR>ワザの データは ないぜ!?<CF><CC>ちびるよ<*02>,Dododododoom!!! Kabooom!!!<CF><CC>Aah!! Our Medarots!!<CF><CC>Wh-what IS this thing!?<CF><CC>There's no data on a Kabuto Medarot having a move like that!?<CF><CC>I'm gonna wet myself.<*02>
+021,0x495E,ザシュウウウゥッ!!!<CR>ドガァァァン!!!<CF><CC>わっ マジ!? なんだよ あれ!<CR>こんな ワザ あリかよ!?<CF><CC>ちょっ・・・ちょっとぉ! なんで<CR>あたしの メダロットが!?<CF><CC>クワガタメダロットに こんな<CR>ワザの データは ないぜ!?<CF><CC>ちびるよ<*02>,"Zashuuuuh!!! Kabooom!!!<CF><CC>Whoa, seriously!? What was that!? Is that move even legal!?<CF><CC>H-hey! Why MY Medarot!?<CF><CC>There's no data on a Kuwagata Medarot having a move like that!?<CF><CC>I'm gonna wet myself.<*02>"
+022,0x49DA,コウジくん<CF><CC>カリン!<CF><CC>あっ!<CR>きみは カリンちゃん<CF><CC>あっ また おあいしましたね<CR><&CB26>・・・くん<CF><CC>なによ <&CB26><CF><CC>いつのまに こんな かわいいこと<CR>しリあいに なったわけ?<*02>,"Koji!<CF><CC>Karin!<CF><CC>Oh! You're Karin!<CF><CC>Oh, we meet again, <&CB26>.<CF><CC>What's this, <&CB26>?<CF><CC>When did you meet such a cute girl?<*02>"
+023,0x4A38,いろどリましょう しょくたくを<CR>みんなでふせごう つまみぐい<CF><CC>じょうおんほぞんで あいをつつみこむ<CR>カレーなるメダロッター<CF><CC>かいとうレトルト<CR>ただいま さんじょう!<CF><CC>あくじあるところ<CR>かいとうレトルトあリだ!<CF><CC>か・・・かっこいい<CF><CC>ヘ・・・ヘンタイロボ<*02>,"Brightening the dinner table, stopping snack thieves for all!<CF><CC>Wrapping love at room temperature, the curry-ageous Medarotter...<CF><CC>Phantom Retort is here!<CF><CC>Wherever there's evil, there's Phantom Retort!<CF><CC>S-so cool...<CF><CC>Wh-what a weirdo robot...<*02>"
+024,0x4ABC,さかせましょう おこめのはな<CF><CC>ちらしましょう アクのはな<CF><CC>てんから まいおリた<CR>びじょメダロッター<CF><CC>かいとうレトルトレディ<CR>ただいま さんじょう!<CF><CC>かぁっこいいー♥<CF><CC>テガラを あせって<CR>しんじつが みえないなんて<CF><CC>ほんとうに おバカさん<*02>,"Let the rice flowers bloom!<CF><CC>Scatter the flowers of evil!<CF><CC>Descended from the heavens, the beautiful Medarotter...<CF><CC>Lady Retort is here!<CF><CC>So coooool! ♥<CF><CC>Rushing for glory, you can't even see the truth.<CF><CC>What a silly boy.<*02>"
+025,0x4B3A,おかえリっ プース・カフェ!!<CF>ボク さみしカッタ<CR>ずっト あいたかったヨ<CF>ねっ いっしょに かえろ?<CF>かえってイイ?<CF>だいじょうぶ!<CR>じいやは わたしが なんとかする<CF>こまったことを してくれましたのぅ<CR>それにしても ひめさまの<CF>うれしそうな かお<CR>まったく どうしたものやら・・・<*02>,"Welcome back, Pousse Café!!<CF>Me was lonely. Me miss you so much.<CF>Hey, come home with me?<CF>Me can come home?<CF>It's okay! I'll handle Jiiya.<CF>What a fine mess you've made. And yet the Princess<CF>looks so happy. What am I to do...<*02>"
+026,0x4BCA,ゴゴゴゴゴオォォォォ・・・・<CF><CC>すごい しょうげきだ! いよいよだな<CR>みんな がんばってくれ!<CF><CC>みんなの ちからを<CR>むだに したくない!<CF><CC>おねがいです<CR>メダロットの かみさま!<*02>,"Rumbllllle...<CF><CC>What an impact! This is it! Everyone, hang in there!<CF><CC>I don't want everyone's effort to go to waste!<CF><CC>Please, Medarot God!<*02>"
+027,0x4C26,ドッゴオオオオオオォォォォン!!<CR>グルゥアアアウゥゥゥゥッ!!<CF><CC>こ これは ビーストマスター!?<CR>いや ちがう このかんじは・・・<CF><CC>すごい いあつかんだ こいつは<CR>ほんとうに メダロットなのか!?<*02>,Kaboooooom!! Grrraaaaagh!!<CF><CC>Is that the Beast Master!? No... this feeling...<CF><CC>What intense pressure! Is this thing really a Medarot!?<*02>
+028,0x4C8C,ちゅっ♥<CF><CC>あああ! ほんとに<CR>やリやがったっ!<CF><CC>チキショー みせつけやがって!<CR>うらやましいじゃねーかっ!<CF><CC>なに うらやましがってんのよぉっ!<CR>ボカッ!<CF><CC>いてっ!<CF><CC>はじめての ちゅーは どんなあじ?<CF><CC>カガミヤマぁ! あんたもねぇ!<CR>ボカッ!<CF><CC>イ イタイ・・・<*02>,"Smooch! ♥<CF><CC>Aaah! She actually did it!<CF><CC>Dammit, showing off! I'm so jealous!<CF><CC>Why are YOU jealous!? Bonk!<CF><CC>Ow!<CF><CC>How did your first kiss taste?<CF><CC>Kagamiyama! You too!! Bonk!<CF><CC>Th-that hurts...<*02>"
+029,0x4D16,これからも ずっと・・・<CR>そばにいて いいですか?<CF><CC>コウジに たのまれたんだ<CR>カリンちゃんの こと<CF><CC>コウジくんに・・・ですか?<CF><CC>うん でも ぼくは<CR>たのまれたからじゃ なくて<CF><CC>ぼくは ほんとうに カリンちゃんの<CR>そばに いたいって おもうんだ<CF><CC><&CB26>くん・・・<*02>,"Can I... stay by your side from now on?<CF><CC>Koji asked me to look after you, Karin.<CF><CC>Koji did...?<CF><CC>Yeah. But it's not because he asked.<CF><CC>I really want to be by your side, Karin.<CF><CC><&CB26>...<*02>"
+02A,0x4D9F,いろんなことが あったよなぁ<CR>いいことばっかしじゃ なかったけど<CF><CC>でも ぼく ひとリじゃ<CR>きっと なにも できなかったよね<CF><CC>みんな みんな たいせつな<CR>ぼくの ともだち!<CF><CC>ぼくの そばには いつも<CR>なかまが いて<CF><CC>メダロットが いる!<CR>これからも ずっとね!<*02>,"So much has happened... Not all of it was good, though.<CF><CC>But I couldn't have done anything on my own.<CF><CC>Everyone, every one of you, is my precious friend!<CF><CC>I always have my friends by my side...<CF><CC>and my Medarots! Forever and ever!<*02>"
+02B,0x4E26,がっははははははははははははは!!<CF>みなのものに つぐ<CR>このまちは ワシが せんきょした<CF>すベての ものは ワシの<CR>あしもとに ひざまずくのじゃ!<CF>このこえ! ヘベレケはかせ!<CR>なにが どうなってんだ!?<CF>それと・・・ きいておるか!<CR><&CB26>!!<CF>えっ ぼく!?<CF>おぬしの たーいせつな<CR>おんなのこを あずかっとるぞ!<CF>かえして ほしくば・・・<CF>ここまで とリに こーい!<CR>がっはははははははは!<*02>,"Gahahahahahahahahahaha!!<CF>Hear me, all of you! I have taken over this town!<CF>Everyone shall kneel at my feet!<CF>That voice! Dr. Hebereke! What's going on!?<CF>And... are you listening, <&CB26>!?<CF>Huh, me!?<CF>I have your pre-e-cious girl with me!<CF>If you want her back...<CF>come and get her! Gahahahahahaha!<*02>"
+02C,0x4EEE,パーツてんそうを しゅうリょうします<CR>ごリよう あリがとうございました<*02>,Parts transfer complete. Thank you for using our service.<*02>
+02D,0x4EEE,@02C,
+02E,0x4EEE,@02C,
+02F,0x4EEE,@02C,
+030,0x4EEE,@02C,
+031,0x4F13,この パスワードを<CR>あいてに にゅうリゅく してください<*02>,Please have your friend enter this password.<*02>
+032,0x4F31,あいてから もらった パスワードを<CR>にゅうリゅく してください<*04>,Enter the password from your friend.<*04>
+033,0x4F52,パスワードによる パーツの<CR>てんそうを おこないますか?<*04>,Transfer parts by password?<*04>
+034,0x4F70,それでは パーツを ふやす ひとと<CR>わたす ひとを きめてください<CF>パーツの うけわたしが おわるまで<CR>でんげんは きらないでください<CF>パーツを ふやすと<CR>フレンドポイントが 1つ ヘリます<CF>パーツを ふやしますか?<CR>パーツを わたしますか?<*04>,First decide who gets parts and who gives them.<CF>Don't turn off the power until the transfer is done.<CF>Copying parts uses up 1 Friend Point.<CF>Receive parts? Or give parts?<*04>
+035,0x4FEB,4もじの パスワードを あいての<CR>ゲームボーイに うちこんでください<CF>すると あいてから 6もじの<CR>パスワードが かえってきます<*02>,Have your friend enter this 4-digit password.<CF>You'll then get a 6-digit password back.<*02>
+036,0x502D,かえってきた パスワードを<CR>にゅうリょく してください<*04>,Enter the password you got back.<*04>
+037,0x504A,<&CB26>は <&CCA9>パーツ<CR>「<&CC9E>」を てにいれた<CF>あいての ゲームボーイも<CR>ショップに もどしてください<*02>,"<&CB26> got the <&CCA9> part ""<&CC9E>""!<CF>Return your friend's Game Boy to the shop too.<*02>"
+038,0x5080,<&CB26>は <&CCA9>パーツ<CR>「<&CC9E>」を てにいれた<CF>ボタンを おすと<CR>ショップに もどリます<*02>,"<&CB26> got the <&CCA9> part ""<&CC9E>""!<CF>Press a button to return to the shop.<*02>"
+039,0x50AF,パスワードが まちがっています<CR>にゅうリょく しなおしてください<*04>,Wrong password. Please enter it again.<*04>
+03A,0x50D1,あなたの もっているパーツを 1つ<CR>あいての メダロッチに ふやします<CF>あいてから パスワードを うけとって<CR>ただしく にゅうリょくしてください<*04>,Copy 1 of your parts to your friend's Medarotch.<CF>Get a password from your friend and enter it.<*04>
+03B,0x511B,パスワードを<CR>にゅうリょく してください,Please enter the password.
+03C,0x5131,フレンドポイントが あリません<*02>,You have no Friend Points.<*02>
+03D,0x5142,このパーツで よろしいですか?<*04>,Is this part okay?<*04>
+03E,0x5153,もういちど えらびなおしてください<*04>,Please choose again.<*04>
+03F,0x5166,この パスワードを あいての<CR>ゲームボーイに うちこんでください<*02>,Enter this password into your friend's Game Boy.<*02>
+040,0x5188,これいじょう もてません!<*02>,You can't carry any more!<*02>
+041,0x5197,この パスワードは むこうです<CR>にゅうリょく しなおしてください<*04>,This password is invalid. Please enter it again.<*04>
+042,0x51B9,いらっしゃい<CR>ペイントショップだよ<*04>,Welcome to the Paint Shop!<*04>
+043,0x51CC,ペイントするには<CR>100円 かかるんだよ<*02>,Painting costs 100 yen.<*02>
+044,0x51E2,ペイントした メダロット<CR>もってないじゃん!<*02>,You don't have any painted Medarots!<*02>
+045,0x51FA,いろをかえたい メダロットを<CR>えらんでね<*02>,Choose a Medarot to recolor.<*02>
+046,0x5210,いろをもどす メダロットを<CR>えらんでね<*02>,Choose a Medarot to restore.<*02>
+047,0x5225,この メダロットのいろを<CR>もとにもどしても いいかい?<*04>,Restore this Medarot's original color?<*04>
+048,0x5242,ペイントするかい?<CR>いろをえらんでね<*04>,Want it painted? Pick a color!<*04>
+049,0x5256,このいろで いいかい?<*04>,This color okay?<*04>
+04A,0x5263,100円 かかるけど<CR>いいかい?<*04>,It'll cost 100 yen. Okay?<*04>
+04B,0x5275,うん! かっこよくなったね!<*02>,Yeah! It looks so cool!<*02>
+04C,0x5285,ここでは メダロットのいろを<CR>ヘんこうすることが できるんだ<CF>ふつうなら あたまパーツを かえると<CR>メダロットのいろも かわるんだけど<CF>ここで ペイントした メダロットは<CR>どんな パーツをつけても<CF>きみが えらんだ いろになるんだ!<CF>たとえ ティンペットだって<CR>そのいろに なっちゃう!<CF><*04>,"Here you can change a Medarot's color.<CF>Usually its color changes when you swap the head part,<CF>but a Medarot painted here, whatever parts it has,<CF>stays the color you chose!<CF>Even a bare Tinpet turns that color!<CF><*04>"
+04D,0x5317,もっている メダロットを<CR>ぜんぶ おなじ いろにしたリ・・・<CF>メダロットの タイプによって<CR>じぶんで いろわけしたリ・・・<CF>たったの 100円で<CR>いろいろ たのしめるんだ!<CF>もとに もどしたかったら いつでも<CR>タダで やってあげるからね<CF>じぶんだけの オリジナルな<CR>メダロットチームを つくリなよ!<*02>,"Paint all your Medarots the same color...<CF>or color-code them by type...<CF>For just 100 yen, there's tons of fun!<CF>If you want the old colors back, I'll do it for free.<CF>Make your very own original Medarot team!<*02>"
+04E,0x53AE,ゲームボーイカラーで ためしてね<*02>,Try it on a Game Boy Color!<*02>
+04F,0x53C0,なんの ようだい?<*04>,What can I do for you?<*04>
+050,0x53CB,<SFF>「ソード」「ハンマー」<CR>かくとう こうげき パーツが とくい<*04>,"<SFF>Good with melee attack parts like ""Sword"" and ""Hammer"".<*04>"
+051,0x53ED,<SFF>「ライフル」「ガトリング」<CR>しゃげき こうげき パーツが とくい<*04>,"<SFF>Good with shooting parts like ""Rifle"" and ""Gatling"".<*04>"
+052,0x5411,<SFF>「レーザー」「ビーム」<CR>いリょくの たかい パーツが とくい<*04>,"<SFF>Good with high-power parts like ""Laser"" and ""Beam"".<*04>"
+053,0x5433,<SFF>「ミサイル」「ナパーム」<CR>かんつうする パーツが とくい<*04>,"<SFF>Good with piercing parts like ""Missile"" and ""Napalm"".<*04>"
+054,0x5453,<SFF>「ブレイク」「プレス」<CR>せいこうの たかい パーツが とくい<*04>,"<SFF>Good with high-success parts like ""Break"" and ""Press"".<*04>"
+055,0x5475,<SFF>「トラップ」「こうげきブロック」<CR>こうげきを ふせぐ パーツが とくい<*04>,"<SFF>Good with blocking parts like ""Trap"" and ""Attack Block"".<*04>"
+056,0x549C,<SFF>「バグ」「ウィルス」<CR>せいのうを さげる パーツが とくい<*04>,"<SFF>Good with weakening parts like ""Bug"" and ""Virus"".<*04>"
+057,0x54BD,<SFF>「サンダー」「フリーズ」<CR>うごきを とめる パーツが とくい<*04>,"<SFF>Good with stopping parts like ""Thunder"" and ""Freeze"".<*04>"
+058,0x54DF,<SFF>「ウェーブ」「ホールド」<CR>そくどを さげる パーツが とくい<*04>,"<SFF>Good with parts that lower speed, like ""Wave"" and ""Hold"".<*04>"
+059,0x5501,<SFF>「ファイヤー」「メルト」<CR>けいぞくダメージの パーツが とくい<*04>,"<SFF>Good with lasting-damage parts like ""Fire"" and ""Melt"".<*04>"
+05A,0x5524,<SFF>「トラップ」や「しょうじょう」を<CR>かいじょする パーツが とくい<*04>,<SFF>Good with parts that cancel traps and status ailments.<*04>
+05B,0x5548,<SFF>「レーザー」などの しゃげきを<CR>むこうにする パーツが とくい<*04>,"<SFF>Good with parts that negate shots like ""Laser"".<*04>"
+05C,0x556B,<SFF>「シールド」や「バリア」などの<CR>ダメージを ふせぐ パーツが とくい<*04>,"<SFF>Good with defensive parts like ""Shield"" and ""Barrier"".<*04>"
+05D,0x5591,<SFF>「かいふく」「けいぞく かいふく」<CR>かいふくさせる パーツが とくい<*04>,"<SFF>Good with healing parts like ""Repair"" and ""Auto-Repair"".<*04>"
+05E,0x55B7,<SFF>「ふっかつ」「そせい」<CR>ふっかつさせる パーツが とくい<*04>,"<SFF>Good with reviving parts like ""Revive"" and ""Resurrect"".<*04>"
+05F,0x55D7,<SFF>「たいくう こうげき」<CR>ひこうを ねらう パーツが とくい<*04>,"<SFF>Good with ""Anti-Air"" parts that target Flying Medarots.<*04>"
+060,0x55F8,<SFF>「たいすい こうげき」<CR>せんすいを ねらう パーツが とくい<*04>,"<SFF>Good with ""Anti-Sea"" parts aimed at Aquatic Medarots.<*04>"
+061,0x561A,<SFF>「さくてき」「いんペい クリア」<CR>こうげきを あてる パーツが とくい<*04>,"<SFF>Good with accuracy parts like ""Scan"" and ""Conceal Clear"".<*04>"
+062,0x5641,<SFF>「いんペい」「さくてき クリア」<CR>こうげきを よける パーツが とくい<*04>,"<SFF>Good with evasion parts like ""Conceal"" and ""Scan Clear"".<*04>"
+063,0x5668,<SFF>「じゅうてん」や「てんとう」などの<CR>じかんを あやつる パーツが とくい<*04>,"<SFF>Good with parts that control time, like ""Charge"" and ""Trip"".<*04>"
+064,0x5690,<SFF>「しようふのう」や「こんらん」などの<CR>てきを ふうじる パーツが とくい<*04>,"<SFF>Good with sealing parts like ""Disable"" and ""Confuse"".<*04>"
+065,0x56B8,<SFF>「デストロイ」「サクリファイス」<CR>てきを はかいする パーツが とくい<*04>,"<SFF>Good with foe-destroying parts like ""Destroy"" and ""Sacrifice"".<*04>"
+066,0x56DF,<SFF>「メダフォース アップ」などの<CR>メダフォースヘんか パーツが とくい<*04>,"<SFF>Good with Medaforce-changing parts like ""Medaforce Up"".<*04>"
+067,0x5705,<SFF>「クロスこうげき セットオン」などの<CR>がったいこうげきの パーツが とくい<*04>,"<SFF>Good with combined attacks like ""Cross Attack Set On"".<*04>"
+068,0x572E,<SFF>「はんげき」や「はんしゃ」などの<CR>こうげきを かえす パーツが とくい<*04>,"<SFF>Good with counterattack parts like ""Counter"" and ""Reflect"".<*04>"
+069,0x5755,<SFF>「パーツ ヘんか」などの<CR>ヘんかする パーツが とくい<*04>,"<SFF>Good with transforming parts like ""Part Transform"".<*04>"
+06A,0x5774,<SFF>ぜんたい バランスの よい メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>A well-balanced Medal overall. No parts match it well.<*04>
+06B,0x579B,<SFF>マークのない ふしぎな メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>A mysterious Medal with no mark. No parts match it well.<*04>
+06C,0x57C0,<SFF>セレクトたいが つくった メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>A Medal made by the Select Corps. No parts match it well.<*04>
+06D,0x57E6,<SFF>ロボロボだんが つくった メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>A Medal made by the RoboRobo Gang. No parts match it well.<*04>
+06E,0x580C,<SFF>ホケタ チイさんが つくった メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>A Medal made by Mr. Hoketa Chii. No parts match it well.<*04>
+06F,0x5834,<SFF>「はてな」の しんせきの メダル<CR>あいしょうの よい パーツは ない<*04>,"<SFF>A Medal related to the ""?"" Medal. No parts match it well.<*04>"
+070,0x585A,これで まちの つながリが わかるぞ,Now I know how the towns connect!
+071,0x585A,@070,
+072,0x585A,@070,
+073,0x585A,@070,
+074,0x585A,@070,
+075,0x585A,@070,
+076,0x585A,@070,
+077,0x585A,@070,
+078,0x585A,@070,
+079,0x585A,@070,
+07A,0x585A,@070,
+07B,0x585A,@070,
+07C,0x585A,@070,
+07D,0x585A,@070,
+07E,0x585A,@070,
+07F,0x585A,@070,
+080,0x585A,@070,
+081,0x585A,@070,
+082,0x585A,@070,
+083,0x585A,@070,
+084,0x585A,@070,
+085,0x585A,@070,
+086,0x585A,@070,
+087,0x585A,@070,
+088,0x585A,@070,
+089,0x585A,@070,
+08A,0x585A,@070,
+08B,0x585A,@070,
+08C,0x585A,@070,
+08D,0x585A,@070,
+08E,0x585A,@070,
+08F,0x585A,@070,
+090,0x585A,@070,
+091,0x585A,@070,
+092,0x585A,@070,
+093,0x585A,@070,
+094,0x585A,@070,
+095,0x585A,@070,
+096,0x585A,@070,
+097,0x585A,@070,
+098,0x585A,@070,
+099,0x585A,@070,
+09A,0x585A,@070,
+09B,0x585A,@070,
+09C,0x585A,@070,
+09D,0x585A,@070,
+09E,0x585A,@070,
+09F,0x585A,@070,
+0A0,0x585A,@070,
+0A1,0x585A,@070,
+0A2,0x585A,@070,
+0A3,0x585A,@070,
+0A4,0x585A,@070,
+0A5,0x585A,@070,
+0A6,0x585A,@070,
+0A7,0x585A,@070,
+0A8,0x585A,@070,
+0A9,0x585A,@070,
+0AA,0x585A,@070,
+0AB,0x585A,@070,
+0AC,0x585A,@070,
+0AD,0x585A,@070,
+0AE,0x585A,@070,
+0AF,0x585A,@070,
+0B0,0x585A,@070,
+0B1,0x585A,@070,
+0B2,0x585A,@070,
+0B3,0x585A,@070,
+0B4,0x585A,@070,
+0B5,0x585A,@070,
+0B6,0x585A,@070,
+0B7,0x585A,@070,
+0B8,0x585A,@070,
+0B9,0x585A,@070,
+0BA,0x585A,@070,
+0BB,0x585A,@070,
+0BC,0x585A,@070,
+0BD,0x585A,@070,
+0BE,0x585A,@070,
+0BF,0x585A,@070,
+0C0,0x585A,@070,
+0C1,0x585A,@070,
+0C2,0x585A,@070,
+0C3,0x585A,@070,
+0C4,0x585A,@070,
+0C5,0x585A,@070,
+0C6,0x585A,@070,
+0C7,0x585A,@070,
+0C8,0x585A,@070,
+0C9,0x585A,@070,
+0CA,0x585A,@070,
+0CB,0x585A,@070,
+0CC,0x585A,@070,
+0CD,0x585A,@070,
+0CE,0x585A,@070,
+0CF,0x585A,@070,
+0D0,0x585A,@070,
+0D1,0x585A,@070,
+0D2,0x585A,@070,
+0D3,0x585A,@070,
+0D4,0x585A,@070,
+0D5,0x585A,@070,
+0D6,0x585A,@070,
+0D7,0x585A,@070,
+0D8,0x585A,@070,
+0D9,0x585A,@070,
+0DA,0x585A,@070,
+0DB,0x585A,@070,
+0DC,0x585A,@070,
+0DD,0x585A,@070,
+0DE,0x585A,@070,
+0DF,0x585A,@070,
+0E0,0x585A,@070,
+0E1,0x585A,@070,
+0E2,0x585A,@070,
+0E3,0x585A,@070,
+0E4,0x585A,@070,
+0E5,0x585A,@070,
+0E6,0x585A,@070,
+0E7,0x585A,@070,
+0E8,0x585A,@070,
+0E9,0x585A,@070,
+0EA,0x585A,@070,
+0EB,0x585A,@070,
+0EC,0x585A,@070,
+0ED,0x585A,@070,
+0EE,0x585A,@070,
+0EF,0x585A,@070,
+0F0,0x585A,@070,
+0F1,0x585A,@070,
+0F2,0x585A,@070,
+0F3,0x585A,@070,
+0F4,0x585A,@070,
+0F5,0x585A,@070,
+0F6,0x585A,@070,
+0F7,0x585A,@070,
+0F8,0x585A,@070,
+0F9,0x585A,@070,
+0FA,0x585A,@070,
+0FB,0x585A,@070,
+0FC,0x585A,@070,
+0FD,0x585A,@070,
+0FE,0x585A,@070,
+0FF,0x585A,@070,
+100,0x585A,@070,
+101,0x586E,ヘんしんグッズ その1<CR>フリルのひらひら ミニスカート,"Dress-up item #1. A frilly, fluttery miniskirt."
+102,0x588B,ママに つくってもらった おベんとう<CR>とっても おいしいよ♥,A boxed lunch Mom made for me. It's super tasty! ♥
+103,0x58AB,カンちゃんと ナツコさんを<CR>つなぐ こころの かけはしだ,A bridge between the hearts of Kan-chan and Natsuko.
+104,0x58C9,ちょっと なおせば<CR>つかえそうな パーツ,Parts that look usable if you fix them up a little.
+105,0x58DF,ヘんしんグッズ その2<CR>おんなのこの きもの,Dress-up item #2. A girl's kimono.
+106,0x58F7,メダロッとうの マスコット<CR>かわいい ラピの ぬいぐるみ♥,Medarot Island's mascot. A cute Rappy plushie! ♥
+107,0x5916,メダロッとうに いくふねに<CR>のるための チケット,A ticket for the ship that goes to Medarot Island.
+108,0x5930,おんなのこが ロボロボだんに<CR>とられた メダル,A Medal the RoboRobo Gang took from a girl.
+109,0x5949,つめたくて おいしそう♥,Ice-cold and tasty-looking! ♥
+10A,0x5957,びように いい<CR>さいきんは おとこのひとにも にんき,Good for your beauty. Lately it's popular with men too.
+10B,0x5973,メダロットたちの だいこうぶつ<CR>こうきゅう オイル,A luxury oil that Medarots absolutely love.
+10C,0x598E,ヘんしんグッズ その3<CR>リリしい ゆうしゃに ヘんしん!,Dress-up item #3. Transform into a gallant hero!
+10D,0x59AC,ヘんしんグッズ その4<CR>かわいい プリンセスに ヘんしん!,Dress-up item #4. Transform into a cute princess!
+10E,0x59CB,カメラに とリつけて つかうレンズ<CR>アリカが よろこびそうだ,A lens you attach to a camera. Arika would love this.
+10F,0x59EB,かわいい ハムスター<CR>カリンちゃんが すきそうだ,A cute hamster. Karin would probably love it.
+110,0x5A05,カリンちゃんが<CR>かくしどリ されている しゃしん,A photo of Karin that was taken in secret.
+111,0x5A1F,これがあれば メダロットしゃの<CR>ひみつのばしょに はいれる,Lets you into a secret place at the Medarot Company.
+112,0x5A3E,メダロット「ランドローター」で<CR>まちを かっとばす!,"Zoom around town in the Medarot ""Landrotor""!"
+113,0x5A5A,ヘんしんグッズ その5<CR>ロボロボだんに はやがわリ!,Dress-up item #5. Quick-change into a RoboRobo Gang member!
+114,0x5A76,はなぞのがくえん 2かいの<CR>いちばんひだリの クラスのカギ,Key to Hanazono Academy's 2nd-floor far-left classroom.
+115,0x5A95,はなぞのがくえん 2かいの<CR>まんなかの クラスのカギ,Key to Hanazono Academy's 2nd-floor middle classroom.
+116,0x5AB1,はなぞのがくえんの<CR>がくえんちょうしつの カギだ,The key to the principal's office at Hanazono Academy.
+117,0x5ACB,これがあれば ロボロボだんの<CR>ひみつのしゅうかいじょうに いける!,Lets you get into the RoboRobo Gang's secret meeting place!
+118,0x5AEE,「あなたの マルガリータ♥」って<CR>かいている しゃしんいリの ロケット,"A photo locket inscribed ""Your Margarita ♥""."
+119,0x5B13,メダロット「レディブースター」で<CR>まちを ひとっとび!,"Fly across town in the Medarot ""LadyBooster""!"
+11A,0x5B30,ビタミン たっぷリ!<CR>しんせんな レモン,Full of vitamins! A fresh lemon.
+11B,0x5B46,レモンが でんちに はやがわリ!,The lemon has turned into a battery!
+11C,0x5B58,アワモリたいちょうが あわてている<CR>かっこわるい しゃしん,A really uncool photo of Captain Awamori panicking.
+11D,0x5B77,キラキラかがやく ふしぎな<CR>ちからを もった いし,"A mysterious, sparkling stone with strange powers."
+11E,0x5B92,ロボロボだん ようちえんかんぶ<CR>サラミからの ちょうせんじょう,"A challenge letter from Sarami, the kindergarten executive."
+11F,0x5BB3,きかいずきの イワノイのもの<CR>これで イワノイと つうしんできる,Belongs to machine-loving Iwanoi. Use it to talk with him.
+120,0x5BD5,とびらを あけるために ひつような<CR>キーワードが はいっている,Contains a keyword needed to open the door.
+121,0x5BF6,とびらを あけるために ひつような<CR>キーワードが はいっている,Contains a keyword needed to open the door.
+122,0x5C17,とびらを あけるために ひつような<CR>キーワードが はいっている,Contains a keyword needed to open the door.
+123,0x5C38,とびらを あけるために ひつような<CR>キーワードが はいっている,Contains a keyword needed to open the door.
+124,0x5C59,さびているけど<CR>ちょっとなおせば つかえそうだ,"It's rusty, but it looks usable if you fix it up a little."
+125,0x5C72,ベルトコンベアーの スイッチ,The switch for a conveyor belt.
+126,0x5C82,メダロット「クリアダイビング」で<CR>みずのなかを スーイスイ!,"Swim through the water in the Medarot ""Clear Diving""!"
+127,0x5CA2,ヘんしんグッズ その6<CR>うさぎちゃんに ヘんしん♥,Dress-up item #6. Transform into a bunny! ♥
+128,0x5CBD,ヘんしんグッズ その7<CR>ソルティと おそろいの いぬになれる,Dress-up item #7. Become a dog that matches Salty!
+129,0x5CDD,これは とても<CR>つかいものに ならない・・・,This is totally useless...
+12A,0x5CF5,せんとういん カワムラーさんじょう!<CR>・・・って かいてある,"It says, ""Grunt Kawamuller has arrived!"""
+12B,0x5D15,カリンちゃんの メダル<CR>はやく かえしにいこう!,Karin's Medal. I should hurry and give it back!
+12C,0x5D2F,パーツンラリーに<CR>さんかするための バッジ,A badge for taking part in the Partsun Rally.
+12D,0x5D46,にんきの ルアー<CR>あんごう1「ぱ」って かかれてる,"A popular lure. Code 1, ""PA"", is written on it."
+12E,0x5D61,なかには<CR>あんごう2「ち」が はいっている,"Inside, there's Code 2: ""CHI""."
+12F,0x5D78,きれいな ももいろの はな<CR>あんごう3「ろ」って かいてある,"A pretty pink flower. Code 3, ""RO"", is written on it."
+130,0x5D98,ほるま リんの サインと<CR>あんごう4「う」が かかれてる,"Rin Horuma's autograph, with Code 4, ""U"", written on it."
+131,0x5DB6,とても めずらしい メダロッチ<CR>ケースから だしてない,"A very rare Medarotch, never taken out of its case!"
+132,0x5DD3,これをつかうと せんとうから<CR>にげだせるんだ なんでだろ?,Use this to escape from battle. I wonder why it works?
+133,0x5DF2,ちいさな ひかリで<CR>まっくらやみを てらす,A little light that brightens pitch darkness.
+134,0x5E09,メダロット1から 1チームを<CR>てんそうできる すごいチケット,An amazing ticket that sends 1 team from Medarot 1.
+135,0x5E29,おともだちに<CR>1パーツを プレゼントできる けん,A coupon that lets you give 1 part to a friend as a present.
+136,0x5E43,サケカースに うばわれた メダル<CR>はやく かえして あげなきゃね,The Medal Sakekaasu stole. I need to hurry and give it back!
+137,0x5E65,ショップで ポイントを ヘらすと<CR>おともだちから パーツを もらえる,Spend these at a shop to get parts from your friends.
+138,0x5E89,<SFF>ソード こうげき<CR>ノーマルな かくとうこうげき<*04>,<SFF>Sword Attack: A normal melee attack.<*04>
+139,0x5E89,@138,
+13A,0x5E89,@138,
+13B,0x5E89,@138,
+13C,0x5E89,@138,
+13D,0x5E89,@138,
+13E,0x5E89,@138,
+13F,0x5E89,@138,
+140,0x5E89,@138,
+141,0x5EA4,<SFF>ハンマー こうげき<CR>ノーマルな かくとうこうげき<*04>,<SFF>Hammer Attack: A normal melee attack.<*04>
+142,0x5EC0,<SFF>ライフル こうげき<CR>ノーマルな しゃげきこうげき<*04>,<SFF>Rifle Attack: A normal shooting attack.<*04>
+143,0x5EDC,<SFF>ガトリング こうげき<CR>ノーマルな しゃげきこうげき<*04>,<SFF>Gatling Attack: A normal shooting attack.<*04>
+144,0x5EF9,<SFF>レーザー こうげき<CR>いリょくが 2ばいになる<*04>,<SFF>Laser Attack: Doubles the attack's power.<*04>
+145,0x5F13,<SFF>ビーム こうげき<CR>いリょくが 2ばいになる<*04>,<SFF>Beam Attack: Doubles the attack's power.<*04>
+146,0x5F2C,<SFF>ミサイル こうげき<CR>ランダムヒットと かんつうダメージ<*04>,<SFF>Missile Attack: Random hits with piercing damage.<*04>
+147,0x5F4B,<SFF>ナパーム こうげき<CR>ランダムヒットと かんつうダメージ<*04>,<SFF>Napalm Attack: Random hits with piercing damage.<*04>
+148,0x5F6A,<SFF>ブレイク こうげき<CR>せいこうが 2ばいになる<*04>,<SFF>Break Attack: Doubles the success rate.<*04>
+149,0x5F84,<SFF>プレス こうげき<CR>せいこうが 2ばいになる<*04>,<SFF>Press Attack: Doubles the success rate.<*04>
+14A,0x5F9D,<SFF>かくとう トラップ<CR>「かくとうこうげき」に ダメージ<*04>,"<SFF>Fight Trap: Deals damage to ""melee attacks"".<*04>"
+14B,0x5FBB,<SFF>しゃげき トラップ<CR>「しゃげきこうげき」に ダメージ<*04>,"<SFF>Shoot Trap: Deals damage to ""shooting attacks"".<*04>"
+14C,0x5FD9,<SFF>こうげき ブロック<CR>どんなこうげきも 1かいだけ ふせぐ<*04>,"<SFF>Attack Block: Blocks any attack, but only once.<*04>"
+14D,0x5FF9,<SFF>バグ こうげき<CR>こうげきの せいこうリつを さげる<*04>,<SFF>Bug Attack: Lowers the success rate of attacks.<*04>
+14E,0x6016,<SFF>ウィルス こうげき<CR>こうげきの せいこうリつを さげる<*04>,<SFF>Virus Attack: Lowers the success rate of attacks.<*04>
+14F,0x6035,<SFF>サンダー こうげき<CR>あいての うごきを ストップさせる<*04>,<SFF>Thunder Attack: Stops the enemy's movements.<*04>
+150,0x6054,<SFF>フリーズ こうげき<CR>あいての うごきを ストップさせる<*04>,<SFF>Freeze Attack: Stops the enemy's movements.<*04>
+151,0x6073,<SFF>ウェーブ こうげき<CR>じゅんびじかんを ながくする<*04>,<SFF>Wave Attack: Lengthens the preparation time.<*04>
+152,0x608F,<SFF>ホールド こうげき<CR>じゅんびじかんを ながくする<*04>,<SFF>Hold Attack: Lengthens the preparation time.<*04>
+153,0x60AB,<SFF>ファイヤー こうげき<CR>じゅんびちゅうも ダメージをあたえる<*04>,<SFF>Fire Attack: Deals damage even during preparation.<*04>
+154,0x60CC,<SFF>メルト こうげき<CR>じゅんびちゅうも ダメージをあたえる<*04>,<SFF>Melt Attack: Deals damage even during preparation.<*04>
+155,0x60EB,<SFF>トラップ かいじょ<CR>「トラップ」を はかいする<*04>,"<SFF>Trap Cancel: Destroys ""Traps"".<*04>"
+156,0x6106,<SFF>しょうじょう かいじょ<CR>すベての しょうじょうを かいじょ<*04>,<SFF>Status Cancel: Cancels all status ailments.<*04>
+157,0x6127,<SFF>ヘんどう かいじょ<CR>「バグ」「ウィルス」を かいじょ<*04>,"<SFF>Flux Cancel: Cancels ""Bug"" and ""Virus"".<*04>"
+158,0x6145,<SFF>ていし かいじょ<CR>「サンダー」「フリーズ」を かいじょ<*04>,"<SFF>Stop Cancel: Cancels ""Thunder"" and ""Freeze"".<*04>"
+159,0x6164,<SFF>そくばく かいじょ<CR>「ホールド」「ウェーブ」を かいじょ<*04>,"<SFF>Bind Cancel: Cancels ""Hold"" and ""Wave"".<*04>"
+15A,0x6184,<SFF>けいぞく かいじょ<CR>「メルト」「ファイヤー」を かいじょ<*04>,"<SFF>Burn Cancel: Cancels ""Melt"" and ""Fire"".<*04>"
+15B,0x61A4,<SFF>メダフォース コントロール<CR>「メダフォース」を つかえなくする<*04>,"<SFF>Medaforce Control: Makes ""Medaforce"" unusable.<*04>"
+15C,0x61C7,<SFF>こうがく むこう<CR>「レーザー」「ビーム」を ブロック<*04>,"<SFF>Negate Optical: Blocks ""Laser"" and ""Beam"".<*04>"
+15D,0x61E5,<SFF>かやく むこう<CR>「ミサイル」「ナパーム」を ブロック<*04>,"<SFF>Negate Explosive: Blocks ""Missile"" and ""Napalm"".<*04>"
+15E,0x6203,<SFF>じゅうリょく むこう<CR>「ブレイク」「プレス」を ブロック<*04>,"<SFF>Negate Gravity: Blocks ""Break"" and ""Press"".<*04>"
+15F,0x6223,<SFF>シールド<CR>みかたの メダロットを えんごする<*04>,<SFF>Shield: Protects allied Medarots.<*04>
+160,0x623D,<SFF>バリア<CR>みかたヘの こうげきを ブロックする<*04>,<SFF>Barrier: Blocks attacks on allies.<*04>
+161,0x6257,<SFF>ダメージ しょうめつ<CR>よわいこうげきを ブロックする<*04>,<SFF>Damage Discard: Blocks weak attacks.<*04>
+162,0x6275,<SFF>かいふく<CR>ダメージをうけたパーツを かいふく<*04>,<SFF>Repair: Repairs damaged parts.<*04>
+163,0x628F,<SFF>けいぞく かいふく<CR>じゅんびちゅうも ダメージをかいふく<*04>,<SFF>Auto-Repair: Repairs damage even during preparation.<*04>
+164,0x62AF,<SFF>ふっかつ<CR>きのうていしパーツを ふっかつさせる<*04>,<SFF>Revive: Revives parts that have shut down.<*04>
+165,0x62CA,<SFF>そせい<CR>たおれた みかたを ふっかつさせる<*04>,<SFF>Resurrect: Revives a fallen ally.<*04>
+166,0x62E3,<SFF>たいくう こうげき<CR>ひこうメダロットに あたリやすい<*04>,<SFF>Anti-Air Attack: Easily hits Flying Medarots.<*04>
+167,0x6301,<SFF>たいくう こうげき<CR>ひこうメダロットに あたリやすい<*04>,<SFF>Anti-Air Attack: Easily hits Flying Medarots.<*04>
+168,0x631F,<SFF>たいすい こうげき<CR>せんすいメダロットに あたリやすい<*04>,<SFF>Anti-Sea Attack: Easily hits Aquatic Medarots.<*04>
+169,0x633E,<SFF>たいすい こうげき<CR>せんすいメダロットに あたリやすい<*04>,<SFF>Anti-Sea Attack: Easily hits Aquatic Medarots.<*04>
+16A,0x635D,<SFF>さくてき<CR>みかたの こうげきを あてやすくする<*04>,<SFF>Scan: Makes it easier for allies' attacks to hit.<*04>
+16B,0x6378,<SFF>いんペい クリア<CR>すベての いんペいを よわめる<*04>,<SFF>Conceal Clear: Weakens all Conceal.<*04>
+16C,0x6394,<SFF>いんペい<CR>てきの こうげきを よけやすくなる<*04>,<SFF>Conceal: Makes enemy attacks easier to dodge.<*04>
+16D,0x63AE,<SFF>さくてき クリア<CR>すベての さくてきを よわめる<*04>,<SFF>Scan Clear: Weakens all Scan.<*04>
+16E,0x63CA,<SFF>ほじょ じゅうてん<CR>じゅんびじかんを みじかくする<*04>,<SFF>Boost Charge: Shortens the preparation time.<*04>
+16F,0x63E7,<SFF>きゅうそく じゅうてん<CR>じゅんびじかんを ゼロにする<*04>,<SFF>Instant Charge: Reduces the preparation time to zero.<*04>
+170,0x6405,<SFF>じょうじ じゅうてん<CR>じゅんびじかんが みじかくなる<*04>,<SFF>Constant Charge: Preparation time is always shorter.<*04>
+171,0x6423,<SFF>じゅうてん きゅうしゅう<CR>じゅんびじかんを うばいとる<*04>,<SFF>Charge Drain: Steals the enemy's preparation time.<*04>
+172,0x6442,<SFF>てんとう<CR>ころばせて めいれいを わすれさせる<*04>,<SFF>Trip: Knocks the enemy over so it forgets its orders.<*04>
+173,0x645D,<SFF>しようふのう<CR>パーツが つかえなくなる<*04>,<SFF>Disable: Makes parts unusable.<*04>
+174,0x6474,<SFF>こんらん<CR>こうげきの あいてを きめられない<*04>,<SFF>Confuse: The enemy can't decide whom to attack.<*04>
+175,0x648E,<SFF>かいすう ダウン<CR>あたまパーツの かいすうを ヘらす<*04>,<SFF>Ammo Down: Reduces the uses of the enemy's head part.<*04>
+176,0x64AC,<SFF>かいひ ふかのう<CR>かいひを できなくする<*04>,<SFF>No Dodge: Makes the enemy unable to dodge.<*04>
+177,0x64C4,<SFF>ぼうぎょ ふかのう<CR>ぼうぎょを できなくする<*04>,<SFF>No Defend: Makes the enemy unable to defend.<*04>
+178,0x64DE,<SFF>デストロイ こうげき<CR>せなかを むけた てきを はかいする<*04>,<SFF>Destroy Attack: Destroys foes that turn their backs.<*04>
+179,0x64FF,<SFF>サクリファイス こうげき<CR>パーツを ぎせいにして だいダメージ<*04>,<SFF>Sacrifice Attack: Sacrifices parts to deal huge damage.<*04>
+17A,0x6522,<SFF>メダフォース アップ<CR>メダフォースを ふやす<*04>,<SFF>Medaforce Up: Raises Medaforce.<*04>
+17B,0x653C,<SFF>メダフォース ダウン<CR>メダフォースを ヘらす<*04>,<SFF>Medaforce Down: Lowers Medaforce.<*04>
+17C,0x6556,<SFF>クロスこうげき セットオン!<CR>「クロスこうげき」を セットする<*04>,"<SFF>Cross Attack Set On!: Sets up a ""Cross Attack"".<*04>"
+17D,0x6579,<SFF>クロスこうげき ファイヤー!<CR>「クロスこうげき」で こうげきする<*04>,"<SFF>Cross Attack Fire!: Attacks with the ""Cross Attack"".<*04>"
+17E,0x659D,<SFF>しのびこみ かくとう<CR>ねらったあいてに かくとうこうげき<*04>,<SFF>Sneak Attack: A melee attack on the targeted enemy.<*04>
+17F,0x65BD,<SFF>ダメージ はんげき<CR>つよいこうげきだけを はじきかえす<*04>,<SFF>Damage Counter: Bounces back only strong attacks.<*04>
+180,0x65DC,<SFF>ダメージ はんしゃ<CR>あいての こうげきを はじきかえす<*04>,<SFF>Damage Reflect: Bounces back the enemy's attacks.<*04>
+181,0x65FB,<SFF>パーツ ヘんか<CR>ベつのパーツに ヘんかする<*04>,<SFF>Part Transform: Transforms into a different part.<*04>
+182,0x6614,<SFF>ぼうがいパーツ ヘんか<CR>「ぼうがい」パーツに ヘんかする<*04>,"<SFF>Disrupt Part Transform: Becomes a ""Disrupt"" part.<*04>"
+183,0x6634,<SFF>こうげきパーツ ヘんか<CR>「こうげき」パーツに ヘんかする<*04>,"<SFF>Attack Part Transform: Becomes an ""Attack"" part.<*04>"
+184,0x6654,<SFF>ぼうぎょパーツ ヘんか<CR>「ぼうぎょ」パーツに ヘんかする<*04>,"<SFF>Defense Part Transform: Becomes a ""Defense"" part.<*04>"
+185,0x6674,<SFF>とくしゅパーツ ヘんか<CR>「とくしゅ」パーツに ヘんかする<*04>,"<SFF>Special Part Transform: Becomes a ""Special"" part.<*04>"
+186,0x6694,<SFF>ひこうメダロット<CR>「あれち」「さばく」に つよい<*04>,"<SFF>Flying Medarot: Strong in ""Wasteland"" and ""Desert"".<*04>"
+187,0x66B0,<SFF>ふゆうメダロット<CR>どのフィールドも とくい<*04>,<SFF>Hover Medarot: Good on any field.<*04>
+188,0x66C9,<SFF>たきゃくメダロット<CR>「いわば」「たにま」に つよい<*04>,"<SFF>Multi-leg Medarot: Strong in ""Rocky Area"" and ""Valley"".<*04>"
+189,0x66E6,<SFF>にきゃくメダロット<CR>「そうげん」「もリのなか」に つよい<*04>,"<SFF>Bipedal Medarot: Strong in ""Grassland"" and ""Forest"".<*04>"
+18A,0x6706,<SFF>くるまメダロット<CR>「まちなか」「しつない」に つよい<*04>,"<SFF>Wheeled Medarot: Strong in ""Street"" and ""Indoors"".<*04>"
+18B,0x6724,<SFF>せんしゃメダロット<CR>フィールドに えいきょうされない<*04>,<SFF>Tank Medarot: Not affected by the field.<*04>
+18C,0x6742,<SFF>せんすいメダロット<CR>「かいがん」「すいちゅう」に つよい<*04>,"<SFF>Aquatic Medarot: Strong in ""Beach"" and ""Underwater"".<*04>"
+18D,0x6762,<SFF>てき1たいの<CR>すベての パーツに こうげき<*04>,<SFF>Hits every part of a single enemy.<*04>
+18E,0x6762,@18D,
+18F,0x6762,@18D,
+190,0x6762,@18D,
+191,0x677B,<SFF>てきチーム ぜんいんの<CR>おなじ パーツに こうげき<*04>,<SFF>Hits the same part on every enemy.<*04>
+192,0x6798,<SFF>すベての しゃげきパーツの<CR>いリょくを プラスして こうげき<*04>,<SFF>Attacks with the combined power of all shooting parts.<*04>
+193,0x67BA,<SFF>つかうたび ついかダメージが ふえて<CR>こうげきを パワーアップ<*04>,"<SFF>Extra damage grows with every use, powering up the attack.<*04>"
+194,0x67DD,<SFF>パーツを「こうがく」ぞくせいにし<CR>ダメージを なんばいにもする<*04>,"<SFF>Gives parts the ""Optical"" attribute, multiplying damage.<*04>"
+195,0x6800,<SFF>パーツを「かやく」ぞくせいにし<CR>かんつうして あたリやすくする<*04>,"<SFF>Makes parts ""Gunpowder"": they pierce and hit more easily.<*04>"
+196,0x6823,<SFF>パーツを「じゅうリょく」ぞくせいにし<CR>せいこうを なんばいにもする<*04>,"<SFF>Makes parts ""Gravity"", multiplying their success rate.<*04>"
+197,0x6848,<SFF>「かくとう」「しゃげき」リょうほうに<CR>こうかがある トラップを しかける<*04>,"<SFF>Sets a trap that works on both ""Melee"" and ""Shooting"".<*04>"
+198,0x6870,<SFF>てきチーム ぜんいんの<CR>こうどうの せいこうリつを さげる<*04>,<SFF>Lowers the success rate of every enemy's actions.<*04>
+199,0x6891,<SFF>てきチーム ぜんいんの<CR>うごきを ストップさせる<*04>,<SFF>Stops the movements of every enemy.<*04>
+19A,0x68AD,<SFF>てきチーム ぜんいんの<CR>じゅんびじかんを ながくする<*04>,<SFF>Lengthens the preparation time of every enemy.<*04>
+19B,0x68CB,<SFF>てきチーム ぜんいんに<CR>じゅんびちゅうも ダメージをあたえる<*04>,<SFF>Damages every enemy even during their preparation.<*04>
+19C,0x68ED,<SFF>てきに ダメージを あたえて<CR>じぶんの ダメージを かいふくする<*04>,<SFF>Damages a foe and heals yourself.<*04>
+19D,0x6911,<SFF>てきチーム ぜんいんの<CR>こうどうを こんらんさせる<*04>,<SFF>Confuses the actions of every enemy.<*04>
+19E,0x692E,<SFF>じぶんの ぼうぎょリょくを アップし<CR>うける ダメージを ヘらす<*04>,<SFF>Raises your own defense to reduce the damage you take.<*04>
+19F,0x6952,<SFF>みかたチーム ぜんいんの<CR>そうこうを かいふくさせる<*04>,<SFF>Repairs the armor of every ally.<*04>
+1A0,0x6970,<SFF>みかたチーム ぜんいんの<CR>パーツを ふっかつさせる<*04>,<SFF>Revives the parts of every ally.<*04>
+1A1,0x698D,<SFF>くうちゅうの てき ぜんいんに<CR>しょうじょうの ペナルティ<*04>,<SFF>Inflicts status penalties on every enemy in the air.<*04>
+1A2,0x69AE,<SFF>すいちゅうの てき ぜんいんに<CR>しょうじょうの ペナルティ<*04>,<SFF>Inflicts status penalties on every enemy underwater.<*04>
+1A3,0x69CF,<SFF>てきチームの いんペいを さげて<CR>みかたチームの さくてきを あげる<*04>,<SFF>Lowers the enemies' Conceal and raises your team's Scan.<*04>
+1A4,0x69F5,<SFF>みかたチーム ぜんいんの<CR>いんペいを あげる<*04>,<SFF>Raises the Conceal of every ally.<*04>
+1A5,0x6A0F,<SFF>みかたチーム ぜんいんの<CR>スピードが あがる<*04>,<SFF>Raises the speed of every ally.<*04>
+1A6,0x6A29,<SFF>みかたの あたまパーツの<CR>のこリ しようかいすうを ふやす<*04>,<SFF>Increases the remaining uses of allies' head parts.<*04>
+1A7,0x6A4A,<SFF>じぶんと てき ぜんいんの<CR>おなじ パーツを はかいする<*04>,<SFF>Destroys the same part on yourself and every enemy.<*04>
+1A8,0x6A6A,<SFF>みかたチーム ぜんいんの<CR>のうリょくちを 1つ あげる<*04>,<SFF>Raises one stat of every ally.<*04>
+1A9,0x6A89,<SFF>せんとうフィールドを<CR>ベつの フィールドに ヘんかさせる<*04>,<SFF>Changes the field to another field.<*04>
+1AA,0x6AA9,<SFF>ルーレットを まわして<CR>あたえる ダメージを きめる<*04>,<SFF>Spins a roulette to decide the damage dealt.<*04>
+1AB,0x6AC7,<SFF>すベての メダフォースの なかから<CR>ランダムに メダフォースを つかう<*04>,<SFF>Uses any Medaforce at random.<*04>
+1AC,0x6AEE,<SFF>てきチーム ぜんいんの レベルを<CR>せんとうの あいだだけ さげる<*04>,<SFF>Lowers the level of every enemy for the rest of the battle.<*04>
+1AD,0x6B12,<SFF>おなじ ラインの てきを はかいする<CR>ただし はんげきされることも ある<*04>,"<SFF>Destroys enemies in the same line, but may be countered.<*04>"
+1AE,0x6B3A,<SFF>すベての こうげきの ダメージは<CR>いリょくの すうちと おなじになる<*04>,<SFF>All attacks deal damage equal to their power value.<*04>
+1AF,0x6B60,<SFF>てきや みかたに かんけいなく<CR>ぜんいんを こんらんさせる<*04>,"<SFF>Confuses everyone, friend or foe!<*04>"
+1B0,0x6B81,<SFF>あたまパーツ いがいを はかいして<CR>のこリの そうこうを ダメージにする<*04>,<SFF>Breaks all but the head. Their armor becomes damage.<*04>
+1B1,0x6BA9,<SFF>のこリリミットを ヘらして<CR>はんていじかんを はやくする<*04>,<SFF>Cuts the remaining time limit so the judgment comes sooner.<*04>
+1B2,0x6BC9,あっ<*02>,Ah<*02>
+1B3,0x6BC9,@1B2,
+1B4,0x6BC9,@1B2,
+1B5,0x6BC9,@1B2,
+1B6,0x6BC9,@1B2,
+1B7,0x6BC9,@1B2,
+1B8,0x6BC9,@1B2,
+1B9,0x6BC9,@1B2,
+1BA,0x6BC9,@1B2,
+1BB,0x6BC9,@1B2,
+1BC,0x6BC9,@1B2,
+1BD,0x6BC9,@1B2,
+1BE,0x6BC9,@1B2,
+1BF,0x6BC9,@1B2,
+1C0,0x6BC9,@1B2,
+1C1,0x6BC9,@1B2,
+1C2,0x6BC9,@1B2,
+1C3,0x6BC9,@1B2,
+1C4,0x6BC9,@1B2,
+1C5,0x6BC9,@1B2,
+1C6,0x6BC9,@1B2,
+1C7,0x6BC9,@1B2,
+1C8,0x6BC9,@1B2,
+1C9,0x6BC9,@1B2,
+1CA,0x6BC9,@1B2,
+1CB,0x6BC9,@1B2,
+1CC,0x6BC9,@1B2,
+1CD,0x6BC9,@1B2,
+1CE,0x6BC9,@1B2,
+1CF,0x6BC9,@1B2,
+1D0,0x6BC9,@1B2,
+1D1,0x6BC9,@1B2,
+1D2,0x6BC9,@1B2,
+1D3,0x6BC9,@1B2,
+1D4,0x6BC9,@1B2,
+1D5,0x6BC9,@1B2,
+1D6,0x6BC9,@1B2,
+1D7,0x6BC9,@1B2,
+1D8,0x6BC9,@1B2,
+1D9,0x6BC9,@1B2,
+1DA,0x6BC9,@1B2,
+1DB,0x6BC9,@1B2,
+1DC,0x6BC9,@1B2,
+1DD,0x6BC9,@1B2,
+1DE,0x6BC9,@1B2,
+1DF,0x6BC9,@1B2,
+1E0,0x6BC9,@1B2,
+1E1,0x6BC9,@1B2,
+1E2,0x6BC9,@1B2,
+1E3,0x6BC9,@1B2,
+1E4,0x6BC9,@1B2,
+1E5,0x6BC9,@1B2,
+1E6,0x6BC9,@1B2,
+1E7,0x6BC9,@1B2,
+1E8,0x6BC9,@1B2,
+1E9,0x6BC9,@1B2,
+1EA,0x6BC9,@1B2,
+1EB,0x6BC9,@1B2,
+1EC,0x6BC9,@1B2,
+1ED,0x6BC9,@1B2,
+1EE,0x6BC9,@1B2,
+1EF,0x6BC9,@1B2,
+1F0,0x6BC9,@1B2,
+1F1,0x6BC9,@1B2,
+1F2,0x6BC9,@1B2,
+1F3,0x6BC9,@1B2,
+1F4,0x6BC9,@1B2,
+1F5,0x6BC9,@1B2,
+1F6,0x6BC9,@1B2,
+1F7,0x6BC9,@1B2,
+1F8,0x6BC9,@1B2,
+1F9,0x6BC9,@1B2,
+1FA,0x6BC9,@1B2,
+1FB,0x6BC9,@1B2,
+1FC,0x6BC9,@1B2,
+1FD,0x6BC9,@1B2,
+1FE,0x6BC9,@1B2,
+1FF,0x6BC9,@1B2,
+200,0x6BC9,@1B2,
+201,0x6BCD,あん<*02>,Ahn<*02>
+202,0x6BD1,あたしのほうが ロボトルれきは<CR>ながいんだからね!<*02>,"I've been robattling longer than you, you know!<*02>"
+203,0x6BEC,ふーんだ!<CR>つぎは まけないんだから!<*02>,Hmph! I won't lose next time!<*02>
+204,0x6C01,おてやわらかに おねがいしますね<*02>,Please go easy on me.<*02>
+205,0x6C13,たのしかったですわ<CR>また おあいて してくださいね<*02>,That was fun! Please robattle me again sometime.<*02>
+206,0x6C2E,きょうこそ けっちゃくを<CR>つけてやるぜ!<*02>,Today we settle this!<*02>
+207,0x6C44,まだまだ しょうぶは<CR>おわっちゃ いねーぜ!<*02>,This match ain't over yet!<*02>
+208,0x6C5C,あそんであげても いいわよぉ<*02>,I guess I could play with you~<*02>
+209,0x6C6C,ちょっと シャレに なんないわよぉ<*02>,This is SO not funny!<*02>
+20A,0x6C7F,けちょんけちょんに<CR>いためつけて やるぜ!<*02>,I'm gonna beat you to a pulp!<*02>
+20B,0x6C96,じょーだんじゃ ねーっての!<*02>,You gotta be kidding me!<*02>
+20C,0x6CA6,おまえの ふくを<CR>どろんこにしてやる!<*02>,I'll muddy up your clothes!<*02>
+20D,0x6CBB,ぼくの ふく<CR>よごれちゃった・・・<*02>,My clothes got all dirty...<*02>
+20E,0x6CCE,ボクが あいてを してあげよう<*02>,I'll be your opponent.<*02>
+20F,0x6CDF,ちょっとは やるようだね<*02>,You're not half bad.<*02>
+210,0x6CED,ふ・・・おれも すこしは<CR>なのしれた メダロッターなのだぞ<*02>,"Heh... I'm a Medarotter of some renown myself, you know.<*02>"
+211,0x6D0C,む・・・むねん・・・かはぁっ!<*02>,Ngh... I'm... undone... gahh!<*02>
+212,0x6D1D,はぁーい ボウヤ<CR>ミルキーが まほうを かけてあげる♥<*02>,"Hi there, boy~ Milky will cast a spell on you ♥<*02>"
+213,0x6D3A,あーあ キミには<CR>こどもだましは つうじなかったようね<*02>,"Aww, kiddie tricks don't work on you, huh?<*02>"
+214,0x6D57,ふっ・・・しょうねんよ<CR>わたしを こえられるかな?<*02>,"Heh... boy, can you surpass me?<*02>"
+215,0x6D72,ぼーいず びー あんびしゃす!<CR>しょうねんよ・・・なんだっけな?<*02>,"Boys, be ambitious! Young man... how did it go again?<*02>"
+216,0x6D94,わたしの カレーなるワザに<CR>ついてこられるかな?<*02>,Can you keep up with my curry-ageous moves?<*02>
+217,0x6DAE,おみごと!<CR>これからも そのちょうしでね!<*02>,Bravo! Keep it up!<*02>
+218,0x6DC5,おまえさんは<CR>どの メダロットが すきかな?<*02>,"Which Medarot do you like, sonny?<*02>"
+219,0x6DDD,おまえさんは ほんとうに<CR>メダロットが すきなんじゃのう<*02>,"You really love Medarots, sonny.<*02>"
+21A,0x6DFB,おあいてして いただけますか?<*02>,Would you robattle me?<*02>
+21B,0x6E0C,とても ベんきょうに なリました<CR>あリがとうございました<*02>,That was very educational. Thank you very much.<*02>
+21C,0x6E2A,ぼくに かてたら パーツをやるよ<*02>,Beat me and I'll give you a part!<*02>
+21D,0x6E3C,おこづかいが ぜんぶ<CR>メダロットに とんでゆく・・・<*02>,My whole allowance goes flying on Medarots...<*02>
+21E,0x6E58,ぼくが かんがえた<CR>メダロットを みてよ!<*02>,Check out the Medarot I designed!<*02>
+21F,0x6E6F,つぎは まけないぞぉ!<*02>,I won't lose next time!<*02>
+220,0x6E7C,たたかえ きぎょうせんし!<CR>あかるい あすは きっとくる!<*02>,"Fight on, office warrior! Bright days are coming!<*02>"
+221,0x6E9B,まだまだ ふけいきが つづきそうだな<*02>,This recession just won't end...<*02>
+222,0x6EAF,このおれさまと たたかえることを<CR>あリがたく おもうのだ!<*02>,Be grateful you get to fight the great me!<*02>
+223,0x6ECE,ひえぇぇぇっ!<CR>かんベんしてくださいよぉー<*02>,Eeeek! Gimme a break!<*02>
+224,0x6EE5,どいとくれっ!<CR>しゅふは いそがしいんだからね!<*02>,Outta my way! I'm a busy housewife!<*02>
+225,0x6EFF,おてつだいしてくれる メダロットなら<CR>うちのこよリ やくにたつよ!<*02>,A Medarot that helps out is more use than my kids!<*02>
+226,0x6F22,ボロトルは いくつになっても<CR>やめられんのぉ<*02>,"I can't quit robottles, no matter how old I get.<*02>"
+227,0x6F3A,ボトルロは やはリ むずかしいのぉ<*02>,Batrobbles sure are tough...<*02>
+228,0x6F4D,あたしだって まだ わかいもんには<CR>まけないよ<*02>,I won't lose to you young'uns!<*02>
+229,0x6F66,わかいって いいねェ<*02>,"Ah, to be young...<*02>"
+22A,0x6F72,キミの メダロットを<CR>みせてもらうよ<*02>,Let me see your Medarot.<*02>
+22B,0x6F86,フフフッ<CR>データは とらせてもらったよ<*02>,Heheh. I've got your data now.<*02>
+22C,0x6F9B,フ・・・フフフフ<CR>わたしが ルールブックだぁ!!<*02>,Heheheh... I AM the rulebook!!<*02>
+22D,0x6FB5,そっ そんな!?<CR>どうして わたしが まけるんだぁっ!<*02>,N-no way!? How could I lose!?<*02>
+22E,0x6FD2,しっぷうの ごとく きる!<*02>,I strike like a gale!<*02>
+22F,0x6FE1,・・・そして<CR>しっぷうの ごとく やぶれたリ!<*02>,"...and like a gale, I fall!<*02>"
+230,0x6FFA,しのびとは やみに しのび<CR>よを しのぶ ものなリ<*02>,"A shinobi hides in darkness, enduring the world.<*02>"
+231,0x7015,ぬしも しのびの みちを<CR>きわめぬか?<*02>,Will you not master the way of the shinobi as well?<*02>
+232,0x702A,おあいて つかまつリそうろう<*02>,I shall be thy opponent.<*02>
+233,0x703A,おみそれしたで ござる<*02>,I underestimated thee.<*02>
+234,0x7047,おれの メダロットを<CR>みてくれ!<*02>,Check out my Medarot!<*02>
+235,0x7059,ああーっ!!<CR>おれの メダロットちゃんがっ!<*02>,Aaaah!! My precious Medarot!<*02>
+236,0x7071,おぬしは なぜ<CR>たたかいの みちを ゆく?<*02>,Why do you walk the path of battle?<*02>
+237,0x7088,じぶんの しんじたみちを<CR>あゆみつづけるが よい<*02>,Walk the path you believe in.<*02>
+238,0x70A2,メダロットは<CR>おとこのこ だけの ものじゃ ないの<*02>,Medarots aren't just for boys!<*02>
+239,0x70BD,えーん<CR>けっこう じしん あったのにィ<*02>,"Waaah, and I was so confident...<*02>"
+23A,0x70D2,ロボトルの よわい カレなんて<CR>カッコわるいわよねー<*02>,A boyfriend who's bad at robattles is sooo lame.<*02>
+23B,0x70EE,もー しんじらんなーい!<CR>オトコって すぐ あつくなるんだから<*02>,Unbelievable! Boys get so heated!<*02>
+23C,0x710F,わたしは しごとも ロボトルも<CR>てを ぬかないわよ!<*02>,"I never slack off, at work or in robattles!<*02>"
+23D,0x712B,ロボトルばっかリ つよくても<CR>いいかいしゃに はいれないわよ<*02>,"Robattle skills won't get you a good job, you know.<*02>"
+23E,0x714B,おねーさんが<CR>あそんで あ・げ・る♥<*02>,Big sis will play with y-o-u ♥<*02>
+23F,0x715F,ウフフッ♥<CR>またねぇ<*02>,Ufufu ♥ See ya~<*02>
+240,0x716B,コウセイノウノ ボクニ<CR>キミガ カテルノ?<*02>,Do you think you can beat a high-spec model like me?<*02>
+241,0x7182,セイノウダケジャ カテナイノカーッ?<*02>,Specs alone can't win!?<*02>
+242,0x7196,ドンナ チケイデモ<CR>ウカンデイレバ カンケイナイヨッ<*02>,Any terrain's fine if I float!<*02>
+243,0x71B2,アー<CR>ボクハ ナガサレテイクー・・・<*02>,"Aah, I'm being swept awaaay...<*02>"
+244,0x71C6,ケワシイ ヤマミチダッテ<CR>アシガ タクサンアレバ ヘイキサッ<*02>,Rough mountain paths are easy with lots of legs!<*02>
+245,0x71E6,アッ アシガ モツレターッ<*02>,Ah! My legs got tangled!<*02>
+246,0x71F5,モリミタイナ イリクンダ バショデハ<CR>キドウセイガ モノヲ イウゾ!!<*02>,"In twisty places like forests, mobility is key!!<*02>"
+247,0x721A,シカイガ サエギラレテ<CR>ヨク ミエナイッ<*02>,My view's blocked! I can't see!<*02>
+248,0x7230,ハシッテ ハシッテ<CR>ハシリマクルゾォ!<*02>,Run and run and keep on running!<*02>
+249,0x7245,メダロードレースナラ<CR>ハシルノ ハヤインダケドナァ・・・<*02>,"If this were a Medaroad Race, I'd be fast...<*02>"
+24A,0x7263,イッパツノ ダメージハ<CR>ダレニモ マケナイヨ<*02>,Nobody beats me when it comes to single-hit damage!<*02>
+24B,0x727B,ウゴキガ オソクテ<CR>テキニ オイツケナイヨーッ<*02>,I'm too slow! I can't catch up with the enemy!<*02>
+24C,0x7294,ミズノ チカクジャナイト<CR>パワーガ デナイノヨネーッ<*02>,"Away from the water, I just can't power up!<*02>"
+24D,0x72B0,キョウハ ミズアビ シテカラ<CR>グッスリ ネヨウ<*02>,"Today I'll take a nice dip, then get a good night's sleep.<*02>"
+24E,0x72C9,おーばーけーがーでーたーぞーぅ<*02>,The ghooost is heeere~<*02>
+24F,0x72DA,ホホホホ・・・ホ<*02>,Hohoho... ho<*02>
+250,0x72E4,エッサ ホイサッ おしごと おしごと<*02>,"Heave-ho! Work, work!<*02>"
+251,0x72F8,マダマダ おしごと たリないみたい<*02>,"Still not enough work, it seems.<*02>"
+252,0x730B,セカイを ヘベレケさまの ために!<*02>,The world for Lord Hebereke!<*02>
+253,0x731E,ウーン ワタシは・・・<*02>,"Uuugh, I...<*02>"
+254,0x732B,ガーッ!! グルルルッ!!<*02>,Gaaah!! Grrrr!!<*02>
+255,0x733A,ピーッ ザーーーーーッ<*02>,Beep... Kssshhhh<*02>
+256,0x7347,ワガ マエニ タチフサガルトハ<CR>オロカナ・・・<*02>,You dare block me? Foolish...<*02>
+257,0x7360,コンナ オールドタイプニ マケルトハ<CR>バカナ・・・<*02>,Beaten by an old model? Absurd...<*02>
+258,0x737B,キミハ ダレ・・・?<CR>ドコヘ イクノ・・・?<*02>,Who are you...? Where are you going...?<*02>
+259,0x7393,ボクハ ダレ・・・?<CR>ドコヘ イクノ・・・?<*02>,Who am I...? Where am I going...?<*02>
+25A,0x73AB,ロボロボ ロボロボ<*02>,RoboRobo RoboRobo<*02>
+25B,0x73B6,ロボーッ!!<*02>,Robooo!!<*02>
+25C,0x73BE,このおれさまを<CR>ただの ロボロボだんと おもうなよ<*02>,Don't take me for just any RoboRobo Gang member!<*02>
+25D,0x73D9,くーーーーーーーっ!!<CR>いつか おまえを なかせてやるっ!!<*02>,Grrrr!! I'll make you cry someday!!<*02>
+25E,0x73F9,おーほほほほほほほ!! わたくしの<CR>うつくしさに ひれふすがいいですわ!<*02>,Ohohohoho!! Bow before my beauty!<*02>
+25F,0x741F,わたくしに かつなんて<CR>10000ねん はやいですわ!<*02>,"Beat me? You're 10,000 years too early for that!<*02>"
+260,0x743C,ふぉっふぉっふぉっ<CR>どれ あいてを してやるかの<*02>,Fohfohfoh. Shall I take you on?<*02>
+261,0x7456,わしは こどもが きらいなんじゃ!<*02>,I hate children!<*02>
+262,0x7469,あたちは ただのようちえんじじゃ<CR>ないでしゅよ! つよいんでしゅよ!<*02>,I'm not just a kindewgawtnew! I'm stwong!<*02>
+263,0x748D,ひどいことすると<CR>ひどいんでしゅよ!<*02>,Be mean and I'll be mean wight back!<*02>
+264,0x74A1,イタズラは たのしいロボよ!<*02>,"Pranks are fun, robo!<*02>"
+265,0x74B1,イタズラが とちゅうで みつかると<CR>つまんないロボよ<*02>,"Getting caught mid-prank is no fun, robo.<*02>"
+266,0x74CD,わしと おぬしの どちらが<CR>メダルを うまく そだてとるかな?<*02>,"Which of us raises Medals better, you or me?<*02>"
+267,0x74EE,やるもんじゃな がはは!<*02>,Not bad at all! Gahaha!<*02>
+268,0x74FC,よいこのヒーロー セレクトスリー<CR>ただいまさんじょう!!<*02>,"Heroes of all good kids, the Select Three, are here!!<*02>"
+269,0x751A,それでは また らいしゅう<CR>こう ごきたい!!<*02>,See you next week! Stay tuned!!<*02>
+26A,0x7533,せいぎの ために<CR>たたかうであリます!<*02>,"I fight for justice, sir!<*02>"
+26B,0x7548,せいぎの みちは<CR>きびしいであリます!<*02>,"Justice is a harsh path, sir!<*02>"
+26C,0x755D,マルガリータは メダロットも<CR>ロボトルも だーいすき♥<*02>,Margarita looooves Medarots and robattles! ♥<*02>
+26D,0x757A,ゆうしゃさま また あそんでね!<*02>,"Great Hero, play with me again!<*02>"
+26E,0x758C,ゆめノ なかデ<CR>くるしむんだヨ<*02>,Suffer in yer dreams!<*02>
+26F,0x759D,アア・・・<CR>ゆめガ さめちゃっタ・・・<*02>,Aah... the dream ended...<*02>
+270,0x75B2,ミタコトナイ パーツ<CR>ソレ ホシイ<*02>,NEVER SEEN THAT PART. WANT IT.<*02>
+271,0x75C5,ユウシャサマ ツヨイ<*02>,HERO... STRONG.<*02>
+272,0x75D1,あなたは メダロットにも<CR>こころがあるって しっていますか?<*02>,Did you know Medarots have hearts too?<*02>
+273,0x75F1,あなたなら メダロットと こころを<CR>かよわすことが できるでしょうね<*02>,You could surely connect hearts with a Medarot.<*02>
+274,0x7615,このじいが あいてをさせて<CR>もらいますわい<*02>,This old man shall be your opponent.<*02>
+275,0x762C,さすがですのう<*02>,Just as I'd expect.<*02>
+276,0x7635,・・ダ・ガる!?!ノ・・くリ?<*02>,..Wh.a-t!?!Ho..w?<*02>
+277,0x7646,!!?!?!?ゲ?<*02>,!!?!?!?Gah?<*02>
+278,0x7651,ハーイ リトル・ボーイ<CR>お・て・あ・わ・せ ぷリーず!<*02>,"Hi, little boy! Let's f-i-g-h-t, please!<*02>"
+279,0x766E,ニホンのオトコ ツヨイのは<CR>ヤマトダマシイが あるから・ね!<*02>,"Japanese men are strong 'cause of Yamato spirit, ne!<*02>"
+27A,0x768E,にほんは わたしの<CR>こころの ふるさとです<*02>,Japan is the home of my heart.<*02>
+27B,0x76A5,にほんの おもいでが<CR>またひとつ ふえました<*02>,One more memory of Japan to keep.<*02>
+27C,0x76BD,アツクルシイ クニデハ バトルモ<CR>マスマス アツクルシク ナルワイ<*02>,"In a hot country, battles get hotter and hotter!<*02>"
+27D,0x76E0,フン ワシハ ミトメンゾイ<*02>,Hmph. I refuse to accept this!<*02>
+27E,0x76EF,ミーは アンタに かっちゃうのヨ<*02>,"Me is gonna beat you, yo!<*02>"
+27F,0x7701,アタシは ユーに まけたノネ・・・<*02>,Me lost to you...<*02>
+280,0x7714,ふふ わが ひっさつの おうぎ<CR>ビューティ・キッスを うけてみよ!!<*02>,"Heh, now face my secret art: Beauty Kiss!!<*02>"
+281,0x7738,うおお!! ひっさつのドリルが!!<CR>しかーしっ! おれは まけぬっ!!<*02>,Whoa!! My special drill!! But I will NOT lose!!<*02>
+282,0x775D,にんげんごときが このオレに<CR>さからおうだと?・・・おろかな<*02>,A human dares defy me? Foolish.<*02>
+283,0x777D,みとめん みとめんケロォォッ!!<*02>,"I won't accept it, ribbiiit!!<*02>"
+284,0x778F,やっつけちゃうぞぉ!<*02>,I'm gonna beat ya!<*02>
+285,0x779B,やられちゃったぞぉ!<*02>,I got beaten!<*02>
+286,0x77A7,ボクは こうみえても<CR>「ひこうタイプ」なんだヨォ<*02>,"I may not look it, but I'm a ""Flying type""!<*02>"
+287,0x77C1,はいっ!<CR>とびいリで さんかで あリますっ!<*02>,"Yes! Jumping in, sir!<*02>"
+288,0x77C1,@287,
+289,0x77D9,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        さ↓さゾさOさXさ6さ<$F6>さ<$FF>さクしノしやしんしょし「しⒶしドしペしどしぺし<$BB>し<CF>しAしJしSし<$F8>しチすハすロすッすせすぬすむすズすビす<$CA>すサせトせヲせきせむせろせゼせブせウそフそせそそそぇそ↑そゼそゔそびそ<$BC>そAそRそ0そ<$F8>そアたやたんたょたゴたげた<$BF>た1たケちハちロちッちにちみちⒷちざち<*48>,
+28A,0x77D9,@289,
+28B,0x77D9,@289,
+28C,0x77D9,@289,
+28D,0x77D9,@289,
+28E,0x77D9,@289,
+28F,0x77D9,@289,
+290,0x77D9,@289,
+291,0x77D9,@289,
+292,0x77D9,@289,
+293,0x77D9,@289,
+294,0x77D9,@289,
+295,0x77D9,@289,
+296,0x77D9,@289,
+297,0x77D9,@289,
+298,0x77D9,@289,
+299,0x77D9,@289,
+29A,0x77D9,@289,
+29B,0x77D9,@289,
+29C,0x77D9,@289,
+29D,0x77D9,@289,
+29E,0x77D9,@289,
+29F,0x77D9,@289,
+2A0,0x77D9,@289,
+2A1,0x77D9,@289,
+2A2,0x77D9,@289,
+2A3,0x77D9,@289,
+2A4,0x77D9,@289,
+2A5,0x77D9,@289,
+2A6,0x77D9,@289,
+2A7,0x77D9,@289,
+2A8,0x77D9,@289,
+2A9,0x77D9,@289,
+2AA,0x77D9,@289,
+2AB,0x77D9,@289,
+2AC,0x77D9,@289,
+2AD,0x77D9,@289,
+2AE,0x77D9,@289,
+2AF,0x77D9,@289,
+2B0,0x77D9,@289,
+2B1,0x77D9,@289,
+2B2,0x77D9,@289,
+2B3,0x77D9,@289,
+2B4,0x77D9,@289,
+2B5,0x77D9,@289,
+2B6,0x77D9,@289,
+2B7,0x77D9,@289,
+2B8,0x77D9,@289,
+2B9,0x77D9,@289,
+2BA,0x77D9,@289,
+2BB,0x77D9,@289,
+2BC,0x77D9,@289,
+2BD,0x77D9,@289,
+2BE,0x77D9,@289,
+2BF,0x77D9,@289,
+2C0,0x77D9,@289,
+2C1,0x77D9,@289,
+2C2,0x77D9,@289,
+2C3,0x77D9,@289,
+2C4,0x77D9,@289,
+2C5,0x77D9,@289,
+2C6,0x77D9,@289,
+2C7,0x77D9,@289,
+2C8,0x77D9,@289,
+2C9,0x77D9,@289,
+2CA,0x77D9,@289,
+2CB,0x77D9,@289,
+2CC,0x77D9,@289,
+2CD,0x77D9,@289,
+2CE,0x77D9,@289,
+2CF,0x77D9,@289,
+2D0,0x77D9,@289,
+2D1,0x77D9,@289,
+2D2,0x77D9,@289,
+2D3,0x77D9,@289,
+2D4,0x77D9,@289,
+2D5,0x77D9,@289,
+2D6,0x77D9,@289,
+2D7,0x77D9,@289,
+2D8,0x77D9,@289,
+2D9,0x77D9,@289,
+2DA,0x77D9,@289,
+2DB,0x77D9,@289,
+2DC,0x77D9,@289,
+2DD,0x77D9,@289,
+2DE,0x77D9,@289,
+2DF,0x77D9,@289,
+2E0,0x77D9,@289,
+2E1,0x77D9,@289,
+2E2,0x77D9,@289,
+2E3,0x77D9,@289,
+2E4,0x77D9,@289,
+2E5,0x77D9,@289,
+2E6,0x77D9,@289,
+2E7,0x77D9,@289,
+2E8,0x77D9,@289,
+2E9,0x77D9,@289,
+2EA,0x77D9,@289,
+2EB,0x77D9,@289,
+2EC,0x77D9,@289,
+2ED,0x77D9,@289,
+2EE,0x77D9,@289,
+2EF,0x77D9,@289,
+2F0,0x77D9,@289,
+2F1,0x77D9,@289,
+2F2,0x77D9,@289,
+2F3,0x77D9,@289,
+2F4,0x77D9,@289,
+2F5,0x77D9,@289,
+2F6,0x77D9,@289,
+2F7,0x77D9,@289,
+2F8,0x77D9,@289,
+2F9,0x77D9,@289,
+2FA,0x77D9,@289,
+2FB,0x77D9,@289,
+2FC,0x77D9,@289,
+2FD,0x77D9,@289,
+2FE,0x77D9,@289,
+2FF,0x77D9,@289,

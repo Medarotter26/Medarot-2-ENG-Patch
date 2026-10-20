@@ -79,8 +79,8 @@ variable width font; the build stores names longer than the game's fixed-size bu
 names that are too wide are drawn with the narrow font automatically, and the build reports
 names that don't fit even then.
 
-On the original Game Boy names use the fixed width font, one character per tile. When a name has
-more characters than the field's limit, write a short version in the `*_DMG` column (e.g.
-`Picopeco Hammer` -> `Picopeco`); leave it empty when the `_EN` name fits. Menu labels in
-`text/tilemaps` work the same way with `DMG:` lines, and the dialog script is laid out a second
-time for the fixed width font automatically.
+The original Game Boy shows the same full names. A few screens there must use the fixed width
+font (one character per tile; the name entry screen), and they use the short version in the
+`*_DMG` column when a name has more characters than the field's limit (e.g. `Picopeco Hammer`
+-> `Picopeco`); leave it empty when the `_EN` name fits. Menu labels in `text/tilemaps` work the
+same way with `DMG:` lines.

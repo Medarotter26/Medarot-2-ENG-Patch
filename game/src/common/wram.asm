@@ -41,6 +41,8 @@ DEF W_StrChar                EQU $DDA3
 DEF W_StrCenterWidth         EQU $DDA4
 DEF W_StrNarrow              EQU $DDA5
 DEF W_StrOutLeft             EQU $DDA6
+DEF W_StrForceFixed          EQU $DDA7 ; original Game Boy: nonzero while strings must use the fixed width font
+DEF W_StrFontIntact          EQU $DDA8 ; original Game Boy: nonzero when the font tiles hold the font
 DEF W_StrBuffer              EQU $DDAC ; 24 bytes, string with name tokens expanded
 DEF W_StrBufferEnd           EQU $DDC4
 DEF W_TextRAMBuffer          EQU $DDC4 ; 24 bytes, RAM string being drawn by the main script
@@ -70,3 +72,4 @@ DEF W_TmPtr                  EQU $CBDE ; 2 bytes
 DEF W_LabelRingPos           EQU $CA08
 DEF W_LabelRing              EQU $C5CE ; 11 entries: dest lo, dest hi, tiles, first tile (to $C5F9)
 DEF LABEL_RING_SIZE          EQU 11
+DEF W_VWFBoxTiles            EQU $C5CE ; original Game Boy (no label ring): the 36 tiles of the mode 0 text box

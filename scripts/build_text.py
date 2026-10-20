@@ -85,9 +85,6 @@ def build(packer, fixed):
             ptr = int(row[1], 16)
             original = row[2]
             tr = row[3] if len(row) > 3 else ''
-            if fixed and len(row) > 4 and row[4]:
-                # Short version for the fixed width font (descriptions in two-line boxes)
-                tr = row[4]
             if original.startswith('@') and not tr:
                 loc = placed[int(original[1:], 16)]
             else:
@@ -106,21 +103,15 @@ def build(packer, fixed):
         stats.append((section, count, translated))
     return section_entries, stats
 
-# Game Boy Color: variable width layout. Original Game Boy: fixed width layout (18/17
-# characters per line), used by the engine when there is no VRAM bank 1.
-middle = (first_bank + last_bank + 1) // 2
-packer = Packer(first_bank, middle - 1)
+packer = Packer(first_bank, last_bank)
 section_entries, stats = build(packer, False)
-packer_dmg = Packer(middle, last_bank)
-section_entries_dmg, _ = build(packer_dmg, True)
 
 os.makedirs(out_dir, exist_ok=True)
-for name, entries in (('section_table.asm', section_entries), ('section_table_dmg.asm', section_entries_dmg)):
-    with open(os.path.join(out_dir, name), 'w') as f:
-        for bank, addr in entries:
-            f.write(f'  db ${bank:02X}\n  dw ${addr:04X}\n')
+with open(os.path.join(out_dir, 'section_table.asm'), 'w') as f:
+    for bank, addr in section_entries:
+        f.write(f'  db ${bank:02X}\n  dw ${addr:04X}\n')
 with open(os.path.join(out_dir, 'text_data.asm'), 'w') as f:
-    for bank, data in sorted(list(packer.banks.items()) + list(packer_dmg.banks.items())):
+    for bank, data in sorted(packer.banks.items()):
         name = f'text_bank_{bank:02X}.bin'
         with open(os.path.join(out_dir, name), 'wb') as b:
             b.write(data)
@@ -129,4 +120,4 @@ with open(os.path.join(out_dir, 'text_data.asm'), 'w') as f:
 total = sum(s[1] for s in stats)
 done = sum(s[2] for s in stats)
 print(f'Text: {done}/{total} entries translated, banks {first_bank:02X}-{packer.bank:02X} used '
-      f'({len(packer.banks[packer.bank])} bytes in last bank), DMG layout {middle:02X}-{packer_dmg.bank:02X}')
+      f'({len(packer.banks[packer.bank])} bytes in last bank)')

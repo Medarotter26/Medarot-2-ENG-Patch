@@ -263,6 +263,10 @@ SECTION "Staff Roll Print", ROMX[$52C0], BANK[$04]
 SECTION "Staff Roll Centering", ROMX[$7E10], BANK[$04]
 CreditsPutCentered:
   ; hl = string, bc = tilemap address
+  ; On the original Game Boy the roll uses the fixed width font: the scrolling tilemap holds
+  ; more lines than the variable width font has tiles for.
+  ld a, 1
+  ld [W_StrForceFixed], a
   ld a, c
   and $E0
   ld c, a
@@ -270,7 +274,10 @@ CreditsPutCentered:
   call GetCenteringOffset
   add c
   ld c, a
-  jp PutString
+  call PutString
+  xor a
+  ld [W_StrForceFixed], a
+  ret
 
 ; Staff roll: clear whole rows (20 tiles from column 0) for the wider English lines
 SECTION "Staff Roll Clear Start", ROMX[$527D], BANK[$04]

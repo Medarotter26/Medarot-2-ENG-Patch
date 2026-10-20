@@ -48,6 +48,9 @@ TilemapLoadHook:
   ld [W_TmY], a
   pop af
   call .original
+  ld a, BANK(TilemapKeyboardCheck)
+  ld hl, TilemapKeyboardCheck
+  call StrFarCall
   jp TilemapDrawLabels
 
 .original
@@ -133,9 +136,8 @@ TilemapDrawLabels:
   ld b, a
   ld c, l
   pop hl
-  ld a, [W_HardwareType]
-  cp $11
-  call nz, .skip ; original Game Boy: use the second (fixed width) string
+  call StrNeedsShortNames
+  call nz, .skip ; use the second (fixed width) string
   push hl
   push bc
   call PutString
@@ -143,8 +145,7 @@ TilemapDrawLabels:
   pop hl
   ; Skip the string(s)
   call .skip
-  ld a, [W_HardwareType]
-  cp $11
+  call StrNeedsShortNames
   call z, .skip ; skip the fixed width string too
   jr .loop
 
@@ -160,9 +161,57 @@ TilemapDrawLabels:
   rst $10
   ret
 
+StrNeedsShortNames::
+  ; Returns nz when strings must use the fixed width font (and the short names): on the
+  ; original Game Boy, screens whose background uses tiles $8000-$8FFF can't show the
+  ; variable width font tiles. Clobbers a.
+  ld a, [W_HardwareType]
+  cp $11
+  jr z, .vwf
+  ld a, [W_StrForceFixed]
+  or a
+  ret nz
+  ld a, [W_LCDCShadow]
+  and $10
+  ret
+.vwf
+  xor a
+  ret
+
 TilemapLabelHooksEnd::
   ASSERT TilemapLabelHooksEnd <= $4000, "Tilemap label hooks overflow bank 0"
 
+
+SECTION "Tilemap Keyboard Check", ROMX[$6E00], BANK[$80]
+TilemapKeyboardCheck:
+  ; Original Game Boy: the name entry keyboards show the font tiles themselves (the game reads
+  ; the character back from the tilemap), so while one is shown the font tiles are restored and
+  ; strings use the fixed width font. A map loaded at the top left corner ends that.
+  ld a, [W_HardwareType]
+  cp $11
+  ret z
+  ld a, [W_TmTable]
+  cp 1
+  jr nz, .notKeyboard
+  ld a, [W_TmIndex]
+  cp $53
+  jr z, .keyboard
+  cp $54
+  jr z, .keyboard
+.notKeyboard
+  ld a, [W_TmX]
+  ld b, a
+  ld a, [W_TmY]
+  or b
+  ret nz
+  xor a
+  ld [W_StrForceFixed], a
+  ret
+
+.keyboard
+  ld a, 1
+  ld [W_StrForceFixed], a
+  jp StrRestoreFont
 
 SECTION "Tilemap Label Ring", ROMX[$6F00], BANK[$80]
 LabelRingAdd::

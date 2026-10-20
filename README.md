@@ -43,9 +43,11 @@ The patch is built as an rgbds overlay on top of the original ROM, padded to 4MB
 * Dialog is drawn with a variable width font (the Medarot 3 translation's font), wrapped
   automatically at build time. Menu strings and labels use the same font, rendered into private
   tiles in VRAM bank 1, so names are never abbreviated on the Game Boy Color.
-* On the original Game Boy (no VRAM bank 1) menus use the fixed width font: the script is also
-  laid out for 18 characters per line, and names and labels that are too long have short versions
-  (`Name_DMG` columns in `text/ptrlists`, `DMG:` lines in `text/tilemaps`).
+* On the original Game Boy there is no VRAM bank 1. Menu strings are drawn into font tiles
+  that aren't on screen instead (all text uses the variable width font, so the letter tiles are
+  free), found by scanning the tilemaps. Screens that need the real font tiles (the name entry
+  keyboards) and the staff roll use the fixed width font, with the short names and labels from
+  the `Name_DMG` columns in `text/ptrlists` and the `DMG:` lines in `text/tilemaps`.
 * The English encoding puts all printable characters in `$00-$7F`, the part of the font every
   menu screen loads, keeping the original digits (`$E7-$F0`) and symbols.
 

@@ -164,8 +164,7 @@ StrCopyResolveN::
   ld a, BANK(NameTokenLists)
   rst $10
   ld hl, NameTokenLists
-  ld a, [W_HardwareType]
-  cp $11
+  call StrNeedsShortNames
   jr z, .gotLists
   ld hl, NameTokenListsDMG ; short names for the fixed width font
 .gotLists
@@ -232,8 +231,7 @@ StringHelpersEnd::
 SECTION "VWF String Renderer", ROMX[$6000], BANK[$80]
 VWFMeasureStringTiles::
   ; W_StrTemp = number of tiles W_StrBuffer takes
-  ld a, [W_HardwareType]
-  cp $11
+  call StrNeedsShortNames
   jr nz, VWFMeasureStringTilesVWF.fixedWidth
   ; Fall through
 VWFMeasureStringTilesVWF:
@@ -303,8 +301,7 @@ VWFMeasureStringTilesVWF:
 VWFRenderString::
   xor a
   ld [W_StrMode], a
-  ld a, [W_HardwareType]
-  cp $11
+  call StrNeedsShortNames
   jp nz, .fixedWidth
 
   xor a
@@ -343,6 +340,9 @@ VWFRenderString::
 
 .fixedWidth
   ; Original Game Boy: one font tile per character. W_StrTemp = tiles used
+  ld a, [W_StrFontIntact]
+  or a
+  call z, StrRestoreFont
   xor a
   ld [W_StrTemp], a
   ld a, [W_StrDest]
@@ -585,6 +585,9 @@ StrFlushTile:
   jr nc, .noCarry
   inc h
 .noCarry
+  ld a, [W_HardwareType]
+  cp $11
+  jr nz, .dmgCell
   ; Does the cell already use a bank 1 tile?
   di
   ld a, 1
@@ -639,6 +642,36 @@ StrFlushTile:
   ldh [rVBK_], a
   ei
 
+  jr .gotTile
+
+.dmgCell
+  ; Original Game Boy: string tiles are font tiles $01-DMG_STR_LAST (the variable width
+  ; font replaces the font everywhere). A cell that already shows one keeps it.
+  di
+.waitDmgTile
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .waitDmgTile
+  ld c, [hl]
+  ei
+  ld a, c
+  or a
+  jr z, .dmgAllocate
+  cp DMG_STR_LAST + 1
+  jr c, .gotTile
+.dmgAllocate
+  push hl
+  call StrAllocTile
+  pop hl
+  ld c, a
+  di
+.waitDmgMap
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .waitDmgMap
+  ld [hl], c
+  ei
+
 .gotTile
   ; hl = tile address in bank 1
   ld l, c
@@ -680,30 +713,48 @@ StrFlushTile:
   ret
 
 SECTION "VWF Tile Allocator", ROMX[$5000], BANK[$80]
-StrAllocTile:
-  ; Returns a = a free bank 1 tile ($01-STR_RING_LAST) for a string cell.
+StrAllocTile::
+  ; Returns a = a free tile for a string cell: bank 1 tiles $01-STR_RING_LAST on the Game Boy
+  ; Color, font tiles $01-DMG_STR_LAST on the original Game Boy.
   ; Tiles are handed out in a ring. A bitmap of the tiles the tilemaps show keeps the ring
   ; from reusing tiles still on screen; it is rebuilt whenever the ring wraps.
-  ld a, [W_StrNextTile]
+  ld a, [W_HardwareType]
+  cp $11
+  jr z, .gotFont
+  xor a
+  ld [W_StrFontIntact], a ; a font tile gets overwritten
+.gotFont
+  call StrRingLast ; e = last tile, a = next tile
   or a
-  jr nz, .search
-  call StrClearTileZero
+  jr z, .reset
+  cp e
+  jr c, .search
+  jr z, .search
+.reset
+  ; First use, or the ring is past the end of the range
+  ld a, [W_HardwareType]
+  cp $11
+  call z, StrClearTileZero
   call StrScanTiles
   ld a, 1
   ld [W_StrNextTile], a
 .search
-  ld b, STR_RING_LAST ; tries
+  call StrRingLast
+  ld b, e ; tries
 .try
   ld a, [W_StrNextTile]
   ld c, a
-  inc a
-  cp STR_RING_LAST + 1
+  cp e
   jr c, .noWrap
+  ; Last tile of the ring: rescan, the next one is tile 1 again
   push bc
+  push de
   call StrScanTiles
+  pop de
   pop bc
-  ld a, 1
+  xor a
 .noWrap
+  inc a
   ld [W_StrNextTile], a
   ld a, c
   call StrTileBit
@@ -718,6 +769,40 @@ StrAllocTile:
   or [hl]
   ld [hl], a
   ld a, c
+  ret
+
+StrRestoreFont::
+  ; Original Game Boy: copies the font glyphs back over font tiles $01-DMG_FONT_GLYPHS
+  ld hl, FixedFontTileset + 3 + 16
+  ld de, $9010
+  ld bc, DMG_FONT_GLYPHS * 16
+.copy
+  di
+.wait
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .wait
+  ld a, [hli]
+  ld [de], a
+  ei
+  inc de
+  dec bc
+  ld a, b
+  or c
+  jr nz, .copy
+  ld a, 1
+  ld [W_StrFontIntact], a
+  ret
+
+StrRingLast:
+  ; e = last tile of the ring, a = [W_StrNextTile]. Preserves bc, hl
+  ld e, STR_RING_LAST
+  ld a, [W_HardwareType]
+  cp $11
+  jr z, .done
+  ld e, DMG_STR_LAST
+.done
+  ld a, [W_StrNextTile]
   ret
 
 StrTileBit:
@@ -755,9 +840,13 @@ StrScanTiles:
   ld [hli], a
   dec b
   jr nz, .clear
+  call StrRingLast
   ld hl, $9800
 .cell
   di
+  ld a, [W_HardwareType]
+  cp $11
+  jr nz, .waitTile ; original Game Boy: every cell counts
   ld a, 1
   ldh [rVBK_], a
 .waitAttr
@@ -778,8 +867,10 @@ StrScanTiles:
   ei
   or a
   jr z, .next
-  cp STR_RING_LAST + 1
+  cp e
+  jr z, .inRange
   jr nc, .next
+.inRange
   push hl
   call StrTileBit
   or [hl]

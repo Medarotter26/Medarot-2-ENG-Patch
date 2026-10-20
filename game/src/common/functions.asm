@@ -12,3 +12,6 @@ DEF NAME_TOKEN              EQU $C8
 DEF STR_TERMINATOR          EQU $C0
 DEF STR_MAX_TILES           EQU 18
 DEF STR_NARROW              EQU $C9 ; Switches the rest of a string to the narrow font
+
+DEF DMG_STR_LAST EQU $6C ; original Game Boy: string tiles are font tiles $01-$6C (all but the symbols)
+DEF DMG_FONT_GLYPHS EQU $48 ; last font tile with a glyph the fixed width text needs

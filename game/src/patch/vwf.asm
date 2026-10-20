@@ -4,9 +4,11 @@ INCLUDE "game/src/common/functions.asm"
 
 ; Variable width font renderer for the main script.
 ;
-; Characters are drawn into a row of tiles for each line of the text box:
-;  * Only mode 1 (rendered tiles) uses it: the window maps tiles $C3-$E6 (VRAM $8C30),
-;    18 tiles per line. Mode 0 draws the fixed width font straight to the tilemap.
+; Characters are drawn into a row of tiles for each line of the text box, 18 tiles per line:
+;  * Mode 1 (rendered tiles): the window maps tiles $C3-$E6 (VRAM $8C30).
+;  * Mode 0 (text box in the tilemap): the box cells are mapped to private tiles: VRAM bank 1
+;    tiles $C3-$E6 on the Game Boy Color; on the original Game Boy, 36 font tiles that aren't
+;    on screen, taken from the string tile pool (W_VWFBoxTiles lists them).
 ;
 ; Glyphs are 8x8 1bpp, left aligned, with a width table. One pixel of spacing is added after
 ; every character.
@@ -62,9 +64,6 @@ VWFDrawArrow::
 
 VWFMapMode0Box::
   ; Preserves bc: callers of the text init expect what the original left there
-  ld a, [W_HardwareType]
-  cp $11
-  ret nz
   push bc
   ld a, BANK(VWFMapMode0BoxInternal)
   ld hl, VWFMapMode0BoxInternal
@@ -108,6 +107,8 @@ VWFNewLineInternal:
 
 VWFClearTilesInternal:
   call VWFResetInternal
+  call VWFDmgBox
+  jr z, .dmgBox
   call VWFGetTileBase
   ld bc, VWF_LINE_TILES * 2 * 16
 .loop
@@ -125,6 +126,70 @@ VWFClearTilesInternal:
   ld a, b
   or c
   jr nz, .loop
+  ret
+
+.dmgBox
+  ld c, 0
+.dmgTile
+  ld a, c
+  call VWFTileAddrByIndex
+  ld b, 16
+.dmgClear
+  di
+.dmgWait
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .dmgWait
+  xor a
+  ld [hli], a
+  ei
+  dec b
+  jr nz, .dmgClear
+  inc c
+  ld a, c
+  cp VWF_LINE_TILES * 2
+  jr nz, .dmgTile
+  ret
+
+VWFDmgBox:
+  ; Returns z when drawing the mode 0 box on the original Game Boy. Clobbers a
+  ld a, [W_HardwareType]
+  cp $11
+  jr z, .no
+  ld a, [W_TextMode]
+  or a
+  ret
+.no
+  or 1
+  ret
+
+VWFTileAddrByIndex:
+  ; a = tile of the box (0-35). Returns hl = its address. Preserves bc, de
+  push de
+  push bc
+  ld c, a
+  call VWFDmgBox
+  jr nz, .contiguous
+  ld hl, W_VWFBoxTiles
+  ld b, 0
+  add hl, bc
+  ld c, [hl]
+  ld de, $9000
+  jr .add
+.contiguous
+  call VWFGetTileBase
+  ld d, h
+  ld e, l
+.add
+  ld l, c
+  ld h, 0
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  add hl, de
+  pop bc
+  pop de
   ret
 
 VWFSelectVRAMBank:
@@ -152,9 +217,10 @@ VWFDrawArrowInternal:
   add hl, hl
   ld de, VWFFont
   add hl, de
-  ld d, h
-  ld e, l
-  ld hl, VWF_MODE1_TILE_ADDRESS + (VWF_LINE_TILES * 2 - 1) * 16
+  push hl
+  ld a, VWF_LINE_TILES * 2 - 1
+  call VWFTileAddrByIndex
+  pop de
   ld b, 8
 .loop
   ld a, [de]
@@ -177,7 +243,10 @@ VWFDrawArrowInternal:
   ret
 
 VWFMapMode0BoxInternal:
-  ; Maps the cells of the two text lines of the mode 0 box to VRAM bank 1 tiles $C3-$E6
+  ; Maps the cells of the two text lines of the mode 0 box to its private tiles
+  ld a, [W_HardwareType]
+  cp $11
+  jr nz, .dmg
   call VWFClearTilesInternal
   ld hl, $9C41
   ld b, VWF_MODE1_FIRST_TILE
@@ -215,8 +284,55 @@ VWFMapMode0BoxInternal:
   jr nz, .cell
   ret
 
+.dmg
+  ; Cells that already show a string pool tile keep it, the others get a free one
+  ld hl, $9C41
+  ld de, W_VWFBoxTiles
+  call .dmgLine
+  ld hl, $9C81
+  call .dmgLine
+  jp VWFClearTilesInternal
+.dmgLine
+  ld b, VWF_LINE_TILES
+.dmgCell
+  di
+.dmgWait
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .dmgWait
+  ld a, [hl]
+  ei
+  or a
+  jr z, .dmgAlloc
+  cp DMG_STR_LAST + 1
+  jr c, .dmgKeep
+.dmgAlloc
+  push bc
+  push de
+  push hl
+  call StrAllocTile
+  pop hl
+  pop de
+  pop bc
+  ld c, a
+  di
+.dmgWaitMap
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .dmgWaitMap
+  ld [hl], c
+  ei
+  ld a, c
+.dmgKeep
+  ld [de], a
+  inc de
+  inc hl
+  dec b
+  jr nz, .dmgCell
+  ret
+
 VWFGetTileBase:
-  ; hl = address of the first tile of the drawing area
+  ; hl = address of the first tile of the drawing area (contiguous tiles)
   ld hl, VWF_MODE1_TILE_ADDRESS
   ret
 
@@ -232,20 +348,8 @@ VWFGetTileAddress:
   ld a, c
   jr z, .gotIndex
   add VWF_LINE_TILES
-
 .gotIndex
-  ld l, a
-  ld h, 0
-  add hl, hl
-  add hl, hl
-  add hl, hl
-  add hl, hl
-  ld b, h
-  ld c, l
-  push bc
-  call VWFGetTileBase
-  pop bc
-  add hl, bc
+  call VWFTileAddrByIndex
   and a
   ret
 

@@ -153,14 +153,6 @@ MainScriptLoadText:
   push bc
   ld hl, MainScriptSectionTable
   ld c, a
-  ld a, [W_HardwareType]
-  cp $11
-  jr z, .gotTable
-  ld a, [W_TextMode]
-  or a
-  jr nz, .gotTable ; rendered tiles: the variable width font works on any Game Boy
-  ld hl, MainScriptSectionTableDMG ; tilemap text, fixed width font
-.gotTable
   ld b, 0
   add hl, bc
   add hl, bc
@@ -399,17 +391,7 @@ MainScriptCCWaitAndClear:
   ld a, [W_TextMode]
   or a
   jr nz, .renderedTiles
-  ld a, [W_HardwareType]
-  cp $11
-  jr z, .vwfArrow
-  ld hl, $9C92
-  ld a, b
-  di
-  call $0A9F
-  ld [hl], a
-  ei
-  jr .checkInput
-
+  ; (the variable width font is used on any Game Boy)
 .vwfArrow
   ld a, b
   call VWFDrawArrow
@@ -644,32 +626,11 @@ MainScriptCharacter:
 MainScriptDrawCharacter:
   ; a = character
   ld [W_TextChar], a
-  ld a, [W_TextMode]
-  or a
-  jr nz, .vwf
-  ld a, [W_HardwareType]
-  cp $11
-  jr nz, .tilemap
-.vwf
   ld a, [W_TextChar]
   call VWFDrawCharacter
   ld a, [W_TextBank]
   rst $10
   ret
-
-.tilemap
-  ; Mode 0 uses the fixed width font, one tile per character
-  ld a, [W_TextCursorHi]
-  ld h, a
-  ld a, [W_TextCursorLo]
-  ld l, a
-  ld a, [W_TextChar]
-  di
-  call $0A9F
-  ld [hl], a
-  ei
-  inc hl
-  jp MainScriptSetCursor
 
 MainScriptClearPortrait:
   ld a, [W_TextPortrait]
@@ -717,10 +678,6 @@ MainScriptClearBox::
 
 MainScriptSectionTable::
   INCLUDE "build/text/section_table.asm"
-
-MainScriptSectionTableDMG::
-  ; Fixed width layout of the script, for the original Game Boy
-  INCLUDE "build/text/section_table_dmg.asm"
 
 MainScriptEngineEnd::
   ASSERT MainScriptEngineEnd <= $2180, "Main script engine overflows into the string helpers"
