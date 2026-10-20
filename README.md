@@ -40,9 +40,12 @@ The patch is built as an rgbds overlay on top of the original ROM, padded to 4MB
 
 * The main script engine (`$1C69`-`$22E3`) is reimplemented: text offsets are 16-bit and text
   tables hold bank+address entries, so the English script lives in banks `$81`+.
-* Dialog in the overworld is drawn with a variable width font (the Medarot 3 translation's font),
-  wrapped automatically at build time. System and battle messages, which are drawn straight to the
-  tilemap, use a fixed width font with 18 characters per line.
+* Dialog is drawn with a variable width font (the Medarot 3 translation's font), wrapped
+  automatically at build time. Menu strings and labels use the same font, rendered into private
+  tiles in VRAM bank 1, so names are never abbreviated on the Game Boy Color.
+* On the original Game Boy (no VRAM bank 1) menus use the fixed width font: the script is also
+  laid out for 18 characters per line, and names and labels that are too long have short versions
+  (`Name_DMG` columns in `text/ptrlists`, `DMG:` lines in `text/tilemaps`).
 * The English encoding puts all printable characters in `$00-$7F`, the part of the font every
   menu screen loads, keeping the original digits (`$E7-$F0`) and symbols.
 
