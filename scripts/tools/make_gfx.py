@@ -482,10 +482,91 @@ def ts_013(c):
     c.word([0xA7, 0xA9, 0xAB], 'Qty', bg=WHITE, clear='all')
 
 
+@tileset(0x01D)
+def ts_01D(c):
+    # Medal screen, Medaforce page: じゅくれんど (top 98 00 9B 9D 9F A1 / bottom 99 9A 9C 9E A0 A2;
+    # the top tile of the 2nd column is the blank font tile) -> "Proficiency" in the bottom row,
+    # above the "/Success" label that the tilemap text puts below it.
+    for t in (0x98, 0x9B, 0x9D, 0x9F, 0xA1):
+        c.set_tile(t, BLANK_TILE)
+    c.word([0x99, 0x9A, 0x9C, 0x9E, 0xA0, 0xA2], 'Proficiency', font='narrow', bg=WHITE, clear='all', x=0)
+
+
+@tileset(0x027)
+def ts_027(c):
+    # Medaroad Race title (race select screen): メダロードレース in tiles CC-D3, black with a
+    # dark grey drop shadow on white.
+    bm = text_bitmap('Medaroad Race', 'narrow', space=3)
+    w = bitmap_width(bm)
+    c.block([list(range(0xCC, 0xD4))], bm, (64 - w - 1) // 2, 0, fg=BLACK, clear=(0, 64, 0, 8), bg=WHITE,
+            shadow=DARK, shadow_dir=(1, 1))
+    # the frame tiles above the title carry the ゛ of ダ and ド -> plain frame tile D7
+    c.copy_tile(0xD4, 0xD7)
+    c.copy_tile(0xD5, 0xD7)
+
+
+@tileset(0x089)
+def ts_089(c):
+    # Link screen label (tilemap 0_77): つうしん (AF-B2) above NET (B3-B5) -> "Link" / "NET"
+    c.word([0xAF, 0xB0, 0xB1, 0xB2], 'Link', bg=LIGHT, clear='fg', align='right')
+
+
+@tileset(0x08C)
+def ts_08C(c):
+    # Same label in one row: つうしんNET (A5-AB) -> "Link NET"
+    c.word([0xA5, 0xA6, 0xA7, 0xA8, 0xA9, 0xAA, 0xAB], 'Link NET', bg=LIGHT, clear='fg', x=1)
+
+
+@tileset(0x0B7)
+def ts_0B7(c):
+    # Paint shop (loaded over font tiles 63-7F).  Tilemap strips:
+    #   main menu (1_E2): せつめいをきく 69 6A 6B 6C 6D 6E 6F / ペイント 70-73 /
+    #                     いろをもどす 6C 74 6D 75 76 77 / やめる 78 6B 79;  おかね 66 67 68
+    #   colour screen (1_E3): カラーせんたく 7A 7B 7C 69 7D 7E 6F / カラー No.(0B6) /(7F)
+    #   yes/no box (1_E4): はい 63 64 / いいえ 64 64 65  -> left in Japanese (see tileset 004)
+    # Layout found by an exhaustive search over wordings/offsets (scratch solver):
+    #   "Guide" (69-6B) and "Bye" (78 6B 79) share their "e" in 6B; 6C/6D stay blank, so the
+    #   restore item is drawn in 75-77; the colour screen title reuses "Guide" -> "Color Guide".
+    guide = c.word([0x69, 0x6A, 0x6B], 'Guide', font='narrow', bg=WHITE, clear='all', x=2)
+    c.word([0x78, 0x6B, 0x79], 'Bye', font='narrow', bg=WHITE, clear='all', x=0)
+    for t in (0x6C, 0x6D, 0x6E, 0x6F, 0x74):
+        c.set_tile(t, BLANK_TILE)
+    c.word([0x75, 0x76, 0x77], 'Reset', font='narrow', bg=WHITE, clear='all', x=0)
+    c.word([0x70, 0x71, 0x72, 0x73], 'Paint', font='narrow', bg=WHITE, clear='all', x=0)
+    c.word([0x66, 0x67, 0x68], 'Cash', bg=WHITE, clear='all', x=0)
+    c.word([0x7A, 0x7B, 0x7C], 'Color', font='narrow', bg=WHITE, clear='all', x=1)
+    c.put_strip([0x7D, 0x7E], [r[8:24] for r in guide])  # "...ide" of "Guide" after 69
+    c.word([0x7F], '/', bg=WHITE, clear='all', align='center')
+
+
 @tileset(0x011)
 def ts_011(c):
     # Item screen header: アイテム
     c.word([0x89, 0x8A, 0x8B, 0x8C], 'Items', bg=LIGHT, clear='fg')
+
+def kerned(parts):
+    """Bitmap from (text, font, gap_before) pieces: lets single letter gaps be tightened."""
+    rows = [[] for _ in range(8)]
+    for text, font, gap in parts:
+        g = text_bitmap(text, font)
+        for y in range(8):
+            rows[y] += [0] * gap + g[y]
+    return rows
+
+
+@tileset(0x0B5)
+def ts_0B5(c):
+    # Boot credits screen (tilemap 1_E5): キャラクターデザイン (CB-D4, ゛ in CA CA above) /
+    # ほるま りん (D5 D6 D7, blank font tile, D9 DA).  Name kept in the original order
+    # (Horuma | Rin); "Horuma" has to fit 24px, so it uses a 3px H set without a gap before the o.
+    c.set_tile(0xCA, BLANK_TILE)
+    c.word(list(range(0xCB, 0xD5)), 'Character Design', bg=WHITE, clear='all')
+    h3 = [[r[0], r[1] | r[2], r[3]] for r in text_bitmap('H', 'narrow')]  # 3px wide H
+    FONTS['narrow'].overrides['\x01'] = h3
+    horuma = kerned([('\x01', 'narrow', 0), ('oruma', 'narrow', 0)])
+    c.word([0xD5, 0xD6, 0xD7], None, bitmap=horuma, bg=WHITE, clear='all', align='right')
+    c.word([0xD9, 0xDA], 'Rin', font='narrow', bg=WHITE, clear='all', align='left')
+
 
 
 def main():
