@@ -37,6 +37,7 @@ EN: Smile
 @ 7,2 max 5
 JP: パスワード
 EN: Password
+DMG: Pass
 
 @ 9,2 max 5
 JP: やめる

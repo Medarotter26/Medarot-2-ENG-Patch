@@ -1,257 +1,257 @@
-Index,Data,Name,Name_EN
-0,00 00 00,シルエット,Silhouette
-1,01 01 00,アリカ,Arika
-2,01 01 00,アリカ,Arika
-3,01 01 00,アリカ,Arika
-4,02 02 00,カリン,Karin
-5,02 02 00,カリン,Karin
-6,03 03 00,コウジ,Koji
-7,03 03 00,コウジ,Koji
-8,03 03 00,コウジ,Koji
-9,03 03 00,コウジ,Koji
-10,03 03 00,コウジ,Koji
-11,03 03 00,コウジ,Koji
-12,04 04 00,キクヒメ,Kikuhime
-13,04 04 00,キクヒメ,Kikuhime
-14,04 04 00,キクヒメ,Kikuhime
-15,05 05 00,イワノイ,Iwanoi
-16,05 05 00,イワノイ,Iwanoi
-17,05 05 00,イワノイ,Iwanoi
-18,06 06 00,カガミヤマ,Kagamiyama
-19,06 06 00,カガミヤマ,Kagamiyama
-20,06 06 00,カガミヤマ,Kagamiyama
-21,07 07 00,ハチロウ,Hachiro
-22,08 08 00,ばんちょう,Banchou
-23,09 09 00,ミルキー,Milky
-24,0A 0A 00,かいとうレトルト,Phantom Retort
-25,0A 0A 00,かいとうレトルト,Phantom Retort
-26,0B 0B 00,レトルトレディ,Lady Retort
-27,0C 0C 00,メダロットはかせ,Dr. Medarot
-28,0D 0D 00,ナエ,Nae
-29,0D 0D 00,ナエ,Nae
-30,0E 0E 00,おとこのこ,Boy
-31,0E 0F 00,カズキ,Kazuki
-32,0E 0F 00,ヒトシ,Hitoshi
-33,0F 10 00,サラリーマン,Salaryman
-34,0F 11 00,カワムラー,Kawamuller
-35,10 12 00,おばさん,Auntie
-36,11 13 00,おじいさん,Old Man
-37,11 13 00,ホケタ チイさん,Hoketa Chii
-38,11 13 00,ホケタ チイさん,Hoketa Chii
-39,12 14 00,おばあさん,Old Lady
-40,13 15 00,はくい,Lab Coat
-41,13 16 00,シラタマ,Shiratama
-42,14 17 00,テジャク,Tejaku
-43,15 18 00,サカヅキ,Sakazuki
-44,16 19 00,ヒザケ,Hizake
-45,17 1A 00,ふなのリ,Sailor
-46,18 1B 00,やまぶし,Mountain Monk
-47,19 1C 00,おんなのこ,Girl
-48,1A 1D 00,じょしこうせい,High School Girl
-49,1B 1E 00,オフィスレディ,Office Lady
-50,1D 1F 00,バニー,Bunny Girl
-51,1E 20 00,ひこうメダロット,Flying Medarot
-52,1E 21 00,ふゆうメダロット,Hover Medarot
-53,1E 22 00,たそくメダロット,Multileg Medarot
-54,1E 23 00,にそくメダロット,Bipedal Medarot
-55,1E 24 00,くるまメダロット,Wheeled Medarot
-56,1E 25 00,タンクメダロット,Tank Medarot
-57,1E 26 00,みずベメダロット,Aquatic Medarot
-58,1E 27 00,ジャック,Jack
-59,1E 27 00,スペクター,Specter
-60,1E 28 00,アリメダロット,Ant Medarot
-61,1E 29 00,ウォッカ,Vodka
-62,1E 2A 00,ガーディアン,Guardian
-63,1E 2A 00,ガーディアン,Guardian
-64,1E 2A 00,ガーディアン,Guardian
-65,1E 2A 00,ガーディアン,Guardian
-66,1E 2A 00,ガーディアン,Guardian
-67,1E 2A 00,ガーディアン,Guardian
-68,1E 2B 00,ゴッドエンペラー,God Emperor
-69,1E 2C 00,プリミティベビー,Primity Baby
-70,1F 2D 01,ロボロボだんいん,RoboRobo Grunt
-71,1F 2D 01,ロボロボだんいん,RoboRobo Grunt
-72,1F 2D 01,ロボロボだんいん,RoboRobo Grunt
-73,1F 2D 01,ロボロボだんいん,RoboRobo Grunt
-74,1F 2D 01,ロボロボだんいん,RoboRobo Grunt
-75,20 2E 01,サケカース,Sakekaasu
-76,20 2E 01,サケカース,Sakekaasu
-77,21 2F 01,スルメ,Surume
-78,21 2F 01,スルメ,Surume
-79,22 30 01,シオカラ,Shiokara
-80,22 30 01,シオカラ,Shiokara
-81,23 31 01,サラミ,Sarami
-82,24 32 01,ロボロボこども,RoboRobo Kid
-83,25 33 01,ヘベレケはかせ,Dr. Hebereke
-84,25 33 01,ヘベレケはかせ,Dr. Hebereke
-85,25 33 01,ヘベレケはかせ,Dr. Hebereke
-86,26 34 01,セレクトスリー,Select Three
-87,27 35 01,セレクトたいいん,Select Officer
-88,28 36 00,マルガリータ,Margarita
-89,29 37 00,ユートピアン,Utopian
-90,2A 38 00,むかしのこども,Child of Long Ago
-91,2B 39 00,おんなのひと,Woman
-92,2C 3A 00,ろうじん,Old Man
-93,2D 3B 00,キール,Kir
-94,2E 3C 00,シャンデー,Shandy
-95,2F 3D 00,ジョー・スイハン,Joe Suihan
-96,30 3E 00,スプモーニ,Spumoni
-97,31 3F 00,テキーラ,Tequila
-98,32 40 00,リョウ,Ryo
-99,33 41 00,まおう,Demon King
-100,34 42 00,はてな,???
-101,01 01 00,アリカ,Arika
-102,01 01 00,アリカ,Arika
-103,01 01 00,アリカ,Arika
-104,02 02 00,カリン,Karin
-105,02 02 00,カリン,Karin
-106,02 02 00,カリン,Karin
-107,02 02 00,カリン,Karin
-108,03 03 00,コウジ,Koji
-109,03 03 00,コウジ,Koji
-110,03 03 00,コウジ,Koji
-111,03 03 00,コウジ,Koji
-112,03 03 00,コウジ,Koji
-113,03 03 00,コウジ,Koji
-114,03 03 00,コウジ,Koji
-115,03 03 00,コウジ,Koji
-116,03 03 00,コウジ,Koji
-117,03 03 00,コウジ,Koji
-118,03 03 00,コウジ,Koji
-119,03 03 00,コウジ,Koji
-120,03 03 00,コウジ,Koji
-121,03 03 00,コウジ,Koji
-122,03 03 00,コウジ,Koji
-123,03 03 00,コウジ,Koji
-124,03 03 00,コウジ,Koji
-125,03 03 00,コウジ,Koji
-126,04 04 00,キクヒメ,Kikuhime
-127,04 04 00,キクヒメ,Kikuhime
-128,04 04 00,キクヒメ,Kikuhime
-129,05 05 00,イワノイ,Iwanoi
-130,05 05 00,イワノイ,Iwanoi
-131,05 05 00,イワノイ,Iwanoi
-132,05 05 00,イワノイ,Iwanoi
-133,06 06 00,カガミヤマ,Kagamiyama
-134,06 06 00,カガミヤマ,Kagamiyama
-135,06 06 00,カガミヤマ,Kagamiyama
-136,06 06 00,カガミヤマ,Kagamiyama
-137,06 06 00,カガミヤマ,Kagamiyama
-138,07 07 00,ハチロウ,Hachiro
-139,07 07 00,ハチロウ,Hachiro
-140,07 07 00,ハチロウ,Hachiro
-141,07 07 00,ハチロウ,Hachiro
-142,08 08 00,ばんちょう,Banchou
-143,08 08 00,ばんちょう,Banchou
-144,08 08 00,ばんちょう,Banchou
-145,09 09 00,ミルキー,Milky
-146,09 09 00,ミルキー,Milky
-147,09 09 00,ミルキー,Milky
-148,0D 0D 00,ナエ,Nae
-149,0D 0D 00,ナエ,Nae
-150,0D 0D 00,ナエ,Nae
-151,0D 0D 00,ナエ,Nae
-152,0D 0D 00,ナエ,Nae
-153,0D 0D 00,ナエ,Nae
-154,0E 0E 00,おとこのこ,Boy
-155,0E 0E 00,おとこのこ,Boy
-156,0E 0F 00,カズキ,Kazuki
-157,0E 0F 00,カズキ,Kazuki
-158,0E 0F 00,ヒトシ,Hitoshi
-159,0E 0F 00,ヒトシ,Hitoshi
-160,1E 20 00,ひこうメダロット,Flying Medarot
-161,1E 20 00,ひこうメダロット,Flying Medarot
-162,1E 21 00,ふゆうメダロット,Hover Medarot
-163,1E 21 00,ふゆうメダロット,Hover Medarot
-164,1E 22 00,たそくメダロット,Multileg Medarot
-165,1E 22 00,たそくメダロット,Multileg Medarot
-166,1E 23 00,にそくメダロット,Bipedal Medarot
-167,1E 23 00,にそくメダロット,Bipedal Medarot
-168,1E 24 00,くるまメダロット,Wheeled Medarot
-169,1E 24 00,くるまメダロット,Wheeled Medarot
-170,1E 25 00,タンクメダロット,Tank Medarot
-171,1E 25 00,タンクメダロット,Tank Medarot
-172,1E 26 00,みずベメダロット,Aquatic Medarot
-173,1E 26 00,みずベメダロット,Aquatic Medarot
-174,1E 27 00,ジャック,Jack
-175,1E 27 00,スペクター,Specter
-176,1E 28 00,アリメダロット,Ant Medarot
-177,1E 28 00,アリメダロット,Ant Medarot
-178,1E 2B 00,ゴッドエンペラー,God Emperor
-179,1F 2D 01,ロボロボだんいん,RoboRobo Grunt
-180,1F 2D 01,ロボロボだんいん,RoboRobo Grunt
-181,1F 2D 01,ロボロボだんいん,RoboRobo Grunt
-182,1F 2D 01,ロボロボだんいん,RoboRobo Grunt
-183,1F 2D 01,ロボロボだんいん,RoboRobo Grunt
-184,1F 2D 01,ロボロボだんいん,RoboRobo Grunt
-185,1F 2D 01,ロボロボだんいん,RoboRobo Grunt
-186,1F 2D 01,ロボロボだんいん,RoboRobo Grunt
-187,1F 2D 01,ロボロボだんいん,RoboRobo Grunt
-188,1F 2D 01,ロボロボだんいん,RoboRobo Grunt
-189,20 2E 01,サケカース,Sakekaasu
-190,20 2E 01,サケカース,Sakekaasu
-191,20 2E 01,サケカース,Sakekaasu
-192,20 2E 01,サケカース,Sakekaasu
-193,20 2E 01,サケカース,Sakekaasu
-194,20 2E 01,サケカース,Sakekaasu
-195,21 2F 01,スルメ,Surume
-196,21 2F 01,スルメ,Surume
-197,21 2F 01,スルメ,Surume
-198,21 2F 01,スルメ,Surume
-199,21 2F 01,スルメ,Surume
-200,21 2F 01,スルメ,Surume
-201,22 30 01,シオカラ,Shiokara
-202,22 30 01,シオカラ,Shiokara
-203,22 30 01,シオカラ,Shiokara
-204,22 30 01,シオカラ,Shiokara
-205,22 30 01,シオカラ,Shiokara
-206,22 30 01,シオカラ,Shiokara
-207,23 31 01,サラミ,Sarami
-208,23 31 01,サラミ,Sarami
-209,23 31 01,サラミ,Sarami
-210,25 33 01,ヘベレケはかせ,Dr. Hebereke
-211,25 33 01,ヘベレケはかせ,Dr. Hebereke
-212,27 35 01,セレクトたいいん,Select Officer
-213,27 35 01,セレクトたいいん,Select Officer
-214,27 35 01,セレクトたいいん,Select Officer
-215,27 35 01,セレクトたいいん,Select Officer
-216,28 36 00,マルガリータ,Margarita
-217,28 36 00,マルガリータ,Margarita
-218,2D 3B 00,キール,Kir
-219,2E 3C 00,シャンデー,Shandy
-220,2F 3D 00,ジョー・スイハン,Joe Suihan
-221,30 3E 00,スプモーニ,Spumoni
-222,31 3F 00,テキーラ,Tequila
-223,31 3F 00,テキーラ,Tequila
-224,32 40 00,リョウ,Ryo
-225,32 40 00,リョウ,Ryo
-226,00 43 00,ラピ,Rappy
-227,00 44 00,レフェリー,Referee
-228,00 00 00,セレクトいっぱん,Select Member
-229,00 00 00,セレクトいっぱん,Select Member
-230,00 00 00,セレクトいっぱん,Select Member
-231,00 00 00,セレクトいっぱん,Select Member
-232,00 00 00,セレクトいっぱん,Select Member
-233,00 00 00,セレクトいっぱん,Select Member
-234,00 00 00,セレクトいっぱん,Select Member
-235,00 00 00,セレクトいっぱん,Select Member
-236,00 00 00,セレクトいっぱん,Select Member
-237,00 00 00,セレクトいっぱん,Select Member
-238,00 00 00,セレクトいっぱん,Select Member
-239,00 00 00,セレクトいっぱん,Select Member
-240,00 00 00,セレクトいっぱん,Select Member
-241,00 00 00,セレクトいっぱん,Select Member
-242,00 00 00,セレクトいっぱん,Select Member
-243,00 00 00,セレクトいっぱん,Select Member
-244,00 00 00,セレクトいっぱん,Select Member
-245,00 00 00,セレクトいっぱん,Select Member
-246,00 00 00,セレクトいっぱん,Select Member
-247,00 00 00,セレクトいっぱん,Select Member
-248,00 00 00,セレクトいっぱん,Select Member
-249,00 00 00,セレクトいっぱん,Select Member
-250,00 00 00,セレクトいっぱん,Select Member
-251,00 00 00,セレクトいっぱん,Select Member
-252,00 00 00,セレクトいっぱん,Select Member
-253,00 00 00,セレクトいっぱん,Select Member
-254,00 00 00,セレクトいっぱん,Select Member
-255,00 01 00,ダミー,Dummy
+Index,Data,Name,Name_EN,Name_DMG
+0,00 00 00,シルエット,Silhouette,Silhouet
+1,01 01 00,アリカ,Arika,
+2,01 01 00,アリカ,Arika,
+3,01 01 00,アリカ,Arika,
+4,02 02 00,カリン,Karin,
+5,02 02 00,カリン,Karin,
+6,03 03 00,コウジ,Koji,
+7,03 03 00,コウジ,Koji,
+8,03 03 00,コウジ,Koji,
+9,03 03 00,コウジ,Koji,
+10,03 03 00,コウジ,Koji,
+11,03 03 00,コウジ,Koji,
+12,04 04 00,キクヒメ,Kikuhime,
+13,04 04 00,キクヒメ,Kikuhime,
+14,04 04 00,キクヒメ,Kikuhime,
+15,05 05 00,イワノイ,Iwanoi,
+16,05 05 00,イワノイ,Iwanoi,
+17,05 05 00,イワノイ,Iwanoi,
+18,06 06 00,カガミヤマ,Kagamiyama,Kagami
+19,06 06 00,カガミヤマ,Kagamiyama,Kagami
+20,06 06 00,カガミヤマ,Kagamiyama,Kagami
+21,07 07 00,ハチロウ,Hachiro,
+22,08 08 00,ばんちょう,Banchou,
+23,09 09 00,ミルキー,Milky,
+24,0A 0A 00,かいとうレトルト,Phantom Retort,Phantom
+25,0A 0A 00,かいとうレトルト,Phantom Retort,Phantom
+26,0B 0B 00,レトルトレディ,Lady Retort,LadyRtrt
+27,0C 0C 00,メダロットはかせ,Dr. Medarot,DrMedrot
+28,0D 0D 00,ナエ,Nae,
+29,0D 0D 00,ナエ,Nae,
+30,0E 0E 00,おとこのこ,Boy,
+31,0E 0F 00,カズキ,Kazuki,
+32,0E 0F 00,ヒトシ,Hitoshi,
+33,0F 10 00,サラリーマン,Salaryman,Salarymn
+34,0F 11 00,カワムラー,Kawamuller,Kawamulr
+35,10 12 00,おばさん,Auntie,
+36,11 13 00,おじいさん,Old Man,
+37,11 13 00,ホケタ チイさん,Hoketa Chii,Hoketa
+38,11 13 00,ホケタ チイさん,Hoketa Chii,Hoketa
+39,12 14 00,おばあさん,Old Lady,
+40,13 15 00,はくい,Lab Coat,
+41,13 16 00,シラタマ,Shiratama,Shiratam
+42,14 17 00,テジャク,Tejaku,
+43,15 18 00,サカヅキ,Sakazuki,
+44,16 19 00,ヒザケ,Hizake,
+45,17 1A 00,ふなのリ,Sailor,
+46,18 1B 00,やまぶし,Mountain Monk,MtnMonk
+47,19 1C 00,おんなのこ,Girl,
+48,1A 1D 00,じょしこうせい,High School Girl,SchlGirl
+49,1B 1E 00,オフィスレディ,Office Lady,OffcLady
+50,1D 1F 00,バニー,Bunny Girl,BunnyGrl
+51,1E 20 00,ひこうメダロット,Flying Medarot,FlyBot
+52,1E 21 00,ふゆうメダロット,Hover Medarot,HoverBot
+53,1E 22 00,たそくメダロット,Multileg Medarot,MultiBot
+54,1E 23 00,にそくメダロット,Bipedal Medarot,BipedBot
+55,1E 24 00,くるまメダロット,Wheeled Medarot,WheelBot
+56,1E 25 00,タンクメダロット,Tank Medarot,TankBot
+57,1E 26 00,みずベメダロット,Aquatic Medarot,AquaBot
+58,1E 27 00,ジャック,Jack,
+59,1E 27 00,スペクター,Specter,
+60,1E 28 00,アリメダロット,Ant Medarot,AntBot
+61,1E 29 00,ウォッカ,Vodka,
+62,1E 2A 00,ガーディアン,Guardian,
+63,1E 2A 00,ガーディアン,Guardian,
+64,1E 2A 00,ガーディアン,Guardian,
+65,1E 2A 00,ガーディアン,Guardian,
+66,1E 2A 00,ガーディアン,Guardian,
+67,1E 2A 00,ガーディアン,Guardian,
+68,1E 2B 00,ゴッドエンペラー,God Emperor,GodEmpr
+69,1E 2C 00,プリミティベビー,Primity Baby,PrimBaby
+70,1F 2D 01,ロボロボだんいん,RoboRobo Grunt,RoboGrnt
+71,1F 2D 01,ロボロボだんいん,RoboRobo Grunt,RoboGrnt
+72,1F 2D 01,ロボロボだんいん,RoboRobo Grunt,RoboGrnt
+73,1F 2D 01,ロボロボだんいん,RoboRobo Grunt,RoboGrnt
+74,1F 2D 01,ロボロボだんいん,RoboRobo Grunt,RoboGrnt
+75,20 2E 01,サケカース,Sakekaasu,Sakekasu
+76,20 2E 01,サケカース,Sakekaasu,Sakekasu
+77,21 2F 01,スルメ,Surume,
+78,21 2F 01,スルメ,Surume,
+79,22 30 01,シオカラ,Shiokara,
+80,22 30 01,シオカラ,Shiokara,
+81,23 31 01,サラミ,Sarami,
+82,24 32 01,ロボロボこども,RoboRobo Kid,RoboKid
+83,25 33 01,ヘベレケはかせ,Dr. Hebereke,Hebereke
+84,25 33 01,ヘベレケはかせ,Dr. Hebereke,Hebereke
+85,25 33 01,ヘベレケはかせ,Dr. Hebereke,Hebereke
+86,26 34 01,セレクトスリー,Select Three,Select3
+87,27 35 01,セレクトたいいん,Select Officer,SelOfcr
+88,28 36 00,マルガリータ,Margarita,Margrita
+89,29 37 00,ユートピアン,Utopian,
+90,2A 38 00,むかしのこども,Child of Long Ago,PastKid
+91,2B 39 00,おんなのひと,Woman,
+92,2C 3A 00,ろうじん,Old Man,
+93,2D 3B 00,キール,Kir,
+94,2E 3C 00,シャンデー,Shandy,
+95,2F 3D 00,ジョー・スイハン,Joe Suihan,Joe S.
+96,30 3E 00,スプモーニ,Spumoni,
+97,31 3F 00,テキーラ,Tequila,
+98,32 40 00,リョウ,Ryo,
+99,33 41 00,まおう,Demon King,DemonKng
+100,34 42 00,はてな,???,
+101,01 01 00,アリカ,Arika,
+102,01 01 00,アリカ,Arika,
+103,01 01 00,アリカ,Arika,
+104,02 02 00,カリン,Karin,
+105,02 02 00,カリン,Karin,
+106,02 02 00,カリン,Karin,
+107,02 02 00,カリン,Karin,
+108,03 03 00,コウジ,Koji,
+109,03 03 00,コウジ,Koji,
+110,03 03 00,コウジ,Koji,
+111,03 03 00,コウジ,Koji,
+112,03 03 00,コウジ,Koji,
+113,03 03 00,コウジ,Koji,
+114,03 03 00,コウジ,Koji,
+115,03 03 00,コウジ,Koji,
+116,03 03 00,コウジ,Koji,
+117,03 03 00,コウジ,Koji,
+118,03 03 00,コウジ,Koji,
+119,03 03 00,コウジ,Koji,
+120,03 03 00,コウジ,Koji,
+121,03 03 00,コウジ,Koji,
+122,03 03 00,コウジ,Koji,
+123,03 03 00,コウジ,Koji,
+124,03 03 00,コウジ,Koji,
+125,03 03 00,コウジ,Koji,
+126,04 04 00,キクヒメ,Kikuhime,
+127,04 04 00,キクヒメ,Kikuhime,
+128,04 04 00,キクヒメ,Kikuhime,
+129,05 05 00,イワノイ,Iwanoi,
+130,05 05 00,イワノイ,Iwanoi,
+131,05 05 00,イワノイ,Iwanoi,
+132,05 05 00,イワノイ,Iwanoi,
+133,06 06 00,カガミヤマ,Kagamiyama,Kagami
+134,06 06 00,カガミヤマ,Kagamiyama,Kagami
+135,06 06 00,カガミヤマ,Kagamiyama,Kagami
+136,06 06 00,カガミヤマ,Kagamiyama,Kagami
+137,06 06 00,カガミヤマ,Kagamiyama,Kagami
+138,07 07 00,ハチロウ,Hachiro,
+139,07 07 00,ハチロウ,Hachiro,
+140,07 07 00,ハチロウ,Hachiro,
+141,07 07 00,ハチロウ,Hachiro,
+142,08 08 00,ばんちょう,Banchou,
+143,08 08 00,ばんちょう,Banchou,
+144,08 08 00,ばんちょう,Banchou,
+145,09 09 00,ミルキー,Milky,
+146,09 09 00,ミルキー,Milky,
+147,09 09 00,ミルキー,Milky,
+148,0D 0D 00,ナエ,Nae,
+149,0D 0D 00,ナエ,Nae,
+150,0D 0D 00,ナエ,Nae,
+151,0D 0D 00,ナエ,Nae,
+152,0D 0D 00,ナエ,Nae,
+153,0D 0D 00,ナエ,Nae,
+154,0E 0E 00,おとこのこ,Boy,
+155,0E 0E 00,おとこのこ,Boy,
+156,0E 0F 00,カズキ,Kazuki,
+157,0E 0F 00,カズキ,Kazuki,
+158,0E 0F 00,ヒトシ,Hitoshi,
+159,0E 0F 00,ヒトシ,Hitoshi,
+160,1E 20 00,ひこうメダロット,Flying Medarot,FlyBot
+161,1E 20 00,ひこうメダロット,Flying Medarot,FlyBot
+162,1E 21 00,ふゆうメダロット,Hover Medarot,HoverBot
+163,1E 21 00,ふゆうメダロット,Hover Medarot,HoverBot
+164,1E 22 00,たそくメダロット,Multileg Medarot,MultiBot
+165,1E 22 00,たそくメダロット,Multileg Medarot,MultiBot
+166,1E 23 00,にそくメダロット,Bipedal Medarot,BipedBot
+167,1E 23 00,にそくメダロット,Bipedal Medarot,BipedBot
+168,1E 24 00,くるまメダロット,Wheeled Medarot,WheelBot
+169,1E 24 00,くるまメダロット,Wheeled Medarot,WheelBot
+170,1E 25 00,タンクメダロット,Tank Medarot,TankBot
+171,1E 25 00,タンクメダロット,Tank Medarot,TankBot
+172,1E 26 00,みずベメダロット,Aquatic Medarot,AquaBot
+173,1E 26 00,みずベメダロット,Aquatic Medarot,AquaBot
+174,1E 27 00,ジャック,Jack,
+175,1E 27 00,スペクター,Specter,
+176,1E 28 00,アリメダロット,Ant Medarot,AntBot
+177,1E 28 00,アリメダロット,Ant Medarot,AntBot
+178,1E 2B 00,ゴッドエンペラー,God Emperor,GodEmpr
+179,1F 2D 01,ロボロボだんいん,RoboRobo Grunt,RoboGrnt
+180,1F 2D 01,ロボロボだんいん,RoboRobo Grunt,RoboGrnt
+181,1F 2D 01,ロボロボだんいん,RoboRobo Grunt,RoboGrnt
+182,1F 2D 01,ロボロボだんいん,RoboRobo Grunt,RoboGrnt
+183,1F 2D 01,ロボロボだんいん,RoboRobo Grunt,RoboGrnt
+184,1F 2D 01,ロボロボだんいん,RoboRobo Grunt,RoboGrnt
+185,1F 2D 01,ロボロボだんいん,RoboRobo Grunt,RoboGrnt
+186,1F 2D 01,ロボロボだんいん,RoboRobo Grunt,RoboGrnt
+187,1F 2D 01,ロボロボだんいん,RoboRobo Grunt,RoboGrnt
+188,1F 2D 01,ロボロボだんいん,RoboRobo Grunt,RoboGrnt
+189,20 2E 01,サケカース,Sakekaasu,Sakekasu
+190,20 2E 01,サケカース,Sakekaasu,Sakekasu
+191,20 2E 01,サケカース,Sakekaasu,Sakekasu
+192,20 2E 01,サケカース,Sakekaasu,Sakekasu
+193,20 2E 01,サケカース,Sakekaasu,Sakekasu
+194,20 2E 01,サケカース,Sakekaasu,Sakekasu
+195,21 2F 01,スルメ,Surume,
+196,21 2F 01,スルメ,Surume,
+197,21 2F 01,スルメ,Surume,
+198,21 2F 01,スルメ,Surume,
+199,21 2F 01,スルメ,Surume,
+200,21 2F 01,スルメ,Surume,
+201,22 30 01,シオカラ,Shiokara,
+202,22 30 01,シオカラ,Shiokara,
+203,22 30 01,シオカラ,Shiokara,
+204,22 30 01,シオカラ,Shiokara,
+205,22 30 01,シオカラ,Shiokara,
+206,22 30 01,シオカラ,Shiokara,
+207,23 31 01,サラミ,Sarami,
+208,23 31 01,サラミ,Sarami,
+209,23 31 01,サラミ,Sarami,
+210,25 33 01,ヘベレケはかせ,Dr. Hebereke,Hebereke
+211,25 33 01,ヘベレケはかせ,Dr. Hebereke,Hebereke
+212,27 35 01,セレクトたいいん,Select Officer,SelOfcr
+213,27 35 01,セレクトたいいん,Select Officer,SelOfcr
+214,27 35 01,セレクトたいいん,Select Officer,SelOfcr
+215,27 35 01,セレクトたいいん,Select Officer,SelOfcr
+216,28 36 00,マルガリータ,Margarita,Margrita
+217,28 36 00,マルガリータ,Margarita,Margrita
+218,2D 3B 00,キール,Kir,
+219,2E 3C 00,シャンデー,Shandy,
+220,2F 3D 00,ジョー・スイハン,Joe Suihan,Joe S.
+221,30 3E 00,スプモーニ,Spumoni,
+222,31 3F 00,テキーラ,Tequila,
+223,31 3F 00,テキーラ,Tequila,
+224,32 40 00,リョウ,Ryo,
+225,32 40 00,リョウ,Ryo,
+226,00 43 00,ラピ,Rappy,
+227,00 44 00,レフェリー,Referee,
+228,00 00 00,セレクトいっぱん,Select Member,SelMembr
+229,00 00 00,セレクトいっぱん,Select Member,SelMembr
+230,00 00 00,セレクトいっぱん,Select Member,SelMembr
+231,00 00 00,セレクトいっぱん,Select Member,SelMembr
+232,00 00 00,セレクトいっぱん,Select Member,SelMembr
+233,00 00 00,セレクトいっぱん,Select Member,SelMembr
+234,00 00 00,セレクトいっぱん,Select Member,SelMembr
+235,00 00 00,セレクトいっぱん,Select Member,SelMembr
+236,00 00 00,セレクトいっぱん,Select Member,SelMembr
+237,00 00 00,セレクトいっぱん,Select Member,SelMembr
+238,00 00 00,セレクトいっぱん,Select Member,SelMembr
+239,00 00 00,セレクトいっぱん,Select Member,SelMembr
+240,00 00 00,セレクトいっぱん,Select Member,SelMembr
+241,00 00 00,セレクトいっぱん,Select Member,SelMembr
+242,00 00 00,セレクトいっぱん,Select Member,SelMembr
+243,00 00 00,セレクトいっぱん,Select Member,SelMembr
+244,00 00 00,セレクトいっぱん,Select Member,SelMembr
+245,00 00 00,セレクトいっぱん,Select Member,SelMembr
+246,00 00 00,セレクトいっぱん,Select Member,SelMembr
+247,00 00 00,セレクトいっぱん,Select Member,SelMembr
+248,00 00 00,セレクトいっぱん,Select Member,SelMembr
+249,00 00 00,セレクトいっぱん,Select Member,SelMembr
+250,00 00 00,セレクトいっぱん,Select Member,SelMembr
+251,00 00 00,セレクトいっぱん,Select Member,SelMembr
+252,00 00 00,セレクトいっぱん,Select Member,SelMembr
+253,00 00 00,セレクトいっぱん,Select Member,SelMembr
+254,00 00 00,セレクトいっぱん,Select Member,SelMembr
+255,00 01 00,ダミー,Dummy,

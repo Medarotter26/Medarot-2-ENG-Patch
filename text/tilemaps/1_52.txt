@@ -16,6 +16,7 @@
 @ 0,0 max 6
 JP: メダロットの
 EN: Medarot's
+DMG: Mdrt's
 
 @ 1,1 max 5
 JP: なまえは?

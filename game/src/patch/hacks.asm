@@ -147,9 +147,9 @@ SECTION "Shop List Names", ROMX[$7853], BANK[$04]
   ld e, 8
   jp PutStringPadded
 
-; Debug menu entries (10 tiles)
+; Debug menu entries (11 tiles)
 SECTION "Debug Menu Names", ROMX[$510C], BANK[$1A]
-  ld e, 10
+  ld e, 11
   jp PutStringPadded
 
 SECTION "Tilemap Tile Attribute Hook", ROM0[$13AE]

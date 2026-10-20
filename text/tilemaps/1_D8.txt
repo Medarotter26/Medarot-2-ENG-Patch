@@ -18,7 +18,9 @@
 @ 1,2 max 3
 JP: なおす
 EN: Repair
+DMG: Fix
 
 @ 3,2 max 3
 JP: やめる
 EN: Quit
+DMG: End

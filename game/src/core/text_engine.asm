@@ -153,6 +153,14 @@ MainScriptLoadText:
   push bc
   ld hl, MainScriptSectionTable
   ld c, a
+  ld a, [W_HardwareType]
+  cp $11
+  jr z, .gotTable
+  ld a, [W_TextMode]
+  or a
+  jr nz, .gotTable ; rendered tiles: the variable width font works on any Game Boy
+  ld hl, MainScriptSectionTableDMG ; tilemap text, fixed width font
+.gotTable
   ld b, 0
   add hl, bc
   add hl, bc
@@ -709,6 +717,10 @@ MainScriptClearBox::
 
 MainScriptSectionTable::
   INCLUDE "build/text/section_table.asm"
+
+MainScriptSectionTableDMG::
+  ; Fixed width layout of the script, for the original Game Boy
+  INCLUDE "build/text/section_table_dmg.asm"
 
 MainScriptEngineEnd::
   ASSERT MainScriptEngineEnd <= $2180, "Main script engine overflows into the string helpers"

@@ -17,7 +17,9 @@
 @ 0,0 max 8
 JP: きたむら ルアー
 EN: Kitamura Lure
+DMG: Kitamura
 
 @ 1,0 max 5
 JP: はつはい!
 EN: On sale!
+DMG: Sale!

@@ -86,7 +86,8 @@ class Codec:
             return self.char_width(tok[1])
         if tok[1] == '&':
             if self.fixed:
-                return DEFAULT_RAM_CHARS
+                # Names in RAM are the short Game Boy versions (at most 8 characters)
+                return 6 if self.ram_widths.get(tok[3], DEFAULT_RAM_WIDTH) <= 40 else DEFAULT_RAM_CHARS
             return self.ram_widths.get(tok[3], DEFAULT_RAM_WIDTH)
         return 0
 

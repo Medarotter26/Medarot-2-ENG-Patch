@@ -20,14 +20,17 @@
 @ 1,7 max 6
 JP: メダロット
 EN: Medarot
+DMG: Mdrot
 
 @ 6,0 max 4
 JP: メダル
 EN: Medal
+DMG: Mdl
 
 @ 6,13 max 4
 JP: パーツ
 EN: Parts
+DMG: Part
 
 # --- extra ---
 

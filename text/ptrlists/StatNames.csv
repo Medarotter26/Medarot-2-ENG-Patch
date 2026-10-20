@@ -1,8 +1,8 @@
-Index,Name,Name_EN
-0,そうこう,Armor
-1,すいしん,Thrust
-2,きどう ,Mobility
-3,かくとう,Fighting
-4,しゃげき,Shooting
-5,さくてき,Scan
-6,いんペい,Conceal
+Index,Name,Name_EN,Name_DMG
+0,そうこう,Armor,Armr
+1,すいしん,Thrust,Thr.
+2,きどう ,Mobility,Mob.
+3,かくとう,Fighting,Fgt.
+4,しゃげき,Shooting,Sht.
+5,さくてき,Scan,
+6,いんペい,Conceal,Hide

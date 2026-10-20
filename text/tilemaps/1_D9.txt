@@ -18,7 +18,9 @@
 @ 1,2 max 3
 JP: ふやす
 EN: Copy
+DMG: Cpy
 
 @ 3,2 max 3
 JP: わたす
 EN: Give
+DMG: Giv

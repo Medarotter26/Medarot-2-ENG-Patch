@@ -41,15 +41,19 @@ EN: <$85>
 
 @! 3,1
 EN: Strike
+DMG: Strik
 
 @! 3,11
 EN: Support
+DMG: Suppt
 
 @! 7,1
 EN: Berserk
+DMG: Brsrk
 
 @! 7,11
 EN: Protect
+DMG: Prtct
 
 @! 11,1
 EN: Shoot

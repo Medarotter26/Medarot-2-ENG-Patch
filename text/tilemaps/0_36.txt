@@ -31,6 +31,7 @@ EN: Uses
 @ 5,0 max 5
 JP: せいこう
 EN: Success
+DMG: Succ.
 
 @ 7,0 max 5
 JP: いリょく

@@ -93,6 +93,7 @@ for _name, _l in LIST_MAP.items():
         LIST_IDS[_name] = _next_id
         _next_id += 1
 token_names = {}  # list id -> {index: encoded full name}
+token_names_dmg = {}  # list id -> {index: encoded short name for the original Game Boy}
 
 def encode_field(name, f, raw, row):
     """Builds the bytes of a string field from the csv row."""
@@ -104,6 +105,13 @@ def encode_field(name, f, raw, row):
         return raw
     data = codec.encode_raw(text)
     limit = LIMITS.get((name, label))
+    # Original Game Boy: fixed width font, so the name must fit `limit` characters
+    dmg_text = row.get(label + '_DMG') or ''
+    dmg = codec.encode_raw(dmg_text) if dmg_text else data
+    if limit is not None and len(dmg) > limit:
+        if dmg_text:
+            errors.append(f'{name}[{row["Index"]}] {label}_DMG: "{dmg_text}" is {len(dmg)} chars, limit {limit}')
+        dmg = dmg[:limit]
     if limit is not None and label == 'Name':
         # Names are drawn with the variable width font in a field of `limit` tiles. Some
         # screens have a marker right after the field, so leave a gap of a few pixels.
@@ -113,12 +121,13 @@ def encode_field(name, f, raw, row):
                 errors.append(f'{name}[{row["Index"]}] {label}: "{text}" is too wide even with the narrow font '
                               f'({pixel_width(data, narrow_widths)}px > {limit * 8}px)')
             data = bytes([STR_NARROW]) + data
-    if limit is not None and len(data) > limit:
+    if limit is not None and (len(data) > limit or dmg != data.replace(bytes([STR_NARROW]), b'')):
         if label != 'Name' or len(data) > 22:
             errors.append(f'{name}[{row["Index"]}] {label}: "{text}" is {len(data)} chars, limit {limit}')
         list_id = LIST_IDS[name]
         index = int(row['Index'])
         token_names.setdefault(list_id, {})[index] = data
+        token_names_dmg.setdefault(list_id, {})[index] = dmg
         data = bytes([NAME_TOKEN, list_id, index])
     if length is None:
         return data + bytes([term])
@@ -231,34 +240,39 @@ with open(out_path, 'w') as f:
                 f.write('SECTION "Item Name Address", ROM0[$31AA]\n')
                 f.write(f'  dw ${at:04X}\n\n')
 
-# Name token tables
+# Name token tables: NameTokenLists (Game Boy Color, full names) and NameTokenListsDMG
+# (original Game Boy, short names), 64 entries of (bank, table address) each.
 NAME_BANK_FIRST = reloc_bank + 1
 with open(out_path, 'a') as f:
-    bank, addr = NAME_BANK_FIRST, 0x4000 + 0x20 * 3 * 2
-    lists = [None] * 0x40
+    bank, addr = NAME_BANK_FIRST, 0x4000 + 0x40 * 3 * 2
     chunks = []
-    for list_id in sorted(token_names):
-        names = token_names[list_id]
-        count = max(names) + 1
-        table_size = count * 2
-        size = table_size + sum(len(n) + 1 for n in names.values())
-        if addr + size > 0x8000:
-            bank, addr = bank + 1, 0x4000
-        lists[list_id] = (bank, addr)
-        table = bytearray()
-        blob = bytearray()
-        for i in range(count):
-            p = addr + table_size + len(blob)
-            if i in names:
-                blob += names[i] + bytes([TERM])
-            table += bytes([p & 0xFF, p >> 8]) if i in names else bytes([0, 0])
-        chunks.append((bank, addr, bytes(table + blob)))
-        addr += size
+    headers = []
+    for label, tokens in (('NameTokenLists', token_names), ('NameTokenListsDMG', token_names_dmg)):
+        lists = [None] * 0x40
+        for list_id in sorted(tokens):
+            names = tokens[list_id]
+            count = max(names) + 1
+            table_size = count * 2
+            size = table_size + sum(len(n) + 1 for n in names.values())
+            if addr + size > 0x8000:
+                bank, addr = bank + 1, 0x4000
+            lists[list_id] = (bank, addr)
+            table = bytearray()
+            blob = bytearray()
+            for i in range(count):
+                p = addr + table_size + len(blob)
+                if i in names:
+                    blob += names[i] + bytes([TERM])
+                table += bytes([p & 0xFF, p >> 8]) if i in names else bytes([0, 0])
+            chunks.append((bank, addr, bytes(table + blob)))
+            addr += size
+        headers.append((label, lists))
     f.write(f'SECTION "Name Token Lists", ROMX[$4000], BANK[${NAME_BANK_FIRST:02X}]\n')
-    f.write('NameTokenLists::\n')
-    for entry in lists:
-        b, a = entry if entry else (0, 0)
-        f.write(f'  db ${b:02X}\n  dw ${a:04X}\n')
+    for label, lists in headers:
+        f.write(f'{label}::\n')
+        for entry in lists:
+            b, a = entry if entry else (0, 0)
+            f.write(f'  db ${b:02X}\n  dw ${a:04X}\n')
     for bank, addr, data in chunks:
         f.write(f'SECTION "Name Tokens {bank:02X}:{addr:04X}", ROMX[${addr:04X}], BANK[${bank:02X}]\n')
         for i in range(0, len(data), 16):

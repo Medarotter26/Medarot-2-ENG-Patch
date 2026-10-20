@@ -26,6 +26,7 @@
 # (dakuten drawn in graphics tile above column 3 ($95, becomes $8D when translated))
 JP: メタフォース
 EN: M.Force
+DMG: Force
 
 @ 1,11 max 4
 JP: しょうひ
@@ -34,6 +35,7 @@ EN: Cost
 @ 5,13 max 6
 JP: /せいこうち
 EN: /Success
+DMG: /Succ.
 
 @ 10,11 max 8
 JP: いリょく

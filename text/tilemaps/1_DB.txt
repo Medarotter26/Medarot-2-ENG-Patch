@@ -15,3 +15,4 @@
 @ 1,0 max 5
 JP: せってい
 EN: Options
+DMG: Setup

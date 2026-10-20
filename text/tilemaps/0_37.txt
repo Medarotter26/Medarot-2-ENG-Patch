@@ -27,6 +27,7 @@ EN: Armor
 @ 3,0 max 5
 JP: じゅうてん
 EN: Charge
+DMG: Chrge
 
 @ 5,0 max 5
 JP: ねつリょう
@@ -35,6 +36,7 @@ EN: Heat
 @ 7,0 max 5
 JP: せいこう
 EN: Success
+DMG: Succ.
 
 @ 9,0 max 5
 JP: いリょく

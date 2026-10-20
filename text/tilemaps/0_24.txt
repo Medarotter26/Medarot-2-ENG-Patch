@@ -33,6 +33,7 @@ EN: Parts
 @ 8,2 max 11
 JP: プレイじかん
 EN: Play Time
+DMG: Time
 
 @ 10,2 max 12
 JP: かち/しあいすう

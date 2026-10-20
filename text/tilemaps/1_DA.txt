@@ -15,6 +15,7 @@
 @ 1,0 max 5
 JP: はじめから
 EN: New Game
+DMG: Start
 
 # --- extra ---
 

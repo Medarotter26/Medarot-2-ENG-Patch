@@ -157,6 +157,11 @@ StrCopyResolveN::
   ld a, BANK(NameTokenLists)
   rst $10
   ld hl, NameTokenLists
+  ld a, [W_HardwareType]
+  cp $11
+  jr z, .gotLists
+  ld hl, NameTokenListsDMG ; short names for the fixed width font
+.gotLists
   ld a, c
   add a
   add c
@@ -219,6 +224,9 @@ StringHelpersEnd::
 SECTION "VWF String Renderer", ROMX[$6000], BANK[$80]
 VWFMeasureStringTiles::
   ; W_StrTemp = number of tiles W_StrBuffer takes
+  ld a, [W_HardwareType]
+  cp $11
+  jr nz, .fixedWidth
   ld hl, W_StrBuffer
   ld b, 0
   ld de, VWFWidths
@@ -256,6 +264,27 @@ VWFMeasureStringTiles::
   srl a
 .store
   ld [W_StrTemp], a
+  ret
+
+.fixedWidth
+  ; One tile per character
+  ld hl, W_StrBuffer
+  ld b, 0
+.fixedLoop
+  ld a, [hli]
+  cp STR_TERMINATOR
+  jr z, .fixedDone
+  cp STR_NARROW
+  jr z, .fixedLoop
+  inc b
+  jr .fixedLoop
+.fixedDone
+  ld a, b
+  ld [W_StrTemp], a
+  add a
+  add a
+  add a
+  ld [W_StrTemp + 1], a
   ret
 
 ; W_StrTemp + 1 = width in pixels (only valid when the string isn't empty)
@@ -302,6 +331,9 @@ VWFRenderString::
   jp StrFlushTile
 
 .fixedWidth
+  ; Original Game Boy: one font tile per character. W_StrTemp = tiles used
+  xor a
+  ld [W_StrTemp], a
   ld a, [W_StrDest]
   ld e, a
   ld a, [W_StrDest + 1]
@@ -323,6 +355,10 @@ VWFRenderString::
   ld [de], a
   ei
   inc de
+  push hl
+  ld hl, W_StrTemp
+  inc [hl]
+  pop hl
   jr .fixedLoop
 
 VWFRenderStringRemember::
@@ -361,8 +397,7 @@ VWFRenderStringPadded::
   call VWFRenderString
   ld a, [W_HardwareType]
   cp $11
-  ret nz
-  call StrRemember
+  call z, StrRemember
   ; Blank the cells after the string (W_StrTemp = tiles used)
   ld a, [W_StrDest]
   ld l, a

@@ -25,6 +25,7 @@
 @ 1,3 max 8
 JP: のうリょくち
 EN: Abilities
+DMG: Ability
 
 @ 9,10 max 10
 JP: のこリ

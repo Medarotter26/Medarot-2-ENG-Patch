@@ -1,97 +1,97 @@
-Index,Data,Name,Name_EN
-0,01 14 14 00 1E,たていっせん,Vertical Slash
-1,00 28 28 01 28,よこいっせん,Horizontal Slash
-2,01 3C 28 00 32,からたけわリ,Bamboo Split
-3,03 14 14 02 28,いっせいしゃげき,Volley Fire
-4,02 28 14 03 14,バーサーク,Berserk
-5,02 3C 28 03 28,ラストフォルム,Last Form
-6,02 0A 01 04 14,ベントゥレーザー,Bent Laser
-7,03 1E 02 04 28,オプティレーザー,Opti-Laser
-8,02 32 03 04 3C,レーザービーム,Laser Beam
-9,02 0A 01 05 14,サイロミサイル,Silo Missile
-10,03 1E 02 05 28,グレートパウダー,Great Powder
-11,02 32 03 05 3C,エクスプローダー,Exploder
-12,02 0A 01 06 14,ウェイトボム,Weight Bomb
-13,03 1E 02 06 28,ギガブレイク,Giga Break
-14,02 32 03 06 3C,コングラビティ,Con-Gravity
-15,05 1E 0A 07 28,ダブルトラップ,Double Trap
-16,05 32 14 07 3C,ダブルコンペ,Double Compe
-17,05 46 1E 07 50,トラップセット,Trap Set
-18,00 14 0A 08 28,ミンナーウィルス,Virus Spread
-19,01 28 14 08 3C,フラクトレイズ,Fract Raise
-20,00 3C 1E 08 50,エクスチェンジ,Exchange
-21,00 14 05 09 3C,オールフリーザー,All Freezer
-22,01 28 0A 09 50,オールブリザード,All Blizzard
-23,00 3C 0F 09 64,オールツンドラ,All Tundra
-24,00 14 0A 0A 28,ホールドオンミー,Hold On Me
-25,01 28 14 0A 3C,ホールドオンユー,Hold On You
-26,00 3C 1E 0A 50,ホールドオンワー,Hold On War
-27,00 14 0A 0B 28,ゴーバック,Go Back
-28,01 28 14 0B 3C,メルティアン,Meltian
-29,00 3C 1E 0B 50,コンティニュアル,Continual
-30,06 14 3C 0C 28,パワードレイン,Power Drain
-31,06 28 50 0C 3C,アズミレーション,Assimilation
-32,06 3C 64 0C 50,テイクオーバー,Takeover
-33,07 1E 0A 0D 3C,コンフュージョン,Confusion
-34,07 32 14 0D 50,ダークミスト,Dark Mist
-35,07 46 1E 0D 64,ナイトラスター,Night Luster
-36,05 0A 0A 0E 14,アイアンマックス,Iron Max
-37,05 1E 14 0E 28,シルバーマックス,Silver Max
-38,05 32 1E 0E 3C,フルマックス,Full Max
-39,06 14 02 0F 3C,オールリカバリー,All Recovery
-40,06 28 03 0F 50,キュアデリバリー,Cure Delivery
-41,06 3C 04 0F 64,ディスパッチン,Dispatchin'
-42,06 1E 01 10 50,オールリバイバル,All Revival
-43,06 32 02 10 64,レストアオール,Restore All
-44,06 46 03 10 78,フッカーツ,Resurrection
-45,02 0A 14 11 14,バットゴンバッド,Batgon Bad
-46,03 1E 28 11 28,トップルオーバー,Topple Over
-47,02 32 3C 11 3C,ノックアンダー,Knock Under
-48,00 0A 14 12 14,ヒイルナス,Hiirunas
-49,01 1E 28 12 28,マリンスノー,Marine Snow
-50,00 32 3C 12 3C,アビスハンズ,Abyss Hands
-51,04 0A 14 13 28,ブライトサン,Bright Sun
-52,04 1E 28 13 3C,サッチャーマン,Searcherman
-53,04 32 3C 13 50,ノルノイマン,Nor-Neumann
-54,04 0A 14 14 28,コンシール,Conceal
-55,04 1E 1E 14 3C,カントーク,Coach
-56,04 32 28 14 50,ヨステ,Seclusion
-57,04 1E 0C 15 28,オシボール,Oshibooru
-58,04 1E 0C 15 28,バニーダンス,Bunny Dance
-59,04 32 0C 15 3C,ラインダンス,Line Dance
-60,07 0A 02 16 14,トゥナンバーズ,Two Numbers
-61,07 1E 04 16 28,フォーナンバーズ,Four Numbers
-62,07 32 06 16 3C,プラスカウンター,Plus Counter
-63,00 1E 01 17 50,デモリション,Demolition
-64,01 32 02 17 64,デストラクション,Destruction
-65,00 46 03 17 78,クロムシャッター,Chrome Shutter
-66,07 28 1E 18 3C,エイドリアン,Adrian
-67,07 28 1E 18 3C,レッドフォース,Red Force
-68,07 28 1E 18 3C,ミスナイチン,Miss Nightin
-69,05 1E 00 19 3C,イエーン,Ieen
-70,05 1E 00 19 3C,サバクン,Sabakun
-71,05 1E 00 19 3C,カイチュン,Kaichun
-72,05 14 28 1A 28,プレゼント,Present
-73,05 28 3C 1A 3C,ターゲット,Target
-74,05 3C 50 1A 50,ロックオン,Lock-On
-75,07 14 01 1B 28,ランダムチェンジ,Random Change
-76,07 28 02 1B 3C,モディファイ,Modify
-77,07 3C 03 1B 50,グレイティスト,Greatest
-78,07 0A 0A 1C 28,レベルロスト,Level Lost
-79,07 1E 14 1C 3C,レベルダウン,Level Down
-80,07 32 1E 1C 50,レベルフォール,Level Fall
-81,07 1E 00 1D 50,クエスチョン,Question
-82,07 32 00 1D 64,ノンスクリーン,Non-Screen
-83,07 46 00 1D 78,ブラインドゲーム,Blind Game
-84,05 1E 28 1E 28,ストロンガー,Stronger
-85,05 32 0A 1E 3C,チャンピオン,Champion
-86,05 46 64 1E 50,ジャスティスマン,Justice Man
-87,07 0A 0A 1F 3C,クライモン,Lights Out
-88,07 1E 14 1F 50,ダークバイス,Dark Vice
-89,07 32 1E 1F 64,エビルマン,Evil Man
-90,01 14 01 20 3C,メダクラッシュ,Meda-Crush
-91,01 28 02 20 50,ボルカノイド,Volcanoid
-92,01 3C 03 20 64,ジ・バク,Ji-Baku
-93,04 14 03 21 28,タイムショート,Time Short
-94,04 28 06 21 3C,タイムツイスト,Time Twist
-95,04 3C 0A 21 50,タイムワープ,Time Warp
+Index,Data,Name,Name_EN,Name_DMG
+0,01 14 14 00 1E,たていっせん,Vertical Slash,VertSlsh
+1,00 28 28 01 28,よこいっせん,Horizontal Slash,HorzSlsh
+2,01 3C 28 00 32,からたけわリ,Bamboo Split,Bamboo
+3,03 14 14 02 28,いっせいしゃげき,Volley Fire,Volley
+4,02 28 14 03 14,バーサーク,Berserk,
+5,02 3C 28 03 28,ラストフォルム,Last Form,LastForm
+6,02 0A 01 04 14,ベントゥレーザー,Bent Laser,BentLasr
+7,03 1E 02 04 28,オプティレーザー,Opti-Laser,OptLaser
+8,02 32 03 04 3C,レーザービーム,Laser Beam,LasrBeam
+9,02 0A 01 05 14,サイロミサイル,Silo Missile,SiloMssl
+10,03 1E 02 05 28,グレートパウダー,Great Powder,GrtPowdr
+11,02 32 03 05 3C,エクスプローダー,Exploder,
+12,02 0A 01 06 14,ウェイトボム,Weight Bomb,WghtBomb
+13,03 1E 02 06 28,ギガブレイク,Giga Break,GigaBrk
+14,02 32 03 06 3C,コングラビティ,Con-Gravity,ConGrav
+15,05 1E 0A 07 28,ダブルトラップ,Double Trap,DblTrap
+16,05 32 14 07 3C,ダブルコンペ,Double Compe,DblCompe
+17,05 46 1E 07 50,トラップセット,Trap Set,
+18,00 14 0A 08 28,ミンナーウィルス,Virus Spread,Virus
+19,01 28 14 08 3C,フラクトレイズ,Fract Raise,FractRse
+20,00 3C 1E 08 50,エクスチェンジ,Exchange,
+21,00 14 05 09 3C,オールフリーザー,All Freezer,AllFreez
+22,01 28 0A 09 50,オールブリザード,All Blizzard,AllBlizz
+23,00 3C 0F 09 64,オールツンドラ,All Tundra,AllTundr
+24,00 14 0A 0A 28,ホールドオンミー,Hold On Me,HoldMe
+25,01 28 14 0A 3C,ホールドオンユー,Hold On You,HoldYou
+26,00 3C 1E 0A 50,ホールドオンワー,Hold On War,HoldWar
+27,00 14 0A 0B 28,ゴーバック,Go Back,
+28,01 28 14 0B 3C,メルティアン,Meltian,
+29,00 3C 1E 0B 50,コンティニュアル,Continual,Contnual
+30,06 14 3C 0C 28,パワードレイン,Power Drain,PwrDrain
+31,06 28 50 0C 3C,アズミレーション,Assimilation,Assimil
+32,06 3C 64 0C 50,テイクオーバー,Takeover,
+33,07 1E 0A 0D 3C,コンフュージョン,Confusion,Confuse
+34,07 32 14 0D 50,ダークミスト,Dark Mist,DarkMist
+35,07 46 1E 0D 64,ナイトラスター,Night Luster,NgtLustr
+36,05 0A 0A 0E 14,アイアンマックス,Iron Max,
+37,05 1E 14 0E 28,シルバーマックス,Silver Max,SilvrMax
+38,05 32 1E 0E 3C,フルマックス,Full Max,
+39,06 14 02 0F 3C,オールリカバリー,All Recovery,AllRecov
+40,06 28 03 0F 50,キュアデリバリー,Cure Delivery,CureDelv
+41,06 3C 04 0F 64,ディスパッチン,Dispatchin',Dispatch
+42,06 1E 01 10 50,オールリバイバル,All Revival,AllReviv
+43,06 32 02 10 64,レストアオール,Restore All,RestrAll
+44,06 46 03 10 78,フッカーツ,Resurrection,Resurrct
+45,02 0A 14 11 14,バットゴンバッド,Batgon Bad,BatgnBad
+46,03 1E 28 11 28,トップルオーバー,Topple Over,Topple
+47,02 32 3C 11 3C,ノックアンダー,Knock Under,KnockUnd
+48,00 0A 14 12 14,ヒイルナス,Hiirunas,
+49,01 1E 28 12 28,マリンスノー,Marine Snow,MrnSnow
+50,00 32 3C 12 3C,アビスハンズ,Abyss Hands,AbyssHnd
+51,04 0A 14 13 28,ブライトサン,Bright Sun,BrghtSun
+52,04 1E 28 13 3C,サッチャーマン,Searcherman,SrchrMan
+53,04 32 3C 13 50,ノルノイマン,Nor-Neumann,Neumann
+54,04 0A 14 14 28,コンシール,Conceal,
+55,04 1E 1E 14 3C,カントーク,Coach,
+56,04 32 28 14 50,ヨステ,Seclusion,Seclude
+57,04 1E 0C 15 28,オシボール,Oshibooru,Oshiboru
+58,04 1E 0C 15 28,バニーダンス,Bunny Dance,BnyDance
+59,04 32 0C 15 3C,ラインダンス,Line Dance,LineDanc
+60,07 0A 02 16 14,トゥナンバーズ,Two Numbers,2Numbers
+61,07 1E 04 16 28,フォーナンバーズ,Four Numbers,4Numbers
+62,07 32 06 16 3C,プラスカウンター,Plus Counter,PlusCntr
+63,00 1E 01 17 50,デモリション,Demolition,Demolish
+64,01 32 02 17 64,デストラクション,Destruction,Destroy
+65,00 46 03 17 78,クロムシャッター,Chrome Shutter,ChrmShtr
+66,07 28 1E 18 3C,エイドリアン,Adrian,
+67,07 28 1E 18 3C,レッドフォース,Red Force,RedForce
+68,07 28 1E 18 3C,ミスナイチン,Miss Nightin,MsNightn
+69,05 1E 00 19 3C,イエーン,Ieen,
+70,05 1E 00 19 3C,サバクン,Sabakun,
+71,05 1E 00 19 3C,カイチュン,Kaichun,
+72,05 14 28 1A 28,プレゼント,Present,
+73,05 28 3C 1A 3C,ターゲット,Target,
+74,05 3C 50 1A 50,ロックオン,Lock-On,
+75,07 14 01 1B 28,ランダムチェンジ,Random Change,RandChng
+76,07 28 02 1B 3C,モディファイ,Modify,
+77,07 3C 03 1B 50,グレイティスト,Greatest,
+78,07 0A 0A 1C 28,レベルロスト,Level Lost,LvlLost
+79,07 1E 14 1C 3C,レベルダウン,Level Down,LvlDown
+80,07 32 1E 1C 50,レベルフォール,Level Fall,LvlFall
+81,07 1E 00 1D 50,クエスチョン,Question,
+82,07 32 00 1D 64,ノンスクリーン,Non-Screen,NoScreen
+83,07 46 00 1D 78,ブラインドゲーム,Blind Game,BlndGame
+84,05 1E 28 1E 28,ストロンガー,Stronger,
+85,05 32 0A 1E 3C,チャンピオン,Champion,
+86,05 46 64 1E 50,ジャスティスマン,Justice Man,JustcMan
+87,07 0A 0A 1F 3C,クライモン,Lights Out,LghtsOut
+88,07 1E 14 1F 50,ダークバイス,Dark Vice,DarkVice
+89,07 32 1E 1F 64,エビルマン,Evil Man,
+90,01 14 01 20 3C,メダクラッシュ,Meda-Crush,MedaCrsh
+91,01 28 02 20 50,ボルカノイド,Volcanoid,Volcano
+92,01 3C 03 20 64,ジ・バク,Ji-Baku,
+93,04 14 03 21 28,タイムショート,Time Short,TimeShrt
+94,04 28 06 21 3C,タイムツイスト,Time Twist,TimeTwst
+95,04 3C 0A 21 50,タイムワープ,Time Warp,TimeWarp

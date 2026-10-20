@@ -29,3 +29,4 @@ EN: Long
 @ 5,14 max 4
 JP: みじかい
 EN: Short
+DMG: Shrt

@@ -1,24 +1,24 @@
-Index,Name,Name_EN
-0,みせがめん,Shop Screen
-1,メダロットこうざ,Meda Course
-2,こまキャラチェック,Sprite Chk
-3,ぜんしんえチェック,FullBodyChk
-4,アイテムゲット,Get Items
-5,アイテムがめん,Item Screen
-6,パーツゲット,Get Parts
-7,パーツがめん,Parts Scrn
-8,メダロットゲット,Get Medarot
-9,メダロットくみたて,Assemble
-10,メダルゲット,Get Medals
-11,てきそうぐう,Encounter
-12,しゅうかんメダロット,Weekly Meda
-13,ペイントショップ,Paint Shop
-14,あたリFきリかえ,HitF Toggle
-15,レースメダせんたく,Race Select
-16,いちまいえチェック,Pic Check
-17,かおえチェック,Face Check
-18,いちまいえがめん,Pic Screen
-19,せってい,Settings
-20,メっセージチェック,Msg Check
-21,ミニゲーム2,Minigame 2
-22,スタッフロール,Staff Roll
+Index,Name,Name_EN,Name_DMG
+0,みせがめん,Shop Screen,
+1,メダロットこうざ,Meda Course,
+2,こまキャラチェック,Sprite Chk,
+3,ぜんしんえチェック,FullBodyChk,
+4,アイテムゲット,Get Items,
+5,アイテムがめん,Item Screen,
+6,パーツゲット,Get Parts,
+7,パーツがめん,Parts Scrn,
+8,メダロットゲット,Get Medarot,
+9,メダロットくみたて,Assemble,
+10,メダルゲット,Get Medals,
+11,てきそうぐう,Encounter,
+12,しゅうかんメダロット,Weekly Meda,
+13,ペイントショップ,Paint Shop,
+14,あたリFきリかえ,HitF Toggle,
+15,レースメダせんたく,Race Select,
+16,いちまいえチェック,Pic Check,
+17,かおえチェック,Face Check,
+18,いちまいえがめん,Pic Screen,
+19,せってい,Settings,
+20,メっセージチェック,Msg Check,
+21,ミニゲーム2,Minigame 2,
+22,スタッフロール,Staff Roll,

@@ -1,12 +1,12 @@
-Index,Name,Name_EN
-0,あれち,Wasteland
-1,さばく,Desert
-2,いわば,Rocky Area
-3,たにま,Valley
-4,そうげん,Grassland
-5,もリのなか,Forest
-6,まちなか,Street
-7,しつない,Indoors
-8,かいがん,Beach
-9,すいちゅう,Underwater
-10,サイバー,Cyber
+Index,Name,Name_EN,Name_DMG
+0,あれち,Wasteland,Wastes
+1,さばく,Desert,
+2,いわば,Rocky Area,Rocky
+3,たにま,Valley,
+4,そうげん,Grassland,Grass
+5,もリのなか,Forest,
+6,まちなか,Street,
+7,しつない,Indoors,Indoor
+8,かいがん,Beach,
+9,すいちゅう,Underwater,Water
+10,サイバー,Cyber,

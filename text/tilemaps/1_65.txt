@@ -11,3 +11,4 @@ EN: <$CA><$CA><$CA><$CA><$CA>
 
 @! 1,0
 EN: Right Arm
+DMG: R.Arm

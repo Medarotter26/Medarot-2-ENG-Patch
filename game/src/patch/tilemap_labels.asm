@@ -133,17 +133,27 @@ TilemapDrawLabels:
   ld b, a
   ld c, l
   pop hl
+  ld a, [W_HardwareType]
+  cp $11
+  call nz, .skip ; original Game Boy: use the second (fixed width) string
   push hl
   push bc
   call PutString
   pop bc
   pop hl
-  ; Skip the string
+  ; Skip the string(s)
+  call .skip
+  ld a, [W_HardwareType]
+  cp $11
+  call z, .skip ; skip the fixed width string too
+  jr .loop
+
 .skip
+  ; Skips a string at hl, preserving bc
   ld a, [hli]
   cp STR_TERMINATOR
   jr nz, .skip
-  jr .loop
+  ret
 
 .done
   ld a, [W_TmSavedBank]

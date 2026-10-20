@@ -21,11 +21,14 @@
 @ 0,3 max 6
 JP: キャラクター
 EN: Characters
+DMG: Chars
 
 @ 3,0 max 3
 JP: せいし
 EN: Still
+DMG: Stl
 
 @ 7,0 max 3
 JP: アニメ
 EN: Anim
+DMG: Anm

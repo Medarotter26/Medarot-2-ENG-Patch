@@ -33,6 +33,7 @@
 # (dakuten drawn in graphics tile above column 3 ($C3, becomes $BB when translated))
 JP: メタルせんたく
 EN: Pick Medal
+DMG: Medal
 
 @ 11,13 max 6
 # (dakuten drawn in graphics tile above column 14 ($C3, becomes $BB when translated))

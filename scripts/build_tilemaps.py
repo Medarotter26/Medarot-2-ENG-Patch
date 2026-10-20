@@ -35,6 +35,7 @@ class Entry:
         self.col = col
         self.jp = None
         self.en = None
+        self.dmg = None  # short text for the original Game Boy (fixed width font)
 
 
 def parse_file(path):
@@ -56,6 +57,12 @@ def parse_file(path):
             if line.startswith('JP:') and entries:
                 entries[-1].jp = line[3:].strip()
                 continue
+            if line.startswith('DMG:') and entries:
+                text = line[4:]
+                if text.startswith(' '):
+                    text = text[1:]
+                entries[-1].dmg = text.rstrip()
+                continue
             if line.startswith('EN:') and entries:
                 text = line[3:]
                 if text.startswith(' '):
@@ -73,6 +80,7 @@ def parse_file(path):
 FIXED_WIDTH_MAPS = {(1, 0x53), (1, 0x54)}
 
 FONT_WIDTHS = None
+DMG_MISSING = []
 
 NARROW_WIDTHS = None
 STR_NARROW = 0xC9
@@ -145,7 +153,23 @@ def apply_entries(path, tmap, entries, jp, codec, vwf=False, labels=None):
                 narrow = bytes([STR_NARROW]) + data
                 if label_px(narrow) <= room:
                     data = narrow
-            labels.append((e.row, e.col, data))
+            # Original Game Boy: the fixed width font, one tile per character, in the cells
+            # the label owns (the original text run, or the tiles the label covers)
+            # Text placed outside the original runs (@! or new entries) is the author's call
+            avail = max(run.limit - e.col, label_tiles(data)) if run is not None and e.col >= run.col \
+                else 99
+            dmg = bytes(tiles)
+            if e.dmg:
+                try:
+                    dmg = bytes(t[1] for t in codec.tokenize(e.dmg) if t[0] == 'char')
+                except ValueError as err:
+                    raise SystemExit(f'{path}:{e.line}: {err}')
+                if len(dmg) > avail:
+                    raise SystemExit(f'{path}:{e.line}: DMG text {e.dmg!r} is longer than {avail} tiles')
+            elif len(dmg) > avail:
+                DMG_MISSING.append(f'{path}:{e.line}: {e.en!r} needs a DMG: line (max {avail})')
+                dmg = dmg[:avail]
+            labels.append((e.row, e.col, data, dmg))
             tiles = [0x00] * label_tiles(data)
         for i, tile in enumerate(tiles):
             x, y = e.col + i, e.row
@@ -281,8 +305,8 @@ def main():
     addr = 0x4000 + T.NUM_TABLES * 256 * 2
     for key in sorted(all_labels):
         data = bytearray()
-        for row, col, text in all_labels[key]:
-            data += bytes([row, col]) + text + b'\xC0'
+        for row, col, text, dmg in all_labels[key]:
+            data += bytes([row, col]) + text + b'\xC0' + dmg + b'\xC0'
         data += b'\xFF'
         lists[key] = addr
         blob.append(data)
@@ -297,6 +321,8 @@ def main():
     os.makedirs(os.path.dirname(out_path) or '.', exist_ok=True)
     with open(out_path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(out))
+    for m in DMG_MISSING:
+        print('warning:', m, file=sys.stderr)
     n = sum(len(c) for c in changes.values())
     print(f'Tilemaps: {n} translated' + ''.join(f', table {t}: {len(changes[t])}' for t in changes if changes[t]))
 
