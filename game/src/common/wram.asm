@@ -45,6 +45,8 @@ DEF W_StrBuffer              EQU $DDAC ; 24 bytes, string with name tokens expan
 DEF W_StrBufferEnd           EQU $DDC4
 DEF W_TextRAMBuffer          EQU $DDC4 ; 24 bytes, RAM string being drawn by the main script
 DEF W_TextRAMBufferEnd       EQU $DDDC
+DEF W_StrTileUsed            EQU $DDDC ; 24 bytes, bitmap of the bank 1 string tiles on screen
+DEF W_StrTileUsedEnd         EQU $DDF4
 
 DEF W_HardwareType           EQU $C3E6 ; $11 on CGB
 DEF W_LCDCShadow             EQU $C3C9

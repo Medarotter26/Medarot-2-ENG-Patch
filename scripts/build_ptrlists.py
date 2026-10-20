@@ -74,7 +74,8 @@ def parse_record(name, pos):
     return fields, pos
 
 # Pixel width above which a name uses the narrow font (default: the whole field)
-NARROW_THRESHOLD = {'PartsHead': 58, 'PartsRArm': 58, 'PartsLArm': 58, 'PartsLegs': 58}
+NARROW_THRESHOLD = {'PartsHead': 58, 'PartsRArm': 58, 'PartsLArm': 58, 'PartsLegs': 58,
+                    'Items': 54}  # the item screen's × column follows 7 tiles
 
 NAME_TOKEN = 0xC8
 STR_NARROW = 0xC9

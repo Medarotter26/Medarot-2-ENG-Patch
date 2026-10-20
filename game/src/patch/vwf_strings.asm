@@ -185,12 +185,13 @@ StrCopyResolveN::
   ld a, c
   rst $10
   pop af
-  add a
-  add l
-  ld l, a
-  jr nc, .noCarry2
-  inc h
-.noCarry2
+  ; hl += index * 2 (indices go up to 255)
+  push de
+  ld e, a
+  ld d, 0
+  add hl, de
+  add hl, de
+  pop de
   ld a, [hli]
   ld h, [hl]
   ld l, a
@@ -611,19 +612,12 @@ StrFlushTile:
   jr nz, .gotTile ; tile 0 is never used, it stays blank
 
 .allocate
-  ld a, [W_StrNextTile]
-  or a
-  jr nz, .allocated
-  call StrClearTileZero
-  ld a, 1
-.allocated
+  push hl
+  push bc
+  call StrAllocTile
+  pop bc
   ld c, a
-  inc a
-  cp STR_RING_LAST + 1
-  jr c, .storeNext
-  ld a, 1
-.storeNext
-  ld [W_StrNextTile], a
+  pop hl
   ; Map the tile and switch the cell to bank 1
   di
 .waitMap
@@ -683,6 +677,120 @@ StrFlushTile:
   ei
   dec b
   jr nz, .writeLoop
+  ret
+
+SECTION "VWF Tile Allocator", ROMX[$5000], BANK[$80]
+StrAllocTile:
+  ; Returns a = a free bank 1 tile ($01-STR_RING_LAST) for a string cell.
+  ; Tiles are handed out in a ring. A bitmap of the tiles the tilemaps show keeps the ring
+  ; from reusing tiles still on screen; it is rebuilt whenever the ring wraps.
+  ld a, [W_StrNextTile]
+  or a
+  jr nz, .search
+  call StrClearTileZero
+  call StrScanTiles
+  ld a, 1
+  ld [W_StrNextTile], a
+.search
+  ld b, STR_RING_LAST ; tries
+.try
+  ld a, [W_StrNextTile]
+  ld c, a
+  inc a
+  cp STR_RING_LAST + 1
+  jr c, .noWrap
+  push bc
+  call StrScanTiles
+  pop bc
+  ld a, 1
+.noWrap
+  ld [W_StrNextTile], a
+  ld a, c
+  call StrTileBit
+  and [hl]
+  jr z, .free
+  dec b
+  jr nz, .try
+  ; Everything is in use: take the tile anyway
+.free
+  ld a, c
+  call StrTileBit
+  or [hl]
+  ld [hl], a
+  ld a, c
+  ret
+
+StrTileBit:
+  ; a = tile. Returns hl = byte of W_StrTileUsed, a = mask. Preserves bc, de
+  push bc
+  ld c, a
+  srl a
+  srl a
+  srl a
+  ld hl, W_StrTileUsed
+  add l
+  ld l, a
+  jr nc, .noCarry
+  inc h
+.noCarry
+  ld a, c
+  and 7
+  ld b, a
+  ld a, 1
+  jr z, .done
+.shift
+  add a
+  dec b
+  jr nz, .shift
+.done
+  pop bc
+  ret
+
+StrScanTiles:
+  ; Rebuilds W_StrTileUsed from both tilemaps (cells with the bank 1 attribute)
+  ld hl, W_StrTileUsed
+  ld b, W_StrTileUsedEnd - W_StrTileUsed
+  xor a
+.clear
+  ld [hli], a
+  dec b
+  jr nz, .clear
+  ld hl, $9800
+.cell
+  di
+  ld a, 1
+  ldh [rVBK_], a
+.waitAttr
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .waitAttr
+  ld a, [hl]
+  ld b, a
+  xor a
+  ldh [rVBK_], a
+  bit 3, b
+  jr z, .next
+.waitTile
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .waitTile
+  ld a, [hl]
+  ei
+  or a
+  jr z, .next
+  cp STR_RING_LAST + 1
+  jr nc, .next
+  push hl
+  call StrTileBit
+  or [hl]
+  ld [hl], a
+  pop hl
+.next
+  ei
+  inc hl
+  ld a, h
+  cp $A0
+  jr nz, .cell
   ret
 
 SECTION "VWF Narrow Font", ROMX[$6400], BANK[$80]
