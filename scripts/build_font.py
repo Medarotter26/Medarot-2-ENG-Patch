@@ -150,6 +150,29 @@ def m1_glyph(idx):
                 b |= 0x80 >> x
         rows.append(b)
     return rows
+def shaded(rows):
+    # 8 strings of '.' (white), ':' (light grey), '+' (dark grey), '#' (black) -> (lo, hi) rows
+    out = []
+    for row in rows:
+        lo = hi = 0
+        for x, ch in enumerate(row):
+            c = '.:+#'.index(ch)
+            lo |= (c & 1) << (7 - x)
+            hi |= (c >> 1) << (7 - x)
+        out.append((lo, hi))
+    return out
+
+# Shaded symbols, like the original font
+SHADED = {
+    # ♥ (female parts): the original glyph
+    0x6F: shaded(['........', '..##.##.', '.#..#::#', '.#.::::#',
+                  '.#:::::#', '..#:::#.', '...#:#..', '....#...']),
+    # ◆ marker after names in status screens: 7 pixels wide with a blank left column, so names
+    # that fill their field don't touch it
+    0x73: shaded(['....#...', '...#:#..', '..#:::#.', '.#::::+#',
+                  '..#::+#.', '...#+#..', '....#...', '........']),
+}
+
 with open(out_fixed, 'wb') as f:
     for code in range(0x80):
         ch = charmap.get(code)
@@ -157,13 +180,11 @@ with open(out_fixed, 'wb') as f:
             ch = '"'
         if ch in M1_ORDER:
             g = m1_glyph(M1_ORDER.index(ch))
-        elif code == 0x73:
-            # ◆ marker after names in status screens: 7 pixels wide with a blank left column,
-            # so names that fill their field don't touch it
-            g = [0x08, 0x1C, 0x3E, 0x7F, 0x7F, 0x3E, 0x1C, 0x08]
+        elif code in SHADED:
+            g = SHADED[code]
         else:
             g = font[code]
             if code in charmap and widths[code] <= 6:
                 g = [r >> 1 for r in g]
         for r in g:
-            f.write(bytes([r, r]))
+            f.write(bytes(r) if isinstance(r, tuple) else bytes([r, r]))

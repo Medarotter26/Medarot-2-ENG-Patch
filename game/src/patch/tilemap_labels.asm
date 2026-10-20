@@ -161,6 +161,11 @@ TilemapDrawLabels:
   rst $10
   ret
 
+TilemapLabelHooksEnd::
+  ASSERT TilemapLabelHooksEnd <= $4000, "Tilemap label hooks overflow bank 0"
+
+
+SECTION "Short Names Check", ROM0[$2110]
 StrNeedsShortNames::
   ; Returns nz when strings must use the fixed width font (and the short names): on the
   ; original Game Boy, screens whose background uses tiles $8000-$8FFF can't show the
@@ -170,46 +175,85 @@ StrNeedsShortNames::
   jr z, .vwf
   ld a, [W_StrForceFixed]
   or a
-  ret nz
+  jr z, .lcdc
+  cp 2
+  ret nz ; 1: staff roll
+  ; 2: a name entry keyboard was shown; is it still there?
+  push hl
+  ld hl, W_KeyboardAddr
+  ld a, [hli]
+  ld h, [hl]
+  ld l, a
+  di
+.wait
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .wait
+  ld a, [hl]
+  ei
+  pop hl
+  push hl
+  ld hl, W_KeyboardTile
+  cp [hl]
+  pop hl
+  jr z, .fixed
+  xor a
+  ld [W_StrForceFixed], a
+.lcdc
   ld a, [W_LCDCShadow]
   and $10
+  ret
+.fixed
+  or 1
   ret
 .vwf
   xor a
   ret
 
-TilemapLabelHooksEnd::
-  ASSERT TilemapLabelHooksEnd <= $4000, "Tilemap label hooks overflow bank 0"
-
+StrNeedsShortNamesEnd::
+  ASSERT StrNeedsShortNamesEnd <= $2180, "Short names check overflows into the string helpers"
 
 SECTION "Tilemap Keyboard Check", ROMX[$6E00], BANK[$80]
 TilemapKeyboardCheck:
   ; Original Game Boy: the name entry keyboards show the font tiles themselves (the game reads
   ; the character back from the tilemap), so while one is shown the font tiles are restored and
-  ; strings use the fixed width font. A map loaded at the top left corner ends that.
+  ; strings use the fixed width font (see StrNeedsShortNames).
   ld a, [W_HardwareType]
   cp $11
   ret z
   ld a, [W_TmTable]
   cp 1
-  jr nz, .notKeyboard
+  ret nz
   ld a, [W_TmIndex]
+  ld b, $01 ; A
   cp $53
   jr z, .keyboard
+  ld b, $1B ; a
   cp $54
-  jr z, .keyboard
-.notKeyboard
-  ld a, [W_TmX]
-  ld b, a
-  ld a, [W_TmY]
-  or b
   ret nz
-  xor a
-  ld [W_StrForceFixed], a
-  ret
-
 .keyboard
-  ld a, 1
+  ld a, b
+  ld [W_KeyboardTile], a
+  ; Address of the keyboard's top left cell (its first character)
+  ld a, [W_TmY]
+  ld l, a
+  ld h, 0
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  ld a, [W_TmX]
+  add l
+  ld l, a
+  ld a, [W_TmBase]
+  add h
+  ld h, a
+  ld a, l
+  ld [W_KeyboardAddr], a
+  ld a, h
+  ld [W_KeyboardAddr + 1], a
+  ld a, 2
   ld [W_StrForceFixed], a
   jp StrRestoreFont
 

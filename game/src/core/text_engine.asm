@@ -680,4 +680,4 @@ MainScriptSectionTable::
   INCLUDE "build/text/section_table.asm"
 
 MainScriptEngineEnd::
-  ASSERT MainScriptEngineEnd <= $2180, "Main script engine overflows into the string helpers"
+  ASSERT MainScriptEngineEnd <= $2110, "Main script engine overflows into the string helpers"

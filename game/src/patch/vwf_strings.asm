@@ -303,6 +303,9 @@ VWFRenderString::
   ld [W_StrMode], a
   call StrNeedsShortNames
   jp nz, .fixedWidth
+  ld a, [W_HardwareType]
+  cp $11
+  call nz, StrScanVisible ; the screen may have been redrawn from a copy of its tilemap
 
   xor a
   ld [W_StrX], a
@@ -646,20 +649,8 @@ StrFlushTile:
 
 .dmgCell
   ; Original Game Boy: string tiles are font tiles $01-DMG_STR_LAST (the variable width
-  ; font replaces the font everywhere). A cell that already shows one keeps it.
-  di
-.waitDmgTile
-  ldh a, [rSTAT]
-  and 2
-  jr nz, .waitDmgTile
-  ld c, [hl]
-  ei
-  ld a, c
-  or a
-  jr z, .dmgAllocate
-  cp DMG_STR_LAST + 1
-  jr c, .gotTile
-.dmgAllocate
+  ; font replaces the font everywhere). Every cell gets a fresh tile: screens restored from
+  ; a copy of their tilemap can show tile numbers that another string now uses.
   push hl
   call StrAllocTile
   pop hl
@@ -831,8 +822,126 @@ StrTileBit:
   pop bc
   ret
 
+StrScanVisible:
+  ; Original Game Boy: rebuilds W_StrTileUsed from the tilemap cells currently on screen
+  ; (background at the scroll position, and the window)
+  ld hl, W_StrTileUsed
+  ld b, W_StrTileUsedEnd - W_StrTileUsed
+  xor a
+.clear
+  ld [hli], a
+  dec b
+  jr nz, .clear
+  ldh a, [rLCDC]
+  ld d, $98
+  bit 3, a
+  jr z, .bgMap
+  ld d, $9C
+.bgMap
+  ldh a, [rSCY]
+  srl a
+  srl a
+  srl a
+  ld b, a
+  ldh a, [rSCX]
+  srl a
+  srl a
+  srl a
+  ld c, a
+  ld a, 19
+  ld [W_ScanRows], a
+  ld a, 21
+  ld [W_ScanCols], a
+  call StrScanRect
+  ldh a, [rLCDC]
+  bit 5, a
+  ret z
+  ld d, $98
+  bit 6, a
+  jr z, .winMap
+  ld d, $9C
+.winMap
+  ldh a, [rWY]
+  cp 144
+  ret nc
+  ld b, a
+  ld a, 144 + 7
+  sub b
+  srl a
+  srl a
+  srl a
+  ld [W_ScanRows], a
+  ldh a, [rWX]
+  cp 167
+  ret nc
+  ld b, a
+  ld a, 167 + 7
+  sub b
+  srl a
+  srl a
+  srl a
+  ld [W_ScanCols], a
+  ld bc, 0
+  ; Fall through
+
+StrScanRect:
+  ; d = tilemap high byte, b = first row, c = first column, size W_ScanRows x W_ScanCols
+  ld a, c
+  ld [W_ScanCol0], a
+.row
+  ld a, [W_ScanCol0]
+  ld c, a
+  ld a, [W_ScanCols]
+  ld e, a
+.col
+  ld a, b
+  and 31
+  ld l, a
+  ld h, 0
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  ld a, c
+  and 31
+  add l
+  ld l, a
+  ld a, h
+  add d
+  ld h, a
+  di
+.wait
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .wait
+  ld a, [hl]
+  ei
+  or a
+  jr z, .next
+  cp DMG_STR_LAST + 1
+  jr nc, .next
+  push hl
+  call StrTileBit
+  or [hl]
+  ld [hl], a
+  pop hl
+.next
+  inc c
+  dec e
+  jr nz, .col
+  inc b
+  ld a, [W_ScanRows]
+  dec a
+  ld [W_ScanRows], a
+  jr nz, .row
+  ret
+
 StrScanTiles:
   ; Rebuilds W_StrTileUsed from both tilemaps (cells with the bank 1 attribute)
+  ld a, [W_HardwareType]
+  cp $11
+  jp nz, StrScanVisible
   ld hl, W_StrTileUsed
   ld b, W_StrTileUsedEnd - W_StrTileUsed
   xor a

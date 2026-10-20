@@ -14,4 +14,5 @@
 
 @ 1,0 max 8
 JP: みぎうでパーツ
-EN: R. Arm
+EN: Right Arm
+DMG: R. Arm
