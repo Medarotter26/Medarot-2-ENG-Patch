@@ -231,3 +231,51 @@ BattleNameTiles::
 
 HackHelpers2End::
   ASSERT HackHelpers2End <= $2371, "Hack helpers 2 overflow into $2371"
+
+; Default name "イマジニア" written to $C462: "Imagineer", copied from a string
+SECTION "Default Imagineer Name", ROMX[$4A66], BANK[$04]
+DefaultImagineerName:
+  push de
+  ld de, ImagineerName
+  ld b, ImagineerNameEnd - ImagineerName
+.loop
+  ld a, [de]
+  inc de
+  ld [hli], a
+  dec b
+  jr nz, .loop
+  pop de
+  REPT 7
+    nop
+  ENDR
+DefaultImagineerNameEnd:
+  ASSERT DefaultImagineerNameEnd == $4A7A, "Default Imagineer name code changed size"
+
+SECTION "Imagineer Name", ROMX[$7E00], BANK[$04]
+ImagineerName:
+  db $09, $27, $1B, $21, $23, $28, $1F, $1F, $2C ; Imagineer
+ImagineerNameEnd:
+
+; Staff roll: the lines were placed for the Japanese text, center them on the row instead
+SECTION "Staff Roll Print", ROMX[$52C0], BANK[$04]
+  call CreditsPutCentered
+
+SECTION "Staff Roll Centering", ROMX[$7E10], BANK[$04]
+CreditsPutCentered:
+  ; hl = string, bc = tilemap address
+  ld a, c
+  and $E0
+  ld c, a
+  ld a, 20
+  call GetCenteringOffset
+  add c
+  ld c, a
+  jp PutString
+
+; Staff roll: clear whole rows (20 tiles from column 0) for the wider English lines
+SECTION "Staff Roll Clear Start", ROMX[$527D], BANK[$04]
+  db $00 ; ld hl, $9800
+SECTION "Staff Roll Clear Width 1", ROMX[$5282], BANK[$04]
+  db 20
+SECTION "Staff Roll Clear Width 2", ROMX[$5296], BANK[$04]
+  db 20

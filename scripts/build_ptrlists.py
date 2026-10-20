@@ -29,7 +29,10 @@ LIMITS = {
     ('SkillsFixed', 'Name'): 7, ('PartTypes04', 'Name'): 5, ('StatNames', 'Name'): 4, ('DebugMenu', 'Name'): 11,
     ('PartTypes05', 'Name'): 7, ('PartTypes0E', 'Name'): 7, ('PartTypes0F', 'Name'): 7, ('PartTypes11', 'Name'): 7,
     ('PartTypes13', 'Name'): 7, ('PartTypes16', 'Name'): 7, ('PartTypes1B', 'Name'): 7,
+    # Not a field limit: the staff roll doesn't fit its bank, so its lines are stored as tokens
+    ('Credits', 'Text'): 3,
 }
+TOKEN_ONLY = {('Credits', 'Text')}
 
 rom_path, list_dir, out_path, reloc_bank = sys.argv[1:5]
 reloc_bank = int(reloc_bank, 0)
@@ -108,7 +111,7 @@ def encode_field(name, f, raw, row):
     # Original Game Boy: fixed width font, so the name must fit `limit` characters
     dmg_text = row.get(label + '_DMG') or ''
     dmg = codec.encode_raw(dmg_text) if dmg_text else data
-    if limit is not None and len(dmg) > limit:
+    if limit is not None and len(dmg) > limit and (name, label) not in TOKEN_ONLY:
         if dmg_text:
             errors.append(f'{name}[{row["Index"]}] {label}_DMG: "{dmg_text}" is {len(dmg)} chars, limit {limit}')
         dmg = dmg[:limit]
@@ -122,7 +125,7 @@ def encode_field(name, f, raw, row):
                               f'({pixel_width(data, narrow_widths)}px > {limit * 8}px)')
             data = bytes([STR_NARROW]) + data
     if limit is not None and (len(data) > limit or dmg != data.replace(bytes([STR_NARROW]), b'')):
-        if label != 'Name' or len(data) > 22:
+        if (label != 'Name' and (name, label) not in TOKEN_ONLY) or len(data) > 22:
             errors.append(f'{name}[{row["Index"]}] {label}: "{text}" is {len(data)} chars, limit {limit}')
         list_id = LIST_IDS[name]
         index = int(row['Index'])

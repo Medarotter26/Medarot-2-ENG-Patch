@@ -19,15 +19,19 @@ DEF rVBK_ EQU $FF4F
 SECTION "PutString", ROM0[$30A3]
 PutString::
   ; hl = string, bc = tilemap address
+  ; Returns hl = the string's terminator, like the original
   push de
   ld a, c
   ld [W_StrDest], a
   ld a, b
   ld [W_StrDest + 1], a
   call StrCopyResolve
+  dec hl
+  push hl
   ld a, BANK(VWFRenderStringRemember)
   ld hl, VWFRenderStringRemember
   call StrFarCall
+  pop hl
   pop de
   ret
 
@@ -42,9 +46,12 @@ PutStringPadded::
   ld a, e
   ld [W_StrCenterWidth], a
   call StrCopyResolve
+  dec hl
+  push hl
   ld a, BANK(VWFRenderStringPadded)
   ld hl, VWFRenderStringPadded
   call StrFarCall
+  pop hl
   pop de
   ret
 
