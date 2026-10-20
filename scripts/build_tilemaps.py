@@ -68,7 +68,19 @@ def parse_file(path):
     return key, entries
 
 
-def apply_entries(path, tmap, entries, jp, codec):
+# Maps whose text must stay in the fixed width font (the name entry keyboards: the typed
+# character is read back from the tilemap)
+FIXED_WIDTH_MAPS = {(1, 0x53), (1, 0x54)}
+
+FONT_WIDTHS = None
+
+def label_tiles(data):
+    """Number of tiles a string takes with the variable width font."""
+    px = sum(FONT_WIDTHS[b] + 1 for b in data) - 1 if data else 0
+    return (px + 7) // 8
+
+
+def apply_entries(path, tmap, entries, jp, codec, vwf=False, labels=None):
     runs = T.find_runs(tmap)
     jp_entries = [e for e in entries if e.jp is not None]
     if len(jp_entries) != len(runs):
@@ -108,6 +120,11 @@ def apply_entries(path, tmap, entries, jp, codec):
                 raise SystemExit(f'{path}:{e.line}: control codes are not allowed in tilemaps')
             tiles.append(tok[1])
         run = getattr(e, 'run', None)
+        if vwf:
+            # The label is drawn at run time; keep its cells blank here
+            data = bytes(tiles)
+            labels.append((e.row, e.col, data))
+            tiles = [0x00] * label_tiles(data)
         for i, tile in enumerate(tiles):
             x, y = e.col + i, e.row
             where = f'{path}:{e.line}: {e.en!r}: tile {i} at row {y}, col {x}'
@@ -195,12 +212,18 @@ def build_table(rom, t, changes):
     return '\n'.join(lines) + '\n'
 
 
+LABEL_BANK = 0xCC
+
+
 def main():
     rom_path, in_dir, out_path = sys.argv[1:4]
     rom = open(rom_path, 'rb').read()
     codec = Codec(charmap='charmap_en.tbl')
     jp = jp_table()
     changes = {t: {} for t in range(T.NUM_TABLES)}
+    all_labels = {}
+    global FONT_WIDTHS
+    FONT_WIDTHS = open(sys.argv[4], 'rb').read()
     files = sorted(f for f in os.listdir(in_dir) if f.endswith('.txt')) if os.path.isdir(in_dir) else []
     for name in files:
         path = os.path.join(in_dir, name)
@@ -210,9 +233,16 @@ def main():
         bank = T.table_bank(rom, t)
         p = T.table_pointers(rom, t)[idx]
         tmap = T.decode(rom, bank * 0x4000 + p - 0x4000)
-        data = apply_entries(path, tmap, entries, jp, codec)
+        vwf = (t, idx) not in FIXED_WIDTH_MAPS
+        labels = []
+        data = apply_entries(path, tmap, entries, jp, codec, vwf, labels)
         if data is None:
             continue
+        if labels:
+            # Every index sharing this tilemap gets the labels
+            for i, q in enumerate(T.table_pointers(rom, t)):
+                if q == p:
+                    all_labels[(t, i)] = labels
         original = rom[bank * 0x4000 + p - 0x4000:][:tmap.size]
         if data != original:
             changes[t][p] = data
@@ -220,6 +250,27 @@ def main():
     for t in range(T.NUM_TABLES):
         if changes[t]:
             out.append(build_table(rom, t, changes[t]))
+    # Label lists: index of 2 tables x 256 pointers, then per map: row, col, string, ..., $FF
+    out.append(f'SECTION "Tilemap Labels", ROMX[$4000], BANK[${LABEL_BANK:02X}]')
+    out.append('TilemapLabelIndex::')
+    lists = {}
+    blob = []
+    addr = 0x4000 + T.NUM_TABLES * 256 * 2
+    for key in sorted(all_labels):
+        data = bytearray()
+        for row, col, text in all_labels[key]:
+            data += bytes([row, col]) + text + b'\xC0'
+        data += b'\xFF'
+        lists[key] = addr
+        blob.append(data)
+        addr += len(data)
+    if addr > 0x8000:
+        raise SystemExit('Tilemap labels overflow their bank')
+    for t in range(T.NUM_TABLES):
+        for i in range(256):
+            out.append(f'  dw ${lists.get((t, i), 0):04X}')
+    for data in blob:
+        out.append(asm_bytes(bytes(data)))
     os.makedirs(os.path.dirname(out_path) or '.', exist_ok=True)
     with open(out_path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(out))

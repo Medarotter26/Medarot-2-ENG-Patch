@@ -261,10 +261,14 @@ VWFRenderString::
   jr .loop
 
 .done
-  ; Draw the last partial tile
+  ; Record the number of tiles used, draw the last partial tile
+  ld a, [W_StrTile]
+  ld [W_StrTemp], a
   ld a, [W_StrX]
   and 7
   ret z
+  ld hl, W_StrTemp
+  inc [hl]
   jp StrFlushTile
 
 .fixedWidth
@@ -342,6 +346,36 @@ VWFRenderStringPadded::
   jr nz, .wait
   xor a
   ld [hli], a
+  ei
+  dec b
+  jr nz, .loop
+  ret
+
+StrClearTileZero:
+  ; Blanks tile 0 of VRAM bank 1 (in both addressing modes): cells left in bank 1 that the
+  ; game later clears with tile 0 show it.
+  push hl
+  push bc
+  ld hl, $8000
+  call .clear
+  ld hl, $9000
+  call .clear
+  pop bc
+  pop hl
+  ret
+.clear
+  ld b, 16
+.loop
+  di
+  ld a, 1
+  ldh [rVBK_], a
+.wait
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .wait
+  xor a
+  ld [hli], a
+  ldh [rVBK_], a
   ei
   dec b
   jr nz, .loop
@@ -485,13 +519,16 @@ StrFlushTile:
   jr nz, .waitTile
   ld c, [hl]
   ei
-  jr .gotTile
+  ld a, c
+  or a
+  jr nz, .gotTile ; tile 0 is never used, it stays blank
 
 .allocate
   ld a, [W_StrNextTile]
   or a
   jr nz, .allocated
-  inc a
+  call StrClearTileZero
+  ld a, 1
 .allocated
   ld c, a
   inc a

@@ -55,3 +55,15 @@ DEF W_TileMapDest            EQU $CBD3 ; 2 bytes, tilemap address of the first c
 DEF W_TileIndex              EQU $CBD5 ; index of the first tile
 DEF W_TileCount              EQU $CBD6
 DEF W_TileAlign              EQU $CBD7 ; 0 = left, 1 = right
+
+; Tilemap labels
+DEF W_TmBase                 EQU $CBD8 ; tilemap base high byte ($98/$9C)
+DEF W_TmTable                EQU $CBD9
+DEF W_TmIndex                EQU $CBDA
+DEF W_TmX                    EQU $CBDB
+DEF W_TmY                    EQU $CBDC
+DEF W_TmSavedBank            EQU $CBDD
+DEF W_TmPtr                  EQU $CBDE ; 2 bytes
+DEF W_LabelRingPos           EQU $CA08
+DEF W_LabelRing              EQU $CA09 ; 8 entries: dest lo, dest hi, tiles, first tile (to $CA28)
+DEF LABEL_RING_SIZE          EQU 8

@@ -181,6 +181,19 @@ def outline_bitmap(bm):
     return out
 
 
+def layout(width, *parts):
+    """Bitmap of `width` px with several pieces placed at fixed x: parts = (x, text, font)."""
+    rows = [[0] * width for _ in range(8)]
+    for x, text, font in parts:
+        bm = text_bitmap(text, font)
+        assert x + bitmap_width(bm) <= width, f'"{text}" does not fit at x={x}'
+        for y in range(8):
+            for i, v in enumerate(bm[y]):
+                if v:
+                    rows[y][x + i] = 1
+    return rows
+
+
 # ---------------------------------------------------------------------------------------
 # Tileset canvas
 
@@ -315,6 +328,17 @@ def tileset(index):
         return fn
     return deco
 
+@tileset(0x003)
+def ts_003(c):
+    # Start menu (tilemap 0_13): メダロッチ B7-BB / アイテム BC-BF / セーブ C0-C2.
+    # (The ゛ above ダ and ブ is the font tile $F2 in the tilemap itself, not part of this
+    # tileset.)  B4-B6 (はい/いいえ: B4 B5 / B5 B5 B6) are left alone: "Yes" cannot be
+    # drawn in one tile, see the yes/no notes for tileset 004.
+    c.word([0xB7, 0xB8, 0xB9, 0xBA, 0xBB], 'Medarotch', font='narrow', bg=WHITE, clear='all', x=0)
+    c.word([0xBC, 0xBD, 0xBE, 0xBF], 'Items', bg=WHITE, clear='all', x=0)
+    c.word([0xC0, 0xC1, 0xC2], 'Save', bg=WHITE, clear='all', x=0)
+
+
 @tileset(0x00A)
 def ts_00A(c):
     # Setup screen, battle speed slider: Long / ふつう / Short (tiles $C8-$CB in the window)
@@ -331,6 +355,52 @@ def ts_00B(c):
     c.word([0x92, 0x93, 0x91], 'Back', font='narrow', bg=WHITE, clear='all', x=0)
     c.word([0x8F, 0x90, 0x91], 'Done', font='narrow', bg=WHITE, clear='all', x=0)
     c.copy_tile(0x8E, 0x87)  # frame tile with the dakuten of が/ど -> plain frame
+
+
+def yen_tile():
+    """The ¥ glyph of the translated digits tileset 001 (gfx/tilesets/ts_001.png, tile 12)."""
+    im = Image.open(os.path.join(OUT_DIR, 'ts_001.png')).convert('L')
+    return [[3 - min(3, (im.getpixel((12 * 8 + x, y)) + 42) // 85) for x in range(8)] for y in range(8)]
+
+
+@tileset(0x00C)
+def ts_00C(c):
+    # Shop "buy parts" list header: あたま / みぎうで / ひだりうで / きゃくぶ, and 円.
+    # Strips (BG tile ids):  Head  = D8 D9 DA         R.Arm = DB DC DD DE
+    #                        L.Arm = DF D9 E0 DD DE   Legs  = DC E1 E2 E3
+    # Shared: D9 (Head/L.Arm), DC (R.Arm/Legs), DD DE (both arms).  So: DD DE = "Arm",
+    # DC is blank (Legs is drawn in E1-E3), D9 holds just the "e" of both "Head" and "Left".
+    L, B = LIGHT, BLACK
+    c.word([0xDD, 0xDE], 'Arm', font='narrow', bg=L, clear='all', x=2)
+    c.word([0xDC], '', bitmap=[[0] * 8 for _ in range(8)], bg=L, clear='all')
+    c.word([0xE1, 0xE2, 0xE3], 'Legs', bg=L, clear='all')
+    c.word([0xDB], 'R.', bg=L, clear='all', align='right')
+    c.word([0xD8, 0xD9, 0xDA], None, bitmap=layout(24, (3, 'H', 'vwf'), (10, 'e', 'vwf'), (16, 'ad', 'narrow')),
+           bg=L, clear='all', x=0)
+    c.word([0xDF, 0xD9, 0xE0], None, bitmap=layout(24, (3, 'L', 'vwf'), (10, 'e', 'vwf'), (16, 'ft', 'narrow')),
+           bg=L, clear='all', x=0)
+    c.copy_tile(0xE4, 0xC1)  # border tile with the dakuten of ぎ/で/だ/ぶ -> plain border
+    # 円 -> ¥ (same glyph as the replaced digits tileset 001 uses)
+    c.set_tile(0xE5, yen_tile())
+
+
+BLANK_TILE = [[0] * 8 for _ in range(8)]
+
+
+@tileset(0x013)
+def ts_013(c):
+    # Parts list header (2 tile rows; the kana sit across the tile boundary):
+    #   けいしき  cols 1-4 : top 97 99 9B 9D / bottom 98 9A 9C 9E
+    #   パーツめい cols 8-12: top 9F (00) A2 A4 99 / bottom A0 A1 A3 A5 9A
+    #   こすう    cols 16-18: top A6 A8 AA / bottom A7 A9 AB
+    # The top tile of column 9 is the blank font tile, so the English is drawn entirely in
+    # the bottom tiles.  99/9A (い) is shared by columns 2 and 12, so it stays blank:
+    # "ID" goes into columns 3-4 (centred over the 6-character model code below it).
+    for t in (0x97, 0x99, 0x9B, 0x9D, 0x9F, 0xA2, 0xA4, 0xA6, 0xA8, 0xAA, 0x9A, 0x98):
+        c.set_tile(t, BLANK_TILE)
+    c.word([0x9C, 0x9E], 'ID', bg=WHITE, clear='all')
+    c.word([0xA0, 0xA1, 0xA3, 0xA5], 'Name', bg=WHITE, clear='all')
+    c.word([0xA7, 0xA9, 0xAB], 'Qty', bg=WHITE, clear='all')
 
 
 @tileset(0x011)

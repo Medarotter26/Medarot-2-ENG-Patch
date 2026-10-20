@@ -84,6 +84,38 @@ NameTilesFromB335::
   pop de
   ret
 
+ClearBank1Attr::
+  ; Called by the tilemap loaders for every tile written (replacing ld a, [$DD26]).
+  ; Screens with separate attribute maps ($DD26 != 0) don't rewrite attributes, so clear the
+  ; VRAM bank 1 bit a variable width string may have left on the cell.
+  ld a, [$DD26]
+  or a
+  ret z
+  ld a, h
+  cp $98
+  jr c, .done
+  di
+  ld a, 1
+  ldh [rVBK], a
+.wait
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .wait
+  ld a, [hl]
+  and $F7
+  ld b, a
+.wait2
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .wait2
+  ld [hl], b
+  xor a
+  ldh [rVBK], a
+  ei
+.done
+  ld a, [$DD26]
+  ret
+
 HackHelpersEnd::
   ASSERT HackHelpersEnd <= $22E4, "Hack helpers overflow into $22E4"
 
@@ -131,3 +163,6 @@ SECTION "Shop List Names", ROMX[$7853], BANK[$04]
 SECTION "Debug Menu Names", ROMX[$510C], BANK[$1A]
   ld e, 10
   jp PutStringPadded
+
+SECTION "Tilemap Tile Attribute Hook", ROM0[$13AE]
+  call ClearBank1Attr

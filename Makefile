@@ -87,8 +87,8 @@ $(TILESETS_OUT): $(TILESETS) $(SCRIPT)/build_tilesets.py
 	$(PYTHON) $(SCRIPT)/build_tilesets.py gfx/tilesets $@ $(TILESET_FIRST_BANK) $(TILESET_LAST_BANK)
 
 # Menu/screen tilemaps (text/tilemaps/*.txt); untranslated tilemaps are left untouched
-$(TILEMAP_OUT): $(TILEMAPS) $(SCRIPT)/build_tilemaps.py $(SCRIPT)/dump_tilemaps.py $(SCRIPT)/common/tilemaps.py $(SCRIPT)/textcodec.py $(RES)/charmap_en.tbl $(RES)/charmap_jp.tbl
-	$(PYTHON) $(SCRIPT)/build_tilemaps.py $(ORIGINAL_PREFIX)kuwagata.gbc text/tilemaps $@
+$(TILEMAP_OUT): $(FONT_WIDTHS) $(TILEMAPS) $(SCRIPT)/build_tilemaps.py $(SCRIPT)/dump_tilemaps.py $(SCRIPT)/common/tilemaps.py $(SCRIPT)/textcodec.py $(RES)/charmap_en.tbl $(RES)/charmap_jp.tbl
+	$(PYTHON) $(SCRIPT)/build_tilemaps.py $(ORIGINAL_PREFIX)kuwagata.gbc text/tilemaps $@ $(FONT_WIDTHS)
 
 $(BUILD):
 	mkdir -p $@
