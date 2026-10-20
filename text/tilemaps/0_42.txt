@@ -22,10 +22,10 @@
 
 [0_42]
 
-@ 1,1 max 7
+@ 1,2 max 7
 # (dakuten drawn in graphics tile above column 3 ($95, becomes $8D when translated))
 JP: メタフォース
-EN: M.Force
+EN: Medaforce
 DMG: Force
 
 @ 1,11 max 4

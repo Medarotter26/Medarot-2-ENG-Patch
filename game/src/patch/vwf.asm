@@ -61,12 +61,16 @@ VWFDrawArrow::
   jp VWFFarCall
 
 VWFMapMode0Box::
+  ; Preserves bc: callers of the text init expect what the original left there
   ld a, [W_HardwareType]
   cp $11
   ret nz
+  push bc
   ld a, BANK(VWFMapMode0BoxInternal)
   ld hl, VWFMapMode0BoxInternal
-  jp VWFFarCall
+  call VWFFarCall
+  pop bc
+  ret
 
 VWFTrampolines2End::
   ASSERT VWFTrampolines2End <= $23AE, "VWF trampolines 2 overflow into $23AE"

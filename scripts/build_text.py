@@ -85,6 +85,9 @@ def build(packer, fixed):
             ptr = int(row[1], 16)
             original = row[2]
             tr = row[3] if len(row) > 3 else ''
+            if fixed and len(row) > 4 and row[4]:
+                # Short version for the fixed width font (descriptions in two-line boxes)
+                tr = row[4]
             if original.startswith('@') and not tr:
                 loc = placed[int(original[1:], 16)]
             else:

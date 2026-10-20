@@ -375,7 +375,7 @@ Index,Pointer,Original,Translated
 175,0x648E,<SFF>かいすう ダウン<CR>あたまパーツの かいすうを ヘらす<*04>,<SFF>Ammo Down: Reduces the uses of the enemy's head part.<*04>
 176,0x64AC,<SFF>かいひ ふかのう<CR>かいひを できなくする<*04>,<SFF>No Dodge: Makes the enemy unable to dodge.<*04>
 177,0x64C4,<SFF>ぼうぎょ ふかのう<CR>ぼうぎょを できなくする<*04>,<SFF>No Defend: Makes the enemy unable to defend.<*04>
-178,0x64DE,<SFF>デストロイ こうげき<CR>せなかを むけた てきを はかいする<*04>,<SFF>Destroy Attack: Destroys enemies that turn their backs.<*04>
+178,0x64DE,<SFF>デストロイ こうげき<CR>せなかを むけた てきを はかいする<*04>,<SFF>Destroy Attack: Destroys foes that turn their backs.<*04>
 179,0x64FF,<SFF>サクリファイス こうげき<CR>パーツを ぎせいにして だいダメージ<*04>,<SFF>Sacrifice Attack: Sacrifices parts to deal huge damage.<*04>
 17A,0x6522,<SFF>メダフォース アップ<CR>メダフォースを ふやす<*04>,<SFF>Medaforce Up: Raises Medaforce.<*04>
 17B,0x653C,<SFF>メダフォース ダウン<CR>メダフォースを ヘらす<*04>,<SFF>Medaforce Down: Lowers Medaforce.<*04>
@@ -431,7 +431,7 @@ Index,Pointer,Original,Translated
 1AD,0x6B12,<SFF>おなじ ラインの てきを はかいする<CR>ただし はんげきされることも ある<*04>,"<SFF>Destroys enemies in the same line, but may be countered.<*04>"
 1AE,0x6B3A,<SFF>すベての こうげきの ダメージは<CR>いリょくの すうちと おなじになる<*04>,<SFF>All attacks deal damage equal to their power value.<*04>
 1AF,0x6B60,<SFF>てきや みかたに かんけいなく<CR>ぜんいんを こんらんさせる<*04>,"<SFF>Confuses everyone, friend or foe!<*04>"
-1B0,0x6B81,<SFF>あたまパーツ いがいを はかいして<CR>のこリの そうこうを ダメージにする<*04>,"<SFF>Breaks all but the head, turning their armor into damage.<*04>"
+1B0,0x6B81,<SFF>あたまパーツ いがいを はかいして<CR>のこリの そうこうを ダメージにする<*04>,<SFF>Breaks all but the head. Their armor becomes damage.<*04>
 1B1,0x6BA9,<SFF>のこリリミットを ヘらして<CR>はんていじかんを はやくする<*04>,<SFF>Cuts the remaining time limit so the judgment comes sooner.<*04>
 1B2,0x6BC9,あっ<*02>,Ah<*02>
 1B3,0x6BC9,@1B2,
