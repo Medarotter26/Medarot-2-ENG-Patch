@@ -233,7 +233,10 @@ VWFMeasureStringTiles::
   ; W_StrTemp = number of tiles W_StrBuffer takes
   ld a, [W_HardwareType]
   cp $11
-  jr nz, .fixedWidth
+  jr nz, VWFMeasureStringTilesVWF.fixedWidth
+  ; Fall through
+VWFMeasureStringTilesVWF:
+  ; Same, always with the variable width font
   ld hl, W_StrBuffer
   ld b, 0
   ld de, VWFWidths
@@ -737,7 +740,7 @@ VWFRenderTileRun::
   ; Starting position
   xor a
   ld [W_StrTemp + 1], a
-  call VWFMeasureStringTiles
+  call VWFMeasureStringTilesVWF
   xor a
   ld [W_StrX], a
   ld a, [W_TileAlign]
@@ -750,7 +753,11 @@ VWFRenderTileRun::
   add a
   add a
   sub b
-  jr nc, .gotX
+  jr c, .noRoom
+  jr z, .gotX
+  dec a ; keep a pixel free before what follows the field
+  jr .gotX
+.noRoom
   xor a
 .gotX
   ld [W_StrX], a
