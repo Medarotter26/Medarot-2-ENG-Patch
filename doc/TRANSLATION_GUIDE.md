@@ -56,12 +56,8 @@ English in `Translated`. Do not modify the other columns.
 
 Lines are wrapped automatically (≈ 28–34 characters per line, 2 lines per box).
 
-**Exception: `TextSection00.csv` and `TextSection01.csv`** (system, shop and battle messages)
-can be shown with a fixed-width font: only **18 characters per line** (17 on the second line),
-2 lines per box. Keep these concise; abbreviate where natural (e.g. "Robattle start!",
-"Metabee's attack!"). `<&XXXX>` names count as 8 characters there. If a box of
-English is too long for 2 lines, an extra box is created automatically, which is fine, but try
-to keep text roughly as long as the original box (one box ≈ 55–60 characters).
+All sections, including `TextSection00.csv` and `TextSection01.csv` (system, shop and battle
+messages), use the variable width font: no abbreviations are needed.
 
 ### Allowed characters
 
@@ -76,15 +72,9 @@ Run `python3 scripts/check_text.py text/dialog/TextSectionNN.csv` after editing.
 
 ## Name lists (`text/ptrlists/*.csv`)
 
-Fill the `*_EN` columns. The game shows these names in fixed-width menus, so they have hard
-length limits (characters, including spaces):
-
-| List | Limit |
-|---|---|
-| Medarots, Parts names, Items, Medaforce, Medarotters | 8 |
-| Parts model codes | 6 (keep codes like `KWG-01` as is, with `-`) |
-| Medals, Attributes, Personalities, Terrain | 6 |
-| Skills, Movement, Attacks | 5 |
-
-When the established name (from glossary / M1 / M3) is longer than the limit, put the full name
-in `*_EN` and a sensible abbreviation within the limit in the `*_Short` column.
+Fill the `*_EN` columns with the full English name (no abbreviations). Names are drawn with the
+variable width font; the build stores names longer than the game's fixed-size buffers as
+"name tokens" and expands them when drawn. The limit is the on-screen width of the field
+(8 tiles = 64 pixels for most names, 6 tiles for medals/attributes, 5 for skills/attacks);
+names that are too wide are drawn with the narrow font automatically, and the build reports
+names that don't fit even then.

@@ -52,6 +52,25 @@ VWFFarCall:
 VWFTrampolinesEnd::
   ASSERT VWFTrampolinesEnd <= $4000, "VWF trampolines overflow bank 0"
 
+SECTION "VWF Trampolines 2", ROM0[$2371]
+VWFDrawArrow::
+  ; a = character to draw in the last tile of the box (the 'next' arrow or a space)
+  ld [W_VWFChar], a
+  ld a, BANK(VWFDrawArrowInternal)
+  ld hl, VWFDrawArrowInternal
+  jp VWFFarCall
+
+VWFMapMode0Box::
+  ld a, [W_HardwareType]
+  cp $11
+  ret nz
+  ld a, BANK(VWFMapMode0BoxInternal)
+  ld hl, VWFMapMode0BoxInternal
+  jp VWFFarCall
+
+VWFTrampolines2End::
+  ASSERT VWFTrampolines2End <= $23AE, "VWF trampolines 2 overflow into $23AE"
+
 SECTION "VWF Renderer", ROMX[$4000], BANK[$80]
 VWFFont::
   INCBIN "build/gfx/VWFFont.1bpp"
@@ -89,17 +108,107 @@ VWFClearTilesInternal:
   ld bc, VWF_LINE_TILES * 2 * 16
 .loop
   di
+  call VWFSelectVRAMBank
 .wait
   ldh a, [rSTAT]
-  and $02
+  and 2
   jr nz, .wait
   xor a
   ld [hli], a
+  ldh [rVBK], a
   ei
   dec bc
   ld a, b
   or c
   jr nz, .loop
+  ret
+
+VWFSelectVRAMBank:
+  ; Mode 0 text is drawn into VRAM bank 1 tiles (CGB only). Preserves everything but flags.
+  push af
+  ld a, [W_TextMode]
+  or a
+  jr nz, .bank0
+  ld a, 1
+  ldh [rVBK], a
+  pop af
+  ret
+.bank0
+  xor a
+  ldh [rVBK], a
+  pop af
+  ret
+
+VWFDrawArrowInternal:
+  ld a, [W_VWFChar]
+  ld l, a
+  ld h, 0
+  add hl, hl
+  add hl, hl
+  add hl, hl
+  ld de, VWFFont
+  add hl, de
+  ld d, h
+  ld e, l
+  ld hl, VWF_MODE1_TILE_ADDRESS + (VWF_LINE_TILES * 2 - 1) * 16
+  ld b, 8
+.loop
+  ld a, [de]
+  inc de
+  ld c, a
+  di
+  call VWFSelectVRAMBank
+.wait
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .wait
+  ld a, c
+  ld [hli], a
+  ld [hli], a
+  xor a
+  ldh [rVBK], a
+  ei
+  dec b
+  jr nz, .loop
+  ret
+
+VWFMapMode0BoxInternal:
+  ; Maps the cells of the two text lines of the mode 0 box to VRAM bank 1 tiles $C3-$E6
+  call VWFClearTilesInternal
+  ld hl, $9C41
+  ld b, VWF_MODE1_FIRST_TILE
+  call .line
+  ld hl, $9C81
+.line
+  ld c, VWF_LINE_TILES
+.cell
+  di
+.waitTile
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .waitTile
+  ld [hl], b
+  ld a, 1
+  ldh [rVBK], a
+.waitAttr
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .waitAttr
+  ld a, [hl]
+  or $08
+  ld d, a
+.waitAttr2
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .waitAttr2
+  ld [hl], d
+  xor a
+  ldh [rVBK], a
+  ei
+  inc hl
+  inc b
+  dec c
+  jr nz, .cell
   ret
 
 VWFGetTileBase:
@@ -146,6 +255,7 @@ VWFWriteTile:
   inc de
   ld c, a
   di
+  call VWFSelectVRAMBank
 .wait
   ldh a, [rSTAT]
   and $02
@@ -153,6 +263,8 @@ VWFWriteTile:
   ld a, c
   ld [hli], a
   ld [hli], a
+  xor a
+  ldh [rVBK], a
   ei
   dec b
   jr nz, .loop

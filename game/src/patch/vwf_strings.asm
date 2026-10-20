@@ -532,6 +532,10 @@ StrFlushTile:
 .allocated
   ld c, a
   inc a
+  cp STR_RING_LAST + 1
+  jr c, .storeNext
+  ld a, 1
+.storeNext
   ld [W_StrNextTile], a
   ; Map the tile and switch the cell to bank 1
   di

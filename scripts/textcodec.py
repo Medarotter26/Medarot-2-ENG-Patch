@@ -13,7 +13,7 @@ FIXED_LINE_WIDTH = (18, 17)    # Characters per line for the fixed width font (t
 DEFAULT_RAM_CHARS = 8
 
 # Sections that may be displayed in tilemap mode (fixed width font)
-FIXED_WIDTH_SECTIONS = (0, 1)
+FIXED_WIDTH_SECTIONS = ()  # All sections use the variable width font (CGB)
 LINES_PER_BOX = 2
 SPACING = 1
 

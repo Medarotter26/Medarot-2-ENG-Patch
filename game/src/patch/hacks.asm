@@ -116,6 +116,11 @@ ClearBank1Attr::
   ld a, [$DD26]
   ret
 
+ShopRestartClear::
+  ; The shop clears its box itself; the text cells then need mapping to the VWF tiles again
+  call $0267
+  jp VWFMapMode0Box
+
 HackHelpersEnd::
   ASSERT HackHelpersEnd <= $22E4, "Hack helpers overflow into $22E4"
 
@@ -166,3 +171,6 @@ SECTION "Debug Menu Names", ROMX[$510C], BANK[$1A]
 
 SECTION "Tilemap Tile Attribute Hook", ROM0[$13AE]
   call ClearBank1Attr
+
+SECTION "Shop Text Restart Clear", ROMX[$7B7D], BANK[$04]
+  call ShopRestartClear

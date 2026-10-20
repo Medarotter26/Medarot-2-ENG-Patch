@@ -21,7 +21,7 @@ SECTION "Attribute Load BG Hook Entry", ROM0[$0C54]
 SECTION "Attribute Load Window Hook Entry", ROM0[$0C6E]
   jp AttrLoadWindowHook
 
-SECTION "Tilemap Label Hooks", ROM0[$3F00]
+SECTION "Tilemap Label Hooks", ROM0[$3F08]
 TilemapLoadBGHook:
   push af
   ld a, $98

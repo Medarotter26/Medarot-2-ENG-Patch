@@ -54,7 +54,8 @@ MainScriptInit::
   ld hl, $9C41
   call MainScriptSetCursor
   ld a, $01
-  jp $1C2C
+  call $1C2C
+  jp VWFMapMode0Box
 
 .renderedTiles
   ld a, [W_TextWindowAlt]
@@ -390,12 +391,22 @@ MainScriptCCWaitAndClear:
   ld a, [W_TextMode]
   or a
   jr nz, .renderedTiles
+  ld a, [W_HardwareType]
+  cp $11
+  jr z, .vwfArrow
   ld hl, $9C92
   ld a, b
   di
   call $0A9F
   ld [hl], a
   ei
+  jr .checkInput
+
+.vwfArrow
+  ld a, b
+  call VWFDrawArrow
+  ld a, [W_TextBank]
+  rst $10
   jr .checkInput
 
 .renderedTiles
@@ -431,6 +442,7 @@ MainScriptCCWaitAndClear:
   ld e, $00
   ld a, $00
   call $0B2A
+  call VWFMapMode0Box
   ld hl, $9C41
   jr .done
 
@@ -626,7 +638,11 @@ MainScriptDrawCharacter:
   ld [W_TextChar], a
   ld a, [W_TextMode]
   or a
-  jr z, .tilemap
+  jr nz, .vwf
+  ld a, [W_HardwareType]
+  cp $11
+  jr nz, .tilemap
+.vwf
   ld a, [W_TextChar]
   call VWFDrawCharacter
   ld a, [W_TextBank]
@@ -673,7 +689,7 @@ MainScriptClearBox::
   call $0B2A
   ld a, [W_TextMode]
   or a
-  ret z
+  jp z, VWFMapMode0Box
   call VWFClearTiles
   ld bc, $0102
   ld e, $11
