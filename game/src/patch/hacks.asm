@@ -8,53 +8,11 @@ INCLUDE "game/src/common/functions.asm"
 SECTION "Shop Text Restart", ROMX[$7B5B], BANK[$04]
   call ClearTextOffset
 
-SECTION "Hack Helpers", ROM0[$21F0]
+SECTION "Hack Helpers", ROM0[$2220]
 ClearTextOffset::
   ; a = 0
   ld [W_TextOffset], a
   ld [W_TextOffset + 1], a
-  ret
-
-BattleNameTiles::
-  ; hl = name (RAM), a = alignment (0 left, 1 right)
-  ; Draws the name into the 8 tiles at [$C440] (VRAM), mapped at [$C442] with indices from
-  ; [$C448], then advances those like the original per-character loop did.
-  ld [W_TileAlign], a
-  ld de, W_StrBuffer
-  call StrCopyResolveTo
-  ld a, [$C441]
-  ld [W_TileDest], a
-  ld a, [$C440]
-  ld [W_TileDest + 1], a
-  ld a, [$C443]
-  ld [W_TileMapDest], a
-  ld a, [$C442]
-  ld [W_TileMapDest + 1], a
-  ld a, [$C448]
-  ld [W_TileIndex], a
-  ld a, 8
-  ld [W_TileCount], a
-  ld a, BANK(VWFRenderTileRun)
-  ld hl, VWFRenderTileRun
-  call StrFarCall
-  ld a, [$C441]
-  add $80
-  ld [$C441], a
-  jr nc, .noCarry
-  ld hl, $C440
-  inc [hl]
-.noCarry
-  ld a, [$C443]
-  add 8
-  ld [$C443], a
-  jr nc, .noCarry2
-  ld hl, $C442
-  inc [hl]
-.noCarry2
-  ld hl, $C448
-  ld a, [hl]
-  add 8
-  ld [hl], a
   ret
 
 NameTilesFromB335::
@@ -220,3 +178,56 @@ DefaultPlayerNameEnd:
 
 SECTION "Box Palette Fill Attribute Write", ROM0[$31ED]
   call AttrWriteKeepBank1
+
+; The dakuten splitter is not needed in English (codes $80-$B1 are never used), which frees its
+; table for more code. Callers only need [$C44F] (the dakuten tile) to be 0.
+SECTION "Dakuten Split Stub", ROM0[$22E4]
+  xor a
+  ld [$C44F], a
+  ret
+
+SECTION "Hack Helpers 2", ROM0[$22E9]
+BattleNameTiles::
+  ; hl = name (RAM), a = alignment (0 left, 1 right)
+  ; Draws the name into the 8 tiles at [$C440] (VRAM), mapped at [$C442] with indices from
+  ; [$C448], then advances those like the original per-character loop did.
+  ld [W_TileAlign], a
+  ld de, W_StrBuffer
+  call StrCopyResolveTo
+  ld a, [$C441]
+  ld [W_TileDest], a
+  ld a, [$C440]
+  ld [W_TileDest + 1], a
+  ld a, [$C443]
+  ld [W_TileMapDest], a
+  ld a, [$C442]
+  ld [W_TileMapDest + 1], a
+  ld a, [$C448]
+  ld [W_TileIndex], a
+  ld a, 8
+  ld [W_TileCount], a
+  ld a, BANK(VWFRenderTileRun)
+  ld hl, VWFRenderTileRun
+  call StrFarCall
+  ld a, [$C441]
+  add $80
+  ld [$C441], a
+  jr nc, .noCarry
+  ld hl, $C440
+  inc [hl]
+.noCarry
+  ld a, [$C443]
+  add 8
+  ld [$C443], a
+  jr nc, .noCarry2
+  ld hl, $C442
+  inc [hl]
+.noCarry2
+  ld hl, $C448
+  ld a, [hl]
+  add 8
+  ld [hl], a
+  ret
+
+HackHelpers2End::
+  ASSERT HackHelpers2End <= $2371, "Hack helpers 2 overflow into $2371"

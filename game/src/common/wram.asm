@@ -40,6 +40,7 @@ DEF W_StrTemp                EQU $DDA1 ; 2 bytes
 DEF W_StrChar                EQU $DDA3
 DEF W_StrCenterWidth         EQU $DDA4
 DEF W_StrNarrow              EQU $DDA5
+DEF W_StrOutLeft             EQU $DDA6
 DEF W_StrBuffer              EQU $DDAC ; 24 bytes, string with name tokens expanded
 DEF W_StrBufferEnd           EQU $DDC4
 DEF W_TextRAMBuffer          EQU $DDC4 ; 24 bytes, RAM string being drawn by the main script

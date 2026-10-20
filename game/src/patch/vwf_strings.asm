@@ -102,32 +102,53 @@ StrCopyResolve::
 
 StrCopyResolveTo::
   ; Same, to de (buffers are 24 bytes)
-  ld b, 23
+  ld b, 0 ; no limit on the source
   ; Fall through
 
 StrCopyResolveN::
-  ; Same, reading at most b bytes
+  ; Same, reading at most b bytes from the source (0 = no limit)
   ld a, [W_CurrentBank]
   ld [W_StrSavedBank], a
+  ld a, 23
+  ld [W_StrOutLeft], a
 
 .loop
   ld a, [hli]
   cp NAME_TOKEN
   jr z, .token
-  ld [de], a
-  inc de
   cp STR_TERMINATOR
-  ret z
+  jr z, .end
+  call .put
+  jr z, .truncate
   dec b
   jr nz, .loop
+  ld a, b
+  inc a ; b was 1 -> limit reached (b = 0 means unlimited and wrapped to $FF)
+  jr z, .loop
+  jr .truncate
+
+.end
+  ld [de], a
+  ret
 
 .truncate
   ld a, STR_TERMINATOR
   ld [de], a
   ret
 
+.put
+  ; Writes a to [de]; returns z when the output is full
+  ld [de], a
+  inc de
+  push hl
+  ld hl, W_StrOutLeft
+  dec [hl]
+  pop hl
+  ret
+
 .token
   ; Look up the full name: NameTokenLists[list] = (bank, table), table[index] = string
+  push bc
   push hl
   ld a, [hli] ; list
   ld c, a
@@ -166,21 +187,30 @@ StrCopyResolveN::
   ld a, [hli]
   cp STR_TERMINATOR
   jr z, .nameDone
-  ld [de], a
-  inc de
-  dec b
+  call .put
   jr nz, .copyName
+  ; Output full
   pop hl
+  pop bc
   ld a, [W_StrSavedBank]
   rst $10
   jr .truncate
 
 .nameDone
   pop hl
+  pop bc
   inc hl
   inc hl
   ld a, [W_StrSavedBank]
   rst $10
+  ; The token took 3 source bytes
+  ld a, b
+  or a
+  jr z, .loop
+  cp 4
+  jr c, .truncate
+  sub 3
+  ld b, a
   jr .loop
 
 StringHelpersEnd::
