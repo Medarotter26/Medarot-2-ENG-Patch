@@ -69,9 +69,9 @@ Index,Pointer,Original,Translated
 043,0x4685,このアイテムは つかえません!,This item can't be used!
 044,0x4696,ここでは つかえません!,Can't use that here!
 045,0x46A4,いまは つかえません!,Can't use that now!
-046,0x46B1,メダロット「ランドローター」が<CR>くまれてないよ!<CF>あたま 「ハンドルヘッド」!<CR>みぎうで 「ハンドルハンド」!<CF>ひだリうで 「ハンドルアーム」!<CR>きゃくぶ 「ハンドルレッグ」!<CF>メダロット「ランドローター」が<CR>かんせいだよ!,"The Medarot ""Landrotor"" isn't assembled!<CF>Head: Handle Head! R.Arm: Handle Hand!<CF>L.Arm: Handle Arm! Legs: Handle Leg!<CF>The Medarot ""Landrotor"" is complete!"
-047,0x4723,メダロット「レディーブースター」が<CR>くまれてないよ!<CF>あたま 「ウィングヘッド」!<CR>みぎうで 「ウィングハンド」!<CF>ひだリうで 「ウィングアーム」!<CR>きゃくぶ 「ウィングレッグ」!<CF>メダロット「レディーブースター」が<CR>かんせいだよ!,"The Medarot ""LadyBooster"" isn't assembled!<CF>Head: Wing Head! R.Arm: Wing Hand!<CF>L.Arm: Wing Arm! Legs: Wing Leg!<CF>The Medarot ""LadyBooster"" is complete!"
-048,0x4799,メダロット「クリアダイビング」が<CR>くまれてないよ!<CF>あたま 「スコープヘッド」!<CR>みぎうで 「スコープハンド」!<CF>ひだリうで 「スコープアーム」!<CR>きゃくぶ 「スコープレッグ」!<CF>メダロット「クリアダイビング」が<CR>かんせいだよ!,"The Medarot ""Clear Diving"" isn't assembled!<CF>Head: Scope Head! R.Arm: Scope Hand!<CF>L.Arm: Scope Arm! Legs: Scope Legs!<CF>The Medarot ""Clear Diving"" is complete!"
+046,0x46B1,メダロット「ランドローター」が<CR>くまれてないよ!<CF>あたま 「ハンドルヘッド」!<CR>みぎうで 「ハンドルハンド」!<CF>ひだリうで 「ハンドルアーム」!<CR>きゃくぶ 「ハンドルレッグ」!<CF>メダロット「ランドローター」が<CR>かんせいだよ!,"The Medarot ""Landrotor"" isn't assembled!<CF>Head: ""Handle Head""! Right Arm: ""Handle Hand""!<CF>Left Arm: ""Handle Arm""! Legs: ""Handle Leg""!<CF>The Medarot ""Landrotor"" is complete!"
+047,0x4723,メダロット「レディーブースター」が<CR>くまれてないよ!<CF>あたま 「ウィングヘッド」!<CR>みぎうで 「ウィングハンド」!<CF>ひだリうで 「ウィングアーム」!<CR>きゃくぶ 「ウィングレッグ」!<CF>メダロット「レディーブースター」が<CR>かんせいだよ!,"The Medarot ""LadyBooster"" isn't assembled!<CF>Head: ""Wing Head""! Right Arm: ""Wing Hand""!<CF>Left Arm: ""Wing Arm""! Legs: ""Wing Leg""!<CF>The Medarot ""LadyBooster"" is complete!"
+048,0x4799,メダロット「クリアダイビング」が<CR>くまれてないよ!<CF>あたま 「スコープヘッド」!<CR>みぎうで 「スコープハンド」!<CF>ひだリうで 「スコープアーム」!<CR>きゃくぶ 「スコープレッグ」!<CF>メダロット「クリアダイビング」が<CR>かんせいだよ!,"The Medarot ""Clear Diving"" isn't assembled!<CF>Head: ""Scope Head""! Right Arm: ""Scope Hand""!<CF>Left Arm: ""Scope Arm""! Legs: ""Scope Legs""!<CF>The Medarot ""Clear Diving"" is complete!"
 049,0x480D,ロボロボメダルを てにいれた!<*02>,Got a RoboRobo Medal!<*02>
 04A,0x481E,<&C50F>メダルは メダフォース<CR>「<&C518>」を おぼえた!<*02>,"The <&C50F> Medal learned the Medaforce ""<&C518>""!<*02>"
 04B,0x483B,ロボロボメダルを つかいますか?<*04>,Use the RoboRobo Medal?<*04>
@@ -81,19 +81,19 @@ Index,Pointer,Original,Translated
 04F,0x483B,@04B,
 050,0x483B,@04B,
 051,0x484D,せんとうから にげられた!!<*02>,Got away safely!!<*02>
-052,0x485D,<SFF>スタートボタンで ロボトルかいし<CR>Aボタンで メダロットを みる<*04>,<SFF>START: Robattle! A: See Medarots<*04>
-053,0x4881,<SFF>メダロットヘの めいれいを<CR>オートにしますか?<*04>,<SFF>Set Medarot orders to Auto?<*04>
+052,0x485D,<SFF>スタートボタンで ロボトルかいし<CR>Aボタンで メダロットを みる<*04>,<SFF>START Button: Robattle! A Button: View your Medarots.<*04>
+053,0x4881,<SFF>メダロットヘの めいれいを<CR>オートにしますか?<*04>,<SFF>Switch your orders to your Medarots to Auto?<*04>
 054,0x489C,<&B33D>の パーツは<CR>ふうじられている!,<&B33D>'s parts are sealed!
 055,0x48B1,さあ せんとうかいし!<*02>,The battle begins!<*02>
 056,0x48BE,<&B33D> は<CR>なにも できなかった<S46><*04>,<&B33D> couldn't do anything!<S46><*04>
-057,0x48D2,メダフォースが ふえた<CR>ぜんしんに パワーがみなぎってくる!<S46><*04>,Medaforce rose! Power surges through it!<S46><*04>
+057,0x48D2,メダフォースが ふえた<CR>ぜんしんに パワーがみなぎってくる!<S46><*04>,Medaforce increased! Power surges through its whole body!<S46><*04>
 058,0x48F4,パワーぜんかいだ!<CR>これいじょう メダフォースはふえない<S46><*04>,Full power! Medaforce can't rise any more!<S46><*04>
 059,0x4914,トラップによリ <&B33D>の<CR>こうげきは うちけされた!<S46><*04>,The trap negated <&B33D>'s attack!<S46><*04>
 05A,0x4932,トラップをかいじょした!<S46><*04>,Trap disarmed!<S46><*04>
 05B,0x4942,トラップに かかった!<S46><*04>,Caught in a trap!<S46><*04>
 05C,0x4951,<&B346> に <&B34F> ダメージ!<S46><*04>,<&B34F> damage to <&B346>!<S46><*04>
 05D,0x4964,<&B33D> の<CR>ほんたいの きのうが ていしした!<S46><*04>,<&B33D> has shut down!<S46><*04>
-05E,0x497F,<&B346> パーツは こわれた!<S46><*04>,<&B346> part destroyed!<S46><*04>
+05E,0x497F,<&B346> パーツは こわれた!<S46><*04>,The <&B346> part was destroyed!<S46><*04>
 05F,0x4991,こうどうパーツは こわれていた!<S46><*04>,The action part was already destroyed!<S46><*04>
 060,0x49A5,えんごきたいが ぼうぎょにはいった!<S46><*04>,A support unit moved to defend!<S46><*04>
 061,0x49BB,<&B33D> の<CR><&B346> こうげき! <&B34F>!<S46><*04>,<&B33D>'s <&B346> attack! <&B34F>!<S46><*04>
@@ -119,8 +119,8 @@ Index,Pointer,Original,Translated
 075,0x4BBB,かいじょするものが なかった!<S46><*04>,There was nothing to remove!<S46><*04>
 076,0x4BCE,<&B33D> の<CR>ペナルティを よわめた!<S46><*04>,<&B33D>'s penalty was reduced!<S46><*04>
 077,0x4BE4,トラップを しかけるのに<CR>しっぱいした!<S46><*04>,Failed to set a trap!<S46><*04>
-078,0x4BFC,トラップを しかけた!<CR>なぐる・がむしゃらに こうかをはっき<S46><*04>,Trap set! Works on Strike and Berserk!<S46><*04>
-079,0x4C1E,トラップを しかけた!<CR>うつ・ねらいうちに こうかをはっき<S46><*04>,Trap set! Works on Shoot and Snipe!<S46><*04>
+078,0x4BFC,トラップを しかけた!<CR>なぐる・がむしゃらに こうかをはっき<S46><*04>,Trap set! It works against Strike and Berserk!<S46><*04>
+079,0x4C1E,トラップを しかけた!<CR>うつ・ねらいうちに こうかをはっき<S46><*04>,Trap set! It works against Shoot and Snipe!<S46><*04>
 07A,0x4C3F,トラップを しかけた!<CR>こうげきを うちけします<S46><*04>,Trap set! It will negate attacks!<S46><*04>
 07B,0x4C5B,パーツの かいふくに しっぱいした!<S46><*04>,Failed to repair the part!<S46><*04>
 07C,0x4C71,パーツの ふっかつに しっぱいした!<S46><*04>,Failed to revive the part!<S46><*04>
@@ -214,15 +214,15 @@ Index,Pointer,Original,Translated
 0D4,0x55E9,<&B33D> は<CR>ヘんかに しっぱいした!<S46><*04>,<&B33D> failed to transform!<S46><*04>
 0D5,0x55FF,「<&B33D>」は<CR>「<&B346>」に ヘんかした!<S46><*04>,"""<&B33D>"" transformed into ""<&B346>""!<S46><*04>"
 0D6,0x5617,フィールドせいぎょのため<CR>メダフォースは つかえない!,The field is controlled! Medaforce is unusable!
-0D7,0x5634,まだメダフォースを おぼえていない!,No Medaforce learned yet!
+0D7,0x5634,まだメダフォースを おぼえていない!,It hasn't learned a Medaforce yet!
 0D8,0x5648,メダフォースの はつどうに<CR>しっぱいした!<S46><*04>,Medaforce activation failed!<S46><*04>
 0D9,0x5661,メダフォース!<CR>「<&B33D>」 はつどう!<S46><*04>,"Medaforce! ""<&B33D>"" activated!<S46><*04>"
 0DA,0x5678,すベてのパーツに <&B34F>ダメージ!<S46><*04>,<&B34F> damage to all parts!<S46><*04>
 0DB,0x568D,こうげきリょくが アップした!<S46><*04>,Attack power rose!<S46><*04>
 0DC,0x56A0,「こうがく」のうリょくを えた!<CR>こうげきリょく <&B34F>ばい!<S46><*04>,"Gained ""Optical"" power! Attack power x<&B34F>!<S46><*04>"
 0DD,0x56C3,「かやく」のうリょくを えた!<CR>すベて かんつうこうげき!<S46><*04>,"Gained ""Gunpowder"" power! All attacks pierce!<S46><*04>"
-0DE,0x56E4,「じゅうリょく」のうリょくを えた!<CR>こうげきせいこうリつ <&B34F>ばい!<S46><*04>,"Gained ""Gravity"" power! Hit rate x<&B34F>!<S46><*04>"
-0DF,0x570C,「たいこうげき」トラップせっち!<CR>かくとう・しゃげきに こうかをはっき<S46><*04>,"""Anti-Attack"" trap set! Works on Melee and Shooting!<S46><*04>"
+0DE,0x56E4,「じゅうリょく」のうリょくを えた!<CR>こうげきせいこうリつ <&B34F>ばい!<S46><*04>,"Gained ""Gravity"" power! Attack success rate x<&B34F>!<S46><*04>"
+0DF,0x570C,「たいこうげき」トラップせっち!<CR>かくとう・しゃげきに こうかをはっき<S46><*04>,"""Anti-Attack"" trap set! Works against Melee and Shooting!<S46><*04>"
 0E0,0x5733,すベてのメダロットに<CR>「ヘんどう」の こうか!<S46><*04>,"""Flux"" effect on all Medarots!<S46><*04>"
 0E1,0x574E,すベてのメダロットに<CR>「ていし」の こうか!<S46><*04>,"""Stop"" effect on all Medarots!<S46><*04>"
 0E2,0x5768,すベてのメダロットに<CR>「そくばく」の こうか!<S46><*04>,"""Bind"" effect on all Medarots!<S46><*04>"
@@ -286,7 +286,7 @@ Index,Pointer,Original,Translated
 11C,0x5D93,あっ・・・・・・このメダルは<CR>すでにもっています!<CF>もっている 「<&C560>」メダルと<CR>いれかえますか?<*04>,"Ah...... You already have this Medal!<CF>Swap it for your ""<&C560>"" Medal?<*04>"
 11D,0x5DC7,「<&C560>」メダルを いれかえた<*02>,"Swapped the ""<&C560>"" Medal.<*02>"
 11E,0x5DD8,「<&C560>」メダルを あきらめた<*02>,"Gave up the ""<&C560>"" Medal.<*02>"
-11F,0x5DE9,メダロット1・パーツコレクションから<CR>メダロット2に てんそうします<*02>,Transfer from Medarot 1 / Parts Collection to Medarot 2.<*02>
+11F,0x5DE9,メダロット1・パーツコレクションから<CR>メダロット2に てんそうします<*02>,Transfer from Medarot 1 or Parts Collection to Medarot 2.<*02>
 120,0x5E0D,メニューを えらんでください<*04>,Choose a menu option.<*04>
 121,0x5E1D,1:つうしんケーブルを<CR>  つないでください!<CF>2:メダロット1の しゅじんこうを<CR>  つうしんできるところまで<CF>  いどうさせてください!<CF>3:メダロット2から しじが<CR>  あるまでは メダロット1を<CF>  さわらないでください!<CF>4:メダロット1で くまれていた<CR>  メダロットを さいだい3たい<CF>  1かいのつうしんで<CR>  てんそうできます!<CF>  ただし ティンペットはてんそう<CR>  されません!<CF>5:つうしんケーブルを とちゅうで<CR>  ぬかないでください!<*02>,1: Connect the Link Cable!<CF>2: Move your Medarot 1 hero to a spot<CF>where you can link!<CF>3: Don't touch Medarot 1 until<CF>Medarot 2 tells you to!<CF>4: Up to 3 Medarots assembled in Medarot 1<CF>can be sent in a single link!<CF>But Tinpets won't be sent!<CF>5: Don't unplug the Link Cable midway!<*02>
 122,0x5F06,てんそうをちゅうしします!<*02>,Transfer canceled!<*02>

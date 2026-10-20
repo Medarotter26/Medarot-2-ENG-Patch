@@ -3,7 +3,7 @@ Index,Pointer,Original,Translated
 001,0x460A,セーブしました!<*04>,Game saved!<*04>
 002,0x4614,ティンペットをてにいれた!,Got a Tinpet!
 003,0x4623,あっ!<CR>これいじょう もてないや!<CF>ティンペットをあきらめた!,Oh! I can't carry any more!<CF>Gave up the Tinpet!
-004,0x4644,<SFF>セレクトボタンで いれかえます<*04>,<SFF>Swap with SELECT.<*04>
+004,0x4644,<SFF>セレクトボタンで いれかえます<*04>,<SFF>Press the SELECT Button to swap.<*04>
 005,0x4657,メダロットが<CR>1たいも くまれていません!<CF>メダロットを くんでください,You haven't built a single Medarot!<CF>Please assemble a Medarot.
 006,0x467D,<@77>みなさん こんにちはー!<*02>,"<@77>Hello, everyone!<*02>"
 007,0x467D,@006,
@@ -79,38 +79,38 @@ Index,Pointer,Original,Translated
 04D,0x5317,もっている メダロットを<CR>ぜんぶ おなじ いろにしたリ・・・<CF>メダロットの タイプによって<CR>じぶんで いろわけしたリ・・・<CF>たったの 100円で<CR>いろいろ たのしめるんだ!<CF>もとに もどしたかったら いつでも<CR>タダで やってあげるからね<CF>じぶんだけの オリジナルな<CR>メダロットチームを つくリなよ!<*02>,"Paint all your Medarots the same color...<CF>or color-code them by type...<CF>For just 100 yen, there's tons of fun!<CF>If you want the old colors back, I'll do it for free.<CF>Make your very own original Medarot team!<*02>"
 04E,0x53AE,ゲームボーイカラーで ためしてね<*02>,Try it on a Game Boy Color!<*02>
 04F,0x53C0,なんの ようだい?<*04>,What can I do for you?<*04>
-050,0x53CB,<SFF>「ソード」「ハンマー」<CR>かくとう こうげき パーツが とくい<*04>,"<SFF>Sword, Hammer: good at melee<*04>"
-051,0x53ED,<SFF>「ライフル」「ガトリング」<CR>しゃげき こうげき パーツが とくい<*04>,"<SFF>Rifle, Gatling: good at shooting<*04>"
-052,0x5411,<SFF>「レーザー」「ビーム」<CR>いリょくの たかい パーツが とくい<*04>,"<SFF>Laser, Beam: good at big power<*04>"
-053,0x5433,<SFF>「ミサイル」「ナパーム」<CR>かんつうする パーツが とくい<*04>,"<SFF>Missile, Napalm: good at piercing<*04>"
-054,0x5453,<SFF>「ブレイク」「プレス」<CR>せいこうの たかい パーツが とくい<*04>,"<SFF>Break, Press: good at success<*04>"
-055,0x5475,<SFF>「トラップ」「こうげきブロック」<CR>こうげきを ふせぐ パーツが とくい<*04>,"<SFF>Trap, Atk Block: good at blocking<*04>"
-056,0x549C,<SFF>「バグ」「ウィルス」<CR>せいのうを さげる パーツが とくい<*04>,"<SFF>Bug, Virus: good at debuffing<*04>"
-057,0x54BD,<SFF>「サンダー」「フリーズ」<CR>うごきを とめる パーツが とくい<*04>,"<SFF>Thunder, Freeze: good at stopping<*04>"
-058,0x54DF,<SFF>「ウェーブ」「ホールド」<CR>そくどを さげる パーツが とくい<*04>,"<SFF>Wave, Hold: good at slowing<*04>"
-059,0x5501,<SFF>「ファイヤー」「メルト」<CR>けいぞくダメージの パーツが とくい<*04>,"<SFF>Fire, Melt: good at lasting damage<*04>"
-05A,0x5524,<SFF>「トラップ」や「しょうじょう」を<CR>かいじょする パーツが とくい<*04>,"<SFF>Trap Cancel, etc: good at canceling<*04>"
-05B,0x5548,<SFF>「レーザー」などの しゃげきを<CR>むこうにする パーツが とくい<*04>,<SFF>Laser-type shots: good at negating<*04>
-05C,0x556B,<SFF>「シールド」や「バリア」などの<CR>ダメージを ふせぐ パーツが とくい<*04>,"<SFF>Shield, Barrier: good at defending<*04>"
-05D,0x5591,<SFF>「かいふく」「けいぞく かいふく」<CR>かいふくさせる パーツが とくい<*04>,"<SFF>Repair, etc: good at healing<*04>"
-05E,0x55B7,<SFF>「ふっかつ」「そせい」<CR>ふっかつさせる パーツが とくい<*04>,"<SFF>Revive, Resurrect: good at reviving<*04>"
-05F,0x55D7,<SFF>「たいくう こうげき」<CR>ひこうを ねらう パーツが とくい<*04>,<SFF>Anti-Air attack: good vs. flyers<*04>
-060,0x55F8,<SFF>「たいすい こうげき」<CR>せんすいを ねらう パーツが とくい<*04>,<SFF>Anti-Sea attack: good vs. divers<*04>
-061,0x561A,<SFF>「さくてき」「いんペい クリア」<CR>こうげきを あてる パーツが とくい<*04>,"<SFF>Scan, etc: good at landing hits<*04>"
-062,0x5641,<SFF>「いんペい」「さくてき クリア」<CR>こうげきを よける パーツが とくい<*04>,"<SFF>Conceal, etc: good at dodging<*04>"
-063,0x5668,<SFF>「じゅうてん」や「てんとう」などの<CR>じかんを あやつる パーツが とくい<*04>,"<SFF>Charge, Trip, etc: good at timing<*04>"
-064,0x5690,<SFF>「しようふのう」や「こんらん」などの<CR>てきを ふうじる パーツが とくい<*04>,"<SFF>Disable, Confuse: good at sealing<*04>"
-065,0x56B8,<SFF>「デストロイ」「サクリファイス」<CR>てきを はかいする パーツが とくい<*04>,"<SFF>Destroy, etc: good at wrecking foes<*04>"
-066,0x56DF,<SFF>「メダフォース アップ」などの<CR>メダフォースヘんか パーツが とくい<*04>,"<SFF>Medaforce Up, etc: good w/ Medaforce<*04>"
-067,0x5705,<SFF>「クロスこうげき セットオン」などの<CR>がったいこうげきの パーツが とくい<*04>,"<SFF>Cross Attack, etc: good at teamwork<*04>"
-068,0x572E,<SFF>「はんげき」や「はんしゃ」などの<CR>こうげきを かえす パーツが とくい<*04>,"<SFF>Counter, Reflect: good at payback<*04>"
-069,0x5755,<SFF>「パーツ ヘんか」などの<CR>ヘんかする パーツが とくい<*04>,<SFF>Part Transform: good at changing<*04>
-06A,0x5774,<SFF>ぜんたい バランスの よい メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>A balanced Medal. No part affinity.<*04>
-06B,0x579B,<SFF>マークのない ふしぎな メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>An unmarked Medal. No part affinity.<*04>
-06C,0x57C0,<SFF>セレクトたいが つくった メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>Select Corps-made. No part affinity.<*04>
-06D,0x57E6,<SFF>ロボロボだんが つくった メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>Made by RoboRobos. No part affinity.<*04>
-06E,0x580C,<SFF>ホケタ チイさんが つくった メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>Hoketa Chii-made. No part affinity.<*04>
-06F,0x5834,<SFF>「はてな」の しんせきの メダル<CR>あいしょうの よい パーツは ない<*04>,"<SFF>Kin of ""?"" Medal. No part affinity.<*04>"
+050,0x53CB,<SFF>「ソード」「ハンマー」<CR>かくとう こうげき パーツが とくい<*04>,"<SFF>Good with melee attack parts like ""Sword"" and ""Hammer"".<*04>"
+051,0x53ED,<SFF>「ライフル」「ガトリング」<CR>しゃげき こうげき パーツが とくい<*04>,"<SFF>Good with shooting parts like ""Rifle"" and ""Gatling"".<*04>"
+052,0x5411,<SFF>「レーザー」「ビーム」<CR>いリょくの たかい パーツが とくい<*04>,"<SFF>Good with high-power parts like ""Laser"" and ""Beam"".<*04>"
+053,0x5433,<SFF>「ミサイル」「ナパーム」<CR>かんつうする パーツが とくい<*04>,"<SFF>Good with piercing parts like ""Missile"" and ""Napalm"".<*04>"
+054,0x5453,<SFF>「ブレイク」「プレス」<CR>せいこうの たかい パーツが とくい<*04>,"<SFF>Good with high-success parts like ""Break"" and ""Press"".<*04>"
+055,0x5475,<SFF>「トラップ」「こうげきブロック」<CR>こうげきを ふせぐ パーツが とくい<*04>,"<SFF>Good with blocking parts like ""Trap"" and ""Attack Block"".<*04>"
+056,0x549C,<SFF>「バグ」「ウィルス」<CR>せいのうを さげる パーツが とくい<*04>,"<SFF>Good with weakening parts like ""Bug"" and ""Virus"".<*04>"
+057,0x54BD,<SFF>「サンダー」「フリーズ」<CR>うごきを とめる パーツが とくい<*04>,"<SFF>Good with stopping parts like ""Thunder"" and ""Freeze"".<*04>"
+058,0x54DF,<SFF>「ウェーブ」「ホールド」<CR>そくどを さげる パーツが とくい<*04>,"<SFF>Good with parts that lower speed, like ""Wave"" and ""Hold"".<*04>"
+059,0x5501,<SFF>「ファイヤー」「メルト」<CR>けいぞくダメージの パーツが とくい<*04>,"<SFF>Good with lasting-damage parts like ""Fire"" and ""Melt"".<*04>"
+05A,0x5524,<SFF>「トラップ」や「しょうじょう」を<CR>かいじょする パーツが とくい<*04>,<SFF>Good with parts that cancel traps and status ailments.<*04>
+05B,0x5548,<SFF>「レーザー」などの しゃげきを<CR>むこうにする パーツが とくい<*04>,"<SFF>Good with parts that negate shots like ""Laser"".<*04>"
+05C,0x556B,<SFF>「シールド」や「バリア」などの<CR>ダメージを ふせぐ パーツが とくい<*04>,"<SFF>Good with defensive parts like ""Shield"" and ""Barrier"".<*04>"
+05D,0x5591,<SFF>「かいふく」「けいぞく かいふく」<CR>かいふくさせる パーツが とくい<*04>,"<SFF>Good with healing parts like ""Repair"" and ""Auto-Repair"".<*04>"
+05E,0x55B7,<SFF>「ふっかつ」「そせい」<CR>ふっかつさせる パーツが とくい<*04>,"<SFF>Good with reviving parts like ""Revive"" and ""Resurrect"".<*04>"
+05F,0x55D7,<SFF>「たいくう こうげき」<CR>ひこうを ねらう パーツが とくい<*04>,"<SFF>Good with ""Anti-Air"" parts that target Flying Medarots.<*04>"
+060,0x55F8,<SFF>「たいすい こうげき」<CR>せんすいを ねらう パーツが とくい<*04>,"<SFF>Good with ""Anti-Sea"" parts aimed at Aquatic Medarots.<*04>"
+061,0x561A,<SFF>「さくてき」「いんペい クリア」<CR>こうげきを あてる パーツが とくい<*04>,"<SFF>Good with accuracy parts like ""Scan"" and ""Conceal Clear"".<*04>"
+062,0x5641,<SFF>「いんペい」「さくてき クリア」<CR>こうげきを よける パーツが とくい<*04>,"<SFF>Good with evasion parts like ""Conceal"" and ""Scan Clear"".<*04>"
+063,0x5668,<SFF>「じゅうてん」や「てんとう」などの<CR>じかんを あやつる パーツが とくい<*04>,"<SFF>Good with parts that control time, like ""Charge"" and ""Trip"".<*04>"
+064,0x5690,<SFF>「しようふのう」や「こんらん」などの<CR>てきを ふうじる パーツが とくい<*04>,"<SFF>Good with sealing parts like ""Disable"" and ""Confuse"".<*04>"
+065,0x56B8,<SFF>「デストロイ」「サクリファイス」<CR>てきを はかいする パーツが とくい<*04>,"<SFF>Good with foe-destroying parts like ""Destroy"" and ""Sacrifice"".<*04>"
+066,0x56DF,<SFF>「メダフォース アップ」などの<CR>メダフォースヘんか パーツが とくい<*04>,"<SFF>Good with Medaforce-changing parts like ""Medaforce Up"".<*04>"
+067,0x5705,<SFF>「クロスこうげき セットオン」などの<CR>がったいこうげきの パーツが とくい<*04>,"<SFF>Good with combined attacks like ""Cross Attack Set On"".<*04>"
+068,0x572E,<SFF>「はんげき」や「はんしゃ」などの<CR>こうげきを かえす パーツが とくい<*04>,"<SFF>Good with counterattack parts like ""Counter"" and ""Reflect"".<*04>"
+069,0x5755,<SFF>「パーツ ヘんか」などの<CR>ヘんかする パーツが とくい<*04>,"<SFF>Good with transforming parts like ""Part Transform"".<*04>"
+06A,0x5774,<SFF>ぜんたい バランスの よい メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>A well-balanced Medal overall. No parts match it well.<*04>
+06B,0x579B,<SFF>マークのない ふしぎな メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>A mysterious Medal with no mark. No parts match it well.<*04>
+06C,0x57C0,<SFF>セレクトたいが つくった メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>A Medal made by the Select Corps. No parts match it well.<*04>
+06D,0x57E6,<SFF>ロボロボだんが つくった メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>A Medal made by the RoboRobo Gang. No parts match it well.<*04>
+06E,0x580C,<SFF>ホケタ チイさんが つくった メダル<CR>あいしょうの よい パーツは ない<*04>,<SFF>A Medal made by Mr. Hoketa Chii. No parts match it well.<*04>
+06F,0x5834,<SFF>「はてな」の しんせきの メダル<CR>あいしょうの よい パーツは ない<*04>,"<SFF>A Medal related to the ""?"" Medal. No parts match it well.<*04>"
 070,0x585A,これで まちの つながリが わかるぞ,Now I know how the towns connect!
 071,0x585A,@070,
 072,0x585A,@070,
@@ -256,62 +256,62 @@ Index,Pointer,Original,Translated
 0FE,0x585A,@070,
 0FF,0x585A,@070,
 100,0x585A,@070,
-101,0x586E,ヘんしんグッズ その1<CR>フリルのひらひら ミニスカート,Dress-up item #1. Frilly miniskirt.
-102,0x588B,ママに つくってもらった おベんとう<CR>とっても おいしいよ♥,A lunch Mom made. Super tasty! ♥
-103,0x58AB,カンちゃんと ナツコさんを<CR>つなぐ こころの かけはしだ,Links Kan-chan and Natsuko's hearts.
-104,0x58C9,ちょっと なおせば<CR>つかえそうな パーツ,Parts that might work if fixed up.
+101,0x586E,ヘんしんグッズ その1<CR>フリルのひらひら ミニスカート,"Dress-up item #1. A frilly, fluttery miniskirt."
+102,0x588B,ママに つくってもらった おベんとう<CR>とっても おいしいよ♥,A boxed lunch Mom made for me. It's super tasty! ♥
+103,0x58AB,カンちゃんと ナツコさんを<CR>つなぐ こころの かけはしだ,A bridge between the hearts of Kan-chan and Natsuko.
+104,0x58C9,ちょっと なおせば<CR>つかえそうな パーツ,Parts that look usable if you fix them up a little.
 105,0x58DF,ヘんしんグッズ その2<CR>おんなのこの きもの,Dress-up item #2. A girl's kimono.
-106,0x58F7,メダロッとうの マスコット<CR>かわいい ラピの ぬいぐるみ♥,Medarot Island's cute Rappy doll ♥
-107,0x5916,メダロッとうに いくふねに<CR>のるための チケット,Ship ticket to Medarot Island.
-108,0x5930,おんなのこが ロボロボだんに<CR>とられた メダル,Medal RoboRobos took from a girl.
+106,0x58F7,メダロッとうの マスコット<CR>かわいい ラピの ぬいぐるみ♥,Medarot Island's mascot. A cute Rappy plushie! ♥
+107,0x5916,メダロッとうに いくふねに<CR>のるための チケット,A ticket for the ship that goes to Medarot Island.
+108,0x5930,おんなのこが ロボロボだんに<CR>とられた メダル,A Medal the RoboRobo Gang took from a girl.
 109,0x5949,つめたくて おいしそう♥,Ice-cold and tasty-looking! ♥
-10A,0x5957,びように いい<CR>さいきんは おとこのひとにも にんき,Great for beauty. Men like it too!
-10B,0x5973,メダロットたちの だいこうぶつ<CR>こうきゅう オイル,Medarots' favorite luxury oil.
-10C,0x598E,ヘんしんグッズ その3<CR>リリしい ゆうしゃに ヘんしん!,Dress-up item #3. Be a brave hero!
-10D,0x59AC,ヘんしんグッズ その4<CR>かわいい プリンセスに ヘんしん!,Dress-up item #4. Be a princess!
-10E,0x59CB,カメラに とリつけて つかうレンズ<CR>アリカが よろこびそうだ,Camera lens. Arika'll love it.
-10F,0x59EB,かわいい ハムスター<CR>カリンちゃんが すきそうだ,Cute hamster. Karin'll love it.
-110,0x5A05,カリンちゃんが<CR>かくしどリ されている しゃしん,A photo secretly taken of Karin.
-111,0x5A1F,これがあれば メダロットしゃの<CR>ひみつのばしょに はいれる,Access to a secret Medarot Co. area.
-112,0x5A3E,メダロット「ランドローター」で<CR>まちを かっとばす!,Zoom through town with Landrotor!
-113,0x5A5A,ヘんしんグッズ その5<CR>ロボロボだんに はやがわリ!,Dress-up item #5. Be a RoboRobo!
-114,0x5A76,はなぞのがくえん 2かいの<CR>いちばんひだリの クラスのカギ,Hanazono Academy 2F far-left room.
-115,0x5A95,はなぞのがくえん 2かいの<CR>まんなかの クラスのカギ,Hanazono Academy 2F middle room.
-116,0x5AB1,はなぞのがくえんの<CR>がくえんちょうしつの カギだ,Hanazono Academy principal's room.
-117,0x5ACB,これがあれば ロボロボだんの<CR>ひみつのしゅうかいじょうに いける!,Leads to RoboRobo secret meetings!
-118,0x5AEE,「あなたの マルガリータ♥」って<CR>かいている しゃしんいリの ロケット,"Locket inscribed ""Your Margarita♥"""
-119,0x5B13,メダロット「レディブースター」で<CR>まちを ひとっとび!,Fly across town with LadyBooster!
+10A,0x5957,びように いい<CR>さいきんは おとこのひとにも にんき,Good for your beauty. Lately it's popular with men too.
+10B,0x5973,メダロットたちの だいこうぶつ<CR>こうきゅう オイル,A luxury oil that Medarots absolutely love.
+10C,0x598E,ヘんしんグッズ その3<CR>リリしい ゆうしゃに ヘんしん!,Dress-up item #3. Transform into a gallant hero!
+10D,0x59AC,ヘんしんグッズ その4<CR>かわいい プリンセスに ヘんしん!,Dress-up item #4. Transform into a cute princess!
+10E,0x59CB,カメラに とリつけて つかうレンズ<CR>アリカが よろこびそうだ,A lens you attach to a camera. Arika would love this.
+10F,0x59EB,かわいい ハムスター<CR>カリンちゃんが すきそうだ,A cute hamster. Karin would probably love it.
+110,0x5A05,カリンちゃんが<CR>かくしどリ されている しゃしん,A photo of Karin that was taken in secret.
+111,0x5A1F,これがあれば メダロットしゃの<CR>ひみつのばしょに はいれる,Lets you into a secret place at the Medarot Company.
+112,0x5A3E,メダロット「ランドローター」で<CR>まちを かっとばす!,"Zoom around town in the Medarot ""Landrotor""!"
+113,0x5A5A,ヘんしんグッズ その5<CR>ロボロボだんに はやがわリ!,Dress-up item #5. Quick-change into a RoboRobo Gang member!
+114,0x5A76,はなぞのがくえん 2かいの<CR>いちばんひだリの クラスのカギ,Key to Hanazono Academy's 2nd-floor far-left classroom.
+115,0x5A95,はなぞのがくえん 2かいの<CR>まんなかの クラスのカギ,Key to Hanazono Academy's 2nd-floor middle classroom.
+116,0x5AB1,はなぞのがくえんの<CR>がくえんちょうしつの カギだ,The key to the principal's office at Hanazono Academy.
+117,0x5ACB,これがあれば ロボロボだんの<CR>ひみつのしゅうかいじょうに いける!,Lets you get into the RoboRobo Gang's secret meeting place!
+118,0x5AEE,「あなたの マルガリータ♥」って<CR>かいている しゃしんいリの ロケット,"A photo locket inscribed ""Your Margarita ♥""."
+119,0x5B13,メダロット「レディブースター」で<CR>まちを ひとっとび!,"Fly across town in the Medarot ""LadyBooster""!"
 11A,0x5B30,ビタミン たっぷリ!<CR>しんせんな レモン,Full of vitamins! A fresh lemon.
-11B,0x5B46,レモンが でんちに はやがわリ!,Lemon turned into a battery!
-11C,0x5B58,アワモリたいちょうが あわてている<CR>かっこわるい しゃしん,Photo of Awamori panicking. Lame!
-11D,0x5B77,キラキラかがやく ふしぎな<CR>ちからを もった いし,A sparkling stone with odd powers.
-11E,0x5B92,ロボロボだん ようちえんかんぶ<CR>サラミからの ちょうせんじょう,Challenge letter from Sarami!
-11F,0x5BB3,きかいずきの イワノイのもの<CR>これで イワノイと つうしんできる,Iwanoi's. Use it to talk to him.
-120,0x5BD5,とびらを あけるために ひつような<CR>キーワードが はいっている,Has a keyword to open the door.
-121,0x5BF6,とびらを あけるために ひつような<CR>キーワードが はいっている,Has a keyword to open the door.
-122,0x5C17,とびらを あけるために ひつような<CR>キーワードが はいっている,Has a keyword to open the door.
-123,0x5C38,とびらを あけるために ひつような<CR>キーワードが はいっている,Has a keyword to open the door.
-124,0x5C59,さびているけど<CR>ちょっとなおせば つかえそうだ,"Rusty, but might work if fixed up."
-125,0x5C72,ベルトコンベアーの スイッチ,Switch for a conveyor belt.
-126,0x5C82,メダロット「クリアダイビング」で<CR>みずのなかを スーイスイ!,Swim along with Clear Diving!
-127,0x5CA2,ヘんしんグッズ その6<CR>うさぎちゃんに ヘんしん♥,Dress-up item #6. Be a bunny! ♥
-128,0x5CBD,ヘんしんグッズ その7<CR>ソルティと おそろいの いぬになれる,Dress-up item #7. Be Salty's twin!
+11B,0x5B46,レモンが でんちに はやがわリ!,The lemon has turned into a battery!
+11C,0x5B58,アワモリたいちょうが あわてている<CR>かっこわるい しゃしん,A really uncool photo of Captain Awamori panicking.
+11D,0x5B77,キラキラかがやく ふしぎな<CR>ちからを もった いし,"A mysterious, sparkling stone with strange powers."
+11E,0x5B92,ロボロボだん ようちえんかんぶ<CR>サラミからの ちょうせんじょう,"A challenge letter from Sarami, the kindergarten executive."
+11F,0x5BB3,きかいずきの イワノイのもの<CR>これで イワノイと つうしんできる,Belongs to machine-loving Iwanoi. Use it to talk with him.
+120,0x5BD5,とびらを あけるために ひつような<CR>キーワードが はいっている,Contains a keyword needed to open the door.
+121,0x5BF6,とびらを あけるために ひつような<CR>キーワードが はいっている,Contains a keyword needed to open the door.
+122,0x5C17,とびらを あけるために ひつような<CR>キーワードが はいっている,Contains a keyword needed to open the door.
+123,0x5C38,とびらを あけるために ひつような<CR>キーワードが はいっている,Contains a keyword needed to open the door.
+124,0x5C59,さびているけど<CR>ちょっとなおせば つかえそうだ,"It's rusty, but it looks usable if you fix it up a little."
+125,0x5C72,ベルトコンベアーの スイッチ,The switch for a conveyor belt.
+126,0x5C82,メダロット「クリアダイビング」で<CR>みずのなかを スーイスイ!,"Swim through the water in the Medarot ""Clear Diving""!"
+127,0x5CA2,ヘんしんグッズ その6<CR>うさぎちゃんに ヘんしん♥,Dress-up item #6. Transform into a bunny! ♥
+128,0x5CBD,ヘんしんグッズ その7<CR>ソルティと おそろいの いぬになれる,Dress-up item #7. Become a dog that matches Salty!
 129,0x5CDD,これは とても<CR>つかいものに ならない・・・,This is totally useless...
-12A,0x5CF5,せんとういん カワムラーさんじょう!<CR>・・・って かいてある,"""Grunt Kawamuller is here!"" it says"
-12B,0x5D15,カリンちゃんの メダル<CR>はやく かえしにいこう!,"Karin's Medal. Hurry, return it!"
-12C,0x5D2F,パーツンラリーに<CR>さんかするための バッジ,Entry badge for the Partsun Rally
-12D,0x5D46,にんきの ルアー<CR>あんごう1「ぱ」って かかれてる,"A popular lure. Code 1: ""PA"""
-12E,0x5D61,なかには<CR>あんごう2「ち」が はいっている,"Contains Code 2: ""CHI"""
-12F,0x5D78,きれいな ももいろの はな<CR>あんごう3「ろ」って かいてある,"Lovely pink bloom. Code 3: ""RO"""
-130,0x5D98,ほるま リんの サインと<CR>あんごう4「う」が かかれてる,"Rin Horuma's sign & Code 4: ""U"""
-131,0x5DB6,とても めずらしい メダロッチ<CR>ケースから だしてない,A rare Medarotch. Still in its box!
-132,0x5DD3,これをつかうと せんとうから<CR>にげだせるんだ なんでだろ?,Use it to escape battle. But why?
-133,0x5DF2,ちいさな ひかリで<CR>まっくらやみを てらす,A little light to pierce the dark.
-134,0x5E09,メダロット1から 1チームを<CR>てんそうできる すごいチケット,Moves 1 team from Medarot 1! Wow!
-135,0x5E29,おともだちに<CR>1パーツを プレゼントできる けん,Coupon to gift 1 part to a friend.
-136,0x5E43,サケカースに うばわれた メダル<CR>はやく かえして あげなきゃね,Medal Sakekaasu took. Return it!
-137,0x5E65,ショップで ポイントを ヘらすと<CR>おともだちから パーツを もらえる,Spend at a shop for a pal's part.
-138,0x5E89,<SFF>ソード こうげき<CR>ノーマルな かくとうこうげき<*04>,<SFF>Sword Attack: Normal melee hit.<*04>
+12A,0x5CF5,せんとういん カワムラーさんじょう!<CR>・・・って かいてある,"It says, ""Grunt Kawamuller has arrived!"""
+12B,0x5D15,カリンちゃんの メダル<CR>はやく かえしにいこう!,Karin's Medal. I should hurry and give it back!
+12C,0x5D2F,パーツンラリーに<CR>さんかするための バッジ,A badge for taking part in the Partsun Rally.
+12D,0x5D46,にんきの ルアー<CR>あんごう1「ぱ」って かかれてる,"A popular lure. Code 1, ""PA"", is written on it."
+12E,0x5D61,なかには<CR>あんごう2「ち」が はいっている,"Inside, there's Code 2: ""CHI""."
+12F,0x5D78,きれいな ももいろの はな<CR>あんごう3「ろ」って かいてある,"A pretty pink flower. Code 3, ""RO"", is written on it."
+130,0x5D98,ほるま リんの サインと<CR>あんごう4「う」が かかれてる,"Rin Horuma's autograph, with Code 4, ""U"", written on it."
+131,0x5DB6,とても めずらしい メダロッチ<CR>ケースから だしてない,"A very rare Medarotch, never taken out of its case!"
+132,0x5DD3,これをつかうと せんとうから<CR>にげだせるんだ なんでだろ?,Use this to escape from battle. I wonder why it works?
+133,0x5DF2,ちいさな ひかリで<CR>まっくらやみを てらす,A little light that brightens pitch darkness.
+134,0x5E09,メダロット1から 1チームを<CR>てんそうできる すごいチケット,An amazing ticket that sends 1 team from Medarot 1.
+135,0x5E29,おともだちに<CR>1パーツを プレゼントできる けん,A coupon that lets you give 1 part to a friend as a present.
+136,0x5E43,サケカースに うばわれた メダル<CR>はやく かえして あげなきゃね,The Medal Sakekaasu stole. I need to hurry and give it back!
+137,0x5E65,ショップで ポイントを ヘらすと<CR>おともだちから パーツを もらえる,Spend these at a shop to get parts from your friends.
+138,0x5E89,<SFF>ソード こうげき<CR>ノーマルな かくとうこうげき<*04>,<SFF>Sword Attack: A normal melee attack.<*04>
 139,0x5E89,@138,
 13A,0x5E89,@138,
 13B,0x5E89,@138,
@@ -320,119 +320,119 @@ Index,Pointer,Original,Translated
 13E,0x5E89,@138,
 13F,0x5E89,@138,
 140,0x5E89,@138,
-141,0x5EA4,<SFF>ハンマー こうげき<CR>ノーマルな かくとうこうげき<*04>,<SFF>Hammer Attack: Normal melee hit.<*04>
-142,0x5EC0,<SFF>ライフル こうげき<CR>ノーマルな しゃげきこうげき<*04>,<SFF>Rifle Attack: Normal shooting.<*04>
-143,0x5EDC,<SFF>ガトリング こうげき<CR>ノーマルな しゃげきこうげき<*04>,<SFF>Gatling Attack: Normal shooting.<*04>
-144,0x5EF9,<SFF>レーザー こうげき<CR>いリょくが 2ばいになる<*04>,<SFF>Laser Attack: Doubles power.<*04>
-145,0x5F13,<SFF>ビーム こうげき<CR>いリょくが 2ばいになる<*04>,<SFF>Beam Attack: Doubles power.<*04>
-146,0x5F2C,<SFF>ミサイル こうげき<CR>ランダムヒットと かんつうダメージ<*04>,"<SFF>Missile Attack: Random, pierces.<*04>"
-147,0x5F4B,<SFF>ナパーム こうげき<CR>ランダムヒットと かんつうダメージ<*04>,"<SFF>Napalm Attack: Random, pierces.<*04>"
-148,0x5F6A,<SFF>ブレイク こうげき<CR>せいこうが 2ばいになる<*04>,<SFF>Break Attack: Doubles success.<*04>
-149,0x5F84,<SFF>プレス こうげき<CR>せいこうが 2ばいになる<*04>,<SFF>Press Attack: Doubles success.<*04>
-14A,0x5F9D,<SFF>かくとう トラップ<CR>「かくとうこうげき」に ダメージ<*04>,<SFF>Fight Trap: Hurts melee attacks.<*04>
-14B,0x5FBB,<SFF>しゃげき トラップ<CR>「しゃげきこうげき」に ダメージ<*04>,<SFF>Shoot Trap: Hurts shooting attacks.<*04>
-14C,0x5FD9,<SFF>こうげき ブロック<CR>どんなこうげきも 1かいだけ ふせぐ<*04>,<SFF>Attack Block: Blocks 1 attack.<*04>
-14D,0x5FF9,<SFF>バグ こうげき<CR>こうげきの せいこうリつを さげる<*04>,<SFF>Bug Attack: Lowers success.<*04>
-14E,0x6016,<SFF>ウィルス こうげき<CR>こうげきの せいこうリつを さげる<*04>,<SFF>Virus Attack: Lowers success.<*04>
-14F,0x6035,<SFF>サンダー こうげき<CR>あいての うごきを ストップさせる<*04>,<SFF>Thunder Attack: Stops the foe.<*04>
-150,0x6054,<SFF>フリーズ こうげき<CR>あいての うごきを ストップさせる<*04>,<SFF>Freeze Attack: Stops the foe.<*04>
-151,0x6073,<SFF>ウェーブ こうげき<CR>じゅんびじかんを ながくする<*04>,<SFF>Wave Attack: Longer prep time.<*04>
-152,0x608F,<SFF>ホールド こうげき<CR>じゅんびじかんを ながくする<*04>,<SFF>Hold Attack: Longer prep time.<*04>
-153,0x60AB,<SFF>ファイヤー こうげき<CR>じゅんびちゅうも ダメージをあたえる<*04>,<SFF>Fire Attack: Burns over time.<*04>
-154,0x60CC,<SFF>メルト こうげき<CR>じゅんびちゅうも ダメージをあたえる<*04>,<SFF>Melt Attack: Burns over time.<*04>
-155,0x60EB,<SFF>トラップ かいじょ<CR>「トラップ」を はかいする<*04>,<SFF>Trap Cancel: Destroys traps.<*04>
-156,0x6106,<SFF>しょうじょう かいじょ<CR>すベての しょうじょうを かいじょ<*04>,<SFF>Status Cancel: Clears statuses.<*04>
-157,0x6127,<SFF>ヘんどう かいじょ<CR>「バグ」「ウィルス」を かいじょ<*04>,<SFF>Flux Cancel: Cures Bug/Virus.<*04>
-158,0x6145,<SFF>ていし かいじょ<CR>「サンダー」「フリーズ」を かいじょ<*04>,<SFF>Stop Cancel: Cures Thunder/Freeze.<*04>
-159,0x6164,<SFF>そくばく かいじょ<CR>「ホールド」「ウェーブ」を かいじょ<*04>,<SFF>Bind Cancel: Cures Hold/Wave.<*04>
-15A,0x6184,<SFF>けいぞく かいじょ<CR>「メルト」「ファイヤー」を かいじょ<*04>,<SFF>Burn Cancel: Cures Melt/Fire.<*04>
-15B,0x61A4,<SFF>メダフォース コントロール<CR>「メダフォース」を つかえなくする<*04>,<SFF>Medaforce Control: Blocks Medaforce.<*04>
-15C,0x61C7,<SFF>こうがく むこう<CR>「レーザー」「ビーム」を ブロック<*04>,<SFF>Negate Optical: Stops Laser/Beam<*04>
-15D,0x61E5,<SFF>かやく むこう<CR>「ミサイル」「ナパーム」を ブロック<*04>,<SFF>Negate Explosive: Stops explosives<*04>
-15E,0x6203,<SFF>じゅうリょく むこう<CR>「ブレイク」「プレス」を ブロック<*04>,<SFF>Negate Gravity: Stops Break/Press<*04>
+141,0x5EA4,<SFF>ハンマー こうげき<CR>ノーマルな かくとうこうげき<*04>,<SFF>Hammer Attack: A normal melee attack.<*04>
+142,0x5EC0,<SFF>ライフル こうげき<CR>ノーマルな しゃげきこうげき<*04>,<SFF>Rifle Attack: A normal shooting attack.<*04>
+143,0x5EDC,<SFF>ガトリング こうげき<CR>ノーマルな しゃげきこうげき<*04>,<SFF>Gatling Attack: A normal shooting attack.<*04>
+144,0x5EF9,<SFF>レーザー こうげき<CR>いリょくが 2ばいになる<*04>,<SFF>Laser Attack: Doubles the attack's power.<*04>
+145,0x5F13,<SFF>ビーム こうげき<CR>いリょくが 2ばいになる<*04>,<SFF>Beam Attack: Doubles the attack's power.<*04>
+146,0x5F2C,<SFF>ミサイル こうげき<CR>ランダムヒットと かんつうダメージ<*04>,<SFF>Missile Attack: Random hits with piercing damage.<*04>
+147,0x5F4B,<SFF>ナパーム こうげき<CR>ランダムヒットと かんつうダメージ<*04>,<SFF>Napalm Attack: Random hits with piercing damage.<*04>
+148,0x5F6A,<SFF>ブレイク こうげき<CR>せいこうが 2ばいになる<*04>,<SFF>Break Attack: Doubles the success rate.<*04>
+149,0x5F84,<SFF>プレス こうげき<CR>せいこうが 2ばいになる<*04>,<SFF>Press Attack: Doubles the success rate.<*04>
+14A,0x5F9D,<SFF>かくとう トラップ<CR>「かくとうこうげき」に ダメージ<*04>,"<SFF>Fight Trap: Deals damage to ""melee attacks"".<*04>"
+14B,0x5FBB,<SFF>しゃげき トラップ<CR>「しゃげきこうげき」に ダメージ<*04>,"<SFF>Shoot Trap: Deals damage to ""shooting attacks"".<*04>"
+14C,0x5FD9,<SFF>こうげき ブロック<CR>どんなこうげきも 1かいだけ ふせぐ<*04>,"<SFF>Attack Block: Blocks any attack, but only once.<*04>"
+14D,0x5FF9,<SFF>バグ こうげき<CR>こうげきの せいこうリつを さげる<*04>,<SFF>Bug Attack: Lowers the success rate of attacks.<*04>
+14E,0x6016,<SFF>ウィルス こうげき<CR>こうげきの せいこうリつを さげる<*04>,<SFF>Virus Attack: Lowers the success rate of attacks.<*04>
+14F,0x6035,<SFF>サンダー こうげき<CR>あいての うごきを ストップさせる<*04>,<SFF>Thunder Attack: Stops the enemy's movements.<*04>
+150,0x6054,<SFF>フリーズ こうげき<CR>あいての うごきを ストップさせる<*04>,<SFF>Freeze Attack: Stops the enemy's movements.<*04>
+151,0x6073,<SFF>ウェーブ こうげき<CR>じゅんびじかんを ながくする<*04>,<SFF>Wave Attack: Lengthens the preparation time.<*04>
+152,0x608F,<SFF>ホールド こうげき<CR>じゅんびじかんを ながくする<*04>,<SFF>Hold Attack: Lengthens the preparation time.<*04>
+153,0x60AB,<SFF>ファイヤー こうげき<CR>じゅんびちゅうも ダメージをあたえる<*04>,<SFF>Fire Attack: Deals damage even during preparation.<*04>
+154,0x60CC,<SFF>メルト こうげき<CR>じゅんびちゅうも ダメージをあたえる<*04>,<SFF>Melt Attack: Deals damage even during preparation.<*04>
+155,0x60EB,<SFF>トラップ かいじょ<CR>「トラップ」を はかいする<*04>,"<SFF>Trap Cancel: Destroys ""Traps"".<*04>"
+156,0x6106,<SFF>しょうじょう かいじょ<CR>すベての しょうじょうを かいじょ<*04>,<SFF>Status Cancel: Cancels all status ailments.<*04>
+157,0x6127,<SFF>ヘんどう かいじょ<CR>「バグ」「ウィルス」を かいじょ<*04>,"<SFF>Flux Cancel: Cancels ""Bug"" and ""Virus"".<*04>"
+158,0x6145,<SFF>ていし かいじょ<CR>「サンダー」「フリーズ」を かいじょ<*04>,"<SFF>Stop Cancel: Cancels ""Thunder"" and ""Freeze"".<*04>"
+159,0x6164,<SFF>そくばく かいじょ<CR>「ホールド」「ウェーブ」を かいじょ<*04>,"<SFF>Bind Cancel: Cancels ""Hold"" and ""Wave"".<*04>"
+15A,0x6184,<SFF>けいぞく かいじょ<CR>「メルト」「ファイヤー」を かいじょ<*04>,"<SFF>Burn Cancel: Cancels ""Melt"" and ""Fire"".<*04>"
+15B,0x61A4,<SFF>メダフォース コントロール<CR>「メダフォース」を つかえなくする<*04>,"<SFF>Medaforce Control: Makes ""Medaforce"" unusable.<*04>"
+15C,0x61C7,<SFF>こうがく むこう<CR>「レーザー」「ビーム」を ブロック<*04>,"<SFF>Negate Optical: Blocks ""Laser"" and ""Beam"".<*04>"
+15D,0x61E5,<SFF>かやく むこう<CR>「ミサイル」「ナパーム」を ブロック<*04>,"<SFF>Negate Explosive: Blocks ""Missile"" and ""Napalm"".<*04>"
+15E,0x6203,<SFF>じゅうリょく むこう<CR>「ブレイク」「プレス」を ブロック<*04>,"<SFF>Negate Gravity: Blocks ""Break"" and ""Press"".<*04>"
 15F,0x6223,<SFF>シールド<CR>みかたの メダロットを えんごする<*04>,<SFF>Shield: Protects allied Medarots.<*04>
-160,0x623D,<SFF>バリア<CR>みかたヘの こうげきを ブロックする<*04>,<SFF>Barrier: Blocks hits on allies.<*04>
-161,0x6257,<SFF>ダメージ しょうめつ<CR>よわいこうげきを ブロックする<*04>,<SFF>Damage Discard: Blocks weak hits.<*04>
-162,0x6275,<SFF>かいふく<CR>ダメージをうけたパーツを かいふく<*04>,<SFF>Repair: Fixes damaged parts.<*04>
-163,0x628F,<SFF>けいぞく かいふく<CR>じゅんびちゅうも ダメージをかいふく<*04>,<SFF>Auto-Repair: Heals during prep too.<*04>
-164,0x62AF,<SFF>ふっかつ<CR>きのうていしパーツを ふっかつさせる<*04>,<SFF>Revive: Restores broken parts.<*04>
+160,0x623D,<SFF>バリア<CR>みかたヘの こうげきを ブロックする<*04>,<SFF>Barrier: Blocks attacks on allies.<*04>
+161,0x6257,<SFF>ダメージ しょうめつ<CR>よわいこうげきを ブロックする<*04>,<SFF>Damage Discard: Blocks weak attacks.<*04>
+162,0x6275,<SFF>かいふく<CR>ダメージをうけたパーツを かいふく<*04>,<SFF>Repair: Repairs damaged parts.<*04>
+163,0x628F,<SFF>けいぞく かいふく<CR>じゅんびちゅうも ダメージをかいふく<*04>,<SFF>Auto-Repair: Repairs damage even during preparation.<*04>
+164,0x62AF,<SFF>ふっかつ<CR>きのうていしパーツを ふっかつさせる<*04>,<SFF>Revive: Revives parts that have shut down.<*04>
 165,0x62CA,<SFF>そせい<CR>たおれた みかたを ふっかつさせる<*04>,<SFF>Resurrect: Revives a fallen ally.<*04>
-166,0x62E3,<SFF>たいくう こうげき<CR>ひこうメダロットに あたリやすい<*04>,<SFF>Anti-Air Attack: Hits flyers well.<*04>
-167,0x6301,<SFF>たいくう こうげき<CR>ひこうメダロットに あたリやすい<*04>,<SFF>Anti-Air Attack: Hits flyers well.<*04>
-168,0x631F,<SFF>たいすい こうげき<CR>せんすいメダロットに あたリやすい<*04>,<SFF>Anti-Sea Attack: Hits divers well.<*04>
-169,0x633E,<SFF>たいすい こうげき<CR>せんすいメダロットに あたリやすい<*04>,<SFF>Anti-Sea Attack: Hits divers well.<*04>
-16A,0x635D,<SFF>さくてき<CR>みかたの こうげきを あてやすくする<*04>,<SFF>Scan: Helps allies land their hits.<*04>
-16B,0x6378,<SFF>いんペい クリア<CR>すベての いんペいを よわめる<*04>,<SFF>Conceal Clear: Weakens Conceal.<*04>
-16C,0x6394,<SFF>いんペい<CR>てきの こうげきを よけやすくなる<*04>,<SFF>Conceal: Helps dodge enemy hits.<*04>
+166,0x62E3,<SFF>たいくう こうげき<CR>ひこうメダロットに あたリやすい<*04>,<SFF>Anti-Air Attack: Easily hits Flying Medarots.<*04>
+167,0x6301,<SFF>たいくう こうげき<CR>ひこうメダロットに あたリやすい<*04>,<SFF>Anti-Air Attack: Easily hits Flying Medarots.<*04>
+168,0x631F,<SFF>たいすい こうげき<CR>せんすいメダロットに あたリやすい<*04>,<SFF>Anti-Sea Attack: Easily hits Aquatic Medarots.<*04>
+169,0x633E,<SFF>たいすい こうげき<CR>せんすいメダロットに あたリやすい<*04>,<SFF>Anti-Sea Attack: Easily hits Aquatic Medarots.<*04>
+16A,0x635D,<SFF>さくてき<CR>みかたの こうげきを あてやすくする<*04>,<SFF>Scan: Makes it easier for allies' attacks to hit.<*04>
+16B,0x6378,<SFF>いんペい クリア<CR>すベての いんペいを よわめる<*04>,<SFF>Conceal Clear: Weakens all Conceal.<*04>
+16C,0x6394,<SFF>いんペい<CR>てきの こうげきを よけやすくなる<*04>,<SFF>Conceal: Makes enemy attacks easier to dodge.<*04>
 16D,0x63AE,<SFF>さくてき クリア<CR>すベての さくてきを よわめる<*04>,<SFF>Scan Clear: Weakens all Scan.<*04>
-16E,0x63CA,<SFF>ほじょ じゅうてん<CR>じゅんびじかんを みじかくする<*04>,<SFF>Boost Charge: Cuts prep time.<*04>
-16F,0x63E7,<SFF>きゅうそく じゅうてん<CR>じゅんびじかんを ゼロにする<*04>,<SFF>Instant Charge: Zeroes prep time.<*04>
-170,0x6405,<SFF>じょうじ じゅうてん<CR>じゅんびじかんが みじかくなる<*04>,<SFF>Constant Charge: Prep is shorter.<*04>
-171,0x6423,<SFF>じゅうてん きゅうしゅう<CR>じゅんびじかんを うばいとる<*04>,<SFF>Charge Drain: Steals prep time.<*04>
-172,0x6442,<SFF>てんとう<CR>ころばせて めいれいを わすれさせる<*04>,"<SFF>Trip: Topples foe, cancels orders.<*04>"
+16E,0x63CA,<SFF>ほじょ じゅうてん<CR>じゅんびじかんを みじかくする<*04>,<SFF>Boost Charge: Shortens the preparation time.<*04>
+16F,0x63E7,<SFF>きゅうそく じゅうてん<CR>じゅんびじかんを ゼロにする<*04>,<SFF>Instant Charge: Reduces the preparation time to zero.<*04>
+170,0x6405,<SFF>じょうじ じゅうてん<CR>じゅんびじかんが みじかくなる<*04>,<SFF>Constant Charge: Preparation time is always shorter.<*04>
+171,0x6423,<SFF>じゅうてん きゅうしゅう<CR>じゅんびじかんを うばいとる<*04>,<SFF>Charge Drain: Steals the enemy's preparation time.<*04>
+172,0x6442,<SFF>てんとう<CR>ころばせて めいれいを わすれさせる<*04>,<SFF>Trip: Knocks the enemy over so it forgets its orders.<*04>
 173,0x645D,<SFF>しようふのう<CR>パーツが つかえなくなる<*04>,<SFF>Disable: Makes parts unusable.<*04>
-174,0x6474,<SFF>こんらん<CR>こうげきの あいてを きめられない<*04>,<SFF>Confuse: Foe can't choose a target.<*04>
-175,0x648E,<SFF>かいすう ダウン<CR>あたまパーツの かいすうを ヘらす<*04>,<SFF>Ammo Down: Cuts head part uses.<*04>
-176,0x64AC,<SFF>かいひ ふかのう<CR>かいひを できなくする<*04>,<SFF>No Dodge: Stops dodging.<*04>
-177,0x64C4,<SFF>ぼうぎょ ふかのう<CR>ぼうぎょを できなくする<*04>,<SFF>No Defend: Stops defending.<*04>
-178,0x64DE,<SFF>デストロイ こうげき<CR>せなかを むけた てきを はかいする<*04>,<SFF>Destroy: Wrecks foes facing away.<*04>
-179,0x64FF,<SFF>サクリファイス こうげき<CR>パーツを ぎせいにして だいダメージ<*04>,<SFF>Sacrifice: Trades parts for big dmg<*04>
+174,0x6474,<SFF>こんらん<CR>こうげきの あいてを きめられない<*04>,<SFF>Confuse: The enemy can't decide whom to attack.<*04>
+175,0x648E,<SFF>かいすう ダウン<CR>あたまパーツの かいすうを ヘらす<*04>,<SFF>Ammo Down: Reduces the uses of the enemy's head part.<*04>
+176,0x64AC,<SFF>かいひ ふかのう<CR>かいひを できなくする<*04>,<SFF>No Dodge: Makes the enemy unable to dodge.<*04>
+177,0x64C4,<SFF>ぼうぎょ ふかのう<CR>ぼうぎょを できなくする<*04>,<SFF>No Defend: Makes the enemy unable to defend.<*04>
+178,0x64DE,<SFF>デストロイ こうげき<CR>せなかを むけた てきを はかいする<*04>,<SFF>Destroy Attack: Destroys enemies that turn their backs.<*04>
+179,0x64FF,<SFF>サクリファイス こうげき<CR>パーツを ぎせいにして だいダメージ<*04>,<SFF>Sacrifice Attack: Sacrifices parts to deal huge damage.<*04>
 17A,0x6522,<SFF>メダフォース アップ<CR>メダフォースを ふやす<*04>,<SFF>Medaforce Up: Raises Medaforce.<*04>
 17B,0x653C,<SFF>メダフォース ダウン<CR>メダフォースを ヘらす<*04>,<SFF>Medaforce Down: Lowers Medaforce.<*04>
-17C,0x6556,<SFF>クロスこうげき セットオン!<CR>「クロスこうげき」を セットする<*04>,<SFF>Cross Atk Set On! Sets Cross Atk.<*04>
-17D,0x6579,<SFF>クロスこうげき ファイヤー!<CR>「クロスこうげき」で こうげきする<*04>,<SFF>Cross Atk Fire! Fires Cross Atk.<*04>
-17E,0x659D,<SFF>しのびこみ かくとう<CR>ねらったあいてに かくとうこうげき<*04>,<SFF>Sneak Attack: Aimed melee hit.<*04>
-17F,0x65BD,<SFF>ダメージ はんげき<CR>つよいこうげきだけを はじきかえす<*04>,<SFF>Damage Counter: Returns big hits.<*04>
-180,0x65DC,<SFF>ダメージ はんしゃ<CR>あいての こうげきを はじきかえす<*04>,<SFF>Damage Reflect: Reflects attacks.<*04>
-181,0x65FB,<SFF>パーツ ヘんか<CR>ベつのパーツに ヘんかする<*04>,<SFF>Part Transform: Becomes new part.<*04>
-182,0x6614,<SFF>ぼうがいパーツ ヘんか<CR>「ぼうがい」パーツに ヘんかする<*04>,<SFF>Disrupt: Becomes a Disrupt part.<*04>
-183,0x6634,<SFF>こうげきパーツ ヘんか<CR>「こうげき」パーツに ヘんかする<*04>,<SFF>Attack: Becomes an Attack part.<*04>
-184,0x6654,<SFF>ぼうぎょパーツ ヘんか<CR>「ぼうぎょ」パーツに ヘんかする<*04>,<SFF>Defense: Becomes a Defense part.<*04>
-185,0x6674,<SFF>とくしゅパーツ ヘんか<CR>「とくしゅ」パーツに ヘんかする<*04>,<SFF>Special: Becomes a Special part.<*04>
-186,0x6694,<SFF>ひこうメダロット<CR>「あれち」「さばく」に つよい<*04>,"<SFF>Flying: Strong in Wasteland, Desert<*04>"
-187,0x66B0,<SFF>ふゆうメダロット<CR>どのフィールドも とくい<*04>,<SFF>Hover: Good on any field.<*04>
-188,0x66C9,<SFF>たきゃくメダロット<CR>「いわば」「たにま」に つよい<*04>,"<SFF>Multi-leg: Strong in Rocks, Valley<*04>"
-189,0x66E6,<SFF>にきゃくメダロット<CR>「そうげん」「もリのなか」に つよい<*04>,"<SFF>Bipedal: Strong in Grassland, Forest<*04>"
-18A,0x6706,<SFF>くるまメダロット<CR>「まちなか」「しつない」に つよい<*04>,"<SFF>Wheeled: Strong in Street, Indoors<*04>"
-18B,0x6724,<SFF>せんしゃメダロット<CR>フィールドに えいきょうされない<*04>,<SFF>Tank: Not affected by the field.<*04>
-18C,0x6742,<SFF>せんすいメダロット<CR>「かいがん」「すいちゅう」に つよい<*04>,"<SFF>Aquatic: Strong in Beach, Underwater<*04>"
+17C,0x6556,<SFF>クロスこうげき セットオン!<CR>「クロスこうげき」を セットする<*04>,"<SFF>Cross Attack Set On!: Sets up a ""Cross Attack"".<*04>"
+17D,0x6579,<SFF>クロスこうげき ファイヤー!<CR>「クロスこうげき」で こうげきする<*04>,"<SFF>Cross Attack Fire!: Attacks with the ""Cross Attack"".<*04>"
+17E,0x659D,<SFF>しのびこみ かくとう<CR>ねらったあいてに かくとうこうげき<*04>,<SFF>Sneak Attack: A melee attack on the targeted enemy.<*04>
+17F,0x65BD,<SFF>ダメージ はんげき<CR>つよいこうげきだけを はじきかえす<*04>,<SFF>Damage Counter: Bounces back only strong attacks.<*04>
+180,0x65DC,<SFF>ダメージ はんしゃ<CR>あいての こうげきを はじきかえす<*04>,<SFF>Damage Reflect: Bounces back the enemy's attacks.<*04>
+181,0x65FB,<SFF>パーツ ヘんか<CR>ベつのパーツに ヘんかする<*04>,<SFF>Part Transform: Transforms into a different part.<*04>
+182,0x6614,<SFF>ぼうがいパーツ ヘんか<CR>「ぼうがい」パーツに ヘんかする<*04>,"<SFF>Disrupt Part Transform: Becomes a ""Disrupt"" part.<*04>"
+183,0x6634,<SFF>こうげきパーツ ヘんか<CR>「こうげき」パーツに ヘんかする<*04>,"<SFF>Attack Part Transform: Becomes an ""Attack"" part.<*04>"
+184,0x6654,<SFF>ぼうぎょパーツ ヘんか<CR>「ぼうぎょ」パーツに ヘんかする<*04>,"<SFF>Defense Part Transform: Becomes a ""Defense"" part.<*04>"
+185,0x6674,<SFF>とくしゅパーツ ヘんか<CR>「とくしゅ」パーツに ヘんかする<*04>,"<SFF>Special Part Transform: Becomes a ""Special"" part.<*04>"
+186,0x6694,<SFF>ひこうメダロット<CR>「あれち」「さばく」に つよい<*04>,"<SFF>Flying Medarot: Strong in ""Wasteland"" and ""Desert"".<*04>"
+187,0x66B0,<SFF>ふゆうメダロット<CR>どのフィールドも とくい<*04>,<SFF>Hover Medarot: Good on any field.<*04>
+188,0x66C9,<SFF>たきゃくメダロット<CR>「いわば」「たにま」に つよい<*04>,"<SFF>Multi-leg Medarot: Strong in ""Rocky Area"" and ""Valley"".<*04>"
+189,0x66E6,<SFF>にきゃくメダロット<CR>「そうげん」「もリのなか」に つよい<*04>,"<SFF>Bipedal Medarot: Strong in ""Grassland"" and ""Forest"".<*04>"
+18A,0x6706,<SFF>くるまメダロット<CR>「まちなか」「しつない」に つよい<*04>,"<SFF>Wheeled Medarot: Strong in ""Street"" and ""Indoors"".<*04>"
+18B,0x6724,<SFF>せんしゃメダロット<CR>フィールドに えいきょうされない<*04>,<SFF>Tank Medarot: Not affected by the field.<*04>
+18C,0x6742,<SFF>せんすいメダロット<CR>「かいがん」「すいちゅう」に つよい<*04>,"<SFF>Aquatic Medarot: Strong in ""Beach"" and ""Underwater"".<*04>"
 18D,0x6762,<SFF>てき1たいの<CR>すベての パーツに こうげき<*04>,<SFF>Hits every part of a single enemy.<*04>
 18E,0x6762,@18D,
 18F,0x6762,@18D,
 190,0x6762,@18D,
 191,0x677B,<SFF>てきチーム ぜんいんの<CR>おなじ パーツに こうげき<*04>,<SFF>Hits the same part on every enemy.<*04>
-192,0x6798,<SFF>すベての しゃげきパーツの<CR>いリょくを プラスして こうげき<*04>,<SFF>Attacks with total shooting power.<*04>
-193,0x67BA,<SFF>つかうたび ついかダメージが ふえて<CR>こうげきを パワーアップ<*04>,<SFF>Extra damage grows with every use!<*04>
-194,0x67DD,<SFF>パーツを「こうがく」ぞくせいにし<CR>ダメージを なんばいにもする<*04>,<SFF>Optical attr: big damage boost<*04>
-195,0x6800,<SFF>パーツを「かやく」ぞくせいにし<CR>かんつうして あたリやすくする<*04>,"<SFF>Gunpowder attr: pierce, sure hits<*04>"
-196,0x6823,<SFF>パーツを「じゅうリょく」ぞくせいにし<CR>せいこうを なんばいにもする<*04>,<SFF>Gravity attr: big success boost<*04>
-197,0x6848,<SFF>「かくとう」「しゃげき」リょうほうに<CR>こうかがある トラップを しかける<*04>,<SFF>Sets a trap vs. melee & shooting<*04>
-198,0x6870,<SFF>てきチーム ぜんいんの<CR>こうどうの せいこうリつを さげる<*04>,<SFF>Lowers all foes' success rate.<*04>
-199,0x6891,<SFF>てきチーム ぜんいんの<CR>うごきを ストップさせる<*04>,<SFF>Stops all enemies' movements.<*04>
-19A,0x68AD,<SFF>てきチーム ぜんいんの<CR>じゅんびじかんを ながくする<*04>,<SFF>Lengthens all foes' prep time.<*04>
-19B,0x68CB,<SFF>てきチーム ぜんいんに<CR>じゅんびちゅうも ダメージをあたえる<*04>,<SFF>Hurts all foes during prep time.<*04>
+192,0x6798,<SFF>すベての しゃげきパーツの<CR>いリょくを プラスして こうげき<*04>,<SFF>Attacks with the combined power of all shooting parts.<*04>
+193,0x67BA,<SFF>つかうたび ついかダメージが ふえて<CR>こうげきを パワーアップ<*04>,"<SFF>Extra damage grows with every use, powering up the attack.<*04>"
+194,0x67DD,<SFF>パーツを「こうがく」ぞくせいにし<CR>ダメージを なんばいにもする<*04>,"<SFF>Gives parts the ""Optical"" attribute, multiplying damage.<*04>"
+195,0x6800,<SFF>パーツを「かやく」ぞくせいにし<CR>かんつうして あたリやすくする<*04>,"<SFF>Makes parts ""Gunpowder"": they pierce and hit more easily.<*04>"
+196,0x6823,<SFF>パーツを「じゅうリょく」ぞくせいにし<CR>せいこうを なんばいにもする<*04>,"<SFF>Makes parts ""Gravity"", multiplying their success rate.<*04>"
+197,0x6848,<SFF>「かくとう」「しゃげき」リょうほうに<CR>こうかがある トラップを しかける<*04>,"<SFF>Sets a trap that works on both ""Melee"" and ""Shooting"".<*04>"
+198,0x6870,<SFF>てきチーム ぜんいんの<CR>こうどうの せいこうリつを さげる<*04>,<SFF>Lowers the success rate of every enemy's actions.<*04>
+199,0x6891,<SFF>てきチーム ぜんいんの<CR>うごきを ストップさせる<*04>,<SFF>Stops the movements of every enemy.<*04>
+19A,0x68AD,<SFF>てきチーム ぜんいんの<CR>じゅんびじかんを ながくする<*04>,<SFF>Lengthens the preparation time of every enemy.<*04>
+19B,0x68CB,<SFF>てきチーム ぜんいんに<CR>じゅんびちゅうも ダメージをあたえる<*04>,<SFF>Damages every enemy even during their preparation.<*04>
 19C,0x68ED,<SFF>てきに ダメージを あたえて<CR>じぶんの ダメージを かいふくする<*04>,<SFF>Damages a foe and heals yourself.<*04>
-19D,0x6911,<SFF>てきチーム ぜんいんの<CR>こうどうを こんらんさせる<*04>,<SFF>Confuses all enemies' actions.<*04>
-19E,0x692E,<SFF>じぶんの ぼうぎょリょくを アップし<CR>うける ダメージを ヘらす<*04>,<SFF>Ups your defense to reduce damage.<*04>
-19F,0x6952,<SFF>みかたチーム ぜんいんの<CR>そうこうを かいふくさせる<*04>,<SFF>Repairs the armor of all allies.<*04>
-1A0,0x6970,<SFF>みかたチーム ぜんいんの<CR>パーツを ふっかつさせる<*04>,<SFF>Revives the parts of all allies.<*04>
-1A1,0x698D,<SFF>くうちゅうの てき ぜんいんに<CR>しょうじょうの ペナルティ<*04>,<SFF>Ailments for all airborne foes.<*04>
-1A2,0x69AE,<SFF>すいちゅうの てき ぜんいんに<CR>しょうじょうの ペナルティ<*04>,<SFF>Ailments for all underwater foes.<*04>
-1A3,0x69CF,<SFF>てきチームの いんペいを さげて<CR>みかたチームの さくてきを あげる<*04>,"<SFF>Cuts foe Conceal, boosts ally Scan.<*04>"
-1A4,0x69F5,<SFF>みかたチーム ぜんいんの<CR>いんペいを あげる<*04>,<SFF>Raises all allies' Conceal.<*04>
-1A5,0x6A0F,<SFF>みかたチーム ぜんいんの<CR>スピードが あがる<*04>,<SFF>Speeds up all allies.<*04>
-1A6,0x6A29,<SFF>みかたの あたまパーツの<CR>のこリ しようかいすうを ふやす<*04>,<SFF>Refills allies' head part uses.<*04>
-1A7,0x6A4A,<SFF>じぶんと てき ぜんいんの<CR>おなじ パーツを はかいする<*04>,<SFF>Wrecks same part on you & all foes<*04>
-1A8,0x6A6A,<SFF>みかたチーム ぜんいんの<CR>のうリょくちを 1つ あげる<*04>,<SFF>Raises 1 stat of all allies.<*04>
+19D,0x6911,<SFF>てきチーム ぜんいんの<CR>こうどうを こんらんさせる<*04>,<SFF>Confuses the actions of every enemy.<*04>
+19E,0x692E,<SFF>じぶんの ぼうぎょリょくを アップし<CR>うける ダメージを ヘらす<*04>,<SFF>Raises your own defense to reduce the damage you take.<*04>
+19F,0x6952,<SFF>みかたチーム ぜんいんの<CR>そうこうを かいふくさせる<*04>,<SFF>Repairs the armor of every ally.<*04>
+1A0,0x6970,<SFF>みかたチーム ぜんいんの<CR>パーツを ふっかつさせる<*04>,<SFF>Revives the parts of every ally.<*04>
+1A1,0x698D,<SFF>くうちゅうの てき ぜんいんに<CR>しょうじょうの ペナルティ<*04>,<SFF>Inflicts status penalties on every enemy in the air.<*04>
+1A2,0x69AE,<SFF>すいちゅうの てき ぜんいんに<CR>しょうじょうの ペナルティ<*04>,<SFF>Inflicts status penalties on every enemy underwater.<*04>
+1A3,0x69CF,<SFF>てきチームの いんペいを さげて<CR>みかたチームの さくてきを あげる<*04>,<SFF>Lowers the enemies' Conceal and raises your team's Scan.<*04>
+1A4,0x69F5,<SFF>みかたチーム ぜんいんの<CR>いんペいを あげる<*04>,<SFF>Raises the Conceal of every ally.<*04>
+1A5,0x6A0F,<SFF>みかたチーム ぜんいんの<CR>スピードが あがる<*04>,<SFF>Raises the speed of every ally.<*04>
+1A6,0x6A29,<SFF>みかたの あたまパーツの<CR>のこリ しようかいすうを ふやす<*04>,<SFF>Increases the remaining uses of allies' head parts.<*04>
+1A7,0x6A4A,<SFF>じぶんと てき ぜんいんの<CR>おなじ パーツを はかいする<*04>,<SFF>Destroys the same part on yourself and every enemy.<*04>
+1A8,0x6A6A,<SFF>みかたチーム ぜんいんの<CR>のうリょくちを 1つ あげる<*04>,<SFF>Raises one stat of every ally.<*04>
 1A9,0x6A89,<SFF>せんとうフィールドを<CR>ベつの フィールドに ヘんかさせる<*04>,<SFF>Changes the field to another field.<*04>
-1AA,0x6AA9,<SFF>ルーレットを まわして<CR>あたえる ダメージを きめる<*04>,<SFF>Spin a roulette to decide damage.<*04>
+1AA,0x6AA9,<SFF>ルーレットを まわして<CR>あたえる ダメージを きめる<*04>,<SFF>Spins a roulette to decide the damage dealt.<*04>
 1AB,0x6AC7,<SFF>すベての メダフォースの なかから<CR>ランダムに メダフォースを つかう<*04>,<SFF>Uses any Medaforce at random.<*04>
-1AC,0x6AEE,<SFF>てきチーム ぜんいんの レベルを<CR>せんとうの あいだだけ さげる<*04>,<SFF>Lowers all foes' levels in battle.<*04>
-1AD,0x6B12,<SFF>おなじ ラインの てきを はかいする<CR>ただし はんげきされることも ある<*04>,<SFF>KOs foes in line. Can be countered.<*04>
-1AE,0x6B3A,<SFF>すベての こうげきの ダメージは<CR>いリょくの すうちと おなじになる<*04>,<SFF>All damage equals the attack power.<*04>
+1AC,0x6AEE,<SFF>てきチーム ぜんいんの レベルを<CR>せんとうの あいだだけ さげる<*04>,<SFF>Lowers the level of every enemy for the rest of the battle.<*04>
+1AD,0x6B12,<SFF>おなじ ラインの てきを はかいする<CR>ただし はんげきされることも ある<*04>,"<SFF>Destroys enemies in the same line, but may be countered.<*04>"
+1AE,0x6B3A,<SFF>すベての こうげきの ダメージは<CR>いリょくの すうちと おなじになる<*04>,<SFF>All attacks deal damage equal to their power value.<*04>
 1AF,0x6B60,<SFF>てきや みかたに かんけいなく<CR>ぜんいんを こんらんさせる<*04>,"<SFF>Confuses everyone, friend or foe!<*04>"
-1B0,0x6B81,<SFF>あたまパーツ いがいを はかいして<CR>のこリの そうこうを ダメージにする<*04>,<SFF>Sacrifices all but head; armor = dmg<*04>
-1B1,0x6BA9,<SFF>のこリリミットを ヘらして<CR>はんていじかんを はやくする<*04>,<SFF>Shortens the limit to judge sooner.<*04>
+1B0,0x6B81,<SFF>あたまパーツ いがいを はかいして<CR>のこリの そうこうを ダメージにする<*04>,"<SFF>Breaks all but the head, turning their armor into damage.<*04>"
+1B1,0x6BA9,<SFF>のこリリミットを ヘらして<CR>はんていじかんを はやくする<*04>,<SFF>Cuts the remaining time limit so the judgment comes sooner.<*04>
 1B2,0x6BC9,あっ<*02>,Ah<*02>
 1B3,0x6BC9,@1B2,
 1B4,0x6BC9,@1B2,
@@ -513,10 +513,10 @@ Index,Pointer,Original,Translated
 1FF,0x6BC9,@1B2,
 200,0x6BC9,@1B2,
 201,0x6BCD,あん<*02>,Ahn<*02>
-202,0x6BD1,あたしのほうが ロボトルれきは<CR>ながいんだからね!<*02>,I've robattled longer than you!<*02>
+202,0x6BD1,あたしのほうが ロボトルれきは<CR>ながいんだからね!<*02>,"I've been robattling longer than you, you know!<*02>"
 203,0x6BEC,ふーんだ!<CR>つぎは まけないんだから!<*02>,Hmph! I won't lose next time!<*02>
 204,0x6C01,おてやわらかに おねがいしますね<*02>,Please go easy on me.<*02>
-205,0x6C13,たのしかったですわ<CR>また おあいて してくださいね<*02>,That was fun! Let's play again.<*02>
+205,0x6C13,たのしかったですわ<CR>また おあいて してくださいね<*02>,That was fun! Please robattle me again sometime.<*02>
 206,0x6C2E,きょうこそ けっちゃくを<CR>つけてやるぜ!<*02>,Today we settle this!<*02>
 207,0x6C44,まだまだ しょうぶは<CR>おわっちゃ いねーぜ!<*02>,This match ain't over yet!<*02>
 208,0x6C5C,あそんであげても いいわよぉ<*02>,I guess I could play with you~<*02>
@@ -527,9 +527,9 @@ Index,Pointer,Original,Translated
 20D,0x6CBB,ぼくの ふく<CR>よごれちゃった・・・<*02>,My clothes got all dirty...<*02>
 20E,0x6CCE,ボクが あいてを してあげよう<*02>,I'll be your opponent.<*02>
 20F,0x6CDF,ちょっとは やるようだね<*02>,You're not half bad.<*02>
-210,0x6CED,ふ・・・おれも すこしは<CR>なのしれた メダロッターなのだぞ<*02>,Heh... I'm a known Medarotter too.<*02>
+210,0x6CED,ふ・・・おれも すこしは<CR>なのしれた メダロッターなのだぞ<*02>,"Heh... I'm a Medarotter of some renown myself, you know.<*02>"
 211,0x6D0C,む・・・むねん・・・かはぁっ!<*02>,Ngh... I'm... undone... gahh!<*02>
-212,0x6D1D,はぁーい ボウヤ<CR>ミルキーが まほうを かけてあげる♥<*02>,"Hi, boy~ Let Milky cast a spell ♥<*02>"
+212,0x6D1D,はぁーい ボウヤ<CR>ミルキーが まほうを かけてあげる♥<*02>,"Hi there, boy~ Milky will cast a spell on you ♥<*02>"
 213,0x6D3A,あーあ キミには<CR>こどもだましは つうじなかったようね<*02>,"Aww, kiddie tricks don't work on you, huh?<*02>"
 214,0x6D57,ふっ・・・しょうねんよ<CR>わたしを こえられるかな?<*02>,"Heh... boy, can you surpass me?<*02>"
 215,0x6D72,ぼーいず びー あんびしゃす!<CR>しょうねんよ・・・なんだっけな?<*02>,"Boys, be ambitious! Young man... how did it go again?<*02>"
@@ -538,10 +538,10 @@ Index,Pointer,Original,Translated
 218,0x6DC5,おまえさんは<CR>どの メダロットが すきかな?<*02>,"Which Medarot do you like, sonny?<*02>"
 219,0x6DDD,おまえさんは ほんとうに<CR>メダロットが すきなんじゃのう<*02>,"You really love Medarots, sonny.<*02>"
 21A,0x6DFB,おあいてして いただけますか?<*02>,Would you robattle me?<*02>
-21B,0x6E0C,とても ベんきょうに なリました<CR>あリがとうございました<*02>,Very educational. Thank you.<*02>
+21B,0x6E0C,とても ベんきょうに なリました<CR>あリがとうございました<*02>,That was very educational. Thank you very much.<*02>
 21C,0x6E2A,ぼくに かてたら パーツをやるよ<*02>,Beat me and I'll give you a part!<*02>
-21D,0x6E3C,おこづかいが ぜんぶ<CR>メダロットに とんでゆく・・・<*02>,Medarots eat up my allowance...<*02>
-21E,0x6E58,ぼくが かんがえた<CR>メダロットを みてよ!<*02>,Check out my original Medarot!<*02>
+21D,0x6E3C,おこづかいが ぜんぶ<CR>メダロットに とんでゆく・・・<*02>,My whole allowance goes flying on Medarots...<*02>
+21E,0x6E58,ぼくが かんがえた<CR>メダロットを みてよ!<*02>,Check out the Medarot I designed!<*02>
 21F,0x6E6F,つぎは まけないぞぉ!<*02>,I won't lose next time!<*02>
 220,0x6E7C,たたかえ きぎょうせんし!<CR>あかるい あすは きっとくる!<*02>,"Fight on, office warrior! Bright days are coming!<*02>"
 221,0x6E9B,まだまだ ふけいきが つづきそうだな<*02>,This recession just won't end...<*02>
@@ -575,7 +575,7 @@ Index,Pointer,Original,Translated
 23D,0x712B,ロボトルばっかリ つよくても<CR>いいかいしゃに はいれないわよ<*02>,"Robattle skills won't get you a good job, you know.<*02>"
 23E,0x714B,おねーさんが<CR>あそんで あ・げ・る♥<*02>,Big sis will play with y-o-u ♥<*02>
 23F,0x715F,ウフフッ♥<CR>またねぇ<*02>,Ufufu ♥ See ya~<*02>
-240,0x716B,コウセイノウノ ボクニ<CR>キミガ カテルノ?<*02>,Can you beat high-spec me?<*02>
+240,0x716B,コウセイノウノ ボクニ<CR>キミガ カテルノ?<*02>,Do you think you can beat a high-spec model like me?<*02>
 241,0x7182,セイノウダケジャ カテナイノカーッ?<*02>,Specs alone can't win!?<*02>
 242,0x7196,ドンナ チケイデモ<CR>ウカンデイレバ カンケイナイヨッ<*02>,Any terrain's fine if I float!<*02>
 243,0x71B2,アー<CR>ボクハ ナガサレテイクー・・・<*02>,"Aah, I'm being swept awaaay...<*02>"
@@ -585,10 +585,10 @@ Index,Pointer,Original,Translated
 247,0x721A,シカイガ サエギラレテ<CR>ヨク ミエナイッ<*02>,My view's blocked! I can't see!<*02>
 248,0x7230,ハシッテ ハシッテ<CR>ハシリマクルゾォ!<*02>,Run and run and keep on running!<*02>
 249,0x7245,メダロードレースナラ<CR>ハシルノ ハヤインダケドナァ・・・<*02>,"If this were a Medaroad Race, I'd be fast...<*02>"
-24A,0x7263,イッパツノ ダメージハ<CR>ダレニモ マケナイヨ<*02>,No one beats my one-hit damage!<*02>
-24B,0x727B,ウゴキガ オソクテ<CR>テキニ オイツケナイヨーッ<*02>,I'm too slow to catch the enemy!<*02>
-24C,0x7294,ミズノ チカクジャナイト<CR>パワーガ デナイノヨネーッ<*02>,I can't power up away from water!<*02>
-24D,0x72B0,キョウハ ミズアビ シテカラ<CR>グッスリ ネヨウ<*02>,"A dip, then a good night's sleep.<*02>"
+24A,0x7263,イッパツノ ダメージハ<CR>ダレニモ マケナイヨ<*02>,Nobody beats me when it comes to single-hit damage!<*02>
+24B,0x727B,ウゴキガ オソクテ<CR>テキニ オイツケナイヨーッ<*02>,I'm too slow! I can't catch up with the enemy!<*02>
+24C,0x7294,ミズノ チカクジャナイト<CR>パワーガ デナイノヨネーッ<*02>,"Away from the water, I just can't power up!<*02>"
+24D,0x72B0,キョウハ ミズアビ シテカラ<CR>グッスリ ネヨウ<*02>,"Today I'll take a nice dip, then get a good night's sleep.<*02>"
 24E,0x72C9,おーばーけーがーでーたーぞーぅ<*02>,The ghooost is heeere~<*02>
 24F,0x72DA,ホホホホ・・・ホ<*02>,Hohoho... ho<*02>
 250,0x72E4,エッサ ホイサッ おしごと おしごと<*02>,"Heave-ho! Work, work!<*02>"
@@ -603,10 +603,10 @@ Index,Pointer,Original,Translated
 259,0x7393,ボクハ ダレ・・・?<CR>ドコヘ イクノ・・・?<*02>,Who am I...? Where am I going...?<*02>
 25A,0x73AB,ロボロボ ロボロボ<*02>,RoboRobo RoboRobo<*02>
 25B,0x73B6,ロボーッ!!<*02>,Robooo!!<*02>
-25C,0x73BE,このおれさまを<CR>ただの ロボロボだんと おもうなよ<*02>,I'm no ordinary RoboRobo!<*02>
+25C,0x73BE,このおれさまを<CR>ただの ロボロボだんと おもうなよ<*02>,Don't take me for just any RoboRobo Gang member!<*02>
 25D,0x73D9,くーーーーーーーっ!!<CR>いつか おまえを なかせてやるっ!!<*02>,Grrrr!! I'll make you cry someday!!<*02>
 25E,0x73F9,おーほほほほほほほ!! わたくしの<CR>うつくしさに ひれふすがいいですわ!<*02>,Ohohohoho!! Bow before my beauty!<*02>
-25F,0x741F,わたくしに かつなんて<CR>10000ねん はやいですわ!<*02>,"You're 10,000 years too early!<*02>"
+25F,0x741F,わたくしに かつなんて<CR>10000ねん はやいですわ!<*02>,"Beat me? You're 10,000 years too early for that!<*02>"
 260,0x743C,ふぉっふぉっふぉっ<CR>どれ あいてを してやるかの<*02>,Fohfohfoh. Shall I take you on?<*02>
 261,0x7456,わしは こどもが きらいなんじゃ!<*02>,I hate children!<*02>
 262,0x7469,あたちは ただのようちえんじじゃ<CR>ないでしゅよ! つよいんでしゅよ!<*02>,I'm not just a kindewgawtnew! I'm stwong!<*02>
