@@ -31,3 +31,37 @@
 @ 1,2 max 18
 JP: じゅくれんど
 EN: Proficiency
+
+# Skill names (the original draws them with tileset $1C graphics tiles)
+@! 2,2
+EN: <$85>
+
+@! 6,1
+EN: <$85>
+
+@! 3,1
+EN: Strike
+
+@! 3,11
+EN: Support
+
+@! 7,1
+EN: Berserk
+
+@! 7,11
+EN: Protect
+
+@! 11,1
+EN: Shoot
+
+@! 11,11
+EN: Heal
+
+@! 15,1
+EN: Snipe
+
+@! 15,11
+EN: Other
+
+@! 15,4
+EN: <$89><$89>

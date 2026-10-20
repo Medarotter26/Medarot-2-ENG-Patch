@@ -1,0 +1,45 @@
+# Tilemap 1_E2: table 1 (bank $35), index $E2
+# Data: $35:6399, compressed (header $01), 199 bytes, 32x12 tiles
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５６７８９０１２３４５６７８９
+#    0|＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃|
+#    1|＃．．．．．．．．．＃＃ぅぇぉ．．．．＃|
+#    2|＃．っゃゅょー・♥．＃＃．．．．．．円＃|
+#    3|＃．゜．．．．．．．＃＃＃＃＃＃＃＃＃＃|
+#    4|＃．／？！◈．．．．＃＃＃＃＃＃＃＃＃＃|
+#    5|＃．．．．．゛．．．＃＃．．＃＃＃＃．＃|
+#    6|＃．ょ：ー「」ᴱᴰ．．＃＃．．＃＃＃＃．＃|
+#    7|＃．．．．．．．．．＃＃＃＃＃＃＃＃＃＃|
+#    8|＃．↑ゅ↓．．．．．＃＃＃＃＃＃＃＃＃＃|
+#    9|＃．．．．．．．．．＃＃＃＃＃＃＃＃＃＃|
+#   10|＃．．．．．．．．．＃＃．＃＃＃＃＃＃＃|
+#   11|＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃＃|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[1_E2]
+
+@ 1,12 max 7
+JP: ぅぇぉ
+EN:
+
+@ 2,2 max 8
+JP: っゃゅょー・♥
+EN:
+
+@ 6,2 max 8
+JP: ょ:ー「」゛ᴱᴰ
+EN:
+
+@ 8,2 max 8
+JP: ↑ゅ↓
+EN:
+
+# Stray dakuten font tiles above the Paint / Reset graphics
+@! 3,2
+EN: <$00>
+
+@! 5,6
+EN: <$00>

@@ -1,0 +1,12 @@
+# Tilemap 0_6E: Yes / No box (the original draws はい/いいえ with tileset graphics tiles $C0-$C2)
+
+[0_6E]
+
+@! 1,2
+EN: Yes
+
+@! 3,2
+EN: No
+
+@! 3,4
+EN: <$00>

@@ -1,0 +1,23 @@
+# Tilemap 1_E4: table 1 (bank $35), index $E4
+# Data: $35:64FD, raw (header $00), 36 bytes, 6x5 tiles
+#
+# Layout ('＃' graphics tile, '．' blank tile $00, '　' not drawn, ゛゜ dakuten tiles):
+#      ０１２３４５
+#    0|＃＃＃＃＃＃|
+#    1|＃．んぁ．＃|
+#    2|＃．．．．＃|
+#    3|＃．ぁぁぃ＃|
+#    4|＃＃＃＃＃＃|
+#
+# Fill in EN: lines (leave empty to keep the Japanese). "@ row,col max N" = position
+# where the text starts and tiles available there. See doc/tilemaps.md.
+
+[1_E4]
+
+@ 1,2 max 3
+JP: んぁ
+EN: Yes
+
+@ 3,2 max 3
+JP: ぁぁぃ
+EN: No
