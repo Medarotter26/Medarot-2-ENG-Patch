@@ -70,6 +70,9 @@ def parse_record(name, pos):
                 pos += length
     return fields, pos
 
+# Pixel width above which a name uses the narrow font (default: the whole field)
+NARROW_THRESHOLD = {'PartsHead': 58, 'PartsRArm': 58, 'PartsLArm': 58, 'PartsLegs': 58}
+
 NAME_TOKEN = 0xC8
 STR_NARROW = 0xC9
 widths = open(os.path.join(os.path.dirname(out_path), '..', 'gfx', 'VWFFont.widths'), 'rb').read()
@@ -102,8 +105,10 @@ def encode_field(name, f, raw, row):
     data = codec.encode_raw(text)
     limit = LIMITS.get((name, label))
     if limit is not None and label == 'Name':
-        # Names are drawn with the variable width font in a field of `limit` tiles
-        if pixel_width(data, widths) > limit * 8:
+        # Names are drawn with the variable width font in a field of `limit` tiles. Some
+        # screens have a marker right after the field, so leave a gap of a few pixels.
+        threshold = NARROW_THRESHOLD.get(name, limit * 8)
+        if pixel_width(data, widths) > threshold:
             if pixel_width(data, narrow_widths) > limit * 8:
                 errors.append(f'{name}[{row["Index"]}] {label}: "{text}" is too wide even with the narrow font '
                               f'({pixel_width(data, narrow_widths)}px > {limit * 8}px)')

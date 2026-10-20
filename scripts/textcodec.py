@@ -8,7 +8,7 @@ import utils
 
 RES = os.path.join(os.path.dirname(__file__), 'res')
 
-LINE_WIDTH = (18 * 8, 17 * 8)  # Pixels per line; the last tile of line 2 holds the 'next' arrow
+LINE_WIDTH = (18 * 8 - 2, 17 * 8 - 2)  # Pixels per line, keeping 2px from the border and the 'next' arrow
 FIXED_LINE_WIDTH = (18, 17)    # Characters per line for the fixed width font (tilemap mode)
 DEFAULT_RAM_CHARS = 8
 
@@ -145,6 +145,14 @@ class Codec:
                 cur.append(t)
         if cur:
             words.append((cur, forced))
+        # Keep a lone ♥ on the same line as the word before it
+        glued = []
+        for w, f in words:
+            if glued and not f and w == [('char', 0x6F)]:
+                glued[-1] = (glued[-1][0] + [('char', 0x00)] + w, glued[-1][1])
+            else:
+                glued.append((w, f))
+        words = glued
         space_w = self.char_width(0x00)
 
         lines = [[]]
