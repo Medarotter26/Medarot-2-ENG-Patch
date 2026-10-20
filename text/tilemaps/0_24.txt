@@ -37,3 +37,9 @@ EN: Play Time
 @ 10,2 max 12
 JP: かち/しあいすう
 EN: Win/Bouts
+
+@! 4,16
+EN: <$00>
+
+@! 6,16
+EN: <$00>

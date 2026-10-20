@@ -394,6 +394,30 @@ def ts_006(c):
     c.copy_tile(0xAE, 0xAD)
 
 
+def sign(c, top, bottom, text, font='vwf'):
+    """TV/billboard style sign: 2 tile rows, white interior (x 7..w-7, y 3..12), black text
+    with a dark grey drop shadow (+1,+1), like the original kana."""
+    w = len(top) * 8
+    bm = text_bitmap(text, font, space=3)
+    tw = bitmap_width(bm)
+    x = (w - tw - 1) // 2
+    assert x >= 7 and x + tw + 1 <= w - 7, f'sign "{text}" too wide ({tw}px)'
+    c.block([top, bottom], bm, x, 4, fg=BLACK, clear=(7, w - 7, 3, 13), bg=WHITE, shadow=DARK,
+            shadow_dir=(1, 1))
+
+
+@tileset(0x020)
+def ts_020(c):
+    # Sign on the "Weekly Medarot" TV show set: メダロットこうざ (tiles 80-8A / 8B-95)
+    sign(c, list(range(0x80, 0x8B)), list(range(0x8B, 0x96)), 'Medarot Class')
+
+
+@tileset(0x023)
+def ts_023(c):
+    # Title sign of the TV show: しゅうかんメダロット (tiles 90-9D / 9E-AB)
+    sign(c, list(range(0x90, 0x9E)), list(range(0x9E, 0xAC)), 'Weekly Medarot')
+
+
 @tileset(0x00A)
 def ts_00A(c):
     # Setup screen, battle speed slider: Long / ふつう / Short (tiles $C8-$CB in the window)

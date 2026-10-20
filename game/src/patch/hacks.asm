@@ -121,6 +121,31 @@ ShopRestartClear::
   call $0267
   jp VWFMapMode0Box
 
+AttrWriteKeepBank1::
+  ; Replaces the attribute write of the box palette fill at $31D4: keeps the VRAM bank 1 bit
+  ; of cells that show variable width text. a = attribute, hl = cell (VRAM bank 1 selected).
+  push bc
+  ld b, a
+  di
+.wait
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .wait
+  ld a, [hl]
+  and $08
+  or b
+  ld c, a
+.wait2
+  ldh a, [rSTAT]
+  and 2
+  jr nz, .wait2
+  ld [hl], c
+  ei
+  inc hl
+  ld a, b
+  pop bc
+  ret
+
 HackHelpersEnd::
   ASSERT HackHelpersEnd <= $22E4, "Hack helpers overflow into $22E4"
 
@@ -174,3 +199,24 @@ SECTION "Tilemap Tile Attribute Hook", ROM0[$13AE]
 
 SECTION "Shop Text Restart Clear", ROMX[$7B7D], BANK[$04]
   call ShopRestartClear
+
+; Default player name: "Ikki" (same size as the original イッキ code)
+SECTION "Default Player Name", ROMX[$4E40], BANK[$04]
+  ld a, $09 ; I
+  ld [hli], a
+  ld a, $25 ; k
+  ld [hli], a
+  ld [hli], a
+  ld a, $23 ; i
+  ld [hli], a
+  xor a
+  ld [hli], a
+  ld [hli], a
+  ld [hli], a
+  ld [hli], a
+  ld [hli], a
+DefaultPlayerNameEnd:
+  ASSERT DefaultPlayerNameEnd == $4E50, "Default player name code changed size"
+
+SECTION "Box Palette Fill Attribute Write", ROM0[$31ED]
+  call AttrWriteKeepBank1

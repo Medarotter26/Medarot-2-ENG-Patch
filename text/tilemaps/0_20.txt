@@ -1,0 +1,11 @@
+# Tilemap 0_20: table 0 (bank $34), index $20
+# Screen: Pause menu (Medarotch / Items / Save). The labels are graphics tiles; this file
+# only removes the dakuten tiles that were drawn above them.
+
+[0_20]
+
+@! 1,3
+EN: <$00>
+
+@! 5,4
+EN: <$00>

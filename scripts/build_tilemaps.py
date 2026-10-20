@@ -129,7 +129,8 @@ def apply_entries(path, tmap, entries, jp, codec, vwf=False, labels=None):
                 raise SystemExit(f'{path}:{e.line}: control codes are not allowed in tilemaps')
             tiles.append(tok[1])
         run = getattr(e, 'run', None)
-        if vwf:
+        raw = re.fullmatch(r'(<\$[0-9A-Fa-f]{2}>)+', e.en) is not None
+        if vwf and not raw:
             # The label is drawn at run time; keep its cells blank here
             data = bytes(tiles)
             if run is not None and e.col >= run.col and label_tiles(data) > run.limit - e.col:

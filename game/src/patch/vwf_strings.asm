@@ -25,8 +25,8 @@ PutString::
   ld a, b
   ld [W_StrDest + 1], a
   call StrCopyResolve
-  ld a, BANK(VWFRenderString)
-  ld hl, VWFRenderString
+  ld a, BANK(VWFRenderStringRemember)
+  ld hl, VWFRenderStringRemember
   call StrFarCall
   pop de
   ret
@@ -295,6 +295,18 @@ VWFRenderString::
   inc de
   jr .fixedLoop
 
+VWFRenderStringRemember::
+  ; Draws the string and remembers it, so attribute map loads don't hide it
+  call VWFRenderString
+  jr StrRemember
+
+StrRemember:
+  ld a, [W_StrDest]
+  ld [W_TmPtr], a
+  ld a, [W_StrDest + 1]
+  ld [W_TmPtr + 1], a
+  jp LabelRingAdd
+
 VWFRenderStringPadded::
   ; The original printers also cleared the row above (where dakuten went)
   ld a, [W_StrDest]
@@ -320,8 +332,8 @@ VWFRenderStringPadded::
   ld a, [W_HardwareType]
   cp $11
   ret nz
-  ; Blank the cells after the string
-  call VWFMeasureStringTiles
+  call StrRemember
+  ; Blank the cells after the string (W_StrTemp = tiles used)
   ld a, [W_StrDest]
   ld l, a
   ld a, [W_StrDest + 1]

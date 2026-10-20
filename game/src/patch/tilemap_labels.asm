@@ -137,13 +137,6 @@ TilemapDrawLabels:
   push bc
   call PutString
   pop bc
-  ld a, c
-  ld [W_TmPtr], a
-  ld a, b
-  ld [W_TmPtr + 1], a
-  ld a, BANK(LabelRingAdd)
-  ld hl, LabelRingAdd
-  call StrFarCall
   pop hl
   ; Skip the string
 .skip
@@ -162,7 +155,7 @@ TilemapLabelHooksEnd::
 
 
 SECTION "Tilemap Label Ring", ROMX[$6F00], BANK[$80]
-LabelRingAdd:
+LabelRingAdd::
   ; Remembers the label just drawn at [W_TmPtr] (W_StrTemp = tiles used)
   ld a, [W_HardwareType]
   cp $11
@@ -172,7 +165,10 @@ LabelRingAdd:
   ret z
   ld a, [W_LabelRingPos]
   inc a
-  and LABEL_RING_SIZE - 1
+  cp LABEL_RING_SIZE
+  jr c, .posOk
+  xor a
+.posOk
   ld [W_LabelRingPos], a
   add a
   add a

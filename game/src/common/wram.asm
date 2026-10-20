@@ -65,5 +65,5 @@ DEF W_TmY                    EQU $CBDC
 DEF W_TmSavedBank            EQU $CBDD
 DEF W_TmPtr                  EQU $CBDE ; 2 bytes
 DEF W_LabelRingPos           EQU $CA08
-DEF W_LabelRing              EQU $CA09 ; 8 entries: dest lo, dest hi, tiles, first tile (to $CA28)
-DEF LABEL_RING_SIZE          EQU 8
+DEF W_LabelRing              EQU $C5CE ; 11 entries: dest lo, dest hi, tiles, first tile (to $C5F9)
+DEF LABEL_RING_SIZE          EQU 11
