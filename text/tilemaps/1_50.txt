@@ -22,11 +22,11 @@
 JP: せんとうしかん せってい
 EN: Battle Time
 
-@ 5,1 max 7
+@ 5,2 max 7
 JP: ながい
 EN: Long
 
-@ 5,14 max 4
+@ 5,15 max 4
 JP: みじかい
 EN: Short
 DMG: Shrt

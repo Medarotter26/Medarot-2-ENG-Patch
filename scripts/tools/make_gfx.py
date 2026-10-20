@@ -418,6 +418,12 @@ def ts_023(c):
     sign(c, list(range(0x90, 0x9E)), list(range(0x9E, 0xAC)), 'Weekly Medarot')
 
 
+@tileset(0x087)
+def ts_087(c):
+    # Town map title sign: タウンマップ (tiles 02-0B / 0F-18)
+    sign(c, list(range(0x02, 0x0C)), list(range(0x0F, 0x19)), 'Town Map')
+
+
 @tileset(0x00A)
 def ts_00A(c):
     # Setup screen, battle speed slider: Long / ふつう / Short (tiles $C8-$CB in the window)
