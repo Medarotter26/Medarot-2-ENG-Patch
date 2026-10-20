@@ -79,6 +79,11 @@ STR_NARROW = 0xC9
 
 def label_tiles(data):
     """Number of tiles a string takes with the variable width font."""
+    return (label_px(data) + 7) // 8
+
+
+def label_px(data):
+    """Width in pixels of a string in the variable width font."""
     px = 0
     widths = FONT_WIDTHS
     for b in data:
@@ -86,7 +91,7 @@ def label_tiles(data):
             widths = NARROW_WIDTHS
             continue
         px += widths[b] + 1
-    return (max(px - 1, 0) + 7) // 8
+    return max(px - 1, 0)
 
 
 def apply_entries(path, tmap, entries, jp, codec, vwf=False, labels=None):
@@ -133,10 +138,12 @@ def apply_entries(path, tmap, entries, jp, codec, vwf=False, labels=None):
         if vwf and not raw:
             # The label is drawn at run time; keep its cells blank here
             data = bytes(tiles)
-            if run is not None and e.col >= run.col and label_tiles(data) > run.limit - e.col:
+            # Keep 1px free before whatever follows (a border, other text)
+            room = (run.limit - e.col) * 8 - 1 if run is not None else 0
+            if run is not None and e.col >= run.col and label_px(data) > room:
                 # Too wide: use the narrow font if that fits
                 narrow = bytes([STR_NARROW]) + data
-                if label_tiles(narrow) <= run.limit - e.col:
+                if label_px(narrow) <= room:
                     data = narrow
             labels.append((e.row, e.col, data))
             tiles = [0x00] * label_tiles(data)

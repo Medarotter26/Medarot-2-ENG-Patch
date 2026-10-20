@@ -88,9 +88,9 @@ EN:
 * Write the English after `EN: ` (one space after the colon is ignored, trailing spaces are
   dropped). One character = one tile, fixed width. `<$XX>` inserts tile/character code XX.
   No line breaks or control codes.
-* The English must fit in `max` tiles; the builder stops with an error naming the file/line
-  when it would overwrite a graphics tile or other text. Abbreviate when needed (`Status`,
-  `Cont.`, `Opts`).
+* The English must fit in `max` tiles (labels use the variable width font, switching to the
+  narrow font automatically when needed); the builder stops with an error naming the file/line
+  when it would overwrite a graphics tile or other text. Write full words, no abbreviations.
 * When an entry is translated, the original Japanese tiles of that run are blanked first
   (tile $00), as are the ゛/゜ tiles above them, so shorter English leaves no leftovers.
   Some boxes draw the dakuten inside the border tile above the kana (e.g. メダル in

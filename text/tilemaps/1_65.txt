@@ -1,0 +1,13 @@
+# Tilemap 1_65: shop parts list header (the original draws the part type with tileset $00C
+# graphics tiles; the English is a VWF label)
+
+[1_65]
+
+@! 0,0
+EN: <$C1><$C1><$C1><$C1><$C1>
+
+@! 1,0
+EN: <$CA><$CA><$CA><$CA><$CA>
+
+@! 1,0
+EN: Right Arm
