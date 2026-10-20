@@ -14,9 +14,7 @@
 
 @ 1,0 max 5
 JP: はじめから
-EN: Game
+EN: New Game
 
 # --- extra ---
 
-@ 0,1
-EN: New

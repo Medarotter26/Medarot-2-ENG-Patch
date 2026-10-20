@@ -17,8 +17,8 @@
 
 @ 1,2 max 3
 JP: ふやす
-EN: Get
+EN: Copy
 
 @ 3,2 max 3
 JP: わたす
-EN: Snd
+EN: Give

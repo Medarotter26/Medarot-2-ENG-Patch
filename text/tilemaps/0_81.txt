@@ -30,11 +30,11 @@ EN: Serious
 
 @ 5,0 max 8
 JP: パーツのトレード
-EN: Tr.Parts
+EN: Trade Parts
 
 @ 7,0 max 8
 JP: メダルのトレード
-EN: Tr.Medal
+EN: Trade Medals
 
 @ 9,0 max 8
 JP: つうしんをきる

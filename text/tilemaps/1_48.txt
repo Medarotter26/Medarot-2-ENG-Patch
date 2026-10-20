@@ -14,4 +14,4 @@
 
 @ 1,0 max 6
 JP: つづきから
-EN: Resume
+EN: Continue

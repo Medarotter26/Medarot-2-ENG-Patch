@@ -207,3 +207,16 @@ R = raw, C = compressed. Numbers in parentheses are the `max` tiles available fo
 | `1_E1` | R | ? | しょう (4) |
 
 (The JP charmap has no separate り, so the dumps show リ for both.)
+
+## Variable width labels
+
+Translated entries are no longer written into the tilemap as fixed width tiles. The builder
+blanks their cells and stores each entry (row, column, string) in a label list per tilemap
+(bank $CC); after the game loads a tilemap, the labels are drawn with the variable width font
+(see `game/src/patch/tilemap_labels.asm`). So the limit of an entry is its pixel width:
+`max` tiles × 8 pixels. When a label is too wide, the builder switches it to the narrow font
+automatically if that fits. Exceptions: the name entry keyboards (`1_53`, `1_54`) stay fixed
+width because the typed character is read back from the tilemap.
+
+Symbols that line up with numbers the game prints (like `×` in the shop quantity box) should be
+separate entries at their original column.

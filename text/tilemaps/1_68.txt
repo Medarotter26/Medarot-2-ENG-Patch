@@ -16,13 +16,19 @@
 
 @ 1,0 max 11
 JP: いくつ かう?×
-EN: many?  ×
+EN: to buy?
 
 @ 3,0 max 12
 JP: もっているかず×
-EN: Owned  ×
+EN: Owned
 
 # --- extra ---
 
 @ 0,0
-EN: Buy how
+EN: How many
+
+@ 1,7
+EN: ×
+
+@ 3,7
+EN: ×

@@ -19,7 +19,7 @@
 
 @ 1,7 max 6
 JP: メダロット
-EN: rot
+EN: Medarot
 
 @ 6,0 max 4
 JP: メダル
@@ -31,5 +31,3 @@ EN: Parts
 
 # --- extra ---
 
-@ 0,7
-EN: Meda-

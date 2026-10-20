@@ -14,4 +14,4 @@
 
 @ 1,0 max 5
 JP: せってい
-EN: Setup
+EN: Options

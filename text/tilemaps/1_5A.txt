@@ -36,7 +36,7 @@ EN: Smile
 
 @ 7,2 max 5
 JP: パスワード
-EN: Code
+EN: Password
 
 @ 9,2 max 5
 JP: やめる

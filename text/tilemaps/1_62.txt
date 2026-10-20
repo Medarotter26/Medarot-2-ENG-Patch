@@ -27,11 +27,11 @@ EN: Head
 
 @ 3,2 max 5
 JP: みぎうで
-EN: R.Arm
+EN: Right Arm
 
 @ 5,2 max 5
 JP: ひだリうで
-EN: L.Arm
+EN: Left Arm
 
 @ 7,2 max 5
 JP: きゃくぶ

@@ -33,7 +33,7 @@ EN: Cost
 
 @ 5,13 max 6
 JP: /せいこうち
-EN: /Succ.
+EN: /Success
 
 @ 10,11 max 8
 JP: いリょく

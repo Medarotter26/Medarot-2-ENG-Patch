@@ -15,7 +15,7 @@
 
 @ 1,0 max 6
 JP: メダロットの
-EN: Its
+EN: Medarot's
 
 @ 2,1 max 5
 JP: なまえは?

@@ -17,8 +17,8 @@
 
 @ 1,2 max 3
 JP: なおす
-EN: Fix
+EN: Repair
 
 @ 3,2 max 3
 JP: やめる
-EN: End
+EN: Quit

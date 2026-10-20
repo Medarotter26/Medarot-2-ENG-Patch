@@ -36,4 +36,4 @@ EN: Match
 
 @ 10,10 max 9
 JP: けいけん
-EN: Exp.
+EN: EXP

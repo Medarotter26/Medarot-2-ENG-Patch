@@ -305,6 +305,34 @@ class Canvas:
         self.put_strip(tiles, rows)
         return rows
 
+    def block(self, tile_rows, bitmap, x, y, fg=BLACK, clear=None, bg=WHITE, shadow=None, shadow_dir=(0, 1)):
+        """Draws a bitmap over a block of tiles (tile_rows: list of rows of BG tile ids).
+
+        clear: (x0, x1, y0, y1) pixel box filled with bg first.  shadow: colour of a drop
+        shadow offset by shadow_dir (drawn under the text).
+        """
+        th = len(tile_rows) * 8
+        rows = []
+        for tr in tile_rows:
+            rows += self.strip(tr)
+        if clear:
+            x0, x1, y0, y1 = clear
+            for yy in range(y0, y1):
+                for xx in range(x0, x1):
+                    rows[yy][xx] = bg
+        if shadow is not None:
+            dx, dy = shadow_dir
+            for yy, r in enumerate(bitmap):
+                for xx, v in enumerate(r):
+                    if v and 0 <= y + yy + dy < th:
+                        rows[y + yy + dy][x + xx + dx] = shadow
+        for yy, r in enumerate(bitmap):
+            for xx, v in enumerate(r):
+                if v:
+                    rows[y + yy][x + xx] = fg
+        for i, tr in enumerate(tile_rows):
+            self.put_strip(tr, rows[i * 8:i * 8 + 8])
+
     def save(self, count=None):
         os.makedirs(OUT_DIR, exist_ok=True)
         im = Image.new('L', (self.w, self.h))
@@ -337,6 +365,33 @@ def ts_003(c):
     c.word([0xB7, 0xB8, 0xB9, 0xBA, 0xBB], 'Medarotch', font='narrow', bg=WHITE, clear='all', x=0)
     c.word([0xBC, 0xBD, 0xBE, 0xBF], 'Items', bg=WHITE, clear='all', x=0)
     c.word([0xC0, 0xC1, 0xC2], 'Save', bg=WHITE, clear='all', x=0)
+
+
+@tileset(0x006)
+def ts_006(c):
+    # Test mode (tilemap 1_44).  Title テストモード: tiles 83-8A (top) / 8D-94 (bottom), black
+    # text with a dark grey shadow below, across the tile boundary.
+    title = text_bitmap('TEST MODE', 'bold', space=4)
+    w = bitmap_width(title)
+    c.block([list(range(0x83, 0x8B)), list(range(0x8D, 0x95))], title, (64 - w) // 2, 4,
+            fg=BLACK, clear=(0, 64, 4, 12), bg=WHITE, shadow=DARK)
+    # Menu (box interiors are white, text black):
+    #   サウンド         9B 9C 9D 9E                   (ド's ゛ in frame tile 97)
+    #   エフェクト        A2 A3 A4 A5 9E
+    #   セーブデータをけす AF B0 A3 B1 B0 B2 B3 B4 B5    (゛ of ブ/デ in frame tiles AE)
+    #   おわる           B6 B7 B8
+    # Shared tiles 9E, A3 and B0 (twice in the same line!) make full-length labels
+    # impossible without changing the tilemap; this layout keeps all shared tiles blank
+    # (found by trying all combinations of a few candidate wordings and offsets).
+    E = [[0] * 8 for _ in range(8)]
+    for t in (0x9E, 0xA3, 0xB0, 0xA2, 0xAF, 0xB1):
+        c.set_tile(t, E)
+    c.word([0x9B, 0x9C, 0x9D], 'Music', bg=WHITE, clear='all', x=0)
+    c.word([0xA4, 0xA5], 'SFX', font='narrow', bg=WHITE, clear='all', x=0)
+    c.word([0xB2, 0xB3, 0xB4, 0xB5], 'Erase All', font='narrow', bg=WHITE, clear='all', x=0)
+    c.word([0xB6, 0xB7, 0xB8], 'Exit', bg=WHITE, clear='all', x=0)
+    c.copy_tile(0x97, 0x96)
+    c.copy_tile(0xAE, 0xAD)
 
 
 @tileset(0x00A)

@@ -74,10 +74,19 @@ FIXED_WIDTH_MAPS = {(1, 0x53), (1, 0x54)}
 
 FONT_WIDTHS = None
 
+NARROW_WIDTHS = None
+STR_NARROW = 0xC9
+
 def label_tiles(data):
     """Number of tiles a string takes with the variable width font."""
-    px = sum(FONT_WIDTHS[b] + 1 for b in data) - 1 if data else 0
-    return (px + 7) // 8
+    px = 0
+    widths = FONT_WIDTHS
+    for b in data:
+        if b == STR_NARROW:
+            widths = NARROW_WIDTHS
+            continue
+        px += widths[b] + 1
+    return (max(px - 1, 0) + 7) // 8
 
 
 def apply_entries(path, tmap, entries, jp, codec, vwf=False, labels=None):
@@ -123,6 +132,11 @@ def apply_entries(path, tmap, entries, jp, codec, vwf=False, labels=None):
         if vwf:
             # The label is drawn at run time; keep its cells blank here
             data = bytes(tiles)
+            if run is not None and e.col >= run.col and label_tiles(data) > run.limit - e.col:
+                # Too wide: use the narrow font if that fits
+                narrow = bytes([STR_NARROW]) + data
+                if label_tiles(narrow) <= run.limit - e.col:
+                    data = narrow
             labels.append((e.row, e.col, data))
             tiles = [0x00] * label_tiles(data)
         for i, tile in enumerate(tiles):
@@ -222,8 +236,9 @@ def main():
     jp = jp_table()
     changes = {t: {} for t in range(T.NUM_TABLES)}
     all_labels = {}
-    global FONT_WIDTHS
+    global FONT_WIDTHS, NARROW_WIDTHS
     FONT_WIDTHS = open(sys.argv[4], 'rb').read()
+    NARROW_WIDTHS = open(sys.argv[4].replace('VWFFont', 'VWFNarrowFont'), 'rb').read()
     files = sorted(f for f in os.listdir(in_dir) if f.endswith('.txt')) if os.path.isdir(in_dir) else []
     for name in files:
         path = os.path.join(in_dir, name)
