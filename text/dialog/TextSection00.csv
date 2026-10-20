@@ -151,7 +151,7 @@ Index,Pointer,Original,Translated
 095,0x4EF8,<&B33D> は<CR>「ていし」から かいじょされた!<S46><*04>,"<&B33D> is freed from ""Stop""!<S46><*04>"
 096,0x4F12,<&B33D> は<CR>「そくばく」から かいじょされた!<S46><*04>,"<&B33D> is freed from ""Bind""!<S46><*04>"
 097,0x4F2D,<&B33D> は<CR>「けいぞく」から かいじょされた!<S46><*04>,"<&B33D> is freed from ""Burn""!<S46><*04>"
-098,0x4F48,<&B33D> の<CR>「ダメージかいふく」が きれた!<S46><*04>,"<&B33D>'s ""Damage Repair"" wore off!<S46><*04>"
+098,0x4F48,<&B33D> の<CR>「ダメージかいふく」が きれた!<S46><*04>,"<&B33D>'s ""Auto-Repair"" wore off!<S46><*04>"
 099,0x4F62,<SFF>「メダロポリス その4」<CR>メダロットしゃが あるところだ<*04>,"<SFF>""Medaropolis 4"" Home of the Medarot Company.<*04>"
 09A,0x4F82,<SFF>「メダロポリス その3」<CR>はなぞのがくえんが ある<*04>,"<SFF>""Medaropolis 3"" Hanazono Academy is here.<*04>"
 09B,0x4F9F,<SFF>「メダロポリス その2」<CR>デパートも しなぞろえ ほうふ!<*04>,"<SFF>""Medaropolis 2"" A well-stocked department store!<*04>"

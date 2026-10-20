@@ -68,9 +68,9 @@ Index,Pointer,Original,Translated
 042,0x4F48,<@00>ベつのことでも しようっと,<@00>I'll go do something else.
 043,0x4F59,<@C2>はやく いってきてちょうだい,"<@C2>Hurry up and go, please."
 044,0x4F6B,<@69>メダロットの ともだちも いいが<CR>にんげんの ともだちも たいせつにな,"<@69>Medarot friends are nice, but take good care of your human friends too."
-045,0x4F92,<@C2>もう パパったら<CR><&CB26>には あまいんだから,"<@C2>Oh, Papa, you're always so soft on <&CB26>."
+045,0x4F92,<@C2>もう パパったら<CR><&CB26>には あまいんだから,"<@C2>Honestly, dear, you're always so soft on <&CB26>."
 046,0x4FAC,<@C1>きょうは いい てんきだなぁ,<@C1>Nice weather today.
-047,0x4FBE,<@C1>ママの いうことも<CR>ちゃんと きくんだぞ,<@C1>Make sure you listen to what Mama says.
+047,0x4FBE,<@C1>ママの いうことも<CR>ちゃんと きくんだぞ,"<@C1>Make sure you listen to your mom, too."
 048,0x4FD6,<@C2><&CB26> レトルトカレーは?<CF><CC><@05>それが そのぅ<CF><CC><@C3>なんなの そのはこは?<CF><CC><@08>あぁっ!<CR>こ これは!<CF><CC><@C3>まー あんたってこは!<CF><CC>おもちゃの ために レトルトカレーが<CR>かえなかったって いうのっ!?<CF><CC><@05>おかね つかっちゃった・・・<CF><CC><@C3>2かいで はんせいしてなさいっ!!<CF><CC><@03>・・・はぁい,"<@C2><&CB26>, where's the instant curry?<CF><CC><@05>Well, um...<CF><CC><@C3>What's that box?<CF><CC><@08>Aah! Th-this is...!<CF><CC><@C3>Why, you little...!<CF><CC>You're telling me you couldn't buy the curry because of a toy!?<CF><CC><@05>I spent the money...<CF><CC><@C3>Go upstairs and think about what you did!!<CF><CC><@03>...Okaaay."
 049,0x5074,<@03>あーあ おこられちゃった,"<@03>Aww, I got scolded."
 04A,0x5084,<@03>ソルティ なぐさめてくれるのか?<CR>・・・はあ<CF><CC><@24>クーン?<CF><CC><@00>こうしていても しかたがない<CR>せっかくだから はこから だそう,"<@03>Are you trying to cheer me up, Salty? ...Sigh.<CF><CC><@24>Whine?<CF><CC><@00>Moping won't help. Since I've got it, I'll take it out of the box."
@@ -82,7 +82,7 @@ Index,Pointer,Original,Translated
 050,0x51FB,<@4A>これを おこさまに あげるなリ!<CF><CC>ごしそくに プレゼントするなリ!!<CF><CC>おぼっちゃまの まくらもとに<CR>そっと おいておくなリ!!!<CF><CC>すきに するが よかろう!<CF><CC><@49>それでは さらば!,"<@4A>Give this to your child!<CF><CC>Present it to your son!!<CF><CC>Leave it quietly by the young master's pillow!!!<CF><CC>Do as you see fit!<CF><CC><@49>And now, farewell!"
 051,0x525D,<@C0>なんだったんだ・・・,<@C0>What was that all about...?
 052,0x526B,<@C1>ただいま <&CB26>,"<@C1>I'm home, <&CB26>."
-053,0x5277,<@C1>おっ!<CR>メダロットじゃないか<CF><CC><@03>・・・パパ<CF><CC><@C0>もしかして 1かいで ママが<CR>おこっていたのは これのせいか?<CF><CC><@03>うん・・・<CF><CC><@C1>どれ みせてみなさい<CF><CC>おや?<CR>メダルが はいって ないじゃないか<CF><CC>これじゃ メダロットは うごかないぞ<CF><CC>メダルを いれるから<CR>メダロットなんだぞ<CF><CC>メダルを セットしてと・・・<CR>ほら,"<@C1>Oh! Isn't that a Medarot?<CF><CC><@03>...Dad.<CF><CC><@C0>Is this why Mama was angry downstairs?<CF><CC><@03>Yeah...<CF><CC><@C1>Here, let me take a look.<CF><CC>Hm? It doesn't have a Medal in it.<CF><CC>A Medarot won't move like this.<CF><CC>It's the Medal that makes it a Medarot, you know.<CF><CC>Set the Medal in, and... there."
+053,0x5277,<@C1>おっ!<CR>メダロットじゃないか<CF><CC><@03>・・・パパ<CF><CC><@C0>もしかして 1かいで ママが<CR>おこっていたのは これのせいか?<CF><CC><@03>うん・・・<CF><CC><@C1>どれ みせてみなさい<CF><CC>おや?<CR>メダルが はいって ないじゃないか<CF><CC>これじゃ メダロットは うごかないぞ<CF><CC>メダルを いれるから<CR>メダロットなんだぞ<CF><CC>メダルを セットしてと・・・<CR>ほら,"<@C1>Oh! Isn't that a Medarot?<CF><CC><@03>...Dad.<CF><CC><@C0>Is this why your mom was angry downstairs?<CF><CC><@03>Yeah...<CF><CC><@C1>Here, let me take a look.<CF><CC>Hm? It doesn't have a Medal in it.<CF><CC>A Medarot won't move like this.<CF><CC>It's the Medal that makes it a Medarot, you know.<CF><CC>Set the Medal in, and... there."
 054,0x5320,<@04>あ! うごいた!,<@04>Ah! It moved!
 055,0x532C,<@C1>そして メダロットを うごかすには<CR>メダロッチが ひつようだぞ<CF><CC>ほら パパからの プレゼントだ<CF><CC><@01>わあ カッコイイ!<CR>あリがとう パパ!<CF><CC><@C1>ははは<CR>キゲンが なおったようだな,"<@C1>And to control a Medarot, you need a Medarotch.<CF><CC>Here, a present from your dad.<CF><CC><@01>Wow, so cool! Thanks, Dad!<CF><CC><@C1>Hahaha. Looks like you're in a better mood."
 056,0x538C,<@01>やった! これで Bボタンを おせば<CR>メニューがめんが ひらくぞ!,"<@01>All right! Now if I press the B Button, the menu screen will open!"
@@ -113,7 +113,7 @@ Index,Pointer,Original,Translated
 06F,0x58B7,<@04>「カッパ」メダルだ かがやいてる!<CF><CC>せんすいタイプを ねらう パーツと<CR>よく あうんだよね,"<@04>It's the ""Kappa"" Medal. It's shining!<CF><CC>It goes well with parts that target Aquatic types."
 070,0x58E9,<@00>「ネズミ」メダルだ<CF><CC>みかたの こうげきを あてやすくする<CR>パーツと よく あうんだよね<CF><CC>このメダルに しようかな?<*04>,"<@00>It's the ""Mouse"" Medal.<CF><CC>It goes well with parts that help allies' attacks hit.<CF><CC>Should I pick this Medal?<*04>"
 071,0x5928,<@6E>やあ いらっしゃい,"<@6E>Hey, welcome!"
-072,0x5935,<@06>え!? ちょっと まってよ<CR>ぼくは まだ・・・!<CF><CC><@09>わかってる! パーツ とられたら<CR>こまるって いうんでしょ?<CF><CC>じゃ あそびで ロボトルね<CR>あそびだから かっても<CF><CC>まけても パーツの<CR>とリあいは なし!<CF><CC>だったら あんしんでしょ?<CR>じゃ いくわよ!,"<@06>Huh!? W-wait a sec! I haven't even...!<CF><CC><@09>I know! You don't want to lose your parts, right?<CF><CC>So it'll be a robattle just for fun. Since it's for fun,<CF><CC>win or lose, nobody takes any parts!<CF><CC>That's no problem, right? Here I come!"
+072,0x5935,<@06>え!? ちょっと まってよ<CR>ぼくは まだ・・・!<CF><CC><@09>わかってる! パーツ とられたら<CR>こまるって いうんでしょ?<CF><CC>じゃ あそびで ロボトルね<CR>あそびだから かっても<CF><CC>まけても パーツの<CR>とリあいは なし!<CF><CC>だったら あんしんでしょ?<CR>じゃ いくわよ!,"<@06>Huh!? W-wait a sec! I haven't even...!<CF><CC><@09>I know! You don't want to lose your parts, right?<CF><CC>So it'll be a robattle just for fun. Since it's for fun,<CF><CC>win or lose, nobody takes any parts!<CF><CC>So you've got nothing to worry about, right? Here I come!"
 073,0x59CD,<@04>「ネズミ」メダルだ うーん しびれる<CF><CC>みかたの こうげきを あてやすくする<CR>パーツと よく あうんだよね,"<@04>It's the ""Mouse"" Medal. Hmm, it's electrifying!<CF><CC>It goes well with parts that help allies' attacks hit."
 074,0x5A06,<@00>「カメレオン」メダルだ ステキだな<CF><CC>てきの こうげきを あてにくくする<CR>パーツと よく あうんだよね<CF><CC>このメダルに しようかな?<*04>,"<@00>It's the ""Chameleon"" Medal. Neat!<CF><CC>It goes well with parts that make enemy attacks miss.<CF><CC>Should I pick this Medal?<*04>"
 075,0x5A4C,<@76>ごめんなさい<CR>まだ じゅんびちゅうなの,"<@76>I'm sorry, it's not ready yet."
@@ -350,7 +350,7 @@ Index,Pointer,Original,Translated
 15C,0x740D,<@00>うーん<CR>すごく おこってるみたいだ,<@00>Hmm... he looks really angry.
 15D,0x7422,<@09>ホラ いって<CR>あのときみたいに がんばってね!<CF><CC><@08>お おすなって!<CR>わ わ わ,<@09>Go on! Do your best like you did that time!<CF><CC><@08>D-don't push me! Wh-wh-whoa!
 15E,0x744F,<@1B>おまえも あいつらの なかまだな!<CR>おれは カラクチ コウジ<CF><CC><@1E>おれと せいせいどうどう<CR>しょうぶしろっ!,"<@1B>You're one of their buddies, aren't you! I'm Koji Karakuchi.<CF><CC><@1E>Fight me fair and square!"
-15F,0x748A,<@00>か かった!<CF><CC><@1B>やるな おまえ・・・<CF><CC><@0F>んもうっ ダメじゃない<CR>フツウに たたかっちゃ,"<@00>I-I won!<CF><CC><@1B>You're good...<CF><CC><@0F>Ugh, that's no good! You fought normally!"
+15F,0x748A,<@00>か かった!<CF><CC><@1B>やるな おまえ・・・<CF><CC><@0F>んもうっ ダメじゃない<CR>フツウに たたかっちゃ,"<@00>I-I won!<CF><CC><@1B>You're good...<CF><CC><@0F>Ugh, what are you doing, just fighting normally!?"
 160,0x74BD,<@08>えっ?<CF><CC><@0F>このまえの ワザを しゃしんに<CR>とろうと おもってたのに<CF><CC><@05>どうして かったのに<CR>もんく いわれるんだよー,<@08>Huh?<CF><CC><@0F>I wanted to get a picture of that move from last time!<CF><CC><@05>Why am I getting chewed out when I won?
 161,0x74FF,<@24>わんわん<CF><CC><@04>ソルティも そう おもうか?,"<@24>Woof woof!<CF><CC><@04>You think so too, Salty?"
 162,0x7519,<@00>いつって その・・・ともかく<CR>なにがなんだか さっぱリだよ<CF><CC>これはいったい どういうこと?<CF><CC><@19>それは・・・<CR>じつは わたしが その<CF><CC><@00>?<CF><CC><@1D>カリンっ! そんなヤツと<CR>くちをきく ひつようなんてないっ!<CF><CC>そいつから はなれろ!<CF><CC><@17>でも・・・,"<@00>When? Well... anyway, I have no idea what's going on.<CF><CC>What is all this about?<CF><CC><@19>Well... actually, I...<CF><CC><@00>?<CF><CC><@1D>Karin! You don't need to talk to a guy like him!<CF><CC>Get away from him!<CF><CC><@17>But..."
